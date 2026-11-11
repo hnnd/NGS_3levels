@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">完整模型全效应</text>
+<rect x="110" y="84" width="580" height="128" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="400" y="126" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">~ rep + time + treatment</text>
+<text x="400" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">5 个系数 · 含处理动态</text>
+<polyline points="140,250.0 200,266.0 260,266.0 320,250.0 380,218.0" fill="none" stroke="#4DBBD5" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="140,258.5 200,286.5 260,286.5 320,258.5 380,202.5" fill="none" stroke="#3C8DAD" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="140,267.0 200,307.0 260,307.0 320,267.0 380,187.0" fill="none" stroke="#00A087" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="400" y1="330" x2="400" y2="408" stroke="#8491B4" stroke-width="8" stroke-linecap="round"/>
+<polygon points="400,408 391.8447909388086,389.7382211937538 408.1552090611914,389.7382211937538" fill="#8491B4"/>
+<text x="430" y="360" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="start" font-weight="bold">LRT</text>
+<text x="600" y="380" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">嵌套似然检验</text>
+<text x="400" y="458.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">简化模型剔除处理</text>
+<rect x="110" y="478" width="580" height="100" fill="#E6E9F0" rx="14" stroke="#8491B4" stroke-width="5"/>
+<text x="400" y="520" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">~ rep + time</text>
+<text x="400" y="560" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">4 个系数 · 仅时间与批次</text>
+<rect x="110" y="600" width="580" height="84" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="5"/>
+<text x="400" y="638" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">检出时序响应</text>
+<text x="400" y="672" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">自由度 = 被剔除的列数</text>
+</svg>

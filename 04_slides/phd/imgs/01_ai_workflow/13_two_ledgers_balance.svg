@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Two ledgers: recall vs false positives</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="80" y1="452" x2="740" y2="452" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<rect x="180" y="400.0" width="130" height="52.0" fill="#00A087" rx="4" stroke="#FFFFFF" stroke-width="3"/>
+<rect x="180" y="155.6" width="130" height="244.4" fill="#E64B35" rx="4" stroke="#FFFFFF" stroke-width="3"/>
+<text x="245.0" y="434.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">20</text>
+<text x="245.0" y="215.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">94</text>
+<text x="245.0" y="135.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">FDP 82%</text>
+<rect x="470" y="400.0" width="130" height="52.0" fill="#00A087" rx="4" stroke="#FFFFFF" stroke-width="3"/>
+<rect x="470" y="391.0" width="130" height="9" fill="#8491B4" rx="4" stroke="#FFFFFF" stroke-width="3"/>
+<text x="535.0" y="434.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">20</text>
+<text x="624" y="385.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="start" font-weight="bold">1</text>
+<text x="624" y="426.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="start" font-weight="bold">FDP 5%</text>
+<text x="245.0" y="502" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">p &lt; 0.05</text>
+<text x="245.0" y="542" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">n = 114</text>
+<text x="535.0" y="502" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">padj &lt; 0.05</text>
+<text x="535.0" y="542" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">n = 21</text>
+<text x="96" y="238" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">count</text>
+<line x1="84" y1="448" x2="84" y2="160" stroke="#6B6B66" stroke-width="3" stroke-linecap="round"/>
+<polygon points="84,160 88.48536498365527,170.04397834343538 79.51463501634473,170.04397834343538" fill="#6B6B66"/>
+<rect x="32.0" y="568" width="736" height="116" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="610" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">两笔账并排看：未校正假阳性率八成，</text>
+<text x="400.0" y="654" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">校正后控制在百分之五。防全显著。</text>
+</svg>

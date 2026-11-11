@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">细胞类型注释：marker 从哪来，怎么才算可信</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">marker 法 ｜ 自动注释 ｜ 三条验证 —— 依据 02_scrnaseq_spatial_lecture.md ④4.6</text>
+  <!-- 图例 -->
+  <circle cx="900" cy="54" r="6" fill="#00A087"/>
+  <text x="912" y="58" font-size="12" fill="#33332E">参考可用</text>
+  <circle cx="996" cy="54" r="6" fill="#F39B7F"/>
+  <text x="1008" y="58" font-size="12" fill="#33332E">稀缺 / 缺失</text>
+  <rect x="1096" y="47" width="12" height="12" fill="#E64B35"/>
+  <text x="1114" y="58" font-size="12" fill="#33332E">易错点</text>
+
+  <!-- ============ 流程起点 ============ -->
+  <rect x="48" y="230" width="180" height="100" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="64" y="260" font-size="14" font-weight="bold" fill="#3C5488">起点：簇</text>
+  <text x="64" y="284" font-size="12" fill="#33332E">聚类得到的每个簇</text>
+  <text x="64" y="306" font-size="11" fill="#6B6B66">resolution 没有真值（§4.5）</text>
+
+  <line x1="228" y1="280" x2="248" y2="280" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="256,280 244,274 244,286" fill="#3C5488"/>
+
+  <rect x="260" y="230" width="180" height="100" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="276" y="260" font-size="14" font-weight="bold" fill="#3C5488">FindAllMarkers</text>
+  <text x="276" y="284" font-size="12" fill="#33332E">每簇的特征基因</text>
+  <text x="276" y="306" font-size="11" fill="#6B6B66">描述性用途（§⑦-2）</text>
+
+  <!-- 分叉 -->
+  <line x1="440" y1="280" x2="466" y2="280" stroke="#3C5488" stroke-width="2"/>
+  <line x1="466" y1="200" x2="466" y2="355" stroke="#3C5488" stroke-width="2"/>
+  <line x1="466" y1="200" x2="486" y2="200" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="494,200 482,194 482,206" fill="#3C5488"/>
+  <line x1="466" y1="355" x2="486" y2="355" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="494,355 482,349 482,361" fill="#3C5488"/>
+
+  <!-- ============ 路线 A ============ -->
+  <rect x="498" y="130" width="654" height="140" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="522" y="160" font-size="14" font-weight="bold" fill="#3C5488">路线 A · marker 人工比对——瓶颈：已知 marker 从哪来</text>
+  <line x1="522" y1="172" x2="1128" y2="172" stroke="#E9E9E5"/>
+  <circle cx="530" cy="196" r="6" fill="#00A087"/>
+  <text x="546" y="201" font-size="12.5" fill="#33332E">人 / 小鼠：CellMarker、PanglaoDB 等数据库，覆盖完整</text>
+  <circle cx="530" cy="222" r="6" fill="#F39B7F"/>
+  <text x="546" y="227" font-size="12.5" fill="#33332E">植物：拟南芥根等少数体系较完整；昆虫：更少</text>
+  <circle cx="530" cy="248" r="6" fill="#F39B7F"/>
+  <text x="546" y="253" font-size="12.5" fill="#33332E">多数非模式物种：根本没有——只剩同源推测一条路（常失效）</text>
+
+  <!-- ============ 路线 B ============ -->
+  <rect x="498" y="290" width="654" height="130" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="522" y="320" font-size="14" font-weight="bold" fill="#3C5488">路线 B · 自动注释（SingleR / CellTypist）——与参考表达谱比对</text>
+  <line x1="522" y1="332" x2="1128" y2="332" stroke="#E9E9E5"/>
+  <text x="522" y="352" font-size="12" fill="#33332E">参考数据集（celldex 类）绝大多数是人、小鼠的免疫 / 组织图谱</text>
+  <rect x="522" y="360" width="606" height="48" rx="6" fill="#FAFAF7" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="538" y="380" font-size="12.5" font-weight="bold" fill="#E64B35">在植物、昆虫上强行使用 → 输出一串「看起来合理」的人类细胞类型标签</text>
+  <text x="538" y="400" font-size="12" fill="#33332E">——本讲 §⑧ AI 任务要抓的正是同一类错误（§4.6）</text>
+
+  <!-- ============ 判据条 ============ -->
+  <rect x="48" y="436" width="1104" height="48" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="72" y="450" width="4" height="20" rx="2" fill="#3C5488"/>
+  <text x="86" y="460" font-size="12.5" fill="#33332E"><tspan font-weight="bold" fill="#3C5488">关键判据：序列同源 ≠ 功能保守。</tspan>拟南芥的表皮 marker 在水稻上可能表达在完全不同的组织；</text>
+  <text x="86" y="478" font-size="12.5" fill="#33332E">判据是「这个基因在该物种该组织的表达特异性有没有被直接验证过」，不是「它是不是直系同源」。</text>
+
+  <!-- ============ 注释验证三条 ============ -->
+  <text x="48" y="524" font-size="16" font-weight="bold" fill="#3C5488">注释验证三条，缺一不可</text>
+
+  <rect x="48" y="538" width="352" height="130" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <circle cx="84" cy="572" r="14" fill="#3C5488"/>
+  <text x="84" y="577" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="108" y="578" font-size="14" font-weight="bold" fill="#3C5488">交叉 marker</text>
+  <text x="72" y="610" font-size="12.5" fill="#33332E">每个注释至少 2 个独立 marker 支持，</text>
+  <text x="72" y="632" font-size="12.5" fill="#33332E">且这些 marker 在其他簇里</text>
+  <text x="72" y="654" font-size="12.5" fill="#33332E">应当明显更低</text>
+
+  <rect x="424" y="538" width="352" height="130" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <circle cx="460" cy="572" r="14" fill="#3C5488"/>
+  <text x="460" y="577" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="484" y="578" font-size="14" font-weight="bold" fill="#3C5488">已知比例</text>
+  <text x="448" y="610" font-size="12.5" fill="#33332E">注释出的细胞类型比例与该组织</text>
+  <text x="448" y="632" font-size="12.5" fill="#33332E">已知的组织学比例大致相符</text>
+  <text x="448" y="654" font-size="12.5" fill="#33332E">——差一个数量级就要重看</text>
+
+  <rect x="800" y="538" width="352" height="130" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <circle cx="836" cy="572" r="14" fill="#3C5488"/>
+  <text x="836" y="577" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="860" y="578" font-size="14" font-weight="bold" fill="#3C5488">独立证据对照</text>
+  <text x="824" y="610" font-size="12.5" fill="#33332E">原位杂交 · 免疫组化 · 空间转录组</text>
+  <text x="824" y="632" font-size="12.5" fill="#33332E">（§4.8 正是干这个用的；</text>
+  <text x="824" y="654" font-size="12.5" fill="#33332E">图谱案例 §3.1：表达 + 染色质互证）</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="740" font-size="15" font-weight="bold" fill="#3C5488">注释的瓶颈不是算法，是知识：没有该物种的 marker 与参考，任何方法都只能输出「看起来合理」。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

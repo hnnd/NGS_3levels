@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">背景不匹配</text>
+<line x1="180" y1="430" x2="558" y2="430" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="180" y1="430" x2="180" y2="216" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="180" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">富集倍数</text>
+<line x1="170" y1="365.1515151515151" x2="180" y2="365.1515151515151" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="162" y="375.1515151515151" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">2</text>
+<line x1="170" y1="300.30303030303025" x2="180" y2="300.30303030303025" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="162" y="310.30303030303025" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">4</text>
+<line x1="170" y1="235.45454545454544" x2="180" y2="235.45454545454544" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="162" y="245.45454545454544" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">6</text>
+<rect x="216" y="399.87127916331457" width="110" height="30.12872083668543" fill="#00A087" rx="8"/>
+<text x="271.0" y="381.87127916331457" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">0.93</text>
+<text x="271.0" y="502" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">匹配</text>
+<path d="M 416 430 L 416 240.9 L 526 240.9 L 526 430 Z" fill="#E64B35" stroke="#E64B35" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="471.0" y="222.85858585858583" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">5.83</text>
+<text x="471.0" y="502" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">随机</text>
+<line x1="180" y1="397.57575757575756" x2="558" y2="397.57575757575756" stroke="#3C5488" stroke-width="4" stroke-linecap="butt" stroke-dasharray="14 10"/>
+<text x="566" y="385.57575757575756" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">前景 1×</text>
+<text x="216" y="552" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">p = 0.806</text>
+<text x="216" y="598" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">GC 0.549</text>
+<text x="416" y="552" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">p = 4.1×10^-33</text>
+<text x="416" y="598" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">GC 0.400</text>
+<text x="400" y="660" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">前景高碱基偏差制造虚假显著基序</text>
+</svg>

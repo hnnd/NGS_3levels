@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Three-step effector funnel</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<polygon points="337.0,96 767.0,96 740.0,192 364.0,192" fill="#E7F5F8" stroke="#4DBBD5" stroke-width="4" stroke-linejoin="round"/>
+<text x="552" y="152" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#4DBBD5" text-anchor="middle" font-weight="bold">SignalP 6.0</text>
+<polygon points="372.0,210 732.0,210 702.0,306 402.0,306" fill="#E3E8F2" stroke="#3C5488" stroke-width="4" stroke-linejoin="round"/>
+<text x="552" y="266" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">TM</text>
+<polygon points="407.0,324 697.0,324 667.0,420 437.0,420" fill="#E7EAF1" stroke="#8491B4" stroke-width="4" stroke-linejoin="round"/>
+<text x="552" y="380" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">EffectorP 3.0</text>
+<text x="40" y="153" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">信号肽漏非经典</text>
+<line x1="302" y1="146" x2="327.0" y2="146" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="327.0,146 314.2167548356277,151.708646342834 314.2167548356277,140.291353657166" fill="#4DBBD5"/>
+<text x="40" y="267" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">成熟肽排除跨膜</text>
+<line x1="302" y1="260" x2="362.0" y2="260" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="362.0,260 349.2167548356277,265.70864634283396 349.2167548356277,254.291353657166" fill="#3C5488"/>
+<text x="40" y="381" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">分类器给后验概率</text>
+<line x1="302" y1="374" x2="397.0" y2="374" stroke="#8491B4" stroke-width="5" stroke-linecap="round"/>
+<polygon points="397.0,374 384.2167548356277,379.70864634283396 384.2167548356277,368.29135365716604" fill="#8491B4"/>
+<path d="M 492 100 Q 432 60 384 46" fill="none" stroke="#E64B35" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="9 7"/>
+<line x1="353" y1="25" x2="387" y2="59" stroke="#E64B35" stroke-width="7" stroke-linecap="round"/>
+<line x1="353" y1="59" x2="387" y2="25" stroke="#E64B35" stroke-width="7" stroke-linecap="round"/>
+<line x1="552" y1="424" x2="552" y2="464" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="552,464 546.291353657166,451.2167548356277 557.708646342834,451.2167548356277" fill="#6B6B66"/>
+<rect x="330" y="468" width="420" height="108" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<rect x="356" y="484" width="360" height="10" fill="#3C5488" rx="5"/>
+<rect x="356" y="506" width="310" height="10" fill="#3C5488" rx="5"/>
+<rect x="356" y="528" width="260" height="10" fill="#3C5488" rx="5"/>
+<rect x="356" y="550" width="210" height="10" fill="#3C5488" rx="5"/>
+<rect x="46.0" y="576.0" width="268" height="72" fill="#FFFFFF" rx="10" stroke="#E64B35" stroke-width="4" stroke-dasharray="10 7"/>
+<rect x="53.0" y="583.0" width="254" height="58" fill="none" rx="7" stroke="#E64B35" stroke-width="2"/>
+<text x="180" y="622.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">产生假设非鉴定</text>
+</svg>

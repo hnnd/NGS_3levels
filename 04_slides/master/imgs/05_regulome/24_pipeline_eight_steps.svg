@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">全流程八步</text>
+<rect x="76" y="132" width="300" height="76" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<circle cx="120" cy="170.0" r="24" fill="#3C5488" stroke="#3C5488" stroke-width="3"/>
+<text x="120" y="181.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">0</text>
+<text x="172" y="182.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">FASTQ</text>
+<rect x="424" y="132" width="300" height="76" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<circle cx="468" cy="170.0" r="24" fill="#3C5488" stroke="#3C5488" stroke-width="3"/>
+<text x="468" y="181.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<text x="520" y="182.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">BWA</text>
+<rect x="424" y="232" width="300" height="76" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<circle cx="468" cy="270.0" r="24" fill="#3C5488" stroke="#3C5488" stroke-width="3"/>
+<text x="468" y="281.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<text x="520" y="282.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">MACS2</text>
+<rect x="76" y="232" width="300" height="76" fill="#FFFFFF" rx="14" stroke="#3C8DAD" stroke-width="4"/>
+<circle cx="120" cy="270.0" r="24" fill="#3C8DAD" stroke="#3C8DAD" stroke-width="3"/>
+<text x="120" y="281.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="172" y="282.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="start" font-weight="bold">bigWig</text>
+<rect x="76" y="332" width="300" height="76" fill="#FFFFFF" rx="14" stroke="#3C8DAD" stroke-width="4"/>
+<circle cx="120" cy="370.0" r="24" fill="#3C8DAD" stroke="#3C8DAD" stroke-width="3"/>
+<text x="120" y="381.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">4</text>
+<text x="172" y="382.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="start" font-weight="bold">IDR</text>
+<rect x="424" y="332" width="300" height="76" fill="#FFFFFF" rx="14" stroke="#3C8DAD" stroke-width="4"/>
+<circle cx="468" cy="370.0" r="24" fill="#3C8DAD" stroke="#3C8DAD" stroke-width="3"/>
+<text x="468" y="381.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">5</text>
+<text x="520" y="382.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="start" font-weight="bold">TxDb</text>
+<rect x="424" y="432" width="300" height="76" fill="#FFFFFF" rx="14" stroke="#00A087" stroke-width="4"/>
+<circle cx="468" cy="470.0" r="24" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<text x="468" y="481.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">6</text>
+<text x="520" y="482.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="start" font-weight="bold">HOMER</text>
+<rect x="76" y="432" width="300" height="76" fill="#FFFFFF" rx="14" stroke="#00A087" stroke-width="4"/>
+<circle cx="120" cy="470.0" r="24" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<text x="120" y="481.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">7</text>
+<text x="172" y="482.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="start" font-weight="bold">∩ DEG</text>
+<line x1="380" y1="170.0" x2="416" y2="170.0" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="416,170.0 403.2167548356277,175.708646342834 403.2167548356277,164.291353657166" fill="#6B6B66"/>
+<line x1="574.0" y1="212" x2="574.0" y2="224" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="574.0,224 568.291353657166,211.21675483562768 579.708646342834,211.21675483562768" fill="#6B6B66"/>
+<line x1="420" y1="270.0" x2="384" y2="270.0" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="384,270.0 396.7832451643723,264.29135365716604 396.7832451643723,275.70864634283396" fill="#6B6B66"/>
+<line x1="226.0" y1="312" x2="226.0" y2="324" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="226.0,324 220.291353657166,311.2167548356277 231.708646342834,311.2167548356277" fill="#6B6B66"/>
+<line x1="380" y1="370.0" x2="416" y2="370.0" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="416,370.0 403.2167548356277,375.70864634283396 403.2167548356277,364.29135365716604" fill="#6B6B66"/>
+<line x1="574.0" y1="412" x2="574.0" y2="424" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="574.0,424 568.291353657166,411.2167548356277 579.708646342834,411.2167548356277" fill="#6B6B66"/>
+<line x1="420" y1="470.0" x2="384" y2="470.0" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="384,470.0 396.7832451643723,464.29135365716604 396.7832451643723,475.70864634283396" fill="#6B6B66"/>
+<text x="400" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">比对清洗、检峰质控</text>
+<text x="400" y="648" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">一致重复、注释联合</text>
+</svg>

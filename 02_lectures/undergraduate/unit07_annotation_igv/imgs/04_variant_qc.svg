@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">可疑变异怎么判：真变异还是假阳性？</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">链偏好性 ｜ 末端聚集 ｜ MAPQ —— 依据 07_annotation_igv_lecture.md ⑤5.6</text>
+  <!-- 图例 -->
+  <rect x="840" y="42" width="12" height="12" fill="#F39B7F"/>
+  <text x="860" y="52" font-size="12" fill="#33332E">橙色 read = 正向链（示意）</text>
+  <rect x="840" y="59" width="12" height="12" fill="#8491B4"/>
+  <text x="860" y="69" font-size="12" fill="#33332E">紫色 read = 反向链（示意）</text>
+  <rect x="840" y="76" width="12" height="12" fill="#FFFFFF" stroke="#6B6B66" stroke-width="1.2"/>
+  <text x="860" y="86" font-size="12" fill="#33332E">白色空心 = MAPQ 0</text>
+  <rect x="840" y="93" width="12" height="12" fill="#00A087"/>
+  <text x="860" y="103" font-size="12" fill="#33332E">绿色结论 = 可信 / 真变异</text>
+  <rect x="840" y="110" width="12" height="12" fill="#E64B35"/>
+  <text x="860" y="120" font-size="12" fill="#33332E">红色 = 结论警示（唯一）</text>
+
+  <!-- ============ 左上：真变异基准 ============ -->
+  <rect x="48" y="124" width="536" height="296" rx="10" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="72" y="154" font-size="13.5" font-weight="bold" fill="#00A087">真变异（基准样子）</text>
+  <text x="72" y="174" font-size="11" fill="#6B6B66">正反链都能看到该变异，比例大致相当</text>
+  <line x1="72" y1="186" x2="560" y2="186" stroke="#E9E9E5"/>
+  <line x1="316" y1="196" x2="316" y2="342" stroke="#6B6B66" stroke-width="1" stroke-dasharray="2 3"/>
+  <rect x="96"  y="200" width="440" height="12" fill="#F39B7F"/>
+  <rect x="96"  y="218" width="440" height="12" fill="#8491B4"/>
+  <rect x="96"  y="236" width="440" height="12" fill="#F39B7F"/>
+  <rect x="96"  y="254" width="440" height="12" fill="#8491B4"/>
+  <rect x="96"  y="272" width="440" height="12" fill="#F39B7F"/>
+  <rect x="96"  y="290" width="440" height="12" fill="#8491B4"/>
+  <rect x="96"  y="308" width="440" height="12" fill="#F39B7F"/>
+  <rect x="96"  y="326" width="440" height="12" fill="#8491B4"/>
+  <rect x="308" y="198" width="16" height="16" fill="#FFFFFF"/>
+  <text x="316" y="211" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="308" y="216" width="16" height="16" fill="#FFFFFF"/>
+  <text x="316" y="229" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="308" y="234" width="16" height="16" fill="#FFFFFF"/>
+  <text x="316" y="247" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="308" y="252" width="16" height="16" fill="#FFFFFF"/>
+  <text x="316" y="265" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="308" y="270" width="16" height="16" fill="#FFFFFF"/>
+  <text x="316" y="283" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="308" y="288" width="16" height="16" fill="#FFFFFF"/>
+  <text x="316" y="301" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="308" y="306" width="16" height="16" fill="#FFFFFF"/>
+  <text x="316" y="319" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="308" y="324" width="16" height="16" fill="#FFFFFF"/>
+  <text x="316" y="337" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <text x="72" y="362" font-size="11.5" font-weight="bold" fill="#00A087">两条链都有、比例相当 → 真变异</text>
+  <text x="72" y="382" font-size="11" fill="#6B6B66">细菌是单倍体：真变异就应接近 100%（⑥6.3）</text>
+  <text x="560" y="382" font-size="9.5" fill="#6B6B66" text-anchor="end">虚线 = 可疑位点</text>
+
+  <!-- ============ 右上：信号① 链偏好性 ============ -->
+  <rect x="616" y="124" width="536" height="296" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="640" y="154" font-size="13.5" font-weight="bold" fill="#3C5488">假阳性信号 ①：链偏好性（Strand Bias）</text>
+  <text x="640" y="174" font-size="11" fill="#6B6B66">变异只出现在一条链上，另一条链完全正常</text>
+  <line x1="640" y1="186" x2="1128" y2="186" stroke="#E9E9E5"/>
+  <line x1="884" y1="196" x2="884" y2="342" stroke="#6B6B66" stroke-width="1" stroke-dasharray="2 3"/>
+  <rect x="664" y="200" width="440" height="12" fill="#F39B7F"/>
+  <rect x="664" y="218" width="440" height="12" fill="#8491B4"/>
+  <rect x="664" y="236" width="440" height="12" fill="#F39B7F"/>
+  <rect x="664" y="254" width="440" height="12" fill="#8491B4"/>
+  <rect x="664" y="272" width="440" height="12" fill="#F39B7F"/>
+  <rect x="664" y="290" width="440" height="12" fill="#8491B4"/>
+  <rect x="664" y="308" width="440" height="12" fill="#F39B7F"/>
+  <rect x="664" y="326" width="440" height="12" fill="#8491B4"/>
+  <rect x="876" y="198" width="16" height="16" fill="#FFFFFF"/>
+  <text x="884" y="211" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="876" y="234" width="16" height="16" fill="#FFFFFF"/>
+  <text x="884" y="247" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="876" y="270" width="16" height="16" fill="#FFFFFF"/>
+  <text x="884" y="283" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="876" y="306" width="16" height="16" fill="#FFFFFF"/>
+  <text x="884" y="319" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <text x="640" y="362" font-size="11.5" font-weight="bold" fill="#33332E">只有正向链有 → PCR 错误或测序系统性误差</text>
+  <text x="640" y="382" font-size="11" fill="#6B6B66">某些序列上下文在一个方向上更容易读错</text>
+  <text x="1128" y="382" font-size="9.5" fill="#6B6B66" text-anchor="end">紫色（反向链）全正常</text>
+
+  <!-- ============ 左下：信号② 末端聚集 ============ -->
+  <rect x="48" y="444" width="536" height="236" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="474" font-size="13.5" font-weight="bold" fill="#3C5488">假阳性信号 ②：末端聚集（End Bias）</text>
+  <text x="72" y="494" font-size="11" fill="#6B6B66">变异总落在 reads 两端 5–10 bp 内，中部从不出现</text>
+  <line x1="316" y1="504" x2="316" y2="612" stroke="#6B6B66" stroke-width="1" stroke-dasharray="2 3"/>
+  <rect x="96"  y="512" width="228" height="12" fill="#F39B7F"/>
+  <rect x="130" y="534" width="200" height="12" fill="#8491B4"/>
+  <rect x="80"  y="556" width="248" height="12" fill="#F39B7F"/>
+  <rect x="120" y="578" width="212" height="12" fill="#8491B4"/>
+  <rect x="100" y="600" width="226" height="12" fill="#F39B7F"/>
+  <rect x="308" y="510" width="16" height="16" fill="#FFFFFF"/>
+  <text x="316" y="523" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="308" y="532" width="16" height="16" fill="#FFFFFF"/>
+  <text x="316" y="545" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="308" y="554" width="16" height="16" fill="#FFFFFF"/>
+  <text x="316" y="567" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="308" y="576" width="16" height="16" fill="#FFFFFF"/>
+  <text x="316" y="589" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="308" y="598" width="16" height="16" fill="#FFFFFF"/>
+  <text x="316" y="611" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <text x="72" y="636" font-size="10.5" fill="#6B6B66">虚线（变异位点）总落在每条 read 的端部附近，read 中部干净</text>
+  <text x="72" y="658" font-size="11.5" font-weight="bold" fill="#33332E">→ 接头残留 / 低质量末端 / indel 旁比对错位的假象</text>
+
+  <!-- ============ 右下：信号③ MAPQ=0 ============ -->
+  <rect x="616" y="444" width="536" height="236" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="640" y="474" font-size="13.5" font-weight="bold" fill="#3C5488">假阳性信号 ③：MAPQ = 0（白色空心）</text>
+  <text x="640" y="494" font-size="11" fill="#6B6B66">白色 read 在基因组多处等同匹配，位置不可信</text>
+  <line x1="884" y1="504" x2="884" y2="612" stroke="#6B6B66" stroke-width="1" stroke-dasharray="2 3"/>
+  <rect x="664" y="512" width="440" height="12" fill="#FFFFFF" stroke="#6B6B66" stroke-width="1.2"/>
+  <rect x="664" y="534" width="440" height="12" fill="#FFFFFF" stroke="#6B6B66" stroke-width="1.2"/>
+  <rect x="664" y="556" width="440" height="12" fill="#FFFFFF" stroke="#6B6B66" stroke-width="1.2"/>
+  <rect x="664" y="578" width="440" height="12" fill="#FFFFFF" stroke="#6B6B66" stroke-width="1.2"/>
+  <rect x="664" y="600" width="440" height="12" fill="#FFFFFF" stroke="#6B6B66" stroke-width="1.2"/>
+  <rect x="876" y="510" width="16" height="16" fill="#FFFFFF"/>
+  <text x="884" y="523" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="876" y="554" width="16" height="16" fill="#FFFFFF"/>
+  <text x="884" y="567" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="876" y="598" width="16" height="16" fill="#FFFFFF"/>
+  <text x="884" y="611" font-size="10" font-weight="bold" fill="#33332E" text-anchor="middle">G</text>
+  <text x="640" y="636" font-size="10.5" fill="#6B6B66">整片白 read 堆出来的"变异"：先怀疑这是重复区</text>
+  <text x="640" y="658" font-size="11.5" font-weight="bold" fill="#33332E">→ 回到组装与注释检查，不把这个"变异"写进报告</text>
+
+  <!-- ============ 底部铁律 ============ -->
+  <rect x="48" y="700" width="1104" height="44" rx="6" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="700" width="4" height="44" rx="2" fill="#E64B35"/>
+  <text x="68" y="727" font-size="12.5" font-weight="bold" fill="#E64B35">任一判据命中，先按假阳性处理：</text>
+  <text x="298" y="727" font-size="12.5" fill="#33332E">真变异须同时满足——正反链都有、位置在 read 中部、由非白空心的 read 支撑。</text>
+  <text x="48" y="764" font-size="10" fill="#6B6B66">IGV 中 read strand 着色为红/粉（正向）与蓝（反向）；本图按课程配色以橙 / 紫示意。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#3C5488" text-anchor="middle" font-weight="bold">四种名字各管各的</text>
+<rect x="110" y="100" width="260" height="160" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="5"/>
+<text x="240.0" y="154" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">环境名</text>
+<text x="240.0" y="218" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#33332E" text-anchor="middle">ngs_ug_annot</text>
+<rect x="440" y="100" width="260" height="160" fill="#FBE3D8" rx="14" stroke="#F39B7F" stroke-width="5"/>
+<text x="570.0" y="154" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#F39B7F" text-anchor="middle" font-weight="bold">文件名</text>
+<text x="570.0" y="200" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#33332E" text-anchor="middle">env_ug_</text>
+<text x="570.0" y="236" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#33332E" text-anchor="middle">annotation.yml</text>
+<rect x="110" y="330" width="260" height="160" fill="#E4E6EF" rx="14" stroke="#8491B4" stroke-width="5"/>
+<text x="240.0" y="384" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#8491B4" text-anchor="middle" font-weight="bold">包名</text>
+<text x="240.0" y="448" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#33332E" text-anchor="middle">checkm-genome</text>
+<rect x="440" y="330" width="260" height="160" fill="#D8EEF4" rx="14" stroke="#3C8DAD" stroke-width="5"/>
+<text x="570.0" y="384" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="middle" font-weight="bold">命令名</text>
+<text x="570.0" y="448" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#33332E" text-anchor="middle">checkm</text>
+<line x1="374" y1="180" x2="436" y2="180" stroke="#E64B35" stroke-width="5" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<polygon points="436,180 422,171 422,189" fill="#E64B35"/>
+<line x1="396" y1="172" x2="414" y2="188" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<line x1="414" y1="172" x2="396" y2="188" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<text x="400" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">环境名看 name:</text>
+<line x1="374" y1="410" x2="436" y2="410" stroke="#E64B35" stroke-width="5" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<polygon points="436,410 422,401 422,419" fill="#E64B35"/>
+<line x1="396" y1="402" x2="414" y2="418" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<line x1="414" y1="402" x2="396" y2="418" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<text x="400" y="540" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">包名≠命令名</text>
+</svg>

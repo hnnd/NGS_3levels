@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="44" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">多圈共识错误率随通过次数急剧下降</text>
+<text x="400" y="82" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">多数票稀释随机误差</text>
+<line x1="90" y1="150.0" x2="700" y2="150.0" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 10"/>
+<text x="82" y="160.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#6B6B66" text-anchor="end" font-weight="bold">Q10</text>
+<line x1="90" y1="257.5" x2="700" y2="257.5" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 10"/>
+<text x="82" y="267.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#6B6B66" text-anchor="end" font-weight="bold">Q20</text>
+<line x1="90" y1="365.0" x2="700" y2="365.0" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 10"/>
+<text x="82" y="375.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#6B6B66" text-anchor="end" font-weight="bold">Q30</text>
+<line x1="90" y1="472.5" x2="700" y2="472.5" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 10"/>
+<text x="82" y="482.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#6B6B66" text-anchor="end" font-weight="bold">Q40</text>
+<rect x="120" y="149.81362587303244" width="100" height="430.18637412696756" fill="#4DBBD5" rx="8"/>
+<text x="170" y="107.81362587303244" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">1×</text>
+<text x="170" y="137.81362587303244" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#33332E" text-anchor="middle" font-weight="bold">1.0e-01</text>
+<text x="170" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">1</text>
+<rect x="280" y="219.66113354066954" width="100" height="360.33886645933046" fill="#4DBBD5" rx="8"/>
+<text x="330" y="177.66113354066954" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">4×</text>
+<text x="330" y="207.66113354066954" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#33332E" text-anchor="middle" font-weight="bold">2.2e-02</text>
+<text x="330" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">3</text>
+<rect x="440" y="297.66841050718295" width="100" height="282.33158949281705" fill="#4DBBD5" rx="8"/>
+<text x="490" y="255.66841050718295" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">24×</text>
+<text x="490" y="285.66841050718295" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#33332E" text-anchor="middle" font-weight="bold">4.2e-03</text>
+<text x="490" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">5</text>
+<rect x="600" y="515.278550932244" width="100" height="64.721449067756" fill="#4DBBD5" rx="8"/>
+<text x="650" y="459.278550932244" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">2,500×</text>
+<text x="650" y="551.278550932244" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#FFFFFF" text-anchor="middle" font-weight="bold">4.0e-05</text>
+<text x="650" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">11</text>
+<polyline points="170,149.81362587303244 330,219.66113354066954 490,297.66841050718295 650,515.278550932244" fill="none" stroke="#3C5488" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="170" cy="149.81362587303244" r="8" fill="#3C5488"/>
+<circle cx="330" cy="219.66113354066954" r="8" fill="#3C5488"/>
+<circle cx="490" cy="297.66841050718295" r="8" fill="#3C5488"/>
+<circle cx="650" cy="515.278550932244" r="8" fill="#3C5488"/>
+<text x="90" y="662" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#6B6B66" text-anchor="start" font-weight="bold">passes →</text>
+<text x="400" y="672" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">仅独立随机</text>
+</svg>

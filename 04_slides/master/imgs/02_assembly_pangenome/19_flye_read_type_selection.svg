@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="280" y="70" width="240" height="84" fill="#3C5488" rx="16"/>
+<text x="400" y="124" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">长读长数据</text>
+<line x1="400" y1="158" x2="145" y2="268" stroke="#00A087" stroke-width="8" stroke-linecap="round"/>
+<polygon points="145,268 157.18416782125624,254.75062059930866 162.99853829910884,268.22938852523976" fill="#00A087"/>
+<rect x="30" y="272" width="230" height="150" fill="#FFFFFF" rx="16" stroke="#00A087" stroke-width="8"/>
+<text x="145" y="340" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">主线 MinION</text>
+<text x="145" y="392" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">选 --nano-raw</text>
+<line x1="400" y1="158" x2="400" y2="268" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="400,268 392.6603118449277,251.56439907437846 407.3396881550723,251.56439907437846" fill="#4DBBD5"/>
+<rect x="285" y="272" width="230" height="150" fill="#FFFFFF" rx="16" stroke="#4DBBD5" stroke-width="5"/>
+<text x="400" y="340" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">HiFi</text>
+<text x="400" y="392" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#4DBBD5" text-anchor="middle" font-weight="bold">选 --pacbio-hifi</text>
+<line x1="400" y1="158" x2="655" y2="268" stroke="#8491B4" stroke-width="5" stroke-linecap="round"/>
+<polygon points="655,268 637.0014617008911,268.22938852523976 642.8158321787438,254.75062059930866" fill="#8491B4"/>
+<rect x="540" y="272" width="230" height="150" fill="#FFFFFF" rx="16" stroke="#8491B4" stroke-width="5"/>
+<text x="655" y="340" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">高精度 ONT</text>
+<text x="655" y="392" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">选 --nano-hq</text>
+<rect x="200" y="596" width="400" height="64" fill="#E64B35" rx="14"/>
+<text x="400" y="640" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">参数错配致组装失败</text>
+</svg>

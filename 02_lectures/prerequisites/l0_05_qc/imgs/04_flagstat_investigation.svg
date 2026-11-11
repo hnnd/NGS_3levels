@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">真实场景：比对率「悄悄」从 92% 掉到 60%</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">排查三步 ｜ MultiQC 把 N 个样本放进一张表 —— 依据 l0_05 开篇真实场景、§5</text>
+
+  <!-- ============ 左面板：排查三步 ============ -->
+  <rect x="48" y="120" width="600" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="17" font-weight="bold" fill="#3C5488">排查路径固定三步</text>
+  <line x1="72" y1="166" x2="624" y2="166" stroke="#E9E9E5"/>
+
+  <rect x="88" y="182" width="536" height="56" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="104" y="204" font-size="12.5" font-weight="bold" fill="#33332E">第一步 · flagstat 看比对率</text>
+  <text x="104" y="224" font-size="11.5" fill="#6B6B66">确认是整批统一下降，不是个别样本的问题</text>
+  <line x1="356" y1="238" x2="356" y2="248" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="356,252 351,243 361,243" fill="#6B6B66"/>
+
+  <rect x="88" y="254" width="536" height="56" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="104" y="276" font-size="12.5" font-weight="bold" fill="#33332E">第二步 · 抽看比对后 read 的末端</text>
+  <text x="104" y="296" font-size="11.5" fill="#6B6B66">CIGAR 末尾一串 S（软剪切）占比异常 → 接头嫌疑</text>
+  <line x1="356" y1="310" x2="356" y2="320" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="356,324 351,315 361,315" fill="#6B6B66"/>
+
+  <rect x="88" y="326" width="536" height="56" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="104" y="348" font-size="12.5" font-weight="bold" fill="#33332E">第三步 · MultiQC 看 Adapter Content，BLAST 定性</text>
+  <text x="104" y="368" font-size="11.5" fill="#6B6B66">这一批样本末端整批抬升；过表达序列比对到接头 → 实锤</text>
+  <line x1="356" y1="382" x2="356" y2="392" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="356,396 351,387 361,387" fill="#6B6B66"/>
+
+  <rect x="88" y="398" width="536" height="56" rx="6" fill="#FDF1EC"/>
+  <rect x="88" y="398" width="4" height="56" rx="2" fill="#F39B7F"/>
+  <text x="104" y="420" font-size="12.5" font-weight="bold" fill="#33332E">根因：这一批换了建库试剂盒</text>
+  <text x="104" y="440" font-size="11.5" fill="#6B6B66">片段分布整体变短 → read 末端带着 20–40 bp 接头去比对</text>
+  <line x1="356" y1="454" x2="356" y2="464" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="356,468 351,459 361,459" fill="#6B6B66"/>
+
+  <rect x="88" y="470" width="536" height="56" rx="6" fill="#E2F3F0"/>
+  <rect x="88" y="470" width="4" height="56" rx="2" fill="#00A087"/>
+  <text x="104" y="492" font-size="12.5" font-weight="bold" fill="#00A087">处置：去接头 + 滑窗修剪，重新比对</text>
+  <text x="104" y="512" font-size="11.5" fill="#33332E">并与数据提供方核对建库信息，把指标写进报告</text>
+
+  <!-- ============ 右面板：MultiQC General Statistics ============ -->
+  <rect x="672" y="120" width="480" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="696" y="152" font-size="17" font-weight="bold" fill="#3C5488">MultiQC · General Statistics（示意）</text>
+  <line x1="696" y1="166" x2="1128" y2="166" stroke="#E9E9E5"/>
+
+  <text x="720" y="196" font-size="12" font-weight="bold" fill="#6B6B66">样本</text>
+  <text x="840" y="196" font-size="12" font-weight="bold" fill="#6B6B66" text-anchor="middle">%Dups</text>
+  <text x="950" y="196" font-size="12" font-weight="bold" fill="#6B6B66" text-anchor="middle">%GC</text>
+  <text x="1070" y="196" font-size="12" font-weight="bold" fill="#6B6B66" text-anchor="middle">M Seqs</text>
+  <line x1="696" y1="206" x2="1128" y2="206" stroke="#E9E9E5"/>
+
+  <rect x="696" y="300" width="432" height="30" fill="#FDECE8"/>
+  <text x="720" y="232" font-size="12" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">S1</text>
+  <text x="840" y="232" font-size="12" fill="#33332E" text-anchor="middle">8.5</text>
+  <text x="950" y="232" font-size="12" fill="#33332E" text-anchor="middle">50.2</text>
+  <text x="1070" y="232" font-size="12" fill="#33332E" text-anchor="middle">24.1</text>
+  <text x="720" y="262" font-size="12" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">S2</text>
+  <text x="840" y="262" font-size="12" fill="#33332E" text-anchor="middle">9.2</text>
+  <text x="950" y="262" font-size="12" fill="#33332E" text-anchor="middle">50.5</text>
+  <text x="1070" y="262" font-size="12" fill="#33332E" text-anchor="middle">23.7</text>
+  <text x="720" y="292" font-size="12" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">S3</text>
+  <text x="840" y="292" font-size="12" fill="#33332E" text-anchor="middle">7.9</text>
+  <text x="950" y="292" font-size="12" fill="#33332E" text-anchor="middle">49.8</text>
+  <text x="1070" y="292" font-size="12" fill="#33332E" text-anchor="middle">24.6</text>
+  <text x="720" y="322" font-size="12" font-weight="bold" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">S4</text>
+  <text x="840" y="322" font-size="12" fill="#33332E" text-anchor="middle">8.8</text>
+  <text x="950" y="322" font-size="13" font-weight="bold" fill="#E64B35" text-anchor="middle">35.4</text>
+  <text x="1070" y="322" font-size="12" fill="#33332E" text-anchor="middle">24.0</text>
+  <text x="720" y="352" font-size="12" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">S5</text>
+  <text x="840" y="352" font-size="12" fill="#33332E" text-anchor="middle">10.1</text>
+  <text x="950" y="352" font-size="12" fill="#33332E" text-anchor="middle">50.3</text>
+  <text x="1070" y="352" font-size="12" fill="#33332E" text-anchor="middle">23.9</text>
+  <text x="720" y="382" font-size="12" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">S6</text>
+  <text x="840" y="382" font-size="12" fill="#33332E" text-anchor="middle">8.2</text>
+  <text x="950" y="382" font-size="12" fill="#33332E" text-anchor="middle">50.6</text>
+  <text x="1070" y="382" font-size="12" fill="#33332E" text-anchor="middle">24.3</text>
+
+  <rect x="696" y="402" width="432" height="58" rx="6" fill="#FAFAF7"/>
+  <text x="712" y="425" font-size="11.5" font-weight="bold" fill="#33332E">S4 的 %GC 与其余样本差约 15 个百分点——</text>
+  <text x="712" y="445" font-size="11.5" fill="#33332E">不是参数问题，是污染 / 拿错样 / index 串扰。单样本永远看不出来。</text>
+
+  <text x="696" y="492" font-size="11.5" fill="#6B6B66">Status Checks 热图：行是样本、列是模块，</text>
+  <text x="696" y="510" font-size="11.5" fill="#6B6B66">是「哪个样本在哪个模块出问题」的最快答案。</text>
+  <text x="696" y="536" font-size="11" fill="#6B6B66" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">multiqc --force -o qc -n multiqc_report.html qc</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="574" width="1104" height="92" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="600" y="612" font-size="16" font-weight="bold" fill="#3C5488" text-anchor="middle">质控数字要「和往批比」，不只是「和阈值比」——这正是 MultiQC 存在的理由。</text>
+  <text x="600" y="642" font-size="12.5" fill="#6B6B66" text-anchor="middle">那批数据在 FastQC 里只是末端 3% 的小鼓包，没过 FAIL 阈值，没人看第二眼；跳过排查三步的任何一步，你都会先去怀疑参考基因组。</text>
+
+  <!-- 页脚 -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="44" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">QD / FS / SOR</text>
+<rect x="40" y="68" width="720" height="180" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="110" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">QD</text>
+<text x="320" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">QUAL / 未过滤深度</text>
+<rect x="90" y="140" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="116" y="140" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="142" y="140" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="168" y="140" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="194" y="140" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="220" y="140" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="246" y="140" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="272" y="140" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="298" y="140" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="324" y="140" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="90" y="172" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="116" y="172" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="142" y="172" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="168" y="172" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="194" y="172" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="220" y="172" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="246" y="172" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="272" y="172" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="298" y="172" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<rect x="324" y="172" width="22" height="26" fill="#4DBBD5" rx="3"/>
+<line x1="370" y1="166" x2="430" y2="166" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="430,166 413.56439907437846,173.33968815507225 413.56439907437846,158.66031184492775" fill="#6B6B66"/>
+<text x="480" y="146" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">QUAL/DP</text>
+<rect x="580" y="122" width="170" height="60" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="4"/>
+<text x="645" y="162" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">深度去偏</text>
+<text x="320" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">深堆叠：虚高 QUAL 被压缩</text>
+<rect x="40" y="272" width="350" height="200" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="215" y="310" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#F39B7F" text-anchor="middle" font-weight="bold">FS</text>
+<text x="215" y="346" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">链偏检验 2×2</text>
+<rect x="80" y="366" width="104" height="42" fill="#FFFFFF" rx="6" stroke="#4DBBD5" stroke-width="3"/>
+<text x="112" y="396" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#4DBBD5" text-anchor="middle">REF+</text>
+<text x="158" y="396" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">24</text>
+<rect x="190" y="366" width="104" height="42" fill="#FFFFFF" rx="6" stroke="#4DBBD5" stroke-width="3"/>
+<text x="222" y="396" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#4DBBD5" text-anchor="middle">REF-</text>
+<text x="268" y="396" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">1</text>
+<rect x="80" y="414" width="104" height="42" fill="#FFFFFF" rx="6" stroke="#F39B7F" stroke-width="3"/>
+<text x="112" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle">ALT+</text>
+<text x="158" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">22</text>
+<rect x="190" y="414" width="104" height="42" fill="#FFFFFF" rx="6" stroke="#F39B7F" stroke-width="3"/>
+<text x="222" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle">ALT-</text>
+<text x="268" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">0</text>
+<text x="330" y="396" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">P↓</text>
+<text x="330" y="434" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">FS↑</text>
+<rect x="410" y="272" width="350" height="200" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="585" y="310" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#8491B4" text-anchor="middle" font-weight="bold">SOR</text>
+<text x="585" y="346" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">对称优势比</text>
+<line x1="450" y1="420" x2="450" y2="360" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="450" y1="420" x2="720" y2="420" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<polyline points="450,420 520,392 600,370 690,362 720,360" fill="none" stroke="#8491B4" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="585" y="452" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">极端处平滑</text>
+<rect x="40" y="500" width="720" height="90" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="4"/>
+<text x="400" y="540" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">单向倾斜判定假变异</text>
+<text x="400" y="574" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">仅一条链有变异 → 伪影而非等位</text>
+<text x="400" y="636" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">默认： QD 2.0 / FS 60 / SOR 3.0</text>
+</svg>

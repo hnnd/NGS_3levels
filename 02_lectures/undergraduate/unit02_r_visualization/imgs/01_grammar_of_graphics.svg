@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">图形语法五要素：叠成同一张图</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">数据 ｜ 映射 ｜ 几何 ｜ 标度 ｜ 分面 —— 依据 02_r_visualization_lecture.md ④4.8</text>
+  <!-- 图例 -->
+  <rect x="926" y="34" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="45" font-size="12" fill="#33332E">散点 · Canu</text>
+  <rect x="926" y="56" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="67" font-size="12" fill="#33332E">散点 · Flye</text>
+  <rect x="926" y="78" width="12" height="12" fill="none" stroke="#8491B4" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <text x="946" y="89" font-size="12" fill="#33332E">分面框（虚线）</text>
+
+  <!-- ============ 左列：五要素 ============ -->
+  <rect x="48" y="150" width="380" height="88" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="150" width="6" height="88" rx="3" fill="#4DBBD5"/>
+  <text x="72" y="184" font-size="15" font-weight="bold" fill="#3C8DAD">① 数据 data</text>
+  <text x="72" y="212" font-size="12" fill="#33332E">画哪张表：demo 长表 60 行（长度 / GC / 组装器）</text>
+
+  <rect x="48" y="252" width="380" height="88" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="252" width="6" height="88" rx="3" fill="#3C5488"/>
+  <text x="72" y="286" font-size="15" font-weight="bold" fill="#3C5488">② 映射 aes()</text>
+  <text x="72" y="314" font-size="12" fill="#33332E">哪列进哪个通道：x=长度，y=GC，color=组装器</text>
+
+  <rect x="48" y="354" width="380" height="88" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="354" width="6" height="88" rx="3" fill="#00A087"/>
+  <text x="72" y="388" font-size="15" font-weight="bold" fill="#00A087">③ 几何 geom_point()</text>
+  <text x="72" y="416" font-size="12" fill="#33332E">每个观测画成一个点（散点）</text>
+
+  <rect x="48" y="456" width="380" height="88" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="456" width="6" height="88" rx="3" fill="#F39B7F"/>
+  <text x="72" y="490" font-size="15" font-weight="bold" fill="#D9785A">④ 标度 scale_color_manual()</text>
+  <text x="72" y="518" font-size="12" fill="#33332E">把类别翻译成颜色：Canu 蓝，Flye 橙</text>
+
+  <rect x="48" y="558" width="380" height="88" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="558" width="6" height="88" rx="3" fill="#8491B4"/>
+  <text x="72" y="592" font-size="15" font-weight="bold" fill="#6D7BA6">⑤ 分面 facet_wrap()</text>
+  <text x="72" y="620" font-size="12" fill="#33332E">按组装器拆两格，各画各的点</text>
+
+  <!-- ============ 右面板：一张图 ============ -->
+  <rect x="500" y="120" width="652" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- 数据表（长表节选） -->
+  <rect x="520" y="132" width="520" height="52" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="520" y="132" width="520" height="20" fill="#FAFAF7"/>
+  <text x="540" y="146" font-size="11" fill="#6B6B66">contig_len</text>
+  <text x="690" y="146" font-size="11" fill="#6B6B66">gc</text>
+  <text x="860" y="146" font-size="11" fill="#6B6B66">assembler</text>
+  <line x1="520" y1="152" x2="1040" y2="152" stroke="#E9E9E5"/>
+  <line x1="520" y1="168" x2="1040" y2="168" stroke="#E9E9E5"/>
+  <text x="540" y="163" font-size="11" fill="#33332E">1.9</text>
+  <text x="690" y="163" font-size="11" fill="#33332E">0.51</text>
+  <text x="860" y="163" font-size="11" fill="#33332E">Canu</text>
+  <text x="540" y="179" font-size="11" fill="#33332E">1.4</text>
+  <text x="690" y="179" font-size="11" fill="#33332E">0.51</text>
+  <text x="860" y="179" font-size="11" fill="#33332E">Flye</text>
+  <text x="780" y="204" font-size="10" fill="#6B6B66" text-anchor="middle">demo 长表共 60 行，此处节选 2 行</text>
+
+  <!-- 分面框（虚线） -->
+  <rect x="552" y="208" width="536" height="404" fill="none" stroke="#8491B4" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+  <!-- 分面标题条 -->
+  <rect x="560" y="214" width="255" height="24" fill="#3C5488"/>
+  <text x="687" y="230" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Canu</text>
+  <rect x="825" y="214" width="255" height="24" fill="#F39B7F"/>
+  <text x="952" y="230" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Flye</text>
+
+  <!-- 分面绘图区 -->
+  <rect x="560" y="238" width="255" height="362" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="825" y="238" width="255" height="362" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- 坐标轴 -->
+  <line x1="560" y1="238" x2="560" y2="600" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="560" y1="600" x2="815" y2="600" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="825" y1="600" x2="1080" y2="600" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="554" y1="337" x2="560" y2="337" stroke="#6B6B66" stroke-width="1"/>
+  <line x1="554" y1="468" x2="560" y2="468" stroke="#6B6B66" stroke-width="1"/>
+  <line x1="554" y1="600" x2="560" y2="600" stroke="#6B6B66" stroke-width="1"/>
+  <text x="548" y="341" font-size="10" fill="#6B6B66" text-anchor="end">0.54</text>
+  <text x="548" y="472" font-size="10" fill="#6B6B66" text-anchor="end">0.50</text>
+  <text x="548" y="604" font-size="10" fill="#6B6B66" text-anchor="end">0.46</text>
+  <line x1="592" y1="600" x2="592" y2="605" stroke="#6B6B66" stroke-width="1"/>
+  <line x1="672" y1="600" x2="672" y2="605" stroke="#6B6B66" stroke-width="1"/>
+  <line x1="751" y1="600" x2="751" y2="605" stroke="#6B6B66" stroke-width="1"/>
+  <text x="592" y="618" font-size="10" fill="#6B6B66" text-anchor="middle">1.0</text>
+  <text x="672" y="618" font-size="10" fill="#6B6B66" text-anchor="middle">1.5</text>
+  <text x="751" y="618" font-size="10" fill="#6B6B66" text-anchor="middle">2.0</text>
+  <line x1="857" y1="600" x2="857" y2="605" stroke="#6B6B66" stroke-width="1"/>
+  <line x1="937" y1="600" x2="937" y2="605" stroke="#6B6B66" stroke-width="1"/>
+  <line x1="1016" y1="600" x2="1016" y2="605" stroke="#6B6B66" stroke-width="1"/>
+  <text x="857" y="618" font-size="10" fill="#6B6B66" text-anchor="middle">1.0</text>
+  <text x="937" y="618" font-size="10" fill="#6B6B66" text-anchor="middle">1.5</text>
+  <text x="1016" y="618" font-size="10" fill="#6B6B66" text-anchor="middle">2.0</text>
+  <text x="820" y="638" font-size="11.5" fill="#33332E" text-anchor="middle">Contig length (Mb)</text>
+  <text x="524" y="420" font-size="11.5" fill="#33332E" text-anchor="middle" transform="rotate(-90 524 420)">GC content</text>
+
+  <!-- Canu 散点 -->
+  <circle cx="672" cy="403" r="4" fill="#3C5488"/>
+  <circle cx="703" cy="370" r="4" fill="#3C5488"/>
+  <circle cx="735" cy="435" r="4" fill="#3C5488"/>
+  <circle cx="751" cy="386" r="4" fill="#3C5488"/>
+  <circle cx="688" cy="337" r="4" fill="#3C5488"/>
+  <circle cx="719" cy="419" r="4" fill="#3C5488"/>
+  <circle cx="767" cy="370" r="4" fill="#3C5488"/>
+  <circle cx="711" cy="452" r="4" fill="#3C5488"/>
+  <circle cx="743" cy="337" r="4" fill="#3C5488"/>
+  <circle cx="783" cy="403" r="4" fill="#3C5488"/>
+  <circle cx="695" cy="353" r="4" fill="#3C5488"/>
+  <circle cx="727" cy="468" r="4" fill="#3C5488"/>
+  <circle cx="759" cy="320" r="4" fill="#3C5488"/>
+  <circle cx="656" cy="435" r="4" fill="#3C5488"/>
+  <!-- Flye 散点 -->
+  <circle cx="857" cy="468" r="4" fill="#F39B7F"/>
+  <circle cx="889" cy="370" r="4" fill="#F39B7F"/>
+  <circle cx="921" cy="419" r="4" fill="#F39B7F"/>
+  <circle cx="953" cy="337" r="4" fill="#F39B7F"/>
+  <circle cx="873" cy="501" r="4" fill="#F39B7F"/>
+  <circle cx="905" cy="386" r="4" fill="#F39B7F"/>
+  <circle cx="937" cy="452" r="4" fill="#F39B7F"/>
+  <circle cx="968" cy="370" r="4" fill="#F39B7F"/>
+  <circle cx="897" cy="304" r="4" fill="#F39B7F"/>
+  <circle cx="929" cy="485" r="4" fill="#F39B7F"/>
+  <circle cx="984" cy="403" r="4" fill="#F39B7F"/>
+  <circle cx="865" cy="353" r="4" fill="#F39B7F"/>
+  <circle cx="945" cy="435" r="4" fill="#F39B7F"/>
+  <circle cx="913" cy="320" r="4" fill="#F39B7F"/>
+  <!-- 几何高亮圈 -->
+  <circle cx="735" cy="435" r="9" fill="none" stroke="#00A087" stroke-width="2"/>
+
+  <!-- 标度图例（图内） -->
+  <text x="1020" y="250" font-size="10" fill="#6B6B66">Assembler</text>
+  <rect x="1020" y="258" width="12" height="12" fill="#3C5488"/>
+  <text x="1038" y="268" font-size="11" fill="#33332E">Canu</text>
+  <rect x="1020" y="278" width="12" height="12" fill="#F39B7F"/>
+  <text x="1038" y="288" font-size="11" fill="#33332E">Flye</text>
+
+  <!-- 引线：五要素 -> 图上部位 -->
+  <line x1="428" y1="194" x2="514" y2="176" stroke="#4DBBD5" stroke-width="1.4"/>
+  <circle cx="514" cy="176" r="2.5" fill="#4DBBD5"/>
+  <line x1="428" y1="296" x2="554" y2="590" stroke="#3C5488" stroke-width="1.4"/>
+  <circle cx="554" cy="590" r="2.5" fill="#3C5488"/>
+  <line x1="428" y1="398" x2="722" y2="430" stroke="#00A087" stroke-width="1.4"/>
+  <circle cx="722" cy="430" r="2.5" fill="#00A087"/>
+  <polyline points="428,500 470,500 470,656 996,656 996,300" fill="none" stroke="#D9785A" stroke-width="1.4"/>
+  <polygon points="996,290 992,300 1000,300" fill="#D9785A"/>
+  <line x1="428" y1="602" x2="548" y2="610" stroke="#8491B4" stroke-width="1.4"/>
+  <circle cx="548" cy="610" r="2.5" fill="#8491B4"/>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

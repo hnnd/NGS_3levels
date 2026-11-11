@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="150" y="76" width="500" height="76" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="124" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">parent  ASV</text>
+<line x1="110" y1="240" x2="690" y2="240" stroke="#E64B35" stroke-width="5" stroke-linecap="butt" stroke-dasharray="16 10"/>
+<text x="400" y="220" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">P = 1e−40</text>
+<line x1="400" y1="156" x2="400" y2="190" stroke="#3C8DAD" stroke-width="6" stroke-linecap="round"/>
+<polygon points="400,190 393.4758327510469,175.39057695500307 406.5241672489531,175.39057695500307" fill="#3C8DAD"/>
+<line x1="400" y1="246" x2="268" y2="368" stroke="#3C8DAD" stroke-width="5" stroke-linecap="round"/>
+<polygon points="268,368 273.51301884455654,355.13117630785297 281.26241616137935,363.5157701260547" fill="#3C8DAD"/>
+<rect x="118" y="384" width="286" height="172" fill="#FBE3D8" rx="16" stroke="#F39B7F" stroke-width="4"/>
+<text x="261" y="434" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#C0623F" text-anchor="middle" font-weight="bold">P ≥ 1e−40</text>
+<text x="261" y="505.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#C0623F" text-anchor="middle">高概率并入亲本</text>
+<line x1="400" y1="246" x2="532" y2="368" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="532,368 518.7375838386206,363.5157701260547 526.4869811554435,355.13117630785297" fill="#00A087"/>
+<rect x="452" y="384" width="286" height="172" fill="#D8EEE9" rx="16" stroke="#00A087" stroke-width="4"/>
+<text x="595" y="434" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">P &lt; 1e−40</text>
+<text x="595" y="505.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle">突破极小阈值</text>
+<rect x="196" y="590" width="408" height="76" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="642" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">确立独立实体</text>
+<line x1="595" y1="560" x2="552" y2="586" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="552,586 559.9852677243298,574.500630479423 565.8927957578809,584.2707729964498" fill="#00A087"/>
+</svg>

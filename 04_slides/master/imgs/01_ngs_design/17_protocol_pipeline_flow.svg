@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="96" width="240" height="92" fill="#3C5488" rx="14"/>
+<text x="160.0" y="142" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">① 层级：</text>
+<text x="160.0" y="178" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">数清样本</text>
+<rect x="290" y="96" width="240" height="92" fill="#3C5488" rx="14"/>
+<text x="410.0" y="142" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">② 检索：</text>
+<text x="410.0" y="178" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">取 10 字段</text>
+<rect x="540" y="96" width="240" height="92" fill="#3C5488" rx="14"/>
+<text x="660.0" y="142" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">③ 下载：</text>
+<text x="660.0" y="178" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">直链优先</text>
+<rect x="540" y="300" width="240" height="92" fill="#3C5488" rx="14"/>
+<text x="660.0" y="346" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">⑥ 方案：</text>
+<text x="660.0" y="382" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">六段式</text>
+<rect x="290" y="300" width="240" height="92" fill="#3C5488" rx="14"/>
+<text x="410.0" y="346" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">⑤ 整理：</text>
+<text x="410.0" y="382" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">sample sheet</text>
+<rect x="40" y="300" width="240" height="92" fill="#3C5488" rx="14" stroke="#E64B35" stroke-width="7"/>
+<polygon points="250,274 272.1,288.3 268.2,310.4 250,326 231.8,310.4 227.9,288.3" fill="#E64B35"/>
+<text x="160.0" y="346" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">④ 验收：</text>
+<text x="160.0" y="382" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">四步闭环</text>
+<line x1="280" y1="142" x2="290" y2="142" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="290,142 273.56439907437846,149.33968815507225 273.56439907437846,134.66031184492775" fill="#4DBBD5"/>
+<line x1="530" y1="142" x2="540" y2="142" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="540,142 523.5643990743785,149.33968815507225 523.5643990743785,134.66031184492775" fill="#4DBBD5"/>
+<line x1="660" y1="188" x2="660" y2="300" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="660,300 652.6603118449277,283.56439907437846 667.3396881550723,283.56439907437846" fill="#4DBBD5"/>
+<line x1="540" y1="346" x2="530" y2="346" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="530,346 546.4356009256215,338.6603118449277 546.4356009256215,353.3396881550723" fill="#4DBBD5"/>
+<line x1="290" y1="346" x2="280" y2="346" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="280,346 296.43560092562154,338.6603118449277 296.43560092562154,353.3396881550723" fill="#4DBBD5"/>
+<line x1="160" y1="500" x2="160" y2="392" stroke="#00A087" stroke-width="7" stroke-linecap="round"/>
+<polygon points="160,392 167.33968815507225,408.43560092562154 152.66031184492775,408.43560092562154" fill="#00A087"/>
+</svg>

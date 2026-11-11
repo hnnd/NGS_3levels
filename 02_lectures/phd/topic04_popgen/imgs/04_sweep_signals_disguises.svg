@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">选择清除：三个信号与四个伪装者</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">硬清除 ｜ 经验分位数 ｜ 最低证据标准 —— 依据 04_popgen_lecture.md ④4.6</text>
+  <!-- 图例 -->
+  <polygon points="946,42 954,50 946,58 938,50" fill="#F39B7F"/>
+  <text x="962" y="54" font-size="12" fill="#33332E">受选等位</text>
+  <rect x="1032" y="42" width="12" height="12" fill="#E64B35"/>
+  <text x="1052" y="53" font-size="12" fill="#33332E">证据红线</text>
+  <rect x="940" y="64" width="12" height="12" fill="#00A087"/>
+  <text x="960" y="75" font-size="12" fill="#33332E">共享的延长单倍型</text>
+
+  <!-- ============ 左面板：信号三联 ============ -->
+  <rect x="48" y="120" width="520" height="440" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="150" font-size="16" font-weight="bold" fill="#3C5488">硬清除的信号三联</text>
+  <text x="72" y="174" font-size="12" fill="#6B6B66">强的、近期的、来自新突变的选择（hard sweep）</text>
+  <line x1="72" y1="190" x2="544" y2="190" stroke="#E9E9E5"/>
+  <!-- 受选等位参考线 -->
+  <line x1="310" y1="204" x2="310" y2="540" stroke="#6B6B66" stroke-width="1" stroke-dasharray="4 3"/>
+  <polygon points="310,204 318,212 310,220 302,212" fill="#F39B7F"/>
+  <text x="328" y="216" font-size="11" fill="#33332E">受选等位</text>
+  <!-- ① π 塌陷 -->
+  <text x="72" y="242" font-size="12.5" font-weight="bold" fill="#3C5488">① π 在中心塌陷</text>
+  <line x1="80" y1="302" x2="540" y2="302" stroke="#6B6B66" stroke-width="1"/>
+  <polyline points="80,254 140,257 180,264 220,275 250,290 275,298 310,300 345,298 370,290 400,275 440,264 480,257 540,254"
+            fill="none" stroke="#00A087" stroke-width="2"/>
+  <text x="76" y="264" font-size="11" fill="#00A087" text-anchor="end">π</text>
+  <!-- ② Tajima's D -->
+  <text x="72" y="338" font-size="12.5" font-weight="bold" fill="#3C5488">② Tajima's D 转负（新突变积累）</text>
+  <line x1="80" y1="356" x2="540" y2="356" stroke="#6B6B66" stroke-width="1"/>
+  <rect x="90"   y="360" width="24" height="5"  fill="#8491B4"/>
+  <rect x="130"  y="360" width="24" height="8"  fill="#8491B4"/>
+  <rect x="170"  y="360" width="24" height="12" fill="#8491B4"/>
+  <rect x="210"  y="360" width="24" height="20" fill="#8491B4"/>
+  <rect x="250"  y="360" width="24" height="34" fill="#8491B4"/>
+  <rect x="290"  y="360" width="24" height="46" fill="#8491B4"/>
+  <rect x="330"  y="360" width="24" height="46" fill="#8491B4"/>
+  <rect x="370"  y="360" width="24" height="34" fill="#8491B4"/>
+  <rect x="410"  y="360" width="24" height="20" fill="#8491B4"/>
+  <rect x="450"  y="360" width="24" height="12" fill="#8491B4"/>
+  <rect x="490"  y="360" width="24" height="8"  fill="#8491B4"/>
+  <text x="76" y="368" font-size="11" fill="#8491B4" text-anchor="end">D</text>
+  <!-- ③ 单倍型延长 -->
+  <text x="72" y="432" font-size="12.5" font-weight="bold" fill="#3C5488">③ 单倍型延长（EHH / iHS / XP-EHH 抓的就是它）</text>
+  <!-- 携带者 4 行 -->
+  <rect x="80"  y="444" width="20" height="12" fill="#8491B4"/><rect x="100" y="444" width="20" height="12" fill="#F39B7F"/>
+  <rect x="120" y="444" width="380" height="12" fill="#00A087"/>
+  <rect x="500" y="444" width="20" height="12" fill="#F39B7F"/><rect x="520" y="444" width="20" height="12" fill="#8491B4"/>
+  <rect x="80"  y="466" width="20" height="12" fill="#F39B7F"/><rect x="100" y="466" width="20" height="12" fill="#8491B4"/>
+  <rect x="120" y="466" width="380" height="12" fill="#00A087"/>
+  <rect x="500" y="466" width="20" height="12" fill="#8491B4"/><rect x="520" y="466" width="20" height="12" fill="#F39B7F"/>
+  <rect x="80"  y="488" width="20" height="12" fill="#8491B4"/><rect x="100" y="488" width="20" height="12" fill="#8491B4"/>
+  <rect x="120" y="488" width="380" height="12" fill="#00A087"/>
+  <rect x="500" y="488" width="20" height="12" fill="#F39B7F"/><rect x="520" y="488" width="20" height="12" fill="#8491B4"/>
+  <rect x="80"  y="510" width="20" height="12" fill="#F39B7F"/><rect x="100" y="510" width="20" height="12" fill="#8491B4"/>
+  <rect x="120" y="510" width="380" height="12" fill="#00A087"/>
+  <rect x="500" y="510" width="20" height="12" fill="#8491B4"/><rect x="520" y="510" width="20" height="12" fill="#F39B7F"/>
+  <!-- 非携带 2 行 -->
+  <rect x="80"  y="532" width="26" height="12" fill="#8491B4"/><rect x="106" y="532" width="30" height="12" fill="#F39B7F"/><rect x="136" y="532" width="22" height="12" fill="#8491B4"/><rect x="158" y="532" width="34" height="12" fill="#F39B7F"/><rect x="192" y="532" width="26" height="12" fill="#8491B4"/><rect x="218" y="532" width="30" height="12" fill="#F39B7F"/><rect x="248" y="532" width="24" height="12" fill="#8491B4"/><rect x="272" y="532" width="32" height="12" fill="#F39B7F"/><rect x="304" y="532" width="26" height="12" fill="#8491B4"/><rect x="330" y="532" width="30" height="12" fill="#F39B7F"/><rect x="360" y="532" width="24" height="12" fill="#8491B4"/><rect x="384" y="532" width="34" height="12" fill="#F39B7F"/><rect x="418" y="532" width="26" height="12" fill="#8491B4"/><rect x="444" y="532" width="30" height="12" fill="#F39B7F"/><rect x="474" y="532" width="28" height="12" fill="#8491B4"/><rect x="502" y="532" width="30" height="12" fill="#F39B7F"/>
+  <rect x="80"  y="546" width="30" height="12" fill="#F39B7F"/><rect x="110" y="546" width="24" height="12" fill="#8491B4"/><rect x="134" y="546" width="32" height="12" fill="#F39B7F"/><rect x="166" y="546" width="26" height="12" fill="#8491B4"/><rect x="192" y="546" width="30" height="12" fill="#F39B7F"/><rect x="222" y="546" width="24" height="12" fill="#8491B4"/><rect x="246" y="546" width="34" height="12" fill="#F39B7F"/><rect x="280" y="546" width="26" height="12" fill="#8491B4"/><rect x="306" y="546" width="30" height="12" fill="#F39B7F"/><rect x="336" y="546" width="24" height="12" fill="#8491B4"/><rect x="360" y="546" width="32" height="12" fill="#F39B7F"/><rect x="392" y="546" width="26" height="12" fill="#8491B4"/><rect x="418" y="546" width="30" height="12" fill="#F39B7F"/><rect x="448" y="546" width="24" height="12" fill="#8491B4"/><rect x="472" y="546" width="34" height="12" fill="#F39B7F"/><rect x="506" y="546" width="26" height="12" fill="#8491B4"/>
+
+  <!-- ============ 右面板：四类伪装者 ============ -->
+  <rect x="592" y="120" width="560" height="440" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="616" y="150" font-size="16" font-weight="bold" fill="#3C5488">四类伪装者，逐条排除</text>
+  <text x="616" y="174" font-size="12" fill="#6B6B66">每一类都会留下与清除同相的假信号</text>
+  <line x1="616" y1="190" x2="1128" y2="190" stroke="#E9E9E5"/>
+  <text x="616" y="226" font-size="12.5" font-weight="bold" fill="#33332E">瓶颈 / 群体扩张</text>
+  <text x="616" y="250" font-size="12" fill="#33332E">假信号：全基因组 D 偏移、F_ST 方差增大——极值遍地都是</text>
+  <text x="616" y="274" font-size="12" fill="#00A087">排除：只用经验分位数（全基因组 top 1%），不用固定阈值</text>
+  <line x1="616" y1="292" x2="1128" y2="292" stroke="#E9E9E5"/>
+  <text x="616" y="322" font-size="12.5" font-weight="bold" fill="#33332E">低重组区 / 背景选择</text>
+  <text x="616" y="346" font-size="12" fill="#33332E">假信号：着丝粒等低重组区 π 天然偏低，π 比值扫描全捞出来</text>
+  <text x="616" y="370" font-size="12" fill="#00A087">排除：按重组率分层，或至少标出低重组区单独讨论</text>
+  <line x1="616" y1="388" x2="1128" y2="388" stroke="#E9E9E5"/>
+  <text x="616" y="418" font-size="12.5" font-weight="bold" fill="#33332E">群体结构（Wahlund）</text>
+  <text x="616" y="442" font-size="12" fill="#33332E">假信号：同时抬高 F_ST 与扭曲频谱</text>
+  <text x="616" y="466" font-size="12" fill="#00A087">排除：先做结构推断，在明确定义的分群内部扫描</text>
+  <line x1="616" y1="484" x2="1128" y2="484" stroke="#E9E9E5"/>
+  <text x="616" y="514" font-size="12.5" font-weight="bold" fill="#33332E">软清除 / 多起源抗性</text>
+  <text x="616" y="538" font-size="12" fill="#33332E">假信号：π 不塌陷、单倍型不唯一——信号弱到扫不出来</text>
+  <text x="616" y="556" font-size="12" fill="#00A087">排除：直接查抗性等位周边的单倍型多样性；阴性结果不能下结论</text>
+
+  <!-- ============ 底部：最低证据标准 ============ -->
+  <rect x="48" y="584" width="1104" height="128" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="612" font-size="14" font-weight="bold" fill="#3C5488">候选区间的最低证据标准</text>
+  <text x="72" y="642" font-size="12" fill="#33332E">① 两个以上互相独立的统计量同时是极值</text>
+  <text x="72" y="666" font-size="11" fill="#6B6B66">（π 比值与 Tajima's D 并不独立）</text>
+  <text x="448" y="642" font-size="12" fill="#33332E">② 有生物学合理的候选基因</text>
+  <text x="448" y="666" font-size="11" fill="#6B6B66">（⑤ 的 top1pct.bed × GFF3 取交集）</text>
+  <text x="824" y="642" font-size="12" fill="#33332E">③ 有独立数据支持</text>
+  <text x="824" y="666" font-size="11" fill="#6B6B66">表型 / 表达 / 抗性测定 / 时间序列频率</text>
+  <text x="72" y="698" font-size="13" font-weight="bold" fill="#E64B35">一条曲线上的一个尖峰，不构成结论。</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="740" font-size="15" font-weight="bold" fill="#3C5488">方法提高的是检测力，不免除证据标准——没有任何单一统计量能把选择从群体历史里摘出来。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

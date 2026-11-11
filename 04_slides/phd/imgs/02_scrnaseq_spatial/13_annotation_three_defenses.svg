@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Three orthogonal checks for annotation</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="60" width="720" height="108" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<circle cx="82" cy="114" r="22" fill="#00A087"/>
+<text x="82" y="126" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<text x="122" y="126" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="start" font-weight="bold">2 MARKERS</text>
+<rect x="40" y="190" width="720" height="108" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<circle cx="82" cy="244" r="22" fill="#F39B7F"/>
+<text x="82" y="256" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<text x="122" y="256" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#F39B7F" text-anchor="start" font-weight="bold">ABUNDANCE</text>
+<rect x="40" y="320" width="720" height="108" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<circle cx="82" cy="374" r="22" fill="#3C8DAD"/>
+<text x="82" y="386" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="122" y="386" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="start" font-weight="bold">IN SITU</text>
+<rect x="340" y="84" width="56" height="60" fill="#D8EEE9" rx="6" stroke="#00A087" stroke-width="3"/>
+<text x="368" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">G1</text>
+<rect x="420" y="84" width="56" height="60" fill="#D8EEE9" rx="6" stroke="#00A087" stroke-width="3"/>
+<text x="448" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">G2</text>
+<polyline points="503.6,114.4 513.6,124.0 529.2,104.8" fill="none" stroke="#00A087" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="360" y="254" width="40" height="34" fill="#F39B7F"/>
+<rect x="412" y="226" width="40" height="62" fill="#F39B7F"/>
+<rect x="464" y="196" width="40" height="92" fill="#F39B7F"/>
+<line x1="352" y1="288" x2="516" y2="288" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<polyline points="535.6,244.4 545.6,254.0 561.2,234.8" fill="none" stroke="#F39B7F" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="404" cy="374" r="34" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="4"/>
+<circle cx="404" cy="374" r="13" fill="#4DBBD5"/>
+<line x1="452" y1="374" x2="512" y2="374" stroke="#3C8DAD" stroke-width="4" stroke-linecap="butt" stroke-dasharray="9 7"/>
+<polyline points="527.6,374.4 537.6,384.0 553.2,364.8" fill="none" stroke="#3C8DAD" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="690" y="60" width="18" height="368" fill="#E64B35" rx="9"/>
+<text x="760" y="468" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="end" font-weight="bold">HOMOLOGY ≠ EXPR</text>
+<rect x="28.0" y="500" width="744" height="128" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="550" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">两正交特征基因互证，组织学丰度数量级自洽，</text>
+<text x="400.0" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">原位杂交空间成像闭环。</text>
+</svg>

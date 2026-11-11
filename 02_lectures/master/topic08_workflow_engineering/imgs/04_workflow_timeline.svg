@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">流程工程工具的演进坐标（1977–2025）</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">工作流引擎 ｜ 部署环境 —— 依据 08_workflow_engineering_lecture.md ④4.1、⑪ 文献</text>
+  <!-- 图例 -->
+  <circle cx="900" cy="42" r="6" fill="#4DBBD5"/>
+  <text x="914" y="46" font-size="12" fill="#33332E">工作流引擎</text>
+  <circle cx="1040" cy="42" r="6" fill="#00A087"/>
+  <text x="1054" y="46" font-size="12" fill="#33332E">部署环境</text>
+  <circle cx="900" cy="66" r="6" fill="#3C5488"/>
+  <text x="914" y="70" font-size="12" fill="#33332E">源头</text>
+  <rect x="1040" y="60" width="12" height="12" rx="3" fill="#E64B35"/>
+  <text x="1060" y="70" font-size="12" fill="#33332E">弃用方向</text>
+
+  <!-- ============ 主面板 ============ -->
+  <rect x="48" y="124" width="1104" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- 时间轴 -->
+  <line x1="80" y1="400" x2="1128" y2="400" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="1128,394 1128,406 1142,400" fill="#3C5488"/>
+  <text x="1128" y="382" font-size="11" fill="#6B6B66" text-anchor="end">时间 →</text>
+
+  <!-- 网格竖线（淡） -->
+  <line x1="110" y1="276" x2="110" y2="524" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="217" y1="276" x2="217" y2="524" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="324" y1="276" x2="324" y2="524" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="431" y1="276" x2="431" y2="524" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="538" y1="276" x2="538" y2="524" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="645" y1="276" x2="645" y2="524" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="752" y1="276" x2="752" y2="524" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="859" y1="276" x2="859" y2="524" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="966" y1="276" x2="966" y2="524" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="1073" y1="276" x2="1073" y2="524" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- 1977 Make（上，源头） -->
+  <circle cx="110" cy="400" r="7" fill="#3C5488"/>
+  <line x1="110" y1="393" x2="110" y2="330" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="110" y="324" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">1977</text>
+  <text x="110" y="302" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Make</text>
+  <text x="110" y="286" font-size="11.5" fill="#6B6B66" text-anchor="middle">声明式增量重建的源头</text>
+
+  <!-- 2012 Snakemake 原始论文（下，引擎） -->
+  <circle cx="217" cy="400" r="7" fill="#4DBBD5"/>
+  <line x1="217" y1="407" x2="217" y2="442" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="217" y="460" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2012</text>
+  <text x="217" y="482" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Snakemake 原始论文</text>
+  <text x="217" y="500" font-size="11.5" fill="#6B6B66" text-anchor="middle">Bioinformatics（⑪）</text>
+
+  <!-- 2017 Nextflow（上，引擎） -->
+  <circle cx="324" cy="400" r="7" fill="#4DBBD5"/>
+  <line x1="324" y1="393" x2="324" y2="330" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="324" y="324" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2017</text>
+  <text x="324" y="302" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Nextflow</text>
+  <text x="324" y="286" font-size="11.5" fill="#6B6B66" text-anchor="middle">Nat Biotechnol（博士 p07 内容）</text>
+
+  <!-- 2017 Singularity；BioContainers（下，环境） -->
+  <circle cx="431" cy="400" r="7" fill="#00A087"/>
+  <line x1="431" y1="407" x2="431" y2="442" stroke="#00A087" stroke-width="1.5"/>
+  <text x="431" y="460" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2017</text>
+  <text x="431" y="482" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Singularity 论文</text>
+  <text x="431" y="500" font-size="11.5" fill="#6B6B66" text-anchor="middle">BioContainers 上线（⑪）</text>
+
+  <!-- 2018 Bioconda（上，环境） -->
+  <circle cx="538" cy="400" r="7" fill="#00A087"/>
+  <line x1="538" y1="393" x2="538" y2="330" stroke="#00A087" stroke-width="1.5"/>
+  <text x="538" y="324" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2018</text>
+  <text x="538" y="302" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Bioconda</text>
+  <text x="538" y="286" font-size="11.5" fill="#6B6B66" text-anchor="middle">Nat Methods（⑪）</text>
+
+  <!-- 2018 nf-core 社区（下，引擎生态） -->
+  <circle cx="645" cy="400" r="7" fill="#4DBBD5"/>
+  <line x1="645" y1="407" x2="645" y2="442" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="645" y="460" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2018</text>
+  <text x="645" y="482" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">nf-core 社区成立</text>
+  <text x="645" y="500" font-size="11.5" fill="#6B6B66" text-anchor="middle">社区共建最佳实践流程</text>
+
+  <!-- 2021 Snakemake 现行用法（上，引擎） -->
+  <circle cx="752" cy="400" r="7" fill="#4DBBD5"/>
+  <line x1="752" y1="393" x2="752" y2="330" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="752" y="324" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2021</text>
+  <text x="752" y="302" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Snakemake 现行用法</text>
+  <text x="752" y="286" font-size="11.5" fill="#6B6B66" text-anchor="middle">Sustainable data analysis（⑪）</text>
+
+  <!-- 2021.11 更名 Apptainer（下，环境） -->
+  <circle cx="859" cy="400" r="7" fill="#00A087"/>
+  <line x1="859" y1="407" x2="859" y2="442" stroke="#00A087" stroke-width="1.5"/>
+  <text x="859" y="460" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2021.11</text>
+  <text x="859" y="482" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Singularity → Apptainer</text>
+  <text x="859" y="500" font-size="11.5" fill="#6B6B66" text-anchor="middle">移交 Linux Foundation（④4.1）</text>
+  <text x="859" y="518" font-size="11.5" fill="#6B6B66" text-anchor="middle">2022 年发布 1.0</text>
+
+  <!-- 2024 Snakemake v8（上，引擎） -->
+  <circle cx="966" cy="400" r="7" fill="#4DBBD5"/>
+  <line x1="966" y1="393" x2="966" y2="330" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="966" y="324" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2024</text>
+  <text x="966" y="302" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Snakemake v8</text>
+  <text x="966" y="286" font-size="11.5" fill="#6B6B66" text-anchor="middle">统一 --software-deployment-method</text>
+
+  <!-- 2025 Snakemake v9（下，引擎） -->
+  <circle cx="1073" cy="400" r="7" fill="#4DBBD5"/>
+  <line x1="1073" y1="407" x2="1073" y2="442" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="1073" y="460" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2025</text>
+  <text x="1073" y="482" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Snakemake v9</text>
+  <text x="1073" y="500" font-size="11.5" fill="#6B6B66" text-anchor="middle">executor 插件体系（④4.1）</text>
+  <text x="1073" y="518" font-size="11" font-weight="bold" fill="#E64B35" text-anchor="middle">手写 --cluster 成弃用方向</text>
+
+  <!-- 阶段带 -->
+  <rect x="80" y="560" width="520" height="40" rx="6" fill="#FAFAF7"/>
+  <text x="340" y="585" font-size="12" fill="#6B6B66" text-anchor="middle">1977–2018：声明式内核一脉相承，引擎与部署环境各自成型</text>
+  <rect x="624" y="560" width="496" height="40" rx="6" fill="#FAFAF7"/>
+  <text x="872" y="585" font-size="12" fill="#6B6B66" text-anchor="middle">2021–2025：容器更名定型，Snakemake 内核稳定、外围演化</text>
+
+  <text x="72" y="656" font-size="11" fill="#6B6B66">为避免拥挤按事件先后等距排布，年份以标注为准，非比例时间轴；Make 1977、Nextflow 2017、nf-core 2018 为公认年份，其余取自本讲文献表与 ④4.1。</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">声明式 + 增量重建的内核自 Make（1977）一脉相承；rule / wildcard / DAG 语义在 Snakemake 8、9 完全不变——投资不随版本升级作废。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

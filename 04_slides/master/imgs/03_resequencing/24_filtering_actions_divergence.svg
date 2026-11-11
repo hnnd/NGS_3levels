@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="44" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">三种过滤动作</text>
+<rect x="280" y="68" width="240" height="76" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">一个变异位点</text>
+<text x="400" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">12 样本 × GT</text>
+<line x1="400" y1="144" x2="155" y2="196" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="155,196 169.55359596097765,185.40788762311243 172.6013278936743,199.76739384447163" fill="#6B6B66"/>
+<rect x="50" y="200" width="210" height="320" fill="#FFFFFF" rx="16" stroke="#00A087" stroke-width="5"/>
+<text x="155" y="246" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">打标签</text>
+<text x="155" y="284" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">Variant</text>
+<text x="155" y="318" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">Filtration</text>
+<rect x="75" y="344" width="160" height="100" fill="#D8EEE9" rx="8" stroke="#00A087" stroke-width="3"/>
+<text x="155" y="386" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">FILTER</text>
+<text x="155" y="422" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">QD2;FS</text>
+<text x="155" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">保留全记录</text>
+<line x1="400" y1="144" x2="395" y2="196" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="395,196 389.2670990588965,178.93735522260704 403.8790827795751,180.3423536572877" fill="#6B6B66"/>
+<rect x="290" y="200" width="210" height="320" fill="#FFFFFF" rx="16" stroke="#F39B7F" stroke-width="5"/>
+<text x="395" y="246" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">物理删行</text>
+<text x="395" y="284" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">bcftools</text>
+<text x="395" y="318" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">view -f PASS</text>
+<rect x="315" y="344" width="160" height="100" fill="#FBEEE7" rx="8" stroke="#F39B7F" stroke-width="3"/>
+<text x="395" y="386" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">删除</text>
+<text x="395" y="422" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">行消失</text>
+<text x="395" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">位点消失</text>
+<line x1="400" y1="144" x2="635" y2="196" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="635,196 617.3668285782784,199.6154205304749 620.538315550494,185.28273902142365" fill="#6B6B66"/>
+<rect x="530" y="200" width="210" height="320" fill="#FFFFFF" rx="16" stroke="#8491B4" stroke-width="5"/>
+<text x="635" y="246" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">置缺失</text>
+<text x="635" y="284" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">bcftools</text>
+<text x="635" y="318" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">filter -S .</text>
+<rect x="555" y="344" width="160" height="100" fill="#EAEAF2" rx="8" stroke="#8491B4" stroke-width="3"/>
+<text x="635" y="386" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">s05: GT=.</text>
+<text x="635" y="422" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">其余保留</text>
+<text x="635" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">个体留空</text>
+<rect x="50" y="540" width="210" height="58" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="3"/>
+<text x="155" y="579" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">可逆</text>
+<rect x="290" y="540" width="210" height="58" fill="#F6D8D2" rx="10" stroke="#E64B35" stroke-width="3"/>
+<text x="395" y="579" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">证据丢失</text>
+<rect x="530" y="540" width="210" height="58" fill="#EAEAF2" rx="10" stroke="#8491B4" stroke-width="3"/>
+<text x="635" y="579" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle">位点保留</text>
+<text x="400" y="650" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">单倍体缺失 = 单点 .（二倍体 ./.）</text>
+</svg>

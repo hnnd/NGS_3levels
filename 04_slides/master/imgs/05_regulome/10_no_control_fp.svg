@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="58" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">缺对照后果</text>
+<line x1="108" y1="470" x2="704" y2="470" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="108" y1="470" x2="108" y2="178" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="108" y="144" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">假阳性窗口</text>
+<rect x="142" y="460" width="122" height="10" fill="#00A087" rx="6"/>
+<text x="203.0" y="442" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">2</text>
+<text x="203.0" y="518" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">input</text>
+<rect x="316" y="258.05555555555554" width="122" height="211.94444444444443" fill="#E64B35" rx="6"/>
+<text x="377.0" y="240.05555555555554" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">218</text>
+<text x="377.0" y="518" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">self</text>
+<rect x="490" y="190.0" width="122" height="280.0" fill="#E64B35" rx="6"/>
+<text x="551.0" y="172.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">288</text>
+<text x="551.0" y="518" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">λBG</text>
+<text x="400" y="580" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">宽偏差域假阳性激增</text>
+<text x="400" y="638" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">加入对照彻底过滤</text>
+</svg>

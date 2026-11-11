@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Two faces of a high F_ST</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="30" y="48" width="740" height="92" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="110" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">F_ST ≈ 1 − π_within / d_XY</text>
+<rect x="30" y="164" width="355" height="436" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<circle cx="112" cy="240" r="52" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="303" cy="240" r="52" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="86" cy="228" r="7" fill="#3C5488"/>
+<circle cx="114" cy="214" r="7" fill="#3C5488"/>
+<circle cx="136" cy="236" r="7" fill="#3C5488"/>
+<circle cx="98" cy="260" r="7" fill="#3C5488"/>
+<circle cx="128" cy="266" r="7" fill="#3C5488"/>
+<circle cx="78" cy="248" r="7" fill="#3C5488"/>
+<circle cx="146" cy="258" r="7" fill="#3C5488"/>
+<circle cx="277" cy="228" r="7" fill="#3C5488"/>
+<circle cx="305" cy="214" r="7" fill="#3C5488"/>
+<circle cx="327" cy="236" r="7" fill="#3C5488"/>
+<circle cx="289" cy="260" r="7" fill="#3C5488"/>
+<circle cx="319" cy="266" r="7" fill="#3C5488"/>
+<circle cx="269" cy="248" r="7" fill="#3C5488"/>
+<circle cx="337" cy="258" r="7" fill="#3C5488"/>
+<line x1="172" y1="240" x2="243" y2="240" stroke="#00A087" stroke-width="4" stroke-linecap="round"/>
+<polygon points="172,240 184,232.56 184,247.44" fill="#00A087"/>
+<polygon points="243,240 231,232.56 231,247.44" fill="#00A087"/>
+<text x="207" y="320" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">d_XY ↑</text>
+<text x="207" y="480" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">古老隔离群间拉满</text>
+<text x="207" y="534" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">分歧深而群内正常</text>
+<rect x="415" y="164" width="355" height="436" fill="#F6D8D2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<circle cx="497" cy="240" r="52" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="688" cy="240" r="52" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="471" cy="228" r="7" fill="#3C5488"/>
+<circle cx="499" cy="214" r="7" fill="#3C5488"/>
+<circle cx="521" cy="236" r="7" fill="#3C5488"/>
+<circle cx="662" cy="228" r="7" fill="#3C5488"/>
+<circle cx="690" cy="214" r="7" fill="#3C5488"/>
+<circle cx="712" cy="236" r="7" fill="#3C5488"/>
+<circle cx="674" cy="260" r="7" fill="#3C5488"/>
+<circle cx="704" cy="266" r="7" fill="#3C5488"/>
+<circle cx="654" cy="248" r="7" fill="#3C5488"/>
+<circle cx="722" cy="258" r="7" fill="#3C5488"/>
+<line x1="557" y1="240" x2="628" y2="240" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="557,240 569,232.56 569,247.44" fill="#3C5488"/>
+<polygon points="628,240 616,232.56 616,247.44" fill="#3C5488"/>
+<text x="592" y="320" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">d_XY ~</text>
+<text x="592" y="480" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">局域清除多样性塌陷</text>
+<text x="592" y="534" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">机械抬高 ↑</text>
+</svg>

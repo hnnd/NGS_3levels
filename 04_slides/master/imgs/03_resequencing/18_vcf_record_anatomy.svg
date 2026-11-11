@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="46" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">VCF 记录解剖</text>
+<rect x="40" y="74" width="720" height="230" fill="#FFFFFF" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="160" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">位点断言</text>
+<text x="480" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#6B6B66" text-anchor="middle" font-weight="bold">固定前八列</text>
+<rect x="48" y="136" width="92" height="110" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="94.0" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">CHROM</text>
+<text x="94.0" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">chr</text>
+<rect x="146" y="136" width="70" height="110" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="181.0" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">POS</text>
+<text x="181.0" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">12043</text>
+<rect x="222" y="136" width="50" height="110" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="247.0" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">ID</text>
+<text x="247.0" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">.</text>
+<rect x="278" y="136" width="64" height="110" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="310.0" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">REF</text>
+<text x="310.0" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">A</text>
+<rect x="348" y="136" width="64" height="110" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="380.0" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">ALT</text>
+<text x="380.0" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">G</text>
+<rect x="418" y="136" width="80" height="110" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="458.0" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">QUAL</text>
+<text x="458.0" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">91.9</text>
+<rect x="504" y="136" width="110" height="110" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="559.0" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">FILTER</text>
+<text x="559.0" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">PASS</text>
+<rect x="620" y="136" width="80" height="110" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="660.0" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">INFO</text>
+<text x="660.0" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">DP=31</text>
+<text x="400" y="286" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">此处是否有非参考等位？</text>
+<rect x="40" y="336" width="720" height="230" fill="#FFFFFF" rx="16" stroke="#3C8DAD" stroke-width="4"/>
+<text x="180" y="378" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">基因型断言</text>
+<text x="510" y="378" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#6B6B66" text-anchor="middle" font-weight="bold">样本字段</text>
+<rect x="60" y="398" width="190" height="126" fill="#4DBBD5" rx="8"/>
+<text x="155" y="442" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">FORMAT</text>
+<text x="155" y="480" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">GT:AD:DP:</text>
+<text x="155" y="514" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">GQ:PL</text>
+<rect x="280" y="398" width="220" height="120" fill="#FFFFFF" rx="8" stroke="#3C8DAD" stroke-width="4"/>
+<text x="390" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">s01</text>
+<text x="390" y="482" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">0/1  AD=23,8</text>
+<rect x="520" y="398" width="220" height="120" fill="#FFFFFF" rx="8" stroke="#8491B4" stroke-width="4"/>
+<text x="630" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">s02</text>
+<text x="630" y="482" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">0/0  AD=24,0</text>
+<text x="400" y="548" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle">该样本基因型是什么？</text>
+<rect x="40" y="596" width="350" height="76" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<text x="215" y="628" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">闭区间坐标</text>
+<text x="215" y="660" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">1 起始闭区间</text>
+<rect x="420" y="596" width="340" height="76" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<text x="590" y="628" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">QUAL = 位点级</text>
+<text x="590" y="660" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle">GQ = 样本级</text>
+</svg>

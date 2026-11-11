@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="46" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#33332E" text-anchor="middle" font-weight="bold">八项要素</text>
+<polygon points="400.0,300.6 442.00214280248093,317.99785719751907 459.4,360.0 442.00214280248093,402.00214280248093 400.0,419.4 357.99785719751907,402.00214280248093 340.6,360.0 357.99785719751907,317.99785719751907 400.0,300.6" fill="none" stroke="#E9E9E5" stroke-width="3"/>
+<polygon points="400.0,241.2 484.00428560496186,275.99571439503814 518.8,360.0 484.00428560496186,444.00428560496186 400.0,478.8 315.99571439503814,444.00428560496186 281.2,360.0 315.99571439503814,275.99571439503814 400.0,241.2" fill="none" stroke="#E9E9E5" stroke-width="3"/>
+<polygon points="400.0,180.0 527.2792206135786,232.72077938642144 580.0,360.0 527.2792206135786,487.27922061357856 400.0,540.0 272.72077938642144,487.27922061357856 220.0,360.0 272.72077938642144,232.72077938642144 400.0,180.0" fill="none" stroke="#E9E9E5" stroke-width="3"/>
+<polygon points="400.0,207.0 508.1873375215418,251.81266247845824 553.0,360.0 508.1873375215418,468.18733752154174 400.0,513.0 291.81266247845826,468.1873375215418 247.0,360.0 291.8126624784582,251.81266247845824 400.0,207.0" fill="#D8EEE9" stroke="#00A087" stroke-width="5"/>
+<line x1="400" y1="360" x2="400.0" y2="180.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="400.0" y="124.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">登录号</text>
+<text x="400.0" y="154.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">参考登录号</text>
+<circle cx="400.0" cy="207.0" r="8" fill="#00A087"/>
+<line x1="400" y1="360" x2="527.2792206135786" y2="232.72077938642144" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="573.9482681718907" y="205.1227996399748" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">工具版本</text>
+<circle cx="508.1873375215418" cy="251.81266247845824" r="8" fill="#00A087"/>
+<line x1="400" y1="360" x2="580.0" y2="360.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="646.0" y="360.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">倍性</text>
+<text x="646.0" y="390.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">-ploidy 1</text>
+<circle cx="553.0" cy="360.0" r="8" fill="#00A087"/>
+<line x1="400" y1="360" x2="527.2792206135786" y2="487.27922061357856" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="573.9482681718907" y="526.8772003600252" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">去重率</text>
+<text x="573.9482681718907" y="556.8772003600252" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">PERCENT_DUP</text>
+<circle cx="508.1873375215418" cy="468.18733752154174" r="8" fill="#00A087"/>
+<line x1="400" y1="360" x2="400.0" y2="540.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="400.0" y="596.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">可判定区</text>
+<text x="400.0" y="626.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">可判定比例</text>
+<circle cx="400.0" cy="513.0" r="8" fill="#00A087"/>
+<line x1="400" y1="360" x2="272.72077938642144" y2="487.27922061357856" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="226.05173182810933" y="526.8772003600252" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="end" font-weight="bold">计数</text>
+<text x="226.05173182810933" y="556.8772003600252" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">过滤计数</text>
+<circle cx="291.81266247845826" cy="468.1873375215418" r="8" fill="#00A087"/>
+<line x1="400" y1="360" x2="220.0" y2="360.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="154.0" y="372.00000000000006" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">Ts/Tv</text>
+<circle cx="247.0" cy="360.0" r="8" fill="#00A087"/>
+<line x1="400" y1="360" x2="272.72077938642144" y2="232.72077938642144" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="226.05173182810927" y="193.1227996399748" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="end" font-weight="bold">自比对照</text>
+<text x="226.05173182810927" y="223.1227996399748" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">自比核查</text>
+<circle cx="291.8126624784582" cy="251.81266247845824" r="8" fill="#00A087"/>
+<circle cx="400" cy="360" r="54" fill="#FFFFFF" stroke="#00A087" stroke-width="5"/>
+<text x="400" y="358" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="42" fill="#00A087" text-anchor="middle" font-weight="bold">✓</text>
+<text x="400" y="388" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">PASS</text>
+<rect x="40" y="650" width="720" height="44" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="4"/>
+<text x="400" y="682" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">缺任一项 = 不可复核</text>
+</svg>

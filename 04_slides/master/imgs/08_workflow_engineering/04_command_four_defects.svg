@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="20" y="286" width="330" height="140" fill="#3C5488" rx="16"/>
+<text x="175" y="340" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">run_fastp.sh CK_1</text>
+<text x="175" y="390" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#D6EFF4" text-anchor="middle">bwa mem | sort</text>
+<rect x="386" y="66" width="386" height="118" fill="#FFFFFF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="579" y="120" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">路径硬编码：换机失效</text>
+<text x="579" y="164" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">/data/old/ref.fa</text>
+<line x1="348" y1="356" x2="380" y2="125" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="380,125 384.45778180846315,140.3664628769322 371.5328727832656,138.57599928902604" fill="#4DBBD5"/>
+<rect x="386" y="216" width="386" height="118" fill="#FFFFFF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="579" y="270" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">样本名写死：批量易错</text>
+<text x="579" y="314" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">for s in CK_1 CK_2</text>
+<line x1="348" y1="356" x2="380" y2="275" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="380,275 380.6999044215406,290.9846843509876 368.56427495615156,286.19036159922894" fill="#4DBBD5"/>
+<rect x="386" y="366" width="386" height="118" fill="#FFFFFF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="579" y="420" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">阈值藏匿：不可审计</text>
+<text x="579" y="464" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">--qual 20</text>
+<line x1="348" y1="356" x2="380" y2="425" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="380,425 367.9348030391685,414.491383426143 379.7720985743258,409.0016231779541" fill="#4DBBD5"/>
+<rect x="386" y="516" width="386" height="118" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="4"/>
+<text x="579" y="570" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">下游空跑</text>
+<text x="579" y="614" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">exit 0</text>
+<line x1="348" y1="356" x2="380" y2="575" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="380,575 371.432104665695,561.4873699991306 384.3433353315114,559.6007974817511" fill="#4DBBD5"/>
+</svg>

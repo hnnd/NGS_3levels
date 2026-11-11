@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Early QC fingerprints</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="56" width="220" height="400" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="150" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">ZERO</text>
+<rect x="290" y="56" width="220" height="400" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">DROP</text>
+<rect x="540" y="56" width="220" height="400" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="650" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">BRIDGE</text>
+<line x1="62" y1="316" x2="238" y2="316" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<line x1="62" y1="306" x2="238" y2="306" stroke="#3C5488" stroke-width="6" stroke-linecap="butt"/>
+<text x="150" y="376" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">mt = 0</text>
+<line x1="196" y1="222" x2="168" y2="292" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<polygon points="168,292 167.4472330017678,278.0109168046771 178.0479231334253,282.2511928573401" fill="#E64B35"/>
+<rect x="312" y="220" width="36" height="110" fill="#F39B7F"/>
+<rect x="364" y="234" width="36" height="96" fill="#F39B7F"/>
+<rect x="416" y="246" width="36" height="84" fill="#F39B7F"/>
+<line x1="304" y1="330" x2="500" y2="330" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<line x1="470" y1="158" x2="470" y2="200" stroke="#F39B7F" stroke-width="5" stroke-linecap="round"/>
+<polygon points="470,200 464.29135365716604,187.21675483562768 475.70864634283396,187.21675483562768" fill="#F39B7F"/>
+<text x="400" y="376" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">genes ↓</text>
+<circle cx="613.4373795932063" cy="155.85565325504157" r="3.6310095814988017" fill="#4DBBD5"/>
+<circle cx="584.8300296797095" cy="170.68133371098347" r="3.5431394558399916" fill="#4DBBD5"/>
+<circle cx="606.9755484555734" cy="150.75880447417836" r="4.555842031724751" fill="#4DBBD5"/>
+<circle cx="586.1173944859202" cy="174.26960780871894" r="4.706228397786617" fill="#4DBBD5"/>
+<circle cx="602.4639989721164" cy="190.11120631210736" r="4.831965289078653" fill="#4DBBD5"/>
+<circle cx="584.7009333181858" cy="175.72370658832835" r="3.6689110714942217" fill="#4DBBD5"/>
+<circle cx="585.6856072354425" cy="169.8613146608578" r="3.5322621250525117" fill="#4DBBD5"/>
+<circle cx="587.1119648255907" cy="152.80223918767604" r="3.9890579842031" fill="#4DBBD5"/>
+<circle cx="609.6094313158716" cy="154.98468669025698" r="3.0183793110772967" fill="#4DBBD5"/>
+<circle cx="606.4269094221966" cy="166.8954478208744" r="4.812112694606185" fill="#4DBBD5"/>
+<circle cx="608.5658111782872" cy="174.702151857555" r="4.156006244011223" fill="#4DBBD5"/>
+<circle cx="600.6971712904168" cy="150.07703090905335" r="4.266210526227951" fill="#4DBBD5"/>
+<circle cx="580.0783967868532" cy="164.33444864481623" r="3.604799567721784" fill="#4DBBD5"/>
+<circle cx="581.2678771528665" cy="160.46967971912704" r="4.930722573772073" fill="#4DBBD5"/>
+<circle cx="646.3941103370381" cy="209.69592249274928" r="3.834719550795853" fill="#4DBBD5"/>
+<circle cx="668.902801004458" cy="191.37175704359024" r="4.636527672410011" fill="#4DBBD5"/>
+<circle cx="653.5434868286005" cy="192.6544162663819" r="3.3173379143700004" fill="#4DBBD5"/>
+<circle cx="672.0368182422196" cy="228.2421560144075" r="4.081452989950776" fill="#4DBBD5"/>
+<circle cx="642.9652099929901" cy="201.41648677986643" r="4.415796936489642" fill="#4DBBD5"/>
+<circle cx="646.1063846120969" cy="197.01579674994636" r="3.847556669265032" fill="#4DBBD5"/>
+<circle cx="664.5298042179187" cy="189.34445018849098" r="4.459383311681449" fill="#4DBBD5"/>
+<circle cx="646.296814784411" cy="228.81961129363276" r="3.047327099367976" fill="#4DBBD5"/>
+<circle cx="672.945766550304" cy="191.20129518277378" r="3.532494475133717" fill="#4DBBD5"/>
+<circle cx="645.2351391192375" cy="200.7338423949892" r="4.625523291528225" fill="#4DBBD5"/>
+<circle cx="651.3070523205274" cy="196.88792673428281" r="3.8185183024033904" fill="#4DBBD5"/>
+<circle cx="640.4923552607903" cy="211.07557383977883" r="3.343588026240468" fill="#4DBBD5"/>
+<circle cx="649.2234941334515" cy="213.78447065349582" r="3.114550211466849" fill="#4DBBD5"/>
+<circle cx="649.6822453696788" cy="232.58347146112314" r="4.748130824416876" fill="#4DBBD5"/>
+<circle cx="590.92126062799" cy="273.98667412208357" r="3.2550271591171622" fill="#4DBBD5"/>
+<circle cx="611.6751228930124" cy="254.44162985329197" r="4.204146230593324" fill="#4DBBD5"/>
+<circle cx="582.681509140645" cy="271.8669082023464" r="4.630902887322009" fill="#4DBBD5"/>
+<circle cx="584.8244578167117" cy="247.63236694583662" r="3.3501541800796986" fill="#4DBBD5"/>
+<circle cx="608.7871942494305" cy="245.23032153219444" r="4.251127007417381" fill="#4DBBD5"/>
+<circle cx="611.5962370121437" cy="263.49776459123655" r="4.748993156477809" fill="#4DBBD5"/>
+<circle cx="597.1711307458603" cy="234.14153770567253" r="3.6578911440446973" fill="#4DBBD5"/>
+<circle cx="570.7570003985699" cy="255.74465836593112" r="3.9249204620718956" fill="#4DBBD5"/>
+<circle cx="599.1941305616194" cy="266.49994606721094" r="4.017523846589029" fill="#4DBBD5"/>
+<circle cx="579.8113220615962" cy="261.64014745652446" r="4.5203908402472734" fill="#4DBBD5"/>
+<circle cx="590.6694033122726" cy="261.8459139469217" r="3.93403581622988" fill="#4DBBD5"/>
+<circle cx="588.5081014999614" cy="268.6544614253152" r="3.352430071681738" fill="#4DBBD5"/>
+<circle cx="581.6588788632614" cy="259.4590129674269" r="4.30117831658572" fill="#4DBBD5"/>
+<circle cx="574.0930377047275" cy="267.69920756168284" r="3.002394801005721" fill="#4DBBD5"/>
+<polyline points="612,190 644,204 662,212 646,234 616,248" fill="none" stroke="#3C8DAD" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="650" y="376" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">bridge</text>
+<rect x="28.0" y="500" width="744" height="128" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="550" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">前缀失配指标全零，三端截断基因骤降，</text>
+<text x="400.0" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">游离污染粗桥连簇。查行名与背景。</text>
+</svg>

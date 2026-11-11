@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">IGV 窗口怎么读：每条轨道各看什么</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">参考序列 ｜ 覆盖度 ｜ 比对 —— 依据 07_annotation_igv_lecture.md ④4.3、⑤5.5–5.6</text>
+  <!-- 图例 -->
+  <rect x="840" y="42" width="12" height="12" fill="#3C5488"/>
+  <text x="860" y="52" font-size="12" fill="#33332E">注释特征（GFF 轨道）</text>
+  <rect x="840" y="59" width="12" height="12" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.8"/>
+  <text x="860" y="69" font-size="12" fill="#33332E">read 横条：与参考一致</text>
+  <rect x="840" y="76" width="12" height="12" fill="#FFFFFF" stroke="#6B6B66" stroke-width="1.2"/>
+  <text x="860" y="86" font-size="12" fill="#33332E">白色空心：MAPQ 0 不可信</text>
+  <rect x="840" y="93" width="12" height="12" fill="#8491B4"/>
+  <text x="860" y="103" font-size="12" fill="#33332E">紫色：插入 / 插入序列 I</text>
+  <rect x="840" y="110" width="12" height="12" fill="#E64B35"/>
+  <text x="860" y="120" font-size="12" fill="#33332E">红色：需要警惕的信号</text>
+
+  <!-- ============ 左：模拟 IGV 窗口 ============ -->
+  <rect x="48" y="124" width="736" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <!-- 窗口顶栏 -->
+  <rect x="48" y="124" width="736" height="30" rx="10" fill="#FAFAF7"/>
+  <line x1="48" y1="154" x2="784" y2="154" stroke="#E9E9E5"/>
+  <text x="64" y="144" font-size="11" font-family="Noto Sans Mono, DejaVu Sans Mono, monospace" fill="#33332E">contig_1:12,345–13,456</text>
+  <text x="768" y="144" font-size="10" fill="#6B6B66" text-anchor="end">位置框输入 gyrB 可直接跳转</text>
+
+  <!-- 变异位点贯穿虚线 -->
+  <line x1="452" y1="210" x2="452" y2="618" stroke="#6B6B66" stroke-width="1" stroke-dasharray="2 3"/>
+
+  <!-- 轨道 A：注释 -->
+  <text x="64" y="178" font-size="11" font-weight="bold" fill="#3C5488">① 注释轨道</text>
+  <text x="64" y="194" font-size="9.5" fill="#6B6B66">mygenome.igv.gff</text>
+  <path d="M 240 170 L 456 170 L 470 184 L 456 198 L 240 198 Z" fill="#3C5488"/>
+  <text x="352" y="188" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">gyrB</text>
+  <rect x="640" y="178" width="34" height="12" fill="#3C5488"/>
+  <text x="657" y="174" font-size="9" fill="#3C5488" text-anchor="middle">tRNA</text>
+  <line x1="48" y1="210" x2="784" y2="210" stroke="#E9E9E5"/>
+
+  <!-- 轨道 B：覆盖度 -->
+  <text x="64" y="236" font-size="11" font-weight="bold" fill="#33332E">② 覆盖度轨道</text>
+  <text x="64" y="252" font-size="9.5" fill="#6B6B66">柱高 = 测序深度</text>
+  <text x="300" y="228" font-size="9.5" fill="#00A087">深度均匀 ≈ 正常</text>
+  <text x="480" y="226" font-size="9.5" fill="#E64B35">彩色分层 = 部分 reads 与参考不一致（可疑变异）</text>
+  <line x1="452" y1="230" x2="452" y2="256" stroke="#E64B35" stroke-width="1"/>
+  <rect x="240" y="250" width="8" height="66" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="253" y="246" width="8" height="70" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="266" y="252" width="8" height="64" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="279" y="244" width="8" height="72" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="292" y="248" width="8" height="68" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="305" y="242" width="8" height="74" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="318" y="254" width="8" height="62" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="331" y="246" width="8" height="70" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="344" y="250" width="8" height="66" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="357" y="245" width="8" height="71" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="370" y="247" width="8" height="69" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="383" y="243" width="8" height="73" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="396" y="251" width="8" height="65" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="409" y="246" width="8" height="70" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="422" y="249" width="8" height="67" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="435" y="244" width="8" height="72" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="448" y="274" width="8" height="42" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="448" y="254" width="8" height="20" fill="#E64B35"/>
+  <rect x="461" y="252" width="8" height="64" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="474" y="245" width="8" height="71" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="487" y="248" width="8" height="68" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="500" y="244" width="8" height="72" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="513" y="250" width="8" height="66" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="526" y="246" width="8" height="70" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="539" y="242" width="8" height="74" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="552" y="253" width="8" height="63" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="565" y="247" width="8" height="69" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="578" y="245" width="8" height="71" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="591" y="249" width="8" height="67" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="604" y="246" width="8" height="70" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="617" y="312" width="8" height="4" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="630" y="310" width="8" height="6" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="643" y="308" width="8" height="8" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="656" y="311" width="8" height="5" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="669" y="248" width="8" height="68" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="682" y="244" width="8" height="72" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="695" y="250" width="8" height="66" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="708" y="246" width="8" height="70" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="721" y="252" width="8" height="64" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="734" y="245" width="8" height="71" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="747" y="247" width="8" height="69" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <rect x="760" y="250" width="8" height="66" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <text x="636" y="303" font-size="9.5" fill="#E64B35" text-anchor="middle">覆盖度骤降：嵌合区 / 假 ORF？</text>
+  <line x1="48" y1="330" x2="784" y2="330" stroke="#E9E9E5"/>
+
+  <!-- 轨道 C：比对 -->
+  <text x="64" y="356" font-size="11" font-weight="bold" fill="#33332E">③ 比对轨道</text>
+  <text x="64" y="372" font-size="9.5" fill="#6B6B66">每条 read 一个横条</text>
+  <!-- 左侧迷你图例 -->
+  <rect x="64" y="396" width="18" height="9" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <text x="90" y="405" font-size="10.5" fill="#33332E">灰条 = 一致</text>
+  <rect x="64" y="420" width="18" height="9" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.6"/>
+  <text x="70" y="428" font-size="9" font-weight="bold" fill="#8491B4">T</text>
+  <text x="90" y="429" font-size="10.5" fill="#33332E">彩色字母 = 错配</text>
+  <text x="64" y="453" font-size="11" font-weight="bold" fill="#8491B4">I</text>
+  <text x="90" y="453" font-size="10.5" fill="#33332E">紫色 I = 插入</text>
+  <line x1="64" y1="472" x2="82" y2="472" stroke="#33332E" stroke-width="2.5"/>
+  <text x="90" y="477" font-size="10.5" fill="#33332E">黑色横线 = 缺失</text>
+  <rect x="64" y="494" width="18" height="9" fill="#FFFFFF" stroke="#6B6B66" stroke-width="1.2"/>
+  <text x="90" y="503" font-size="10.5" fill="#33332E">白色空心 = MAPQ 0</text>
+  <text x="64" y="526" font-size="9.5" fill="#6B6B66">位置不可信：</text>
+  <text x="64" y="540" font-size="9.5" fill="#6B6B66">先怀疑重复区</text>
+  <!-- read 横条 10 行 -->
+  <rect x="240" y="386" width="520" height="10" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.5"/>
+  <rect x="246" y="404" width="514" height="10" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.5"/>
+  <rect x="445" y="401" width="14" height="16" fill="#FFFFFF"/>
+  <text x="452" y="413" font-size="10.5" font-weight="bold" fill="#8491B4" text-anchor="middle">T</text>
+  <rect x="250" y="422" width="292" height="10" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.5"/>
+  <rect x="572" y="422" width="188" height="10" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.5"/>
+  <line x1="542" y1="427" x2="572" y2="427" stroke="#33332E" stroke-width="2.5"/>
+  <rect x="244" y="440" width="516" height="10" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.5"/>
+  <rect x="445" y="429" width="14" height="14" fill="#FFFFFF"/>
+  <text x="452" y="440" font-size="11" font-weight="bold" fill="#8491B4" text-anchor="middle">I</text>
+  <rect x="240" y="458" width="520" height="10" fill="#FFFFFF" stroke="#6B6B66" stroke-width="1.2"/>
+  <rect x="252" y="476" width="508" height="10" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.5"/>
+  <rect x="248" y="494" width="512" height="10" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.5"/>
+  <rect x="445" y="491" width="14" height="16" fill="#FFFFFF"/>
+  <text x="452" y="503" font-size="10.5" font-weight="bold" fill="#8491B4" text-anchor="middle">T</text>
+  <rect x="240" y="512" width="520" height="10" fill="#FFFFFF" stroke="#6B6B66" stroke-width="1.2"/>
+  <rect x="256" y="530" width="504" height="10" fill="#E9E9E5" stroke="#6B6B66" stroke-width="0.5"/>
+  <text x="64" y="556" font-size="9.5" fill="#6B6B66">错配、插入、缺失只在该出现的</text>
+  <text x="64" y="570" font-size="9.5" fill="#6B6B66">坐标上对齐——注意虚线贯穿三层</text>
+  <line x1="48" y1="580" x2="784" y2="580" stroke="#E9E9E5"/>
+
+  <!-- 轨道 D：参考序列 -->
+  <text x="64" y="602" font-size="11" font-weight="bold" fill="#33332E">④ 参考序列层</text>
+  <text x="64" y="618" font-size="9.5" fill="#6B6B66">放大到 100 bp 以内</text>
+  <text x="64" y="632" font-size="9.5" fill="#6B6B66">才能逐碱基看</text>
+  <text x="240" y="612" font-size="11" font-family="Noto Sans Mono, DejaVu Sans Mono, monospace" fill="#6B6B66" letter-spacing="11">CATTGCCATGGTAACCTGACGAT</text>
+  <text x="748" y="632" font-size="9.5" fill="#6B6B66" text-anchor="end">（IGV 碱基配色与本图不同）</text>
+  <!-- 窗口内结语 -->
+  <text x="64" y="666" font-size="11" fill="#33332E">同一坐标、三层对齐：注释说有基因 / reads 支持吗 / 覆盖度正常吗——这就是人工核查。</text>
+
+  <!-- ============ 右：读法卡 ============ -->
+  <rect x="816" y="124" width="336" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="836" y="156" font-size="15" font-weight="bold" fill="#3C5488">读法：三层 + 一条注释轨道</text>
+  <line x1="836" y1="168" x2="1132" y2="168" stroke="#E9E9E5"/>
+
+  <text x="836" y="194" font-size="12.5" font-weight="bold" fill="#3C5488">① 参考序列层</text>
+  <text x="836" y="216" font-size="11" fill="#33332E">放大到 100 bp 以内才能逐碱基读；</text>
+  <text x="836" y="234" font-size="11" fill="#33332E">IGV 的碱基配色与本课程图例不同。</text>
+  <line x1="836" y1="252" x2="1132" y2="252" stroke="#E9E9E5"/>
+
+  <text x="836" y="278" font-size="12.5" font-weight="bold" fill="#3C5488">② 覆盖度轨道</text>
+  <text x="836" y="300" font-size="11" fill="#33332E">柱高 = 测序深度，深度应与全局相近；</text>
+  <text x="836" y="318" font-size="11" fill="#33332E">柱内出现彩色分层 = 有相当比例 reads</text>
+  <text x="836" y="336" font-size="11" fill="#33332E">与参考不一致（可能是变异）。</text>
+  <line x1="836" y1="354" x2="1132" y2="354" stroke="#E9E9E5"/>
+
+  <text x="836" y="380" font-size="12.5" font-weight="bold" fill="#3C5488">③ 比对轨道</text>
+  <text x="836" y="402" font-size="11" fill="#33332E">灰 = 一致；彩色字母 = 错配；</text>
+  <text x="836" y="420" font-size="11" fill="#33332E">紫 I = 插入（点开看序列）；</text>
+  <text x="836" y="438" font-size="11" fill="#33332E">黑色横线 = 缺失；白色空心 = MAPQ 0。</text>
+  <text x="836" y="456" font-size="11" fill="#33332E">一堆白 read 支撑的"变异"不能采信。</text>
+  <line x1="836" y1="474" x2="1132" y2="474" stroke="#E9E9E5"/>
+
+  <text x="836" y="500" font-size="12.5" font-weight="bold" fill="#3C5488">④ 操作要点</text>
+  <text x="836" y="522" font-size="11" fill="#33332E">看不到 reads：一直放大（窗口 &lt; 30 kb</text>
+  <text x="836" y="540" font-size="11" fill="#33332E">才画比对）；截图用 File → Save PNG</text>
+  <text x="836" y="558" font-size="11" fill="#33332E">Image，先移除用不到的轨道。</text>
+  <line x1="836" y1="576" x2="1132" y2="576" stroke="#E9E9E5"/>
+
+  <text x="836" y="602" font-size="11" font-weight="bold" fill="#3C5488">细菌里三个典型场景</text>
+  <text x="836" y="624" font-size="10.5" fill="#33332E">纯合变异 ≈ 100% 可信；出现"杂合"是</text>
+  <text x="836" y="642" font-size="10.5" fill="#33332E">警报（混合培养 / 株系混杂 / 重复塌缩）；</text>
+  <text x="836" y="660" font-size="10.5" fill="#33332E">长读长里散在小 indel 多为测序错误。</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

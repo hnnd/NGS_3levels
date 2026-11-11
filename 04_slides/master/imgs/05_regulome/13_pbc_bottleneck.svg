@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="58" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">瓶颈系数</text>
+<line x1="74" y1="268" x2="726" y2="268" stroke="#3C5488" stroke-width="6" stroke-linecap="butt"/>
+<rect x="86" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="129" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="172" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="215" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="258" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="301" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="344" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="387" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="430" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="473" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="516" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="559" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="602" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="645" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="688" y="238" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="86" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="129" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="172" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="215" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="258" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="301" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="344" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="387" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="430" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="473" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="516" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="559" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="602" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="645" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="688" y="212" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="86" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="129" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="172" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="215" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="258" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="301" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="344" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="387" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="430" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="473" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="516" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="559" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="602" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="645" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="688" y="186" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="86" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="129" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="172" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="215" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="258" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="301" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="344" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="387" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="430" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="473" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="516" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="559" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="602" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="645" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="688" y="160" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="86" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="129" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="172" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="215" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="258" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="301" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="344" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="387" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="430" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="473" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="516" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="559" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="602" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="645" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="688" y="134" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="86" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="129" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="172" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="215" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="258" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="301" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="344" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="387" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="430" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="473" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="516" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="559" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="602" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="645" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="688" y="108" width="8" height="16" fill="#00A087" rx="2"/>
+<rect x="100" y="228" width="9" height="40" fill="#F39B7F" rx="3"/>
+<rect x="112" y="228" width="9" height="40" fill="#F39B7F" rx="3"/>
+<line x1="100" y1="286" x2="121" y2="286" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<rect x="228" y="228" width="9" height="40" fill="#F39B7F" rx="3"/>
+<rect x="240" y="228" width="9" height="40" fill="#F39B7F" rx="3"/>
+<line x1="228" y1="286" x2="249" y2="286" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<rect x="356" y="228" width="9" height="40" fill="#F39B7F" rx="3"/>
+<rect x="368" y="228" width="9" height="40" fill="#F39B7F" rx="3"/>
+<line x1="356" y1="286" x2="377" y2="286" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<rect x="484" y="228" width="9" height="40" fill="#F39B7F" rx="3"/>
+<rect x="496" y="228" width="9" height="40" fill="#F39B7F" rx="3"/>
+<line x1="484" y1="286" x2="505" y2="286" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<rect x="612" y="228" width="9" height="40" fill="#F39B7F" rx="3"/>
+<rect x="624" y="228" width="9" height="40" fill="#F39B7F" rx="3"/>
+<line x1="612" y1="286" x2="633" y2="286" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<rect x="85.750625" y="440.08" width="240.49875" height="59.84" fill="#FFFFFF" rx="10" stroke="#00A087" stroke-width="4"/>
+<text x="206" y="480.56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">90/95 = 0.947</text>
+<rect x="480.088125" y="440.08" width="175.82375000000002" height="59.84" fill="#FFFFFF" rx="10" stroke="#F39B7F" stroke-width="4"/>
+<text x="568" y="480.56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">90/5 = 18</text>
+<text x="400" y="570" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">单次读取位置比非冗余位置</text>
+<text x="400" y="626" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">衡量文库复杂度</text>
+</svg>

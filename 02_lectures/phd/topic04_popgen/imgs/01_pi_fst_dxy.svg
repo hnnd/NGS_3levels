@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">π、d<tspan dy="7" font-size="18">XY</tspan><tspan dy="-7">、F</tspan><tspan dy="7" font-size="18">ST</tspan><tspan dy="-7">：一个恒等式串起三个量</tspan></text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">群内变异 ｜ 群间差异 ｜ 标准化分化 —— 依据 04_popgen_lecture.md ④4.8</text>
+  <!-- 图例 -->
+  <rect x="940" y="42" width="12" height="12" fill="#3C5488"/>
+  <text x="960" y="53" font-size="12" fill="#33332E">群体 A（结构）</text>
+  <rect x="1064" y="42" width="12" height="12" fill="#F39B7F"/>
+  <text x="1084" y="53" font-size="12" fill="#33332E">群体 B</text>
+  <rect x="940" y="64" width="12" height="12" fill="#4DBBD5"/>
+  <text x="960" y="75" font-size="12" fill="#33332E">序列</text>
+  <rect x="1010" y="64" width="12" height="12" fill="#E64B35"/>
+  <text x="1030" y="75" font-size="12" fill="#33332E">解读纪律 / 易错点</text>
+
+  <!-- ============ 左面板：π ============ -->
+  <rect x="48" y="120" width="530" height="330" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="16" font-weight="bold" fill="#3C5488">π：群内两条序列的平均差异</text>
+  <text x="72" y="173" font-size="12" fill="#6B6B66">任取两条、数每位点差异再平均——管“群体内部还剩多少变异”</text>
+  <line x1="72" y1="187" x2="554" y2="187" stroke="#E9E9E5"/>
+
+  <rect x="72" y="202" width="225" height="212" rx="8" fill="none" stroke="#3C5488" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="184" y="226" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">群体 A</text>
+  <line x1="92" y1="262" x2="278" y2="262" stroke="#4DBBD5" stroke-width="3"/>
+  <line x1="92" y1="292" x2="278" y2="292" stroke="#4DBBD5" stroke-width="3"/>
+  <rect x="137" y="255" width="6" height="14" fill="#3C5488"/>
+  <rect x="137" y="285" width="6" height="14" fill="#3C5488"/>
+  <rect x="214" y="255" width="6" height="14" fill="#3C5488"/>
+  <rect x="214" y="285" width="6" height="14" fill="#3C5488"/>
+  <text x="184" y="336" font-size="12" fill="#33332E" text-anchor="middle">这对序列只差 2 个位点（示意）</text>
+  <text x="166" y="376" font-size="14" font-weight="bold" fill="#3C5488">π<tspan dy="4" font-size="10">A</tspan><tspan dy="-4"> 低</tspan></text>
+
+  <rect x="326" y="202" width="228" height="212" rx="8" fill="none" stroke="#F39B7F" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="440" y="226" font-size="13" font-weight="bold" fill="#F39B7F" text-anchor="middle">群体 B</text>
+  <line x1="346" y1="262" x2="534" y2="262" stroke="#4DBBD5" stroke-width="3"/>
+  <line x1="346" y1="292" x2="534" y2="292" stroke="#4DBBD5" stroke-width="3"/>
+  <rect x="394" y="255" width="6" height="14" fill="#3C5488"/>
+  <rect x="394" y="285" width="6" height="14" fill="#3C5488"/>
+  <rect x="468" y="255" width="6" height="14" fill="#3C5488"/>
+  <rect x="468" y="285" width="6" height="14" fill="#3C5488"/>
+  <text x="440" y="336" font-size="12" fill="#33332E" text-anchor="middle">这对也只差 2 个位点（示意）</text>
+  <text x="422" y="376" font-size="14" font-weight="bold" fill="#F39B7F">π<tspan dy="4" font-size="10">B</tspan><tspan dy="-4"> 低</tspan></text>
+
+  <text x="72" y="438" font-size="11.5" fill="#6B6B66">π 由中间频率等位基因主导；选择清除可在局部把它压塌（§4.1 / §4.6）</text>
+
+  <!-- ============ 右面板：dXY 与恒等式 ============ -->
+  <rect x="606" y="120" width="546" height="330" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="630" y="152" font-size="16" font-weight="bold" fill="#3C5488">d<tspan dy="4" font-size="11">XY</tspan><tspan dy="-4">：两群各取一条的平均差异</tspan></text>
+  <text x="630" y="173" font-size="12" fill="#6B6B66">回答“两边分开多远”——跨群配对通常差异更多</text>
+  <line x1="630" y1="187" x2="1128" y2="187" stroke="#E9E9E5"/>
+
+  <text x="630" y="246" font-size="11" fill="#3C5488">从群体 A 取一条</text>
+  <line x1="630" y1="262" x2="1060" y2="262" stroke="#4DBBD5" stroke-width="3"/>
+  <line x1="630" y1="292" x2="1060" y2="292" stroke="#4DBBD5" stroke-width="3"/>
+  <text x="630" y="316" font-size="11" fill="#F39B7F">从群体 B 取一条</text>
+  <rect x="677" y="255" width="6" height="14" fill="#3C5488"/>
+  <rect x="677" y="285" width="6" height="14" fill="#3C5488"/>
+  <rect x="739" y="255" width="6" height="14" fill="#3C5488"/>
+  <rect x="739" y="285" width="6" height="14" fill="#3C5488"/>
+  <rect x="801" y="255" width="6" height="14" fill="#3C5488"/>
+  <rect x="801" y="285" width="6" height="14" fill="#3C5488"/>
+  <rect x="863" y="255" width="6" height="14" fill="#3C5488"/>
+  <rect x="863" y="285" width="6" height="14" fill="#3C5488"/>
+  <rect x="941" y="255" width="6" height="14" fill="#3C5488"/>
+  <rect x="941" y="285" width="6" height="14" fill="#3C5488"/>
+  <rect x="1013" y="255" width="6" height="14" fill="#3C5488"/>
+  <rect x="1013" y="285" width="6" height="14" fill="#3C5488"/>
+  <text x="630" y="342" font-size="12.5" fill="#33332E">跨群这一对就差 6 个位点：d<tspan dy="4" font-size="9">XY</tspan><tspan dy="-4"> 量的是“分开了多远”</tspan></text>
+
+  <rect x="630" y="358" width="498" height="74" rx="6" fill="#FAFAF7"/>
+  <text x="770" y="390" font-size="17" font-weight="bold" fill="#3C5488">F<tspan dy="5" font-size="12">ST</tspan><tspan dy="-5"> ≈ 1 − 群内平均 π / d</tspan><tspan dy="5" font-size="12">XY</tspan></text>
+  <text x="879" y="416" font-size="11" fill="#6B6B66" text-anchor="middle">Hudson 窗口估计量（Bhatia 2013）：分子=还剩多少群内变异，分母=分开了多远</text>
+
+  <text x="630" y="438" font-size="11.5" fill="#6B6B66">注意：π 被选择压低时 F<tspan dy="4" font-size="9">ST</tspan><tspan dy="-4"> 被机械抬高——π 比值与 F</tspan><tspan dy="4" font-size="9">ST</tspan><tspan dy="-4"> 并不独立</tspan></text>
+
+  <!-- ============ 底部：解读纪律 ============ -->
+  <rect x="48" y="480" width="4" height="200" rx="2" fill="#E64B35"/>
+  <rect x="48" y="480" width="1104" height="200" rx="6" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="76" y="510" font-size="13.5" font-weight="bold" fill="#E64B35">解读纪律：F<tspan dy="4" font-size="10">ST</tspan><tspan dy="-4"> 高有两副面孔——只报 F</tspan><tspan dy="4" font-size="10">ST</tspan><tspan dy="-4">，这两种历史分不开（§4.8）</tspan></text>
+
+  <rect x="76" y="528" width="500" height="104" rx="6" fill="#FAFAF7"/>
+  <text x="96" y="556" font-size="13" font-weight="bold" fill="#3C5488">面孔一：π 低 · d<tspan dy="4" font-size="10">XY</tspan><tspan dy="-4"> 高</tspan></text>
+  <text x="96" y="582" font-size="12.5" fill="#33332E">老分歧：隔离很久，群内变异被摊平，</text>
+  <text x="96" y="606" font-size="12.5" fill="#33332E">群间却拉得很远——分化是真的深</text>
+
+  <rect x="600" y="528" width="528" height="104" rx="6" fill="#FAFAF7"/>
+  <text x="620" y="556" font-size="13" font-weight="bold" fill="#3C5488">面孔二：π 低 · d<tspan dy="4" font-size="10">XY</tspan><tspan dy="-4"> 低</tspan></text>
+  <text x="620" y="582" font-size="12.5" fill="#33332E">共享一次瓶颈：两边一起丢了变异，其实</text>
+  <text x="620" y="606" font-size="12.5" fill="#33332E">并没有分开多远——F<tspan dy="4" font-size="10">ST</tspan><tspan dy="-4"> 却照样高</tspan></text>
+
+  <text x="76" y="660" font-size="12" fill="#33332E">两条纪律都从这个恒等式掉出来：F<tspan dy="4" font-size="9">ST</tspan><tspan dy="-4"> 只给出比值，π 与 d</tspan><tspan dy="4" font-size="9">XY</tspan><tspan dy="-4"> 才告诉你比值为什么高。</tspan></text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="740" font-size="15" font-weight="bold" fill="#3C5488">先问 d<tspan dy="5" font-size="11">XY</tspan><tspan dy="-5"> 有多大，再谈 F</tspan><tspan dy="5" font-size="11">ST</tspan><tspan dy="-5">——比值高的原因，藏在分子和分母里。</tspan></text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

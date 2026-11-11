@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">R 语言与 tidyverse 演进：从教学工具到可重复报告</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">S → R → CRAN → ggplot2 → tidyverse → Quarto —— 依据 02_r_visualization_lecture.md ④4.8–4.9 · ⑪文献</text>
+  <!-- 图例 -->
+  <rect x="1006" y="46" width="12" height="12" fill="#E64B35"/>
+  <text x="1026" y="57" font-size="12" fill="#33332E">本讲主角事件</text>
+
+  <!-- ============ 时间轴 ============ -->
+  <line x1="90" y1="430" x2="1118" y2="430" stroke="#3C5488" stroke-width="2.5"/>
+  <polygon points="1130,430 1116,424 1116,436" fill="#3C5488"/>
+
+  <!-- 1976 上 -->
+  <line x1="120" y1="418" x2="120" y2="404" stroke="#8491B4" stroke-width="1.5"/>
+  <circle cx="120" cy="430" r="6.5" fill="#8491B4"/>
+  <text x="120" y="396" font-size="14" font-weight="bold" fill="#6D7BA6" text-anchor="middle">1976</text>
+  <text x="120" y="374" font-size="11.5" fill="#33332E" text-anchor="middle">S 诞生 · 贝尔实验室</text>
+  <text x="120" y="356" font-size="11" fill="#6B6B66" text-anchor="middle">John Chambers 等，R 的前身</text>
+
+  <!-- 1993 下 -->
+  <line x1="270" y1="442" x2="270" y2="456" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="270" cy="430" r="6.5" fill="#4DBBD5"/>
+  <text x="270" y="480" font-size="14" font-weight="bold" fill="#3C8DAD" text-anchor="middle">1993</text>
+  <text x="270" y="502" font-size="11.5" fill="#33332E" text-anchor="middle">R 诞生 · 奥克兰大学</text>
+  <text x="270" y="522" font-size="11" fill="#6B6B66" text-anchor="middle">Ross Ihaka 与 Robert Gentleman</text>
+
+  <!-- 1997 上 -->
+  <line x1="400" y1="418" x2="400" y2="404" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="400" cy="430" r="6.5" fill="#3C5488"/>
+  <text x="400" y="396" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">1997</text>
+  <text x="400" y="374" font-size="11.5" fill="#33332E" text-anchor="middle">CRAN 上线；R 加入 GNU</text>
+  <text x="400" y="356" font-size="11" fill="#6B6B66" text-anchor="middle">包分发与自由软件身份</text>
+
+  <!-- 2000 下 -->
+  <line x1="520" y1="442" x2="520" y2="456" stroke="#00A087" stroke-width="1.5"/>
+  <circle cx="520" cy="430" r="6.5" fill="#00A087"/>
+  <text x="520" y="480" font-size="14" font-weight="bold" fill="#00A087" text-anchor="middle">2000</text>
+  <text x="520" y="502" font-size="11.5" fill="#33332E" text-anchor="middle">R 1.0.0 正式发布</text>
+  <text x="520" y="522" font-size="11" fill="#6B6B66" text-anchor="middle">版本 1.0 = 稳定可用的门槛</text>
+
+  <!-- 2007 上：本讲主角 -->
+  <line x1="660" y1="418" x2="660" y2="404" stroke="#E64B35" stroke-width="1.5"/>
+  <circle cx="660" cy="430" r="7.5" fill="#E64B35"/>
+  <text x="660" y="396" font-size="14" font-weight="bold" fill="#E64B35" text-anchor="middle">2007</text>
+  <text x="660" y="374" font-size="11.5" font-weight="bold" fill="#33332E" text-anchor="middle">ggplot2 登陆 CRAN</text>
+  <text x="660" y="356" font-size="11" fill="#6B6B66" text-anchor="middle">图形语法的实现（文献 1、3）</text>
+
+  <!-- 2016 下 -->
+  <line x1="810" y1="442" x2="810" y2="456" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="810" cy="430" r="6.5" fill="#4DBBD5"/>
+  <text x="810" y="480" font-size="14" font-weight="bold" fill="#3C8DAD" text-anchor="middle">2016</text>
+  <text x="810" y="502" font-size="11.5" fill="#33332E" text-anchor="middle">tidyverse 元包发布</text>
+  <text x="810" y="522" font-size="11" fill="#6B6B66" text-anchor="middle">readr/dplyr/tidyr/ggplot2 一套理念</text>
+
+  <!-- 2019 上 -->
+  <line x1="930" y1="418" x2="930" y2="404" stroke="#00A087" stroke-width="1.5"/>
+  <circle cx="930" cy="430" r="6.5" fill="#00A087"/>
+  <text x="930" y="396" font-size="14" font-weight="bold" fill="#00A087" text-anchor="middle">2019</text>
+  <text x="930" y="374" font-size="11.5" fill="#33332E" text-anchor="middle">《Welcome to the Tidyverse》</text>
+  <text x="930" y="356" font-size="11" fill="#6B6B66" text-anchor="middle">文献 2</text>
+
+  <!-- 2022 下 -->
+  <line x1="1060" y1="442" x2="1060" y2="456" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="1060" cy="430" r="6.5" fill="#3C5488"/>
+  <text x="1060" y="480" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2022</text>
+  <text x="1060" y="502" font-size="11.5" fill="#33332E" text-anchor="middle">RStudio 更名 Posit；</text>
+  <text x="1060" y="522" font-size="11.5" fill="#33332E" text-anchor="middle">Quarto 发布（④4.9）</text>
+
+  <!-- ============ 对本课的含义 ============ -->
+  <rect x="48" y="566" width="1104" height="140" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="566" width="6" height="140" rx="3" fill="#4DBBD5"/>
+  <text x="72" y="598" font-size="13.5" font-weight="bold" fill="#3C5488">对本课的含义（④4.9 · ⑤步骤 7）</text>
+  <text x="72" y="628" font-size="12.5" fill="#33332E">本讲沿用 R Markdown（.Rmd）出报告：课程模板与 ngs_ug_base 环境已围绕它配好。</text>
+  <text x="72" y="654" font-size="12.5" fill="#33332E">文献里见到 .qmd 不必陌生——两者代码块写法几乎一致，迁移成本很低；混用 Python 的新项目可直接从 Quarto 起步。</text>
+  <text x="72" y="684" font-size="11.5" fill="#6B6B66">2007 年的 ggplot2 是本讲主角：它的五要素语法（④4.8）与"学语法优于记函数"的思路，贯穿步骤 3–5 的每一张图。</text>
+
+  <!-- 页脚 -->
+  <text x="1152" y="770" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

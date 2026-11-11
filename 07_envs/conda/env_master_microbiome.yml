@@ -1,0 +1,40 @@
+# 硕士生 · 环境 5/6：扩增子与宏基因组
+# 覆盖专题：m06 扩增子 ｜ m07 宏基因组
+# 创建：conda env create -f env_master_microbiome.yml
+# 激活：conda activate ngs_ms_microbiome
+#
+# 【不走 conda】QIIME2 官方要求独立环境，请按 QIIME2 官方文档单独创建
+# （见契约 env_exempt_tools）。本环境提供 DADA2 + vegan 的 R 路径作为替代/补充。
+
+name: ngs_ms_microbiome
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # 【生态性断裂】setuptools 82.0.0（2026-02-08）移除了 pkg_resources（81.x 仍含），而 bioconda 上
+  # 2023-2024 年的 Python 工具（multiqc 1.14、macs2、部分 deeptools 子命令等）仍 import 它，
+  # 表现为 `ModuleNotFoundError: No module named 'pkg_resources'`。全课程统一钉 <81（比必要的 <82 多保守一档，已实测可用）。
+  - setuptools<81
+  # ---- m06 扩增子（R 路径）----
+  - bioconductor-dada2
+  - bioconductor-phyloseq
+  - r-vegan
+
+  # ---- m07 宏基因组 ----
+  # 组成性差异丰度两法对比（讲义 ⑦-7.6，配套 07_compositional_analysis.R）
+  - bioconductor-aldex2
+  - bioconductor-ancombc
+  - megahit=1.2.9
+  - metabat2=2.15
+  - checkm-genome=1.2.2
+  - eggnog-mapper=2.1.11
+  - kraken2
+  - bracken
+
+  # ---- 共用 ----
+  - samtools=1.17
+  - seqkit
+  - r-base=4.3.1
+  - r-ggplot2=3.4.2

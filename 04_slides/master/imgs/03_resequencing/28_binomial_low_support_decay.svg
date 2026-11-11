@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="46" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#33332E" text-anchor="middle" font-weight="bold">低支持概率</text>
+<rect x="40" y="70" width="720" height="540" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="100" y1="560" x2="710" y2="560" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="100" y1="560" x2="100" y2="130" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="100.0" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">5</text>
+<text x="169.6" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">8</text>
+<text x="216.0" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">10</text>
+<text x="332.0" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">15</text>
+<text x="448.0" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">20</text>
+<text x="564.0" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">25</text>
+<text x="680.0" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">30</text>
+<text x="400" y="640" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">局部深度 d（×）   泊松抽样</text>
+<text x="86" y="296.6666666666667" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">1%</text>
+<line x1="100" y1="286.6666666666667" x2="710" y2="286.6666666666667" stroke="#E9E9E5" stroke-width="2" stroke-linecap="butt"/>
+<text x="86" y="342.2222222222222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0.1%</text>
+<line x1="100" y1="332.2222222222222" x2="710" y2="332.2222222222222" stroke="#E9E9E5" stroke-width="2" stroke-linecap="butt"/>
+<text x="86" y="387.7777777777778" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0.01%</text>
+<line x1="100" y1="377.7777777777778" x2="710" y2="377.7777777777778" stroke="#E9E9E5" stroke-width="2" stroke-linecap="butt"/>
+<text x="86" y="433.33333333333337" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">1e-5</text>
+<line x1="100" y1="423.33333333333337" x2="710" y2="423.33333333333337" stroke="#E9E9E5" stroke-width="2" stroke-linecap="butt"/>
+<text x="86" y="478.8888888888889" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">1e-6</text>
+<line x1="100" y1="468.8888888888889" x2="710" y2="468.8888888888889" stroke="#E9E9E5" stroke-width="2" stroke-linecap="butt"/>
+<text x="86" y="524.4444444444445" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">1e-7</text>
+<line x1="100" y1="514.4444444444445" x2="710" y2="514.4444444444445" stroke="#E9E9E5" stroke-width="2" stroke-linecap="butt"/>
+<text x="86" y="570" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">1e-8</text>
+<line x1="100" y1="560" x2="710" y2="560" stroke="#E9E9E5" stroke-width="2" stroke-linecap="butt"/>
+<polyline points="100.0,264.12349901235126 123.2,277.83708770371044 146.4,291.55067639506956 169.6,305.26426508642874 192.8,318.9778537777879 216.0,332.69144246914703 239.2,346.40503116050616 262.4,360.1186198518653 285.6,373.8322085432244 308.79999999999995,387.5457972345836 332.0,401.25938592594275 355.2,414.9729746173018 378.4,428.686563308661 401.6,442.40015200002017 424.8,456.1137406913793 448.0,469.8273293827384 471.2,483.5409180740976 494.40000000000003,497.2545067654567 517.5999999999999,510.96809545681583 540.8,524.681684148175 564.0,538.3952728395341 587.2,552.1088615308933 610.4,560 633.6,560 656.8,560 680.0,560" fill="none" stroke="#E64B35" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="100.0,228.67438649487417 123.2,239.3381769919498 146.4,250.40991032099214 169.6,261.7932174341928 192.8,273.4222982222323 216.0,285.2502201452723 239.2,297.2423299516699 262.4,309.37231158010945 285.6,321.6197091401047 308.79999999999995,333.96830654426924 332.0,346.40503116050616 355.2,358.9191904211805 378.4,371.501926965066 401.6,384.14582128994687 424.8,396.84459644446457 448.0,409.59289484485987 471.2,422.38610705886373 494.40000000000003,435.22023868021085 517.5999999999999,448.09180555662044 540.8,460.99775041978216 564.0,473.93537587641913 587.2,486.90229005253946 610.4,499.8963621277735 633.6,512.9156856759924 656.8,525.9585482232972 680.0,539.0234057994352" fill="none" stroke="#F39B7F" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="100.0,209.26914424691472 123.2,216.68227668847658 146.4,224.93032315745046 169.6,233.82396432337669 192.8,243.22999700118282 216.0,253.051765683309 239.2,263.2171790374685 262.4,273.6711634708563 285.6,284.3707630752603 308.79999999999995,295.2818633725218 332.0,306.3769412781933 355.2,317.63348211351 378.4,329.0328415816666 401.6,340.5594116408985 424.8,352.19999840564947 448.0,363.9433508636213 471.2,375.779798762401 494.40000000000003,387.700970786104 517.5999999999999,399.69957264387983 540.8,411.769210460011 564.0,423.90424883643914 587.2,436.09969575022285 610.4,448.351108434818 633.6,460.65451582668493 656.8,473.00635420495735 680.0,485.4034134248965" fill="none" stroke="#3C8DAD" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="620" y="446.65451582668493" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle">P(X≤2)</text>
+<text x="620" y="498.91568567599245" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle">P(X≤1)</text>
+<text x="620" y="546" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">P(X=0)</text>
+<line x1="216.0" y1="130" x2="216.0" y2="560" stroke="#00A087" stroke-width="4" stroke-linecap="butt" stroke-dasharray="12 10"/>
+<circle cx="216.0" cy="253.051765683309" r="10" fill="#FFFFFF" stroke="#00A087" stroke-width="6"/>
+<text x="234.0" y="263.051765683309" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">56/1024</text>
+<circle cx="216.0" cy="285.2502201452723" r="10" fill="#FFFFFF" stroke="#00A087" stroke-width="6"/>
+<text x="234.0" y="295.2502201452723" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">11/1024</text>
+<circle cx="216.0" cy="332.69144246914703" r="10" fill="#FFFFFF" stroke="#00A087" stroke-width="6"/>
+<text x="234.0" y="342.69144246914703" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">1/1024</text>
+<text x="204.0" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">d=10</text>
+<text x="420" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">手算格点</text>
+<rect x="100" y="130" width="69.6" height="430" fill="#F6D8D2"/>
+<text x="180" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">阶梯衰减</text>
+<text x="400" y="690" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">数据源： ch10_depth_het_dropout.py</text>
+</svg>

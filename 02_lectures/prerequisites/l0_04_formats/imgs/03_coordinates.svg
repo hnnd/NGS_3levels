@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">坐标系之差：最贵的不报错错误</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">0-based 半开 ｜ 1-based 闭 —— 依据 l0_04 §5、常见错误 7</text>
+
+  <!-- ============ 上面板：两套编号 ============ -->
+  <rect x="48" y="120" width="1104" height="280" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="17" font-weight="bold" fill="#3C5488">同一段序列，两套编号——差别只在「数碱基」还是「数缝」</text>
+  <line x1="72" y1="166" x2="1128" y2="166" stroke="#E9E9E5"/>
+
+  <text x="72" y="204" font-size="12.5" font-weight="bold" fill="#3C5488">1-based：数的是碱基（GFF3 / GTF / SAM / VCF）</text>
+  <!-- 1-based 序号 -->
+  <text x="170" y="236" font-size="13" fill="#3C5488" text-anchor="middle" font-weight="bold">1</text>
+  <text x="230" y="236" font-size="13" fill="#3C5488" text-anchor="middle" font-weight="bold">2</text>
+  <text x="290" y="236" font-size="13" fill="#3C5488" text-anchor="middle" font-weight="bold">3</text>
+  <text x="350" y="236" font-size="13" fill="#3C5488" text-anchor="middle" font-weight="bold">4</text>
+  <text x="410" y="236" font-size="13" fill="#3C5488" text-anchor="middle" font-weight="bold">5</text>
+  <!-- 碱基块 A T G C A -->
+  <rect x="140" y="246" width="60" height="52" rx="5" fill="#00A087"/><text x="170" y="279" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">A</text>
+  <rect x="200" y="246" width="60" height="52" rx="5" fill="#8491B4"/><text x="230" y="279" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">T</text>
+  <rect x="260" y="246" width="60" height="52" rx="5" fill="#F39B7F"/><text x="290" y="279" font-size="16" fill="#33332E" text-anchor="middle" font-weight="bold">G</text>
+  <rect x="320" y="246" width="60" height="52" rx="5" fill="#4DBBD5"/><text x="350" y="279" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">C</text>
+  <rect x="380" y="246" width="60" height="52" rx="5" fill="#00A087"/><text x="410" y="279" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">A</text>
+  <!-- TGC 高亮 -->
+  <rect x="197" y="243" width="186" height="58" rx="7" fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <text x="290" y="324" font-size="11.5" fill="#3C5488" text-anchor="middle" font-weight="bold">这段 = TGC</text>
+  <!-- 0-based 缝序号 -->
+  <line x1="140" y1="298" x2="140" y2="308" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="200" y1="298" x2="200" y2="308" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="260" y1="298" x2="260" y2="308" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="320" y1="298" x2="320" y2="308" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="380" y1="298" x2="380" y2="308" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="440" y1="298" x2="440" y2="308" stroke="#6B6B66" stroke-width="1.5"/>
+  <text x="140" y="340" font-size="13" fill="#6B6B66" text-anchor="middle" font-weight="bold">0</text>
+  <text x="200" y="340" font-size="13" fill="#6B6B66" text-anchor="middle" font-weight="bold">1</text>
+  <text x="260" y="340" font-size="13" fill="#6B6B66" text-anchor="middle" font-weight="bold">2</text>
+  <text x="320" y="340" font-size="13" fill="#6B6B66" text-anchor="middle" font-weight="bold">3</text>
+  <text x="380" y="340" font-size="13" fill="#6B6B66" text-anchor="middle" font-weight="bold">4</text>
+  <text x="440" y="340" font-size="13" fill="#6B6B66" text-anchor="middle" font-weight="bold">5</text>
+  <text x="72" y="366" font-size="12.5" font-weight="bold" fill="#6B6B66">0-based：数的是碱基之间的缝（BED）</text>
+  <text x="72" y="386" font-size="11.5" fill="#6B6B66">半开区间 [start, end)：含头，不含尾</text>
+
+  <!-- 右侧示例 -->
+  <text x="520" y="210" font-size="13.5" font-weight="bold" fill="#33332E">把这段 TGC 写成区间（两种写法都对）</text>
+  <text x="520" y="246" font-size="13.5" fill="#3C8DAD" font-weight="bold" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">BED   chr1   1   4</text>
+  <text x="520" y="266" font-size="11.5" fill="#6B6B66">0-based 半开：从缝 1 到缝 4，盖住 T G C 三个碱基</text>
+  <text x="520" y="298" font-size="13.5" fill="#3C5488" font-weight="bold" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">GFF3  chr1   2   4</text>
+  <text x="520" y="318" font-size="11.5" fill="#6B6B66">1-based 闭：从第 2 个碱基到第 4 个，同样盖住 T G C</text>
+  <rect x="520" y="336" width="584" height="44" rx="6" fill="#FAFAF7"/>
+  <text x="536" y="363" font-size="13" fill="#33332E">换算公式：<tspan font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace" font-weight="bold">bed_start = gff_start − 1</tspan> ｜ <tspan font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace" font-weight="bold">bed_end = gff_end</tspan></text>
+
+  <!-- ============ 左下面板：四格式速览 ============ -->
+  <rect x="48" y="424" width="660" height="310" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="456" font-size="17" font-weight="bold" fill="#3C5488">四种区间格式：记什么、给谁看</text>
+  <line x1="72" y1="472" x2="684" y2="472" stroke="#E9E9E5"/>
+  <text x="72" y="498" font-size="12" font-weight="bold" fill="#6B6B66">格式</text>
+  <text x="160" y="498" font-size="12" font-weight="bold" fill="#6B6B66">一句话用途</text>
+  <text x="428" y="498" font-size="12" font-weight="bold" fill="#6B6B66">坐标</text>
+  <text x="540" y="498" font-size="12" font-weight="bold" fill="#6B6B66">关键区别</text>
+  <line x1="72" y1="508" x2="684" y2="508" stroke="#E9E9E5"/>
+
+  <text x="72" y="536" font-size="13.5" font-weight="bold" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">BED</text>
+  <text x="160" y="536" font-size="12" fill="#33332E">圈区间求交集 · bedtools / MACS2</text>
+  <text x="428" y="536" font-size="12" font-weight="bold" fill="#3C8DAD">0-based 半开</text>
+  <text x="540" y="536" font-size="11.5" fill="#6B6B66">前 3 列就能用</text>
+  <line x1="72" y1="548" x2="684" y2="548" stroke="#E9E9E5"/>
+
+  <text x="72" y="576" font-size="13.5" font-weight="bold" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">GFF3</text>
+  <text x="160" y="576" font-size="12" fill="#33332E">基因结构 + 父子层级 · Prokka / NCBI</text>
+  <text x="428" y="576" font-size="12" font-weight="bold" fill="#3C5488">1-based 闭</text>
+  <text x="540" y="576" font-size="11.5" fill="#6B6B66" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">第9列 key=value;</text>
+  <line x1="72" y1="588" x2="684" y2="588" stroke="#E9E9E5"/>
+
+  <text x="72" y="616" font-size="13.5" font-weight="bold" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">GTF</text>
+  <text x="160" y="616" font-size="12" fill="#33332E">转录本计数 · featureCounts / StringTie</text>
+  <text x="428" y="616" font-size="12" font-weight="bold" fill="#3C5488">1-based 闭</text>
+  <text x="540" y="616" font-size="11.5" fill="#6B6B66">必须有 gene_id</text>
+  <line x1="72" y1="628" x2="684" y2="628" stroke="#E9E9E5"/>
+
+  <text x="72" y="656" font-size="13.5" font-weight="bold" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">VCF</text>
+  <text x="160" y="656" font-size="12" fill="#33332E">记录变异 · GATK / bcftools</text>
+  <text x="428" y="656" font-size="12" font-weight="bold" fill="#3C5488">1-based</text>
+  <text x="540" y="656" font-size="11.5" fill="#6B6B66" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">REF/ALT/INFO</text>
+
+  <text x="72" y="694" font-size="11.5" fill="#6B6B66">怎么选：圈区间求交集 → BED ｜ 基因结构与浏览器 → GFF3 ｜ 转录本计数 → GTF ｜ 变异 → VCF</text>
+  <text x="72" y="714" font-size="11.5" fill="#6B6B66">featureCounts 要 GTF，给了 GFF3 不报错、计数全是 0——先确认格式，别靠后缀猜。</text>
+
+  <!-- ============ 右下面板：错一位警示 ============ -->
+  <rect x="732" y="424" width="420" height="310" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="756" y="458" font-size="17" font-weight="bold" fill="#E64B35">把 GFF 坐标直接当 BED 用：</text>
+  <text x="756" y="482" font-size="17" font-weight="bold" fill="#E64B35">所有区间整体左移一位，没有任何报错</text>
+  <line x1="756" y1="498" x2="1128" y2="498" stroke="#E9E9E5"/>
+
+  <!-- 标尺 -->
+  <line x1="756" y1="540" x2="1096" y2="540" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="756" y1="534" x2="756" y2="546" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="820" y1="534" x2="820" y2="546" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="884" y1="534" x2="884" y2="546" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="948" y1="534" x2="948" y2="546" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="1012" y1="534" x2="1012" y2="546" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="1076" y1="534" x2="1076" y2="546" stroke="#6B6B66" stroke-width="1.5"/>
+  <text x="756" y="562" font-size="11.5" fill="#6B6B66" text-anchor="middle">0</text>
+  <text x="820" y="562" font-size="11.5" fill="#6B6B66" text-anchor="middle">1</text>
+  <text x="884" y="562" font-size="11.5" fill="#6B6B66" text-anchor="middle">2</text>
+  <text x="948" y="562" font-size="11.5" fill="#6B6B66" text-anchor="middle">3</text>
+  <text x="1012" y="562" font-size="11.5" fill="#6B6B66" text-anchor="middle">4</text>
+  <text x="1076" y="562" font-size="11.5" fill="#6B6B66" text-anchor="middle">5</text>
+  <text x="1104" y="545" font-size="11" fill="#6B6B66">缝</text>
+
+  <!-- 正确的 GFF 2-4 -->
+  <rect x="820" y="580" width="192" height="16" rx="4" fill="#3C5488"/>
+  <text x="756" y="612" font-size="11.5" fill="#33332E">GFF3「2 4」本意：盖住 T G C（换算成 BED = 1 4）</text>
+
+  <!-- 错用后的 [2,4) -->
+  <rect x="884" y="626" width="128" height="16" rx="4" fill="#E64B35"/>
+  <text x="756" y="658" font-size="11.5" fill="#33332E">错当 BED「2 4」= [2,4)：只剩 G C，<tspan font-weight="bold" fill="#E64B35">T 被丢掉</tspan></text>
+
+  <line x1="756" y1="672" x2="1128" y2="672" stroke="#E9E9E5"/>
+  <text x="756" y="696" font-size="11.5" fill="#33332E">症状：peak 与基因「大体对但边界都差一点」，</text>
+  <text x="756" y="714" font-size="11.5" fill="#33332E">bedtools intersect 少命中一批本该命中的区间。</text>
+
+  <!-- 页脚 -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

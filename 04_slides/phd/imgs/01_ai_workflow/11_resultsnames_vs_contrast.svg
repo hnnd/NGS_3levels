@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>resultsNames vs contrast argument order</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="44" width="720" height="128" fill="#E7F5F8" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="64" y="90" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">resultsNames</text>
+<rect x="64" y="111.0" width="403.80000000000007" height="54" fill="#FFFFFF" rx="27.0" stroke="#4DBBD5" stroke-width="4"/>
+<text x="265.90000000000003" y="148.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">condition_treat_vs_ctrl</text>
+<polyline points="714.08,138.32 722.08,146.0 734.56,130.64" fill="none" stroke="#00A087" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="40" y="190" width="720" height="214" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="64" y="236" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">contrast</text>
+<rect x="64" y="279.0" width="196.79999999999998" height="54" fill="#FFFFFF" rx="27.0" stroke="#3C5488" stroke-width="4"/>
+<text x="162.39999999999998" y="316.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">&quot;condition&quot;</text>
+<text x="64" y="268" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">1</text>
+<rect x="300" y="279.0" width="118.80000000000001" height="54" fill="#FFFFFF" rx="27.0" stroke="#3C5488" stroke-width="4"/>
+<text x="359.4" y="316.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">&quot;ctrl&quot;</text>
+<text x="300" y="268" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">2</text>
+<rect x="536" y="279.0" width="134.40000000000003" height="54" fill="#FFFFFF" rx="27.0" stroke="#3C5488" stroke-width="4"/>
+<text x="603.2" y="316.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">&quot;treat&quot;</text>
+<text x="536" y="268" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">3</text>
+<circle cx="348" cy="346" r="7" fill="#E64B35"/>
+<circle cx="584" cy="346" r="7" fill="#E64B35"/>
+<line x1="348" y1="346" x2="584" y2="346" stroke="#E64B35" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 7"/>
+<text x="466" y="390" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">2nd = numerator</text>
+<rect x="40" y="418" width="720" height="106" fill="#FFFFFF" rx="12" stroke="#6B6B66" stroke-width="3"/>
+<text x="76" y="484" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">treat_vs_ctrl</text>
+<line x1="298" y1="480" x2="380" y2="480" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<polygon points="380,480 368.12984377594,485.3008858897744 368.12984377594,474.6991141102256" fill="#E64B35"/>
+<text x="400" y="484" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">lfc  →  -lfc</text>
+<rect x="32.0" y="546" width="736" height="116" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="588" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">字面相同不等于方向相同。</text>
+<text x="400.0" y="632" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">系数名由设计式生成，对比参数反转方向。</text>
+</svg>

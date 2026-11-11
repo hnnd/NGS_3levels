@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Averaging order splits window F_ST</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="84" y1="450" x2="748" y2="450" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="748,450 735.2167548356277,455.70864634283396 735.2167548356277,444.29135365716604" fill="#3C5488"/>
+<line x1="84" y1="450" x2="84" y2="144" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="84,144 89.70864634283399,156.78324516437232 78.29135365716601,156.78324516437232" fill="#3C5488"/>
+<line x1="76" y1="450.0" x2="84" y2="450.0" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="64" y="460.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0.00</text>
+<line x1="76" y1="334.61538461538464" x2="84" y2="334.61538461538464" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="64" y="344.61538461538464" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0.05</text>
+<line x1="76" y1="219.23076923076923" x2="84" y2="219.23076923076923" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="64" y="229.23076923076923" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0.10</text>
+<line x1="250" y1="184.03260274021568" x2="250" y2="362.60057165513115" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="226" y1="184.03260274021568" x2="274" y2="184.03260274021568" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="226" y1="362.60057165513115" x2="274" y2="362.60057165513115" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<rect x="206" y="270.09092653716755" width="88" height="26" fill="#3C5488" rx="8"/>
+<text x="250" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">WEIGHTED_FST</text>
+<text x="188" y="294.09092653716755" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="end" font-weight="bold">0.0723</text>
+<text x="250" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">[0.038, 0.115]</text>
+<text x="250" y="552" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">分量和之比稳定</text>
+<line x1="560" y1="302.4873938736996" x2="560" y2="394.7949025367863" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<line x1="536" y1="302.4873938736996" x2="584" y2="302.4873938736996" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<line x1="536" y1="394.7949025367863" x2="584" y2="394.7949025367863" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<rect x="516" y="332.1150051203481" width="88" height="26" fill="#F39B7F" rx="8"/>
+<text x="560" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">MEAN_FST</text>
+<text x="622" y="356.1150051203481" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">0.0455</text>
+<text x="560" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">[0.024, 0.064]</text>
+<text x="560" y="552" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">比值平均被稀有拉偏</text>
+<line x1="405" y1="289.09092653716755" x2="405" y2="339.1150051203481" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="405,289.09092653716755 397.56,301.09092653716755 412.44,301.09092653716755" fill="#6B6B66"/>
+<polygon points="405,339.1150051203481 397.56,327.1150051203481 412.44,327.1150051203481" fill="#6B6B66"/>
+<text x="405" y="272" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">0.0279</text>
+<rect x="32.0" y="566" width="736" height="122" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="614" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">偏差百分之二点八</text>
+<text x="400.0" y="658" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">认准加权列名</text>
+</svg>

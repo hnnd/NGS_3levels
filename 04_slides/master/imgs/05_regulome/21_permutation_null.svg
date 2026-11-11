@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">标签随机置换千次构建经验零分布</text>
+<line x1="120" y1="452" x2="704" y2="452" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="120" y1="452" x2="120" y2="204" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="112" y="164" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">k</text>
+<rect x="184.57142857142856" y="448.6877828054299" width="16.85714285714289" height="3.3122171945701098" fill="#4DBBD5" rx="2"/>
+<rect x="205.42857142857144" y="437.6470588235294" width="16.857142857142833" height="14.352941176470608" fill="#4DBBD5" rx="2"/>
+<rect x="226.28571428571428" y="404.52488687782807" width="16.85714285714286" height="47.47511312217193" fill="#4DBBD5" rx="2"/>
+<rect x="247.14285714285714" y="360.36199095022624" width="16.85714285714286" height="91.63800904977376" fill="#4DBBD5" rx="2"/>
+<rect x="268.0" y="279.7647058823529" width="16.85714285714289" height="172.23529411764707" fill="#4DBBD5" rx="2"/>
+<rect x="288.8571428571429" y="221.24886877828055" width="16.857142857142833" height="230.75113122171945" fill="#4DBBD5" rx="2"/>
+<rect x="309.7142857142857" y="276.4524886877828" width="16.857142857142833" height="175.54751131221718" fill="#4DBBD5" rx="2"/>
+<rect x="330.57142857142856" y="285.2850678733032" width="16.85714285714289" height="166.7149321266968" fill="#4DBBD5" rx="2"/>
+<rect x="351.42857142857144" y="339.38461538461536" width="16.857142857142833" height="112.61538461538464" fill="#4DBBD5" rx="2"/>
+<rect x="372.2857142857143" y="396.79638009049773" width="16.85714285714289" height="55.203619909502265" fill="#4DBBD5" rx="2"/>
+<rect x="393.14285714285717" y="431.0226244343891" width="16.857142857142833" height="20.977375565610885" fill="#4DBBD5" rx="2"/>
+<rect x="414.0" y="440.95927601809956" width="16.857142857142833" height="11.040723981900442" fill="#4DBBD5" rx="2"/>
+<rect x="434.85714285714283" y="449.7918552036199" width="16.85714285714289" height="2.208144796380111" fill="#4DBBD5" rx="2"/>
+<line x1="120.0" y1="452" x2="120.0" y2="461" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="120.0" y="494" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">40</text>
+<line x1="224.28571428571428" y1="452" x2="224.28571428571428" y2="461" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="224.28571428571428" y="494" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">60</text>
+<line x1="328.57142857142856" y1="452" x2="328.57142857142856" y2="461" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="328.57142857142856" y="494" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">80</text>
+<line x1="432.85714285714283" y1="452" x2="432.85714285714283" y2="461" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="432.85714285714283" y="494" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">100</text>
+<line x1="537.1428571428571" y1="452" x2="537.1428571428571" y2="461" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="537.1428571428571" y="494" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">120</text>
+<line x1="641.4285714285714" y1="452" x2="641.4285714285714" y2="461" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="641.4285714285714" y="494" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">140</text>
+<g stroke="#E64B35" fill="#E64B35"><line x1="625.8" y1="452" x2="625.8" y2="226" stroke-width="6" stroke-dasharray="16 10"/><polygon points="625.8,222 607.8,254 643.8,254"/></g>
+<text x="625.7857142857142" y="186" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">137</text>
+<text x="400" y="556" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">p = (1 + #(null ≥ 137)) / (n + 1)</text>
+<text x="400" y="636" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">检验交集显著性</text>
+</svg>

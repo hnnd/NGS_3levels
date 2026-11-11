@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="60" y="78" width="96" height="74" fill="#00A087" rx="8" stroke="#00A087" stroke-width="0"/>
+<rect x="644" y="78" width="96" height="74" fill="#00A087" rx="8" stroke="#00A087" stroke-width="0"/>
+<rect x="156.0" y="78" width="48.888888888888886" height="74" fill="#4DBBD5" rx="6" stroke="#3C8DAD" stroke-width="3"/>
+<text x="180.44444444444446" y="125.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">V1</text>
+<rect x="210.88888888888889" y="78" width="48.888888888888886" height="74" fill="#D6EFF4" rx="6" stroke="#3C8DAD" stroke-width="3"/>
+<text x="235.33333333333331" y="125.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">V2</text>
+<rect x="265.77777777777777" y="78" width="48.888888888888886" height="74" fill="#4DBBD5" rx="6" stroke="#3C8DAD" stroke-width="3"/>
+<text x="290.22222222222223" y="125.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">V3</text>
+<rect x="320.66666666666663" y="78" width="48.888888888888886" height="74" fill="#D6EFF4" rx="6" stroke="#3C8DAD" stroke-width="3"/>
+<text x="345.1111111111111" y="125.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">V4</text>
+<rect x="375.55555555555554" y="78" width="48.888888888888886" height="74" fill="#4DBBD5" rx="6" stroke="#3C8DAD" stroke-width="3"/>
+<text x="400.0" y="125.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">V5</text>
+<rect x="430.44444444444446" y="78" width="48.888888888888886" height="74" fill="#D6EFF4" rx="6" stroke="#3C8DAD" stroke-width="3"/>
+<text x="454.8888888888889" y="125.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">V6</text>
+<rect x="485.3333333333333" y="78" width="48.888888888888886" height="74" fill="#4DBBD5" rx="6" stroke="#3C8DAD" stroke-width="3"/>
+<text x="509.77777777777777" y="125.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">V7</text>
+<rect x="540.2222222222222" y="78" width="48.888888888888886" height="74" fill="#D6EFF4" rx="6" stroke="#3C8DAD" stroke-width="3"/>
+<text x="564.6666666666666" y="125.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">V8</text>
+<rect x="595.1111111111111" y="78" width="48.888888888888886" height="74" fill="#4DBBD5" rx="6" stroke="#3C8DAD" stroke-width="3"/>
+<text x="619.5555555555555" y="125.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">V9</text>
+<text x="108" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">保守引物</text>
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">高变区</text>
+<rect x="36" y="226" width="224" height="300" fill="#D8EEE9" rx="16" stroke="#00A087" stroke-width="4"/>
+<text x="148.0" y="278" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">V4</text>
+<text x="148.0" y="342" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle">253 bp</text>
+<line x1="62" y1="372" x2="234" y2="372" stroke="#00A087" stroke-width="2" stroke-linecap="butt" stroke-dasharray="8 6"/>
+<text x="148.0" y="430" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">充裕</text>
+<text x="148.0" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">PE250</text>
+<rect x="288" y="226" width="224" height="300" fill="#FBE3D8" rx="16" stroke="#F39B7F" stroke-width="4"/>
+<text x="400.0" y="278" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#F39B7F" text-anchor="middle" font-weight="bold">V3–V4</text>
+<text x="400.0" y="342" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle">427 bp</text>
+<line x1="314" y1="372" x2="486" y2="372" stroke="#F39B7F" stroke-width="2" stroke-linecap="butt" stroke-dasharray="8 6"/>
+<text x="400.0" y="430" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#F39B7F" text-anchor="middle" font-weight="bold">需长读</text>
+<text x="400.0" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">PE300</text>
+<rect x="540" y="226" width="224" height="300" fill="#E6E9F0" rx="16" stroke="#8491B4" stroke-width="4"/>
+<text x="652.0" y="278" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#8491B4" text-anchor="middle" font-weight="bold">ITS</text>
+<text x="652.0" y="342" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle">200–600 bp</text>
+<line x1="566" y1="372" x2="738" y2="372" stroke="#8491B4" stroke-width="2" stroke-linecap="butt" stroke-dasharray="8 6"/>
+<text x="652.0" y="430" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#8491B4" text-anchor="middle" font-weight="bold">长度离散</text>
+<text x="652.0" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">ITS1/ITS2</text>
+<text x="400.0" y="634" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">V4 = 253 bp · V3–V4 = 427 bp · ITS 200–600 bp</text>
+</svg>

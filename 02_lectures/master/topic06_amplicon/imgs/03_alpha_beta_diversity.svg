@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">α 看样本内，β 看样本间：多样性的两个维度</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">丰富度与均匀度 ｜ 距离矩阵与排序投影 —— 依据 06_amplicon_lecture.md ④4.5 ⑦7.1–7.2</text>
+  <!-- 图例 -->
+  <rect x="926" y="40" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="50" font-size="12" fill="#33332E">类群（示意）</text>
+  <circle cx="932" cy="70" r="6" fill="#3C5488"/>
+  <text x="946" y="74" font-size="12" fill="#33332E">健康组样本</text>
+  <circle cx="932" cy="94" r="6" fill="#F39B7F"/>
+  <text x="946" y="98" font-size="12" fill="#33332E">处理组样本</text>
+
+  <!-- ============ 左面板：α 多样性 ============ -->
+  <rect x="48" y="140" width="520" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="172" font-size="16" font-weight="bold" fill="#3C5488">α 多样性：样本内有多少种、多均匀</text>
+  <text x="72" y="192" font-size="11.5" fill="#6B6B66">丰富度（种类数）与均匀度（分布）要分开看</text>
+  <line x1="72" y1="204" x2="544" y2="204" stroke="#E9E9E5"/>
+
+  <!-- 样本 A -->
+  <text x="72" y="232" font-size="12.5" font-weight="bold" fill="#33332E">样本 A：8 个类群、分布均匀 → Shannon 高</text>
+  <rect x="72"  y="244" width="54" height="36" fill="#3C5488"/>
+  <rect x="127" y="244" width="54" height="36" fill="#4DBBD5"/>
+  <rect x="182" y="244" width="54" height="36" fill="#00A087"/>
+  <rect x="237" y="244" width="54" height="36" fill="#F39B7F"/>
+  <rect x="292" y="244" width="54" height="36" fill="#6B6B66"/>
+  <rect x="347" y="244" width="54" height="36" fill="#3C5488" fill-opacity="0.55"/>
+  <rect x="402" y="244" width="54" height="36" fill="#4DBBD5" fill-opacity="0.55"/>
+  <rect x="457" y="244" width="54" height="36" fill="#00A087" fill-opacity="0.55"/>
+
+  <!-- 样本 B -->
+  <text x="72" y="312" font-size="12.5" font-weight="bold" fill="#33332E">样本 B：4 个类群、一家独大 → 优势度异常</text>
+  <rect x="72"  y="324" width="264" height="36" fill="#3C5488"/>
+  <rect x="337" y="324" width="70" height="36" fill="#4DBBD5"/>
+  <rect x="408" y="324" width="52" height="36" fill="#F39B7F"/>
+  <rect x="461" y="324" width="50" height="36" fill="#00A087"/>
+  <text x="204" y="346" font-size="11.5" fill="#FFFFFF" text-anchor="middle">同一个优势菌吃掉六成读数</text>
+
+  <!-- 指数清单 -->
+  <text x="72" y="398" font-size="12.5" font-weight="bold" fill="#33332E">指数怎么选（⑦7.1）</text>
+  <text x="72" y="424" font-size="12" fill="#33332E">· Observed：数出来的 ASV 数——极度依赖深度，</text>
+  <text x="88" y="444" font-size="12" fill="#33332E">只在抽平后使用</text>
+  <text x="72" y="470" font-size="12" fill="#33332E">· Shannon：丰富度＋均匀度——默认首选、最稳健</text>
+  <text x="72" y="496" font-size="12" fill="#33332E">· Simpson：优势度（1−Σp²）——查「有没有一家独大」</text>
+  <text x="72" y="522" font-size="12" fill="#33332E">· Faith's PD：占据的系统发育枝长总和——需先建树</text>
+  <text x="72" y="548" font-size="12" font-weight="bold" fill="#E64B35">· Chao1：建立在单例/双例上——DADA2 去噪后</text>
+  <text x="88" y="568" font-size="12" font-weight="bold" fill="#E64B35">单例几乎为 0，ASV 表上基本失效，且与 OTU 文献不可比</text>
+
+  <!-- 结论 -->
+  <rect x="72" y="590" width="472" height="70" rx="6" fill="#FAFAF7"/>
+  <rect x="72" y="590" width="4" height="70" rx="2" fill="#3C5488"/>
+  <text x="88" y="616" font-size="12" fill="#33332E">组间检验：Kruskal-Wallis / Wilcoxon——指数分布</text>
+  <text x="88" y="636" font-size="12" fill="#33332E">不保证正态；多指数各测一次要 BH 校正</text>
+
+  <!-- ============ 右面板：β 多样性 ============ -->
+  <rect x="608" y="140" width="544" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="632" y="172" font-size="16" font-weight="bold" fill="#3C5488">β 多样性：样本间差异有多大</text>
+  <text x="632" y="192" font-size="11.5" fill="#6B6B66">先算距离矩阵，再投影成二维排序图</text>
+  <line x1="632" y1="204" x2="1128" y2="204" stroke="#E9E9E5"/>
+
+  <!-- PCoA 散点 -->
+  <line x1="672" y1="396" x2="1104" y2="396" stroke="#33332E" stroke-width="1.5"/>
+  <line x1="672" y1="396" x2="672" y2="228" stroke="#33332E" stroke-width="1.5"/>
+  <text x="1104" y="414" font-size="10.5" fill="#6B6B66" text-anchor="end">PCoA 1（23%）</text>
+  <text x="672" y="222" font-size="10.5" fill="#6B6B66">PCoA 2（15%）</text>
+  <ellipse cx="790" cy="300" rx="62" ry="40" fill="none" stroke="#3C5488" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <ellipse cx="980" cy="330" rx="62" ry="40" fill="none" stroke="#F39B7F" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="762" cy="286" r="5" fill="#3C5488"/><circle cx="788" cy="272" r="5" fill="#3C5488"/>
+  <circle cx="812" cy="296" r="5" fill="#3C5488"/><circle cx="778" cy="316" r="5" fill="#3C5488"/>
+  <circle cx="806" cy="322" r="5" fill="#3C5488"/><circle cx="754" cy="306" r="5" fill="#3C5488"/>
+  <circle cx="796" cy="298" r="5" fill="#3C5488"/>
+  <circle cx="952" cy="316" r="5" fill="#F39B7F"/><circle cx="978" cy="302" r="5" fill="#F39B7F"/>
+  <circle cx="1002" cy="326" r="5" fill="#F39B7F"/><circle cx="968" cy="346" r="5" fill="#F39B7F"/>
+  <circle cx="996" cy="352" r="5" fill="#F39B7F"/><circle cx="944" cy="336" r="5" fill="#F39B7F"/>
+  <circle cx="984" cy="330" r="5" fill="#F39B7F"/>
+  <text x="790" y="260" font-size="11" fill="#3C5488" text-anchor="middle">健康组</text>
+  <text x="980" y="290" font-size="11" fill="#C0684B" text-anchor="middle">处理组</text>
+  <text x="700" y="386" font-size="11" fill="#33332E">点距 ≈ 群落差异</text>
+
+  <text x="632" y="440" font-size="11.5" fill="#33332E">前两轴合计 20–40% 在微生物组是正常的——别拿 RNA-seq</text>
+  <text x="632" y="458" font-size="11.5" fill="#33332E">PCA（常见 60–80%）的直觉来判「太低」</text>
+
+  <rect x="632" y="470" width="496" height="52" rx="6" fill="#FAFAF7"/>
+  <text x="648" y="492" font-size="11.5" fill="#33332E">PCoA：线性投影，轴带解释方差百分比 ｜ NMDS：只保序，</text>
+  <text x="648" y="510" font-size="11.5" fill="#33332E">看 stress（&lt;0.1 好；&gt;0.2 不可信），轴本身无意义</text>
+
+  <!-- 距离表 -->
+  <text x="632" y="548" font-size="12.5" font-weight="bold" fill="#33332E">距离怎么选（⑦7.2）：选距离就是在选「什么算差异」</text>
+  <text x="632" y="572" font-size="11.5" font-weight="bold" fill="#6B6B66">距离</text>
+  <text x="762" y="572" font-size="11.5" font-weight="bold" fill="#6B6B66">用丰度</text>
+  <text x="842" y="572" font-size="11.5" font-weight="bold" fill="#6B6B66">敏感于</text>
+  <line x1="632" y1="580" x2="1128" y2="580" stroke="#E9E9E5"/>
+  <text x="632" y="600" font-size="11.5" fill="#33332E">Jaccard</text>
+  <text x="762" y="600" font-size="11.5" fill="#33332E">否</text>
+  <text x="842" y="600" font-size="11.5" fill="#33332E">稀有类群名单（须抽平）</text>
+  <text x="632" y="622" font-size="11.5" fill="#33332E">Bray-Curtis</text>
+  <text x="762" y="622" font-size="11.5" fill="#33332E">是</text>
+  <text x="842" y="622" font-size="11.5" fill="#33332E">优势类群（默认首选）</text>
+  <text x="632" y="644" font-size="11.5" fill="#33332E">Unweighted UniFrac</text>
+  <text x="762" y="644" font-size="11.5" fill="#33332E">否＋树</text>
+  <text x="842" y="644" font-size="11.5" fill="#33332E">全新进化支的出现</text>
+  <text x="632" y="666" font-size="11.5" fill="#33332E">Weighted UniFrac</text>
+  <text x="762" y="666" font-size="11.5" fill="#33332E">是＋树</text>
+  <text x="842" y="666" font-size="11.5" fill="#33332E">优势菌的进化组成变化</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">Jaccard 显著而 Bray-Curtis 不显著 = 名单变了、优势菌没变——这本身就是可报告的发现。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

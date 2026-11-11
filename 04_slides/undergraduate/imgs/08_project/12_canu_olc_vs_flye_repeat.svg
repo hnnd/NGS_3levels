@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="60" y="84" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="start" font-weight="bold">Canu：纠错修剪布局</text>
+<rect x="60" y="130" width="170" height="96" fill="#3C5488" rx="14"/>
+<text x="145.0" y="190.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Correct</text>
+<line x1="236" y1="178.0" x2="280" y2="178.0" stroke="#3C5488" stroke-width="7" stroke-linecap="round"/>
+<polygon points="280,178.0 263.56439907437846,185.33968815507225 263.56439907437846,170.66031184492775" fill="#3C5488"/>
+<rect x="286" y="130" width="170" height="96" fill="#3C5488" rx="14"/>
+<text x="371.0" y="190.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Trim</text>
+<line x1="462" y1="178.0" x2="506" y2="178.0" stroke="#3C5488" stroke-width="7" stroke-linecap="round"/>
+<polygon points="506,178.0 489.56439907437846,185.33968815507225 489.56439907437846,170.66031184492775" fill="#3C5488"/>
+<rect x="512" y="130" width="170" height="96" fill="#3C5488" rx="14"/>
+<text x="597.0" y="190.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Assemble</text>
+<text x="60" y="360" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="start" font-weight="bold">Flye：重复图长读段定路径</text>
+<rect x="60" y="410" width="180" height="84" fill="#FFFFFF" rx="12" stroke="#3C8DAD" stroke-width="4"/>
+<text x="150" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">disjointigs</text>
+<line x1="246" y1="452" x2="296" y2="452" stroke="#3C8DAD" stroke-width="6" stroke-linecap="round"/>
+<polygon points="296,452 279.56439907437846,459.3396881550723 279.56439907437846,444.6603118449277" fill="#3C8DAD"/>
+<line x1="320" y1="452" x2="430" y2="452" stroke="#6B6B66" stroke-width="5" stroke-linecap="butt"/>
+<line x1="430" y1="452" x2="540" y2="452" stroke="#6B6B66" stroke-width="5" stroke-linecap="butt"/>
+<rect x="362" y="432" width="66" height="40" fill="#F39B7F" rx="8"/>
+<text x="395" y="522" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">repeat</text>
+<circle cx="320" cy="452" r="16" fill="#3C8DAD"/>
+<circle cx="430" cy="452" r="16" fill="#3C8DAD"/>
+<circle cx="540" cy="452" r="16" fill="#3C8DAD"/>
+<path d="M 320 436 C 380 356, 480 356, 540 436" fill="none" stroke="#E64B35" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="542,422 526,412 538,440" fill="#E64B35"/>
+<text x="466" y="376" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">long read span</text>
+<line x1="560" y1="452" x2="610" y2="452" stroke="#3C8DAD" stroke-width="6" stroke-linecap="round"/>
+<polygon points="610,452 593.5643990743785,459.3396881550723 593.5643990743785,444.6603118449277" fill="#3C8DAD"/>
+<circle cx="650" cy="452" r="26" fill="#00A087"/>
+<text x="650" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">asm</text>
+<rect x="160" y="580" width="480" height="62" fill="#3C5488" rx="12"/>
+<text x="400" y="623" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">双组装互为独立验证</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>A constant error rate fakes a kinetics curve</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="104" y1="486" x2="748" y2="486" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="748,486 735.2167548356277,491.70864634283396 735.2167548356277,480.29135365716604" fill="#3C5488"/>
+<line x1="104" y1="486" x2="104" y2="148" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="104,148 109.70864634283399,160.78324516437232 98.29135365716601,160.78324516437232" fill="#3C5488"/>
+<line x1="96" y1="486.0" x2="104" y2="486.0" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="86" y="496.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0%</text>
+<line x1="96" y1="411.45454545454544" x2="104" y2="411.45454545454544" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="86" y="421.45454545454544" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">5%</text>
+<line x1="96" y1="336.9090909090909" x2="104" y2="336.9090909090909" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="86" y="346.9090909090909" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10%</text>
+<line x1="96" y1="262.3636363636364" x2="104" y2="262.3636363636364" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="86" y="272.3636363636364" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">15%</text>
+<line x1="96" y1="187.8181818181818" x2="104" y2="187.8181818181818" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="86" y="197.8181818181818" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">20%</text>
+<line x1="104" y1="486" x2="742" y2="486" stroke="#00A087" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<polyline points="146,194.44839099752738 322,413.301974655315 498,472.83025458472 674,482.5283278885008" fill="none" stroke="#E64B35" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="146" cy="194.44839099752738" r="10" fill="#E64B35"/>
+<text x="172" y="178.44839099752738" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">19.6%</text>
+<circle cx="322" cy="413.301974655315" r="10" fill="#E64B35"/>
+<text x="348" y="397.301974655315" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">4.9%</text>
+<circle cx="498" cy="472.83025458472" r="10" fill="#E64B35"/>
+<text x="524" y="456.83025458472" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">0.9%</text>
+<circle cx="674" cy="482.5283278885008" r="10" fill="#E64B35"/>
+<text x="700" y="466.5283278885008" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">0.2%</text>
+<text x="146" y="526" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">12</text>
+<text x="322" y="526" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">24</text>
+<text x="498" y="526" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">36</text>
+<text x="674" y="526" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">48</text>
+<text x="430" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">hpi</text>
+<text x="56" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">错误率全程恒定</text>
+<line x1="56" y1="118" x2="300" y2="118" stroke="#00A087" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<rect x="32.0" y="584" width="736" height="130" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="632" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">虚增两成降至千二</text>
+<text x="400.0" y="680" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">塌缩八十五倍　伪造剧烈下调</text>
+</svg>

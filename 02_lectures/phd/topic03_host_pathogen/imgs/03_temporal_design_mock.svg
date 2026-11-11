@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">时序两套模型：未接种对照是交互项的另一半</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">宿主交互 LRT ｜ 病原 ~time ｜ 对照完整性 —— 依据 03_host_pathogen_lecture.md ④4.5 / 4.1</text>
+  <!-- 图例 -->
+  <rect x="940" y="42" width="12" height="12" fill="#F39B7F"/>
+  <text x="960" y="53" font-size="12" fill="#33332E">接种（含病原）</text>
+  <rect x="1064" y="42" width="12" height="12" fill="#8491B4"/>
+  <text x="1084" y="53" font-size="12" fill="#33332E">未接种（对照）</text>
+  <rect x="940" y="64" width="12" height="12" fill="#E64B35"/>
+  <text x="960" y="75" font-size="12" fill="#33332E">易错点</text>
+
+  <!-- ============ 左面板：宿主侧 ============ -->
+  <rect x="48" y="120" width="556" height="436" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="16" font-weight="bold" fill="#3C5488">宿主侧：必须是交互模型</text>
+  <text x="72" y="176" font-size="12" fill="#6B6B66">问的是：时间效应是否依赖接种——LRT 检验交互项整体</text>
+  <line x1="72" y1="192" x2="580" y2="192" stroke="#E9E9E5"/>
+  <!-- 设计网格 -->
+  <text x="240" y="222" font-size="11.5" fill="#6B6B66" text-anchor="middle">12 hpi</text>
+  <text x="348" y="222" font-size="11.5" fill="#6B6B66" text-anchor="middle">24 hpi</text>
+  <text x="456" y="222" font-size="11.5" fill="#6B6B66" text-anchor="middle">48 hpi</text>
+  <text x="72" y="259" font-size="12.5" font-weight="bold" fill="#33332E">接种（G11）</text>
+  <rect x="192" y="232" width="96" height="44" rx="6" fill="#F39B7F"/>
+  <text x="240" y="259" font-size="12" fill="#33332E" text-anchor="middle">接种 ×3</text>
+  <rect x="300" y="232" width="96" height="44" rx="6" fill="#F39B7F"/>
+  <text x="348" y="259" font-size="12" fill="#33332E" text-anchor="middle">接种 ×3</text>
+  <rect x="408" y="232" width="96" height="44" rx="6" fill="#F39B7F"/>
+  <text x="456" y="259" font-size="12" fill="#33332E" text-anchor="middle">接种 ×3</text>
+  <text x="72" y="315" font-size="12.5" font-weight="bold" fill="#33332E">未接种（H2O）</text>
+  <rect x="192" y="288" width="96" height="44" rx="6" fill="#8491B4"/>
+  <text x="240" y="315" font-size="12" fill="#FFFFFF" text-anchor="middle">未接种 ×3</text>
+  <rect x="300" y="288" width="96" height="44" rx="6" fill="#8491B4"/>
+  <text x="348" y="315" font-size="12" fill="#FFFFFF" text-anchor="middle">未接种 ×3</text>
+  <rect x="408" y="288" width="96" height="44" rx="6" fill="#8491B4"/>
+  <text x="456" y="315" font-size="12" fill="#FFFFFF" text-anchor="middle">未接种 ×3</text>
+  <line x1="516" y1="288" x2="516" y2="332" stroke="#3C5488" stroke-width="2"/>
+  <text x="526" y="306" font-size="11.5" font-weight="bold" fill="#3C5488">交互项的</text>
+  <text x="526" y="324" font-size="11.5" font-weight="bold" fill="#3C5488">另一半</text>
+  <!-- 公式 -->
+  <rect x="72" y="356" width="508" height="68" rx="6" fill="#FAFAF7"/>
+  <text x="88" y="384" font-size="13" font-weight="bold" fill="#3C5488">full = ~ treatment + time + treatment:time</text>
+  <text x="88" y="410" font-size="12.5" fill="#33332E">reduced = ~ treatment + time　→　交互项整体显著？</text>
+  <!-- 陷阱 -->
+  <text x="72" y="454" font-size="13" font-weight="bold" fill="#E64B35">只用接种组跑 ~ time 的 LRT：</text>
+  <text x="72" y="480" font-size="12.5" fill="#33332E">昼夜节律、发育、离体伤害——植物自己随时间的变化</text>
+  <text x="72" y="504" font-size="12.5" fill="#33332E">被整体误报为"侵染响应"（结果表看起来完全正常）</text>
+  <text x="72" y="532" font-size="11.5" fill="#6B6B66">植物病理与昆虫取食实验里最经典、最易蒙混过评议的假阳性</text>
+
+  <!-- ============ 右面板：病原侧 ============ -->
+  <rect x="628" y="120" width="544" height="436" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="652" y="152" font-size="16" font-weight="bold" fill="#3C5488">病原侧：只有 ~ time</text>
+  <text x="652" y="176" font-size="12" fill="#6B6B66">病原没有"未接种"——对照是纯培养，模型只剩时间</text>
+  <line x1="652" y1="192" x2="1148" y2="192" stroke="#E9E9E5"/>
+  <rect x="652" y="208" width="472" height="64" rx="6" fill="#FAFAF7"/>
+  <text x="668" y="236" font-size="13" font-weight="bold" fill="#3C5488">full = ~ time　｜　reduced = ~ 1（LRT）</text>
+  <text x="668" y="260" font-size="11.5" fill="#6B6B66">结论要打折扣：time 与病原生物量高度共线</text>
+  <!-- 共线示意 -->
+  <rect x="652" y="292" width="150" height="44" rx="6" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="727" y="319" font-size="12" fill="#3C5488" text-anchor="middle">time（采样点）</text>
+  <line x1="806" y1="308" x2="918" y2="302" stroke="#6B6B66" stroke-width="2"/>
+  <line x1="806" y1="320" x2="918" y2="314" stroke="#6B6B66" stroke-width="2"/>
+  <line x1="852" y1="300" x2="872" y2="322" stroke="#6B6B66" stroke-width="1.5"/>
+  <text x="862" y="292" font-size="11" fill="#6B6B66" text-anchor="middle">高度共线</text>
+  <rect x="922" y="292" width="202" height="44" rx="6" fill="#FFFFFF" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="1023" y="319" font-size="12" fill="#33332E" text-anchor="middle">病原生物量（读段占比）</text>
+  <!-- 陷阱 -->
+  <text x="652" y="372" font-size="13" font-weight="bold" fill="#E64B35">把病原占比当协变量放进模型是无效的</text>
+  <text x="652" y="398" font-size="12.5" fill="#33332E">占比与 time 几乎完全共线 → 设计矩阵接近不满秩</text>
+  <text x="652" y="422" font-size="12.5" fill="#33332E">——DESeq2 的报错是在救你（⑨-E4）</text>
+  <!-- 出路 -->
+  <text x="652" y="452" font-size="13" font-weight="bold" fill="#00A087">出路：</text>
+  <text x="652" y="476" font-size="12.5" fill="#33332E">① spike-in 归一化（ERCC / 异源 RNA 作 controlGenes）</text>
+  <text x="652" y="500" font-size="12.5" fill="#33332E">② 有纯培养样本：in planta vs in vitro 的 Wald 检验，</text>
+  <text x="652" y="524" font-size="12.5" fill="#33332E">　　把时间降级为分层因子——恰好是效应子筛选要的对比</text>
+  <text x="652" y="548" font-size="11.5" fill="#6B6B66">共线的根源：归一化没修干净的残差随生物量一起涨（§4.4）</text>
+
+  <!-- ============ 底部：对照完整性 ============ -->
+  <rect x="48" y="580" width="1104" height="132" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="610" font-size="14" font-weight="bold" fill="#3C5488">对照的完整性决定能问什么（§4.1）——缺一个对照，丢一类问题</text>
+  <text x="72" y="640" font-size="12.5" font-weight="bold" fill="#33332E">缺每时间点的未接种宿主</text>
+  <text x="72" y="664" font-size="12" fill="#33332E">昼夜节律、发育、机械伤害的变化</text>
+  <text x="72" y="686" font-size="12" fill="#33332E">被整体误报为侵染响应（§4.5）</text>
+  <text x="452" y="640" font-size="12.5" font-weight="bold" fill="#33332E">缺纯培养病原</text>
+  <text x="452" y="664" font-size="12" fill="#33332E">病原侧只能做时间点之间的相对比较，</text>
+  <text x="452" y="686" font-size="12" fill="#33332E">答不了"相对体外上调了什么"——效应子筛选恰恰要这个</text>
+  <text x="852" y="640" font-size="12.5" font-weight="bold" fill="#33332E">缺接种缓冲液 / 机械模拟对照</text>
+  <text x="852" y="664" font-size="12" fill="#33332E">分不开"病原引起的"</text>
+  <text x="852" y="686" font-size="12" fill="#33332E">与"接种操作引起的"</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="740" font-size="15" font-weight="bold" fill="#3C5488">未接种对照必须每个时间点都有、必须进模型——它的作用不是"看一眼"。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

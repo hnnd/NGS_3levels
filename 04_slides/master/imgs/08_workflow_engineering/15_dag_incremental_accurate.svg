@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="44" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">输入更新仅单路重算</text>
+<rect x="40" y="88" width="300" height="96" fill="#FBE3D8" rx="12" stroke="#C0623F" stroke-width="4"/>
+<text x="190" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">CK_1 输入更新</text>
+<text x="190" y="166" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">reason: Updated</text>
+<line x1="190" y1="184" x2="190" y2="210" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="190,210 184.291353657166,197.21675483562768 195.708646342834,197.21675483562768" fill="#4DBBD5"/>
+<rect x="40" y="214" width="300" height="68" fill="#FBE3D8" rx="12" stroke="#C0623F" stroke-width="4"/>
+<text x="190" y="257" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">fastp CK_1</text>
+<rect x="40" y="300" width="300" height="68" fill="#FBE3D8" rx="12" stroke="#C0623F" stroke-width="4"/>
+<text x="190" y="343" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">quant CK_1</text>
+<line x1="190" y1="284" x2="190" y2="294" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="190,294 184.291353657166,281.2167548356277 195.708646342834,281.2167548356277" fill="#4DBBD5"/>
+<rect x="40" y="386" width="300" height="68" fill="#FBE3D8" rx="12" stroke="#C0623F" stroke-width="4"/>
+<text x="190" y="429" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">merge_counts</text>
+<line x1="190" y1="370" x2="190" y2="380" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="190,380 184.291353657166,367.2167548356277 195.708646342834,367.2167548356277" fill="#4DBBD5"/>
+<rect x="372" y="88" width="410" height="366" fill="#D8EEE9" rx="16" stroke="#00A087" stroke-width="4"/>
+<text x="577" y="137.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">未变样本</text>
+<text x="577" y="176.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">全命中缓存</text>
+<text x="577" y="259.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">fastp CK_2 / TR_1 / TR_2</text>
+<text x="577" y="310.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">salmon_index</text>
+<text x="577" y="361.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">quant CK_2 / TR_1 / TR_2</text>
+<rect x="40" y="486" width="742" height="92" fill="#FFFFFF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="411" y="543" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#C0623F" text-anchor="middle" font-weight="bold">下游汇总级联更新</text>
+<line x1="190" y1="456" x2="190" y2="482" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="190,482 184.291353657166,469.2167548356277 195.708646342834,469.2167548356277" fill="#4DBBD5"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="88" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">约掉测序深度常数</text>
+<rect x="56" y="148" width="192" height="304" fill="#FFFFFF" rx="16" stroke="#3C5488" stroke-width="3"/>
+<text x="76" y="186" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">x</text>
+<rect x="76" y="204" width="136" height="44" fill="#3C5488" rx="8"/>
+<rect x="76" y="264" width="92" height="44" fill="#E3E8F2" rx="8"/>
+<rect x="76" y="324" width="62" height="44" fill="#3C5488" rx="8"/>
+<rect x="76" y="384" width="118" height="44" fill="#E3E8F2" rx="8"/>
+<rect x="286" y="240" width="228" height="120" fill="#D6EFF4" rx="16" stroke="#3C8DAD" stroke-width="3"/>
+<text x="400" y="290.1" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">除以几何平均</text>
+<text x="400" y="330.90000000000003" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">取对数</text>
+<line x1="252" y1="300" x2="282" y2="300" stroke="#3C8DAD" stroke-width="5" stroke-linecap="round"/>
+<polygon points="282,300 268.30366589531536,306.11640679589357 268.30366589531536,293.88359320410643" fill="#3C8DAD"/>
+<line x1="518" y1="300" x2="548" y2="300" stroke="#3C8DAD" stroke-width="5" stroke-linecap="round"/>
+<polygon points="548,300 534.3036658953154,306.11640679589357 534.3036658953154,293.88359320410643" fill="#3C8DAD"/>
+<rect x="552" y="148" width="192" height="304" fill="#FFFFFF" rx="16" stroke="#00A087" stroke-width="3"/>
+<text x="572" y="186" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">z</text>
+<line x1="568" y1="300" x2="728" y2="300" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<rect x="578" y="216" width="32" height="84" fill="#00A087" rx="6"/>
+<rect x="616" y="178" width="32" height="122" fill="#D8EEE9" rx="6"/>
+<rect x="654" y="300" width="32" height="96" fill="#F39B7F" rx="6"/>
+<rect x="692" y="300" width="32" height="146" fill="#FBE3D8" rx="6"/>
+<rect x="96" y="498" width="608" height="84" fill="#FFFFFF" rx="16" stroke="#00A087" stroke-width="3"/>
+<text x="400" y="552" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">样本内可比</text>
+<rect x="96" y="606" width="608" height="74" fill="#FFFFFF" rx="16" stroke="#E64B35" stroke-width="4" stroke-dasharray="12 9"/>
+<text x="400" y="656" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">不恢复绝对量</text>
+</svg>

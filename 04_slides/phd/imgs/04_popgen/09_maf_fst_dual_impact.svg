@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>MAF filtering pushes F_ST both ways</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="84" y1="470" x2="748" y2="470" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="748,470 735.2167548356277,475.70864634283396 735.2167548356277,464.29135365716604" fill="#3C5488"/>
+<line x1="84" y1="470" x2="84" y2="126" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="84,126 89.70864634283399,138.78324516437232 78.29135365716601,138.78324516437232" fill="#3C5488"/>
+<line x1="76" y1="470.0" x2="84" y2="470.0" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="64" y="480.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0.00</text>
+<line x1="76" y1="305.0" x2="84" y2="305.0" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="64" y="315.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0.05</text>
+<line x1="76" y1="140.0" x2="84" y2="140.0" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="64" y="150.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0.10</text>
+<rect x="110" y="220.0388460202224" width="120" height="249.9611539797776" fill="#3C5488" rx="8"/>
+<text x="170" y="270.0388460202224" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">0.0757</text>
+<text x="170" y="520" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">全量读数</text>
+<text x="170" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">零点零七六</text>
+<rect x="340" y="192.3731768469425" width="120" height="277.6268231530575" fill="#3C8DAD" rx="8"/>
+<text x="400" y="242.3731768469425" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">0.0841</text>
+<text x="400" y="520" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">滤真实稀有</text>
+<text x="400" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">读数抬高</text>
+<rect x="570" y="260.6386073231462" width="120" height="209.36139267685382" fill="#E64B35" rx="8"/>
+<text x="630" y="310.6386073231462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">0.0634</text>
+<text x="630" y="520" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">滤观测频率</text>
+<text x="630" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">反向降低</text>
+<line x1="236" y1="214.0388460202224" x2="336" y2="186.3731768469425" stroke="#6B6B66" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 7"/>
+<polygon points="336,186.3731768469425 326.74432809577155,194.01075091213335 324.13491609483145,184.57880121087575" fill="#6B6B66"/>
+<text x="286" y="168" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">×1.11</text>
+</svg>

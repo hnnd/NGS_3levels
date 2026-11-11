@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="44" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">等位基因丢失</text>
+<rect x="40" y="68" width="720" height="110" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="150" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">真实杂合</text>
+<text x="150" y="146" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">GT 0/1</text>
+<rect x="270" y="88" width="200" height="34" fill="#4DBBD5" rx="6"/>
+<text x="370" y="114" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">chr ...A...</text>
+<rect x="270" y="130" width="200" height="34" fill="#F39B7F" rx="6"/>
+<text x="370" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">chr ...G...</text>
+<text x="630" y="126" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">两条染色体等量</text>
+<line x1="400" y1="178" x2="400" y2="214" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="400,214 392.6603118449277,197.56439907437846 407.3396881550723,197.56439907437846" fill="#6B6B66"/>
+<rect x="40" y="218" width="720" height="120" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="150" y="258" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">抽样波动</text>
+<text x="150" y="296" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">d=8</text>
+<rect x="290" y="232" width="48" height="30" fill="#4DBBD5" rx="4"/>
+<rect x="346" y="232" width="48" height="30" fill="#4DBBD5" rx="4"/>
+<rect x="402" y="232" width="48" height="30" fill="#4DBBD5" rx="4"/>
+<rect x="458" y="232" width="48" height="30" fill="#4DBBD5" rx="4"/>
+<rect x="514" y="232" width="48" height="30" fill="#4DBBD5" rx="4"/>
+<rect x="570" y="232" width="48" height="30" fill="#4DBBD5" rx="4"/>
+<rect x="626" y="232" width="48" height="30" fill="#4DBBD5" rx="4"/>
+<rect x="682" y="232" width="48" height="30" fill="#4DBBD5" rx="4"/>
+<text x="610" y="298" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">8/8 全 REF：0.39%</text>
+<text x="610" y="330" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">或仅 1 ALT：3.5%</text>
+<line x1="400" y1="338" x2="400" y2="374" stroke="#E64B35" stroke-width="6" stroke-linecap="round"/>
+<polygon points="400,374 392.6603118449277,357.56439907437846 407.3396881550723,357.56439907437846" fill="#E64B35"/>
+<rect x="40" y="378" width="720" height="110" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="4"/>
+<text x="150" y="418" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">假纯合</text>
+<text x="150" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">变异丢失</text>
+<rect x="300" y="400" width="200" height="44" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="432" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">GT = 0/0</text>
+<text x="610" y="432" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">判为纯合参考</text>
+<line x1="400" y1="488" x2="400" y2="524" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="400,524 392.6603118449277,507.56439907437846 407.3396881550723,507.56439907437846" fill="#6B6B66"/>
+<rect x="40" y="528" width="720" height="130" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="230" y="570" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">杂合度 系统低估</text>
+<text x="230" y="610" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">丢失的总是杂合子</text>
+<line x1="430" y1="590" x2="700" y2="590" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="430" y1="590" x2="660" y2="590" stroke="#F39B7F" stroke-width="5" stroke-linecap="round"/>
+<polygon points="660,590 643.5643990743785,597.3396881550723 643.5643990743785,582.6603118449277" fill="#F39B7F"/>
+<text x="565" y="636" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">偏离 HWE</text>
+</svg>

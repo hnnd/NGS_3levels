@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="260" y="60.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">十二样本设计网格</text>
+<text x="640" y="60.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">兼作批次区组</text>
+<text x="234" y="78" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">30 min</text>
+<text x="402" y="78" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">60 min</text>
+<text x="570" y="78" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">120 min</text>
+<text x="134" y="146.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="end" font-weight="bold">K</text>
+<text x="134" y="226.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="end" font-weight="bold">N</text>
+<rect x="155" y="101" width="74" height="70" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="5"/>
+<text x="192.0" y="147.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">A</text>
+<rect x="239" y="101" width="74" height="70" fill="#E3E8F2" rx="10" stroke="#8491B4" stroke-width="5"/>
+<text x="276.0" y="147.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">B</text>
+<rect x="323" y="101" width="74" height="70" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="5"/>
+<text x="360.0" y="147.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">A</text>
+<rect x="407" y="101" width="74" height="70" fill="#E3E8F2" rx="10" stroke="#8491B4" stroke-width="5"/>
+<text x="444.0" y="147.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">B</text>
+<rect x="491" y="101" width="74" height="70" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="5"/>
+<text x="528.0" y="147.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">A</text>
+<rect x="575" y="101" width="74" height="70" fill="#E3E8F2" rx="10" stroke="#8491B4" stroke-width="5"/>
+<text x="612.0" y="147.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">B</text>
+<rect x="155" y="181" width="74" height="70" fill="#D8EEE9" rx="10" stroke="#3C5488" stroke-width="5"/>
+<text x="192.0" y="227.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">A</text>
+<rect x="239" y="181" width="74" height="70" fill="#D8EEE9" rx="10" stroke="#8491B4" stroke-width="5"/>
+<text x="276.0" y="227.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">B</text>
+<rect x="323" y="181" width="74" height="70" fill="#D8EEE9" rx="10" stroke="#3C5488" stroke-width="5"/>
+<text x="360.0" y="227.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">A</text>
+<rect x="407" y="181" width="74" height="70" fill="#D8EEE9" rx="10" stroke="#8491B4" stroke-width="5"/>
+<text x="444.0" y="227.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">B</text>
+<rect x="491" y="181" width="74" height="70" fill="#D8EEE9" rx="10" stroke="#3C5488" stroke-width="5"/>
+<text x="528.0" y="227.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">A</text>
+<rect x="575" y="181" width="74" height="70" fill="#D8EEE9" rx="10" stroke="#8491B4" stroke-width="5"/>
+<text x="612.0" y="227.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">B</text>
+<rect x="150" y="296" width="30" height="30" fill="#FFFFFF" rx="6" stroke="#3C5488" stroke-width="4"/>
+<text x="196" y="322" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">rep A ／批次 A</text>
+<rect x="470" y="296" width="30" height="30" fill="#FFFFFF" rx="6" stroke="#8491B4" stroke-width="4"/>
+<text x="516" y="322" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">rep B ／批次 B</text>
+<text x="400" y="398.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">待估参数五个</text>
+<rect x="60" y="420" width="330" height="64" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="225" y="464" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">1 + 1 + 2 + 1 = 5</text>
+<rect x="410" y="420" width="340" height="64" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="580" y="464" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">β0 + rep + time + trt</text>
+<text x="400" y="552.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">残差自由度七</text>
+<rect x="60" y="574" width="690" height="64" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="5"/>
+<text x="400" y="618" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">12 − 5 = 7</text>
+<text x="400" y="668" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">趋势可拟合 · 单基因仍噪 → 跨基因收缩</text>
+</svg>

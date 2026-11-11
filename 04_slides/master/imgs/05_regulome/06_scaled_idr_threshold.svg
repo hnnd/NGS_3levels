@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="58" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">非线性缩放</text>
+<text x="400" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">阈值五百四十对应不可重复率百分之五</text>
+<line x1="140" y1="566" x2="690" y2="566" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="140" y1="566" x2="140" y2="196" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="690" y="658" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">IDR</text>
+<text x="136" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">scaled</text>
+<line x1="140.0" y1="566" x2="140.0" y2="574" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="140.0" y="608" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0.01</text>
+<line x1="366.2744494627216" y1="566" x2="366.2744494627216" y2="574" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="366.2744494627216" y="608" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0.05</text>
+<line x1="463.7255505372784" y1="566" x2="463.7255505372784" y2="574" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="463.7255505372784" y="608" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0.10</text>
+<line x1="592.5488989254432" y1="566" x2="592.5488989254432" y2="574" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="592.5488989254432" y="608" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0.25</text>
+<line x1="690.0" y1="566" x2="690.0" y2="574" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="690.0" y="608" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0.50</text>
+<line x1="140" y1="442.6666666666667" x2="132" y2="442.6666666666667" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="124" y="452.6666666666667" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">300</text>
+<line x1="140" y1="319.33333333333337" x2="132" y2="319.33333333333337" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="124" y="329.33333333333337" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">600</text>
+<line x1="140" y1="196.0" x2="132" y2="196.0" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="124" y="206.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">900</text>
+<line x1="140.0" y1="224.57961246991" x2="690.0" y2="514.6111111111111" stroke="#3C5488" stroke-width="7" stroke-linecap="butt"/>
+<path d="M 366.2744494627216 343.9009173460661 L 366.2744494627216 566 M 140 343.9009173460661 L 366.2744494627216 343.9009173460661" fill="none" stroke="#E64B35" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="15 11"/>
+<circle cx="366.2744494627216" cy="343.9009173460661" r="13" fill="#E64B35"/>
+<text x="332.2744494627216" y="397.9009173460661" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="end" font-weight="bold">540</text>
+<text x="396.2744494627216" y="500" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">p = 0.05</text>
+</svg>

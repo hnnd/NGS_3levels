@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Four fingerprint shapes of a broken run</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="30" y="52" width="360" height="290" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="210.0" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">LD decay</text>
+<line x1="62" y1="250" x2="356" y2="250" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="356,250 345.9560216565646,254.48536498365527 345.9560216565646,245.51463501634473" fill="#3C5488"/>
+<line x1="62" y1="250" x2="62" y2="118" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="62,118 66.48536498365527,128.04397834343538 57.51463501634473,128.04397834343538" fill="#3C5488"/>
+<polyline points="62,122.0 68,132.7 74,142.4 80,151.2 86,159.2 92,166.6 98,173.2 104,179.2 110,184.7 116,189.7 122,194.3 128,198.4 134,202.2 140,205.6 146,208.7 152,211.5 158,214.1 164,216.5 170,218.6" fill="none" stroke="#3C5488" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="176" y1="110" x2="176" y2="250" stroke="#E64B35" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<text x="188" y="132" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">0.2</text>
+<text x="210" y="312" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">默认阈值远距离截断</text>
+<rect x="410" y="52" width="360" height="290" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="590.0" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">LD decay</text>
+<line x1="442" y1="250" x2="736" y2="250" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="736,250 725.9560216565646,254.48536498365527 725.9560216565646,245.51463501634473" fill="#3C5488"/>
+<line x1="442" y1="250" x2="442" y2="118" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="442,118 446.48536498365524,128.04397834343538 437.51463501634476,128.04397834343538" fill="#3C5488"/>
+<polyline points="442,128.0 448,139.8 454,150.3 460,159.6 466,167.8 472,175.1 478,181.6 484,187.3 490,192.4 496,196.9 502,200.9 508,204.4 514,207.6 520,210.3 526,212.8 532,215.0 538,216.9 544,218.6 550,220.1 556,221.5 562,222.7 568,223.7 574,224.7 580,225.5 586,226.3 592,226.9 598,227.5 604,228.0 610,228.5 616,228.9 622,232 628,232 634,232 640,232 646,232 652,232 658,232 664,232 670,232 676,232 682,232 688,232 694,232 700,232 706,232 712,232 718,232 724,232 730,232" fill="none" stroke="#3C5488" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="442" y1="232" x2="736" y2="232" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<text x="700" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end" font-weight="bold">1/n</text>
+<text x="590" y="312" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">抽样本底高企未扣除</text>
+<rect x="30" y="360" width="360" height="290" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="210.0" y="400" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">PC1 vs depth</text>
+<line x1="62" y1="590" x2="356" y2="590" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="356,590 345.9560216565646,594.4853649836552 345.9560216565646,585.5146350163448" fill="#3C5488"/>
+<line x1="62" y1="590" x2="62" y2="430" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="62,430 66.48536498365527,440.0439783434354 57.51463501634473,440.0439783434354" fill="#3C5488"/>
+<circle cx="78" cy="576" r="8" fill="#4DBBD5"/>
+<circle cx="108" cy="558" r="8" fill="#4DBBD5"/>
+<circle cx="138" cy="540" r="8" fill="#4DBBD5"/>
+<circle cx="168" cy="522" r="8" fill="#4DBBD5"/>
+<circle cx="198" cy="504" r="8" fill="#4DBBD5"/>
+<circle cx="228" cy="486" r="8" fill="#4DBBD5"/>
+<circle cx="258" cy="468" r="8" fill="#4DBBD5"/>
+<circle cx="288" cy="450" r="8" fill="#4DBBD5"/>
+<circle cx="318" cy="432" r="8" fill="#4DBBD5"/>
+<line x1="70" y1="586" x2="342" y2="420" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt" stroke-dasharray="12 9"/>
+<text x="210" y="636" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">主成分与深度强相关</text>
+<rect x="410" y="360" width="360" height="290" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="590.0" y="400" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">PCA</text>
+<line x1="442" y1="590" x2="736" y2="590" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="736,590 725.9560216565646,594.4853649836552 725.9560216565646,585.5146350163448" fill="#3C5488"/>
+<line x1="442" y1="590" x2="442" y2="430" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="442,430 446.48536498365524,440.0439783434354 437.51463501634476,440.0439783434354" fill="#3C5488"/>
+<circle cx="500" cy="548" r="7" fill="#3C5488"/>
+<circle cx="500" cy="530" r="7" fill="#3C5488"/>
+<circle cx="500" cy="512" r="7" fill="#3C5488"/>
+<circle cx="500" cy="494" r="7" fill="#3C5488"/>
+<circle cx="520" cy="548" r="7" fill="#3C5488"/>
+<circle cx="520" cy="530" r="7" fill="#3C5488"/>
+<circle cx="520" cy="512" r="7" fill="#3C5488"/>
+<circle cx="520" cy="494" r="7" fill="#3C5488"/>
+<circle cx="540" cy="548" r="7" fill="#3C5488"/>
+<circle cx="540" cy="530" r="7" fill="#3C5488"/>
+<circle cx="540" cy="512" r="7" fill="#3C5488"/>
+<circle cx="540" cy="494" r="7" fill="#3C5488"/>
+<circle cx="560" cy="548" r="7" fill="#3C5488"/>
+<circle cx="560" cy="530" r="7" fill="#3C5488"/>
+<circle cx="560" cy="512" r="7" fill="#3C5488"/>
+<circle cx="560" cy="494" r="7" fill="#3C5488"/>
+<circle cx="580" cy="548" r="7" fill="#3C5488"/>
+<circle cx="580" cy="530" r="7" fill="#3C5488"/>
+<circle cx="580" cy="512" r="7" fill="#3C5488"/>
+<circle cx="580" cy="494" r="7" fill="#3C5488"/>
+<circle cx="700" cy="450" r="9" fill="#F39B7F"/>
+<circle cx="700" cy="450" r="24" fill="#F39B7F" stroke="#F39B7F" stroke-width="3" stroke-dasharray="8 7"/>
+</svg>

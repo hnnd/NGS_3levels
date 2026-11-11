@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">conda 环境隔离：一个任务一个工具箱</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">裸装互撞 ｜ 独立目录 ｜ PATH 前插 —— 依据 01_linux_conda_lecture.md ④4.4–4.5</text>
+  <!-- 图例 -->
+  <rect x="926" y="34" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="45" font-size="12" fill="#33332E">结构 / PATH</text>
+  <rect x="926" y="56" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="67" font-size="12" fill="#33332E">独立环境 / 正常</text>
+  <rect x="926" y="78" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="89" font-size="12" fill="#33332E">相撞的两个工具</text>
+  <rect x="926" y="100" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="111" font-size="12" fill="#33332E">冲突 / 易错点</text>
+
+  <!-- ============ 左面板：裸装 ============ -->
+  <rect x="48" y="120" width="520" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="17" font-weight="bold" fill="#3C5488">裸装：所有工具挤同一条系统 PATH</text>
+  <text x="72" y="176" font-size="12" fill="#6B6B66">shell 按 PATH 从左到右找，找到第一个就执行（④4.4）</text>
+
+  <!-- 系统 PATH 大盒子 -->
+  <rect x="72" y="196" width="472" height="120" rx="8" fill="#FAFAF7" stroke="#3C5488" stroke-width="1.8"/>
+  <text x="88" y="218" font-size="11.5" font-weight="bold" fill="#3C5488">系统 PATH（/usr/bin:/usr/local/bin:…）</text>
+  <rect x="88"  y="230" width="78" height="32" rx="5" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.2"/>
+  <text x="127" y="250" font-size="11.5" fill="#33332E" text-anchor="middle">samtools</text>
+  <rect x="174" y="230" width="36" height="32" rx="5" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.2"/>
+  <text x="192" y="250" font-size="11.5" fill="#33332E" text-anchor="middle">R</text>
+  <rect x="218" y="230" width="64" height="32" rx="5" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.2"/>
+  <text x="250" y="250" font-size="11.5" fill="#33332E" text-anchor="middle">fastqc</text>
+  <rect x="290" y="230" width="64" height="32" rx="5" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.2"/>
+  <text x="322" y="250" font-size="11.5" fill="#33332E" text-anchor="middle">prokka</text>
+  <rect x="362" y="230" width="64" height="32" rx="5" fill="#F39B7F" stroke="#F39B7F"/>
+  <text x="394" y="250" font-size="11.5" fill="#33332E" text-anchor="middle">busco</text>
+  <rect x="434" y="230" width="90" height="32" rx="5" fill="#F39B7F" stroke="#F39B7F"/>
+  <text x="479" y="250" font-size="11.5" fill="#33332E" text-anchor="middle">antismash</text>
+  <line x1="88" y1="284" x2="518" y2="284" stroke="#6B6B66" stroke-width="1.2"/>
+  <polygon points="526,284 516,280 516,288" fill="#6B6B66"/>
+  <text x="88" y="306" font-size="10.5" fill="#6B6B66">先找到谁就用谁：后面的同名版本被无视（版本天天变 → 锁版本=锁行为，④4.7）</text>
+
+  <!-- 依赖互斥：拔河 -->
+  <rect x="72" y="336" width="190" height="64" rx="8" fill="#FFFFFF" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="167" y="360" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">BUSCO</text>
+  <text x="167" y="382" font-size="11" fill="#6B6B66" text-anchor="middle">要 python 包 v1.2</text>
+  <rect x="354" y="336" width="190" height="64" rx="8" fill="#FFFFFF" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="449" y="360" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">antiSMASH</text>
+  <text x="449" y="382" font-size="11" fill="#6B6B66" text-anchor="middle">要 python 包 v2.0</text>
+  <text x="308" y="362" font-size="11.5" font-weight="bold" fill="#33332E" text-anchor="middle">同一个包</text>
+  <text x="308" y="382" font-size="10" fill="#6B6B66" text-anchor="middle">只能装一个版本</text>
+  <line x1="262" y1="366" x2="270" y2="366" stroke="#F39B7F" stroke-width="1.5"/>
+  <polygon points="276,366 268,362 268,370" fill="#F39B7F"/>
+  <line x1="354" y1="366" x2="346" y2="366" stroke="#F39B7F" stroke-width="1.5"/>
+  <polygon points="340,366 348,362 348,370" fill="#F39B7F"/>
+  <!-- 红色冲突点 -->
+  <circle cx="308" cy="414" r="14" fill="#E64B35"/>
+  <text x="308" y="418" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">冲突</text>
+  <text x="308" y="452" font-size="12.5" font-weight="bold" fill="#E64B35" text-anchor="middle">装不进两个版本 → 大环境几乎必然 solve 失败（④4.5）</text>
+
+  <!-- 左面板结论 -->
+  <text x="72" y="516" font-size="12.5" font-weight="bold" fill="#3C5488">本课程按任务拆成 4 个环境</text>
+  <text x="72" y="540" font-size="11.5" fill="#6B6B66">一个大环境在 bioconda 上几乎必然解不出来（⑤5.2）</text>
+  <text x="72" y="576" font-size="11.5" fill="#6B6B66">command not found：没装 / 没激活 / 拿错环境（④4.4）</text>
+
+  <!-- ============ 右面板：conda 隔离 ============ -->
+  <rect x="608" y="120" width="544" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="632" y="154" font-size="17" font-weight="bold" fill="#3C5488">conda：一个环境一个独立目录</text>
+  <text x="632" y="176" font-size="12" fill="#6B6B66">各装各的版本，互不干扰；激活谁，谁的工具箱摆到最前（④4.5）</text>
+
+  <!-- 环境盒 2x2 -->
+  <rect x="632" y="196" width="238" height="140" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.6"/>
+  <text x="648" y="226" font-size="13.5" font-weight="bold" fill="#3C5488">ngs_ug_base</text>
+  <polyline points="840,216 846,222 858,206" fill="none" stroke="#00A087" stroke-width="2.5"/>
+  <text x="648" y="254" font-size="11" fill="#33332E">fastqc · fastp · bwa · samtools</text>
+  <text x="648" y="274" font-size="11" fill="#33332E">bowtie2 · bedtools · igv</text>
+  <text x="648" y="294" font-size="11" fill="#33332E">R + tidyverse + ggplot2</text>
+  <text x="648" y="318" font-size="10.5" fill="#6B6B66">u01–u05 · u07（IGV / R 作图）</text>
+
+  <rect x="890" y="196" width="238" height="140" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.6"/>
+  <text x="906" y="226" font-size="13.5" font-weight="bold" fill="#3C5488">ngs_ug_assembly</text>
+  <polyline points="1098,216 1104,222 1116,206" fill="none" stroke="#00A087" stroke-width="2.5"/>
+  <text x="906" y="254" font-size="11" fill="#33332E">canu · flye · minimap2</text>
+  <text x="906" y="274" font-size="11" fill="#33332E">quast · busco · jellyfish</text>
+  <text x="906" y="294" font-size="11" fill="#33332E">trimmomatic</text>
+  <text x="906" y="318" font-size="10.5" fill="#6B6B66">u06 · u08（扫描 / 组装）</text>
+
+  <rect x="632" y="350" width="238" height="140" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.6"/>
+  <text x="648" y="380" font-size="13.5" font-weight="bold" fill="#3C5488">ngs_ug_annot</text>
+  <polyline points="840,370 846,376 858,360" fill="none" stroke="#00A087" stroke-width="2.5"/>
+  <text x="648" y="408" font-size="11" fill="#33332E">prokka · antismash</text>
+  <text x="648" y="428" font-size="11" fill="#33332E">checkm-genome</text>
+  <text x="648" y="472" font-size="10.5" fill="#6B6B66">u07 · u08（注释）</text>
+
+  <rect x="890" y="350" width="238" height="140" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.6"/>
+  <text x="906" y="380" font-size="13.5" font-weight="bold" fill="#3C5488">ngs_ug_phylo</text>
+  <polyline points="1098,370 1104,376 1116,360" fill="none" stroke="#00A087" stroke-width="2.5"/>
+  <text x="906" y="408" font-size="11" fill="#33332E">mash · fastani · roary</text>
+  <text x="906" y="428" font-size="11" fill="#33332E">iqtree · ggtree · gtotree</text>
+  <text x="906" y="448" font-size="11" fill="#33332E">mashtree</text>
+  <text x="906" y="472" font-size="10.5" fill="#6B6B66">u08（鉴定 / 建树 / 泛基因组）</text>
+
+  <!-- 激活演示条 -->
+  <rect x="632" y="514" width="496" height="130" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="648" y="540" font-size="12" font-weight="bold" fill="#33332E">conda activate ngs_ug_assembly 之后（④4.4）：</text>
+  <rect x="648" y="552" width="162" height="30" fill="#00A087"/>
+  <text x="729" y="571" font-size="11" fill="#FFFFFF" text-anchor="middle">ngs_ug_assembly/bin/</text>
+  <rect x="810" y="552" width="240" height="30" fill="#F1F1EC"/>
+  <text x="930" y="571" font-size="11" fill="#6B6B66" text-anchor="middle">/usr/bin:/usr/local/bin:…</text>
+  <rect x="1050" y="552" width="78" height="30" fill="#F1F1EC"/>
+  <text x="1089" y="571" font-size="11" fill="#6B6B66" text-anchor="middle">…</text>
+  <text x="648" y="606" font-size="11.5" font-weight="bold" fill="#00A087">bin/ 插到 PATH 最前面 → 先找到先执行</text>
+  <text x="648" y="628" font-size="10.5" fill="#6B6B66">提示符前出现 (ngs_ug_assembly)（⑥6.1）</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

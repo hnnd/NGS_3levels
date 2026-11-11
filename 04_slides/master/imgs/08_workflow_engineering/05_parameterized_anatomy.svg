@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">四处变量</text>
+<rect x="34" y="92" width="168" height="116" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="118" y="140" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">路径</text>
+<text x="118" y="182" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">$INDIR</text>
+<rect x="224" y="92" width="168" height="116" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="308" y="140" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">样本</text>
+<text x="308" y="182" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">$SAMPLE</text>
+<rect x="414" y="92" width="168" height="116" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="498" y="140" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">线程</text>
+<text x="498" y="182" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">$THREADS</text>
+<rect x="604" y="92" width="168" height="116" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="688" y="140" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">阈值</text>
+<text x="688" y="182" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">$QUAL</text>
+<text x="400" y="268" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="33" fill="#3C5488" text-anchor="middle" font-weight="bold">双端成对映射</text>
+<rect x="60" y="292" width="128" height="78" fill="#FFFFFF" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="124" y="344" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">-i</text>
+<line x1="194" y1="331" x2="260" y2="331" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="260,331 245.39057695500307,337.5241672489531 245.39057695500307,324.4758327510469" fill="#4DBBD5"/>
+<rect x="268" y="292" width="128" height="78" fill="#FFFFFF" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="332" y="344" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">-o</text>
+<rect x="404" y="292" width="128" height="78" fill="#FFFFFF" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="468" y="344" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">-I</text>
+<line x1="538" y1="331" x2="604" y2="331" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="604,331 589.3905769550031,337.5241672489531 589.3905769550031,324.4758327510469" fill="#4DBBD5"/>
+<rect x="612" y="292" width="128" height="78" fill="#FFFFFF" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="676" y="344" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">-O</text>
+<rect x="60" y="424" width="330" height="128" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="225" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">默认值兜底</text>
+<text x="225" y="518" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">${THREADS:-4}</text>
+<rect x="420" y="424" width="330" height="128" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="585" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">必填断言</text>
+<text x="585" y="518" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">${1:?用法}</text>
+</svg>

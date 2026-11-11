@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="430" y="54" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">β distance</text>
+<rect x="152" y="96" width="308" height="242" fill="#E6E9F0" rx="10" stroke="#8491B4" stroke-width="4"/>
+<rect x="460" y="96" width="308" height="242" fill="#D6EFF4" rx="10" stroke="#4DBBD5" stroke-width="4"/>
+<rect x="152" y="338" width="308" height="242" fill="#FBE3D8" rx="10" stroke="#F39B7F" stroke-width="4"/>
+<rect x="460" y="338" width="308" height="242" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="4"/>
+<line x1="136" y1="338" x2="768" y2="338" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="460" y1="80" x2="460" y2="580" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="58" y="229" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">tree</text>
+<text x="58" y="471" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">no tree</text>
+<line x1="110" y1="584" x2="110" y2="86" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="110,80 102,102 118,102" fill="#6B6B66"/>
+<text x="306" y="654" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">presence</text>
+<text x="614" y="654" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">abundance</text>
+<line x1="156" y1="618" x2="768" y2="618" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="774,618 752,610 752,626" fill="#6B6B66"/>
+<text x="306" y="183" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">Unweighted</text>
+<text x="306" y="227" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">UniFrac</text>
+<text x="306" y="291" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">新支出现</text>
+<line x1="194" y1="124" x2="194" y2="138" stroke="#8491B4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="194" y1="129" x2="181" y2="146" stroke="#8491B4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="194" y1="129" x2="207" y2="146" stroke="#8491B4" stroke-width="3" stroke-linecap="butt"/>
+<circle cx="194" cy="120" r="3" fill="#8491B4"/>
+<circle cx="181" cy="149" r="3" fill="#8491B4"/>
+<circle cx="207" cy="149" r="3" fill="#8491B4"/>
+<text x="614" y="183" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">Weighted</text>
+<text x="614" y="227" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">UniFrac</text>
+<text x="614" y="291" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">优势菌结构</text>
+<line x1="502" y1="124" x2="502" y2="138" stroke="#3C8DAD" stroke-width="3" stroke-linecap="butt"/>
+<line x1="502" y1="129" x2="489" y2="146" stroke="#3C8DAD" stroke-width="3" stroke-linecap="butt"/>
+<line x1="502" y1="129" x2="515" y2="146" stroke="#3C8DAD" stroke-width="3" stroke-linecap="butt"/>
+<circle cx="502" cy="120" r="3" fill="#3C8DAD"/>
+<circle cx="489" cy="149" r="3" fill="#3C8DAD"/>
+<circle cx="515" cy="149" r="3" fill="#3C8DAD"/>
+<text x="306" y="425" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">Jaccard</text>
+<text x="306" y="533" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">稀有种名单须抽平</text>
+<text x="614" y="425" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">Bray–Curtis</text>
+<text x="614" y="533" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">优势种首选</text>
+</svg>

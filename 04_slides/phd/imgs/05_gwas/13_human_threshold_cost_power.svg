@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Cost of importing the human threshold</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="120" y1="380.0" x2="700" y2="380.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="120" y1="380.0" x2="120" y2="100.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="112" y1="380.0" x2="700" y2="380.0" stroke="#E9E9E5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 8"/>
+<text x="104" y="390.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0</text>
+<line x1="112" y1="320.0" x2="700" y2="320.0" stroke="#E9E9E5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 8"/>
+<text x="104" y="330.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10</text>
+<line x1="112" y1="260.0" x2="700" y2="260.0" stroke="#E9E9E5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 8"/>
+<text x="104" y="270.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">20</text>
+<line x1="112" y1="200.0" x2="700" y2="200.0" stroke="#E9E9E5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 8"/>
+<text x="104" y="210.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">30</text>
+<line x1="112" y1="140.0" x2="700" y2="140.0" stroke="#E9E9E5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 8"/>
+<text x="104" y="150.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">40</text>
+<rect x="204" y="192.1727922707374" width="92" height="187.8272077292626" fill="#D8EEE9" rx="8" stroke="#00A087" stroke-width="4"/>
+<text x="250" y="174.1727922707374" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">31.3</text>
+<rect x="474" y="142.39406588099556" width="92" height="237.60593411900444" fill="#F6D8D2" rx="8" stroke="#E64B35" stroke-width="4"/>
+<text x="520" y="124.39406588099556" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">39.6</text>
+<text x="203.1" y="424" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start">2×10<tspan dy="-11" font-size="21">−6</tspan></text>
+<text x="473.1" y="424" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start">5×10<tspan dy="-11" font-size="21">−8</tspan></text>
+<text x="582" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">+27%</text>
+<text x="400" y="476" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">非中心参数自三十一升至四十</text>
+<line x1="130" y1="588" x2="700" y2="588" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="130" y="546" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">N=413</text>
+<rect x="250" y="552" width="43.204805652009554" height="36" fill="#D8EEE9" rx="6" stroke="#00A087" stroke-width="4"/>
+<text x="309.20480565200955" y="582" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="start" font-weight="bold">7.6%</text>
+<text x="400" y="650" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">同等位点样本多四分之一微效全漏</text>
+</svg>

@@ -1,0 +1,26 @@
+# 硕士生 · 环境 3/6：重测序与变异检测
+# 覆盖专题：m03
+# 创建：conda env create -f env_master_variant.yml  激活：conda activate ngs_ms_variant
+#
+# 【为什么单独】GATK4 携带 JVM 与一整套 Python/Java 依赖，与 R 栈共存时 solve 极慢。
+# 【不走 conda】ANNOVAR 需官网注册后下载，见契约 env_exempt_tools。
+
+name: ngs_ms_variant
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # 【生态性断裂】setuptools 82.0.0（2026-02-08）移除了 pkg_resources（81.x 仍含），而 bioconda 上
+  # 2023-2024 年的 Python 工具（multiqc 1.14、macs2、部分 deeptools 子命令等）仍 import 它，
+  # 表现为 `ModuleNotFoundError: No module named 'pkg_resources'`。全课程统一钉 <81（比必要的 <82 多保守一档，已实测可用）。
+  - setuptools<81
+  - bwa=0.7.17
+  - bwa-mem2=2.2.1
+  - samtools=1.17
+  - gatk4=4.4.0.0
+  - bcftools=1.17
+  - picard
+  - snpeff=5.1
+  - vcftools

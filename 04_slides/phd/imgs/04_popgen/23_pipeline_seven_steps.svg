@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Seven-step population genomics loop</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="28" y="150" width="152" height="100" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="104" y="202" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">1</text>
+<text x="104" y="238" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">VCF</text>
+<rect x="218" y="150" width="152" height="100" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="294" y="202" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">2</text>
+<text x="294" y="238" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">split</text>
+<rect x="408" y="150" width="152" height="100" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="484" y="202" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">3</text>
+<text x="484" y="238" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">diversity</text>
+<rect x="598" y="150" width="152" height="100" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="674" y="202" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">4</text>
+<text x="674" y="238" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">PLINK</text>
+<rect x="598" y="390" width="152" height="100" fill="#E7F5F8" rx="12" stroke="#3C8DAD" stroke-width="4"/>
+<text x="674" y="442" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C8DAD" text-anchor="middle" font-weight="bold">5</text>
+<text x="674" y="478" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">LD</text>
+<rect x="408" y="390" width="152" height="100" fill="#E7F5F8" rx="12" stroke="#3C8DAD" stroke-width="4"/>
+<text x="484" y="442" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C8DAD" text-anchor="middle" font-weight="bold">6</text>
+<text x="484" y="478" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">structure</text>
+<rect x="218" y="390" width="152" height="100" fill="#E7F5F8" rx="12" stroke="#3C8DAD" stroke-width="4"/>
+<text x="294" y="442" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C8DAD" text-anchor="middle" font-weight="bold">7</text>
+<text x="294" y="478" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">iterate</text>
+<line x1="180" y1="200" x2="218" y2="200" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="218,200 206.12984377594,205.3008858897744 206.12984377594,194.6991141102256" fill="#3C5488"/>
+<line x1="370" y1="200" x2="408" y2="200" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="408,200 396.12984377594,205.3008858897744 396.12984377594,194.6991141102256" fill="#3C5488"/>
+<line x1="560" y1="200" x2="598" y2="200" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="598,200 586.12984377594,205.3008858897744 586.12984377594,194.6991141102256" fill="#3C5488"/>
+<line x1="674" y1="250" x2="674" y2="390" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="674,390 668.6991141102255,378.12984377594 679.3008858897745,378.12984377594" fill="#3C5488"/>
+<line x1="598" y1="440" x2="560" y2="440" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="560,440 571.87015622406,434.6991141102256 571.87015622406,445.3008858897744" fill="#3C5488"/>
+<line x1="408" y1="440" x2="370" y2="440" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="370,440 381.87015622406,434.6991141102256 381.87015622406,445.3008858897744" fill="#3C5488"/>
+<path d="M 294 490 L 294 566 L 16 566 L 16 96 L 484 96 L 484 150" fill="none" stroke="#E64B35" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="14 10"/>
+<polygon points="484,150 466,122 502,122" fill="#E64B35"/>
+<text x="300" y="78" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">量半衰回补窗宽</text>
+<text x="104" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">质控底座</text>
+<text x="104" y="344" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">置缺失</text>
+<text x="294" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">两套分流</text>
+<text x="294" y="344" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">各司其职</text>
+<text x="484" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">多样性结构</text>
+<text x="484" y="344" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">连锁</text>
+</svg>

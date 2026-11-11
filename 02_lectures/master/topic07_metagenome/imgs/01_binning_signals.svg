@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">宏基因组分箱的双信号：组成 × 覆盖度</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">四核苷酸组成 TNF ｜ 跨样本覆盖度共变 —— 依据 07_metagenome_lecture.md ④4.4</text>
+  <!-- 图例 -->
+  <rect x="946" y="34" width="12" height="12" fill="#3C5488"/>
+  <text x="964" y="44" font-size="12" fill="#33332E">Bin 1（同一基因组）</text>
+  <rect x="946" y="55" width="12" height="12" fill="#4DBBD5"/>
+  <text x="964" y="65" font-size="12" fill="#33332E">Bin 2（同一基因组）</text>
+  <rect x="946" y="76" width="12" height="12" fill="#00A087"/>
+  <text x="964" y="86" font-size="12" fill="#33332E">Bin 3（同一基因组）</text>
+  <rect x="946" y="97" width="12" height="12" fill="#A8A8A2"/>
+  <text x="964" y="107" font-size="12" fill="#33332E">无法分箱（unbinned）</text>
+  <rect x="946" y="118" width="12" height="12" fill="#E64B35"/>
+  <text x="964" y="128" font-size="12" fill="#33332E">混箱 contig（污染）</text>
+
+  <!-- ============ 主面板：散点图 ============ -->
+  <rect x="48" y="140" width="680" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="170" font-size="16" font-weight="bold" fill="#3C5488">每个点 = 一条 contig：双信号聚类成箱</text>
+  <text x="700" y="190" font-size="11.5" fill="#6B6B66" text-anchor="end">灰色零散点：信号不足 → 无法分箱（--unbinned）</text>
+
+  <!-- 坐标轴 -->
+  <line x1="110" y1="610" x2="700" y2="610" stroke="#33332E" stroke-width="1.5"/>
+  <polygon points="700,605 700,615 712,610" fill="#33332E"/>
+  <line x1="110" y1="610" x2="110" y2="212" stroke="#33332E" stroke-width="1.5"/>
+  <polygon points="105,212 115,212 110,200" fill="#33332E"/>
+  <text x="126" y="204" font-size="12" fill="#33332E">覆盖度（×，跨样本）</text>
+  <text x="405" y="642" font-size="12" fill="#33332E" text-anchor="middle">四核苷酸组成（TNF 256 维 · 示意投影）</text>
+
+  <!-- Bin 1（深蓝） -->
+  <ellipse cx="255" cy="480" rx="72" ry="50" fill="none" stroke="#3C5488" stroke-width="2"/>
+  <circle cx="225" cy="455" r="5" fill="#3C5488"/>
+  <circle cx="250" cy="445" r="5" fill="#3C5488"/>
+  <circle cx="275" cy="460" r="5" fill="#3C5488"/>
+  <circle cx="215" cy="485" r="5" fill="#3C5488"/>
+  <circle cx="240" cy="495" r="5" fill="#3C5488"/>
+  <circle cx="265" cy="490" r="5" fill="#3C5488"/>
+  <circle cx="285" cy="475" r="5" fill="#3C5488"/>
+  <circle cx="230" cy="510" r="5" fill="#3C5488"/>
+  <circle cx="255" cy="520" r="5" fill="#3C5488"/>
+  <circle cx="205" cy="470" r="5" fill="#3C5488"/>
+  <text x="255" y="415" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">Bin 1</text>
+
+  <!-- Bin 2（青蓝） -->
+  <ellipse cx="450" cy="300" rx="78" ry="52" fill="none" stroke="#4DBBD5" stroke-width="2"/>
+  <circle cx="420" cy="275" r="5" fill="#4DBBD5"/>
+  <circle cx="450" cy="265" r="5" fill="#4DBBD5"/>
+  <circle cx="480" cy="280" r="5" fill="#4DBBD5"/>
+  <circle cx="405" cy="305" r="5" fill="#4DBBD5"/>
+  <circle cx="435" cy="315" r="5" fill="#4DBBD5"/>
+  <circle cx="465" cy="310" r="5" fill="#4DBBD5"/>
+  <circle cx="495" cy="300" r="5" fill="#4DBBD5"/>
+  <circle cx="440" cy="340" r="5" fill="#4DBBD5"/>
+  <circle cx="470" cy="335" r="5" fill="#4DBBD5"/>
+  <text x="450" y="235" font-size="13" font-weight="bold" fill="#3C8DAD" text-anchor="middle">Bin 2</text>
+
+  <!-- Bin 3（绿） -->
+  <ellipse cx="560" cy="480" rx="68" ry="46" fill="none" stroke="#00A087" stroke-width="2"/>
+  <circle cx="535" cy="460" r="5" fill="#00A087"/>
+  <circle cx="560" cy="450" r="5" fill="#00A087"/>
+  <circle cx="585" cy="465" r="5" fill="#00A087"/>
+  <circle cx="525" cy="485" r="5" fill="#00A087"/>
+  <circle cx="550" cy="495" r="5" fill="#00A087"/>
+  <circle cx="575" cy="490" r="5" fill="#00A087"/>
+  <circle cx="595" cy="478" r="5" fill="#00A087"/>
+  <circle cx="560" cy="515" r="5" fill="#00A087"/>
+  <text x="560" y="415" font-size="13" font-weight="bold" fill="#00A087" text-anchor="middle">Bin 3</text>
+
+  <!-- 混箱 contig（红） -->
+  <circle cx="296" cy="500" r="5.5" fill="#E64B35"/>
+  <line x1="301" y1="505" x2="330" y2="560" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="334" y="566" font-size="11.5" fill="#E64B35">混箱：来自另一基因组的 contig</text>
+  <text x="334" y="584" font-size="11.5" fill="#E64B35">（CheckM2 污染度升高 → 精化或丢弃）</text>
+
+  <!-- 无法分箱（灰） -->
+  <circle cx="150" cy="240" r="4.5" fill="#A8A8A2"/>
+  <circle cx="195" cy="352" r="4.5" fill="#A8A8A2"/>
+  <circle cx="330" cy="205" r="4.5" fill="#A8A8A2"/>
+  <circle cx="605" cy="215" r="4.5" fill="#A8A8A2"/>
+  <circle cx="655" cy="360" r="4.5" fill="#A8A8A2"/>
+  <circle cx="672" cy="540" r="4.5" fill="#A8A8A2"/>
+  <circle cx="142" cy="565" r="4.5" fill="#A8A8A2"/>
+  <circle cx="350" cy="400" r="4.5" fill="#A8A8A2"/>
+  <circle cx="620" cy="555" r="4.5" fill="#A8A8A2"/>
+
+  <!-- ============ 右面板：两个正交信号 ============ -->
+  <rect x="752" y="140" width="400" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="776" y="170" font-size="16" font-weight="bold" fill="#3C5488">两个正交信号（④4.4）</text>
+  <line x1="776" y1="184" x2="1128" y2="184" stroke="#E9E9E5"/>
+
+  <text x="776" y="212" font-size="13" font-weight="bold" fill="#3C5488">① 组成信号：四核苷酸频率（TNF）</text>
+  <text x="776" y="236" font-size="11.5" fill="#33332E">同一基因组的不同片段，256 维 k-mer</text>
+  <text x="776" y="256" font-size="11.5" fill="#33332E">组成相似（密码子偏好、GC 含量造成）</text>
+
+  <text x="776" y="292" font-size="13" font-weight="bold" fill="#3C5488">② 丰度信号：跨样本覆盖度共变</text>
+  <text x="776" y="316" font-size="11.5" fill="#33332E">样本1：A 100×　B 100× → 疑似同一基因组</text>
+  <text x="776" y="336" font-size="11.5" fill="#33332E">样本2：A　50×　B　50× → 共变，支持同源</text>
+  <text x="776" y="356" font-size="11.5" fill="#33332E">样本3：A 200×　B　20× → 不共变，排除</text>
+  <text x="776" y="384" font-size="11.5" fill="#6B6B66">覆盖度向量的维数 = 样本数：单样本退化为</text>
+  <text x="776" y="404" font-size="11.5" fill="#6B6B66">标量 → 样本数 ≥ 3 是下限，5–10 才舒服</text>
+
+  <text x="776" y="440" font-size="13" font-weight="bold" fill="#3C5488">各自的统计局限（④4.4）</text>
+  <text x="776" y="464" font-size="11.5" fill="#33332E">TNF：contig 越短抽样噪声越大（1 kb 约</text>
+  <text x="776" y="484" font-size="11.5" fill="#33332E">1000 个观测）→ 分箱器设下限（-m 1500）</text>
+  <text x="776" y="504" font-size="11.5" fill="#33332E">覆盖度：丰度悬殊时，低丰度基因组共变</text>
+  <text x="776" y="524" font-size="11.5" fill="#33332E">模式被压扁 —— 工具的差别在组合模型</text>
+
+  <rect x="776" y="548" width="352" height="84" rx="6" fill="#FAFAF7"/>
+  <rect x="776" y="548" width="4" height="84" rx="2" fill="#3C5488"/>
+  <text x="792" y="576" font-size="12" fill="#33332E">验收 bin：CheckM2 完整度 / 污染度</text>
+  <text x="792" y="598" font-size="12" fill="#33332E">污染度高 = 箱里混了不止一个基因组</text>
+  <text x="792" y="620" font-size="12" fill="#33332E">课题上用多分箱器 + DAS Tool 共识</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">组成说“你和谁像”，覆盖度说“你们同涨同跌”——两个信号都对上，才敢判同一基因组。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="56" y="16" width="688" height="72" fill="#E9E9E5" rx="14"/>
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">1 job -&gt; 2 evidence dirs</text>
+<line x1="212" y1="88" x2="212" y2="110" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="588" y1="88" x2="588" y2="110" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<rect x="40" y="116" width="344" height="320" fill="#FBE3D8" rx="14" stroke="#C0623F" stroke-width="4"/>
+<text x="212" y="168" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">logs/&lt;rule&gt;/</text>
+<text x="212" y="206" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">&lt;sample&gt;.log</text>
+<text x="212" y="262" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">2&gt;&amp;1 &gt; {log}</text>
+<text x="212" y="322" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">日志留存崩溃报错</text>
+<text x="212" y="386" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">traceback / stderr</text>
+<rect x="416" y="116" width="344" height="320" fill="#D6EFF4" rx="14" stroke="#4DBBD5" stroke-width="4"/>
+<text x="588" y="168" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">benchmarks/&lt;rule&gt;/</text>
+<text x="588" y="206" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">&lt;sample&gt;.tsv</text>
+<text x="588" y="262" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">max_rss / cpu_time / s</text>
+<text x="588" y="322" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">基准画像物理资源</text>
+<text x="588" y="386" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">3200 MB / 7100 / 7200</text>
+<rect x="120" y="484" width="560" height="128" fill="#F6D8D2" rx="16" stroke="#E64B35" stroke-width="5"/>
+<text x="400" y="538" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">保留不完整现场</text>
+<text x="400" y="588" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">--keep-incomplete</text>
+</svg>

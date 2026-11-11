@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="25" y="265" width="70" height="50" fill="#4DBBD5" rx="10"/>
+<text x="60" y="299" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">R1</text>
+<rect x="25" y="345" width="70" height="50" fill="#4DBBD5" rx="10"/>
+<text x="60" y="379" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">R2</text>
+<line x1="97" y1="292" x2="128" y2="303" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="128,303 113.04680807874799,304.1840824997455 117.13758137798034,292.6555395655452" fill="#4DBBD5"/>
+<line x1="97" y1="368" x2="128" y2="357" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="128,357 117.13758137798034,367.3444604344548 113.04680807874799,355.8159175002545" fill="#4DBBD5"/>
+<rect x="130" y="250" width="180" height="140" fill="#3C5488" rx="14"/>
+<text x="220" y="332" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">bwa mem</text>
+<line x1="312" y1="320" x2="468" y2="320" stroke="#4DBBD5" stroke-width="8" stroke-linecap="round"/>
+<polygon points="468,320 449.7382211937538,328.1552090611914 449.7382211937538,311.8447909388086" fill="#4DBBD5"/>
+<text x="390" y="304" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#3C8DAD" text-anchor="middle" font-weight="bold">-</text>
+<text x="390" y="362" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">是标准输入</text>
+<rect x="470" y="250" width="180" height="140" fill="#3C5488" rx="14"/>
+<text x="560" y="312" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">samtools</text>
+<text x="560" y="352" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">sort</text>
+<line x1="652" y1="320" x2="670" y2="320" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="670,320 657.2167548356277,325.70864634283396 657.2167548356277,314.29135365716604" fill="#4DBBD5"/>
+<text x="706" y="246" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">sorted.bam</text>
+<ellipse cx="706" cy="270" rx="34" ry="11" fill="#00A087"/>
+<rect x="672" y="270" width="68" height="82" fill="#00A087"/>
+<ellipse cx="706" cy="352" rx="34" ry="11" fill="#00A087"/>
+<ellipse cx="706" cy="352" rx="34" ry="11" fill="none" stroke="#00776A" stroke-width="3"/>
+<text x="706" y="318" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">BAM</text>
+<line x1="220" y1="392" x2="220" y2="516" stroke="#F39B7F" stroke-width="6" stroke-linecap="butt"/>
+<circle cx="220" cy="452" r="9" fill="#E64B35"/>
+<text x="242" y="460" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">比对日志走 stderr</text>
+<rect x="130" y="518" width="300" height="64" fill="#F39B7F" rx="12"/>
+<text x="280" y="560" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">logs/bwa_mem.log</text>
+</svg>

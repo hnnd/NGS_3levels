@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">案例：发表三天即被撤稿——AI 生成产物如何混过全部流程</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">产物形态完美 ≠ 内容正确 ｜ 撤稿事件复盘 —— 依据 01_ai_workflow_lecture.md ③3.1</text>
+  <!-- 图例 -->
+  <rect x="940" y="46" width="12" height="12" fill="#3C5488"/>
+  <text x="958" y="57" font-size="12" fill="#33332E">事件流程</text>
+  <rect x="1034" y="46" width="12" height="12" fill="#E64B35"/>
+  <text x="1052" y="57" font-size="12" fill="#33332E">真正的拦截点</text>
+
+  <!-- ============ 事件流程五步 ============ -->
+  <!-- ① 投稿 -->
+  <rect x="56" y="140" width="200" height="180" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="72" y="170" font-size="14" font-weight="bold" fill="#3C5488">① 投稿</text>
+  <line x1="72" y1="182" x2="240" y2="182" stroke="#E9E9E5"/>
+  <text x="72" y="206" font-size="12" fill="#33332E">Guo X et al. 2024，</text>
+  <text x="72" y="226" font-size="12" fill="#33332E">精子干细胞 JAK/STAT</text>
+  <text x="72" y="246" font-size="12" fill="#33332E">研究，投给 Frontiers</text>
+  <text x="72" y="270" font-size="12" font-weight="bold" fill="#00A087">作者投稿时主动声明：</text>
+  <text x="72" y="290" font-size="12" font-weight="bold" fill="#00A087">示意图由 AI 生成</text>
+
+  <!-- ② 评议与编辑 -->
+  <rect x="278" y="140" width="200" height="180" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="294" y="170" font-size="14" font-weight="bold" fill="#3C5488">② 同行评议 + 编辑</text>
+  <line x1="294" y1="182" x2="462" y2="182" stroke="#E9E9E5"/>
+  <text x="294" y="206" font-size="12" fill="#33332E">同行评议与编辑流程</text>
+  <text x="294" y="226" font-size="12" fill="#33332E">仍然放行</text>
+  <text x="294" y="250" font-size="12" fill="#33332E">编辑与两位审稿人</text>
+  <text x="294" y="270" font-size="12" fill="#33332E">（未看出图有问题）</text>
+  <text x="294" y="290" font-size="12" font-weight="bold" fill="#33332E">全部放行</text>
+
+  <!-- ③ 在线发表 -->
+  <rect x="500" y="140" width="200" height="180" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="516" y="170" font-size="14" font-weight="bold" fill="#3C5488">③ 在线发表</text>
+  <line x1="516" y1="182" x2="684" y2="182" stroke="#E9E9E5"/>
+  <text x="516" y="206" font-size="12" fill="#33332E">示意图由 Midjourney</text>
+  <text x="516" y="226" font-size="12" fill="#33332E">生成：</text>
+  <text x="516" y="250" font-size="12" fill="#E64B35">解剖学上不可能的</text>
+  <text x="516" y="270" font-size="12" fill="#E64B35">细胞结构 + 乱码标签</text>
+  <text x="516" y="294" font-size="12" fill="#6B6B66">但排版、配色、图标</text>
+  <text x="516" y="312" font-size="12" fill="#6B6B66">无一不专业</text>
+
+  <!-- ④ 读者指认（红） -->
+  <rect x="722" y="140" width="200" height="180" rx="10" fill="#FFFFFF" stroke="#E64B35" stroke-width="2"/>
+  <text x="738" y="170" font-size="14" font-weight="bold" fill="#E64B35">④ 48 小时内</text>
+  <line x1="738" y1="182" x2="906" y2="182" stroke="#E9E9E5"/>
+  <text x="738" y="206" font-size="12" fill="#33332E">独立读者在社交媒体</text>
+  <text x="738" y="226" font-size="12" fill="#33332E">上逐图指认</text>
+  <text x="738" y="252" font-size="12.5" font-weight="bold" fill="#E64B35">抓住它的不是流程，</text>
+  <text x="738" y="272" font-size="12.5" font-weight="bold" fill="#E64B35">是一个会看的人</text>
+  <text x="738" y="298" font-size="12" fill="#6B6B66">＝三步验证法第 ② 步的人肉版</text>
+
+  <!-- ⑤ 撤稿 -->
+  <rect x="944" y="140" width="200" height="180" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="960" y="170" font-size="14" font-weight="bold" fill="#3C5488">⑤ 撤稿</text>
+  <line x1="960" y1="182" x2="1128" y2="182" stroke="#E9E9E5"/>
+  <text x="960" y="206" font-size="12" fill="#33332E">02-15 关注声明，02-16 撤稿；</text>
+  <text x="960" y="230" font-size="12" fill="#33332E">Crossref 记录至今</text>
+  <text x="960" y="250" font-size="12" font-weight="bold" fill="#3C5488">保留 RETRACTED 前缀</text>
+  <text x="960" y="274" font-size="12" fill="#33332E">Kaplan 2024：编辑部</text>
+  <text x="960" y="294" font-size="12" fill="#33332E">评论记录该事件</text>
+
+  <!-- 箭头 -->
+  <line x1="256" y1="230" x2="266" y2="230" stroke="#3C5488" stroke-width="2.5"/>
+  <polygon points="278,230 266,224 266,236" fill="#3C5488"/>
+  <line x1="478" y1="230" x2="488" y2="230" stroke="#3C5488" stroke-width="2.5"/>
+  <polygon points="500,230 488,224 488,236" fill="#3C5488"/>
+  <line x1="700" y1="230" x2="710" y2="230" stroke="#E64B35" stroke-width="2.5"/>
+  <polygon points="722,230 710,224 710,236" fill="#E64B35"/>
+  <line x1="922" y1="230" x2="932" y2="230" stroke="#3C5488" stroke-width="2.5"/>
+  <polygon points="944,230 932,224 932,236" fill="#3C5488"/>
+
+  <!-- ============ 三点启示 ============ -->
+  <rect x="48" y="360" width="352" height="160" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="392" font-size="14" font-weight="bold" fill="#3C5488">启示一 · 产物形态完美 ≠ 内容正确</text>
+  <line x1="72" y1="404" x2="376" y2="404" stroke="#E9E9E5"/>
+  <text x="72" y="430" font-size="12.5" fill="#33332E">排版、配色、图标无一不专业，</text>
+  <text x="72" y="452" font-size="12.5" fill="#33332E">错误发生在内容层——与 §4.2</text>
+  <text x="72" y="474" font-size="12.5" fill="#33332E">「语法正确但生物学错误」完全同构；</text>
+  <text x="72" y="496" font-size="12.5" fill="#33332E">区别只是图错得<tspan font-weight="bold">看得见</tspan>，代码错得看不见。</text>
+
+  <rect x="424" y="360" width="352" height="160" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="448" y="392" font-size="14" font-weight="bold" fill="#3C5488">启示二 · 三步验证法是它的流程化</text>
+  <line x1="448" y1="404" x2="752" y2="404" stroke="#E9E9E5"/>
+  <text x="448" y="430" font-size="12.5" fill="#33332E">那位读者做的事：拿领域内的</text>
+  <text x="448" y="452" font-size="12.5" fill="#33332E">「已知答案」（真实精子干细胞图）</text>
+  <text x="448" y="474" font-size="12.5" fill="#33332E">去对，而不是用「看起来像不像」</text>
+  <text x="448" y="496" font-size="12.5" fill="#33332E">去判——第 ② 步把它变成标准动作。</text>
+
+  <rect x="800" y="360" width="352" height="160" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="824" y="392" font-size="14" font-weight="bold" fill="#3C5488">启示三 · 声明 AI 不豁免验证责任</text>
+  <line x1="824" y1="404" x2="1128" y2="404" stroke="#E9E9E5"/>
+  <text x="824" y="430" font-size="12.5" fill="#33332E">作者声明了 AI 参与，内容责任</text>
+  <text x="824" y="452" font-size="12.5" fill="#33332E">仍全部在作者（§4.5）：声明是</text>
+  <text x="824" y="474" font-size="12.5" font-weight="bold" fill="#3C5488">诚信要求，不是质量保证。</text>
+  <text x="824" y="500" font-size="12" fill="#6B6B66">ICMJE：AI 不能列为作者，</text>
+  <text x="824" y="518" font-size="12" fill="#6B6B66">使用须在 Methods / 致谢声明</text>
+
+  <!-- ============ 为什么选这个案例 ============ -->
+  <rect x="48" y="548" width="4" height="96" rx="2" fill="#3C5488"/>
+  <rect x="48" y="548" width="1104" height="96" rx="6" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="578" font-size="13" font-weight="bold" fill="#3C5488">为什么选「图出错」而不是「代码出错」的案例？</text>
+  <text x="72" y="604" font-size="12.5" fill="#33332E">图有「解剖学不可能」这种显眼破绽；代码没有——错误的数字穿着格式正确的表格与图出厂。</text>
+  <text x="72" y="628" font-size="12.5" fill="#33332E">⑤ 里被植入错误的脚本就是它的更隐蔽版本：你接下来要做的排查，就是上面那位读者做的事。</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="740" font-size="15" font-weight="bold" fill="#3C5488">流程拦不住内容错误——评议与编辑全放行，最后起作用的是验证的习惯。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Four-step reference verification pipeline</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="30" width="720" height="96" fill="#E7F5F8" rx="12" stroke="#4DBBD5" stroke-width="3"/>
+<rect x="62" y="48.0" width="47.472" height="60" fill="#4DBBD5" rx="8"/>
+<text x="85.736" y="88.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<text x="118" y="90" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#4DBBD5" text-anchor="start" font-weight="bold">resolve</text>
+<text x="736" y="90" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end">301 / 302  vs  404</text>
+<rect x="40" y="142" width="720" height="96" fill="#E7F5F8" rx="12" stroke="#4DBBD5" stroke-width="3"/>
+<rect x="62" y="160.0" width="47.472" height="60" fill="#4DBBD5" rx="8"/>
+<text x="85.736" y="200.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<text x="118" y="202" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#4DBBD5" text-anchor="start" font-weight="bold">metadata</text>
+<text x="736" y="202" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end">title · author · vol</text>
+<rect x="40" y="254" width="720" height="96" fill="#E7F5F8" rx="12" stroke="#4DBBD5" stroke-width="3"/>
+<rect x="62" y="272.0" width="47.472" height="60" fill="#4DBBD5" rx="8"/>
+<text x="85.736" y="312.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="118" y="314" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#4DBBD5" text-anchor="start" font-weight="bold">esearch</text>
+<text x="736" y="314" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end">hit_count</text>
+<rect x="40" y="366" width="720" height="96" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="5"/>
+<rect x="62" y="384.0" width="47.472" height="60" fill="#E64B35" rx="8"/>
+<text x="85.736" y="424.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">4</text>
+<text x="118" y="426" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">read_abstract</text>
+<text x="736" y="426" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end">supports_the_claim?</text>
+<path d="M 40 472 L 40 492 Q 40 498 52 498 L 220.0 498 Q 230.0 498 230.0 510 Q 230.0 498 240.0 498 L 408 498 Q 420 498 420 492 L 420 472" fill="none" stroke="#3C5488" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="230" y="534" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">scripted  ① ② ③</text>
+<path d="M 452 472 L 452 492 Q 452 498 464 498 L 596.0 498 Q 606.0 498 606.0 510 Q 606.0 498 616.0 498 L 748 498 Q 760 498 760 492 L 760 472" fill="none" stroke="#E64B35" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="606" y="534" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">manual  ④</text>
+<rect x="32.0" y="556" width="736" height="112" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="594" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">文献四步核查：解析、抓元数据、</text>
+<text x="400.0" y="638" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">反查文献库、人工读摘要。前三步脚本化。</text>
+</svg>

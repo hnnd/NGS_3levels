@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">宏基因组学里程碑：本讲工具与标准的坐标</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">方法工具 ｜ 质量标准 ｜ 统计与应用 —— 依据 07_metagenome_lecture.md ⑪ 文献列表、④4.7</text>
+  <!-- 图例 -->
+  <circle cx="940" cy="42" r="6" fill="#4DBBD5"/>
+  <text x="954" y="46" font-size="12" fill="#33332E">方法与工具</text>
+  <circle cx="1046" cy="42" r="6" fill="#00A087"/>
+  <text x="1060" y="46" font-size="12" fill="#33332E">质量与标准</text>
+  <circle cx="940" cy="66" r="6" fill="#F39B7F"/>
+  <text x="954" y="70" font-size="12" fill="#33332E">统计与应用</text>
+  <circle cx="1046" cy="66" r="6" fill="#E64B35"/>
+  <text x="1060" y="70" font-size="12" fill="#33332E">关键转折</text>
+
+  <!-- ============ 主面板 ============ -->
+  <rect x="48" y="124" width="1104" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- 时间轴 -->
+  <line x1="80" y1="400" x2="1128" y2="400" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="1128,394 1128,406 1142,400" fill="#3C5488"/>
+  <text x="1128" y="382" font-size="11" fill="#6B6B66" text-anchor="end">时间 →</text>
+
+  <!-- 网格竖线（淡） -->
+  <line x1="130" y1="270" x2="130" y2="500" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="360" y1="270" x2="360" y2="500" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="590" y1="270" x2="590" y2="500" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="820" y1="270" x2="820" y2="500" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="1050" y1="270" x2="1050" y2="500" stroke="#E9E9E5" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- 事件 1：2012 SparCC（上） -->
+  <circle cx="130" cy="400" r="7" fill="#F39B7F"/>
+  <line x1="130" y1="393" x2="130" y2="326" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="130" y="316" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2012</text>
+  <text x="130" y="296" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">SparCC</text>
+  <text x="130" y="280" font-size="11.5" fill="#6B6B66" text-anchor="middle">组成性相关网络（⑦-2）</text>
+
+  <!-- 事件 2：2015 MEGAHIT（下） -->
+  <circle cx="245" cy="400" r="7" fill="#4DBBD5"/>
+  <line x1="245" y1="407" x2="245" y2="438" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="245" y="456" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2015</text>
+  <text x="245" y="476" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">MEGAHIT</text>
+  <text x="245" y="494" font-size="11.5" fill="#6B6B66" text-anchor="middle">大规模短读组装</text>
+
+  <!-- 事件 3：2017 MIMAG（上） -->
+  <circle cx="360" cy="400" r="7" fill="#00A087"/>
+  <line x1="360" y1="393" x2="360" y2="326" stroke="#00A087" stroke-width="1.5"/>
+  <text x="360" y="316" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2017</text>
+  <text x="360" y="296" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">MIMAG 标准</text>
+  <text x="360" y="280" font-size="11.5" fill="#6B6B66" text-anchor="middle">MAG 质量三条线（④4.5）</text>
+
+  <!-- 事件 4：2019 Kraken2 · MetaBAT2（下） -->
+  <circle cx="475" cy="400" r="7" fill="#4DBBD5"/>
+  <line x1="475" y1="407" x2="475" y2="438" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="475" y="456" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2019</text>
+  <text x="475" y="476" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Kraken2 · MetaBAT2</text>
+  <text x="475" y="494" font-size="11.5" fill="#6B6B66" text-anchor="middle">k-mer 分类 · 自适应分箱</text>
+
+  <!-- 事件 5：2019 污水 ARG 地图（上） -->
+  <circle cx="590" cy="400" r="7" fill="#F39B7F"/>
+  <line x1="590" y1="393" x2="590" y2="326" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="590" y="316" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2019</text>
+  <text x="590" y="296" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">污水 ARG 全球地图</text>
+  <text x="590" y="280" font-size="11.5" fill="#6B6B66" text-anchor="middle">60 国 79 城未处理污水（③3.1）</text>
+
+  <!-- 事件 6：2021 GUNC（下） -->
+  <circle cx="705" cy="400" r="7" fill="#00A087"/>
+  <line x1="705" y1="407" x2="705" y2="438" stroke="#00A087" stroke-width="1.5"/>
+  <text x="705" y="456" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2021</text>
+  <text x="705" y="476" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">GUNC</text>
+  <text x="705" y="494" font-size="11.5" fill="#6B6B66" text-anchor="middle">补上分类学嵌合（④4.7）</text>
+
+  <!-- 事件 7：2022 hifiasm-meta（上） -->
+  <circle cx="820" cy="400" r="7" fill="#4DBBD5"/>
+  <line x1="820" y1="393" x2="820" y2="326" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="820" y="316" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2022</text>
+  <text x="820" y="296" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">hifiasm-meta</text>
+  <text x="820" y="280" font-size="11.5" fill="#6B6B66" text-anchor="middle">HiFi 直接回收闭合基因组</text>
+
+  <!-- 事件 8：2023 CheckM2（下） -->
+  <circle cx="935" cy="400" r="7" fill="#00A087"/>
+  <line x1="935" y1="407" x2="935" y2="438" stroke="#00A087" stroke-width="1.5"/>
+  <text x="935" y="456" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">2023</text>
+  <text x="935" y="476" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">CheckM2</text>
+  <text x="935" y="494" font-size="11.5" fill="#6B6B66" text-anchor="middle">机器学习估计质量（④4.5）</text>
+
+  <!-- 事件 9：2024 长读「可用」（上，关键转折） -->
+  <circle cx="1050" cy="400" r="7" fill="#E64B35"/>
+  <line x1="1050" y1="393" x2="1050" y2="326" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="1050" y="316" font-size="14" font-weight="bold" fill="#E64B35" text-anchor="middle">2024</text>
+  <text x="1050" y="296" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">长读宏基因组</text>
+  <text x="1050" y="280" font-size="11.5" fill="#6B6B66" text-anchor="middle">从「前瞻」列为「可用」</text>
+
+  <!-- 阶段带 -->
+  <rect x="80" y="560" width="500" height="40" rx="6" fill="#FAFAF7"/>
+  <text x="330" y="585" font-size="12" fill="#6B6B66" text-anchor="middle">2012–2019：短读长流程的工具箱成型（组装 → 分类 → 分箱）</text>
+  <rect x="628" y="560" width="512" height="40" rx="6" fill="#FAFAF7"/>
+  <text x="884" y="585" font-size="12" fill="#6B6B66" text-anchor="middle">2021–2024：质量标准加密，长读长开始改写默认值</text>
+
+  <text x="72" y="656" font-size="11" fill="#6B6B66">为避免拥挤按事件先后等距排布：年份间隔以标注为准，非比例时间轴。全部年份取自本讲文献列表与技术前沿小节，未做推断。</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">2019 年是密集的一年：分箱、分类与首个全球监测应用同年落地；2022 年起，读长开始改写游戏规则。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="46" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">PL → GQ 标尺</text>
+<rect x="40" y="76" width="460" height="470" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="270" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">似然归一</text>
+<text x="270" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">最优归零</text>
+<line x1="80" y1="470" x2="470" y2="470" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="80" y1="190" x2="80" y2="470" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="100.0" y1="464" x2="100.0" y2="476" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<text x="100.0" y="510" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0</text>
+<line x1="237.5" y1="464" x2="237.5" y2="476" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<text x="237.5" y="510" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">100</text>
+<line x1="375.0" y1="464" x2="375.0" y2="476" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<text x="375.0" y="510" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">200</text>
+<text x="275" y="554" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">PL = -10·log10(P/Pmax)</text>
+<rect x="70.0" y="280" width="60" height="190" fill="#00A087" rx="6"/>
+<text x="100.0" y="266" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">0</text>
+<text x="100.0" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">0/0</text>
+<rect x="195.125" y="360" width="60" height="110" fill="#F39B7F" rx="6"/>
+<text x="225.125" y="346" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">91</text>
+<text x="225.125" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">0/1</text>
+<rect x="372.5" y="414" width="60" height="56" fill="#E9E9E5" rx="6"/>
+<text x="402.5" y="400" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">220</text>
+<text x="402.5" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">1/1</text>
+<text x="215" y="250" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">最优 PL=0</text>
+<text x="330" y="318" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">次小即质量</text>
+<rect x="540" y="76" width="220" height="470" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="650" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">错误率对数</text>
+<line x1="565" y1="200.0" x2="600" y2="200.0" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<text x="680" y="210.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle">GQ20 = 1%</text>
+<line x1="565" y1="266.66666666666663" x2="600" y2="266.66666666666663" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<text x="680" y="276.66666666666663" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle">GQ30 = 0.1%</text>
+<line x1="565" y1="400.0" x2="600" y2="400.0" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<text x="680" y="410.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle">GQ50 = 0.001%</text>
+<text x="650" y="460" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">P(err)=10^(-GQ/10)</text>
+<rect x="570" y="486" width="160" height="48" fill="#F6D8D2" rx="8" stroke="#E64B35" stroke-width="4"/>
+<text x="650" y="520" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">封顶九十九</text>
+<text x="400" y="644" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">GQ = 次小 PL（前提：最优 GT 正确）</text>
+<text x="400" y="682" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">PL = 0, 91, 220  →  GQ = 91</text>
+</svg>

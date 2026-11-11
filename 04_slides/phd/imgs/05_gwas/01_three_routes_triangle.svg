@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Three routes as a triangle</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<polygon points="200.0,232.0 600.0,232.0 400.0,470.0" fill="none" stroke="#4DBBD5" stroke-width="5" stroke-linejoin="round" stroke-dasharray="16 10"/>
+<path d="M 200 600 C 96 570 70 380 86 252" fill="none" stroke="#3C8DAD" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="14 9"/>
+<polygon points="86,252 106,274 68,278" fill="#3C8DAD"/>
+<rect x="40" y="62" width="320" height="170" fill="#E3E8F2" rx="16" stroke="#3C5488" stroke-width="5"/>
+<text x="200" y="128" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">双亲连锁功效高</text>
+<text x="200" y="176" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">精度兆碱基</text>
+<text x="200" y="216" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">BCS</text>
+<rect x="440" y="62" width="320" height="170" fill="#FBE6DF" rx="16" stroke="#F39B7F" stroke-width="5"/>
+<text x="600" y="140" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">混池极端测主效</text>
+<text x="600" y="216" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">BSA</text>
+<rect x="200" y="470" width="400" height="170" fill="#D8EEE9" rx="16" stroke="#00A087" stroke-width="5"/>
+<text x="400" y="532" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">自然群体达</text>
+<text x="400" y="580" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">几十千碱基</text>
+<text x="400" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">GWAS</text>
+<polygon points="400,330 430,392 370,392" fill="#F6D8D2" stroke="#E64B35" stroke-width="4" stroke-linejoin="round"/>
+<text x="400" y="382" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">!</text>
+</svg>

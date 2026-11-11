@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">从 lead SNP 到候选基因：区间界定与四类证据排序</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">clump 归并 ｜ 峰 ± LD 半衰 → 区间 ｜ bedtools 取基因 —— 依据 05_gwas_lecture.md ④4.5 · ⑤5.8</text>
+  <!-- 图例 -->
+  <rect x="926" y="38" width="12" height="12" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="946" y="48" font-size="12" fill="#33332E">流程步骤</text>
+  <rect x="1046" y="38" width="12" height="12" fill="#4DBBD5"/>
+  <text x="1066" y="48" font-size="12" fill="#33332E">候选区间</text>
+  <rect x="926" y="60" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="70" font-size="12" fill="#33332E">最终产出</text>
+  <rect x="1046" y="60" width="12" height="12" fill="#3C5488"/>
+  <text x="1066" y="70" font-size="12" fill="#33332E">区间内基因</text>
+
+  <!-- ============ 主面板 ============ -->
+  <rect x="48" y="120" width="1104" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- 行 1：流程四步 -->
+  <rect x="72" y="200" width="236" height="92" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="190" y="228" font-size="13.5" font-weight="bold" fill="#3C5488" text-anchor="middle">① 曼哈顿图上的峰</text>
+  <text x="190" y="252" font-size="11.5" fill="#33332E" text-anchor="middle">每个峰取 p 最小的 lead SNP</text>
+  <text x="190" y="272" font-size="11.5" fill="#6B6B66" text-anchor="middle">先过 QQ 图这一关（④4.4）</text>
+  <line x1="308" y1="246" x2="336" y2="246" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="344,246 336,242 336,250" fill="#6B6B66"/>
+
+  <rect x="348" y="200" width="236" height="92" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="466" y="228" font-size="13.5" font-weight="bold" fill="#3C5488" text-anchor="middle">② plink --clump 聚簇</text>
+  <text x="466" y="252" font-size="11.5" fill="#33332E" text-anchor="middle">按 r² 与物理距离归并成位点</text>
+  <text x="466" y="272" font-size="11.5" fill="#6B6B66" text-anchor="middle">--clump-field p_wald 必须写（⑨E8）</text>
+  <line x1="584" y1="246" x2="612" y2="246" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="620,246 612,242 612,250" fill="#6B6B66"/>
+
+  <rect x="624" y="200" width="236" height="92" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="742" y="228" font-size="13.5" font-weight="bold" fill="#3C5488" text-anchor="middle">③ 扩成候选区间</text>
+  <text x="742" y="252" font-size="11.5" fill="#33332E" text-anchor="middle">簇心 ± LD 半衰距离（p04 的 HALF）</text>
+  <text x="742" y="272" font-size="11.5" fill="#6B6B66" text-anchor="middle">BED 是 0-based，assoc 是 1-based</text>
+  <line x1="860" y1="246" x2="888" y2="246" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="896,246 888,242 888,250" fill="#6B6B66"/>
+
+  <rect x="900" y="200" width="236" height="92" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="1018" y="228" font-size="13.5" font-weight="bold" fill="#3C5488" text-anchor="middle">④ bedtools intersect GFF3</text>
+  <text x="1018" y="252" font-size="11.5" fill="#33332E" text-anchor="middle">区间 ∩ 基因注释 →</text>
+  <text x="1018" y="272" font-size="11.5" fill="#33332E" text-anchor="middle">candidate_genes.txt</text>
+
+  <!-- 行 2：区间示意 -->
+  <text x="72" y="336" font-size="13" font-weight="bold" fill="#3C5488">区间示意：候选区间不是一个 SNP</text>
+  <line x1="100" y1="400" x2="780" y2="400" stroke="#33332E" stroke-width="1.2"/>
+  <!-- 区间外的灰基因 -->
+  <polygon points="120,392 120,408 128,408 128,412 140,400 128,388 128,392" fill="#C9C9C4"/>
+  <polygon points="744,392 744,408 752,408 752,412 764,400 752,388 752,392" fill="#C9C9C4"/>
+  <!-- 候选区间 -->
+  <line x1="200" y1="418" x2="200" y2="428" stroke="#4DBBD5" stroke-width="3"/>
+  <line x1="200" y1="423" x2="700" y2="423" stroke="#4DBBD5" stroke-width="3"/>
+  <line x1="700" y1="418" x2="700" y2="428" stroke="#4DBBD5" stroke-width="3"/>
+  <text x="450" y="446" font-size="11.5" fill="#3C8DAD" text-anchor="middle">候选区间（几十 kb ~ 上百 kb，宽度由 LD 半衰距离决定）</text>
+  <!-- 区间内基因（深蓝块箭头） -->
+  <polygon points="230,392 230,408 240,408 240,412 254,400 240,388 240,392" fill="#3C5488"/>
+  <polygon points="290,392 290,408 300,408 300,412 314,400 300,388 300,392" fill="#3C5488"/>
+  <polygon points="360,392 360,408 370,408 370,412 384,400 370,388 370,392" fill="#3C5488"/>
+  <polygon points="430,392 430,408 440,408 440,412 454,400 440,388 440,392" fill="#3C5488"/>
+  <polygon points="510,392 510,408 520,408 520,412 534,400 520,388 520,392" fill="#3C5488"/>
+  <polygon points="590,392 590,408 600,408 600,412 614,400 600,388 600,392" fill="#3C5488"/>
+  <polygon points="650,392 650,408 660,408 660,412 674,400 660,388 660,392" fill="#3C5488"/>
+  <!-- 右侧注释 -->
+  <text x="820" y="376" font-size="12" fill="#33332E">区间内几十个基因 = 长 LD 物种的常态（④4.5）；</text>
+  <text x="820" y="398" font-size="12" fill="#33332E">区间内一个基因都没有：先查染色体命名</text>
+  <text x="820" y="418" font-size="12" fill="#33332E">（Chr01 / chr01 / 1）与 0/1-based——</text>
+  <text x="820" y="438" font-size="12" fill="#6B6B66">bedtools 不报错、只给空结果（⑨E9）。</text>
+
+  <!-- 行 3：四类证据 -->
+  <text x="72" y="484" font-size="13" font-weight="bold" fill="#3C5488">把"几十个基因"变成"三五个可做实验的基因"：四类证据排序</text>
+  <rect x="72" y="498" width="236" height="100" rx="8" fill="#FAFAF7"/>
+  <circle cx="96" cy="524" r="12" fill="#3C5488"/>
+  <text x="96" y="529" font-size="12" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="116" y="529" font-size="12.5" font-weight="bold" fill="#33332E">变异效应</text>
+  <text x="88" y="556" font-size="11.5" fill="#33332E">区间内有无 HIGH / MODERATE</text>
+  <text x="88" y="576" font-size="11.5" fill="#33332E">影响的变异（SnpEff 注释）</text>
+
+  <rect x="348" y="498" width="236" height="100" rx="8" fill="#FAFAF7"/>
+  <circle cx="372" cy="524" r="12" fill="#3C5488"/>
+  <text x="372" y="529" font-size="12" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="392" y="529" font-size="12.5" font-weight="bold" fill="#33332E">功能与同源</text>
+  <text x="364" y="556" font-size="11.5" fill="#33332E">已知抗性基因家族、</text>
+  <text x="364" y="576" font-size="11.5" fill="#33332E">通路成员、同源信息</text>
+
+  <rect x="624" y="498" width="236" height="100" rx="8" fill="#FAFAF7"/>
+  <circle cx="648" cy="524" r="12" fill="#3C5488"/>
+  <text x="648" y="529" font-size="12" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="668" y="529" font-size="12.5" font-weight="bold" fill="#33332E">表达证据</text>
+  <text x="640" y="556" font-size="11.5" fill="#33332E">处理 / 组织特异表达，</text>
+  <text x="640" y="576" font-size="11.5" fill="#33332E">eQTL 支撑</text>
+
+  <rect x="900" y="498" width="236" height="100" rx="8" fill="#FAFAF7"/>
+  <circle cx="924" cy="524" r="12" fill="#3C5488"/>
+  <text x="924" y="529" font-size="12" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="944" y="529" font-size="12.5" font-weight="bold" fill="#33332E">共定位</text>
+  <text x="916" y="556" font-size="11.5" fill="#33332E">表达信号与表型信号是否共享</text>
+  <text x="916" y="576" font-size="11.5" fill="#33332E">同一因果变异（不止同区间）</text>
+
+  <!-- 产出条 -->
+  <rect x="72" y="616" width="1064" height="44" rx="8" fill="#00A087"/>
+  <text x="604" y="644" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">产出：一张带证据列的优先级表 → 3–5 个可验证基因，而不是一句"我们认为 XX 最可能"（④4.5）</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="722" font-size="12.5" fill="#33332E">共定位是最容易被省略、也最值钱的一类证据：长 LD 区间里，两条信号"落进同一区间"非常常见，共享因果变异才是要检验的命题（④4.5，Giambartolomei 等 2014）。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

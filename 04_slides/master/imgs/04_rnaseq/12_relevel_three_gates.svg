@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="60.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">默认字母序反号</text>
+<rect x="50" y="84" width="320" height="158" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="80" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">levels: c(&quot;KO&quot;, &quot;WT&quot;)</text>
+<text x="80" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">按字母排序</text>
+<text x="80" y="214" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">默认： WT vs KO</text>
+<line x1="380" y1="163" x2="446" y2="163" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="446,163 432.30366589531536,169.11640679589354 432.30366589531536,156.88359320410646" fill="#6B6B66"/>
+<rect x="462" y="84" width="320" height="158" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="5"/>
+<text x="492" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">真实： KO 高表达</text>
+<text x="492" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">报告 log2FC &lt; 0</text>
+<rect x="492" y="190" width="220" height="16" fill="#F39B7F"/>
+<text x="492" y="228" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">反号 · 不报错</text>
+<text x="400" y="306" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">相信符号之前先过三道闸</text>
+<rect x="40" y="336" width="230" height="230" fill="#FFFFFF" rx="14" stroke="#00A087" stroke-width="5"/>
+<text x="155" y="378" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">闸 1</text>
+<text x="155" y="434" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">relevel()</text>
+<text x="155" y="476" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">ref = WT</text>
+<circle cx="155" cy="522" r="20" fill="#00A087"/>
+<polyline points="144,522 152,530 168,510" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="155" y="604" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">显式指定对照</text>
+<rect x="290" y="336" width="230" height="230" fill="#FFFFFF" rx="14" stroke="#00A087" stroke-width="5"/>
+<text x="405" y="378" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">闸 2</text>
+<text x="405" y="434" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">contrast</text>
+<text x="405" y="476" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">分子 / 分母</text>
+<circle cx="405" cy="522" r="20" fill="#00A087"/>
+<polyline points="394,522 402,530 418,510" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="405" y="604" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">显式指定分子分母</text>
+<rect x="540" y="336" width="230" height="230" fill="#FFFFFF" rx="14" stroke="#00A087" stroke-width="5"/>
+<text x="655" y="378" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">闸 3</text>
+<text x="655" y="434" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">print</text>
+<text x="655" y="476" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">description</text>
+<circle cx="655" cy="522" r="20" fill="#00A087"/>
+<polyline points="644,522 652,530 668,510" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="655" y="604" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">打印描述核对</text>
+</svg>

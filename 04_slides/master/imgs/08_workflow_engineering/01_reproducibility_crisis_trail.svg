@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="180" y="40" width="440" height="96" fill="#E3E8F2" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">审稿人审计质询</text>
+<text x="400" y="176" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">padj &lt; 0.05</text>
+<line x1="212" y1="146" x2="212" y2="206" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="212,206 205.47583275104688,191.39057695500307 218.52416724895312,191.39057695500307" fill="#4DBBD5"/>
+<line x1="588" y1="146" x2="588" y2="206" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="588,206 581.4758327510468,191.39057695500307 594.5241672489532,191.39057695500307" fill="#4DBBD5"/>
+<line x1="205" y1="346" x2="205" y2="352" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="205,352 198.47583275104688,337.39057695500304 211.52416724895312,337.39057695500304" fill="#4DBBD5"/>
+<line x1="595" y1="346" x2="595" y2="352" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="595,352 588.4758327510468,337.39057695500304 601.5241672489532,337.39057695500304" fill="#4DBBD5"/>
+<rect x="30" y="214" width="350" height="124" fill="#FFFFFF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="205.0" y="266" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">路径断裂</text>
+<text x="205.0" y="314" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">/data/old/results</text>
+<rect x="420" y="214" width="350" height="124" fill="#FFFFFF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="595.0" y="266" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">版本漂移</text>
+<text x="595.0" y="314" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">fastp 0.23.4</text>
+<rect x="30" y="360" width="350" height="124" fill="#FFFFFF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="205.0" y="412" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">参数未留痕</text>
+<text x="205.0" y="460" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">--qual 20</text>
+<rect x="420" y="360" width="350" height="124" fill="#FFFFFF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="595.0" y="412" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">历史覆盖</text>
+<text x="595.0" y="460" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">.bash_history</text>
+<line x1="205" y1="492" x2="205" y2="526" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="205,526 198.47583275104688,511.39057695500304 211.52416724895312,511.39057695500304" fill="#4DBBD5"/>
+<line x1="595" y1="492" x2="595" y2="526" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="595,526 588.4758327510468,511.39057695500304 601.5241672489532,511.39057695500304" fill="#4DBBD5"/>
+<rect x="140" y="534" width="520" height="96" fill="#F6D8D2" rx="16" stroke="#E64B35" stroke-width="5"/>
+<text x="400" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#E64B35" text-anchor="middle" font-weight="bold">重跑对不上</text>
+</svg>

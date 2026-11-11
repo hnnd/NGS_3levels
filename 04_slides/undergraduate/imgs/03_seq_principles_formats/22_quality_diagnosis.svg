@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="50" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">末端衰减正常修剪</text>
+<text x="400" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">中段塌陷气泡故障，同聚偏差无效</text>
+<rect x="40" y="140" width="230" height="420" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="70" y1="200" x2="70" y2="500" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<line x1="70" y1="500" x2="245" y2="500" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<path d="M 70 230.0 C 70.0 230.0 80.7 232.6 86 234.2500657090261 C 91.3 235.9 96.7 237.8 102 239.73569032321177 C 107.3 241.7 112.7 243.8 118 245.91536931615477 C 123.3 248.1 128.7 250.3 134 252.62097011292363 C 139.3 254.9 144.7 257.3 150 259.7608083836672 C 155.3 262.2 160.7 264.7 166 267.2754786714008 C 171.3 269.8 176.7 272.5 182 275.12272068272324 C 187.3 277.8 192.7 280.5 198 283.2706256782883 C 203.3 286.0 208.7 288.8 214 291.69407892460913 C 219.3 294.5 230.0 300.4 230 300.37269665964527" fill="none" stroke="#00A087" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="155" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">可修剪</text>
+<rect x="285" y="140" width="230" height="420" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="315" y1="200" x2="315" y2="500" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<line x1="315" y1="500" x2="490" y2="500" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<path d="M 315 240 C 315.0 240.0 325.7 245.3 331 248 C 336.3 250.7 341.7 253.3 347 256 C 352.3 258.7 357.7 261.3 363 264 C 368.3 266.7 373.7 244.3 379 272 C 384.3 299.7 389.7 397.0 395 430 C 400.3 463.0 405.7 478.3 411 470 C 416.3 461.7 421.7 403.3 427 380 C 432.3 356.7 437.7 336.8 443 330 C 448.3 323.2 453.7 336.0 459 339 C 464.3 342.0 469.7 345.0 475 348 C 480.3 351.0 485.7 354.0 491 357 C 496.3 360.0 507.0 366.0 507 366" fill="none" stroke="#E64B35" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="400" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">气泡</text>
+<rect x="530" y="140" width="230" height="420" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="560" y1="200" x2="560" y2="500" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<line x1="560" y1="500" x2="735" y2="500" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<line x1="560" y1="300" x2="710" y2="300" stroke="#E64B35" stroke-width="7" stroke-linecap="butt"/>
+<circle cx="570" cy="300" r="7" fill="#E64B35"/>
+<circle cx="596" cy="300" r="7" fill="#E64B35"/>
+<circle cx="622" cy="300" r="7" fill="#E64B35"/>
+<circle cx="648" cy="300" r="7" fill="#E64B35"/>
+<circle cx="674" cy="300" r="7" fill="#E64B35"/>
+<circle cx="700" cy="300" r="7" fill="#E64B35"/>
+<text x="620" y="270" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#E64B35" text-anchor="middle" font-weight="bold">AAAA</text>
+<text x="645" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">无效</text>
+</svg>

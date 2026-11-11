@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400.0" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">机制决定选型</text>
+<rect x="36" y="96" width="224" height="524" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="148.0" y="140" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">ChIP-seq</text>
+<line x1="56" y1="430" x2="240" y2="430" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<rect x="288" y="96" width="224" height="524" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="140" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">CUT&amp;Tag</text>
+<line x1="308" y1="430" x2="492" y2="430" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<rect x="540" y="96" width="224" height="524" fill="#FFFFFF" rx="14" stroke="#E64B35" stroke-width="3"/>
+<text x="652.0" y="140" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">ATAC-seq</text>
+<line x1="560" y1="430" x2="744" y2="430" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<rect x="56" y="423" width="24" height="14" fill="#4DBBD5" rx="4" stroke="#3C8DAD" stroke-width="3"/>
+<rect x="88" y="423" width="24" height="14" fill="#4DBBD5" rx="4" stroke="#3C8DAD" stroke-width="3"/>
+<rect x="120" y="423" width="24" height="14" fill="#4DBBD5" rx="4" stroke="#3C8DAD" stroke-width="3"/>
+<rect x="152" y="423" width="24" height="14" fill="#4DBBD5" rx="4" stroke="#3C8DAD" stroke-width="3"/>
+<rect x="184" y="423" width="24" height="14" fill="#4DBBD5" rx="4" stroke="#3C8DAD" stroke-width="3"/>
+<rect x="216" y="423" width="24" height="14" fill="#4DBBD5" rx="4" stroke="#3C8DAD" stroke-width="3"/>
+<rect x="120" y="402" width="24" height="21" fill="#4DBBD5" rx="4" stroke="#3C8DAD" stroke-width="3"/>
+<text x="132" y="246" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">IgG</text>
+<polyline points="112,262 132,280 152,262" fill="none" stroke="#3C8DAD" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="132" cy="294" r="13" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="4"/>
+<line x1="132" y1="307" x2="132" y2="316" stroke="#3C8DAD" stroke-width="4" stroke-linecap="butt"/>
+<line x1="132" y1="320" x2="132" y2="396" stroke="#3C8DAD" stroke-width="4" stroke-linecap="round"/>
+<polygon points="132,396 127.10687456328516,385.0429327162523 136.89312543671485,385.0429327162523" fill="#3C8DAD"/>
+<text x="400" y="246" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">pA-Tn5</text>
+<polyline points="380,258 400,276 420,258" fill="none" stroke="#3C5488" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="400" cy="290" r="13" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<line x1="400" y1="303" x2="400" y2="312" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<polygon points="400,322 376,348 424,348" fill="#3C5488"/>
+<line x1="382" y1="412" x2="382" y2="448" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="418" y1="412" x2="418" y2="448" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<text x="652" y="246" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">Tn5</text>
+<polygon points="652,258 630,288 674,288" fill="#00A087"/>
+<line x1="652" y1="292" x2="652" y2="398" stroke="#00A087" stroke-width="4" stroke-linecap="round"/>
+<polygon points="652,398 647.1068745632851,387.0429327162523 656.8931254367149,387.0429327162523" fill="#00A087"/>
+<circle cx="598" cy="430" r="24" fill="#D8EEE9" stroke="#00A087" stroke-width="4"/>
+<circle cx="706" cy="430" r="24" fill="#D8EEE9" stroke="#00A087" stroke-width="4"/>
+<line x1="638" y1="412" x2="638" y2="448" stroke="#00A087" stroke-width="5" stroke-linecap="butt"/>
+<line x1="666" y1="412" x2="666" y2="448" stroke="#00A087" stroke-width="5" stroke-linecap="butt"/>
+<text x="148.0" y="558.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">抗体随机捞取</text>
+<text x="400.0" y="558.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">就地引导切割</text>
+<text x="652.0" y="538.25" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">与转座酶切开</text>
+<text x="652.0" y="578.75" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">放区</text>
+</svg>

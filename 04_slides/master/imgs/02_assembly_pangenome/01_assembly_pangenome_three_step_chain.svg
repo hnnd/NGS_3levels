@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="90" y="86" width="470" height="108" fill="#3C5488" rx="18"/>
+<text x="325" y="154" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#FFFFFF" text-anchor="middle" font-weight="bold">① 从头组装拼序列</text>
+<rect x="120" y="164" width="26" height="12" fill="#4DBBD5"/>
+<rect x="154" y="164" width="26" height="12" fill="#4DBBD5"/>
+<rect x="188" y="164" width="26" height="12" fill="#4DBBD5"/>
+<rect x="222" y="164" width="26" height="12" fill="#4DBBD5"/>
+<rect x="256" y="164" width="26" height="12" fill="#4DBBD5"/>
+<line x1="325" y1="198" x2="325" y2="228" stroke="#4DBBD5" stroke-width="8" stroke-linecap="round"/>
+<polygon points="325,228 317.6603118449277,211.56439907437846 332.3396881550723,211.56439907437846" fill="#4DBBD5"/>
+<rect x="90" y="242" width="470" height="108" fill="#3C5488" rx="18"/>
+<text x="325" y="310" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#FFFFFF" text-anchor="middle" font-weight="bold">② 统一注释建坐标</text>
+<line x1="128" y1="326" x2="128" y2="338" stroke="#4DBBD5" stroke-width="4" stroke-linecap="butt"/>
+<line x1="158" y1="326" x2="158" y2="338" stroke="#4DBBD5" stroke-width="4" stroke-linecap="butt"/>
+<line x1="188" y1="326" x2="188" y2="338" stroke="#4DBBD5" stroke-width="4" stroke-linecap="butt"/>
+<line x1="218" y1="326" x2="218" y2="338" stroke="#4DBBD5" stroke-width="4" stroke-linecap="butt"/>
+<line x1="248" y1="326" x2="248" y2="338" stroke="#4DBBD5" stroke-width="4" stroke-linecap="butt"/>
+<line x1="325" y1="354" x2="325" y2="384" stroke="#4DBBD5" stroke-width="8" stroke-linecap="round"/>
+<polygon points="325,384 317.6603118449277,367.56439907437846 332.3396881550723,367.56439907437846" fill="#4DBBD5"/>
+<rect x="90" y="398" width="470" height="108" fill="#3C5488" rx="18"/>
+<text x="325" y="466" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#FFFFFF" text-anchor="middle" font-weight="bold">③ 比较矩阵定核心</text>
+<rect x="122" y="476" width="14" height="9" fill="#FFFFFF"/>
+<rect x="122" y="488" width="14" height="9" fill="#4DBBD5"/>
+<rect x="142" y="476" width="14" height="9" fill="#4DBBD5"/>
+<rect x="142" y="488" width="14" height="9" fill="#4DBBD5"/>
+<rect x="162" y="476" width="14" height="9" fill="#4DBBD5"/>
+<rect x="162" y="488" width="14" height="9" fill="#FFFFFF"/>
+<rect x="182" y="476" width="14" height="9" fill="#FFFFFF"/>
+<rect x="182" y="488" width="14" height="9" fill="#4DBBD5"/>
+<rect x="202" y="476" width="14" height="9" fill="#4DBBD5"/>
+<rect x="202" y="488" width="14" height="9" fill="#4DBBD5"/>
+<path d="M 620 520 C 790 460, 790 220, 612 168" fill="none" stroke="#E64B35" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="18 12"/>
+<polygon points="612,168 640,164 628,190" fill="#E64B35"/>
+<text x="688" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">上游误差</text>
+<text x="688" y="348" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">下游放大</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="60" y="96" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="start" font-weight="bold">R=100 固定重复</text>
+<rect x="60.0" y="129.0" width="136.0" height="431.0" fill="#F6D8D2"/>
+<rect x="196.0" y="129.0" width="544.0" height="431.0" fill="#D8EEE9"/>
+<line x1="60.0" y1="560.0" x2="754.0" y2="560.0" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<line x1="60.0" y1="560.0" x2="60.0" y2="117.0" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<line x1="60.0" y1="560.0" x2="60.0" y2="570.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="60.0" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">80</text>
+<line x1="196.0" y1="560.0" x2="196.0" y2="570.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="196.0" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">100</text>
+<line x1="332.0" y1="560.0" x2="332.0" y2="570.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="332.0" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">120</text>
+<line x1="468.0" y1="560.0" x2="468.0" y2="570.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="468.0" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">140</text>
+<line x1="604.0" y1="560.0" x2="604.0" y2="570.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="604.0" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">160</text>
+<line x1="740.0" y1="560.0" x2="740.0" y2="570.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="740.0" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">180</text>
+<line x1="50.0" y1="560.0" x2="60.0" y2="560.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="42.0" y="571.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end">0</text>
+<line x1="50.0" y1="462.04545454545456" x2="60.0" y2="462.04545454545456" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="42.0" y="473.04545454545456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end">20</text>
+<line x1="50.0" y1="364.0909090909091" x2="60.0" y2="364.0909090909091" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="42.0" y="375.0909090909091" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end">40</text>
+<line x1="50.0" y1="266.1363636363637" x2="60.0" y2="266.1363636363637" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="42.0" y="277.1363636363637" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end">60</text>
+<line x1="50.0" y1="168.1818181818182" x2="60.0" y2="168.1818181818182" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="42.0" y="179.1818181818182" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end">80</text>
+<polyline points="60.0,560.0 128.0,560.0 196.0,560.0 264.0,511.02272727272725 332.0,462.04545454545456 400.0,413.06818181818187 468.0,364.0909090909091 536.0,315.1136363636364 604.0,266.1363636363637 672.0,217.15909090909093 740.0,168.1818181818182" fill="none" stroke="#3C5488" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="264.0" cy="511.02272727272725" r="11" fill="#FFFFFF" stroke="#3C5488" stroke-width="6"/>
+<text x="264.0" y="487.02272727272725" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">10</text>
+<circle cx="536.0" cy="315.1136363636364" r="11" fill="#FFFFFF" stroke="#3C5488" stroke-width="6"/>
+<text x="536.0" y="291.1136363636364" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">50</text>
+<circle cx="740.0" cy="168.1818181818182" r="11" fill="#FFFFFF" stroke="#3C5488" stroke-width="6"/>
+<text x="740.0" y="144.1818181818182" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">80</text>
+<line x1="570.0" y1="560.0" x2="570.0" y2="315.1136363636364" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="570.0,315.1136363636364 575.708646342834,327.8968815280087 564.291353657166,327.8968815280087" fill="#00A087"/>
+<polygon points="570.0,560.0 564.291353657166,547.2167548356277 575.708646342834,547.2167548356276" fill="#00A087"/>
+<text x="594.0" y="437.5568181818182" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">L&gt;R 起点 L−R</text>
+<text x="60" y="187.77272727272725" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">L≤R 起点为 0：信息不存在</text>
+<line x1="240" y1="201.77272727272725" x2="200" y2="272.1363636363637" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<polygon points="200,272.1363636363637 201.74177780472633,254.22083377875236 214.50324798463308,261.4754163099655" fill="#E64B35"/>
+<text x="400" y="656" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">换算法也定不出连接</text>
+</svg>

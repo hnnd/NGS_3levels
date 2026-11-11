@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="84" width="380" height="96" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="6"/>
+<text x="64" y="126" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="start" font-weight="bold">①排序</text>
+<text x="64" y="164" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">p(1) ≤ p(2) ≤ … ≤ p(M)</text>
+<line x1="230.0" y1="183" x2="230.0" y2="211" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="230.0,211 222.66031184492775,194.56439907437846 237.33968815507225,194.56439907437846" fill="#4DBBD5"/>
+<rect x="40" y="214" width="380" height="96" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="6"/>
+<text x="64" y="256" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="start" font-weight="bold">②按秩放缩</text>
+<text x="64" y="294" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">p(i) × M / i</text>
+<line x1="230.0" y1="313" x2="230.0" y2="341" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="230.0,341 222.66031184492775,324.56439907437846 237.33968815507225,324.56439907437846" fill="#4DBBD5"/>
+<rect x="40" y="344" width="380" height="96" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="6"/>
+<text x="64" y="386" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="start" font-weight="bold">③倒序单调化</text>
+<text x="64" y="424" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">min from right</text>
+<line x1="230.0" y1="443" x2="230.0" y2="471" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="230.0,471 222.66031184492775,454.56439907437846 237.33968815507225,454.56439907437846" fill="#4DBBD5"/>
+<rect x="40" y="474" width="380" height="96" fill="#FFFFFF" rx="14" stroke="#00A087" stroke-width="6"/>
+<text x="64" y="516" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="start" font-weight="bold">④截断至 1</text>
+<text x="64" y="554" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">min(q, 1.0)</text>
+<path d="M 426 522.0 C 458 522.0 458 392.0 426 392.0" fill="none" stroke="#4DBBD5" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 9"/>
+<rect x="470" y="84" width="300" height="300" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="4"/>
+<text x="620" y="140" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">M = 1000 families</text>
+<text x="620" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">α = 0.05</text>
+<text x="620" y="252" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">E[FP] = 50</text>
+<text x="620" y="308" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">千个家族 50 期望假阳性</text>
+<text x="620" y="358" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">语义非假阳性比例</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Spatial deconvolution needs a complete reference</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="40" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">REFERENCE</text>
+<rect x="40" y="124" width="38" height="38" fill="#D8EEE9" rx="4" stroke="#00A087" stroke-width="2"/>
+<rect x="82" y="124" width="38" height="38" fill="#00A087" rx="4" stroke="#00A087" stroke-width="2"/>
+<rect x="124" y="124" width="38" height="38" fill="#00A087" rx="4" stroke="#00A087" stroke-width="2"/>
+<rect x="166" y="124" width="38" height="38" fill="#D8EEE9" rx="4" stroke="#00A087" stroke-width="2"/>
+<rect x="40" y="166" width="38" height="38" fill="#FBE6DF" rx="4" stroke="#F39B7F" stroke-width="2"/>
+<rect x="82" y="166" width="38" height="38" fill="#F39B7F" rx="4" stroke="#F39B7F" stroke-width="2"/>
+<rect x="124" y="166" width="38" height="38" fill="#F39B7F" rx="4" stroke="#F39B7F" stroke-width="2"/>
+<rect x="166" y="166" width="38" height="38" fill="#FBE6DF" rx="4" stroke="#F39B7F" stroke-width="2"/>
+<rect x="40" y="208" width="38" height="38" fill="#E7EAF1" rx="4" stroke="#8491B4" stroke-width="2"/>
+<rect x="82" y="208" width="38" height="38" fill="#8491B4" rx="4" stroke="#8491B4" stroke-width="2"/>
+<rect x="124" y="208" width="38" height="38" fill="#8491B4" rx="4" stroke="#8491B4" stroke-width="2"/>
+<rect x="166" y="208" width="38" height="38" fill="#E7EAF1" rx="4" stroke="#8491B4" stroke-width="2"/>
+<circle cx="268" cy="208" r="42" fill="#FFFFFF" stroke="#3C5488" stroke-width="5"/>
+<circle cx="254" cy="196" r="12" fill="#00A087"/>
+<circle cx="282" cy="214" r="12" fill="#F39B7F"/>
+<circle cx="264" cy="228" r="12" fill="#8491B4"/>
+<line x1="206" y1="190" x2="222" y2="196" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="222,196 210.02248715817683,196.73429294151632 213.45866924510284,187.57114070971355" fill="#3C5488"/>
+<line x1="314" y1="208" x2="340" y2="208" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="340,208 327.2167548356277,213.708646342834 327.2167548356277,202.291353657166" fill="#3C5488"/>
+<rect x="344" y="168" width="116" height="80" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="4"/>
+<text x="402" y="218" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">RCTD</text>
+<text x="543" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">PROP</text>
+<line x1="464" y1="208" x2="500" y2="208" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="500,208 487.2167548356277,213.708646342834 487.2167548356277,202.291353657166" fill="#3C5488"/>
+<rect x="506" y="124" width="74" height="220" fill="#FFFFFF" stroke="#3C5488" stroke-width="3"/>
+<rect x="506" y="124" width="74" height="132" fill="#00A087"/>
+<rect x="506" y="256" width="74" height="55" fill="#F39B7F"/>
+<rect x="506" y="311" width="74" height="33" fill="#8491B4"/>
+<text x="596" y="190" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">60</text>
+<text x="596" y="283" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">25</text>
+<text x="596" y="327" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">15</text>
+<line x1="543" y1="352" x2="543" y2="380" stroke="#E64B35" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<rect x="400" y="380" width="300" height="76" fill="none" rx="10" stroke="#E64B35" stroke-width="5" stroke-dasharray="12 8"/>
+<text x="550" y="430" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">MISSING TYPE</text>
+<rect x="28.0" y="500" width="744" height="128" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="550" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">单细胞参考推算微区比例。</text>
+<text x="400.0" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">图谱缺项时信号被分摊，无法凭空推断。</text>
+</svg>

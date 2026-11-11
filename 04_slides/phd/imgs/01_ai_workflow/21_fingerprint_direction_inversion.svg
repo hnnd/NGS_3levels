@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Fingerprint 2: direction inversion</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="40" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">reference</text>
+<line x1="252" y1="190" x2="620" y2="190" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<rect x="258" y="164" width="12" height="26" fill="#00A087"/>
+<rect x="276" y="156" width="12" height="34" fill="#00A087"/>
+<rect x="294" y="148" width="12" height="42" fill="#00A087"/>
+<rect x="312" y="140" width="12" height="50" fill="#00A087"/>
+<rect x="330" y="164" width="12" height="26" fill="#00A087"/>
+<rect x="348" y="156" width="12" height="34" fill="#00A087"/>
+<rect x="366" y="148" width="12" height="42" fill="#00A087"/>
+<rect x="384" y="140" width="12" height="50" fill="#00A087"/>
+<rect x="402" y="164" width="12" height="26" fill="#00A087"/>
+<rect x="420" y="156" width="12" height="34" fill="#00A087"/>
+<rect x="438" y="148" width="12" height="42" fill="#00A087"/>
+<rect x="456" y="140" width="12" height="50" fill="#00A087"/>
+<rect x="474" y="164" width="12" height="26" fill="#00A087"/>
+<rect x="492" y="156" width="12" height="34" fill="#00A087"/>
+<rect x="510" y="148" width="12" height="42" fill="#00A087"/>
+<rect x="528" y="140" width="12" height="50" fill="#00A087"/>
+<rect x="546" y="164" width="12" height="26" fill="#00A087"/>
+<rect x="564" y="156" width="12" height="34" fill="#00A087"/>
+<rect x="582" y="148" width="12" height="42" fill="#00A087"/>
+<rect x="600" y="140" width="12" height="50" fill="#00A087"/>
+<text x="660" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">20/20</text>
+<rect x="40" y="286" width="720" height="100" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="3"/>
+<text x="40" y="340" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">swapped</text>
+<line x1="252" y1="330" x2="620" y2="330" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<rect x="258" y="330" width="12" height="26" fill="#E64B35"/>
+<rect x="276" y="330" width="12" height="34" fill="#E64B35"/>
+<rect x="294" y="330" width="12" height="42" fill="#E64B35"/>
+<rect x="312" y="330" width="12" height="50" fill="#E64B35"/>
+<rect x="330" y="330" width="12" height="26" fill="#E64B35"/>
+<rect x="348" y="330" width="12" height="34" fill="#E64B35"/>
+<rect x="366" y="330" width="12" height="42" fill="#E64B35"/>
+<rect x="384" y="330" width="12" height="50" fill="#E64B35"/>
+<rect x="402" y="330" width="12" height="26" fill="#E64B35"/>
+<rect x="420" y="330" width="12" height="34" fill="#E64B35"/>
+<rect x="438" y="330" width="12" height="42" fill="#E64B35"/>
+<rect x="456" y="330" width="12" height="50" fill="#E64B35"/>
+<rect x="474" y="330" width="12" height="26" fill="#E64B35"/>
+<rect x="492" y="330" width="12" height="34" fill="#E64B35"/>
+<rect x="510" y="330" width="12" height="42" fill="#E64B35"/>
+<rect x="528" y="330" width="12" height="50" fill="#E64B35"/>
+<rect x="546" y="330" width="12" height="26" fill="#E64B35"/>
+<rect x="564" y="330" width="12" height="34" fill="#E64B35"/>
+<rect x="582" y="330" width="12" height="42" fill="#E64B35"/>
+<rect x="600" y="330" width="12" height="50" fill="#E64B35"/>
+<text x="660" y="340" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">0/20</text>
+<rect x="40" y="400" width="720" height="104" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="3"/>
+<text x="66" y="446" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">cor = -1.000</text>
+<text x="66" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">course data: -0.990</text>
+<rect x="40" y="520" width="720" height="56" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="3"/>
+<text x="400" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">contrast ctrl/treat</text>
+<rect x="32.0" y="590" width="736" height="104" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="624" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">指纹二：已知上调命中为零，相关系数负一，</text>
+<text x="400.0" y="666" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">核对对比参数组别顺序。</text>
+</svg>

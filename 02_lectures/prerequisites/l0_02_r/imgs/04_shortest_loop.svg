@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">最短闭环：读表 → 筛选汇总 → 出图 → 导出</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">readr ｜ dplyr 五动词 ｜ ggplot2 ｜ ggsave —— 依据 l0_02 上机操作 步骤 1–5</text>
+  <!-- 图例 -->
+  <rect x="926" y="44" width="12" height="12" fill="#3C5488"/>
+  <text x="944" y="54" font-size="12" fill="#33332E">步骤 / 代码</text>
+  <rect x="926" y="62" width="12" height="12" fill="#4DBBD5"/>
+  <text x="944" y="72" font-size="12" fill="#33332E">数据形态</text>
+  <rect x="926" y="80" width="12" height="12" fill="#00A087"/>
+  <text x="944" y="90" font-size="12" fill="#33332E">检查点</text>
+  <rect x="926" y="98" width="12" height="12" fill="#E64B35"/>
+  <text x="944" y="108" font-size="12" fill="#33332E">易错点</text>
+
+  <!-- ============ 步骤 1 读表 ============ -->
+  <rect x="48" y="140" width="240" height="500" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <circle cx="72" cy="166" r="14" fill="#3C5488"/>
+  <text x="72" y="171" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="94" y="172" font-size="15" font-weight="bold" fill="#3C5488">读表 readr</text>
+  <line x1="64" y1="190" x2="272" y2="190" stroke="#E9E9E5"/>
+
+  <rect x="64" y="204" width="208" height="88" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="74" y="224" font-size="10.5" fill="#33332E">qc &lt;- read_csv(</text>
+  <text x="74" y="242" font-size="10.5" fill="#33332E">  "qc_summary.csv")</text>
+  <text x="74" y="260" font-size="10.5" fill="#33332E">dim(qc)      # 12 4</text>
+  <text x="74" y="278" font-size="10.5" fill="#33332E">glimpse(qc)  # 类型</text>
+
+  <rect x="64" y="312" width="208" height="68" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.5"/>
+  <rect x="64" y="312" width="52" height="22" fill="#3C5488"/>
+  <rect x="116" y="312" width="52" height="22" fill="#3C5488"/>
+  <rect x="168" y="312" width="52" height="22" fill="#3C5488"/>
+  <rect x="220" y="312" width="52" height="22" fill="#3C5488"/>
+  <text x="90" y="327" font-size="8.5" fill="#FFFFFF" text-anchor="middle">sample</text>
+  <text x="142" y="327" font-size="8.5" fill="#FFFFFF" text-anchor="middle">group</text>
+  <text x="194" y="327" font-size="8.5" fill="#FFFFFF" text-anchor="middle">reads</text>
+  <text x="246" y="327" font-size="8.5" fill="#FFFFFF" text-anchor="middle">q30</text>
+  <text x="90"  y="350" font-size="9.5" fill="#33332E" text-anchor="middle">S01</text>
+  <text x="142" y="350" font-size="9.5" fill="#33332E" text-anchor="middle">control</text>
+  <text x="194" y="350" font-size="9.5" fill="#33332E" text-anchor="middle">22.4</text>
+  <text x="246" y="350" font-size="9.5" fill="#33332E" text-anchor="middle">93.1</text>
+  <text x="90"  y="370" font-size="9.5" fill="#33332E" text-anchor="middle">S02</text>
+  <text x="142" y="370" font-size="9.5" fill="#33332E" text-anchor="middle">treat</text>
+  <text x="194" y="370" font-size="9.5" fill="#33332E" text-anchor="middle">25.1</text>
+  <text x="246" y="370" font-size="9.5" fill="#33332E" text-anchor="middle">89.8</text>
+  <text x="168" y="398" font-size="10.5" fill="#6B6B66" text-anchor="middle">tibble：12 行 × 4 列</text>
+
+  <rect x="64" y="414" width="64" height="20" rx="4" fill="#00A087"/>
+  <text x="96" y="428" font-size="10.5" fill="#FFFFFF" text-anchor="middle">检查点</text>
+  <text x="64" y="458" font-size="11.5" fill="#33332E">行列数对不对？每列什么类型？</text>
+  <text x="64" y="482" font-size="11" fill="#6B6B66">TSV 用 read_tsv()；readr 不乱改列名</text>
+  <text x="64" y="504" font-size="11" fill="#6B6B66">read.csv() 会把 N50 (bp) 改成 N50..bp.</text>
+
+  <!-- ============ 步骤 2 筛选汇总 ============ -->
+  <rect x="336" y="140" width="240" height="500" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <circle cx="360" cy="166" r="14" fill="#3C5488"/>
+  <text x="360" y="171" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="382" y="172" font-size="15" font-weight="bold" fill="#3C5488">筛选汇总 dplyr</text>
+  <line x1="352" y1="190" x2="560" y2="190" stroke="#E9E9E5"/>
+
+  <rect x="352" y="204" width="208" height="26" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="362" y="221" font-size="11" fill="#3C5488">filter()</text>
+  <text x="462" y="221" font-size="10.5" fill="#6B6B66">挑行</text>
+  <rect x="352" y="236" width="208" height="26" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="362" y="253" font-size="11" fill="#3C5488">mutate()</text>
+  <text x="462" y="253" font-size="10.5" fill="#6B6B66">造列 / 改列</text>
+  <rect x="352" y="268" width="208" height="26" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="362" y="285" font-size="11" fill="#3C5488">arrange()</text>
+  <text x="462" y="285" font-size="10.5" fill="#6B6B66">排序</text>
+  <rect x="352" y="300" width="208" height="26" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="362" y="317" font-size="11" fill="#3C5488">select()</text>
+  <text x="462" y="317" font-size="10.5" fill="#6B6B66">挑列</text>
+  <rect x="352" y="332" width="208" height="26" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="362" y="349" font-size="11" fill="#3C5488">summarise()</text>
+  <text x="474" y="349" font-size="10.5" fill="#6B6B66">分组汇总</text>
+
+  <rect x="352" y="384" width="208" height="70" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.5"/>
+  <rect x="352" y="384" width="70" height="22" fill="#3C5488"/>
+  <rect x="422" y="384" width="70" height="22" fill="#3C5488"/>
+  <rect x="492" y="384" width="68" height="22" fill="#3C5488"/>
+  <text x="387" y="399" font-size="8.5" fill="#FFFFFF" text-anchor="middle">group</text>
+  <text x="457" y="399" font-size="8.5" fill="#FFFFFF" text-anchor="middle">n</text>
+  <text x="526" y="399" font-size="8.5" fill="#FFFFFF" text-anchor="middle">mean_reads</text>
+  <text x="387" y="422" font-size="9.5" fill="#33332E" text-anchor="middle">control</text>
+  <text x="457" y="422" font-size="9.5" fill="#33332E" text-anchor="middle">6</text>
+  <text x="526" y="422" font-size="9.5" fill="#33332E" text-anchor="middle">23.0</text>
+  <text x="387" y="442" font-size="9.5" fill="#33332E" text-anchor="middle">treat</text>
+  <text x="457" y="442" font-size="9.5" fill="#33332E" text-anchor="middle">6</text>
+  <text x="526" y="442" font-size="9.5" fill="#33332E" text-anchor="middle">29.6</text>
+  <text x="456" y="474" font-size="10.5" fill="#6B6B66" text-anchor="middle">汇总表：一行一个组</text>
+
+  <rect x="352" y="490" width="64" height="20" rx="4" fill="#00A087"/>
+  <text x="384" y="504" font-size="10.5" fill="#FFFFFF" text-anchor="middle">检查点</text>
+  <text x="352" y="534" font-size="11.5" fill="#33332E">管道报错先拆开跑：每步存变量</text>
+  <text x="352" y="556" font-size="11" fill="#6B6B66">先 group_by() 再 summarise()，.groups = "drop"</text>
+  <text x="352" y="578" font-size="11" fill="#6B6B66">filter 后因子水平还在：droplevels()</text>
+
+  <!-- ============ 步骤 3 出图 ============ -->
+  <rect x="624" y="140" width="240" height="500" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <circle cx="648" cy="166" r="14" fill="#3C5488"/>
+  <text x="648" y="171" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="670" y="172" font-size="15" font-weight="bold" fill="#3C5488">出图 ggplot2</text>
+  <line x1="640" y1="190" x2="848" y2="190" stroke="#E9E9E5"/>
+
+  <rect x="640" y="204" width="208" height="88" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="650" y="224" font-size="10.5" fill="#33332E">ggplot(qc, aes(x = reads_M,</text>
+  <text x="650" y="242" font-size="10.5" fill="#33332E">  y = q30_pct, color = group))</text>
+  <text x="650" y="260" font-size="10.5" fill="#33332E">  + geom_point(size = 2.5)</text>
+  <text x="650" y="278" font-size="10.5" fill="#33332E">  + labs(x = "Reads (million)")</text>
+
+  <rect x="640" y="312" width="208" height="140" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <line x1="664" y1="326" x2="664" y2="434" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="664" y1="434" x2="836" y2="434" stroke="#6B6B66" stroke-width="1.5"/>
+  <circle cx="694" cy="408" r="4" fill="#3C5488"/>
+  <circle cx="718" cy="392" r="4" fill="#3C5488"/>
+  <circle cx="744" cy="400" r="4" fill="#3C5488"/>
+  <circle cx="702" cy="376" r="4" fill="#3C5488"/>
+  <circle cx="730" cy="414" r="4" fill="#3C5488"/>
+  <circle cx="752" cy="356" r="4" fill="#F39B7F"/>
+  <circle cx="786" cy="366" r="4" fill="#F39B7F"/>
+  <circle cx="806" cy="348" r="4" fill="#F39B7F"/>
+  <circle cx="770" cy="382" r="4" fill="#F39B7F"/>
+  <circle cx="800" cy="334" r="4" fill="#F39B7F"/>
+  <text x="668" y="338" font-size="9" fill="#6B6B66">Q30 (%)</text>
+  <text x="750" y="448" font-size="9" fill="#6B6B66" text-anchor="middle">Reads (million)</text>
+  <text x="744" y="472" font-size="10.5" fill="#6B6B66" text-anchor="middle">点色 = group（写在 aes 里）</text>
+
+  <text x="640" y="498" font-size="11.5" font-weight="bold" fill="#E64B35">图内文字一律英文：中文变 □□□</text>
+  <text x="640" y="520" font-size="11" fill="#6B6B66">服务器没有中文字库——是环境的错，不是代码的错</text>
+  <text x="640" y="542" font-size="11" fill="#6B6B66">分类顺序乱？factor(x, levels = c(...))</text>
+
+  <!-- ============ 步骤 4 导出 ============ -->
+  <rect x="912" y="140" width="240" height="500" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <circle cx="936" cy="166" r="14" fill="#3C5488"/>
+  <text x="936" y="171" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="958" y="172" font-size="15" font-weight="bold" fill="#3C5488">导出 ggsave</text>
+  <line x1="928" y1="190" x2="1136" y2="190" stroke="#E9E9E5"/>
+
+  <rect x="928" y="204" width="208" height="88" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="938" y="224" font-size="10.5" fill="#33332E">ggsave(</text>
+  <text x="938" y="242" font-size="10.5" fill="#33332E">  "results/figures/qc.pdf",</text>
+  <text x="938" y="260" font-size="10.5" fill="#33332E">  plot = p,</text>
+  <text x="938" y="278" font-size="10.5" fill="#33332E">  width = 6, height = 4)</text>
+
+  <rect x="952" y="316" width="76" height="100" rx="6" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <polygon points="1004,316 1028,340 1004,340" fill="#FAFAF7" stroke="#3C5488"/>
+  <text x="990" y="376" font-size="11" font-weight="bold" fill="#3C5488" text-anchor="middle">PDF</text>
+  <text x="990" y="394" font-size="9" fill="#6B6B66" text-anchor="middle">矢量 · 放大不糊</text>
+  <rect x="1056" y="316" width="76" height="100" rx="6" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.5"/>
+  <polygon points="1108,316 1132,340 1108,340" fill="#FAFAF7" stroke="#4DBBD5"/>
+  <text x="1094" y="376" font-size="11" font-weight="bold" fill="#3C8DAD" text-anchor="middle">PNG</text>
+  <text x="1094" y="394" font-size="9" fill="#6B6B66" text-anchor="middle">位图 · 看 dpi</text>
+
+  <rect x="928" y="440" width="64" height="20" rx="4" fill="#00A087"/>
+  <text x="960" y="454" font-size="10.5" fill="#FFFFFF" text-anchor="middle">检查点</text>
+  <text x="928" y="484" font-size="11.5" fill="#33332E">导出后放大看：字不小、无方块</text>
+  <text x="928" y="510" font-size="11.5" font-weight="bold" fill="#E64B35">不写 plot = p，存的是“最后一张图”</text>
+  <text x="928" y="532" font-size="11" fill="#6B6B66">存错图不报错；PDF 空白多半是它</text>
+
+  <!-- ============ 步骤间箭头 ============ -->
+  <line x1="292" y1="340" x2="324" y2="340" stroke="#4DBBD5" stroke-width="2.5"/>
+  <polygon points="332,340 322,335 322,345" fill="#4DBBD5"/>
+  <line x1="580" y1="340" x2="612" y2="340" stroke="#4DBBD5" stroke-width="2.5"/>
+  <polygon points="620,340 610,335 610,345" fill="#4DBBD5"/>
+  <line x1="868" y1="340" x2="900" y2="340" stroke="#4DBBD5" stroke-width="2.5"/>
+  <polygon points="908,340 898,335 898,345" fill="#4DBBD5"/>
+
+  <!-- ============ 底部备注 ============ -->
+  <rect x="48" y="664" width="1104" height="64" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="664" width="4" height="64" rx="2" fill="#3C5488"/>
+  <text x="72" y="690" font-size="12" fill="#33332E">装了 ≠ 加载了：install.packages() 一次就够，library(tidyverse) 每个新会话都要重跑。</text>
+  <text x="72" y="714" font-size="12" fill="#6B6B66">数据大了别在登录节点画：写进 qsub 脚本（l0_01）；环境与包版本用 conda 锁定（l0_03）。</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

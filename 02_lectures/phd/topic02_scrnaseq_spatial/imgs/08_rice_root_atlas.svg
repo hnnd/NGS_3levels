@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">案例：水稻根细胞图谱——一篇植物单细胞 atlas 怎么立起来</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">scRNA + scATAC 双层面 ｜ 注释互证 ｜ 图谱的公共价值 —— 依据 02_scrnaseq_spatial_lecture.md ③3.1</text>
+  <!-- 图例 -->
+  <circle cx="880" cy="54" r="6" fill="#4DBBD5"/>
+  <text x="892" y="58" font-size="12" fill="#33332E">表皮</text>
+  <circle cx="940" cy="54" r="6" fill="#00A087"/>
+  <text x="952" y="58" font-size="12" fill="#33332E">皮层</text>
+  <circle cx="1000" cy="54" r="6" fill="#8491B4"/>
+  <text x="1012" y="58" font-size="12" fill="#33332E">中柱</text>
+
+  <!-- ============ 左面板：两个层面 ============ -->
+  <rect x="48" y="120" width="330" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="15" font-weight="bold" fill="#3C5488">同一批根细胞，两个层面</text>
+  <line x1="72" y1="170" x2="354" y2="170" stroke="#E9E9E5"/>
+
+  <!-- 根示意（根尖朝下） -->
+  <path d="M 168 200 L 258 200 L 234 430 Q 213 460 192 430 Z" fill="#FAFAF7" stroke="#3C5488" stroke-width="2"/>
+  <text x="60" y="248" font-size="11.5" fill="#6B6B66">分化区</text>
+  <text x="60" y="330" font-size="11.5" fill="#6B6B66">伸长区</text>
+  <text x="60" y="428" font-size="11.5" fill="#6B6B66">根尖分生区</text>
+  <!-- 表皮（外缘，teal） -->
+  <circle cx="176" cy="230" r="5" fill="#4DBBD5"/><circle cx="250" cy="230" r="5" fill="#4DBBD5"/>
+  <circle cx="180" cy="295" r="5" fill="#4DBBD5"/><circle cx="246" cy="295" r="5" fill="#4DBBD5"/>
+  <circle cx="186" cy="360" r="5" fill="#4DBBD5"/><circle cx="240" cy="360" r="5" fill="#4DBBD5"/>
+  <!-- 皮层（中层，绿） -->
+  <circle cx="196" cy="250" r="5" fill="#00A087"/><circle cx="230" cy="250" r="5" fill="#00A087"/>
+  <circle cx="199" cy="315" r="5" fill="#00A087"/><circle cx="227" cy="315" r="5" fill="#00A087"/>
+  <circle cx="203" cy="380" r="5" fill="#00A087"/><circle cx="223" cy="380" r="5" fill="#00A087"/>
+  <!-- 中柱（中心，紫） -->
+  <circle cx="213" cy="270" r="5" fill="#8491B4"/>
+  <circle cx="213" cy="335" r="5" fill="#8491B4"/>
+  <circle cx="213" cy="405" r="5" fill="#8491B4"/>
+
+  <!-- 两个层面 chips -->
+  <rect x="72" y="482" width="282" height="26" rx="13" fill="none" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="213" y="500" font-size="12" font-weight="bold" fill="#3C8DAD" text-anchor="middle">scRNA-seq → 表达层</text>
+  <rect x="72" y="516" width="282" height="26" rx="13" fill="none" stroke="#8491B4" stroke-width="1.5"/>
+  <text x="213" y="534" font-size="12" font-weight="bold" fill="#8491B4" text-anchor="middle">scATAC → 染色质可及层</text>
+
+  <!-- ============ 中面板：图谱 ============ -->
+  <rect x="402" y="120" width="400" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="426" y="152" font-size="15" font-weight="bold" fill="#3C5488">细胞类型图谱：两层面互证</text>
+  <text x="426" y="174" font-size="12" fill="#6B6B66">Zhang TQ et al. 2021 · Nature Communications（⑪）</text>
+  <line x1="426" y1="190" x2="778" y2="190" stroke="#E9E9E5"/>
+
+  <circle cx="440" cy="218" r="6" fill="#4DBBD5"/>
+  <text x="456" y="223" font-size="13" font-weight="bold" fill="#33332E">表皮</text>
+  <text x="456" y="241" font-size="11.5" fill="#6B6B66">表达层 + 可及层双重支持</text>
+  <circle cx="440" cy="264" r="6" fill="#00A087"/>
+  <text x="456" y="269" font-size="13" font-weight="bold" fill="#33332E">皮层</text>
+  <text x="456" y="287" font-size="11.5" fill="#6B6B66">表达层 + 可及层双重支持</text>
+  <circle cx="440" cy="310" r="6" fill="#8491B4"/>
+  <text x="456" y="315" font-size="13" font-weight="bold" fill="#33332E">中柱</text>
+  <text x="456" y="333" font-size="11.5" fill="#6B6B66">表达层 + 可及层双重支持</text>
+
+  <line x1="426" y1="356" x2="778" y2="356" stroke="#E9E9E5"/>
+  <text x="426" y="384" font-size="13" font-weight="bold" fill="#3C5488">分化轨迹（标题中的 trajectories）</text>
+  <line x1="450" y1="430" x2="756" y2="430" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="766,430 754,424 754,436" fill="#6B6B66"/>
+  <circle cx="470" cy="430" r="14" fill="#8491B4"/>
+  <circle cx="600" cy="430" r="14" fill="#00A087"/>
+  <circle cx="730" cy="430" r="14" fill="#4DBBD5"/>
+  <text x="470" y="462" font-size="11.5" fill="#33332E" text-anchor="middle">根尖分生区</text>
+  <text x="600" y="462" font-size="11.5" fill="#33332E" text-anchor="middle">伸长区</text>
+  <text x="730" y="462" font-size="11.5" fill="#33332E" text-anchor="middle">分化区</text>
+  <text x="426" y="504" font-size="12" fill="#33332E">同一批细胞同时测表达与染色质，</text>
+  <text x="426" y="526" font-size="12" fill="#33332E">主要细胞类型在两个层面相互印证。</text>
+
+  <!-- ============ 右面板：公共价值 ============ -->
+  <rect x="826" y="120" width="326" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="850" y="152" font-size="15" font-weight="bold" fill="#3C5488">图谱是路线图，不是终点</text>
+  <line x1="850" y1="170" x2="1128" y2="170" stroke="#E9E9E5"/>
+
+  <rect x="850" y="190" width="278" height="98" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="866" y="216" font-size="13" font-weight="bold" fill="#3C5488">① 注释参考</text>
+  <text x="866" y="240" font-size="12" fill="#33332E">给后续研究的细胞类型贴标签</text>
+  <text x="866" y="262" font-size="12" fill="#33332E">提供知识来源（§4.6）</text>
+
+  <rect x="850" y="302" width="278" height="98" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="866" y="328" font-size="13" font-weight="bold" fill="#3C5488">② 空间去卷积的参考面板</text>
+  <text x="866" y="352" font-size="12" fill="#33332E">估计 spot 里各细胞类型比例的</text>
+  <text x="866" y="374" font-size="12" fill="#33332E">「答案库」；参考没有的类型</text>
+  <text x="866" y="392" font-size="12" fill="#33332E">永远不会被算出来（§4.8）</text>
+
+  <rect x="850" y="414" width="278" height="112" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="866" y="440" font-size="13" font-weight="bold" fill="#3C5488">③ 向侵染场景延伸</text>
+  <text x="866" y="464" font-size="12" fill="#33332E">图谱提供「正常状态」，你的数据</text>
+  <text x="866" y="486" font-size="12" fill="#33332E">提供「偏离方向」：抗性响应是</text>
+  <text x="866" y="508" font-size="12" fill="#33332E">「比例变了」还是「表达变了」（③）</text>
+
+  <!-- ============ 底部：对本讲的启示 ============ -->
+  <text x="48" y="580" font-size="16" font-weight="bold" fill="#3C5488">对本讲的启示</text>
+  <rect x="48" y="594" width="352" height="110" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="622" font-size="13" font-weight="bold" fill="#3C5488">注释纪律可直接照搬</text>
+  <text x="72" y="646" font-size="12.5" fill="#33332E">不靠单一 marker：表达、染色质与发育</text>
+  <text x="72" y="668" font-size="12.5" fill="#33332E">程序相互交叉——§4.6 三条验证</text>
+  <text x="72" y="690" font-size="12.5" fill="#33332E">在正式发表论文里的样子</text>
+
+  <rect x="424" y="594" width="352" height="110" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="448" y="622" font-size="13" font-weight="bold" fill="#E64B35">两个系统性坑同样在场</text>
+  <text x="448" y="646" font-size="12.5" fill="#33332E">解离应激、3'UTR 注释不全（§4.2–4.3）：</text>
+  <text x="448" y="668" font-size="12.5" fill="#33332E">正式研究里以「对照 + 显式讨论」</text>
+  <text x="448" y="690" font-size="12.5" fill="#33332E">处理，不是绕过</text>
+
+  <rect x="800" y="594" width="352" height="110" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="824" y="622" font-size="13" font-weight="bold" fill="#3C5488">读原文的入口</text>
+  <text x="824" y="646" font-size="12.5" fill="#33332E">先看注释怎么验证、解离应激怎么处理，</text>
+  <text x="824" y="668" font-size="12.5" fill="#33332E">最后才看结论——方法学细节比结论</text>
+  <text x="824" y="690" font-size="12.5" fill="#33332E">更值得搬回自己的课题</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="748" font-size="15" font-weight="bold" fill="#3C5488">图谱提供正常状态，你的数据提供偏离方向——这就是 §3.1 案例向主线数据（GSE222584）的延伸。</text>
+  <text x="1152" y="774" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">RDP naive Bayes</text>
+<text x="400" y="112" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">八聚体条件概率</text>
+<rect x="62" y="136" width="676" height="56" fill="#D6EFF4" rx="8" stroke="#3C5488" stroke-width="4"/>
+<line x1="146.5" y1="136" x2="146.5" y2="192" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="231.0" y1="136" x2="231.0" y2="192" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="315.5" y1="136" x2="315.5" y2="192" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="400.0" y1="136" x2="400.0" y2="192" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="484.5" y1="136" x2="484.5" y2="192" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="569.0" y1="136" x2="569.0" y2="192" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="653.5" y1="136" x2="653.5" y2="192" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<rect x="137.39999999999998" y="202" width="52" height="12" fill="#4DBBD5" rx="6"/>
+<text x="163.39999999999998" y="248" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">8-mer</text>
+<rect x="461.88" y="202" width="52" height="12" fill="#4DBBD5" rx="6"/>
+<text x="487.88" y="248" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">8-mer</text>
+<text x="300" y="292" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">百次重抽样</text>
+<text x="700" y="292" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">80 / 100</text>
+<circle cx="74" cy="336" r="9" fill="#00A087"/>
+<circle cx="108" cy="336" r="9" fill="#00A087"/>
+<circle cx="142" cy="336" r="9" fill="#00A087"/>
+<circle cx="176" cy="336" r="9" fill="#00A087"/>
+<circle cx="210" cy="336" r="9" fill="#00A087"/>
+<circle cx="244" cy="336" r="9" fill="#00A087"/>
+<circle cx="278" cy="336" r="9" fill="#00A087"/>
+<circle cx="312" cy="336" r="9" fill="#00A087"/>
+<circle cx="346" cy="336" r="9" fill="#00A087"/>
+<circle cx="380" cy="336" r="9" fill="#00A087"/>
+<circle cx="414" cy="336" r="9" fill="#00A087"/>
+<circle cx="448" cy="336" r="9" fill="#00A087"/>
+<circle cx="482" cy="336" r="9" fill="#00A087"/>
+<circle cx="516" cy="336" r="9" fill="#00A087"/>
+<circle cx="550" cy="336" r="9" fill="#00A087"/>
+<circle cx="584" cy="336" r="9" fill="#00A087"/>
+<circle cx="618" cy="336" r="9" fill="#00A087"/>
+<circle cx="652" cy="336" r="9" fill="#00A087"/>
+<circle cx="686" cy="336" r="9" fill="#00A087"/>
+<circle cx="720" cy="336" r="9" fill="#00A087"/>
+<circle cx="74" cy="370" r="9" fill="#00A087"/>
+<circle cx="108" cy="370" r="9" fill="#00A087"/>
+<circle cx="142" cy="370" r="9" fill="#00A087"/>
+<circle cx="176" cy="370" r="9" fill="#00A087"/>
+<circle cx="210" cy="370" r="9" fill="#00A087"/>
+<circle cx="244" cy="370" r="9" fill="#00A087"/>
+<circle cx="278" cy="370" r="9" fill="#00A087"/>
+<circle cx="312" cy="370" r="9" fill="#00A087"/>
+<circle cx="346" cy="370" r="9" fill="#00A087"/>
+<circle cx="380" cy="370" r="9" fill="#00A087"/>
+<circle cx="414" cy="370" r="9" fill="#00A087"/>
+<circle cx="448" cy="370" r="9" fill="#00A087"/>
+<circle cx="482" cy="370" r="9" fill="#00A087"/>
+<circle cx="516" cy="370" r="9" fill="#00A087"/>
+<circle cx="550" cy="370" r="9" fill="#00A087"/>
+<circle cx="584" cy="370" r="9" fill="#00A087"/>
+<circle cx="618" cy="370" r="9" fill="#00A087"/>
+<circle cx="652" cy="370" r="9" fill="#00A087"/>
+<circle cx="686" cy="370" r="9" fill="#00A087"/>
+<circle cx="720" cy="370" r="9" fill="#00A087"/>
+<circle cx="74" cy="404" r="9" fill="#00A087"/>
+<circle cx="108" cy="404" r="9" fill="#00A087"/>
+<circle cx="142" cy="404" r="9" fill="#00A087"/>
+<circle cx="176" cy="404" r="9" fill="#00A087"/>
+<circle cx="210" cy="404" r="9" fill="#00A087"/>
+<circle cx="244" cy="404" r="9" fill="#00A087"/>
+<circle cx="278" cy="404" r="9" fill="#00A087"/>
+<circle cx="312" cy="404" r="9" fill="#00A087"/>
+<circle cx="346" cy="404" r="9" fill="#00A087"/>
+<circle cx="380" cy="404" r="9" fill="#00A087"/>
+<circle cx="414" cy="404" r="9" fill="#00A087"/>
+<circle cx="448" cy="404" r="9" fill="#00A087"/>
+<circle cx="482" cy="404" r="9" fill="#00A087"/>
+<circle cx="516" cy="404" r="9" fill="#00A087"/>
+<circle cx="550" cy="404" r="9" fill="#00A087"/>
+<circle cx="584" cy="404" r="9" fill="#00A087"/>
+<circle cx="618" cy="404" r="9" fill="#00A087"/>
+<circle cx="652" cy="404" r="9" fill="#00A087"/>
+<circle cx="686" cy="404" r="9" fill="#00A087"/>
+<circle cx="720" cy="404" r="9" fill="#00A087"/>
+<circle cx="74" cy="438" r="9" fill="#00A087"/>
+<circle cx="108" cy="438" r="9" fill="#00A087"/>
+<circle cx="142" cy="438" r="9" fill="#00A087"/>
+<circle cx="176" cy="438" r="9" fill="#00A087"/>
+<circle cx="210" cy="438" r="9" fill="#00A087"/>
+<circle cx="244" cy="438" r="9" fill="#00A087"/>
+<circle cx="278" cy="438" r="9" fill="#00A087"/>
+<circle cx="312" cy="438" r="9" fill="#00A087"/>
+<circle cx="346" cy="438" r="9" fill="#00A087"/>
+<circle cx="380" cy="438" r="9" fill="#00A087"/>
+<circle cx="414" cy="438" r="9" fill="#00A087"/>
+<circle cx="448" cy="438" r="9" fill="#00A087"/>
+<circle cx="482" cy="438" r="9" fill="#00A087"/>
+<circle cx="516" cy="438" r="9" fill="#00A087"/>
+<circle cx="550" cy="438" r="9" fill="#00A087"/>
+<circle cx="584" cy="438" r="9" fill="#00A087"/>
+<circle cx="618" cy="438" r="9" fill="#00A087"/>
+<circle cx="652" cy="438" r="9" fill="#00A087"/>
+<circle cx="686" cy="438" r="9" fill="#00A087"/>
+<circle cx="720" cy="438" r="9" fill="#00A087"/>
+<circle cx="74" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="108" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="142" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="176" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="210" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="244" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="278" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="312" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="346" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="380" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="414" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="448" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="482" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="516" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="550" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="584" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="618" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="652" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="686" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<circle cx="720" cy="472" r="9" fill="#FFFFFF" stroke="#8491B4" stroke-width="3"/>
+<line x1="58" y1="455" x2="742" y2="455" stroke="#3C5488" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<line x1="250" y1="502" x2="250" y2="532" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="250,532 244.291353657166,519.2167548356277 255.708646342834,519.2167548356276" fill="#00A087"/>
+<rect x="178.7825" y="526.08" width="142.435" height="59.84" fill="#FBE3D8" rx="10" stroke="#C0623F" stroke-width="3"/>
+<text x="250" y="566.24" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">Genus</text>
+<line x1="556" y1="502" x2="556" y2="532" stroke="#8491B4" stroke-width="5" stroke-linecap="round"/>
+<polygon points="556,532 550.291353657166,519.2167548356277 561.708646342834,519.2167548356276" fill="#8491B4"/>
+<rect x="455.444375" y="527.2" width="201.11125" height="57.6" fill="#E6E9F0" rx="10" stroke="#8491B4" stroke-width="3"/>
+<text x="556" y="565.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">Species NA</text>
+<line x1="64" y1="606" x2="736" y2="606" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="400" y="656" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">八成一致赋标签</text>
+</svg>

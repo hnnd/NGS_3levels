@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Bulk average vs single-cell decomposition</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="36" y="56" width="336" height="444" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="60" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="start" font-weight="bold">A  匀浆</text>
+<path d="M 108 130 L 108 250 Q 108 292 202 292 Q 296 292 296 250 L 296 130" fill="#E3E8F2" stroke="#3C5488" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="108" y1="130" x2="296" y2="130" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<circle cx="136" cy="176" r="17" fill="#F39B7F"/>
+<circle cx="180" cy="164" r="15" fill="#8491B4"/>
+<circle cx="224" cy="182" r="16" fill="#4DBBD5"/>
+<circle cx="266" cy="168" r="14" fill="#00A087"/>
+<circle cx="146" cy="226" r="15" fill="#00A087"/>
+<circle cx="192" cy="222" r="17" fill="#F39B7F"/>
+<circle cx="240" cy="236" r="16" fill="#8491B4"/>
+<circle cx="278" cy="222" r="15" fill="#4DBBD5"/>
+<line x1="202" y1="300" x2="202" y2="336" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="202,336 196.291353657166,323.2167548356277 207.708646342834,323.2167548356277" fill="#6B6B66"/>
+<polyline points="70,420 108,392 146,384 184,404 222,424 260,396 298,388 336,414" fill="none" stroke="#3C5488" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="202" y="466" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#6B6B66" text-anchor="middle" font-weight="bold">一条平均曲线</text>
+<rect x="428" y="56" width="336" height="444" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="452" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="start" font-weight="bold">B  液滴</text>
+<rect x="470" y="122" width="252" height="16" fill="#3C5488"/>
+<path d="M 508 138 L 508 168" fill="none" stroke="#3C5488" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 8"/>
+<circle cx="508" cy="202" r="32" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="508" cy="202" r="11" fill="#F39B7F"/>
+<line x1="508" y1="238" x2="508" y2="262" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="508,262 503.51463501634476,251.95602165656462 512.4853649836552,251.95602165656462" fill="#3C5488"/>
+<path d="M 596 138 L 596 168" fill="none" stroke="#3C5488" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 8"/>
+<circle cx="596" cy="202" r="32" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="596" cy="202" r="11" fill="#00A087"/>
+<line x1="596" y1="238" x2="596" y2="262" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="596,262 591.5146350163448,251.95602165656462 600.4853649836552,251.95602165656462" fill="#3C5488"/>
+<path d="M 684 138 L 684 168" fill="none" stroke="#3C5488" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 8"/>
+<circle cx="684" cy="202" r="32" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="684" cy="202" r="11" fill="#8491B4"/>
+<line x1="684" y1="238" x2="684" y2="262" stroke="#3C5488" stroke-width="4" stroke-linecap="round"/>
+<polygon points="684,262 679.5146350163448,251.95602165656462 688.4853649836552,251.95602165656462" fill="#3C5488"/>
+<text x="470" y="288" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">比例</text>
+<rect x="470" y="300" width="96" height="34" fill="#00A087"/>
+<rect x="566" y="300" width="40" height="34" fill="#F39B7F"/>
+<rect x="606" y="300" width="24" height="34" fill="#8491B4"/>
+<rect x="470" y="300" width="160" height="34" fill="none" stroke="#00A087" stroke-width="3"/>
+<text x="648" y="288" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">表达</text>
+<rect x="648" y="300" width="22" height="22" fill="#D8EEE9"/>
+<rect x="674" y="300" width="22" height="22" fill="#4DBBD5"/>
+<rect x="700" y="300" width="22" height="22" fill="#3C8DAD"/>
+<rect x="648" y="326" width="22" height="22" fill="#3C5488"/>
+<rect x="674" y="326" width="22" height="22" fill="#D8EEE9"/>
+<rect x="700" y="326" width="22" height="22" fill="#4DBBD5"/>
+<rect x="648" y="352" width="22" height="22" fill="#3C8DAD"/>
+<rect x="674" y="352" width="22" height="22" fill="#3C5488"/>
+<rect x="700" y="352" width="22" height="22" fill="#D8EEE9"/>
+<path d="M 486 386 L 486 374 L 706 374 L 706 386" fill="none" stroke="#E64B35" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="596" y1="374" x2="596" y2="404" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<rect x="548.72" y="402.0" width="94.56" height="60" fill="#E64B35" rx="8"/>
+<text x="596.0" y="443.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">拆开</text>
+<rect x="28.0" y="520" width="744" height="128" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="570" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">组织匀浆给出平均值。</text>
+<text x="400.0" y="616" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">单细胞区分比例变化与表达调控，拆开竞争解释。</text>
+</svg>

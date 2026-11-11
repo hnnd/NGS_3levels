@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Sampling power vs expected capture</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="150" y1="120" x2="150" y2="430" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<line x1="150" y1="430" x2="710" y2="430" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<line x1="150" y1="120" x2="150" y2="430" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<line x1="142" y1="120.0" x2="150" y2="120.0" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="134" y="130.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">1.0</text>
+<line x1="142" y1="275.0" x2="150" y2="275.0" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="134" y="285.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0.5</text>
+<line x1="142" y1="430.0" x2="150" y2="430.0" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="134" y="440.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0.0</text>
+<line x1="150.0" y1="430" x2="150.0" y2="438" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="150.0" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">500</text>
+<line x1="287.5" y1="430" x2="287.5" y2="438" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="287.5" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">1000</text>
+<line x1="425.0" y1="430" x2="425.0" y2="438" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="425.0" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">1500</text>
+<line x1="562.5" y1="430" x2="562.5" y2="438" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="562.5" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">2000</text>
+<line x1="700.0" y1="430" x2="700.0" y2="438" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="700.0" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">2500</text>
+<text x="425.0" y="500" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">cells planned (n)</text>
+<text x="150" y="106" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">P(X≥10)</text>
+<line x1="150" y1="135.5" x2="700" y2="135.5" stroke="#00A087" stroke-width="4" stroke-linecap="butt" stroke-dasharray="12 8"/>
+<text x="690" y="123.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="end" font-weight="bold">0.95</text>
+<polyline points="150.0,420.3583469389675 156.875,417.2890839509928 163.75,413.61126651324145 170.625,409.29052743807335 177.5,404.3052595184415 184.375,398.64758308699004 191.25,392.3236933416714 198.125,385.35361606891485 205.0,377.77043202865445 211.875,369.61905306890367 218.75,360.95464701371634 225.625,351.84081421280723 232.5,342.34761751097153 239.375,332.54956070119687 246.25,322.52359975783565 253.125,312.3472577442458 260.0,302.09689954752395 266.875,291.84620760560983 273.75,281.6648854270811 280.625,271.61760260061226 287.5,261.7631835742149 294.375,252.15403299001062 301.25,242.83578286686776 308.125,233.84714138512155 315.0,225.21991930764145 321.875,216.9792079708036 328.75,209.1436820625688 335.625,201.72600082320548 342.5,194.73328260940758 349.375,188.16762972088432 356.25,182.0266827885745 363.125,176.30418668146527 370.0,170.99055265023975 376.875,166.07340416612067 383.75,161.53809653625444 390.625,157.3682028127381 397.5,153.54596071381349 404.375,150.05267721525763 411.25,146.86908913609642 418.125,143.97567943673772 425.0,141.352950080433 431.875,138.98165319859856 438.75,136.8429829695259 445.625,134.91873109365582 452.5,133.1914090531859 459.375,131.64434050552558 466.25,130.26172720407692 473.125,129.02869178936993 480.0,127.93130066991768 486.875,126.95657003407194 493.75,126.09245781798359 500.625,125.32784421436082 507.5,124.65250305358819 514.375,124.05706613226312 521.25,123.53298231168463 528.125,123.07247296591294 535.0,122.66848512980255 541.875,122.31464348470462 548.75,122.00520212506257 555.625,121.73499687373925 562.5,121.49939875775851 569.375,121.29426911882945 576.25,121.11591671374447 583.125,120.96105705741917 590.0,120.82677417469228 596.875,120.71048485464024 603.75,120.60990544164952 610.625,120.52302114939675 617.5,120.44805784582172 624.375,120.38345622782043 631.25,120.32784828249834 638.125,120.28003591627123 645.0,120.23897162285874 651.875,120.2037410553499 658.75,120.17354736522799 665.625,120.14769717179661 672.5,120.12558802823764 679.375,120.10669725502163 686.25,120.09057201713233 693.125,120.07682052818484 700.0,120.06510427169525" fill="none" stroke="#3C5488" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="287.5" y1="120" x2="287.5" y2="430" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<circle cx="287.5" cy="261.7631835742149" r="9" fill="#F39B7F"/>
+<rect x="185.004" y="242.0" width="96.49600000000001" height="35.19999999999999" fill="#FAFAF7"/>
+<text x="273.5" y="268" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="end" font-weight="bold">0.543</text>
+<line x1="444.25" y1="120" x2="444.25" y2="430" stroke="#00A087" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<circle cx="444.25" cy="135.2872786422003" r="9" fill="#00A087"/>
+<rect x="450.25" y="124.0" width="96.49600000000001" height="35.19999999999999" fill="#FAFAF7"/>
+<text x="458.25" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">0.951</text>
+<circle cx="562.5" cy="121.49939875775851" r="9" fill="#3C5488"/>
+<text x="576.5" y="210" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">0.995</text>
+<text x="696" y="396" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="end" font-weight="bold">EXPECTED ≠ POWER</text>
+<rect x="28.0" y="536" width="744" height="128" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="586" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">期望达标不等于把握达标。</text>
+<text x="400.0" y="632" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">二项抽样规划细胞预算，九五把握需千五。</text>
+</svg>

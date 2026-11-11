@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="30" y="110" width="340" height="250" fill="#D8EEE9" rx="16" stroke="#00A087" stroke-width="5"/>
+<text x="200" y="168" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">登录环境：交互已加载</text>
+<text x="200" y="232" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">$ ssh cluster</text>
+<text x="200" y="278" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">interactive bash</text>
+<text x="200" y="324" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">~/.bashrc  ✓</text>
+<rect x="430" y="110" width="340" height="250" fill="#FBE5DC" rx="16" stroke="#F39B7F" stroke-width="5"/>
+<text x="600" y="158" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#C96432" text-anchor="middle" font-weight="bold">SGE 作业：</text>
+<text x="600" y="198" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#C96432" text-anchor="middle" font-weight="bold">非交互干净环境</text>
+<text x="600" y="254" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">$ qsub job.sh</text>
+<text x="600" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">non-interactive shell</text>
+<text x="600" y="346" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">no ~/.bashrc  ×</text>
+<line x1="200" y1="360" x2="200" y2="402" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="200,402 192.66031184492775,385.56439907437846 207.33968815507225,385.56439907437846" fill="#6B6B66"/>
+<line x1="600" y1="360" x2="600" y2="402" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="600,402 592.6603118449277,385.56439907437846 607.3396881550723,385.56439907437846" fill="#6B6B66"/>
+<rect x="50" y="406" width="700" height="76" fill="#E64B35" rx="14"/>
+<text x="400" y="442" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">必须先 source 再 activate</text>
+<rect x="100" y="516" width="600" height="116" fill="#FFFFFF" rx="12" stroke="#33332E" stroke-width="3"/>
+<text x="130" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">source /opt/miniconda3/bin/activate</text>
+<text x="130" y="610" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">conda activate ngs_ug_assembly</text>
+</svg>

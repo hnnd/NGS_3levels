@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="200" y="62.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">硬阈值切分名单</text>
+<rect x="40" y="200" width="16" height="40" fill="#4DBBD5"/>
+<rect x="61" y="163" width="16" height="77" fill="#4DBBD5"/>
+<rect x="82" y="126" width="16" height="114" fill="#4DBBD5"/>
+<rect x="103" y="179" width="16" height="61" fill="#4DBBD5"/>
+<rect x="124" y="142" width="16" height="98" fill="#4DBBD5"/>
+<rect x="145" y="195" width="16" height="45" fill="#E9E9E5"/>
+<rect x="166" y="158" width="16" height="82" fill="#E9E9E5"/>
+<rect x="187" y="121" width="16" height="119" fill="#E9E9E5"/>
+<rect x="208" y="174" width="16" height="66" fill="#E9E9E5"/>
+<rect x="229" y="137" width="16" height="103" fill="#E9E9E5"/>
+<rect x="250" y="190" width="16" height="50" fill="#E9E9E5"/>
+<rect x="271" y="153" width="16" height="87" fill="#E9E9E5"/>
+<rect x="292" y="116" width="16" height="124" fill="#E9E9E5"/>
+<rect x="313" y="169" width="16" height="71" fill="#E9E9E5"/>
+<rect x="334" y="132" width="16" height="108" fill="#E9E9E5"/>
+<rect x="355" y="185" width="16" height="55" fill="#E9E9E5"/>
+<line x1="142" y1="130" x2="142" y2="250" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<text x="142" y="262" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle">阈值</text>
+<text x="200" y="306" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">前 5 个 → 差异名单</text>
+<rect x="45" y="340" width="310" height="110" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="5"/>
+<text x="200" y="386" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">超几何检验</text>
+<text x="200" y="428" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">过度代表分析</text>
+<text x="200" y="500" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">未达标基因被丢弃</text>
+<text x="600" y="62.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">全基因连续排序</text>
+<rect x="440" y="200" width="16" height="40" fill="#4DBBD5"/>
+<rect x="461" y="163" width="16" height="77" fill="#4DBBD5"/>
+<rect x="482" y="126" width="16" height="114" fill="#00A087"/>
+<rect x="503" y="179" width="16" height="61" fill="#00A087"/>
+<rect x="524" y="142" width="16" height="98" fill="#00A087"/>
+<rect x="545" y="195" width="16" height="45" fill="#4DBBD5"/>
+<rect x="566" y="158" width="16" height="82" fill="#4DBBD5"/>
+<rect x="587" y="121" width="16" height="119" fill="#4DBBD5"/>
+<rect x="608" y="174" width="16" height="66" fill="#4DBBD5"/>
+<rect x="629" y="137" width="16" height="103" fill="#4DBBD5"/>
+<rect x="650" y="190" width="16" height="50" fill="#4DBBD5"/>
+<rect x="671" y="153" width="16" height="87" fill="#00A087"/>
+<rect x="692" y="116" width="16" height="124" fill="#00A087"/>
+<rect x="713" y="169" width="16" height="71" fill="#4DBBD5"/>
+<rect x="734" y="132" width="16" height="108" fill="#4DBBD5"/>
+<rect x="755" y="185" width="16" height="55" fill="#4DBBD5"/>
+<text x="600" y="296" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">连续排序</text>
+<path d="M 445 470 C 445.0 470.0 459.7 463.0 467 458 C 474.3 453.0 481.7 447.2 489 440 C 496.3 432.8 503.7 421.7 511 415 C 518.3 408.3 525.7 401.2 533 400 C 540.3 398.8 547.7 404.7 555 408 C 562.3 411.3 569.7 416.0 577 420 C 584.3 424.0 591.7 428.7 599 432 C 606.3 435.3 613.7 437.7 621 440 C 628.3 442.3 635.7 444.3 643 446 C 650.3 447.7 657.7 451.0 665 450 C 672.3 449.0 679.7 444.7 687 440 C 694.3 435.3 701.7 427.0 709 422 C 716.3 417.0 723.7 410.7 731 410 C 738.3 409.3 745.7 414.7 753 418 C 760.3 421.3 775.0 430.0 775 430" fill="none" stroke="#00A087" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="440" y1="470" x2="790" y2="470" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="600" y="380" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">ES 峰值</text>
+<text x="200" y="580" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">ORA： 名单 → 超几何</text>
+<text x="600" y="580" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">GSEA： 排序 → ES 曲线</text>
+<text x="600" y="640" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">两端富集无截断</text>
+<text x="200" y="640" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">超几何过度代表</text>
+</svg>

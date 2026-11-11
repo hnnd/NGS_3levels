@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">AVR-Pita / Pi-ta：从克隆一对基因到监测它们的相遇</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">基因对基因 ｜ 端粒效应子 ｜ 单氨基酸之差 —— 依据 03_host_pathogen_lecture.md ③3.1</text>
+  <!-- 图例 -->
+  <rect x="940" y="42" width="12" height="12" fill="#F39B7F"/>
+  <text x="960" y="53" font-size="12" fill="#33332E">稻瘟菌（病原）</text>
+  <rect x="1056" y="42" width="12" height="12" fill="#3C5488"/>
+  <text x="1076" y="53" font-size="12" fill="#33332E">水稻（宿主）</text>
+  <rect x="940" y="64" width="12" height="12" fill="#00A087"/>
+  <text x="960" y="75" font-size="12" fill="#33332E">抗性响应</text>
+  <rect x="1032" y="64" width="12" height="12" fill="#E64B35"/>
+  <text x="1052" y="75" font-size="12" fill="#33332E">关键事件</text>
+
+  <!-- ============ 左面板：三篇论文 ============ -->
+  <rect x="48" y="120" width="440" height="300" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="150" font-size="16" font-weight="bold" fill="#3C5488">2000 年：三篇论文立起一对基因</text>
+  <text x="72" y="174" font-size="12" fill="#6B6B66">水稻 Pi-ta × 稻瘟菌 AVR-Pita——最经典的配对之一</text>
+  <line x1="72" y1="190" x2="464" y2="190" stroke="#E9E9E5"/>
+  <rect x="72" y="204" width="392" height="60" rx="6" fill="#FAFAF7"/>
+  <text x="88" y="228" font-size="12.5" font-weight="bold" fill="#3C5488">Orbach et al. 2000 · The Plant Cell</text>
+  <text x="88" y="250" font-size="11.5" fill="#33332E">克隆 AVR-Pita——位于端粒附近：天然不稳定区</text>
+  <rect x="72" y="274" width="392" height="60" rx="6" fill="#FAFAF7"/>
+  <text x="88" y="298" font-size="12.5" font-weight="bold" fill="#3C5488">Bryan et al. 2000 · The Plant Cell</text>
+  <text x="88" y="320" font-size="11.5" fill="#33332E">克隆 Pi-ta——抗病与感病等位只差一个氨基酸</text>
+  <rect x="72" y="344" width="392" height="60" rx="6" fill="#FAFAF7"/>
+  <text x="88" y="368" font-size="12.5" font-weight="bold" fill="#3C5488">Jia et al. 2000 · The EMBO Journal</text>
+  <text x="88" y="390" font-size="11.5" fill="#33332E">两蛋白直接结合——效应子–受体互作最早直接证据</text>
+
+  <!-- ============ 右面板：配对即抗性 ============ -->
+  <rect x="512" y="120" width="660" height="300" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="536" y="150" font-size="16" font-weight="bold" fill="#3C5488">配对即抗性（示意）</text>
+  <text x="536" y="174" font-size="12" fill="#6B6B66">无毒基因产物与抗病蛋白直接结合——抗性由"配对"触发</text>
+  <line x1="536" y1="190" x2="1148" y2="190" stroke="#E9E9E5"/>
+  <rect x="536" y="212" width="220" height="118" rx="8" fill="#F39B7F"/>
+  <text x="646" y="248" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">稻瘟菌</text>
+  <text x="646" y="274" font-size="12" fill="#33332E" text-anchor="middle">AVR-Pita 蛋白</text>
+  <text x="646" y="298" font-size="11" fill="#33332E" text-anchor="middle">（无毒基因产物）</text>
+  <line x1="764" y1="271" x2="812" y2="271" stroke="#33332E" stroke-width="2.5"/>
+  <polygon points="824,271 812,265 812,277" fill="#33332E"/>
+  <text x="794" y="256" font-size="12" font-weight="bold" fill="#33332E" text-anchor="middle">结合</text>
+  <rect x="836" y="212" width="220" height="118" rx="8" fill="#3C5488"/>
+  <text x="946" y="248" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">水稻</text>
+  <text x="946" y="274" font-size="12" fill="#FFFFFF" text-anchor="middle">Pi-ta 蛋白</text>
+  <text x="946" y="298" font-size="11" fill="#FFFFFF" text-anchor="middle">（抗病基因产物）</text>
+  <line x1="946" y1="330" x2="946" y2="366" stroke="#00A087" stroke-width="2.5"/>
+  <polygon points="946,378 940,366 952,366" fill="#00A087"/>
+  <rect x="806" y="382" width="280" height="30" rx="15" fill="#00A087"/>
+  <text x="946" y="402" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">触发抗病响应</text>
+  <text x="536" y="402" font-size="11.5" fill="#6B6B66">不结合（Avr 缺失或 R 不匹配）→ 感病</text>
+
+  <!-- ============ 底部：代价与转向 ============ -->
+  <rect x="48" y="444" width="1104" height="256" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="474" font-size="14" font-weight="bold" fill="#3C5488">端粒位置的现实代价，与组学角色的转向</text>
+  <rect x="72" y="490" width="352" height="134" rx="6" fill="#FAFAF7"/>
+  <text x="88" y="518" font-size="12.5" font-weight="bold" fill="#3C5488">端粒的代价</text>
+  <text x="88" y="544" font-size="12" fill="#33332E">田间逃避 Pi-ta 抗性的常见途径</text>
+  <text x="88" y="568" font-size="12" font-weight="bold" fill="#E64B35">＝ AVR-Pita 缺失：基因丢失，</text>
+  <text x="88" y="592" font-size="12" font-weight="bold" fill="#E64B35">不是点突变</text>
+  <rect x="448" y="490" width="352" height="134" rx="6" fill="#FAFAF7"/>
+  <text x="464" y="518" font-size="12.5" font-weight="bold" fill="#3C5488">表达矩阵里的"全程为 0"</text>
+  <text x="464" y="544" font-size="12" fill="#33332E">0 有两种原因：不表达 vs 基因不在</text>
+  <text x="464" y="568" font-size="12" fill="#33332E">必须用基因组数据区分——</text>
+  <text x="464" y="592" font-size="12" fill="#33332E">presence / absence 要在核酸层面确认</text>
+  <rect x="824" y="490" width="352" height="134" rx="6" fill="#FAFAF7"/>
+  <text x="840" y="518" font-size="12.5" font-weight="bold" fill="#3C5488">从"找基因"到"盯频率"</text>
+  <text x="840" y="544" font-size="12" fill="#33332E">单基因抗性终会被绕过：现状＝</text>
+  <text x="840" y="568" font-size="12" fill="#33332E">多基因抗性 ＋ 群体监测</text>
+  <text x="840" y="592" font-size="12" fill="#33332E">——频率是 p04 的主题</text>
+  <text x="72" y="656" font-size="12" fill="#33332E">读这三篇论文的训练价值：遗传学 → 定位 → 测序 → 转化验证 → 蛋白互作，每一步都在执行"验证"二字</text>
+  <text x="72" y="682" font-size="11.5" fill="#6B6B66">§4.3 的效应子三步法，正是这条克隆–验证链条在计算时代的重演</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="740" font-size="15" font-weight="bold" fill="#3C5488">经典互作问"这对基因配不配"；时序双 RNA 问"相遇的全基因组后果"。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

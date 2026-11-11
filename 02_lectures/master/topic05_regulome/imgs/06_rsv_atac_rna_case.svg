@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">应用案例：ATAC＋RNA 联合锁定水稻抗 RSV 的候选转录因子</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">证据递进：序列 → 足迹 → 物理互作 —— 依据 05_regulome_lecture.md ③3.1（Li M et al., 2024, Mol Plant Pathol）</text>
+
+  <!-- ============ 设计条 ============ -->
+  <rect x="48" y="116" width="1104" height="88" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="116" width="4" height="88" rx="2" fill="#3C5488"/>
+  <text x="72" y="146" font-size="14" font-weight="bold" fill="#3C5488">设计</text>
+  <text x="140" y="146" font-size="12.5" fill="#33332E">2 叶期水稻幼苗，带毒 / 无毒灰飞虱饲毒接种水稻条纹病毒（RSV），14–15 天后取样</text>
+  <text x="140" y="172" font-size="12.5" fill="#33332E">ATAC-seq：RSV vs Mock，各 1 个混合样本 ｜ RNA-seq：各 3 生物学重复——同批「可及性＋表达」双视角</text>
+
+  <!-- ============ 分析路线 ============ -->
+  <text x="48" y="238" font-size="14" font-weight="bold" fill="#3C5488">分析路线</text>
+  <rect x="48" y="252" width="196" height="64" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="146" y="279" font-size="12.5" font-weight="bold" fill="#3C5488" text-anchor="middle">质控比对</text>
+  <text x="146" y="300" font-size="11" fill="#6B6B66" text-anchor="middle">bowtie2 ＋ 清洗过滤</text>
+  <line x1="244" y1="284" x2="272" y2="284" stroke="#3C5488" stroke-width="1.5"/>
+  <polygon points="272,279 272,289 280,284" fill="#3C5488"/>
+  <rect x="282" y="252" width="196" height="64" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="380" y="279" font-size="12.5" font-weight="bold" fill="#3C5488" text-anchor="middle">MACS2 call peak</text>
+  <text x="380" y="300" font-size="11" fill="#6B6B66" text-anchor="middle">与差异可及性分析</text>
+  <line x1="478" y1="284" x2="506" y2="284" stroke="#3C5488" stroke-width="1.5"/>
+  <polygon points="506,279 506,289 514,284" fill="#3C5488"/>
+  <rect x="516" y="252" width="196" height="64" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="614" y="279" font-size="12.5" font-weight="bold" fill="#3C5488" text-anchor="middle">差异可及性区域</text>
+  <text x="614" y="300" font-size="11" fill="#6B6B66" text-anchor="middle">6 462 开 ｜ 3 587 关</text>
+  <line x1="712" y1="284" x2="740" y2="284" stroke="#3C5488" stroke-width="1.5"/>
+  <polygon points="740,279 740,289 748,284" fill="#3C5488"/>
+  <rect x="750" y="252" width="196" height="64" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="848" y="279" font-size="12.5" font-weight="bold" fill="#3C5488" text-anchor="middle">∩ 差异基因</text>
+  <text x="848" y="300" font-size="11" fill="#6B6B66" text-anchor="middle">与 RNA 差异基因（5 461）取交集</text>
+  <line x1="946" y1="284" x2="974" y2="284" stroke="#3C5488" stroke-width="1.5"/>
+  <polygon points="974,279 974,289 982,284" fill="#3C5488"/>
+  <rect x="984" y="252" width="168" height="64" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="1068" y="276" font-size="12.5" font-weight="bold" fill="#00A087" text-anchor="middle">motif 富集</text>
+  <text x="1068" y="296" font-size="10.5" fill="#6B6B66" text-anchor="middle">34 候选 TF：WRKY、ERF、</text>
+  <text x="1068" y="311" font-size="10.5" fill="#6B6B66" text-anchor="middle">MYB-related、CCCH、BBX</text>
+
+  <!-- ============ 证据阶梯 ============ -->
+  <text x="48" y="356" font-size="14" font-weight="bold" fill="#3C5488">证据递进（每上一级，多一层证据）</text>
+  <!-- 第一级 -->
+  <rect x="48" y="508" width="340" height="76" rx="8" fill="#FFFFFF" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="68" y="536" font-size="12.5" font-weight="bold" fill="#33332E">① motif 富集——序列关联</text>
+  <text x="68" y="560" font-size="11.5" fill="#6B6B66">候选 TF 的结合基序在交集基因上游</text>
+  <text x="68" y="576" font-size="11.5" fill="#6B6B66">显著富集——只是序列层面的提示</text>
+  <!-- 第二级 -->
+  <rect x="428" y="438" width="340" height="146" rx="8" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="448" y="466" font-size="12.5" font-weight="bold" fill="#3C8DAD">② TOBIAS footprinting——蛋白确在结合</text>
+  <text x="448" y="492" font-size="11.5" fill="#33332E">OsWRKY28 / OsWRKY45 在侵染样本中</text>
+  <text x="448" y="512" font-size="11.5" fill="#33332E">出现「足迹」：Tn5/切割信号在结合位点</text>
+  <text x="448" y="532" font-size="11.5" fill="#33332E">处凹陷——蛋白真的坐在 DNA 上</text>
+  <text x="448" y="560" font-size="11.5" fill="#6B6B66">motif 只说明「能结合」，足迹说明「正结合」</text>
+  <!-- 第三级 -->
+  <rect x="808" y="368" width="344" height="216" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="828" y="396" font-size="12.5" font-weight="bold" fill="#00A087">③ 物理互作与功能验证——证据最强</text>
+  <text x="828" y="422" font-size="11.5" fill="#33332E">RT-qPCR：侵染后候选 TF 表达确有诱导</text>
+  <text x="828" y="444" font-size="11.5" fill="#33332E">BiFC / LCI：OsWRKY28 等与病毒蛋白</text>
+  <text x="828" y="464" font-size="11.5" fill="#33332E">（如沉默抑制子 p3）在体内互作</text>
+  <text x="828" y="486" font-size="11.5" fill="#33332E">Co-IP：互作在蛋白层面得到独立确证</text>
+  <text x="828" y="514" font-size="11.5" fill="#6B6B66">到这一级才接近「因果」：从名单 → 结合 →</text>
+  <text x="828" y="534" font-size="11.5" fill="#6B6B66">功能，每一步都要新的实验补强</text>
+  <!-- 阶梯上升箭头 -->
+  <line x1="392" y1="500" x2="424" y2="472" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="424,472 414,474 421,482" fill="#6B6B66"/>
+  <line x1="772" y1="440" x2="804" y2="412" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="804,412 794,414 801,422" fill="#6B6B66"/>
+
+  <!-- ============ 设计弱点 ============ -->
+  <rect x="48" y="604" width="1104" height="76" rx="6" fill="#FFFFFF" stroke="#E64B35" stroke-width="1.2"/>
+  <rect x="48" y="604" width="4" height="76" rx="2" fill="#E64B35"/>
+  <text x="72" y="632" font-size="12.5" font-weight="bold" fill="#E64B35">设计弱点（读文献要能识别）：ATAC 用的是混合样本——没有生物学重复、跑不了 IDR</text>
+  <text x="72" y="656" font-size="12" fill="#33332E">RSV vs Mock 的可及性差异只能靠与 RNA 的一致性背书——这正是 4.2「重复至少 2」存在的理由，也是本讲主线坚持每条件 2 重复的原因。</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">画像给候选名单，足迹给结合证据，互作实验给功能——主线数据「可及性先于转录变化」与本案例同构。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

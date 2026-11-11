@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">流程即工程制品：目录怎么拆，改动走哪条路</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">DSL2 模块化 ｜ 配置与改法优先级 —— 依据 07_workflow_nextflow_lecture.md ④4.3 · ④4.6</text>
+  <!-- 图例 -->
+  <rect x="926" y="36" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="46" font-size="12" fill="#33332E">编排 / 接线</text>
+  <rect x="926" y="58" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="68" font-size="12" fill="#33332E">配置层</text>
+  <rect x="926" y="80" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="90" font-size="12" fill="#33332E">你的改动落点</text>
+  <rect x="926" y="102" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="112" font-size="12" fill="#33332E">禁区（改动会被覆盖）</text>
+
+  <!-- ============ 面板 A：目录树 ============ -->
+  <rect x="48" y="124" width="560" height="556" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="17" font-weight="bold" fill="#3C5488">配套流程的目录（nf-core 约定同构）</text>
+  <text x="72" y="178" font-size="12" fill="#6B6B66">main.nf 只做编排——里面不该出现任何 shell 命令</text>
+  <line x1="72" y1="192" x2="584" y2="192" stroke="#E9E9E5"/>
+
+  <line x1="78" y1="210" x2="78" y2="592" stroke="#E9E9E5" stroke-width="1.5"/>
+
+  <rect x="72" y="212" width="12" height="12" rx="3" fill="#4DBBD5"/>
+  <text x="94" y="223" font-size="12.5" font-weight="bold" fill="#33332E">main.nf</text>
+  <text x="292" y="223" font-size="10.5" fill="#6B6B66">workflow 块：include 模块并接线</text>
+
+  <rect x="72" y="264" width="12" height="12" rx="3" fill="#F39B7F"/>
+  <text x="94" y="275" font-size="12.5" font-weight="bold" fill="#33332E">nextflow.config</text>
+  <text x="292" y="275" font-size="10.5" fill="#6B6B66">引擎配置与 params 默认值</text>
+
+  <rect x="72" y="316" width="12" height="12" rx="3" fill="#F39B7F"/>
+  <text x="94" y="327" font-size="12.5" font-weight="bold" fill="#33332E">nextflow_schema.json</text>
+  <text x="292" y="327" font-size="10.5" fill="#6B6B66">全部参数的权威清单，网页表单由它生成</text>
+
+  <rect x="72" y="368" width="12" height="12" rx="3" fill="#F39B7F"/>
+  <text x="94" y="379" font-size="12.5" font-weight="bold" fill="#33332E">conf/</text>
+  <text x="292" y="379" font-size="10.5" fill="#33332E">资源重试 · slurm/sge/test · ext.args 都在这</text>
+
+  <rect x="72" y="420" width="12" height="12" rx="3" fill="#00A087"/>
+  <text x="94" y="431" font-size="12.5" font-weight="bold" fill="#33332E">modules/local/</text>
+  <text x="292" y="431" font-size="10.5" fill="#00A087">你自己的 process，一文件一个（改动落点）</text>
+
+  <rect x="72" y="472" width="12" height="12" rx="3" fill="#4DBBD5"/>
+  <text x="94" y="483" font-size="12.5" font-weight="bold" fill="#33332E">subworkflows/local/</text>
+  <text x="292" y="483" font-size="10.5" fill="#6B6B66">常一起用的几个 process 封成子工作流</text>
+
+  <rect x="72" y="524" width="12" height="12" rx="3" fill="#E64B35"/>
+  <text x="94" y="535" font-size="12.5" font-weight="bold" fill="#33332E">modules/nf-core/</text>
+  <text x="292" y="535" font-size="10.5" fill="#E64B35">不要直接编辑——会被 modules update 覆盖</text>
+
+  <rect x="72" y="576" width="12" height="12" rx="3" fill="#3C5488"/>
+  <text x="94" y="587" font-size="12.5" font-weight="bold" fill="#33332E">bin/</text>
+  <text x="292" y="587" font-size="10.5" fill="#6B6B66">脚本目录；内容参与 -resume 缓存键</text>
+
+  <rect x="72" y="614" width="496" height="52" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="72" y="614" width="4" height="52" rx="2" fill="#4DBBD5"/>
+  <text x="92" y="636" font-size="12" fill="#33332E">DSL2 的 include 有作用域：可带别名多次引入</text>
+  <text x="92" y="656" font-size="11" fill="#6B6B66">include { FASTP as FASTP_RAW }；Snakemake 只是文本拼接</text>
+
+  <!-- ============ 面板 B：两个优先级 ============ -->
+  <rect x="632" y="124" width="520" height="556" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="656" y="156" font-size="17" font-weight="bold" fill="#3C5488">改动走哪条路：两个优先级</text>
+  <text x="656" y="178" font-size="12" fill="#6B6B66">能不动模块就不动模块；配置后者覆盖前者</text>
+  <line x1="656" y1="192" x2="1128" y2="192" stroke="#E9E9E5"/>
+
+  <text x="656" y="216" font-size="13" font-weight="bold" fill="#3C5488">配置四层（优先级从高到低）</text>
+  <rect x="656" y="226" width="372" height="40" rx="6" fill="#3C5488"/>
+  <text x="842" y="251" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">命令行 --xxx（临时覆盖，最高）</text>
+  <rect x="656" y="274" width="372" height="40" rx="6" fill="#F39B7F"/>
+  <text x="842" y="299" font-size="12" font-weight="bold" fill="#33332E" text-anchor="middle">-params-file params.yaml</text>
+  <rect x="656" y="322" width="372" height="40" rx="6" fill="#F39B7F"/>
+  <text x="842" y="347" font-size="12" font-weight="bold" fill="#33332E" text-anchor="middle">nextflow.config 的 params</text>
+  <rect x="656" y="370" width="372" height="40" rx="6" fill="#FFFFFF" stroke="#6B6B66" stroke-dasharray="4 3"/>
+  <text x="842" y="395" font-size="12" fill="#33332E" text-anchor="middle">.nf 文件里的默认值（最低）</text>
+  <line x1="1046" y1="248" x2="1046" y2="396" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="1046,402 1042,394 1050,394" fill="#6B6B66"/>
+  <text x="1060" y="258" font-size="11" font-weight="bold" fill="#6B6B66">高</text>
+  <text x="1060" y="400" font-size="11" font-weight="bold" fill="#6B6B66">低</text>
+  <text x="656" y="432" font-size="11.5" fill="#6B6B66">判断标准：换数据集 / 换集群 / 换服务器可能变的值，不许出现在 .nf 里</text>
+
+  <text x="656" y="472" font-size="13" font-weight="bold" fill="#3C5488">改法优先级（从上往下依次尝试）</text>
+  <rect x="656" y="484" width="372" height="36" rx="6" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="842" y="507" font-size="12" fill="#33332E" text-anchor="middle">能用 -params-file 解决 → 不写 config</text>
+  <line x1="842" y1="520" x2="842" y2="528" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="842,532 838,525 846,525" fill="#6B6B66"/>
+  <rect x="656" y="534" width="372" height="36" rx="6" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="842" y="557" font-size="12" fill="#33332E" text-anchor="middle">能用 conf/ 加 withName 覆盖 → 不改 modules/</text>
+  <line x1="842" y1="570" x2="842" y2="578" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="842,582 838,575 846,575" fill="#6B6B66"/>
+  <rect x="656" y="584" width="372" height="36" rx="6" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="842" y="607" font-size="12" fill="#33332E" text-anchor="middle">实在要改模块 → 放 modules/local/ 并换 include</text>
+  <rect x="656" y="632" width="372" height="40" rx="8" fill="#E64B35"/>
+  <text x="842" y="657" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">禁区：不要直接编辑 modules/nf-core/</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="1104" height="58" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="48" y="696" width="4" height="58" rx="2" fill="#3C5488"/>
+  <text x="66" y="718" font-size="12.5" fill="#33332E">读法套路：nextflow_schema.json（全部参数）→ conf/modules.config（每个 process 的 ext.args，改参数不进 modules/）→ workflows/*.nf（主逻辑）→ subworkflows/ 与 modules/。</text>
+  <text x="66" y="740" font-size="12.5" fill="#33332E">profile 可叠加：-profile test,singularity,slurm；复用已测试的模块而不是自己写第 N 遍 fastp，已是社区默认（④7）。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

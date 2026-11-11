@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="60" y="66" width="420" height="90" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="336" y="124" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="end" font-weight="bold">读段 1.6×10</text>
+<text x="340" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">8</text>
+<text x="356" y="124" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="start" font-weight="bold"> bp</text>
+<rect x="40" y="200" width="380" height="76" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<text x="230" y="250" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">genomeSize = 4m</text>
+<line x1="430" y1="238" x2="470" y2="238" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="470,238 453.56439907437846,245.33968815507225 453.56439907437846,230.66031184492775" fill="#6B6B66"/>
+<rect x="485" y="200" width="175" height="76" fill="#00A087" rx="12"/>
+<text x="572" y="250" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#FFFFFF" text-anchor="middle" font-weight="bold">40×</text>
+<rect x="40" y="310" width="380" height="76" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<text x="230" y="360" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">genomeSize = 40m</text>
+<line x1="430" y1="348" x2="470" y2="348" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="470,348 453.56439907437846,355.3396881550723 453.56439907437846,340.6603118449277" fill="#6B6B66"/>
+<rect x="485" y="310" width="175" height="76" fill="#F39B7F" rx="12"/>
+<text x="572" y="360" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#FFFFFF" text-anchor="middle" font-weight="bold">4×</text>
+<rect x="40" y="420" width="380" height="76" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<text x="230" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">genomeSize = 4g</text>
+<line x1="430" y1="458" x2="470" y2="458" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="470,458 453.56439907437846,465.3396881550723 453.56439907437846,450.6603118449277" fill="#6B6B66"/>
+<rect x="485" y="420" width="175" height="76" fill="#E64B35" rx="12"/>
+<text x="572" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#FFFFFF" text-anchor="middle" font-weight="bold">0.04×</text>
+<text x="400" y="572" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">单位只有 k/m/g</text>
+<text x="400" y="632" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">改完删 -d 重跑</text>
+</svg>

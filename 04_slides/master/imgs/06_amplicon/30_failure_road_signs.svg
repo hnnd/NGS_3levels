@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="62" y1="116" x2="62" y2="586" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<circle cx="62" cy="76" r="25" fill="#FBE3D8" stroke="#F39B7F" stroke-width="4"/>
+<text x="62" y="87" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">1</text>
+<rect x="104" y="117" width="356" height="66" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="5"/>
+<text x="282" y="161" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">过滤塌查超长</text>
+<line x1="478" y1="150" x2="556" y2="150" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="556,150 541.3905769550031,156.52416724895312 541.3905769550031,143.47583275104688" fill="#00A087"/>
+<rect x="595.22375" y="122.2" width="137.5525" height="55.6" fill="#FFFFFF" rx="10" stroke="#00A087" stroke-width="3"/>
+<text x="664" y="159.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">filtered</text>
+<circle cx="62" cy="208" r="25" fill="#FBE3D8" stroke="#F39B7F" stroke-width="4"/>
+<text x="62" y="219" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">2</text>
+<rect x="104" y="249" width="356" height="66" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="5"/>
+<text x="282" y="293" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">合并塌查重叠</text>
+<line x1="478" y1="282" x2="556" y2="282" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="556,282 541.3905769550031,288.5241672489531 541.3905769550031,275.4758327510469" fill="#00A087"/>
+<rect x="591.6487500000001" y="254.2" width="144.7025" height="55.6" fill="#FFFFFF" rx="10" stroke="#00A087" stroke-width="3"/>
+<text x="664" y="291.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">merged</text>
+<circle cx="62" cy="340" r="25" fill="#FBE3D8" stroke="#F39B7F" stroke-width="4"/>
+<text x="62" y="351" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">3</text>
+<rect x="104" y="381" width="356" height="66" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="5"/>
+<text x="282" y="425" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">曲线散查批次</text>
+<line x1="478" y1="414" x2="556" y2="414" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="556,414 541.3905769550031,420.5241672489531 541.3905769550031,407.4758327510469" fill="#00A087"/>
+<rect x="581.939375" y="386.2" width="164.12125" height="55.6" fill="#FFFFFF" rx="10" stroke="#00A087" stroke-width="3"/>
+<text x="664" y="423.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">err_F.pdf</text>
+<circle cx="62" cy="472" r="25" fill="#FBE3D8" stroke="#F39B7F" stroke-width="4"/>
+<text x="62" y="483" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">4</text>
+<rect x="104" y="513" width="356" height="66" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="5"/>
+<text x="282" y="557" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">全缺失查引物</text>
+<line x1="478" y1="546" x2="556" y2="546" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="556,546 541.3905769550031,552.5241672489532 541.3905769550031,539.4758327510468" fill="#00A087"/>
+<rect x="574.7325" y="518.2" width="178.535" height="55.6" fill="#FFFFFF" rx="10" stroke="#00A087" stroke-width="3"/>
+<text x="664" y="555.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">taxonomy</text>
+</svg>

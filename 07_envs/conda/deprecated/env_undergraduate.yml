@@ -1,0 +1,51 @@
+# ============================================================================
+# ⚠ 本文件已于 2026-08-28 弃用，不再被 course_contract.yaml 引用。
+#
+# 原因：单一大环境在 bioconda 上通常解不出来（BUSCO/QUAST 与 antiSMASH 冲突、
+#       QIIME2 官方要求独立环境、GATK4 与 R 栈的 Java/依赖纠缠）。
+#       现改为按任务内容拆分，见 07_envs/conda/README.md。
+#
+# 替代文件：本科 env_ug_*.yml（已建）｜ 硕士 env_master_*.yml（第 3 轮）
+#           博士 env_phd_*.yml（第 4 轮）
+#
+# 保留本文件仅作历史参考，请勿用它建环境。
+# ============================================================================
+
+# 本科生 Conda 环境配置
+# 课程：高通量测序技术与数据分析（基础）
+# 创建命令：conda env create -f env_undergraduate.yml
+# 激活命令：conda activate ngs_undergrad
+
+name: ngs_undergrad
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  # 质控工具
+  - fastqc=0.12.1
+  - multiqc=1.14
+  
+  # 序列比对
+  - bowtie2=2.5.1
+  - bwa=0.7.17
+  
+  # BAM 处理
+  - samtools=1.17
+  - bedtools=2.31.0
+  
+  # R 语言基础
+  - r-base=4.3.1
+  - r-tidyverse=2.0.0
+  - r-ggplot2=3.4.2
+  - r-rmarkdown=2.23
+  - r-knitr=1.43
+  
+  # Jupyter 支持
+  - jupyter=1.0.0
+  - notebook=7.0.0
+  
+  # 其他工具
+  - tree=2.1.1
+  - wget=1.21.4

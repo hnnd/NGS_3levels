@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Full-factorial interaction grid with mock rows</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="74" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">接种配未接种三时点</text>
+<text x="246.0" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">12</text>
+<text x="438.0" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">24</text>
+<text x="630.0" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">48</text>
+<text x="130" y="181.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="end" font-weight="bold">G11</text>
+<rect x="153" y="121" width="186" height="98" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="210.0" cy="170.0" r="13" fill="#3C5488"/>
+<circle cx="246.0" cy="170.0" r="13" fill="#3C5488"/>
+<circle cx="282.0" cy="170.0" r="13" fill="#3C5488"/>
+<rect x="345" y="121" width="186" height="98" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="402.0" cy="170.0" r="13" fill="#3C5488"/>
+<circle cx="438.0" cy="170.0" r="13" fill="#3C5488"/>
+<circle cx="474.0" cy="170.0" r="13" fill="#3C5488"/>
+<rect x="537" y="121" width="186" height="98" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="594.0" cy="170.0" r="13" fill="#3C5488"/>
+<circle cx="630.0" cy="170.0" r="13" fill="#3C5488"/>
+<circle cx="666.0" cy="170.0" r="13" fill="#3C5488"/>
+<text x="130" y="297.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="end" font-weight="bold">Mock</text>
+<rect x="153" y="237" width="186" height="98" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="210.0" cy="286.0" r="13" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="246.0" cy="286.0" r="13" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="282.0" cy="286.0" r="13" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<rect x="345" y="237" width="186" height="98" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="402.0" cy="286.0" r="13" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="438.0" cy="286.0" r="13" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="474.0" cy="286.0" r="13" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<rect x="537" y="237" width="186" height="98" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="594.0" cy="286.0" r="13" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="630.0" cy="286.0" r="13" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="666.0" cy="286.0" r="13" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<rect x="144" y="228" width="588" height="116" fill="none" rx="10" stroke="#E64B35" stroke-width="4" stroke-dasharray="10 7"/>
+<rect x="96" y="372" width="608" height="74" fill="#E64B35" rx="12"/>
+<text x="400.0" y="420.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">剥离节律与伤害</text>
+<line x1="400" y1="366" x2="400" y2="346" stroke="#E64B35" stroke-width="5" stroke-linecap="round" stroke-dasharray="8 6"/>
+<polygon points="400,346 405.70864634283396,358.7832451643723 394.29135365716604,358.7832451643723" fill="#E64B35"/>
+<rect x="85.0" y="464.0" width="262.0" height="76" fill="#E7F5F8" rx="38.0" stroke="#4DBBD5" stroke-width="4"/>
+<text x="216.0" y="512.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">全模型含交互项</text>
+<rect x="455.0" y="464.0" width="262.0" height="76" fill="#E3E8F2" rx="38.0" stroke="#3C5488" stroke-width="4"/>
+<text x="586.0" y="512.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">简约模型扣交互</text>
+<line x1="216" y1="542" x2="348" y2="588" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="348,588 334.0501597417703,589.1840425540804 337.80731105955846,578.4026518160796" fill="#6B6B66"/>
+<line x1="586" y1="542" x2="452" y2="588" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="452,588 462.23716320939167,578.4501052663248 465.9441892942164,589.2488334264665" fill="#6B6B66"/>
+<rect x="352" y="580" width="96" height="68" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="626" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">Δχ²</text>
+</svg>

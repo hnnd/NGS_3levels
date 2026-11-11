@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Three F_ST estimators, three kernels</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="32" y="56" width="236" height="470" fill="#FBE6DF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="150" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#F39B7F" text-anchor="middle" font-weight="bold">Nei G_ST</text>
+<line x1="56" y1="140" x2="244" y2="140" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="75" y1="258" x2="225" y2="258" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<path d="M 89 258 Q 115 210 141 258" fill="none" stroke="#F39B7F" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 159 258 Q 185 210 211 258" fill="none" stroke="#F39B7F" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="150" y="356" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">频率方差比</text>
+<text x="150" y="402" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">小样偏高</text>
+<rect x="282" y="56" width="236" height="470" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">W&amp;C</text>
+<line x1="306" y1="140" x2="494" y2="140" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="325" y1="258" x2="475" y2="258" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<rect x="335" y="234" width="34" height="24" fill="none" rx="4" stroke="#3C5488" stroke-width="4"/>
+<rect x="383" y="234" width="34" height="24" fill="none" rx="4" stroke="#3C5488" stroke-width="4"/>
+<rect x="431" y="234" width="34" height="24" fill="none" rx="4" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="356" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">方差分量内核</text>
+<text x="400" y="402" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">无偏</text>
+<rect x="532" y="56" width="236" height="470" fill="#E7F5F8" rx="14" stroke="#3C8DAD" stroke-width="4"/>
+<text x="650" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="middle" font-weight="bold">Hudson</text>
+<line x1="556" y1="140" x2="744" y2="140" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="581" y1="254" x2="719" y2="254" stroke="#3C8DAD" stroke-width="5" stroke-linecap="butt"/>
+<line x1="581" y1="226" x2="671" y2="226" stroke="#3C8DAD" stroke-width="5" stroke-linecap="butt" stroke-dasharray="10 7"/>
+<circle cx="581" cy="254" r="7" fill="#3C8DAD"/>
+<circle cx="671" cy="226" r="7" fill="#3C8DAD"/>
+<text x="650" y="356" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">比值对不均</text>
+<text x="650" y="402" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">稳健</text>
+<rect x="120" y="576" width="560" height="78" fill="#3C5488" rx="12"/>
+<text x="400.0" y="626.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">先核对内核</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="30" y="60" width="230" height="420" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="145" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">A</text>
+<line x1="70" y1="440" x2="230" y2="440" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="70" y1="440" x2="70" y2="130" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="230" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">PC1</text>
+<text x="56" y="140" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">PC2</text>
+<circle cx="120" cy="210" r="13" fill="#00A087"/>
+<circle cx="140" cy="250" r="13" fill="#00A087"/>
+<circle cx="130" cy="290" r="13" fill="#00A087"/>
+<circle cx="180" cy="230" r="13" fill="#00A087"/>
+<circle cx="120" cy="340" r="13" fill="#3C8DAD"/>
+<circle cx="145" cy="370" r="13" fill="#3C8DAD"/>
+<circle cx="130" cy="400" r="13" fill="#3C8DAD"/>
+<circle cx="175" cy="355" r="13" fill="#3C8DAD"/>
+<text x="145" y="530" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">处理主导正常分离</text>
+<rect x="285" y="60" width="230" height="420" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="400" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">B</text>
+<line x1="325" y1="440" x2="485" y2="440" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="325" y1="440" x2="325" y2="130" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="485" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">PC1</text>
+<text x="311" y="140" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">PC2</text>
+<circle cx="365" cy="220" r="13" fill="#8491B4"/>
+<circle cx="385" cy="260" r="13" fill="#8491B4"/>
+<circle cx="370" cy="300" r="13" fill="#8491B4"/>
+<circle cx="365" cy="350" r="13" fill="#F39B7F"/>
+<circle cx="390" cy="390" r="13" fill="#F39B7F"/>
+<circle cx="375" cy="420" r="13" fill="#F39B7F"/>
+<circle cx="415" cy="240" r="13" fill="#E9E9E5"/>
+<circle cx="425" cy="330" r="13" fill="#E9E9E5"/>
+<text x="400" y="530" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">批次效应主导混淆</text>
+<rect x="540" y="60" width="230" height="420" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="655" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">C</text>
+<line x1="580" y1="440" x2="740" y2="440" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="580" y1="440" x2="580" y2="130" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="740" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">PC1</text>
+<text x="566" y="140" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">PC2</text>
+<circle cx="620" cy="230" r="13" fill="#00A087"/>
+<circle cx="640" cy="270" r="13" fill="#00A087"/>
+<circle cx="630" cy="310" r="13" fill="#00A087"/>
+<circle cx="620" cy="370" r="13" fill="#3C8DAD"/>
+<circle cx="640" cy="410" r="13" fill="#3C8DAD"/>
+<circle cx="705" cy="180" r="19" fill="#FAFAF7"/>
+<circle cx="705" cy="180" r="12" fill="#E64B35"/>
+<text x="655" y="530" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">单个样本离群孤立</text>
+<text x="400" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">N（处理） vs K（对照） · 批次 A/B</text>
+<text x="400" y="668" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">先看 PCA： 批次还是处理主导？</text>
+</svg>

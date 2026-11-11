@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="36" y="22" width="604" height="124" fill="#D6EFF4" rx="14" stroke="#3C8DAD" stroke-width="4"/>
+<text x="60" y="60" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">config.yaml</text>
+<text x="60" y="98" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">qualified_quality_phred: 25</text>
+<text x="60" y="134" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">改动配置阈值</text>
+<rect x="36" y="166" width="604" height="124" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="60" y="204" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">snakemake -n</text>
+<text x="60" y="242" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">reason: Params changed</text>
+<text x="60" y="278" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">参数变化触发重跑</text>
+<rect x="36" y="310" width="604" height="124" fill="#FFFFFF" rx="14" stroke="#6B6B66" stroke-width="4"/>
+<text x="60" y="348" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">quarto render report.qmd</text>
+<text x="60" y="386" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">counts_matrix.tsv injected</text>
+<rect x="36" y="454" width="604" height="124" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="60" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">report.html</text>
+<text x="60" y="530" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">numbers recomputed from matrix</text>
+<text x="60" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">报告数字自动更新</text>
+<line x1="96" y1="148" x2="96" y2="163" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="96,163 91.10687456328516,152.0429327162523 100.89312543671484,152.0429327162523" fill="#4DBBD5"/>
+<line x1="96" y1="292" x2="96" y2="307" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="96,307 91.10687456328516,296.0429327162523 100.89312543671484,296.0429327162523" fill="#4DBBD5"/>
+<line x1="96" y1="436" x2="96" y2="451" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="96,451 91.10687456328516,440.0429327162523 100.89312543671484,440.0429327162523" fill="#4DBBD5"/>
+<polyline points="640,516.0 700,516.0 700,84.0 648,84.0" fill="none" stroke="#3C5488" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 8"/>
+<line x1="662" y1="84.0" x2="640" y2="84.0" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="640,84.0 652.7832451643723,78.29135365716601 652.7832451643724,89.70864634283399" fill="#3C5488"/>
+<rect x="283.65999999999997" y="592.08" width="232.68" height="59.84" fill="#F6D8D2" rx="10" stroke="#E64B35" stroke-width="3"/>
+<text x="400" y="632.24" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">手改视为未通</text>
+</svg>

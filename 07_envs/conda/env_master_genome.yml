@@ -1,0 +1,38 @@
+# 硕士生 · 环境 2/6：基因组组装与比较/泛基因组
+# 覆盖专题：m02
+# 创建：conda env create -f env_master_genome.yml  激活：conda activate ngs_ms_genome
+#
+# 【为什么单独】BUSCO/QUAST 的 augustus、sepp 依赖链与注释类、微生物组类工具冲突。
+
+name: ngs_ms_genome
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # 【生态性断裂】setuptools 82.0.0（2026-02-08）移除了 pkg_resources（81.x 仍含），而 bioconda 上
+  # 2023-2024 年的 Python 工具（multiqc 1.14、macs2、部分 deeptools 子命令等）仍 import 它，
+  # 表现为 `ModuleNotFoundError: No module named 'pkg_resources'`。全课程统一钉 <81（比必要的 <82 多保守一档，已实测可用）。
+  - setuptools<81
+  # ---- 基因组扫描与组装 ----
+  # 若 solve 失败，jellyfish 试改 kmer-jellyfish
+  - jellyfish
+  - canu
+  - flye=2.9.2
+
+  # ---- 组装评估 ----
+  - quast=5.2.0
+  - busco=5.4.7
+
+  # ---- 比较基因组 / 泛基因组 ----
+  - orthofinder=2.5.5
+  - mafft=7.520
+  - iqtree=2.2.2
+  # CAFE5（基因家族扩张收缩）：bioconda 包名即 cafe，5.1.0 就是 CAFE5
+  - cafe=5.1.0
+
+  - r-base=4.3.1
+  # 02_orthofinder_cafe.sh 的 CAFE5 前置超度量自检用 ape::is.ultrametric
+  - r-ape
+  - r-ggplot2=3.4.2

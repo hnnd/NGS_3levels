@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">Chao1</text>
+<rect x="48" y="88" width="704" height="96" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="392" y="148" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="end" font-weight="bold">S = S_obs +</text>
+<text x="400" y="148" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="start" font-weight="bold">n1(n1-1)/(2(n2+1))</text>
+<rect x="48" y="212" width="336" height="288" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="78" y="258" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">OTU</text>
+<text x="354" y="258" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="end" font-weight="bold">n1 &gt; 0</text>
+<rect x="96" y="324" width="44" height="104" fill="#F39B7F" rx="6"/>
+<rect x="170" y="354" width="44" height="74" fill="#F39B7F" rx="6"/>
+<rect x="244" y="372" width="44" height="56" fill="#F39B7F" rx="6"/>
+<rect x="318" y="386" width="44" height="42" fill="#F39B7F" rx="6"/>
+<text x="118.0" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">1</text>
+<text x="192.0" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">2</text>
+<text x="266.0" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">3</text>
+<text x="340.0" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">4</text>
+<line x1="74" y1="428" x2="358" y2="428" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<rect x="416" y="212" width="336" height="288" fill="#FFFFFF" rx="14" stroke="#E64B35" stroke-width="4"/>
+<text x="446" y="258" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">ASV</text>
+<text x="722" y="258" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="end" font-weight="bold">n1 → 0</text>
+<rect x="464" y="420" width="44" height="8" fill="#8491B4" rx="6"/>
+<rect x="538" y="366" width="44" height="62" fill="#8491B4" rx="6"/>
+<rect x="612" y="374" width="44" height="54" fill="#8491B4" rx="6"/>
+<rect x="686" y="382" width="44" height="46" fill="#8491B4" rx="6"/>
+<text x="486.0" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">1</text>
+<text x="560.0" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">2</text>
+<text x="634.0" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">3</text>
+<text x="708.0" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">4</text>
+<line x1="442" y1="428" x2="726" y2="428" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="216" y="556" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">单例项决定外推</text>
+<text x="584" y="556" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">去噪压低单例</text>
+<line x1="400" y1="584" x2="400" y2="606" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="400,606 394.6991141102256,594.12984377594 405.3008858897744,594.12984377594" fill="#3C5488"/>
+<text x="400" y="646" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">退化为观察种类</text>
+</svg>

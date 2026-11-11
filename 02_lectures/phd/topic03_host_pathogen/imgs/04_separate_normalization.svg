@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">分开归一化：一个分母混进了两个物种</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">TPM 分母 ｜ median-of-ratios 失效 ｜ spike-in 补救 —— 依据 03_host_pathogen_lecture.md ④4.4 / ⑥6.2</text>
+  <!-- 图例 -->
+  <rect x="940" y="42" width="12" height="12" fill="#3C5488"/>
+  <text x="960" y="53" font-size="12" fill="#33332E">宿主份额</text>
+  <rect x="1032" y="42" width="12" height="12" fill="#F39B7F"/>
+  <text x="1052" y="53" font-size="12" fill="#33332E">病原份额</text>
+  <rect x="940" y="64" width="12" height="12" fill="#E64B35"/>
+  <text x="960" y="75" font-size="12" fill="#33332E">技术假趋势 / 异常</text>
+
+  <!-- ============ 左面板：合并矩阵 ============ -->
+  <rect x="48" y="120" width="556" height="380" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="16" font-weight="bold" fill="#3C5488">合并矩阵：错在分母</text>
+  <text x="72" y="176" font-size="12" fill="#6B6B66">TPM 的分母＝本样本全部转录本——现在混进了另一个物种</text>
+  <line x1="72" y1="192" x2="580" y2="192" stroke="#E9E9E5"/>
+  <!-- 堆叠条：12 hpi -->
+  <rect x="110" y="240" width="90" height="146" rx="4" fill="#3C5488"/>
+  <rect x="110" y="386" width="90" height="4" rx="2" fill="#F39B7F"/>
+  <text x="208" y="392" font-size="11" fill="#33332E">病原 0.5%</text>
+  <text x="155" y="412" font-size="11.5" fill="#6B6B66" text-anchor="middle">12 hpi</text>
+  <!-- 24 hpi -->
+  <rect x="260" y="240" width="90" height="135" rx="4" fill="#3C5488"/>
+  <rect x="260" y="375" width="90" height="15" rx="3" fill="#F39B7F"/>
+  <text x="358" y="387" font-size="11" fill="#33332E">10%</text>
+  <text x="305" y="412" font-size="11.5" fill="#6B6B66" text-anchor="middle">24 hpi</text>
+  <!-- 48 hpi -->
+  <rect x="410" y="240" width="90" height="105" rx="4" fill="#3C5488"/>
+  <rect x="410" y="345" width="90" height="45" rx="4" fill="#F39B7F"/>
+  <text x="455" y="373" font-size="11" fill="#33332E" text-anchor="middle">30%</text>
+  <text x="455" y="412" font-size="11.5" fill="#6B6B66" text-anchor="middle">48 hpi</text>
+  <text x="305" y="440" font-size="12" fill="#6B6B66" text-anchor="middle">混合比例随侵染进程跨两个数量级变化（示意）</text>
+  <text x="72" y="470" font-size="13" font-weight="bold" fill="#E64B35">两条假趋势：宿主 TPM 普遍降、病原 TPM 普遍升</text>
+  <text x="72" y="492" font-size="11.5" fill="#6B6B66">与任何生物学过程无关，却会漂亮地通过显著性检验</text>
+
+  <!-- ============ 右面板：正确做法 ============ -->
+  <rect x="628" y="120" width="544" height="380" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="652" y="152" font-size="16" font-weight="bold" fill="#3C5488">正确做法：两个独立的 dds</text>
+  <text x="652" y="176" font-size="12" fill="#6B6B66">各自 estimateSizeFactors、各自建模、各自报告</text>
+  <line x1="652" y1="192" x2="1148" y2="192" stroke="#E9E9E5"/>
+  <rect x="652" y="208" width="496" height="62" rx="6" fill="#FAFAF7"/>
+  <text x="668" y="234" font-size="13" font-weight="bold" fill="#3C5488">dds_h　宿主侧：默认法可用</text>
+  <text x="668" y="258" font-size="12" fill="#33332E">多数基因在样本间不变——median-of-ratios 的前提成立</text>
+  <rect x="652" y="282" width="496" height="106" rx="6" fill="#FAFAF7"/>
+  <rect x="668" y="296" width="12" height="12" fill="#F39B7F"/>
+  <text x="688" y="307" font-size="13" font-weight="bold" fill="#33332E">dds_p　病原侧：type = "poscounts"</text>
+  <text x="668" y="334" font-size="12" fill="#33332E">早期时间点大量基因＝0，几何平均算不出（⑨-E3）</text>
+  <text x="668" y="358" font-size="11.5" fill="#6B6B66">这不是 bug：是数据在说早期病原信息量不足</text>
+  <text x="668" y="380" font-size="12" fill="#33332E">或把模型限制在占比达标的时间点，并写明判据</text>
+  <rect x="652" y="400" width="496" height="86" rx="6" fill="#FAFAF7"/>
+  <text x="668" y="426" font-size="13" font-weight="bold" fill="#3C5488">再深一层：病原侧内部也可能违反"多数基因不变"</text>
+  <text x="668" y="450" font-size="12" fill="#33332E">侵染是全局性转录重编程：腐生代谢 → 侵染程序</text>
+  <text x="668" y="474" font-size="12" fill="#33332E">补救：spike-in（controlGenes）｜ RUVSeq ｜ 结论降级</text>
+
+  <!-- ============ 底部左：诊断图 ============ -->
+  <rect x="48" y="524" width="576" height="180" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="552" font-size="14" font-weight="bold" fill="#3C5488">喂模型前先看诊断图（§6.2）：sizeFactors 对 colSums/mean</text>
+  <!-- chart A 正常 -->
+  <line x1="100" y1="574" x2="100" y2="650" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="100" y1="650" x2="320" y2="650" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="100" y1="650" x2="320" y2="580" stroke="#6B6B66" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="140" cy="618" r="4" fill="#00A087"/>
+  <circle cx="180" cy="602" r="4" fill="#00A087"/>
+  <circle cx="220" cy="588" r="4" fill="#00A087"/>
+  <circle cx="260" cy="628" r="4" fill="#00A087"/>
+  <circle cx="292" cy="596" r="4" fill="#00A087"/>
+  <text x="210" y="682" font-size="11.5" font-weight="bold" fill="#00A087" text-anchor="middle">正常：点落在过原点的直线附近</text>
+  <!-- chart B 漂移 -->
+  <line x1="400" y1="574" x2="400" y2="650" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="400" y1="650" x2="600" y2="650" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="400" y1="650" x2="600" y2="580" stroke="#6B6B66" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="440" cy="640" r="4" fill="#3C5488"/>
+  <circle cx="470" cy="636" r="4" fill="#3C5488"/>
+  <circle cx="500" cy="626" r="4" fill="#3C5488"/>
+  <circle cx="530" cy="612" r="4" fill="#3C5488"/>
+  <circle cx="560" cy="596" r="4" fill="#3C5488"/>
+  <path d="M 436 644 Q 500 668 564 600" fill="none" stroke="#E64B35" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <polygon points="568,596 556,598 562,606" fill="#E64B35"/>
+  <text x="500" y="682" font-size="11.5" font-weight="bold" fill="#E64B35" text-anchor="middle">不对：点按时间单调漂移</text>
+
+  <!-- ============ 底部右：解读 ============ -->
+  <rect x="648" y="524" width="524" height="180" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="672" y="552" font-size="14" font-weight="bold" fill="#3C5488">漂移意味着什么</text>
+  <text x="672" y="580" font-size="12.5" fill="#33332E">漂移＝size factor 在吸收全局趋势，不是校正深度</text>
+  <text x="672" y="606" font-size="12.5" fill="#33332E">合并矩阵上 median-of-ratios 同样失效：</text>
+  <text x="672" y="630" font-size="12.5" fill="#33332E">晚期混入大量高表达病原基因 → 中位比值整体偏移</text>
+  <text x="672" y="654" font-size="12.5" fill="#33332E">→ size factor 把稀释吸收掉 → 报出"宿主整体下调"</text>
+  <text x="672" y="684" font-size="12.5" font-weight="bold" fill="#3C5488">这张图不看，后面所有 p 值都不值得信。</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="740" font-size="15" font-weight="bold" fill="#3C5488">两侧结果可以画在同一张图上，但不能进同一个矩阵——错误发生在检验之前，任何检验都拦不住。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

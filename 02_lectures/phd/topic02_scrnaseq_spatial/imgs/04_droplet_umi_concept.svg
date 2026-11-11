@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">液滴法怎么把每个分子记到细胞上：细胞条形码 + UMI</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">油包水液滴 ｜ 条形码归细胞 ｜ UMI 数分子 —— 依据 02_scrnaseq_spatial_lecture.md ④4.1–4.2</text>
+  <!-- 图例 -->
+  <text x="836" y="58" font-size="12" fill="#33332E">组件：</text>
+  <circle cx="886" cy="54" r="7" fill="#00A087"/>
+  <text x="898" y="58" font-size="12" fill="#33332E">细胞</text>
+  <circle cx="944" cy="54" r="7" fill="#8491B4"/>
+  <text x="956" y="58" font-size="12" fill="#33332E">凝胶微珠</text>
+  <rect x="1022" y="47" width="12" height="12" fill="#3C5488"/>
+  <text x="1040" y="58" font-size="12" fill="#33332E">细胞条形码</text>
+  <rect x="1116" y="47" width="12" height="12" fill="#F39B7F"/>
+  <text x="1134" y="58" font-size="12" fill="#33332E">UMI</text>
+
+  <!-- ============ 左面板：液滴 ============ -->
+  <rect x="48" y="120" width="480" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="16" font-weight="bold" fill="#3C5488">一个液滴 = 一个细胞 + 一个凝胶微珠</text>
+  <text x="72" y="174" font-size="12" fill="#6B6B66">裂解与反转录都在液滴内完成（§4.2）</text>
+  <line x1="72" y1="188" x2="504" y2="188" stroke="#E9E9E5"/>
+
+  <!-- 油包水液滴 -->
+  <circle cx="288" cy="392" r="168" fill="#FAFAF7" stroke="#4DBBD5" stroke-width="2.5"/>
+  <text x="288" y="248" font-size="12" fill="#3C8DAD" text-anchor="middle">油包水液滴</text>
+
+  <!-- 细胞 -->
+  <ellipse cx="204" cy="400" rx="56" ry="70" fill="#00A087"/>
+  <circle cx="204" cy="392" r="18" fill="#FFFFFF"/>
+  <text x="204" y="500" font-size="12.5" fill="#33332E" text-anchor="middle">细胞</text>
+
+  <!-- mRNA -->
+  <path d="M 256 356 Q 288 344 316 368" fill="none" stroke="#4DBBD5" stroke-width="2.5"/>
+  <path d="M 262 402 L 320 402" fill="none" stroke="#4DBBD5" stroke-width="2.5"/>
+  <path d="M 256 446 Q 290 458 316 434" fill="none" stroke="#4DBBD5" stroke-width="2.5"/>
+  <text x="282" y="330" font-size="11" fill="#3C8DAD" text-anchor="middle">mRNA（polyA 尾）</text>
+
+  <!-- 凝胶微珠与寡核苷酸短链 -->
+  <circle cx="392" cy="398" r="46" fill="#8491B4"/>
+  <text x="392" y="403" font-size="12" fill="#FFFFFF" text-anchor="middle">凝胶微珠</text>
+  <line x1="372" y1="356" x2="368" y2="340" stroke="#3C5488" stroke-width="3"/>
+  <line x1="392" y1="352" x2="392" y2="336" stroke="#3C5488" stroke-width="3"/>
+  <line x1="412" y1="356" x2="416" y2="340" stroke="#3C5488" stroke-width="3"/>
+  <text x="446" y="330" font-size="11" fill="#3C5488">带条形码的</text>
+  <text x="446" y="346" font-size="11" fill="#3C5488">寡核苷酸链</text>
+
+  <!-- 放大的链结构 -->
+  <text x="72" y="590" font-size="12.5" font-weight="bold" fill="#33332E">放大一条链：</text>
+  <rect x="72" y="600" width="150" height="26" rx="4" fill="#3C5488"/>
+  <text x="147" y="618" font-size="11" fill="#FFFFFF" text-anchor="middle">细胞条形码 16 bp</text>
+  <rect x="222" y="600" width="120" height="26" rx="4" fill="#F39B7F"/>
+  <text x="282" y="618" font-size="11" fill="#33332E" text-anchor="middle">UMI 10–12 bp</text>
+  <rect x="342" y="600" width="110" height="26" rx="4" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <text x="397" y="618" font-size="11" fill="#6B6B66" text-anchor="middle">poly(dT)</text>
+  <text x="72" y="652" font-size="11.5" fill="#6B6B66">同珠同码 · 一分子一码 · poly-dT 捕获 mRNA 的 3' 端</text>
+
+  <!-- ============ 右面板：三条规则 + 矩阵 ============ -->
+  <rect x="552" y="120" width="600" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="576" y="152" font-size="16" font-weight="bold" fill="#3C5488">从液滴到计数矩阵：三条规则</text>
+  <line x1="576" y1="166" x2="1128" y2="166" stroke="#E9E9E5"/>
+
+  <!-- 规则 1 -->
+  <circle cx="588" cy="196" r="12" fill="#3C5488"/>
+  <text x="588" y="201" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="610" y="192" font-size="12.5" fill="#33332E">同一液滴 = 同一细胞：这个细胞的所有 cDNA</text>
+  <text x="610" y="212" font-size="12.5" fill="#33332E">带<tspan font-weight="bold" fill="#3C5488">同一个细胞条形码</tspan> → 矩阵的「列」</text>
+
+  <!-- 规则 2 -->
+  <circle cx="588" cy="256" r="12" fill="#3C5488"/>
+  <text x="588" y="261" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="610" y="252" font-size="12.5" fill="#33332E">建库要经 PCR，扩增倍数在分子之间差异巨大：</text>
+  <text x="610" y="272" font-size="12.5" fill="#33332E"><tspan font-weight="bold" fill="#3C5488">数 UMI（=数分子）而不是数 read</tspan>，扩增偏倚被剥离</text>
+
+  <!-- 规则 3 -->
+  <circle cx="588" cy="316" r="12" fill="#3C5488"/>
+  <text x="588" y="321" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="610" y="312" font-size="12.5" fill="#33332E">3' 端计数：一条转录本只贡献一个 UMI</text>
+  <text x="610" y="332" font-size="12.5" fill="#33332E">→ 可以不做长度归一化（§4.1）</text>
+
+  <!-- 计数矩阵示意 -->
+  <text x="576" y="380" font-size="13" font-weight="bold" fill="#33332E">UMI 计数矩阵（示意）</text>
+  <!-- 列头 -->
+  <text x="628" y="404" font-size="11" fill="#6B6B66" text-anchor="middle">细胞 1</text>
+  <text x="676" y="404" font-size="11" fill="#6B6B66" text-anchor="middle">细胞 2</text>
+  <text x="724" y="404" font-size="11" fill="#6B6B66" text-anchor="middle">细胞 3</text>
+  <text x="772" y="404" font-size="11" fill="#6B6B66" text-anchor="middle">细胞 4</text>
+  <!-- 行 A -->
+  <text x="562" y="429" font-size="11" fill="#6B6B66" text-anchor="end">基因 A</text>
+  <rect x="606" y="414" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="628" y="430" font-size="12" fill="#6B6B66" text-anchor="middle">0</text>
+  <rect x="654" y="414" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="676" y="430" font-size="12" fill="#6B6B66" text-anchor="middle">0</text>
+  <rect x="702" y="414" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="724" y="430" font-size="12" font-weight="bold" fill="#3C8DAD" text-anchor="middle">2</text>
+  <rect x="750" y="414" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="772" y="430" font-size="12" fill="#6B6B66" text-anchor="middle">0</text>
+  <!-- 行 B -->
+  <text x="562" y="455" font-size="11" fill="#6B6B66" text-anchor="end">基因 B</text>
+  <rect x="606" y="440" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="628" y="456" font-size="12" font-weight="bold" fill="#3C8DAD" text-anchor="middle">1</text>
+  <rect x="654" y="440" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="676" y="456" font-size="12" fill="#6B6B66" text-anchor="middle">0</text>
+  <rect x="702" y="440" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="724" y="456" font-size="12" fill="#6B6B66" text-anchor="middle">0</text>
+  <rect x="750" y="440" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="772" y="456" font-size="12" fill="#6B6B66" text-anchor="middle">0</text>
+  <!-- 行 C -->
+  <text x="562" y="481" font-size="11" fill="#6B6B66" text-anchor="end">基因 C</text>
+  <rect x="606" y="466" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="628" y="482" font-size="12" fill="#6B6B66" text-anchor="middle">0</text>
+  <rect x="654" y="466" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="676" y="482" font-size="12" font-weight="bold" fill="#3C8DAD" text-anchor="middle">3</text>
+  <rect x="702" y="466" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="724" y="482" font-size="12" fill="#6B6B66" text-anchor="middle">0</text>
+  <rect x="750" y="466" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="772" y="482" font-size="12" fill="#6B6B66" text-anchor="middle">0</text>
+  <!-- 行 D -->
+  <text x="562" y="507" font-size="11" fill="#6B6B66" text-anchor="end">基因 D</text>
+  <rect x="606" y="492" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="628" y="508" font-size="12" fill="#6B6B66" text-anchor="middle">0</text>
+  <rect x="654" y="492" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="676" y="508" font-size="12" fill="#6B6B66" text-anchor="middle">0</text>
+  <rect x="702" y="492" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="724" y="508" font-size="12" fill="#6B6B66" text-anchor="middle">0</text>
+  <rect x="750" y="492" width="44" height="22" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="772" y="508" font-size="12" font-weight="bold" fill="#3C8DAD" text-anchor="middle">1</text>
+  <text x="576" y="540" font-size="12" fill="#33332E">矩阵 <tspan font-weight="bold">90% 以上是 0</tspan>（稀疏性，§4.1）</text>
+
+  <!-- 红区：零的二义性 -->
+  <rect x="816" y="392" width="312" height="168" rx="8" fill="#FAFAF7" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="834" y="418" font-size="13" font-weight="bold" fill="#E64B35">0 的二义性——「未检出」≠「不表达」</text>
+  <text x="834" y="444" font-size="12" fill="#33332E">同一个 0，可能是：</text>
+  <text x="834" y="468" font-size="12" fill="#33332E">· 这个细胞真的不表达（生物学零）</text>
+  <text x="834" y="490" font-size="12" fill="#33332E">· 表达了但没被捕获（技术零，dropout）</text>
+  <text x="834" y="516" font-size="12" fill="#33332E">两者在数据里<tspan font-weight="bold">无法区分</tspan>，只能靠模型</text>
+  <text x="834" y="538" font-size="12" fill="#33332E">假设去分摊（§4.1）</text>
+
+  <!-- 范式出处 -->
+  <text x="576" y="612" font-size="12" fill="#6B6B66">Drop-seq（Macosko 2015）确立液滴范式 → 10X Chromium（Zheng 2017）</text>
+  <text x="576" y="634" font-size="12" fill="#6B6B66">把它工程化并大幅提高细胞捕获率（§4.2；文献见 ⑪）</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="724" font-size="12.5" fill="#33332E">CellRanger 输出三件套：barcodes.tsv.gz（矩阵的列）· features.tsv.gz（行）· matrix.mtx.gz（稀疏矩阵本体）——Seurat::Read10X() 直读（§4.2）</text>
+  <text x="48" y="750" font-size="15" font-weight="bold" fill="#3C5488">单细胞数据记录的从来不是「基因表达了多少」，而是「这个细胞里捕获到几个分子的 UMI」。</text>
+  <text x="1152" y="776" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

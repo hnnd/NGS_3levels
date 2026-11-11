@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">不做多重校正，你筛出的「差异基因」大多是假的</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">p 值均匀分布 ｜ Bonferroni 与 BH-FDR 的取舍 —— 依据 l0_06 §3、演示 3、演示 4</text>
+  <rect x="48" y="120" width="560" height="580" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="17" font-weight="bold" fill="#3C5488">演示 3：两组完全同分布，2 万个基因跑 t 检验</text>
+  <line x1="72" y1="166" x2="584" y2="166" stroke="#E9E9E5"/>
+  <line x1="110" y1="230" x2="110" y2="560" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="110" y1="560" x2="580" y2="560" stroke="#6B6B66" stroke-width="1.5"/>
+  <rect x="110.0" y="230" width="22.5" height="330" fill="#F5C9BE"/>
+  <rect x="133.5" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="157.0" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="180.5" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="204.0" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="227.5" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="251.0" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="274.5" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="298.0" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="321.5" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="345.0" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="368.5" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="392.0" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="415.5" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="439.0" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="462.5" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="486.0" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="509.5" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="533.0" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <rect x="556.5" y="230" width="22.5" height="330" fill="#C9D6EA"/>
+  <line x1="133.5" y1="222" x2="133.5" y2="568" stroke="#E64B35" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="142" y="242" font-size="11.5" font-weight="bold" fill="#E64B35">p = 0.05</text>
+  <text x="110" y="212" font-size="11.5" font-weight="bold" fill="#E64B35">985 个 p &lt; 0.05，全部是假的（真差异 = 0）</text>
+  <text x="110" y="580" font-size="10.5" fill="#6B6B66" text-anchor="middle">0</text>
+  <text x="227.5" y="580" font-size="10.5" fill="#6B6B66" text-anchor="middle">0.25</text>
+  <text x="345" y="580" font-size="10.5" fill="#6B6B66" text-anchor="middle">0.5</text>
+  <text x="462.5" y="580" font-size="10.5" fill="#6B6B66" text-anchor="middle">0.75</text>
+  <text x="580" y="580" font-size="10.5" fill="#6B6B66" text-anchor="middle">1</text>
+  <text x="345" y="602" font-size="11" fill="#6B6B66" text-anchor="middle">原始 p 值（每个 bin 约 1000 个基因）</text>
+  <text x="110" y="630" font-size="11.5" fill="#33332E">原假设为真时，p 值服从<tspan font-weight="bold">均匀分布</tspan>——[0, 0.05] 这一段自然装着 5% 的基因。</text>
+  <text x="110" y="650" font-size="11.5" fill="#33332E">最「显著」的那个（p = 8.5e-06）也是纯噪声。BH 与 Bonferroni 都正确地报了 0 个。</text>
+  <text x="110" y="676" font-size="11.5" fill="#6B6B66">只按原始 p 值筛差异表达，前 1000 个里可能一个真的都没有。</text>
+  <rect x="632" y="120" width="520" height="280" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="656" y="152" font-size="17" font-weight="bold" fill="#3C5488">两种校正，控制的东西不一样</text>
+  <line x1="656" y1="166" x2="1128" y2="166" stroke="#E9E9E5"/>
+  <text x="656" y="192" font-size="12" font-weight="bold" fill="#6B6B66">方法</text>
+  <text x="762" y="192" font-size="12" font-weight="bold" fill="#6B6B66">控制什么</text>
+  <text x="902" y="192" font-size="12" font-weight="bold" fill="#6B6B66">做法</text>
+  <text x="1002" y="192" font-size="12" font-weight="bold" fill="#6B6B66">用在哪</text>
+  <line x1="656" y1="202" x2="1128" y2="202" stroke="#E9E9E5"/>
+  <text x="656" y="226" font-size="12.5" font-weight="bold" fill="#33332E">Bonferroni</text>
+  <text x="762" y="222" font-size="11.5" fill="#33332E">FWER：至少犯 1 次</text>
+  <text x="762" y="240" font-size="11.5" fill="#33332E">假阳性的概率 &#8804; 5%</text>
+  <text x="902" y="222" font-size="11.5" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">p &lt; 0.05/m</text>
+  <text x="902" y="240" font-size="11.5" fill="#6B6B66">（m = 检验数）</text>
+  <text x="1002" y="222" font-size="11.5" fill="#33332E">假阳性代价极高：</text>
+  <text x="1002" y="240" font-size="11.5" fill="#33332E">GWAS（5e-8 即 100</text>
+  <text x="1002" y="258" font-size="11.5" fill="#33332E">万次的 Bonferroni）、临床</text>
+  <line x1="656" y1="272" x2="1128" y2="272" stroke="#E9E9E5"/>
+  <text x="656" y="296" font-size="12.5" font-weight="bold" fill="#33332E">BH-FDR</text>
+  <text x="762" y="292" font-size="11.5" fill="#33332E">FDR：报告的阳性里，</text>
+  <text x="762" y="310" font-size="11.5" fill="#33332E">假的占比 &#8804; 5%</text>
+  <text x="902" y="292" font-size="11.5" fill="#33332E">按 p 排序逐个比</text>
+  <text x="902" y="310" font-size="11.5" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">p(i) &#8804; i/m&#183;0.05</text>
+  <text x="1002" y="292" font-size="11.5" fill="#33332E">差异表达、富集、</text>
+  <text x="1002" y="310" font-size="11.5" fill="#33332E">差异丰度——探索性</text>
+  <text x="1002" y="328" font-size="11.5" fill="#33332E">组学分析的默认</text>
+  <line x1="656" y1="348" x2="1128" y2="348" stroke="#E9E9E5"/>
+  <text x="656" y="376" font-size="12.5" font-weight="bold" fill="#3C5488">一句话取舍：Bonferroni 保守、宁缺毋滥；BH 用可控的假阳性比例换回大量真信号。</text>
+  <rect x="632" y="424" width="520" height="276" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="656" y="456" font-size="17" font-weight="bold" fill="#3C5488">有真信号时的实测（200 真 + 19800 无差异）</text>
+  <line x1="656" y1="470" x2="1128" y2="470" stroke="#E9E9E5"/>
+  <rect x="980" y="484" width="12" height="12" fill="#00A087"/>
+  <text x="998" y="494" font-size="11" fill="#33332E">真阳性</text>
+  <rect x="1064" y="484" width="12" height="12" fill="#F39B7F"/>
+  <text x="1082" y="494" font-size="11" fill="#33332E">假阳性</text>
+  <text x="656" y="522" font-size="12" font-weight="bold" fill="#33332E">不校正</text>
+  <rect x="770" y="506" width="48" height="22" rx="3" fill="#00A087"/>
+  <rect x="818" y="506" width="252" height="22" rx="3" fill="#F39B7F"/>
+  <text x="656" y="546" font-size="11.5" fill="#6B6B66">1169 = 186 真 + 983 假——84% 是垃圾</text>
+  <text x="656" y="568" font-size="12" font-weight="bold" fill="#33332E">Bonferroni</text>
+  <rect x="770" y="552" width="14" height="22" rx="3" fill="#00A087"/>
+  <text x="656" y="592" font-size="11.5" fill="#6B6B66">53 = 53 真 + 0 假——但漏掉 147 个真基因</text>
+  <text x="656" y="614" font-size="12" font-weight="bold" fill="#33332E">BH</text>
+  <rect x="770" y="598" width="35" height="22" rx="3" fill="#00A087"/>
+  <rect x="805" y="598" width="2" height="22" rx="3" fill="#F39B7F"/>
+  <text x="656" y="638" font-size="11.5" fill="#6B6B66">144 = 135 真 + 9 假——假占比 6.2%，兑现 5% 承诺</text>
+  <line x1="656" y1="652" x2="1128" y2="652" stroke="#E9E9E5"/>
+  <text x="656" y="672" font-size="11.5" fill="#33332E">校正后 0 个显著是诚实结果：报「无基因通过 FDR&lt;0.05」，候选标注「待验证」。</text>
+  <text x="656" y="690" font-size="11.5" fill="#33332E">偷偷换回原始 p 是选择性报告；校正方法与阈值必须写进报告——审稿人的第一问。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

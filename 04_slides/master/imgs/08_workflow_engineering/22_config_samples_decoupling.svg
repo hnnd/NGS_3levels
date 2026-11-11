@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="26" width="320" height="152" fill="#D6EFF4" rx="14" stroke="#4DBBD5" stroke-width="4"/>
+<text x="200" y="78" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">samples.tsv</text>
+<text x="200" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">sample / R1 / R2</text>
+<rect x="40" y="206" width="320" height="152" fill="#FBE3D8" rx="14" stroke="#C0623F" stroke-width="4"/>
+<text x="200" y="258" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">config.yaml</text>
+<text x="200" y="310" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">threads / thresholds</text>
+<rect x="428" y="26" width="332" height="332" fill="#FFFFFF" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="594.0" y="78" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">Snakefile</text>
+<text x="594.0" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">config[&#x27;threads&#x27;]</text>
+<text x="594.0" y="206" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">samples = load()</text>
+<text x="594.0" y="262" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">no literals</text>
+<text x="594.0" y="322" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">核心流程仅引用键名</text>
+<line x1="364" y1="102" x2="424" y2="102" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="424,102 409.39057695500304,108.52416724895312 409.39057695500304,95.47583275104688" fill="#4DBBD5"/>
+<line x1="364" y1="282" x2="424" y2="282" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="424,282 409.39057695500304,288.5241672489531 409.39057695500304,275.4758327510469" fill="#4DBBD5"/>
+<text x="200" y="400" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">样本清单与配置外置</text>
+<rect x="120" y="464" width="560" height="116" fill="#F6D8D2" rx="16" stroke="#E64B35" stroke-width="5"/>
+<text x="400" y="518" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">换样本机器不改代码</text>
+<text x="400" y="562" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">config.yaml + samples.tsv</text>
+</svg>

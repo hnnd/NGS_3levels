@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">联合锁定</text>
+<rect x="38.0" y="206" width="132" height="132" fill="#FFFFFF" rx="14" stroke="#3C8DAD" stroke-width="4"/>
+<text x="104.0" y="284.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">QC</text>
+<line x1="171.0" y1="314" x2="183.0" y2="314" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="183.0,314 170.21675483562768,319.70864634283396 170.21675483562768,308.29135365716604" fill="#6B6B66"/>
+<rect x="186.0" y="206" width="132" height="132" fill="#FFFFFF" rx="14" stroke="#3C8DAD" stroke-width="4"/>
+<text x="252.0" y="284.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">MACS2</text>
+<line x1="319.0" y1="314" x2="331.0" y2="314" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="331.0,314 318.2167548356277,319.70864634283396 318.2167548356277,308.29135365716604" fill="#6B6B66"/>
+<rect x="334.0" y="206" width="132" height="132" fill="#FFFFFF" rx="14" stroke="#3C8DAD" stroke-width="4"/>
+<text x="400.0" y="284.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">DAR</text>
+<line x1="467.0" y1="314" x2="479.0" y2="314" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="479.0,314 466.2167548356277,319.70864634283396 466.2167548356277,308.29135365716604" fill="#6B6B66"/>
+<rect x="482.0" y="206" width="132" height="132" fill="#8491B4" rx="14" stroke="#5C6C8C" stroke-width="4"/>
+<text x="548.0" y="284.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">∩ DEG</text>
+<line x1="615.0" y1="314" x2="627.0" y2="314" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="627.0,314 614.2167548356277,319.70864634283396 614.2167548356277,308.29135365716604" fill="#6B6B66"/>
+<rect x="630.0" y="206" width="132" height="132" fill="#00A087" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="696.0" y="284.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">motif</text>
+<rect x="508.0" y="400" width="80" height="62" fill="#E6E9F0" rx="12" stroke="#5C6C8C" stroke-width="3"/>
+<text x="548.0" y="442" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#5C6C8C" text-anchor="middle" font-weight="bold">DEG</text>
+<line x1="548.0" y1="396" x2="548.0" y2="346" stroke="#5C6C8C" stroke-width="4" stroke-linecap="round"/>
+<polygon points="548.0,346 553.708646342834,358.7832451643723 542.291353657166,358.7832451643723" fill="#5C6C8C"/>
+<text x="696.0" y="412" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#00A087" text-anchor="middle" font-weight="bold">34</text>
+<text x="400" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">差异开放区交集差异基因</text>
+<text x="400" y="652" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">富集候选转录因子</text>
+</svg>

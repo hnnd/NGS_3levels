@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">片段分布</text>
+<text x="96" y="190" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">读段数</text>
+<line x1="96" y1="468" x2="400" y2="468" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="96" y1="468" x2="96" y2="216" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="248.0" y="556" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">正常</text>
+<path d="M 102.0 468 L 102.0 450.4 L 115.33333333333333 450.4 L 115.33333333333333 468 Z M 127.33333333333333 468 L 127.33333333333333 309.7 L 140.66666666666666 309.7 L 140.66666666666666 468 Z M 152.66666666666666 468 L 152.66666666666666 448.6 L 166.0 448.6 L 166.0 468 Z M 178.0 468 L 178.0 454.6 L 191.33333333333334 454.6 L 191.33333333333334 468 Z M 203.33333333333331 468 L 203.33333333333331 386.6 L 216.66666666666666 386.6 L 216.66666666666666 468 Z M 228.66666666666666 468 L 228.66666666666666 446.7 L 242.0 446.7 L 242.0 468 Z M 254.0 468 L 254.0 467.7 L 267.3333333333333 467.7 L 267.3333333333333 468 Z M 279.3333333333333 468 L 279.3333333333333 467.7 L 292.66666666666663 467.7 L 292.66666666666663 468 Z M 304.66666666666663 468 L 304.66666666666663 456.7 L 317.99999999999994 456.7 L 317.99999999999994 468 Z M 330.0 468 L 330.0 428.4 L 343.3333333333333 428.4 L 343.3333333333333 468 Z M 355.3333333333333 468 L 355.3333333333333 454.9 L 368.66666666666663 454.9 L 368.66666666666663 468 Z" fill="#3C8DAD" stroke="#3C8DAD" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="134.0" y="293.7125" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">~80</text>
+<text x="209.99999999999997" y="370.625" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">~200</text>
+<text x="336.6666666666667" y="412.3625" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">~400</text>
+<line x1="432" y1="468" x2="736" y2="468" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="432" y1="468" x2="432" y2="216" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="584.0" y="556" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">过度</text>
+<path d="M 463.3333333333333 468 L 463.3333333333333 444.6 L 476.66666666666663 444.6 L 476.66666666666663 468 Z M 488.6666666666667 468 L 488.6666666666667 223.6 L 502.0 223.6 L 502.0 468 Z M 514.0 468 L 514.0 344.4 L 527.3333333333334 344.4 L 527.3333333333334 468 Z M 539.3333333333334 468 L 539.3333333333334 465.9 L 552.6666666666667 465.9 L 552.6666666666667 468 Z M 564.6666666666666 468 L 564.6666666666666 467.7 L 578.0 467.7 L 578.0 468 Z" fill="#E64B35" stroke="#E64B35" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="495.33333333333337" y="207.61249999999998" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">~130</text>
+<line x1="148.8695652173913" y1="468" x2="148.8695652173913" y2="476" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="148.8695652173913" y="510" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">100</text>
+<line x1="214.95652173913044" y1="468" x2="214.95652173913044" y2="476" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="214.95652173913044" y="510" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">200</text>
+<line x1="281.04347826086956" y1="468" x2="281.04347826086956" y2="476" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="281.04347826086956" y="510" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">300</text>
+<line x1="347.1304347826087" y1="468" x2="347.1304347826087" y2="476" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="347.1304347826087" y="510" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">400</text>
+<text x="744" y="480" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">bp</text>
+<text x="400" y="616" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">正常呈核小体周期阶梯</text>
+<text x="400" y="668" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">过度消化退化为单峰</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="80" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">+ xlim(2, 5)</text>
+<text x="720" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="end" font-weight="bold">真删</text>
+<rect x="151.11111111111111" y="86" width="213.33333333333334" height="214" fill="#D8EEE9"/>
+<line x1="80" y1="86" x2="80" y2="300" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<line x1="80" y1="300" x2="720" y2="300" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<line x1="68.0" y1="288.0" x2="92.0" y2="312.0" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="68.0" y1="312.0" x2="92.0" y2="288.0" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<circle cx="151.11111111111111" cy="278.8888888888889" r="10" fill="#00A087"/>
+<circle cx="222.22222222222223" cy="257.77777777777777" r="10" fill="#00A087"/>
+<circle cx="293.33333333333337" cy="236.66666666666666" r="10" fill="#00A087"/>
+<circle cx="364.44444444444446" cy="215.55555555555554" r="10" fill="#00A087"/>
+<line x1="423.55555555555554" y1="182.44444444444446" x2="447.55555555555554" y2="206.44444444444446" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="423.55555555555554" y1="206.44444444444446" x2="447.55555555555554" y2="182.44444444444446" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="494.6666666666667" y1="161.33333333333331" x2="518.6666666666667" y2="185.33333333333331" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="494.6666666666667" y1="185.33333333333331" x2="518.6666666666667" y2="161.33333333333331" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="565.7777777777778" y1="140.22222222222223" x2="589.7777777777778" y2="164.22222222222223" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="565.7777777777778" y1="164.22222222222223" x2="589.7777777777778" y2="140.22222222222223" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="636.8888888888889" y1="119.11111111111111" x2="660.8888888888889" y2="143.11111111111111" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="636.8888888888889" y1="143.11111111111111" x2="660.8888888888889" y2="119.11111111111111" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="708.0" y1="98.0" x2="732.0" y2="122.0" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="708.0" y1="122.0" x2="732.0" y2="98.0" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<rect x="80" y="326" width="640" height="44" fill="#E9E9E5" rx="6"/>
+<text x="400" y="357" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">Removed 6 rows</text>
+<text x="80" y="416" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">+ coord_cartesian(xlim = c(2, 5))</text>
+<text x="720" y="416" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="end" font-weight="bold">只裁视野</text>
+<rect x="151.11111111111111" y="436" width="213.33333333333334" height="164" fill="none" stroke="#00A087" stroke-width="5"/>
+<line x1="80" y1="436" x2="80" y2="600" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<line x1="80" y1="600" x2="720" y2="600" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<circle cx="80.0" cy="600.0" r="10" fill="#C9C9C3"/>
+<circle cx="151.11111111111111" cy="584.4444444444445" r="10" fill="#00A087"/>
+<circle cx="222.22222222222223" cy="568.8888888888889" r="10" fill="#00A087"/>
+<circle cx="293.33333333333337" cy="553.3333333333334" r="10" fill="#00A087"/>
+<circle cx="364.44444444444446" cy="537.7777777777778" r="10" fill="#00A087"/>
+<circle cx="435.55555555555554" cy="522.2222222222222" r="10" fill="#C9C9C3"/>
+<circle cx="506.6666666666667" cy="506.6666666666667" r="10" fill="#C9C9C3"/>
+<circle cx="577.7777777777778" cy="491.1111111111111" r="10" fill="#C9C9C3"/>
+<circle cx="648.8888888888889" cy="475.55555555555554" r="10" fill="#C9C9C3"/>
+<circle cx="720.0" cy="460.0" r="10" fill="#C9C9C3"/>
+<text x="400" y="678" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">数据框都没动</text>
+</svg>

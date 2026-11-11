@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="190" y="66" width="420" height="80" fill="#FFFFFF" rx="16" stroke="#E64B35" stroke-width="6"/>
+<text x="400" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">assembly total ≠ survey estimate</text>
+<line x1="400" y1="148" x2="200" y2="248" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="200" y1="248" x2="188" y2="248" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="188,248 204.43560092562154,240.66031184492775 204.43560092562154,255.33968815507225" fill="#3C5488"/>
+<rect x="60" y="210" width="120" height="76" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<rect x="84" y="248" width="26" height="30" fill="#3C5488"/>
+<rect x="124" y="218" width="26" height="60" fill="#3C5488"/>
+<text x="210" y="258" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">偏小：重复塌缩，查覆盖度</text>
+<line x1="400" y1="148" x2="200" y2="388" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<line x1="200" y1="388" x2="188" y2="388" stroke="#F39B7F" stroke-width="5" stroke-linecap="round"/>
+<polygon points="188,388 204.43560092562154,380.6603118449277 204.43560092562154,395.3396881550723" fill="#F39B7F"/>
+<rect x="60" y="350" width="120" height="76" fill="#FFFFFF" rx="14" stroke="#F39B7F" stroke-width="5"/>
+<circle cx="106" cy="388" r="20" fill="#FFFFFF" stroke="#F39B7F" stroke-width="5"/>
+<circle cx="132" cy="388" r="20" fill="#FFFFFF" stroke="#F39B7F" stroke-width="5"/>
+<text x="210" y="398" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">偏大：单倍型未分，D 异常高</text>
+<line x1="400" y1="148" x2="200" y2="528" stroke="#8491B4" stroke-width="5" stroke-linecap="butt"/>
+<line x1="200" y1="528" x2="188" y2="528" stroke="#8491B4" stroke-width="5" stroke-linecap="round"/>
+<polygon points="188,528 204.43560092562154,520.6603118449277 204.43560092562154,535.3396881550723" fill="#8491B4"/>
+<rect x="60" y="490" width="120" height="76" fill="#FFFFFF" rx="14" stroke="#8491B4" stroke-width="5"/>
+<circle cx="84" cy="506" r="7" fill="#8491B4"/>
+<circle cx="110" cy="524" r="7" fill="#8491B4"/>
+<circle cx="136" cy="502" r="7" fill="#8491B4"/>
+<circle cx="94" cy="542" r="7" fill="#8491B4"/>
+<circle cx="124" cy="550" r="7" fill="#8491B4"/>
+<circle cx="146" cy="532" r="7" fill="#8491B4"/>
+<text x="210" y="538" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">偏大：外源污染，查分类</text>
+</svg>

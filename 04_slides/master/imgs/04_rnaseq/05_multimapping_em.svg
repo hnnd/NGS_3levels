@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="63.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">多重兼容读段</text>
+<rect x="240" y="84" width="200" height="26" fill="#4DBBD5"/>
+<line x1="280" y1="84" x2="280" y2="110" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+<line x1="330" y1="84" x2="330" y2="110" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+<line x1="380" y1="84" x2="380" y2="110" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+<line x1="120" y1="168" x2="680" y2="168" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<rect x="150" y="154" width="90" height="28" fill="#3C5488"/>
+<rect x="260" y="154" width="90" height="28" fill="#3C5488"/>
+<rect x="370" y="154" width="90" height="28" fill="#3C5488"/>
+<text x="120" y="144" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">Isoform 1</text>
+<line x1="120" y1="252" x2="680" y2="252" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<rect x="260" y="238" width="90" height="28" fill="#8491B4"/>
+<rect x="370" y="238" width="90" height="28" fill="#8491B4"/>
+<rect x="480" y="238" width="90" height="28" fill="#8491B4"/>
+<text x="120" y="228" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">Isoform 2</text>
+<rect x="280" y="140" width="190" height="124" fill="none"/>
+<polyline points="280,140 470,140 470,264 280,264 280,140" fill="none" stroke="#F39B7F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 10"/>
+<line x1="300" y1="110" x2="300" y2="154" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<line x1="380" y1="110" x2="380" y2="154" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<line x1="330" y1="110" x2="330" y2="238" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<line x1="420" y1="110" x2="420" y2="238" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<rect x="30" y="330" width="340" height="330" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="200" y="376" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">featureCounts</text>
+<rect x="90" y="420" width="130" height="24" fill="#4DBBD5"/>
+<path d="M 120 424 L 190 444 M 190 424 L 120 444" fill="none" stroke="#E64B35" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="200" y="510.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">简单丢弃低估</text>
+<line x1="110" y1="620" x2="300" y2="620" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<rect x="120" y="594" width="26" height="26" fill="#E9E9E5"/>
+<rect x="165" y="600" width="26" height="20" fill="#E9E9E5"/>
+<rect x="210" y="596" width="26" height="24" fill="#E9E9E5"/>
+<line x1="250" y1="560" x2="250" y2="600" stroke="#F39B7F" stroke-width="5" stroke-linecap="round"/>
+<polygon points="250,600 244.6991141102256,588.12984377594 255.3008858897744,588.12984377594" fill="#F39B7F"/>
+<text x="268" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start">丢失</text>
+<rect x="430" y="330" width="340" height="330" fill="#FFFFFF" rx="14" stroke="#00A087" stroke-width="5"/>
+<text x="600" y="372" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">Salmon VBEM</text>
+<text x="600" y="426.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">期望最大化</text>
+<line x1="470" y1="482" x2="730" y2="482" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<rect x="490" y="448" width="90" height="34" fill="#00A087"/>
+<rect x="610" y="460" width="60" height="22" fill="#4DBBD5"/>
+<text x="640" y="518" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">先验</text>
+<line x1="540" y1="524" x2="514" y2="572" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="514,572 514.9161806169161,560.0350255713944 523.5211523924363,564.6960519498011" fill="#00A087"/>
+<line x1="612" y1="524" x2="656" y2="572" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="656,572 644.9890521058541,567.2293578553403 652.2030274542459,560.6165471193144" fill="#00A087"/>
+<text x="478" y="556" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">0.6</text>
+<text x="706" y="556" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">0.4</text>
+<rect x="455" y="586" width="110" height="26" fill="#D8EEE9" stroke="#00A087" stroke-width="4"/>
+<rect x="615" y="586" width="100" height="26" fill="#D8EEE9" stroke="#00A087" stroke-width="4"/>
+<text x="600" y="656.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">丰度先验概率分摊</text>
+</svg>

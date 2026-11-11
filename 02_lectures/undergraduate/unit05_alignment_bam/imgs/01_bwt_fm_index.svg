@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">BWT / FM-index：先定位种子，再两侧延伸</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">索引卡查种子 ｜ 链接候选 ｜ 延伸打分 —— 依据 05_alignment_bam_lecture.md ④4.1–4.4</text>
+  <!-- 图例 -->
+  <rect x="926" y="34" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="45" font-size="12" fill="#33332E">参考基因组 / 索引</text>
+  <rect x="926" y="56" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="67" font-size="12" fill="#33332E">read / 种子</text>
+  <rect x="926" y="78" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="89" font-size="12" fill="#33332E">精确命中</text>
+  <rect x="926" y="100" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="111" font-size="12" fill="#33332E">延伸 / 容错</text>
+  <rect x="926" y="122" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="133" font-size="12" fill="#33332E">易错点 / 反例</text>
+
+  <!-- ============ 左面板：FM-index 定位种子 ============ -->
+  <rect x="48" y="150" width="500" height="510" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="182" font-size="16" font-weight="bold" fill="#3C5488">第 1 步：种子在索引上精确定位</text>
+  <text x="72" y="202" font-size="11.5" fill="#6B6B66">玩具参考 BANANA$，查种子 ANA（④4.2–4.3）</text>
+
+  <!-- 参考串 -->
+  <text x="72" y="232" font-size="11" fill="#6B6B66">参考</text>
+  <rect x="110" y="214" width="24" height="26" fill="#FFFFFF" stroke="#3C5488"/>
+  <text x="122" y="232" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">B</text>
+  <rect x="134" y="214" width="24" height="26" fill="#FFFFFF" stroke="#3C5488"/>
+  <text x="146" y="232" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">A</text>
+  <rect x="158" y="214" width="24" height="26" fill="#FFFFFF" stroke="#3C5488"/>
+  <text x="170" y="232" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">N</text>
+  <rect x="182" y="214" width="24" height="26" fill="#FFFFFF" stroke="#3C5488"/>
+  <text x="194" y="232" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">A</text>
+  <rect x="206" y="214" width="24" height="26" fill="#FFFFFF" stroke="#3C5488"/>
+  <text x="218" y="232" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">N</text>
+  <rect x="230" y="214" width="24" height="26" fill="#FFFFFF" stroke="#3C5488"/>
+  <text x="242" y="232" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">A</text>
+  <rect x="254" y="214" width="24" height="26" fill="#FFFFFF" stroke="#3C5488"/>
+  <text x="266" y="232" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">$</text>
+  <text x="286" y="232" font-size="10" fill="#6B6B66">（$ 最小）</text>
+
+  <!-- read 种子 -->
+  <text x="376" y="206" font-size="10.5" fill="#3C8DAD" text-anchor="middle">read 里的种子</text>
+  <rect x="340" y="214" width="24" height="26" fill="#4DBBD5"/>
+  <text x="352" y="232" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">A</text>
+  <rect x="366" y="214" width="24" height="26" fill="#4DBBD5"/>
+  <text x="378" y="232" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">N</text>
+  <rect x="392" y="214" width="24" height="26" fill="#4DBBD5"/>
+  <text x="404" y="232" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">A</text>
+  <line x1="408" y1="248" x2="348" y2="248" stroke="#3C8DAD" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <polygon points="340,248 350,244 350,252" fill="#3C8DAD"/>
+  <text x="376" y="266" font-size="10" fill="#3C8DAD" text-anchor="middle">从右往左逐字符查</text>
+
+  <!-- 索引卡盒 -->
+  <rect x="72" y="272" width="456" height="200" rx="6" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="86" y="292" font-size="11.5" font-weight="bold" fill="#3C5488">FM-index：全部轮转按字典序排列；BWT = 最后一列 ANNB$AA</text>
+  <line x1="86" y1="300" x2="514" y2="300" stroke="#E9E9E5"/>
+  <rect x="86" y="308" width="170" height="18" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="94" y="321" font-size="12" fill="#33332E">$BANANA</text>
+  <rect x="86" y="329" width="170" height="18" fill="#F1F1EC" stroke="#E9E9E5"/>
+  <text x="94" y="342" font-size="12" fill="#33332E">A$BANAN</text>
+  <rect x="86" y="350" width="170" height="18" fill="#E4F3EF" stroke="#00A087"/>
+  <text x="94" y="363" font-size="12" fill="#33332E">ANA$BAN</text>
+  <rect x="86" y="371" width="170" height="18" fill="#E4F3EF" stroke="#00A087"/>
+  <text x="94" y="384" font-size="12" fill="#33332E">ANANA$B</text>
+  <rect x="86" y="392" width="170" height="18" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="94" y="405" font-size="12" fill="#33332E">BANANA$</text>
+  <rect x="86" y="413" width="170" height="18" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="94" y="426" font-size="12" fill="#33332E">NA$BANA</text>
+  <rect x="86" y="434" width="170" height="18" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="94" y="447" font-size="12" fill="#33332E">NANA$BA</text>
+  <text x="270" y="344" font-size="11" fill="#6B6B66">① 圈出以 A 开头的行</text>
+  <text x="270" y="388" font-size="11" font-weight="bold" fill="#00A087">② 缩到以 ANA 开头：剩 2 行</text>
+
+  <text x="72" y="496" font-size="12" fill="#33332E">区间剩 2 行 = 参考里恰有 2 处 ANA；.sa 把区间换算回坐标（⑤5.2）</text>
+  <text x="72" y="520" font-size="11.5" fill="#6B6B66">每往左一个字符只做常数次表查询（LF-mapping）</text>
+
+  <rect x="72" y="560" width="456" height="72" rx="6" fill="#FAFAF7"/>
+  <rect x="72" y="560" width="4" height="72" rx="2" fill="#3C5488"/>
+  <text x="88" y="586" font-size="12.5" font-weight="bold" fill="#3C5488">查询耗时与 read 长度成正比，与基因组大小基本无关</text>
+  <text x="88" y="610" font-size="11" fill="#6B6B66">索引须预建并常驻内存：人类基因组 BWA 索引约 5 GB</text>
+
+  <!-- ============ 右面板：链接 + 延伸 + 打分 ============ -->
+  <rect x="588" y="150" width="564" height="510" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="612" y="182" font-size="16" font-weight="bold" fill="#3C5488">第 2 步：链接候选，延伸后打分</text>
+  <text x="612" y="202" font-size="11.5" fill="#6B6B66">bwa mem 的 seed-and-extend（④4.4）：种子 → 链接 → 延伸 → 打分</text>
+
+  <!-- 参考基因组条 -->
+  <text x="612" y="232" font-size="11" fill="#6B6B66">参考基因组</text>
+  <rect x="612" y="238" width="516" height="30" rx="4" fill="#3C5488"/>
+  <rect x="760" y="238" width="44" height="30" fill="#00A087"/>
+  <text x="782" y="257" font-size="10.5" fill="#FFFFFF" text-anchor="middle">种子</text>
+  <rect x="920" y="238" width="44" height="30" fill="#00A087"/>
+  <text x="942" y="257" font-size="10.5" fill="#FFFFFF" text-anchor="middle">种子</text>
+  <line x1="782" y1="268" x2="782" y2="278" stroke="#6B6B66" stroke-width="1"/>
+  <line x1="942" y1="268" x2="942" y2="278" stroke="#6B6B66" stroke-width="1"/>
+  <text x="782" y="292" font-size="10.5" fill="#6B6B66" text-anchor="middle">位置 1</text>
+  <text x="942" y="292" font-size="10.5" fill="#6B6B66" text-anchor="middle">位置 2</text>
+  <path d="M 760 306 L 760 312 L 964 312 L 964 306" fill="none" stroke="#00A087" stroke-width="1.5"/>
+  <text x="862" y="330" font-size="11.5" fill="#33332E" text-anchor="middle">② 链接相邻种子 → 候选区域</text>
+
+  <!-- read 条（与参考同 x 对齐） -->
+  <text x="692" y="368" font-size="11" fill="#3C8DAD" text-anchor="end">read</text>
+  <rect x="700" y="348" width="60" height="30" rx="4" fill="#F5BEA6"/>
+  <text x="730" y="368" font-size="10.5" fill="#33332E" text-anchor="middle">延伸</text>
+  <rect x="760" y="348" width="44" height="30" fill="#00A087"/>
+  <text x="782" y="368" font-size="10.5" fill="#FFFFFF" text-anchor="middle">种子</text>
+  <rect x="804" y="348" width="116" height="30" fill="#4DBBD5"/>
+  <rect x="920" y="348" width="44" height="30" fill="#00A087"/>
+  <text x="942" y="368" font-size="10.5" fill="#FFFFFF" text-anchor="middle">种子</text>
+  <rect x="964" y="348" width="60" height="30" rx="4" fill="#F5BEA6"/>
+  <text x="994" y="368" font-size="10.5" fill="#33332E" text-anchor="middle">延伸</text>
+  <line x1="760" y1="363" x2="708" y2="363" stroke="#D9785A" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <polygon points="702,363 712,359 712,367" fill="#D9785A"/>
+  <line x1="964" y1="363" x2="1016" y2="363" stroke="#D9785A" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <polygon points="1022,363 1012,359 1012,367" fill="#D9785A"/>
+
+  <text x="612" y="398" font-size="11.5" fill="#33332E">③ 延伸：候选区域内 Smith–Waterman 局部比对，允许错配与 indel</text>
+
+  <!-- 输出 -->
+  <rect x="612" y="424" width="516" height="64" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.6"/>
+  <text x="628" y="450" font-size="12.5" font-weight="bold" fill="#33332E">④ 打分取最高分位置：输出坐标 + CIGAR + MAPQ</text>
+  <text x="628" y="474" font-size="11.5" fill="#6B6B66">次高分接近最高分 → 位置不唯一，MAPQ 被压低（④4.4）</text>
+
+  <text x="612" y="514" font-size="11.5" font-weight="bold" fill="#33332E">-k（bwa mem 默认 19）：种子长度下限</text>
+  <text x="612" y="534" font-size="11.5" fill="#6B6B66">调大更快但易丢种子（错误率 / 变异密处）；调小更灵敏但更慢</text>
+
+  <rect x="612" y="560" width="516" height="72" rx="6" fill="#FAFAF7"/>
+  <rect x="612" y="560" width="4" height="72" rx="2" fill="#3C5488"/>
+  <text x="628" y="586" font-size="12.5" font-weight="bold" fill="#3C5488">MAPQ 答「放对没有」，BaseQ 答「读对没有」</text>
+  <text x="628" y="610" font-size="11" fill="#6B6B66">碱基全对也可能 MAPQ=0：落在 5 份重复里，位置五选一（④4.6）</text>
+
+  <!-- ============ 底部红色对照条 ============ -->
+  <rect x="48" y="680" width="1104" height="58" rx="8" fill="#FDF2F0" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="72" y="704" font-size="13" font-weight="bold" fill="#E64B35">为什么必须建索引：逐条扫库的代价与基因组长度成正比</text>
+  <text x="72" y="728" font-size="12" fill="#33332E">3000 万条 read × 30 亿 bp ≈ 9×10^16 次操作，每次 1 纳秒也要近 3 年；FM-index 把代价换成与 read 长度相关（④4.1）</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

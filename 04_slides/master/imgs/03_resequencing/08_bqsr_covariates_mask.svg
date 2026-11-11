@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="48" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">BQSR 协变量</text>
+<rect x="40" y="76" width="250" height="470" fill="#E3E8F2" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="165" y="120" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">协变量</text>
+<rect x="60" y="150" width="210" height="66" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="165" y="194" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">RG</text>
+<rect x="60" y="246" width="210" height="66" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="165" y="290" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">原始 Q 值</text>
+<rect x="60" y="342" width="210" height="66" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="165" y="386" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">测序循环</text>
+<rect x="60" y="438" width="210" height="66" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="165" y="482" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">序列上下文</text>
+<rect x="330" y="76" width="280" height="470" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<text x="470" y="120" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">经验漂移</text>
+<line x1="370" y1="470" x2="580" y2="470" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="370" y1="170" x2="370" y2="470" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="475" y="506" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">报告 Q 值</text>
+<line x1="370" y1="470" x2="580" y2="190" stroke="#E9E9E5" stroke-width="5" stroke-linecap="butt" stroke-dasharray="14 10"/>
+<polyline points="370,470 425,410 480,330 535,230 580,150" fill="none" stroke="#4DBBD5" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="485" y="240" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">ΔQ</text>
+<line x1="440" y1="350" x2="470" y2="306" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<polygon points="470,306 467.6928407479737,318.7936318606481 458.93336702150503,312.82126341078305" fill="#E64B35"/>
+<polygon points="440,350 442.3071592520263,337.2063681393519 451.06663297849497,343.17873658921695" fill="#E64B35"/>
+<text x="470" y="546" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">Δ = 观测 − 报告</text>
+<rect x="650" y="76" width="120" height="470" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<text x="710" y="120" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">已知位点</text>
+<rect x="665" y="150" width="90" height="120" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="4"/>
+<text x="710" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">掩膜</text>
+<text x="710" y="244" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">开</text>
+<rect x="665" y="300" width="90" height="120" fill="#F6D8D2" rx="10" stroke="#E64B35" stroke-width="4"/>
+<text x="710" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">掩膜</text>
+<text x="710" y="394" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">关</text>
+<text x="710" y="500" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">屏蔽真实</text>
+<text x="710" y="532" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">变异</text>
+<line x1="290" y1="183" x2="370" y2="300" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="370,300 354.6644701624728,290.5754827920836 366.7820058167923,282.28998832759163" fill="#6B6B66"/>
+<line x1="290" y1="279" x2="370" y2="300" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="370,300 352.23944476441864,302.92620534547103 355.96651093582125,288.72785802584195" fill="#6B6B66"/>
+<line x1="290" y1="375" x2="370" y2="300" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="370,300 363.0295322547769,316.59555902682416 352.9897030499428,305.8864078750011" fill="#6B6B66"/>
+<line x1="290" y1="471" x2="370" y2="300" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="370,300 369.6834474479692,317.99721629813354 356.38720964406167,311.7767541676505" fill="#6B6B66"/>
+<line x1="610" y1="300" x2="650" y2="300" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="650,300 633.5643990743785,307.3396881550723 633.5643990743785,292.6603118449277" fill="#6B6B66"/>
+<rect x="40" y="580" width="720" height="58" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="4"/>
+<text x="400" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">屏蔽真实变异：无掩膜 = 真变异被当作错误拟合</text>
+<text x="400" y="676" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">本课无可信变异集 → 跳过 BQSR</text>
+</svg>

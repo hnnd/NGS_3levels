@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="190" y="60" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">drop = TRUE</text>
+<rect x="40" y="84" width="300" height="420" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="4"/>
+<line x1="70" y1="450" x2="320" y2="450" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<rect x="145" y="180" width="90" height="270" fill="#00A087"/>
+<text x="190" y="496" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">1</text>
+<text x="190" y="540" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">trt</text>
+<text x="610" y="60" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">drop = FALSE</text>
+<rect x="460" y="84" width="300" height="420" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="4"/>
+<line x1="490" y1="450" x2="740" y2="450" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<rect x="525" y="180" width="90" height="270" fill="none" stroke="#6B6B66" stroke-width="4" stroke-dasharray="12 9"/>
+<rect x="635" y="180" width="90" height="270" fill="#00A087"/>
+<text x="610" y="142" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">空位保留</text>
+<text x="570" y="496" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#6B6B66" text-anchor="middle" font-weight="bold">1</text>
+<text x="680" y="496" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">2</text>
+<text x="570" y="540" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">control</text>
+<text x="680" y="540" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">trt</text>
+<text x="680" y="590" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">位置会变</text>
+<text x="400" y="664" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">limits 只改这一层</text>
+</svg>

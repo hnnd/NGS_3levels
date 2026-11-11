@@ -1,0 +1,40 @@
+# 博士生 · 环境 4/6：群体基因组与 GWAS
+# 覆盖专题：p04 群体遗传学基础与群体基因组 ｜ p05 GWAS 与后 GWAS 挖掘
+# 创建：conda env create -f env_phd_popgen.yml   激活：conda activate ngs_phd_popgen
+#
+# 【为什么合一】p04 的产出（过滤后 VCF、群体结构矩阵、亲缘关系矩阵）
+# 正是 p05 GWAS 的输入，分开会逼学生跨环境传数据。
+# 【不走 conda】GAPIT 是 R 包（GitHub/CRAN 外分发），见契约 env_exempt_tools。
+
+name: ngs_phd_popgen
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # 【生态性断裂】setuptools 82.0.0（2026-02-08）移除了 pkg_resources（81.x 仍含），而 bioconda 上
+  # 2023-2024 年的 Python 工具（multiqc 1.14、macs2、部分 deeptools 子命令等）仍 import 它，
+  # 表现为 `ModuleNotFoundError: No module named 'pkg_resources'`。全课程统一钉 <81（比必要的 <82 多保守一档，已实测可用）。
+  - setuptools<81
+  # ---- 群体数据处理 ----
+  - plink=1.90b6.21
+  - plink2
+  - vcftools
+  - bcftools=1.17
+  - bedtools=2.31.0
+
+  # ---- 群体结构与历史 ----
+  - admixture
+  - treemix
+  - r-base=4.3.1
+  # p05 表型 BLUE/BLUP（讲义 ⑤5.2）用 lme4 + dplyr
+  - r-lme4
+  - r-dplyr=1.1.4
+
+  # ---- 关联分析 ----
+  - gemma=0.98.3
+
+  # ---- 可视化 ----
+  - r-qqman         # Manhattan / QQ 图
+  - r-ggplot2=3.4.2

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="30" y="70" width="350" height="340" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="205" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">统一注释：每株约 2100</text>
+<rect x="60" y="136" width="16" height="16" fill="#3C5488"/>
+<text x="82" y="151" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">genes</text>
+<rect x="190" y="136" width="16" height="16" fill="#E9E9E5" stroke="#6B6B66" stroke-width="3"/>
+<text x="212" y="151" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">specific</text>
+<rect x="49" y="171.67448405253282" width="10" height="208.32551594746718" fill="#3C5488"/>
+<rect x="60" y="217.1810506566604" width="10" height="162.8189493433396" fill="#E9E9E5"/>
+<rect x="75" y="173.54596622889306" width="10" height="206.45403377110694" fill="#3C5488"/>
+<rect x="86" y="219.54502814258913" width="10" height="160.45497185741087" fill="#E9E9E5"/>
+<rect x="101" y="173.74296435272043" width="10" height="206.25703564727957" fill="#3C5488"/>
+<rect x="112" y="219.15103189493433" width="10" height="160.84896810506567" fill="#E9E9E5"/>
+<rect x="127" y="172.5609756097561" width="10" height="207.4390243902439" fill="#3C5488"/>
+<rect x="138" y="218.36303939962477" width="10" height="161.63696060037523" fill="#E9E9E5"/>
+<rect x="153" y="174.33395872420263" width="10" height="205.66604127579737" fill="#3C5488"/>
+<rect x="164" y="219.54502814258913" width="10" height="160.45497185741087" fill="#E9E9E5"/>
+<rect x="179" y="170.0" width="10" height="210.0" fill="#3C5488"/>
+<rect x="190" y="216.78705440900563" width="10" height="163.21294559099437" fill="#E9E9E5"/>
+<rect x="205" y="172.65947467166978" width="10" height="207.34052532833022" fill="#3C5488"/>
+<rect x="216" y="218.56003752345217" width="10" height="161.43996247654783" fill="#E9E9E5"/>
+<rect x="231" y="170.88649155722325" width="10" height="209.11350844277675" fill="#3C5488"/>
+<rect x="242" y="217.1810506566604" width="10" height="162.8189493433396" fill="#E9E9E5"/>
+<rect x="257" y="171.08348968105065" width="10" height="208.91651031894935" fill="#3C5488"/>
+<rect x="268" y="217.96904315196997" width="10" height="162.03095684803003" fill="#E9E9E5"/>
+<rect x="283" y="172.26547842401501" width="10" height="207.73452157598499" fill="#3C5488"/>
+<rect x="294" y="218.16604127579737" width="10" height="161.83395872420263" fill="#E9E9E5"/>
+<rect x="309" y="173.05347091932458" width="10" height="206.94652908067542" fill="#3C5488"/>
+<rect x="320" y="218.16604127579737" width="10" height="161.83395872420263" fill="#E9E9E5"/>
+<rect x="335" y="172.06848030018762" width="10" height="207.93151969981238" fill="#3C5488"/>
+<rect x="346" y="217.5750469043152" width="10" height="162.4249530956848" fill="#E9E9E5"/>
+<line x1="49" y1="380.0" x2="370" y2="380.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<rect x="420" y="70" width="350" height="340" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="585" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">混入宽规则：基因跳至 9993</text>
+<rect x="439" y="335.553887721405" width="8" height="44.44611227859502" fill="#3C5488"/>
+<rect x="448" y="345.45181627139" width="8" height="34.54818372861003" fill="#E9E9E5"/>
+<rect x="461" y="335.95316721705194" width="8" height="44.046832782948066" fill="#3C5488"/>
+<rect x="470" y="345.93515460822573" width="8" height="34.06484539177424" fill="#E9E9E5"/>
+<rect x="483" y="335.99519663764636" width="8" height="44.00480336235365" fill="#3C5488"/>
+<rect x="492" y="345.7670369258481" width="8" height="34.232963074151904" fill="#E9E9E5"/>
+<rect x="505" y="335.74302011407985" width="8" height="44.256979885920146" fill="#3C5488"/>
+<rect x="514" y="345.74602221555085" width="8" height="34.25397778444912" fill="#E9E9E5"/>
+<rect x="527" y="336.1212848994296" width="8" height="43.878715100570396" fill="#3C5488"/>
+<rect x="536" y="345.93515460822573" width="8" height="34.06484539177424" fill="#E9E9E5"/>
+<rect x="549" y="335.1966376463524" width="8" height="44.80336235364755" fill="#3C5488"/>
+<rect x="558" y="345.38877214049836" width="8" height="34.61122785950165" fill="#E9E9E5"/>
+<rect x="571" y="335.76403482437706" width="8" height="44.23596517562294" fill="#3C5488"/>
+<rect x="580" y="345.6829780846593" width="8" height="34.31702191534074" fill="#E9E9E5"/>
+<rect x="593" y="335.3857700390273" width="8" height="44.61422996097268" fill="#3C5488"/>
+<rect x="602" y="345.5148604022816" width="8" height="34.4851395977184" fill="#E9E9E5"/>
+<rect x="615" y="335.4277994596217" width="8" height="44.57220054037826" fill="#3C5488"/>
+<rect x="624" y="345.6619633743621" width="8" height="34.33803662563795" fill="#E9E9E5"/>
+<rect x="637" y="335.6799759831882" width="8" height="44.320024016811765" fill="#3C5488"/>
+<rect x="646" y="345.59891924347045" width="8" height="34.40108075652957" fill="#E9E9E5"/>
+<rect x="659" y="335.8480936655659" width="8" height="44.1519063344341" fill="#3C5488"/>
+<rect x="668" y="345.6829780846593" width="8" height="34.31702191534074" fill="#E9E9E5"/>
+<rect x="681" y="170.0" width="8" height="210.0" fill="#F39B7F"/>
+<rect x="690" y="208.73011107775443" width="8" height="171.26988892224557" fill="#E64B35"/>
+<line x1="439" y1="380.0" x2="760" y2="380.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="693" y1="200" x2="716" y2="200" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<text x="762" y="210" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="end" font-weight="bold">9993</text>
+<line x1="693" y1="246" x2="716" y2="246" stroke="#E64B35" stroke-width="4" stroke-linecap="butt"/>
+<text x="762" y="256" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="end" font-weight="bold">8150</text>
+<rect x="30" y="440" width="460" height="84" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="4"/>
+<text x="80" y="482" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">7919</text>
+<text x="80" y="514" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">noise ORF</text>
+<text x="230" y="482" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#F39B7F" text-anchor="middle" font-weight="bold">221</text>
+<text x="230" y="514" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">missed</text>
+<text x="380" y="482" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">10</text>
+<text x="380" y="514" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">real</text>
+<text x="530" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">特异 8150</text>
+<text x="530" y="508" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">假特异 99.9%</text>
+<text x="400" y="640" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">必须统一重注释</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="70" width="300" height="300" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<circle cx="120" cy="200" r="40" fill="#3C5488"/>
+<circle cx="120" cy="200" r="18" fill="#FFFFFF"/>
+<circle cx="260" cy="200" r="40" fill="#3C5488"/>
+<circle cx="260" cy="200" r="18" fill="#FFFFFF"/>
+<line x1="120" y1="188" x2="260" y2="188" stroke="#4DBBD5" stroke-width="9" stroke-linecap="butt"/>
+<line x1="120" y1="212" x2="260" y2="212" stroke="#4DBBD5" stroke-width="9" stroke-linecap="butt"/>
+<text x="190" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">SMRTbell 环化文库</text>
+<rect x="380" y="70" width="380" height="340" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<rect x="410" y="100" width="320" height="14" fill="#E3E8F2"/>
+<rect x="410" y="122" width="320" height="14" fill="#E3E8F2"/>
+<rect x="410" y="144" width="320" height="14" fill="#E3E8F2"/>
+<rect x="410" y="166" width="320" height="14" fill="#E3E8F2"/>
+<rect x="410" y="188" width="320" height="14" fill="#E3E8F2"/>
+<rect x="410" y="210" width="320" height="14" fill="#E3E8F2"/>
+<rect x="410" y="232" width="320" height="14" fill="#E3E8F2"/>
+<rect x="410" y="254" width="320" height="14" fill="#E3E8F2"/>
+<rect x="410" y="276" width="320" height="14" fill="#E3E8F2"/>
+<rect x="410" y="298" width="320" height="14" fill="#E3E8F2"/>
+<rect x="410" y="320" width="320" height="14" fill="#E3E8F2"/>
+<rect x="410" y="342" width="320" height="14" fill="#E3E8F2"/>
+<rect x="560" y="122" width="8" height="14" fill="#F39B7F"/>
+<rect x="470" y="144" width="8" height="14" fill="#6B6B66"/>
+<rect x="640" y="166" width="8" height="14" fill="#6B6B66"/>
+<rect x="520" y="210" width="8" height="14" fill="#F39B7F"/>
+<rect x="690" y="232" width="8" height="14" fill="#6B6B66"/>
+<rect x="500" y="276" width="8" height="14" fill="#F39B7F"/>
+<rect x="610" y="298" width="8" height="14" fill="#6B6B66"/>
+<rect x="450" y="320" width="8" height="14" fill="#6B6B66"/>
+<rect x="660" y="342" width="8" height="14" fill="#F39B7F"/>
+<text x="570" y="388" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">多圈重读 ≥10 圈</text>
+<line x1="280" y1="445" x2="380" y2="445" stroke="#00A087" stroke-width="8" stroke-linecap="round"/>
+<polygon points="380,445 363.56439907437846,452.3396881550723 363.56439907437846,437.6603118449277" fill="#00A087"/>
+<rect x="380" y="420" width="110" height="52" fill="#00A087" rx="10"/>
+<text x="435" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">HiFi</text>
+<text x="510" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">多数票压随机错误</text>
+<rect x="430" y="530" width="330" height="84" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="595" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">同聚物残留 92%</text>
+</svg>

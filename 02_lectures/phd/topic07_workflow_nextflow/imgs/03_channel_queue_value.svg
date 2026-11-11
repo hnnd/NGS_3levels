@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">channel 两种语义：queue 取一次即空，value 可重复消费</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">静默饿死 ｜ 接线及格线 —— 依据 07_workflow_nextflow_lecture.md ④4.2</text>
+  <!-- 图例 -->
+  <rect x="926" y="36" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="46" font-size="12" fill="#33332E">queue channel（逐元素，一次）</text>
+  <rect x="926" y="58" width="12" height="12" fill="#8491B4"/>
+  <text x="946" y="68" font-size="12" fill="#33332E">value channel（单值，无限次）</text>
+  <rect x="926" y="80" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="90" font-size="12" fill="#33332E">拿到输入的任务</text>
+  <rect x="926" y="102" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="112" font-size="12" fill="#33332E">静默错误（不报错）</text>
+
+  <!-- ============ 面板 A：queue 被取光 ============ -->
+  <rect x="48" y="124" width="544" height="556" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="17" font-weight="bold" fill="#3C5488">错误版：queue 被第一个消费者取光</text>
+  <text x="72" y="178" font-size="12" fill="#6B6B66">ch_index = SALMON_INDEX.out.index（上游 Channel.fromPath）</text>
+  <line x1="72" y1="192" x2="568" y2="192" stroke="#E9E9E5"/>
+
+  <rect x="72" y="210" width="190" height="56" rx="8" fill="#4DBBD5"/>
+  <text x="167" y="233" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">salmon 索引 ×1</text>
+  <text x="167" y="253" font-size="10" fill="#FFFFFF" text-anchor="middle">queue channel 的元素</text>
+  <line x1="262" y1="238" x2="296" y2="238" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="302,238 294,234 294,242" fill="#6B6B66"/>
+
+  <rect x="308" y="216" width="236" height="44" rx="8" fill="#00A087"/>
+  <text x="426" y="243" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">QUANT CK_1 · 拿到索引</text>
+  <rect x="308" y="268" width="236" height="44" rx="8" fill="#FFFFFF" stroke="#E64B35" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="426" y="295" font-size="11.5" fill="#E64B35" text-anchor="middle">QUANT CK_2 · 空输入，静默跳过</text>
+  <rect x="308" y="320" width="236" height="44" rx="8" fill="#FFFFFF" stroke="#E64B35" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="426" y="347" font-size="11.5" fill="#E64B35" text-anchor="middle">QUANT CK_3 · 空输入，静默跳过</text>
+  <rect x="308" y="372" width="236" height="44" rx="8" fill="#FFFFFF" stroke="#E64B35" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="426" y="399" font-size="11.5" fill="#E64B35" text-anchor="middle">QUANT CK_4 · 空输入，静默跳过</text>
+
+  <text x="167" y="286" font-size="10.5" font-weight="bold" fill="#E64B35" text-anchor="middle">取完即空</text>
+  <text x="167" y="304" font-size="10.5" fill="#E64B35" text-anchor="middle">后面的消费者无元素可拿</text>
+
+  <rect x="72" y="440" width="496" height="60" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="72" y="440" width="4" height="60" rx="2" fill="#E64B35"/>
+  <text x="92" y="464" font-size="12.5" font-weight="bold" fill="#E64B35">[SUCCESS] completed=7 failed=0 —— 报的是成功</text>
+  <text x="92" y="486" font-size="12" fill="#33332E">4×FASTP + 1×INDEX + 1×QUANT + 1×MERGE = 7（应得 10）</text>
+
+  <text x="72" y="524" font-size="12" fill="#33332E">计数矩阵只剩一列，哪一列幸存取决于哪个 FASTP</text>
+  <text x="72" y="544" font-size="12" fill="#33332E">先跑完——同一段代码，结果不可复现（④2 实测）</text>
+
+  <rect x="72" y="568" width="496" height="88" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="72" y="568" width="4" height="88" rx="2" fill="#3C5488"/>
+  <text x="92" y="592" font-size="12" fill="#33332E">Snakemake 里不存在这种错：目标文件缺了就报</text>
+  <text x="92" y="612" font-size="12" fill="#33332E">MissingInputException；push 模型为灵活性付出的</text>
+  <text x="92" y="632" font-size="12" fill="#33332E">最大代价，就是这类只有 Nextflow 才有的静默错误</text>
+
+  <!-- ============ 面板 B：value 可重复消费 ============ -->
+  <rect x="616" y="124" width="536" height="556" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="640" y="156" font-size="17" font-weight="bold" fill="#3C5488">正确版：value channel 可重复消费</text>
+  <text x="640" y="178" font-size="12" fill="#6B6B66">Channel.value(...) 或 SALMON_INDEX.out.index.first()</text>
+  <line x1="640" y1="192" x2="1128" y2="192" stroke="#E9E9E5"/>
+
+  <rect x="640" y="210" width="190" height="56" rx="8" fill="#8491B4"/>
+  <text x="735" y="233" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">salmon 索引 ×1</text>
+  <text x="735" y="253" font-size="10" fill="#FFFFFF" text-anchor="middle">value channel 的单值</text>
+
+  <polyline points="830,238 851,238 851,238 866,238" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="872,238 864,234 864,242" fill="#6B6B66"/>
+  <polyline points="830,238 851,238 851,290 866,290" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="872,290 864,286 864,294" fill="#6B6B66"/>
+  <polyline points="830,238 851,238 851,342 866,342" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="872,342 864,338 864,346" fill="#6B6B66"/>
+  <polyline points="830,238 851,238 851,394 866,394" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="872,394 864,390 864,398" fill="#6B6B66"/>
+
+  <rect x="872" y="216" width="232" height="44" rx="8" fill="#00A087"/>
+  <text x="988" y="243" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">QUANT CK_1 · 拿到副本</text>
+  <rect x="872" y="268" width="232" height="44" rx="8" fill="#00A087"/>
+  <text x="988" y="295" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">QUANT CK_2 · 拿到副本</text>
+  <rect x="872" y="320" width="232" height="44" rx="8" fill="#00A087"/>
+  <text x="988" y="347" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">QUANT CK_3 · 拿到副本</text>
+  <rect x="872" y="372" width="232" height="44" rx="8" fill="#00A087"/>
+  <text x="988" y="399" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">QUANT CK_4 · 拿到副本</text>
+
+  <text x="735" y="286" font-size="10.5" fill="#8491B4" text-anchor="middle">每个消费者都得到</text>
+  <text x="735" y="304" font-size="10.5" fill="#8491B4" text-anchor="middle">同一个元素</text>
+
+  <rect x="640" y="440" width="488" height="60" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="640" y="440" width="4" height="60" rx="2" fill="#00A087"/>
+  <text x="660" y="464" font-size="12.5" font-weight="bold" fill="#00A087">[SUCCESS] completed=10 failed=0</text>
+  <text x="660" y="486" font-size="12" fill="#33332E">4×FASTP + 1×INDEX + 4×QUANT + 1×MERGE = 10（⑤ 步骤 2 验收）</text>
+
+  <rect x="640" y="516" width="488" height="84" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="640" y="516" width="4" height="84" rx="2" fill="#3C5488"/>
+  <text x="660" y="540" font-size="12" fill="#33332E">process 输出 channel 的类型继承自输入：输入是</text>
+  <text x="660" y="560" font-size="12" fill="#33332E">value 时 .first() 冗余——会打 WARN，那是好事；</text>
+  <text x="660" y="580" font-size="12" fill="#33332E">但把它留着：零成本的保险，防止上游改回 fromPath</text>
+
+  <rect x="640" y="616" width="488" height="44" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="640" y="616" width="4" height="44" rx="2" fill="#3C5488"/>
+  <text x="660" y="644" font-size="12.5" font-weight="bold" fill="#3C5488">判据：任务数与样本数对不上 = channel 接线错了</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="1104" height="58" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="48" y="696" width="4" height="58" rx="2" fill="#3C5488"/>
+  <text x="66" y="718" font-size="12.5" fill="#33332E">产生方式——queue：Channel.of / fromPath / fromFilePairs、算子的默认输出；value：Channel.value(x)、.first()、.collect()、.toList()。</text>
+  <text x="66" y="740" font-size="12.5" fill="#33332E">典型用途——queue：N 个样本；value：1 份参考基因组、1 个索引、1 个阈值。分清两者是本讲的及格线，也是 ⑧ AI 核查的第 1 条。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

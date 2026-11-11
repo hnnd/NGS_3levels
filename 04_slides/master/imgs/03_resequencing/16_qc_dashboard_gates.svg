@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="46" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">质控四指标</text>
+<rect x="40" y="70" width="350" height="250" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="215" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">比对率</text>
+<text x="215" y="154" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">mapped (%)</text>
+<rect x="80" y="180" width="270" height="40" fill="#E9E9E5" rx="20"/>
+<rect x="80" y="180" width="216" height="40" fill="#00A087" rx="20"/>
+<text x="80" y="260" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">&lt;85%</text>
+<text x="350" y="260" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">&gt;95%</text>
+<text x="215" y="298" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">样本异常预警 参考选错</text>
+<rect x="420" y="70" width="350" height="250" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="595" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">配对率</text>
+<text x="595" y="154" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">properly paired</text>
+<rect x="460" y="180" width="270" height="40" fill="#E9E9E5" rx="20"/>
+<rect x="460" y="180" width="216" height="40" fill="#4DBBD5" rx="20"/>
+<text x="460" y="260" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">偏低</text>
+<text x="730" y="260" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">匹配文库</text>
+<text x="595" y="298" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">查插入片段长度</text>
+<rect x="40" y="356" width="350" height="250" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="215" y="402" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">重复率</text>
+<text x="215" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">PERCENT_DUP</text>
+<rect x="80" y="466" width="270" height="40" fill="#E9E9E5" rx="20"/>
+<rect x="80" y="466" width="216" height="40" fill="#F39B7F" rx="20"/>
+<text x="80" y="546" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">—</text>
+<text x="350" y="546" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">无红线</text>
+<text x="215" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">结合文库与深度</text>
+<rect x="420" y="356" width="350" height="250" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="595" y="402" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">可判定区</text>
+<text x="595" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">callable region</text>
+<rect x="460" y="466" width="270" height="40" fill="#E9E9E5" rx="20"/>
+<rect x="460" y="466" width="216" height="40" fill="#00A087" rx="20"/>
+<text x="460" y="546" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">—</text>
+<text x="730" y="546" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">必须进报告</text>
+<text x="595" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">阴性结论范围</text>
+<text x="400" y="664" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">每份报告四个数；重复率无通用红线</text>
+</svg>

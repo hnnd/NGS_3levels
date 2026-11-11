@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">数据框解剖：行是观测，列是变量</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">vector ｜ data.frame ｜ factor —— 依据 02_r_visualization_lecture.md ④4.1–4.2 · ⑤步骤 1</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="57" font-size="12" fill="#33332E">正确 / 应得</text>
+  <rect x="1046" y="46" width="12" height="12" fill="#E64B35"/>
+  <text x="1066" y="57" font-size="12" fill="#33332E">高频易错点</text>
+
+  <!-- ============ 左面板：vector 与 list ============ -->
+  <rect x="48" y="120" width="300" height="620" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="68" y="154" font-size="15" font-weight="bold" fill="#3C5488">先认两种容器</text>
+  <line x1="68" y1="168" x2="328" y2="168" stroke="#E9E9E5"/>
+
+  <text x="68" y="196" font-size="13.5" font-weight="bold" fill="#3C8DAD">vector 向量 = 一排试管</text>
+  <rect x="68" y="210" width="30" height="62" rx="4" fill="#4DBBD5"/>
+  <rect x="108" y="210" width="30" height="62" rx="4" fill="#4DBBD5"/>
+  <rect x="148" y="210" width="30" height="62" rx="4" fill="#4DBBD5"/>
+  <rect x="188" y="210" width="30" height="62" rx="4" fill="#4DBBD5"/>
+  <rect x="228" y="210" width="30" height="62" rx="4" fill="#4DBBD5"/>
+  <text x="68" y="296" font-size="11.5" fill="#33332E">元素必须同类型：一列表达值、一列长度</text>
+  <text x="68" y="320" font-size="11.5" fill="#33332E">混进一个字符，整排都变字符</text>
+  <text x="68" y="348" font-size="11.5" font-weight="bold" fill="#E64B35">混进 NA 或 1,234：整列变 &lt;chr&gt;，</text>
+  <text x="68" y="368" font-size="11.5" font-weight="bold" fill="#E64B35">画图时 10 排在 9 前面（④4.1）</text>
+
+  <text x="68" y="416" font-size="13.5" font-weight="bold" fill="#6D7BA6">list 列表 = 杂物箱</text>
+  <rect x="68" y="428" width="240" height="104" rx="8" fill="#FFFFFF" stroke="#8491B4" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <rect x="88" y="448" width="26" height="26" rx="4" fill="#3C5488"/>
+  <circle cx="146" cy="461" r="13" fill="#4DBBD5"/>
+  <rect x="176" y="448" width="26" height="26" rx="4" fill="#F39B7F"/>
+  <rect x="216" y="442" width="72" height="38" rx="5" fill="none" stroke="#8491B4" stroke-width="1.4"/>
+  <rect x="224" y="450" width="22" height="22" rx="3" fill="#8491B4"/>
+  <rect x="252" y="450" width="22" height="22" rx="3" fill="#8491B4"/>
+  <text x="88" y="514" font-size="10.5" fill="#6B6B66">箱子里还能再放箱子（可嵌套）</text>
+  <text x="68" y="558" font-size="11.5" fill="#33332E">什么都能装；DESeq2 / Seurat 返回的都是它</text>
+
+  <text x="68" y="604" font-size="11.5" fill="#6B6B66">matrix = "全表同类型"的 data.frame（表达矩阵）</text>
+  <text x="68" y="648" font-size="12.5" font-weight="bold" fill="#3C5488">用 glimpse(df) 随时确认类型（⑤步骤 1）</text>
+  <text x="68" y="674" font-size="11" fill="#6B6B66">&lt;dbl&gt; 数值 · &lt;chr&gt; 字符 · &lt;fct&gt; 因子</text>
+
+  <!-- ============ 中面板：data.frame ============ -->
+  <rect x="372" y="120" width="380" height="620" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="392" y="154" font-size="15" font-weight="bold" fill="#3C5488">data.frame：一张规矩的 Excel 表</text>
+  <text x="392" y="176" font-size="11.5" fill="#6B6B66">QUAST 报告、样本信息表都是它（④4.1）</text>
+  <line x1="392" y1="190" x2="732" y2="190" stroke="#E9E9E5"/>
+
+  <!-- 表 -->
+  <rect x="392" y="204" width="340" height="36" fill="#3C5488"/>
+  <text x="462" y="228" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">assembler</text>
+  <text x="582" y="228" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">contigs</text>
+  <text x="682" y="228" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">N50_Mb</text>
+  <rect x="392" y="240" width="340" height="24" fill="#FAFAF7"/>
+  <text x="462" y="257" font-size="11" fill="#3C8DAD" text-anchor="middle">&lt;chr&gt;</text>
+  <text x="582" y="257" font-size="11" fill="#00A087" text-anchor="middle">&lt;dbl&gt;</text>
+  <text x="682" y="257" font-size="11" fill="#00A087" text-anchor="middle">&lt;dbl&gt;</text>
+  <rect x="392" y="264" width="340" height="34" fill="#FFFFFF"/>
+  <text x="462" y="286" font-size="12" fill="#33332E" text-anchor="middle">Canu</text>
+  <text x="582" y="286" font-size="12" fill="#33332E" text-anchor="middle">3</text>
+  <text x="682" y="286" font-size="12" fill="#33332E" text-anchor="middle">2.1</text>
+  <rect x="392" y="298" width="340" height="34" fill="#FAFAF7"/>
+  <text x="462" y="320" font-size="12" fill="#33332E" text-anchor="middle">Flye</text>
+  <text x="582" y="320" font-size="12" fill="#33332E" text-anchor="middle">5</text>
+  <text x="682" y="320" font-size="12" fill="#33332E" text-anchor="middle">1.7</text>
+  <rect x="392" y="332" width="340" height="30" fill="#FFFFFF"/>
+  <text x="462" y="352" font-size="12" fill="#6B6B66" text-anchor="middle">…</text>
+  <text x="582" y="352" font-size="12" fill="#6B6B66" text-anchor="middle">…</text>
+  <text x="682" y="352" font-size="12" fill="#6B6B66" text-anchor="middle">…</text>
+  <rect x="392" y="204" width="340" height="158" fill="none" stroke="#E9E9E5"/>
+  <line x1="532" y1="204" x2="532" y2="362" stroke="#E9E9E5"/>
+  <line x1="632" y1="204" x2="632" y2="362" stroke="#E9E9E5"/>
+
+  <!-- 表的注释 -->
+  <text x="392" y="396" font-size="12.5" fill="#33332E">每一行 = 一个观测：一个组装器的结果</text>
+  <text x="392" y="420" font-size="12.5" fill="#33332E">每一列 = 一个变量：一个指标</text>
+  <text x="392" y="444" font-size="12.5" fill="#33332E">每列内部同类型，列与列之间可不同</text>
+  <text x="392" y="468" font-size="12.5" fill="#33332E">所有列等长——不然构不成表</text>
+
+  <text x="392" y="516" font-size="13.5" font-weight="bold" fill="#3C5488">读完 30 秒自检（⑤步骤 1）</text>
+  <text x="392" y="544" font-size="12" fill="#33332E">dim(quast)　　→ 几行几列对不对</text>
+  <text x="392" y="568" font-size="12" fill="#33332E">head(quast)　→ 前几行长什么样</text>
+  <text x="392" y="592" font-size="12" fill="#33332E">glimpse(quast) → 每列类型对不对</text>
+  <text x="392" y="626" font-size="11" fill="#6B6B66">readr 不改列名；read.csv() 会把 N50 (bp) 改成</text>
+  <text x="392" y="644" font-size="11" fill="#6B6B66">N50..bp.——这是"列名找不到"的常见来源</text>
+
+  <!-- ============ 右面板：factor ============ -->
+  <rect x="776" y="120" width="376" height="620" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="796" y="154" font-size="15" font-weight="bold" fill="#3C5488">factor：给类别印好出场顺序</text>
+  <text x="796" y="176" font-size="11.5" fill="#6B6B66">以 BUSCO 四类结果为例（④4.2 · ⑤步骤 4.3）</text>
+  <line x1="796" y1="190" x2="1132" y2="190" stroke="#E9E9E5"/>
+
+  <text x="796" y="216" font-size="12" fill="#6B6B66">字符型默认：按字母序排（读起来别扭）</text>
+  <rect x="796" y="226" width="76" height="28" rx="5" fill="#F1F1EC"/>
+  <text x="834" y="245" font-size="11" fill="#6B6B66" text-anchor="middle">Duplicated</text>
+  <rect x="880" y="226" width="76" height="28" rx="5" fill="#F1F1EC"/>
+  <text x="918" y="245" font-size="11" fill="#6B6B66" text-anchor="middle">Fragmented</text>
+  <rect x="964" y="226" width="58" height="28" rx="5" fill="#F1F1EC"/>
+  <text x="993" y="245" font-size="11" fill="#6B6B66" text-anchor="middle">Missing</text>
+  <rect x="1030" y="226" width="82" height="28" rx="5" fill="#F1F1EC"/>
+  <text x="1071" y="245" font-size="11" fill="#6B6B66" text-anchor="middle">Single-copy</text>
+  <text x="796" y="278" font-size="11" fill="#6B6B66">D → F → M → S：一眼看不出"完整度"在哪</text>
+
+  <rect x="796" y="296" width="336" height="76" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="812" y="322" font-size="11.5" fill="#33332E">busco$category &lt;- factor(busco$category,</text>
+  <text x="812" y="342" font-size="11.5" fill="#33332E">　levels = c("Single-copy", "Duplicated",</text>
+  <text x="812" y="362" font-size="11.5" fill="#33332E">　　　　　　　"Fragmented", "Missing"))</text>
+
+  <text x="796" y="402" font-size="12" font-weight="bold" fill="#00A087">设好 levels：按内在顺序出场</text>
+  <rect x="796" y="412" width="82" height="28" rx="5" fill="#00A087"/>
+  <text x="837" y="431" font-size="11" fill="#FFFFFF" text-anchor="middle">Single-copy</text>
+  <rect x="886" y="412" width="76" height="28" rx="5" fill="#4DBBD5"/>
+  <text x="924" y="431" font-size="11" fill="#33332E" text-anchor="middle">Duplicated</text>
+  <rect x="970" y="412" width="76" height="28" rx="5" fill="#F39B7F"/>
+  <text x="1008" y="431" font-size="11" fill="#33332E" text-anchor="middle">Fragmented</text>
+  <rect x="1054" y="412" width="58" height="28" rx="5" fill="#8491B4"/>
+  <text x="1083" y="431" font-size="11" fill="#FFFFFF" text-anchor="middle">Missing</text>
+
+  <text x="796" y="478" font-size="11.5" fill="#33332E">Single + Duplicated = 完整度 C；</text>
+  <text x="796" y="498" font-size="11.5" fill="#33332E">Duplicated 偏高提示组装冗余，不是基因加倍（⑤4.3）</text>
+
+  <rect x="796" y="530" width="336" height="110" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.6"/>
+  <text x="812" y="560" font-size="12.5" font-weight="bold" fill="#00A087">图上分类顺序不对，九成是</text>
+  <text x="812" y="582" font-size="12.5" font-weight="bold" fill="#00A087">因为没设 factor levels（④4.2）</text>
+  <text x="812" y="612" font-size="11" fill="#6B6B66">有内在顺序的类别必须按内在顺序排，</text>
+  <text x="812" y="630" font-size="11" fill="#6B6B66">不是字母序（⑥6.1 验收清单）</text>
+
+  <!-- 页脚 -->
+  <text x="1152" y="770" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

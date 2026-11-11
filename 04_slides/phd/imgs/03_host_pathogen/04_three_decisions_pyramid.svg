@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Three decisions fixed before sequencing</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<polygon points="250.0,84 550.0,84 605.0,200 195.0,200" fill="#E7EAF1" stroke="#8491B4" stroke-width="4" stroke-linejoin="round"/>
+<text x="400" y="153.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">对照决定可问性</text>
+<polygon points="195.0,206 605.0,206 655.0,322 145.0,322" fill="#E7F5F8" stroke="#4DBBD5" stroke-width="4" stroke-linejoin="round"/>
+<text x="400" y="275.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#4DBBD5" text-anchor="middle" font-weight="bold">建库兼容保物种</text>
+<polygon points="145.0,328 655.0,328 710.0,444 90.0,444" fill="#E3E8F2" stroke="#3C5488" stroke-width="4" stroke-linejoin="round"/>
+<text x="400" y="397.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">深度倒推算预算</text>
+<rect x="120" y="500" width="560" height="2" fill="#6B6B66"/>
+<rect x="127.2" y="589.4" width="41.6" height="31.2" fill="#E64B35" rx="6"/>
+<path d="M 135.52 589.4 L 135.52 575.88 Q 148 563.4 160.48 575.88 L 160.48 589.4" fill="none" stroke="#E64B35" stroke-width="5.72" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="190" y="604" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">前置锁定上限</text>
+<path d="M 148 560 L 148 520" fill="none" stroke="#E64B35" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7"/>
+</svg>

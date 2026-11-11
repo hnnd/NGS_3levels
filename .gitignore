@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.fastq.gz
+*.fq.gz
+*.bam
+NGS_datasets/

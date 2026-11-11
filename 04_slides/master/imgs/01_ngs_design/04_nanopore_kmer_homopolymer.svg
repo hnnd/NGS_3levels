@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="60" width="720" height="320" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<rect x="70" y="140" width="660" height="70" fill="#3C5488"/>
+<rect x="70" y="310" width="660" height="70" fill="#3C5488"/>
+<rect x="360" y="140" width="80" height="240" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<line x1="400" y1="100" x2="400" y2="390" stroke="#4DBBD5" stroke-width="9" stroke-linecap="butt"/>
+<rect x="392" y="112" width="16" height="16" fill="#00A087" rx="3"/>
+<rect x="392" y="145" width="16" height="16" fill="#4DBBD5" rx="3"/>
+<rect x="392" y="178" width="16" height="16" fill="#F39B7F" rx="3"/>
+<rect x="392" y="211" width="16" height="16" fill="#8491B4" rx="3"/>
+<rect x="392" y="244" width="16" height="16" fill="#00A087" rx="3"/>
+<rect x="392" y="277" width="16" height="16" fill="#4DBBD5" rx="3"/>
+<rect x="392" y="310" width="16" height="16" fill="#F39B7F" rx="3"/>
+<rect x="392" y="343" width="16" height="16" fill="#8491B4" rx="3"/>
+<rect x="375" y="232" width="50" height="52" fill="none" rx="8" stroke="#3C8DAD" stroke-width="6"/>
+<line x1="425" y1="258" x2="500" y2="258" stroke="#3C8DAD" stroke-width="4" stroke-linecap="butt"/>
+<text x="510" y="268" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="start" font-weight="bold">5–6 nt 感应窗口</text>
+<rect x="40" y="400" width="350" height="240" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<polyline points="66,492 85,492 85,560 104,560 104,458 123,458 123,526 142,526 142,492 161,492 161,458 180,458 180,560 199,560 199,526 218,526 218,492 237,492 237,526 256,526 256,458 275,458 275,492 294,492 294,560 313,560 313,492 332,492 332,526 351,526 351,458 370,458" fill="none" stroke="#3C8DAD" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="215" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">序列起伏：丰富阶梯</text>
+<rect x="410" y="400" width="350" height="240" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="436" y1="566" x2="736" y2="566" stroke="#F39B7F" stroke-width="7" stroke-linecap="butt"/>
+<text x="586" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">同聚物：电流平直</text>
+<text x="586" y="480" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">易致 InDel</text>
+</svg>

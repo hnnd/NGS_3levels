@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="108" y="66" width="636" height="70" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<circle cx="62" cy="101.0" r="18" fill="#3C5488"/>
+<text x="62" y="112.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<text x="134" y="113.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">截断过滤</text>
+<text x="718" y="113.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">filterAndTrim</text>
+<line x1="62" y1="120.0" x2="62" y2="168.0" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="62,168.0 57.10687456328516,157.0429327162523 66.89312543671484,157.0429327162523" fill="#4DBBD5"/>
+<rect x="108" y="154" width="636" height="70" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<circle cx="62" cy="189.0" r="18" fill="#3C5488"/>
+<text x="62" y="200.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<text x="134" y="201.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">学习模型</text>
+<text x="718" y="201.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">learnErrors</text>
+<line x1="62" y1="208.0" x2="62" y2="256.0" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="62,256.0 57.10687456328516,245.0429327162523 66.89312543671484,245.0429327162523" fill="#4DBBD5"/>
+<rect x="108" y="242" width="636" height="70" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<circle cx="62" cy="277.0" r="18" fill="#3C5488"/>
+<text x="62" y="288.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="134" y="289.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">去噪推断</text>
+<text x="718" y="289.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">dada</text>
+<line x1="62" y1="296.0" x2="62" y2="344.0" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="62,344.0 57.10687456328516,333.0429327162523 66.89312543671484,333.0429327162523" fill="#4DBBD5"/>
+<rect x="108" y="330" width="636" height="70" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<circle cx="62" cy="365.0" r="18" fill="#3C5488"/>
+<text x="62" y="376.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">4</text>
+<text x="134" y="377.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">双端拼接</text>
+<text x="718" y="377.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">mergePairs</text>
+<line x1="62" y1="384.0" x2="62" y2="432.0" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="62,432.0 57.10687456328516,421.0429327162523 66.89312543671484,421.0429327162523" fill="#4DBBD5"/>
+<rect x="108" y="418" width="636" height="70" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<circle cx="62" cy="453.0" r="18" fill="#3C5488"/>
+<text x="62" y="464.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">5</text>
+<text x="134" y="465.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">建表</text>
+<text x="718" y="465.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">makeSequenceTable</text>
+<line x1="62" y1="472.0" x2="62" y2="520.0" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="62,520.0 57.10687456328516,509.0429327162523 66.89312543671484,509.0429327162523" fill="#4DBBD5"/>
+<rect x="108" y="506" width="636" height="70" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="3"/>
+<circle cx="62" cy="541.0" r="18" fill="#00A087"/>
+<text x="62" y="552.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">6</text>
+<text x="134" y="553.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">去嵌合</text>
+<text x="718" y="553.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">removeBimeraDenovo</text>
+<line x1="400" y1="582" x2="400" y2="612" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="400,612 394.29135365716604,599.2167548356277 405.70864634283396,599.2167548356276" fill="#00A087"/>
+<rect x="310.68375000000003" y="615.08" width="178.6325" height="57.84" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="3"/>
+<text x="400" y="654.24" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">ASV table</text>
+</svg>

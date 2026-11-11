@@ -1,0 +1,31 @@
+# 博士生 · 环境 6/6：工作流开发
+# 覆盖专题：p07 Nextflow / Snakemake 工作流开发
+# 创建：conda env create -f env_phd_workflow.yml   激活：conda activate ngs_phd_workflow
+#
+# 【不走 conda】Docker 与 Singularity/Apptainer 是系统级容器运行时，
+# 需管理员安装（见契约 env_exempt_tools）。
+# 【前置】本专题起点上移：学生应已在硕士 m08 学过 Snakemake rule 编写。
+
+name: ngs_phd_workflow
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # 【生态性断裂】setuptools 82.0.0（2026-02-08）移除了 pkg_resources（81.x 仍含），而 bioconda 上
+  # 2023-2024 年的 Python 工具（multiqc 1.14、macs2、部分 deeptools 子命令等）仍 import 它，
+  # 表现为 `ModuleNotFoundError: No module named 'pkg_resources'`。全课程统一钉 <81（比必要的 <82 多保守一档，已实测可用）。
+  - setuptools<81
+  # 【版本提示】24+ 的解析器显著更严：禁止 config 里的 `def` 变量、
+  # 禁止脚本顶层 `workflow.onComplete`、`include` 必须写全 `.nf` 后缀。
+  # 课程流程写成两版都能跑的形态；若集群已装更高版本，以集群版本为准。
+  # 【钉区间】只钉下限 = 把下一次破坏性升级交给学生（26.10 起 workflow 内 return 编译失败）。
+  # 集群实装 26.04.6；课程流程在 26.04.x 上验证过。升级前先在 ASCII 路径下重测 main.nf。
+  - nextflow>=23.04,<26.10
+
+  - snakemake=7.28.1
+  - openjdk           # Nextflow 依赖 JVM
+  - graphviz          # DAG 渲染
+  - quarto
+  - r-base=4.3.1

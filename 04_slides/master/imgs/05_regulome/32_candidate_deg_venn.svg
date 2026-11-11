@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">多组学求交</text>
+<circle cx="172" cy="290" r="104" fill="#4DBBD5" stroke="#4DBBD5" stroke-width="3"/>
+<circle cx="308" cy="290" r="104" fill="#8491B4" stroke="#8491B4" stroke-width="3"/>
+<path d="M 240.0 211.3 A 104 104 0 0 1 240.0 368.7 A 104 104 0 0 1 240.0 211.3 Z" fill="#00A087"/>
+<text x="140" y="452" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">峰关联基因</text>
+<text x="352" y="452" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#5C6C8C" text-anchor="middle" font-weight="bold">差异表达基因</text>
+<line x1="496" y1="412" x2="762" y2="412" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="496" y1="412" x2="496" y2="236" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="496" y="458" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">null</text>
+<text x="762" y="458" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="end" font-weight="bold">obs</text>
+<rect x="499.0" y="374.6211399397515" width="16.166666666666668" height="37.3788600602485" fill="#8491B4" rx="3"/>
+<rect x="521.1666666666666" y="358.81787277570606" width="16.166666666666668" height="53.18212722429392" fill="#8491B4" rx="3"/>
+<rect x="543.3333333333334" y="349.028343001262" width="16.166666666666668" height="62.971656998737984" fill="#8491B4" rx="3"/>
+<rect x="565.5" y="349.9467828553703" width="16.166666666666668" height="62.05321714462969" fill="#8491B4" rx="3"/>
+<rect x="587.6666666666666" y="361.1110783535406" width="16.166666666666668" height="50.88892164645937" fill="#8491B4" rx="3"/>
+<rect x="609.8333333333334" y="377.26862649920326" width="16.166666666666668" height="34.73137350079673" fill="#8491B4" rx="3"/>
+<rect x="632.0" y="392.27302776534066" width="16.166666666666668" height="19.726972234659343" fill="#8491B4" rx="3"/>
+<rect x="654.1666666666667" y="402.6752183144759" width="16.166666666666668" height="9.324781685524108" fill="#8491B4" rx="3"/>
+<rect x="676.3333333333334" y="408.33176899952247" width="16.166666666666668" height="3.6682310004775376" fill="#8491B4" rx="3"/>
+<rect x="698.5" y="410.79907898289906" width="16.166666666666668" height="1.2009210171009104" fill="#8491B4" rx="3"/>
+<rect x="720.6666666666667" y="411.67280099180186" width="16.166666666666668" height="0.32719900819814934" fill="#8491B4" rx="3"/>
+<rect x="742.8333333333334" y="411.92580933287013" width="16.166666666666668" height="0.07419066712989378" fill="#8491B4" rx="3"/>
+<line x1="742" y1="412" x2="742" y2="230" stroke="#00A087" stroke-width="6" stroke-linecap="butt" stroke-dasharray="14 9"/>
+<line x1="420" y1="300" x2="484" y2="356" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="484,356 470.62045768512104,351.8783683516884 478.13879752801694,343.2859799598074" fill="#6B6B66"/>
+<text x="400" y="556" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">集合互证</text>
+<text x="400" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">置换检验</text>
+</svg>

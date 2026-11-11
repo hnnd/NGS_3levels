@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="44" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">JEXL 静默 PASS</text>
+<rect x="40" y="70" width="720" height="100" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="95" y="114" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">1</text>
+<rect x="120" y="88" width="440" height="62" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="340" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">QD=1.8  DP=62（无 MQRankSum）</text>
+<text x="635" y="114" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">标签缺失</text>
+<text x="648" y="152" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">无 INFO 标签</text>
+<line x1="400" y1="170" x2="400" y2="206" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="400,206 392.6603118449277,189.56439907437846 407.3396881550723,189.56439907437846" fill="#6B6B66"/>
+<rect x="40" y="210" width="720" height="130" fill="#FFFFFF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="100" y="254" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">2</text>
+<text x="240" y="254" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">表达式求值</text>
+<rect x="400" y="226" width="330" height="52" fill="#FFFFFF" rx="8" stroke="#F39B7F" stroke-width="3"/>
+<text x="565" y="262" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">MQRankSum &lt; -12.5</text>
+<text x="270" y="304" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle">WARN: undefined variable</text>
+<text x="600" y="304" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">变量未定义</text>
+<text x="270" y="336" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">退出码 0</text>
+<text x="600" y="336" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">退出码零</text>
+<line x1="400" y1="340" x2="400" y2="366" stroke="#E64B35" stroke-width="6" stroke-linecap="round"/>
+<polygon points="400,366 392.6603118449277,349.56439907437846 407.3396881550723,349.56439907437846" fill="#E64B35"/>
+<rect x="40" y="370" width="460" height="130" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="100" y="412" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">3</text>
+<text x="260" y="412" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">默认放行</text>
+<line x1="130" y1="462" x2="400" y2="462" stroke="#E64B35" stroke-width="8" stroke-linecap="butt"/>
+<line x1="185" y1="440" x2="228" y2="484" stroke="#E64B35" stroke-width="6" stroke-linecap="butt"/>
+<line x1="270" y1="440" x2="313" y2="484" stroke="#E64B35" stroke-width="6" stroke-linecap="butt"/>
+<line x1="355" y1="440" x2="398" y2="484" stroke="#E64B35" stroke-width="6" stroke-linecap="butt"/>
+<text x="265" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">门禁破损，静默 PASS</text>
+<rect x="540" y="390" width="200" height="90" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="640" y="428" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">FILTER</text>
+<text x="640" y="464" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">PASS</text>
+<line x1="500" y1="425" x2="540" y2="425" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="540,425 523.5643990743785,432.3396881550723 523.5643990743785,417.6603118449277" fill="#6B6B66"/>
+<line x1="640" y1="480" x2="640" y2="526" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="640,526 632.6603118449277,509.56439907437846 647.3396881550723,509.56439907437846" fill="#6B6B66"/>
+<rect x="40" y="530" width="720" height="110" fill="#FFFFFF" rx="14" stroke="#E64B35" stroke-width="4"/>
+<text x="100" y="578" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">4</text>
+<text x="300" y="578" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">零拦截警报</text>
+<rect x="520" y="548" width="220" height="56" fill="#F6D8D2" rx="10" stroke="#E64B35" stroke-width="4"/>
+<text x="630" y="586" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">拦截计数 = 0</text>
+<text x="300" y="630" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">质控看似通过；规则形同虚设</text>
+</svg>

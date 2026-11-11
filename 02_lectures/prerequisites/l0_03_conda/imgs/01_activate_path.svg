@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">conda activate 做的事：把 bin/ 摆到手边</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">PATH 从左往右找 ｜ which 是真相 —— 依据 l0_03 核心内容 §1、§6</text>
+  <!-- 图例 -->
+  <rect x="926" y="44" width="12" height="12" fill="#4DBBD5"/>
+  <text x="944" y="54" font-size="12" fill="#33332E">当前环境的 bin/</text>
+  <rect x="926" y="62" width="12" height="12" fill="#3C5488"/>
+  <text x="944" y="72" font-size="12" fill="#33332E">PATH 里的其他目录</text>
+  <rect x="926" y="80" width="12" height="12" fill="#00A087"/>
+  <text x="944" y="90" font-size="12" fill="#33332E">正确指向</text>
+  <rect x="926" y="98" width="12" height="12" fill="#E64B35"/>
+  <text x="944" y="108" font-size="12" fill="#33332E">易错点</text>
+
+  <!-- ============ 面板 A：PATH 前插 ============ -->
+  <rect x="48" y="120" width="1104" height="280" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="16" font-weight="bold" fill="#3C5488">activate = 把这个环境的 bin/ 插到 PATH 最前面</text>
+  <text x="72" y="174" font-size="12.5" fill="#6B6B66">PATH 从左往右找，谁在前谁生效——“装了但用不了”，几乎总是同一个原因：你不在那个环境里</text>
+  <line x1="72" y1="188" x2="1128" y2="188" stroke="#E9E9E5"/>
+
+  <text x="72" y="230" font-size="12.5" font-weight="bold" fill="#6B6B66">激活前</text>
+  <rect x="150" y="210" width="190" height="40" rx="6" fill="#3C5488"/>
+  <text x="245" y="235" font-size="11.5" fill="#FFFFFF" text-anchor="middle">/usr/local/bin</text>
+  <rect x="356" y="210" width="150" height="40" rx="6" fill="#3C5488"/>
+  <text x="431" y="235" font-size="11.5" fill="#FFFFFF" text-anchor="middle">/usr/bin</text>
+  <rect x="522" y="210" width="170" height="40" rx="6" fill="#3C5488"/>
+  <text x="607" y="235" font-size="11.5" fill="#FFFFFF" text-anchor="middle">~/.local/bin</text>
+  <text x="724" y="236" font-size="11.5" fill="#33332E">which samtools</text>
+  <line x1="844" y1="230" x2="876" y2="230" stroke="#F39B7F" stroke-width="2"/>
+  <polygon points="884,230 874,225 874,235" fill="#F39B7F"/>
+  <rect x="892" y="214" width="232" height="32" rx="6" fill="#FAFAF7" stroke="#F39B7F"/>
+  <text x="1008" y="235" font-size="11" fill="#33332E" text-anchor="middle">/usr/bin/samtools（系统旧版）</text>
+
+  <text x="72" y="311" font-size="12.5" font-weight="bold" fill="#3C8DAD">激活后</text>
+  <text x="150" y="281" font-size="11.5" fill="#3C8DAD">$ conda activate ngs_ug_base</text>
+  <path d="M 116 254 C 96 280, 96 306, 128 306" fill="none" stroke="#4DBBD5" stroke-width="2.5"/>
+  <polygon points="136,306 126,300 126,312" fill="#4DBBD5"/>
+  <rect x="150" y="286" width="330" height="40" rx="6" fill="#4DBBD5"/>
+  <text x="315" y="311" font-size="11.5" fill="#FFFFFF" text-anchor="middle">~/miniconda3/envs/ngs_ug_base/bin</text>
+  <rect x="496" y="286" width="170" height="40" rx="6" fill="#3C5488"/>
+  <text x="581" y="311" font-size="11.5" fill="#FFFFFF" text-anchor="middle">/usr/local/bin</text>
+  <rect x="682" y="286" width="130" height="40" rx="6" fill="#3C5488"/>
+  <text x="747" y="311" font-size="11.5" fill="#FFFFFF" text-anchor="middle">/usr/bin</text>
+  <rect x="828" y="286" width="140" height="40" rx="6" fill="#3C5488"/>
+  <text x="898" y="311" font-size="11.5" fill="#FFFFFF" text-anchor="middle">~/.local/bin</text>
+
+  <text x="72" y="358" font-size="12.5" font-weight="bold" fill="#00A087">which samtools → ~/miniconda3/envs/ngs_ug_base/bin/samtools ✓</text>
+  <text x="72" y="384" font-size="12" fill="#6B6B66">作业脚本里同理：echo ${CONDA_DEFAULT_ENV} 自证激活成功（§6）——提示符只是提醒，真相永远问 which</text>
+
+  <!-- ============ 面板 B：自检三连 ============ -->
+  <rect x="48" y="430" width="536" height="250" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="462" font-size="16" font-weight="bold" fill="#3C5488">出事先按顺序问：自检三连</text>
+  <line x1="72" y1="476" x2="560" y2="476" stroke="#E9E9E5"/>
+
+  <circle cx="86" cy="505" r="12" fill="#3C5488"/>
+  <text x="86" y="510" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="110" y="510" font-size="12.5" fill="#33332E">conda env list</text>
+  <text x="110" y="532" font-size="11.5" fill="#6B6B66">我现在在哪个环境？（带 * 的那个）</text>
+
+  <circle cx="86" cy="560" r="12" fill="#3C5488"/>
+  <text x="86" y="565" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="110" y="565" font-size="12.5" fill="#33332E">which samtools</text>
+  <text x="110" y="587" font-size="11.5" fill="#6B6B66">这个命令来自哪个 bin/？</text>
+
+  <circle cx="86" cy="615" r="12" fill="#3C5488"/>
+  <text x="86" y="620" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="110" y="620" font-size="12.5" fill="#33332E">conda list samtools</text>
+  <text x="110" y="642" font-size="11.5" fill="#6B6B66">这个包到底装没装？</text>
+
+  <text x="72" y="668" font-size="11.5" fill="#6B6B66">三连跑完，「包没装」还是「装在别的环境里」，自见分晓</text>
+
+  <!-- ============ 面板 C：qsub 盲区 ============ -->
+  <rect x="608" y="430" width="544" height="250" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="632" y="462" font-size="16" font-weight="bold" fill="#3C5488">qsub 作业：非交互 shell 是盲区</text>
+  <line x1="632" y1="476" x2="1128" y2="476" stroke="#E9E9E5"/>
+
+  <circle cx="640" cy="500" r="5" fill="#00A087"/>
+  <text x="656" y="505" font-size="12" fill="#33332E">交互 shell：读 .bashrc，conda 可用</text>
+  <circle cx="640" cy="528" r="5" fill="#E64B35"/>
+  <text x="656" y="533" font-size="12" font-weight="bold" fill="#E64B35">qsub 作业：不读 .bashrc，conda 未初始化</text>
+  <text x="656" y="558" font-size="11.5" fill="#E64B35">→ 日志一行：samtools: command not found，作业秒退</text>
+
+  <rect x="632" y="576" width="496" height="64" rx="6" fill="#FAFAF7" stroke="#00A087"/>
+  <text x="648" y="596" font-size="12" font-weight="bold" fill="#00A087">作业脚本必须显式写两行，缺一不可</text>
+  <text x="648" y="616" font-size="11.5" fill="#33332E">source /opt/miniconda3/bin/activate</text>
+  <text x="648" y="633" font-size="11.5" fill="#33332E">conda activate ngs_ug_base</text>
+
+  <text x="632" y="666" font-size="11.5" fill="#6B6B66">一个作业只激活一个环境；跨环境流程拆成两个脚本串行提交</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

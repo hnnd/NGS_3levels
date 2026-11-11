@@ -1,0 +1,25 @@
+# 硕士生 · 环境 6/6：分析流程工程化与可重复报告
+# 覆盖专题：m08
+# 创建：conda env create -f env_master_workflow.yml  激活：conda activate ngs_ms_workflow
+#
+# 【不走 conda】Docker 与 Singularity/Apptainer 是系统级容器运行时，
+# 需管理员安装（见契约 env_exempt_tools）。本环境只提供工作流引擎与报告工具。
+
+name: ngs_ms_workflow
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # 【生态性断裂】setuptools 82.0.0（2026-02-08）移除了 pkg_resources（81.x 仍含），而 bioconda 上
+  # 2023-2024 年的 Python 工具（multiqc 1.14、macs2、部分 deeptools 子命令等）仍 import 它，
+  # 表现为 `ModuleNotFoundError: No module named 'pkg_resources'`。全课程统一钉 <81（比必要的 <82 多保守一档，已实测可用）。
+  - setuptools<81
+  - snakemake=7.28.1
+  - quarto
+  - r-base=4.3.1
+  - r-rmarkdown=2.23
+  - r-knitr
+  - r-tidyverse=2.0.0
+  - graphviz          # snakemake --dag 渲染流程图

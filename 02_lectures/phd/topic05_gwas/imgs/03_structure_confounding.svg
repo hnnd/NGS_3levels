@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">群体结构如何伪造关联：Q 与 K 各管一个尺度</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">亚群表型差 × 全基因组频率差 ｜ 朴素回归处处显著 —— 依据 05_gwas_lecture.md ⑦7.1–7.2 · ⑤5.4–5.5</text>
+  <!-- 图例 -->
+  <circle cx="932" cy="41" r="6" fill="#4DBBD5"/>
+  <text x="946" y="45" font-size="12" fill="#33332E">亚群甲（表型均值：高）</text>
+  <circle cx="932" cy="63" r="6" fill="#8491B4"/>
+  <text x="946" y="67" font-size="12" fill="#33332E">亚群乙（表型均值：低）</text>
+  <line x1="926" y1="85" x2="938" y2="85" stroke="#E64B35" stroke-width="2.5"/>
+  <text x="946" y="89" font-size="12" fill="#33332E">朴素回归（不校正）</text>
+  <line x1="926" y1="107" x2="938" y2="107" stroke="#6B6B66" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="946" y="111" font-size="12" fill="#33332E">组内趋势 ≈ 0</text>
+
+  <!-- ============ 面板 A：PCA 看结构 ============ -->
+  <rect x="48" y="120" width="520" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="17" font-weight="bold" fill="#3C5488">结构长什么样：PCA 前两主成分</text>
+  <text x="72" y="176" font-size="12.5" fill="#6B6B66">每个点 = 一个个体，颜色 = 亚群（示意数据；原理在 p04）</text>
+  <line x1="72" y1="190" x2="544" y2="190" stroke="#E9E9E5"/>
+
+  <!-- 坐标轴 -->
+  <line x1="100" y1="225" x2="100" y2="570" stroke="#33332E" stroke-width="1.5"/>
+  <line x1="100" y1="570" x2="544" y2="570" stroke="#33332E" stroke-width="1.5"/>
+  <text x="100" y="215" font-size="11" fill="#6B6B66" text-anchor="middle">PC2</text>
+  <text x="536" y="592" font-size="11" fill="#6B6B66" text-anchor="end">PC1</text>
+
+  <!-- 亚群甲 -->
+  <ellipse cx="228" cy="330" rx="48" ry="44" fill="#4DBBD5" fill-opacity="0.13" stroke="#4DBBD5" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <circle cx="205" cy="310" r="4.5" fill="#4DBBD5"/>
+  <circle cx="225" cy="300" r="4.5" fill="#4DBBD5"/>
+  <circle cx="245" cy="320" r="4.5" fill="#4DBBD5"/>
+  <circle cx="215" cy="335" r="4.5" fill="#4DBBD5"/>
+  <circle cx="240" cy="345" r="4.5" fill="#4DBBD5"/>
+  <circle cx="255" cy="330" r="4.5" fill="#4DBBD5"/>
+  <circle cx="200" cy="345" r="4.5" fill="#4DBBD5"/>
+  <circle cx="230" cy="360" r="4.5" fill="#4DBBD5"/>
+  <circle cx="250" cy="355" r="4.5" fill="#4DBBD5"/>
+  <circle cx="210" cy="320" r="4.5" fill="#4DBBD5"/>
+  <circle cx="235" cy="315" r="4.5" fill="#4DBBD5"/>
+  <circle cx="222" cy="350" r="4.5" fill="#4DBBD5"/>
+  <text x="228" y="404" font-size="12.5" font-weight="bold" fill="#3C8DAD" text-anchor="middle">亚群甲 · 表型均值：高</text>
+
+  <!-- 亚群乙 -->
+  <ellipse cx="428" cy="472" rx="50" ry="44" fill="#8491B4" fill-opacity="0.15" stroke="#8491B4" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <circle cx="405" cy="450" r="4.5" fill="#8491B4"/>
+  <circle cx="425" cy="440" r="4.5" fill="#8491B4"/>
+  <circle cx="445" cy="460" r="4.5" fill="#8491B4"/>
+  <circle cx="415" cy="475" r="4.5" fill="#8491B4"/>
+  <circle cx="440" cy="485" r="4.5" fill="#8491B4"/>
+  <circle cx="455" cy="470" r="4.5" fill="#8491B4"/>
+  <circle cx="400" cy="485" r="4.5" fill="#8491B4"/>
+  <circle cx="430" cy="500" r="4.5" fill="#8491B4"/>
+  <circle cx="450" cy="495" r="4.5" fill="#8491B4"/>
+  <circle cx="410" cy="460" r="4.5" fill="#8491B4"/>
+  <circle cx="435" cy="455" r="4.5" fill="#8491B4"/>
+  <circle cx="420" cy="505" r="4.5" fill="#8491B4"/>
+  <text x="428" y="548" font-size="12.5" font-weight="bold" fill="#8491B4" text-anchor="middle">亚群乙 · 表型均值：低</text>
+
+  <text x="72" y="614" font-size="12" fill="#33332E">漂变与驯化史：全基因组大量位点的频率在两群间不同；</text>
+  <text x="72" y="636" font-size="12" fill="#33332E">群间分化 FST 越大 × 群间表型差越大，朴素回归扫一遍</text>
+  <text x="72" y="658" font-size="12" fill="#33332E">就得到一片系统性"信号"——不是随机噪声（⑦7.1）。</text>
+
+  <!-- ============ 面板 B：朴素回归 + Q/K 分工 ============ -->
+  <rect x="608" y="120" width="544" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="632" y="154" font-size="17" font-weight="bold" fill="#3C5488">对任一"中性"标记做朴素回归</text>
+  <text x="632" y="176" font-size="12.5" fill="#6B6B66">x：该标记等位基因数（0/1/2）｜ y：表型值（示意数据）</text>
+  <line x1="632" y1="190" x2="1128" y2="190" stroke="#E9E9E5"/>
+
+  <!-- 坐标轴 -->
+  <line x1="680" y1="225" x2="680" y2="480" stroke="#33332E" stroke-width="1.5"/>
+  <line x1="680" y1="480" x2="1120" y2="480" stroke="#33332E" stroke-width="1.5"/>
+  <text x="680" y="215" font-size="11" fill="#6B6B66" text-anchor="middle">表型值</text>
+  <text x="900" y="502" font-size="11" fill="#6B6B66" text-anchor="middle">标记等位基因数（0 / 1 / 2）</text>
+
+  <!-- 朴素回归线（红） -->
+  <line x1="690" y1="252" x2="1062" y2="458" stroke="#E64B35" stroke-width="3"/>
+  <rect x="772" y="313" width="216" height="25" fill="#FFFFFF"/>
+  <text x="880" y="330" font-size="13" font-weight="bold" fill="#E64B35" text-anchor="middle">朴素回归：p &lt; 0.05，"显著关联"</text>
+
+  <!-- 亚群甲点云 -->
+  <circle cx="710" cy="265" r="4.5" fill="#4DBBD5"/>
+  <circle cx="730" cy="280" r="4.5" fill="#4DBBD5"/>
+  <circle cx="750" cy="255" r="4.5" fill="#4DBBD5"/>
+  <circle cx="705" cy="300" r="4.5" fill="#4DBBD5"/>
+  <circle cx="725" cy="315" r="4.5" fill="#4DBBD5"/>
+  <circle cx="745" cy="290" r="4.5" fill="#4DBBD5"/>
+  <circle cx="695" cy="285" r="4.5" fill="#4DBBD5"/>
+  <circle cx="760" cy="268" r="4.5" fill="#4DBBD5"/>
+  <circle cx="770" cy="300" r="4.5" fill="#4DBBD5"/>
+  <circle cx="718" cy="245" r="4.5" fill="#4DBBD5"/>
+  <circle cx="738" cy="322" r="4.5" fill="#4DBBD5"/>
+  <circle cx="755" cy="310" r="4.5" fill="#4DBBD5"/>
+  <!-- 亚群乙点云 -->
+  <circle cx="960" cy="435" r="4.5" fill="#8491B4"/>
+  <circle cx="980" cy="450" r="4.5" fill="#8491B4"/>
+  <circle cx="1000" cy="420" r="4.5" fill="#8491B4"/>
+  <circle cx="970" cy="460" r="4.5" fill="#8491B4"/>
+  <circle cx="1005" cy="448" r="4.5" fill="#8491B4"/>
+  <circle cx="1020" cy="435" r="4.5" fill="#8491B4"/>
+  <circle cx="950" cy="445" r="4.5" fill="#8491B4"/>
+  <circle cx="1030" cy="455" r="4.5" fill="#8491B4"/>
+  <circle cx="1010" cy="462" r="4.5" fill="#8491B4"/>
+  <circle cx="990" cy="415" r="4.5" fill="#8491B4"/>
+  <circle cx="1045" cy="458" r="4.5" fill="#8491B4"/>
+  <circle cx="978" cy="428" r="4.5" fill="#8491B4"/>
+
+  <!-- 组内趋势 -->
+  <line x1="698" y1="330" x2="768" y2="326" stroke="#6B6B66" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="952" y1="442" x2="1052" y2="452" stroke="#6B6B66" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <rect x="694" y="347" width="252" height="19" fill="#FFFFFF"/>
+  <text x="698" y="361" font-size="11.5" fill="#6B6B66">组内趋势 ≈ 0：结构解释了全部"关联"</text>
+
+  <!-- 红色警示（白底垫片截断回归线） -->
+  <rect x="694" y="374" width="344" height="26" fill="#FFFFFF"/>
+  <text x="700" y="392" font-size="12.5" font-weight="bold" fill="#E64B35">显著 ≠ 因果：它只标记了"你属于哪个亚群"（⑦7.1）</text>
+
+  <!-- Q/K 分工 -->
+  <rect x="632" y="512" width="496" height="144" rx="6" fill="#FAFAF7"/>
+  <rect x="632" y="512" width="4" height="144" rx="2" fill="#3C5488"/>
+  <text x="652" y="536" font-size="13" font-weight="bold" fill="#3C5488">Q 与 K 的分工（⑤5.4–5.5）</text>
+  <text x="652" y="560" font-size="12.5" fill="#33332E">Q：前若干个 PC 作固定效应 → 吸收粗尺度分层</text>
+  <text x="652" y="582" font-size="12.5" fill="#33332E">K：亲缘矩阵（LD 剪枝集估计）→ 吸收细尺度亲缘，</text>
+  <text x="652" y="604" font-size="12.5" fill="#33332E">　　含同一亚群内的隐匿亲缘（⑦7.1）</text>
+  <text x="652" y="626" font-size="12.5" fill="#33332E">两者信息部分重叠：Q + K 只需很少的 PC，</text>
+  <text x="652" y="648" font-size="12.5" fill="#33332E">加多反而损失自由度——用 λ–PC 曲线取折中</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="4" height="58" rx="2" fill="#3C5488"/>
+  <rect x="48" y="696" width="1104" height="58" rx="6" fill="#FAFAF7"/>
+  <text x="66" y="718" font-size="12.5" fill="#33332E">结构造成的假阳性是系统性偏移而非噪声：单纯提高阈值救不了，QQ 图表现为整体抬升（⑦7.3）；</text>
+  <text x="66" y="740" font-size="12.5" fill="#33332E">隐匿亲缘是同一问题的更细尺度版本（⑦7.1）——先 QQ 判断这套 p 值可不可信，再谈曼哈顿图（④4.4）。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="60" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">err_F.pdf</text>
+<line x1="112" y1="468" x2="744" y2="468" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="112" y1="468" x2="112" y2="158" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="112.0" y1="468" x2="112.0" y2="477" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="112.0" y="506" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">10</text>
+<line x1="322.66666666666663" y1="468" x2="322.66666666666663" y2="477" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="322.66666666666663" y="506" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">20</text>
+<line x1="533.3333333333333" y1="468" x2="533.3333333333333" y2="477" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="533.3333333333333" y="506" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">30</text>
+<line x1="744.0" y1="468" x2="744.0" y2="477" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="744.0" y="506" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">40</text>
+<text x="744" y="450" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end" font-weight="bold">Q</text>
+<polyline points="112.0,180.1428571428571 175.2,202.28571428571428 238.4,224.42857142857144 301.6,246.57142857142853 364.8,268.71428571428567 428.0,290.85714285714283 491.2,313.0 554.4,335.1428571428571 617.6,357.2857142857143 680.8000000000001,379.42857142857144 744.0,401.57142857142856" fill="none" stroke="#E64B35" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 8"/>
+<circle cx="112.0" cy="172.76190476190476" r="8" fill="#33332E"/>
+<circle cx="175.2" cy="192.01391259542237" r="8" fill="#33332E"/>
+<circle cx="238.4" cy="213.4536575527114" r="8" fill="#33332E"/>
+<circle cx="301.6" cy="237.61324091818463" r="8" fill="#33332E"/>
+<circle cx="364.8" cy="262.9664444931119" r="8" fill="#33332E"/>
+<circle cx="428.0" cy="287.0837421009069" r="8" fill="#33332E"/>
+<circle cx="491.2" cy="308.4709165612185" r="8" fill="#33332E"/>
+<circle cx="554.4" cy="327.6998534624982" r="8" fill="#33332E"/>
+<circle cx="617.6" cy="346.9757495500804" r="8" fill="#33332E"/>
+<circle cx="680.8000000000001" cy="368.4682637933098" r="8" fill="#33332E"/>
+<circle cx="744.0" cy="392.66956273303634" r="8" fill="#33332E"/>
+<polyline points="112.0,172.76190476190476 175.2,192.01391259542237 238.4,213.4536575527114 301.6,237.61324091818463 364.8,262.9664444931119 428.0,287.0837421009069 491.2,308.4709165612185 554.4,327.6998534624982 617.6,346.9757495500804 680.8000000000001,368.4682637933098 744.0,392.66956273303634" fill="none" stroke="#33332E" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="136" y1="552" x2="182" y2="552" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<circle cx="159" cy="552" r="7" fill="#33332E"/>
+<text x="200" y="562" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">黑点随质量下降</text>
+<line x1="136" y1="608" x2="182" y2="608" stroke="#33332E" stroke-width="6" stroke-linecap="butt"/>
+<text x="200" y="618" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">黑线贴合实测</text>
+<line x1="136" y1="664" x2="182" y2="664" stroke="#E64B35" stroke-width="6" stroke-linecap="butt" stroke-dasharray="12 8"/>
+<text x="200" y="674" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">红线理论期望</text>
+</svg>

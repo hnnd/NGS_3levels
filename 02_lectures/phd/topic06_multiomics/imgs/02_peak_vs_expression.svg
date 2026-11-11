@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">峰表不是"另一个表达矩阵"：feature 的身份与冗余</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">一个化合物 ≈ 3–10 个 feature ｜ 冗余特征抱成假模块 —— 依据 06_multiomics_lecture.md ④4.1 · 4.5</text>
+  <!-- 图例 -->
+  <ellipse cx="932" cy="38" rx="10" ry="7" fill="#3C5488"/>
+  <text x="950" y="42" font-size="12" fill="#33332E">化合物（真实身份只有一个）</text>
+  <rect x="926" y="56" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="66" font-size="12" fill="#33332E">feature（峰表里的一行）</text>
+
+  <!-- ============ 面板 A：一个化合物好几行 ============ -->
+  <rect x="48" y="120" width="600" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="17" font-weight="bold" fill="#3C5488">一个化合物，在峰表里是好几行</text>
+  <text x="72" y="176" font-size="12.5" fill="#6B6B66">一行 feature =（m/z，保留时间），身份未知，靠注释才知道（④4.5）</text>
+  <line x1="72" y1="190" x2="624" y2="190" stroke="#E9E9E5"/>
+
+  <!-- 化合物 -->
+  <ellipse cx="348" cy="228" rx="112" ry="30" fill="#3C5488"/>
+  <text x="348" y="234" font-size="13.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">某化合物（真实身份只有一个）</text>
+
+  <!-- 连接总线 -->
+  <line x1="348" y1="258" x2="348" y2="282" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="205" y1="282" x2="491" y2="282" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="205" y1="282" x2="205" y2="298" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="491" y1="282" x2="491" y2="298" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="205" y1="352" x2="205" y2="370" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="491" y1="352" x2="491" y2="370" stroke="#6B6B66" stroke-width="1.5"/>
+
+  <!-- feature chips -->
+  <rect x="80" y="298" width="250" height="54" rx="8" fill="#F39B7F"/>
+  <text x="205" y="320" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">[M+H]+ 加合物</text>
+  <text x="205" y="340" font-size="10.5" fill="#33332E" text-anchor="middle">峰表里的一行，如 M285T412</text>
+  <rect x="366" y="298" width="250" height="54" rx="8" fill="#F39B7F"/>
+  <text x="491" y="320" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">[M+Na]+ · Δm/z +21.98</text>
+  <text x="491" y="340" font-size="10.5" fill="#33332E" text-anchor="middle">又一"独立"的行</text>
+  <rect x="80" y="370" width="250" height="54" rx="8" fill="#F39B7F"/>
+  <text x="205" y="392" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">¹³C 同位素峰 · Δm/z +1.003</text>
+  <text x="205" y="412" font-size="10.5" fill="#33332E" text-anchor="middle">还有一行</text>
+  <rect x="366" y="370" width="250" height="54" rx="8" fill="#F39B7F"/>
+  <text x="491" y="392" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">碎片离子 · RT 几乎相同</text>
+  <text x="491" y="412" font-size="10.5" fill="#33332E" text-anchor="middle">再加一行</text>
+
+  <text x="348" y="452" font-size="11.5" fill="#6B6B66" text-anchor="middle">特征数常是真实化合物数的 3–10 倍（④4.1）</text>
+
+  <!-- 汇聚成假模块 -->
+  <line x1="348" y1="462" x2="348" y2="486" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="348,494 344,486 352,486" fill="#6B6B66"/>
+  <line x1="395" y1="525" x2="435" y2="545" stroke="#F39B7F" stroke-width="1.5"/>
+  <line x1="395" y1="525" x2="390" y2="565" stroke="#F39B7F" stroke-width="1.5"/>
+  <line x1="395" y1="525" x2="432" y2="580" stroke="#F39B7F" stroke-width="1.5"/>
+  <line x1="435" y1="545" x2="390" y2="565" stroke="#F39B7F" stroke-width="1.5"/>
+  <line x1="435" y1="545" x2="432" y2="580" stroke="#F39B7F" stroke-width="1.5"/>
+  <line x1="390" y1="565" x2="432" y2="580" stroke="#F39B7F" stroke-width="1.5"/>
+  <circle cx="395" cy="525" r="11" fill="#F39B7F"/>
+  <circle cx="435" cy="545" r="11" fill="#F39B7F"/>
+  <circle cx="390" cy="565" r="11" fill="#F39B7F"/>
+  <circle cx="432" cy="580" r="11" fill="#F39B7F"/>
+  <text x="80" y="528" font-size="12.5" fill="#33332E">它们两两相关 r ≈ 1</text>
+  <text x="80" y="554" font-size="12.5" font-weight="bold" fill="#E64B35">在网络里抱成一个"假模块"</text>
+  <text x="80" y="578" font-size="11" fill="#6B6B66">——那是同一个东西的加合物 / 同位素峰，</text>
+  <text x="80" y="598" font-size="11" fill="#6B6B66">不是生物学模块（④4.1 不能做的事③）。看到一簇</text>
+  <text x="80" y="618" font-size="11" fill="#6B6B66">m/z 相差 21.98 或 1.003 的特征，那是同一个东西。</text>
+
+  <!-- ============ 面板 B：注释置信 ============ -->
+  <rect x="680" y="120" width="472" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="704" y="154" font-size="17" font-weight="bold" fill="#3C5488">注释置信：结论只能写到等级允许的颗粒度</text>
+  <text x="704" y="176" font-size="12.5" fill="#6B6B66">MSI 置信分级（Sumner 等 2007，④4.5）</text>
+  <line x1="704" y1="190" x2="1128" y2="190" stroke="#E9E9E5"/>
+
+  <rect x="704" y="208" width="76" height="26" rx="4" fill="#00A087"/>
+  <text x="742" y="226" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Level 1</text>
+  <text x="792" y="219" font-size="12" fill="#33332E">与标准品共进样比对 RT + MS/MS</text>
+  <text x="792" y="239" font-size="12" font-weight="bold" fill="#00A087">→ 可指名道姓写化合物</text>
+
+  <rect x="704" y="278" width="76" height="26" rx="4" fill="#4DBBD5"/>
+  <text x="742" y="296" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Level 2</text>
+  <text x="792" y="289" font-size="12" fill="#33332E">仅与谱库 MS/MS 匹配</text>
+  <text x="792" y="309" font-size="12" fill="#33332E">→ 必须写 putatively annotated 并标注等级</text>
+
+  <rect x="704" y="348" width="76" height="26" rx="4" fill="#F39B7F"/>
+  <text x="742" y="366" font-size="11.5" font-weight="bold" fill="#33332E" text-anchor="middle">Level 3</text>
+  <text x="792" y="359" font-size="12" fill="#33332E">只能定到化合物类别（"某黄酮"）</text>
+  <text x="792" y="379" font-size="12" fill="#33332E">→ 不能写具体化合物名</text>
+
+  <rect x="704" y="418" width="76" height="26" rx="4" fill="#6B6B66"/>
+  <text x="742" y="436" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Level 4</text>
+  <text x="792" y="429" font-size="12" fill="#33332E">未知特征</text>
+  <text x="792" y="449" font-size="12" fill="#33332E">→ 只能报 M285T412 这样的编号</text>
+
+  <text x="704" y="492" font-size="12.5" font-weight="bold" fill="#E64B35">hub 代谢物很可能是 Level 3：结论只能写到类别，</text>
+  <text x="704" y="514" font-size="12.5" font-weight="bold" fill="#E64B35">不能指名道姓（④4.5）</text>
+
+  <line x1="704" y1="538" x2="1128" y2="538" stroke="#E9E9E5"/>
+  <text x="704" y="566" font-size="13" font-weight="bold" fill="#3C5488">三条不能做的事（④4.1）</text>
+  <text x="704" y="592" font-size="11.5" fill="#33332E">① 不能用 DESeq2 / edgeR——没有计数与文库大小</text>
+  <text x="704" y="614" font-size="11.5" fill="#33332E">② 不能说"代谢物表达量"——只有相对强度</text>
+  <text x="704" y="636" font-size="11.5" fill="#33332E">③ 不能把冗余特征当独立证据</text>
+  <text x="704" y="662" font-size="11" fill="#6B6B66">差异分析的常规做法：log 变换后 limma 或非参检验</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="4" height="58" rx="2" fill="#3C5488"/>
+  <rect x="48" y="696" width="1104" height="58" rx="6" fill="#FAFAF7"/>
+  <text x="66" y="718" font-size="12.5" fill="#33332E">峰表没有"测序深度"：总离子流 TIC 受进样量、离子化效率与基质效应影响，不是归一化依据；</text>
+  <text x="66" y="740" font-size="12.5" fill="#33332E">NA 大多是低于检测限而非真的 0——缺失机制与填补的匹配见 ④4.3（用错会制造假阴性或假阳性）。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

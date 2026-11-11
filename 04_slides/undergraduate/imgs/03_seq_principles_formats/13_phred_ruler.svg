@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="46" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">字符标尺对数换算</text>
+<text x="400" y="86" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">井号判错率六成别信</text>
+<rect x="90" y="118" width="220" height="36" fill="#F6D8D2" rx="8" stroke="#E64B35" stroke-width="4"/>
+<text x="200" y="144" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="24" fill="#E64B35" text-anchor="middle" font-weight="bold">0–31 控制字符区</text>
+<line x1="200" y1="162" x2="200" y2="620" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<line x1="430" y1="162" x2="430" y2="620" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<line x1="650" y1="162" x2="650" y2="620" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<line x1="200" y1="175" x2="650" y2="175" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="166" y="185" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="end" font-weight="bold">! 33</text>
+<text x="430" y="185" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="middle" font-weight="bold">Q0</text>
+<text x="680" y="185" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="start" font-weight="bold">1e+00</text>
+<line x1="200" y1="245" x2="650" y2="245" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="166" y="255" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="end" font-weight="bold"># 35</text>
+<text x="430" y="255" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="middle" font-weight="bold">Q2</text>
+<text x="680" y="255" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="start" font-weight="bold">6e-01</text>
+<line x1="110" y1="223" x2="780" y2="223" stroke="#E64B35" stroke-width="6" stroke-linecap="butt"/>
+<text x="400" y="215" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold"># 判错率 63% 别信</text>
+<line x1="200" y1="310" x2="650" y2="310" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="166" y="320" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="end" font-weight="bold">5 53</text>
+<text x="430" y="320" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="middle" font-weight="bold">Q20</text>
+<text x="680" y="320" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="start" font-weight="bold">1e-02</text>
+<line x1="200" y1="370" x2="650" y2="370" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="166" y="380" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="end" font-weight="bold">? 63</text>
+<text x="430" y="380" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="middle" font-weight="bold">Q30</text>
+<text x="680" y="380" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="start" font-weight="bold">1e-03</text>
+<line x1="200" y1="430" x2="650" y2="430" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="166" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="end" font-weight="bold">I 73</text>
+<text x="430" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="middle" font-weight="bold">Q40</text>
+<text x="680" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="start" font-weight="bold">1e-04</text>
+<line x1="200" y1="585" x2="650" y2="585" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="166" y="595" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="end" font-weight="bold">~ 126</text>
+<text x="430" y="595" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="middle" font-weight="bold">Q93</text>
+<text x="680" y="595" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="start" font-weight="bold">5e-10</text>
+<text x="200" y="656" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#6B6B66" text-anchor="middle" font-weight="bold">ASCII</text>
+<text x="430" y="656" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#6B6B66" text-anchor="middle" font-weight="bold">Q 值</text>
+<text x="650" y="656" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#6B6B66" text-anchor="middle" font-weight="bold">P_err</text>
+</svg>

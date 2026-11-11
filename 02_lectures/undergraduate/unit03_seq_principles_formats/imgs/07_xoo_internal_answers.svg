@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">内建标准答案：同一株 Xoo 的三份数据互相打分</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">Illumina 48X ｜ ONT 63X ｜ 完成图 4.77 Mb —— 依据 03_seq_principles_formats_lecture.md §3.1</text>
+
+  <!-- ============ 内容面板 ============ -->
+  <rect x="48" y="118" width="1104" height="580" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- 顶部菌株徽章 -->
+  <rect x="320" y="146" width="560" height="46" rx="23" fill="#3C5488"/>
+  <text x="600" y="176" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">主线工作株 CIX4481 —— 西非 Xoo 群体（PRJEB100987）</text>
+
+  <!-- 三份数据卡 -->
+  <!-- 卡1 Illumina -->
+  <rect x="72" y="220" width="336" height="190" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="72" y="220" width="336" height="7" rx="3.5" fill="#4DBBD5"/>
+  <text x="96" y="262" font-size="16" font-weight="bold" fill="#3C8DAD">Illumina 短读长</text>
+  <text x="96" y="288" font-size="12" fill="#6B6B66" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace">ERR15732342</text>
+  <text x="96" y="316" font-size="15" font-weight="bold" fill="#33332E">约 48X</text>
+  <line x1="96" y1="334" x2="384" y2="334" stroke="#E9E9E5"/>
+  <text x="96" y="360" font-size="12.5" fill="#33332E">k-mer 扫描估基因组大小</text>
+  <text x="96" y="381" font-size="12.5" fill="#33332E">与重复比例（u06 GenomeScope）</text>
+
+  <!-- 卡2 ONT -->
+  <rect x="432" y="220" width="336" height="190" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="432" y="220" width="336" height="7" rx="3.5" fill="#8491B4"/>
+  <text x="456" y="262" font-size="16" font-weight="bold" fill="#8491B4">ONT 长读长</text>
+  <text x="456" y="288" font-size="12" fill="#6B6B66" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace">ERR15732384</text>
+  <text x="456" y="316" font-size="15" font-weight="bold" fill="#33332E">约 63X</text>
+  <line x1="456" y1="334" x2="744" y2="334" stroke="#E9E9E5"/>
+  <text x="456" y="360" font-size="12.5" fill="#33332E">组装本身：读长够长，才跨得</text>
+  <text x="456" y="381" font-size="12.5" fill="#33332E">过 rRNA 操纵子等重复区（u06）</text>
+
+  <!-- 卡3 完成图（标准答案，绿） -->
+  <rect x="792" y="220" width="336" height="190" rx="10" fill="#FFFFFF" stroke="#00A087" stroke-width="2"/>
+  <rect x="792" y="220" width="336" height="7" rx="3.5" fill="#00A087"/>
+  <text x="816" y="262" font-size="16" font-weight="bold" fill="#00A087">作者发表的完成图</text>
+  <text x="816" y="288" font-size="12" fill="#6B6B66" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace">GCA_987216485</text>
+  <text x="816" y="316" font-size="15" font-weight="bold" fill="#33332E">4,768,212 bp</text>
+  <line x1="816" y1="334" x2="1104" y2="334" stroke="#E9E9E5"/>
+  <text x="816" y="360" font-size="12.5" fill="#33332E">标准答案：学生拼出的 contigs</text>
+  <text x="816" y="381" font-size="12.5" fill="#33332E">应接近这个总长度与结构</text>
+
+  <!-- ============ 对答案两条 ============ -->
+  <text x="72" y="452" font-size="13" font-weight="bold" fill="#3C5488">拿到自己的结果后，有两条不用问任何人的对答案路径：</text>
+
+  <!-- 检查点 1 -->
+  <rect x="72" y="470" width="430" height="56" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="72" y="470" width="4" height="56" rx="2" fill="#3C5488"/>
+  <text x="92" y="493" font-size="12.5" font-weight="bold" fill="#33332E">① k-mer 估出的基因组大小</text>
+  <text x="92" y="514" font-size="11.5" fill="#6B6B66">u06 Survey（GenomeScope）</text>
+  <line x1="510" y1="498" x2="556" y2="498" stroke="#6B6B66" stroke-width="1.8"/>
+  <polygon points="564,498 554,493 554,503" fill="#6B6B66"/>
+  <rect x="572" y="470" width="556" height="56" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.8"/>
+  <rect x="572" y="470" width="4" height="56" rx="2" fill="#00A087"/>
+  <text x="592" y="493" font-size="12.5" fill="#33332E">对答案：完成图实际约 4.77 Mb——</text>
+  <text x="592" y="514" font-size="12.5" fill="#33332E">k-mer 估计值与它对得上吗？</text>
+  <polyline points="1082,502 1094,514 1114,484" fill="none" stroke="#00A087" stroke-width="3"/>
+
+  <!-- 检查点 2 -->
+  <rect x="72" y="546" width="430" height="56" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="72" y="546" width="4" height="56" rx="2" fill="#3C5488"/>
+  <text x="92" y="569" font-size="12.5" font-weight="bold" fill="#33332E">② 自己组装的总长度与 contig 数</text>
+  <text x="92" y="590" font-size="11.5" fill="#6B6B66">u06 组装评估 · u08 泛基因组自检</text>
+  <line x1="510" y1="574" x2="556" y2="574" stroke="#6B6B66" stroke-width="1.8"/>
+  <polygon points="564,574 554,569 554,579" fill="#6B6B66"/>
+  <rect x="572" y="546" width="556" height="56" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.8"/>
+  <rect x="572" y="546" width="4" height="56" rx="2" fill="#00A087"/>
+  <text x="592" y="569" font-size="12.5" fill="#33332E">对答案：应接近 4,768,212 bp</text>
+  <text x="592" y="590" font-size="12.5" fill="#33332E">与完成图的结构。</text>
+  <polyline points="1082,578 1094,590 1114,560" fill="none" stroke="#00A087" stroke-width="3"/>
+
+  <!-- ============ 红色结语 ============ -->
+  <rect x="100" y="626" width="1000" height="56" rx="8" fill="#FDF2F0" stroke="#E64B35" stroke-width="1.4"/>
+  <text x="120" y="650" font-size="12.5" font-weight="bold" fill="#E64B35">任何一个数字离谱，都是流程某一步出错的信号。</text>
+  <text x="120" y="671" font-size="12" fill="#33332E">这是自学场景下最稀缺的东西：跑完之后，有一个不依赖任何人的检查点。</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

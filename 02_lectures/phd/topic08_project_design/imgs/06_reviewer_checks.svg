@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">审稿人在图上找什么：六项检查与三类重做</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">标题 → 摘要 → 图和图注 → 决定要不要读正文 —— 依据 08_project_design_lecture.md ④4.5 · ④4.3</text>
+  <!-- 图例 -->
+  <rect x="926" y="36" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="46" font-size="12" fill="#33332E">检查项</text>
+  <rect x="926" y="58" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="68" font-size="12" fill="#33332E">缺了会怎样</text>
+  <rect x="926" y="80" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="90" font-size="12" fill="#33332E">最常被要求重做</text>
+
+  <!-- ============ 面板 A：六项检查 ============ -->
+  <rect x="48" y="124" width="688" height="556" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="17" font-weight="bold" fill="#3C5488">六项检查：审稿人在图上找的东西高度固定</text>
+  <text x="72" y="178" font-size="12" fill="#6B6B66">图注是很多审稿人真正读完的唯一一段文字</text>
+  <line x1="72" y1="192" x2="712" y2="192" stroke="#E9E9E5"/>
+
+  <rect x="72" y="210" width="20" height="20" rx="4" fill="#3C5488"/>
+  <text x="82" y="225" font-size="11" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="104" y="226" font-size="13" font-weight="bold" fill="#33332E">n 是多少？生物学重复还是技术重复？</text>
+  <text x="104" y="250" font-size="11.5" fill="#E64B35">最常见的“重大修改”意见来源；技术重复冒充生物学重复是硬伤</text>
+  <line x1="72" y1="266" x2="712" y2="266" stroke="#E9E9E5"/>
+
+  <rect x="72" y="286" width="20" height="20" rx="4" fill="#3C5488"/>
+  <text x="82" y="301" font-size="11" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="104" y="302" font-size="13" font-weight="bold" fill="#33332E">误差棒是 SD、SEM 还是 CI？</text>
+  <text x="104" y="326" font-size="11.5" fill="#E64B35">不写就默认你在藏；SEM 比 SD 短，看起来更“干净”</text>
+  <line x1="72" y1="342" x2="712" y2="342" stroke="#E9E9E5"/>
+
+  <rect x="72" y="362" width="20" height="20" rx="4" fill="#3C5488"/>
+  <text x="82" y="377" font-size="11" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="104" y="378" font-size="13" font-weight="bold" fill="#33332E">用了什么检验？校正多重比较了吗？</text>
+  <text x="104" y="402" font-size="11.5" fill="#E64B35">组学图里尤其致命——直接呼应 p02 / p04 / p05 / p06 的统计插件</text>
+  <line x1="72" y1="418" x2="712" y2="418" stroke="#E9E9E5"/>
+
+  <rect x="72" y="438" width="20" height="20" rx="4" fill="#3C5488"/>
+  <text x="82" y="453" font-size="11" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="104" y="454" font-size="13" font-weight="bold" fill="#33332E">对照组是什么？</text>
+  <text x="104" y="478" font-size="11.5" fill="#E64B35">没有阴性对照的表型图基本不会被接受</text>
+  <line x1="72" y1="494" x2="712" y2="494" stroke="#E9E9E5"/>
+
+  <rect x="72" y="514" width="20" height="20" rx="4" fill="#3C5488"/>
+  <text x="82" y="529" font-size="11" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="104" y="530" font-size="13" font-weight="bold" fill="#33332E">原始数据点给了吗？</text>
+  <text x="104" y="554" font-size="11.5" fill="#E64B35">n ≤ 10 时不给点，几乎必被要求补</text>
+  <line x1="72" y1="570" x2="712" y2="570" stroke="#E9E9E5"/>
+
+  <rect x="72" y="590" width="20" height="20" rx="4" fill="#3C5488"/>
+  <text x="82" y="605" font-size="11" fill="#FFFFFF" text-anchor="middle">6</text>
+  <text x="104" y="606" font-size="13" font-weight="bold" fill="#33332E">坐标轴从 0 开始了吗？截断了吗？</text>
+  <text x="104" y="630" font-size="11.5" fill="#E64B35">截断轴放大差异，是常见的被质疑点</text>
+
+  <!-- ============ 面板 B：三类重做 ============ -->
+  <rect x="760" y="124" width="392" height="556" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="784" y="156" font-size="17" font-weight="bold" fill="#3C5488">三类最常被要求重做的图</text>
+  <text x="784" y="178" font-size="12" fill="#6B6B66">审稿人先看图，再决定读不读正文</text>
+  <line x1="784" y1="192" x2="1128" y2="192" stroke="#E9E9E5"/>
+
+  <rect x="784" y="206" width="344" height="40" rx="6" fill="#FAFAF7" stroke="#F39B7F"/>
+  <text x="956" y="231" font-size="11.5" fill="#33332E" text-anchor="middle">阅读顺序：标题 → 摘要 → 图和图注 → 决定</text>
+
+  <rect x="784" y="264" width="344" height="92" rx="6" fill="#FFFFFF" stroke="#F39B7F" stroke-width="1.2"/>
+  <text x="800" y="290" font-size="12.5" font-weight="bold" fill="#33332E">① 柱状图 + 误差棒表示连续分布</text>
+  <text x="800" y="312" font-size="11.5" fill="#6B6B66">均值 ± SD 掩盖了双峰、离群与实际 n</text>
+  <text x="800" y="334" font-size="11.5" fill="#00A087">改：点图 / 箱线图叠加原始点（n 小必须给点）</text>
+
+  <rect x="784" y="372" width="344" height="92" rx="6" fill="#FFFFFF" stroke="#F39B7F" stroke-width="1.2"/>
+  <text x="800" y="398" font-size="12.5" font-weight="bold" fill="#33332E">② 组学图无重复一致性证据</text>
+  <text x="800" y="420" font-size="11.5" fill="#6B6B66">看不出重复间是否一致就说差异</text>
+  <text x="800" y="442" font-size="11.5" fill="#00A087">改：补 PCA 或相关性热图</text>
+
+  <rect x="784" y="480" width="344" height="92" rx="6" fill="#FFFFFF" stroke="#F39B7F" stroke-width="1.2"/>
+  <text x="800" y="506" font-size="12.5" font-weight="bold" fill="#33332E">③ 分辨率不足或字号过小</text>
+  <text x="800" y="528" font-size="11.5" fill="#6B6B66">缩到版面尺寸后无法判读</text>
+  <text x="800" y="550" font-size="11.5" fill="#00A087">改：300 dpi 以上，最小字号 ≥ 6 pt</text>
+
+  <rect x="784" y="592" width="344" height="72" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="784" y="592" width="4" height="72" rx="2" fill="#00A087"/>
+  <text x="800" y="614" font-size="11.5" font-weight="bold" fill="#00A087">图注模板（⑨-7，每张图套一遍）</text>
+  <text x="800" y="634" font-size="11.5" fill="#33332E">「……（论点陈述）。n = X 生物学重复；误差棒为</text>
+  <text x="800" y="652" font-size="11.5" fill="#33332E">mean ± SEM；……检验，BH 校正，*p &lt; 0.05。」</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="1104" height="58" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="48" y="696" width="4" height="58" rx="2" fill="#3C5488"/>
+  <text x="66" y="718" font-size="12.5" fill="#33332E">图注第一句是论点的完整陈述，图是这个陈述的证据——“X 的表达热图”不是论点；“处理组 24 h 特异激活 JA 通路，n = 3，双侧 Wilcoxon，误差棒为 SEM”才是。</text>
+  <text x="66" y="740" font-size="12.5" fill="#33332E">从“我的结果”到“读者的信服”之间缺的一步：替读者先把替代解释排除掉——方案阶段就预留 Fig.5，比投稿后被要求补实验便宜得多。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">测序技术五十年：从双脱氧到完整基因组</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">Sanger 1977 ｜ 人类基因组计划 ｜ 三代平台 ｜ T2T 2022 —— 依据 03_seq_principles_formats_lecture.md §4.8 / ⑪文献</text>
+  <!-- 图例 -->
+  <rect x="700" y="136" width="12" height="12" rx="2" fill="#3C5488"/><text x="718" y="147" font-size="11.5" fill="#33332E">第一代</text>
+  <rect x="796" y="136" width="12" height="12" rx="2" fill="#4DBBD5"/><text x="814" y="147" font-size="11.5" fill="#33332E">第二代 · 短读长</text>
+  <rect x="924" y="136" width="12" height="12" rx="2" fill="#8491B4"/><text x="942" y="147" font-size="11.5" fill="#33332E">第三代 · 长读长</text>
+  <rect x="1052" y="136" width="12" height="12" rx="2" fill="#E64B35"/><text x="1070" y="147" font-size="11.5" fill="#33332E">里程碑</text>
+
+  <!-- ============ 内容面板 ============ -->
+  <rect x="48" y="118" width="1104" height="580" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- 主轴 -->
+  <line x1="112" y1="440" x2="1082" y2="440" stroke="#6B6B66" stroke-width="2"/>
+  <polygon points="1092,440 1080,434 1080,446" fill="#6B6B66"/>
+
+  <!-- 1977 Sanger（上，红） -->
+  <line x1="140" y1="440" x2="140" y2="410" stroke="#E64B35" stroke-width="1.5"/>
+  <circle cx="140" cy="440" r="7" fill="#E64B35"/>
+  <text x="140" y="402" font-size="18" font-weight="bold" fill="#E64B35" text-anchor="middle">1977</text>
+  <text x="140" y="380" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">Sanger 双脱氧测序</text>
+  <text x="140" y="359" font-size="11" fill="#6B6B66" text-anchor="middle">链终止法发表：</text>
+  <text x="140" y="344" font-size="11" fill="#6B6B66" text-anchor="middle">此后近 30 年的主力</text>
+
+  <!-- 1990 HGP 启动（下） -->
+  <line x1="270" y1="440" x2="270" y2="470" stroke="#6B6B66" stroke-width="1.5"/>
+  <circle cx="270" cy="440" r="6.5" fill="#3C5488"/>
+  <text x="270" y="496" font-size="18" font-weight="bold" fill="#3C5488" text-anchor="middle">1990</text>
+  <text x="270" y="518" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">人类基因组计划启动</text>
+  <text x="270" y="538" font-size="11" fill="#6B6B66" text-anchor="middle">跨国协作，目标是</text>
+  <text x="270" y="553" font-size="11" fill="#6B6B66" text-anchor="middle">测出人类基因组序列</text>
+
+  <!-- 2003 HGP 完成（上） -->
+  <line x1="400" y1="440" x2="400" y2="410" stroke="#6B6B66" stroke-width="1.5"/>
+  <circle cx="400" cy="440" r="6.5" fill="#3C5488"/>
+  <text x="400" y="402" font-size="18" font-weight="bold" fill="#3C5488" text-anchor="middle">2003</text>
+  <text x="400" y="380" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">人类基因组计划完成</text>
+  <text x="400" y="359" font-size="11" fill="#6B6B66" text-anchor="middle">宣告完成</text>
+  <text x="400" y="344" font-size="11" fill="#6B6B66" text-anchor="middle">（序列仍有缺口）</text>
+
+  <!-- 2005 454（下） -->
+  <line x1="530" y1="440" x2="530" y2="470" stroke="#6B6B66" stroke-width="1.5"/>
+  <circle cx="530" cy="440" r="6.5" fill="#4DBBD5"/>
+  <text x="530" y="496" font-size="18" font-weight="bold" fill="#3C8DAD" text-anchor="middle">2005</text>
+  <text x="530" y="518" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">454 测序仪</text>
+  <text x="530" y="538" font-size="11" fill="#6B6B66" text-anchor="middle">第二代大规模并行</text>
+  <text x="530" y="553" font-size="11" fill="#6B6B66" text-anchor="middle">测序的开端</text>
+
+  <!-- 2006 Illumina（上） -->
+  <line x1="660" y1="440" x2="660" y2="410" stroke="#6B6B66" stroke-width="1.5"/>
+  <circle cx="660" cy="440" r="6.5" fill="#4DBBD5"/>
+  <text x="660" y="402" font-size="18" font-weight="bold" fill="#3C8DAD" text-anchor="middle">2006</text>
+  <text x="660" y="380" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">Illumina 平台问世</text>
+  <text x="660" y="359" font-size="11" fill="#6B6B66" text-anchor="middle">短读长高通量，</text>
+  <text x="660" y="344" font-size="11" fill="#6B6B66" text-anchor="middle">此后成为行业主流</text>
+
+  <!-- 2011 PacBio（下） -->
+  <line x1="790" y1="440" x2="790" y2="470" stroke="#6B6B66" stroke-width="1.5"/>
+  <circle cx="790" cy="440" r="6.5" fill="#8491B4"/>
+  <text x="790" y="496" font-size="18" font-weight="bold" fill="#8491B4" text-anchor="middle">2011</text>
+  <text x="790" y="518" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">PacBio RS</text>
+  <text x="790" y="538" font-size="11" fill="#6B6B66" text-anchor="middle">单分子实时测序（SMRT）</text>
+  <text x="790" y="553" font-size="11" fill="#6B6B66" text-anchor="middle">商用</text>
+
+  <!-- 2014 MinION（上） -->
+  <line x1="920" y1="440" x2="920" y2="410" stroke="#6B6B66" stroke-width="1.5"/>
+  <circle cx="920" cy="440" r="6.5" fill="#8491B4"/>
+  <text x="920" y="402" font-size="18" font-weight="bold" fill="#8491B4" text-anchor="middle">2014</text>
+  <text x="920" y="380" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">MinION 掌上测序</text>
+  <text x="920" y="359" font-size="11" fill="#6B6B66" text-anchor="middle">纳米孔直达田间、医院，</text>
+  <text x="920" y="344" font-size="11" fill="#6B6B66" text-anchor="middle">「现场测序」成为可能</text>
+
+  <!-- 2022 T2T（下，红） -->
+  <line x1="1050" y1="440" x2="1050" y2="470" stroke="#E64B35" stroke-width="1.5"/>
+  <circle cx="1050" cy="440" r="7" fill="#E64B35"/>
+  <text x="1050" y="496" font-size="18" font-weight="bold" fill="#E64B35" text-anchor="middle">2022</text>
+  <text x="1050" y="518" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">T2T-CHM13 完成图</text>
+  <text x="1050" y="538" font-size="11" fill="#6B6B66" text-anchor="middle">首个真正无缺口</text>
+  <text x="1050" y="553" font-size="11" fill="#6B6B66" text-anchor="middle">的人类基因组</text>
+
+  <!-- ============ 底部落点 ============ -->
+  <rect x="100" y="618" width="4" height="56" rx="2" fill="#3C5488"/>
+  <rect x="100" y="618" width="1000" height="56" rx="6" fill="#FAFAF7"/>
+  <text x="118" y="641" font-size="13" font-weight="bold" fill="#3C5488">对本课程的落点：平台名称与价格会过时，「随机性 / 读长 / 深度」三问不会（§4.7）。</text>
+  <text x="118" y="662" font-size="12" fill="#6B6B66">写报告引用平台参数时注明查证日期；2022–2023 年的集中换代（NovaSeq X / Revio / Q20+）见 §4.8 表格。</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

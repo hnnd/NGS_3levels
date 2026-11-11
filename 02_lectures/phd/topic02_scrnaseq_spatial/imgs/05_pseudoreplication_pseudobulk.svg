@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">观测单位变了，统计单位没有变：从 30 000 个细胞到 pseudobulk</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">伪重复 ｜ 有效样本量 ｜ 求和而非平均 —— 依据 02_scrnaseq_spatial_lecture.md ④4.1 / ⑦-2</text>
+  <!-- 图例 -->
+  <rect x="916" y="46" width="12" height="12" fill="#E64B35"/>
+  <text x="934" y="57" font-size="12" fill="#33332E">易错点</text>
+  <rect x="992" y="46" width="12" height="12" fill="#00A087"/>
+  <text x="1010" y="57" font-size="12" fill="#33332E">正确做法</text>
+
+  <!-- ============ 面板 1：bulk ============ -->
+  <rect x="48" y="120" width="352" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="15" font-weight="bold" fill="#3C5488">bulk 测序：三者重合</text>
+  <text x="72" y="174" font-size="12" fill="#6B6B66">一个样本 = 一个观测 = 一个生物学重复</text>
+  <line x1="72" y1="190" x2="376" y2="190" stroke="#E9E9E5"/>
+
+  <circle cx="124" cy="252" r="24" fill="#FAFAF7" stroke="#3C5488" stroke-width="2"/>
+  <text x="124" y="258" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">1</text>
+  <circle cx="224" cy="252" r="24" fill="#FAFAF7" stroke="#3C5488" stroke-width="2"/>
+  <text x="224" y="258" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">2</text>
+  <circle cx="324" cy="252" r="24" fill="#FAFAF7" stroke="#3C5488" stroke-width="2"/>
+  <text x="324" y="258" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">3</text>
+  <text x="224" y="304" font-size="12" fill="#33332E" text-anchor="middle">个体 1 · 2 · 3（各测 1 次）</text>
+
+  <rect x="72" y="330" width="200" height="28" rx="14" fill="none" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="172" y="349" font-size="12.5" font-weight="bold" fill="#3C5488" text-anchor="middle">n = 生物学重复数 = 3</text>
+
+  <text x="72" y="398" font-size="12.5" fill="#33332E">检验的零假设问的是「个体总体」</text>
+  <text x="72" y="420" font-size="12.5" fill="#33332E">有没有差异——bulk 里这没有歧义。</text>
+  <text x="72" y="470" font-size="12" fill="#6B6B66">「组间比较的 n 是个体数」</text>
+  <text x="72" y="490" font-size="12" fill="#6B6B66">—— §⑦-3 推论 3</text>
+
+  <!-- 面板间箭头 -->
+  <line x1="402" y1="330" x2="416" y2="330" stroke="#6B6B66" stroke-width="2"/>
+  <polygon points="424,330 412,324 412,336" fill="#6B6B66"/>
+  <line x1="778" y1="330" x2="792" y2="330" stroke="#6B6B66" stroke-width="2"/>
+  <polygon points="800,330 788,324 788,336" fill="#6B6B66"/>
+
+  <!-- ============ 面板 2：单细胞 ============ -->
+  <rect x="424" y="120" width="352" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="448" y="152" font-size="15" font-weight="bold" fill="#3C5488">单细胞：三者分开</text>
+  <text x="448" y="174" font-size="12" fill="#6B6B66">同一个体的细胞共享一切——不独立</text>
+  <line x1="448" y1="190" x2="752" y2="190" stroke="#E9E9E5"/>
+
+  <rect x="448" y="206" width="88" height="104" rx="8" fill="#FAFAF7" stroke="#3C5488"/>
+  <text x="492" y="226" font-size="11.5" fill="#33332E" text-anchor="middle">个体 1</text>
+  <circle cx="470" cy="248" r="4" fill="#4DBBD5"/><circle cx="490" cy="244" r="4" fill="#4DBBD5"/>
+  <circle cx="510" cy="250" r="4" fill="#4DBBD5"/><circle cx="478" cy="266" r="4" fill="#4DBBD5"/>
+  <circle cx="500" cy="270" r="4" fill="#4DBBD5"/><circle cx="518" cy="262" r="4" fill="#4DBBD5"/>
+  <circle cx="466" cy="284" r="4" fill="#4DBBD5"/><circle cx="488" cy="288" r="4" fill="#4DBBD5"/>
+  <circle cx="508" cy="292" r="4" fill="#4DBBD5"/>
+  <rect x="556" y="206" width="88" height="104" rx="8" fill="#FAFAF7" stroke="#3C5488"/>
+  <text x="600" y="226" font-size="11.5" fill="#33332E" text-anchor="middle">个体 2</text>
+  <circle cx="578" cy="248" r="4" fill="#4DBBD5"/><circle cx="598" cy="244" r="4" fill="#4DBBD5"/>
+  <circle cx="618" cy="250" r="4" fill="#4DBBD5"/><circle cx="586" cy="266" r="4" fill="#4DBBD5"/>
+  <circle cx="608" cy="270" r="4" fill="#4DBBD5"/><circle cx="626" cy="262" r="4" fill="#4DBBD5"/>
+  <circle cx="574" cy="284" r="4" fill="#4DBBD5"/><circle cx="596" cy="288" r="4" fill="#4DBBD5"/>
+  <circle cx="616" cy="292" r="4" fill="#4DBBD5"/>
+  <rect x="664" y="206" width="88" height="104" rx="8" fill="#FAFAF7" stroke="#3C5488"/>
+  <text x="708" y="226" font-size="11.5" fill="#33332E" text-anchor="middle">个体 3</text>
+  <circle cx="686" cy="248" r="4" fill="#4DBBD5"/><circle cx="706" cy="244" r="4" fill="#4DBBD5"/>
+  <circle cx="726" cy="250" r="4" fill="#4DBBD5"/><circle cx="694" cy="266" r="4" fill="#4DBBD5"/>
+  <circle cx="716" cy="270" r="4" fill="#4DBBD5"/><circle cx="734" cy="262" r="4" fill="#4DBBD5"/>
+  <circle cx="682" cy="284" r="4" fill="#4DBBD5"/><circle cx="704" cy="288" r="4" fill="#4DBBD5"/>
+  <circle cx="724" cy="292" r="4" fill="#4DBBD5"/>
+  <text x="600" y="332" font-size="12" fill="#33332E" text-anchor="middle">每个个体解离出约 10 000 个细胞（观测）</text>
+
+  <text x="600" y="360" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">3 × 10 000 = 30 000 个观测，但个体仍是 3 个</text>
+
+  <rect x="448" y="376" width="304" height="60" rx="8" fill="#FAFAF7" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="600" y="400" font-size="12.5" font-weight="bold" fill="#E64B35" text-anchor="middle">把 30 000 当 n 做检验 = 伪重复</text>
+  <text x="600" y="424" font-size="12.5" font-weight="bold" fill="#E64B35" text-anchor="middle">（pseudo-replication）——有效样本量是 3</text>
+
+  <text x="448" y="466" font-size="12" fill="#33332E">指纹：成片的 <tspan font-family="monospace">p_val_adj &lt; 1e-300</tspan>（§6.2）</text>
+  <text x="448" y="490" font-size="12" fill="#6B6B66">机理：标准误 ∝ 1/√n，n 虚增一万倍，</text>
+  <text x="448" y="510" font-size="12" fill="#6B6B66">p 值随之塌向 0（§⑦-2）</text>
+
+  <!-- ============ 面板 3：pseudobulk ============ -->
+  <rect x="800" y="120" width="352" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="824" y="152" font-size="15" font-weight="bold" fill="#3C5488">pseudobulk：把 n 还回去</text>
+  <text x="824" y="174" font-size="12" fill="#6B6B66">按 (样本 × 细胞类型) 对原始 counts 求和</text>
+  <line x1="824" y1="190" x2="1128" y2="190" stroke="#E9E9E5"/>
+
+  <!-- 求和流程 -->
+  <rect x="824" y="206" width="84" height="74" rx="6" fill="#FAFAF7" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="842" cy="226" r="3" fill="#4DBBD5"/><circle cx="858" cy="222" r="3" fill="#4DBBD5"/>
+  <circle cx="874" cy="230" r="3" fill="#4DBBD5"/><circle cx="846" cy="244" r="3" fill="#4DBBD5"/>
+  <circle cx="866" cy="248" r="3" fill="#4DBBD5"/><circle cx="882" cy="240" r="3" fill="#4DBBD5"/>
+  <circle cx="850" cy="262" r="3" fill="#4DBBD5"/><circle cx="870" cy="266" r="3" fill="#4DBBD5"/>
+  <text x="866" y="296" font-size="10.5" fill="#6B6B66" text-anchor="middle">细胞级 counts</text>
+  <line x1="912" y1="242" x2="928" y2="242" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="936,242 926,237 926,247" fill="#3C5488"/>
+  <text x="922" y="228" font-size="11" font-weight="bold" fill="#3C5488" text-anchor="middle">求和</text>
+  <rect x="940" y="206" width="84" height="74" rx="6" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <rect x="948" y="220" width="30" height="18" fill="none" stroke="#E9E9E5"/>
+  <rect x="982" y="220" width="30" height="18" fill="none" stroke="#E9E9E5"/>
+  <rect x="948" y="242" width="30" height="18" fill="none" stroke="#E9E9E5"/>
+  <rect x="982" y="242" width="30" height="18" fill="none" stroke="#E9E9E5"/>
+  <text x="982" y="296" font-size="10.5" fill="#6B6B66" text-anchor="middle">每样本×类型一列</text>
+  <line x1="1028" y1="242" x2="1044" y2="242" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="1052,242 1042,237 1042,247" fill="#3C5488"/>
+  <rect x="1056" y="218" width="72" height="44" rx="6" fill="#3C5488"/>
+  <text x="1092" y="245" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">DESeq2</text>
+
+  <text x="824" y="352" font-size="12" fill="#33332E">① n 回到真实的生物学重复数</text>
+  <text x="824" y="376" font-size="12" fill="#33332E">② 个体间变异放进误差项，不被平均掉</text>
+  <text x="824" y="400" font-size="12" fill="#33332E">③ 沿用成熟的负二项框架（L0-6-Q9）</text>
+  <text x="824" y="424" font-size="11.5" fill="#6B6B66">不是平均：AverageExpression 是错的（⑨-E9）</text>
+
+  <rect x="824" y="446" width="304" height="72" rx="8" fill="none" stroke="#00A087" stroke-width="1.5"/>
+  <text x="840" y="474" font-size="12.5" font-weight="bold" fill="#00A087">显著基因数比 FindMarkers 少</text>
+  <text x="840" y="498" font-size="12.5" font-weight="bold" fill="#00A087">1–2 个数量级——这是纠正，不是损失</text>
+
+  <!-- ============ 底部：实践判据 ============ -->
+  <rect x="48" y="574" width="1104" height="112" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="72" y="594" width="4" height="20" rx="2" fill="#3C5488"/>
+  <text x="86" y="610" font-size="14" font-weight="bold" fill="#3C5488">实践判据（写进《AI 输出验证清单》，§⑦-2）</text>
+  <rect x="72" y="630" width="344" height="36" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="244" y="653" font-size="11.5" fill="#33332E" text-anchor="middle">每组生物学重复 &lt; 3 → 不做统计推断，只做描述</text>
+  <rect x="432" y="630" width="344" height="36" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="604" y="653" font-size="11.5" fill="#33332E" text-anchor="middle">marker 识别（描述性）可用；组间比较不可用 FindMarkers</text>
+  <rect x="792" y="630" width="336" height="36" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="960" y="653" font-size="11.5" fill="#33332E" text-anchor="middle">报告写明：检验的单位是细胞还是样本</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="740" font-size="15" font-weight="bold" fill="#3C5488">检验问的是「个体总体」有没有差异——用细胞数当 n，是在回答一个你没有问的问题。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

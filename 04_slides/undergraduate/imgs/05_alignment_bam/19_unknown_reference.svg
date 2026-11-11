@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="60" width="310" height="100" fill="#FFFFFF" rx="12" stroke="#E64B35" stroke-width="5"/>
+<text x="60" y="102" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">query</text>
+<text x="60" y="142" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="start" font-weight="bold">chr1:1-100</text>
+<rect x="40" y="210" width="310" height="100" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="5"/>
+<text x="60" y="252" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">@SQ name</text>
+<text x="60" y="292" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#33332E" text-anchor="start" font-weight="bold">1</text>
+<text x="185" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">逐字比对</text>
+<line x1="264" y1="184" x2="284" y2="204" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<line x1="284" y1="184" x2="264" y2="204" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<text x="195" y="452" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">0 rows ≠</text>
+<text x="195" y="490" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">no variants</text>
+<line x1="352" y1="158" x2="386" y2="158" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="386,158 371.39057695500304,164.52416724895312 371.39057695500304,151.47583275104688" fill="#6B6B66"/>
+<rect x="390" y="90" width="390" height="230" fill="#33332E" rx="14"/>
+<text x="410" y="142" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FAFAF7" text-anchor="start" font-weight="bold">samtools view</text>
+<text x="410" y="182" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FAFAF7" text-anchor="start" font-weight="bold">x.bam chr1:1-100</text>
+<line x1="410" y1="202" x2="760" y2="202" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<text x="410" y="242" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">unknown reference</text>
+<text x="410" y="282" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">Continue anyway</text>
+<line x1="585" y1="322" x2="585" y2="366" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="585,366 578.4758327510468,351.39057695500304 591.5241672489532,351.39057695500304" fill="#6B6B66"/>
+<rect x="390" y="370" width="390" height="108" fill="#F39B7F" rx="12"/>
+<text x="430" y="414" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">返回 0 条</text>
+<text x="430" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">rc = 0</text>
+<text x="380" y="424" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end" font-weight="bold">不报错</text>
+<rect x="390" y="506" width="390" height="96" fill="#FFFFFF" rx="12" stroke="#E64B35" stroke-width="6"/>
+<text x="585" y="560" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">这个区间没有变异</text>
+<line x1="478" y1="547" x2="692" y2="547" stroke="#E64B35" stroke-width="4" stroke-linecap="butt"/>
+<rect x="40" y="640" width="740" height="54" fill="#00A087" rx="12"/>
+<text x="410" y="676" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">view -H | grep &#x27;^@SQ&#x27;  逐字核对</text>
+</svg>

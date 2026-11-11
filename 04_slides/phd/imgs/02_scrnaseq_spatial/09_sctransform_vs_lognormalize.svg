@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>LogNormalize vs SCTransform</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="60" y="78" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">A  LOGNORMALIZE</text>
+<text x="440" y="78" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">B  SCTRANSFORM</text>
+<rect x="65" y="96" width="300" height="56" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="4"/>
+<text x="215" y="136" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle">COUNTS</text>
+<rect x="65" y="182" width="300" height="56" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="4"/>
+<text x="215" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle">LIBRARY SIZE</text>
+<rect x="65" y="268" width="300" height="56" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="4"/>
+<text x="215" y="308" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle">log1p(CPM)</text>
+<line x1="215" y1="152" x2="215" y2="182" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="215,182 209.6991141102256,170.12984377594 220.3008858897744,170.12984377594" fill="#6B6B66"/>
+<line x1="215" y1="238" x2="215" y2="268" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="215,268 209.6991141102256,256.12984377594 220.3008858897744,256.12984377594" fill="#6B6B66"/>
+<line x1="215" y1="324" x2="215" y2="356" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="215,356 209.6991141102256,344.12984377594 220.3008858897744,344.12984377594" fill="#00A087"/>
+<text x="215" y="404" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">FOLD CHANGE</text>
+<rect x="435" y="96" width="300" height="56" fill="#E7EAF1" rx="10" stroke="#8491B4" stroke-width="4"/>
+<text x="585" y="136" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle">COUNTS</text>
+<rect x="435" y="182" width="300" height="56" fill="#E7EAF1" rx="10" stroke="#8491B4" stroke-width="4"/>
+<text x="585" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle">NB GLM</text>
+<rect x="435" y="268" width="300" height="56" fill="#E7EAF1" rx="10" stroke="#8491B4" stroke-width="4"/>
+<text x="585" y="308" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle">RESIDUALS</text>
+<line x1="585" y1="152" x2="585" y2="182" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="585,182 579.6991141102255,170.12984377594 590.3008858897745,170.12984377594" fill="#6B6B66"/>
+<line x1="585" y1="238" x2="585" y2="268" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="585,268 579.6991141102255,256.12984377594 590.3008858897745,256.12984377594" fill="#6B6B66"/>
+<line x1="585" y1="324" x2="585" y2="346" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="585,346 579.6991141102255,334.12984377594 590.3008858897745,334.12984377594" fill="#6B6B66"/>
+<rect x="435" y="350" width="300" height="56" fill="#E64B35" rx="10"/>
+<text x="585" y="386" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">DIM-RED ONLY</text>
+<rect x="28.0" y="500" width="744" height="128" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="550" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">常规变换难齐方差，负二项回归取残差。</text>
+<text x="400.0" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">残差仅供降维，禁直接算倍数。</text>
+</svg>

@@ -1,0 +1,9 @@
+# 数据与结果不入库：代码 + 配置能重建它们，这正是本讲的重点
+data/
+results/
+logs/
+benchmarks/
+.snakemake/
+dag.png
+__pycache__/
+.quarto/

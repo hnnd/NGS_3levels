@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">调控组学方法二十年：从交联沉淀到抗体引导转座</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">ENCODE 2003 ｜ ATAC-seq 2013 ｜ CUT&amp;Tag 2019 —— 依据 05_regulome_lecture.md ④4.8 与 ⑪ 文献表</text>
+  <!-- 图例（两列） -->
+  <rect x="926" y="40" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="50" font-size="12" fill="#33332E">分析工具与统计</text>
+  <rect x="926" y="64" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="74" font-size="12" fill="#33332E">大项目与标准</text>
+  <rect x="926" y="88" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="98" font-size="12" fill="#33332E">ATAC 谱系</text>
+  <rect x="1058" y="40" width="12" height="12" fill="#F39B7F"/>
+  <text x="1078" y="50" font-size="12" fill="#33332E">CUT 谱系</text>
+  <rect x="1058" y="64" width="12" height="12" fill="#8491B4"/>
+  <text x="1078" y="74" font-size="12" fill="#33332E">单细胞 / 多组学</text>
+
+  <!-- ============ 主面板 ============ -->
+  <rect x="48" y="120" width="1104" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- 主轴 -->
+  <line x1="100" y1="400" x2="1100" y2="400" stroke="#33332E" stroke-width="2"/>
+  <polygon points="1100,394 1100,406 1112,400" fill="#33332E"/>
+
+  <!-- 2003 上 · teal -->
+  <line x1="120" y1="392" x2="120" y2="338" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="120" cy="400" r="7" fill="#4DBBD5"/>
+  <text x="120" y="330" font-size="15" font-weight="bold" fill="#3C8DAD" text-anchor="middle">2003</text>
+  <text x="120" y="308" font-size="11" fill="#33332E" text-anchor="middle">ENCODE 试点</text>
+  <text x="120" y="292" font-size="11" fill="#33332E" text-anchor="middle">计划启动</text>
+
+  <!-- 2008 下 · navy -->
+  <line x1="216" y1="408" x2="216" y2="452" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="216" cy="400" r="7" fill="#3C5488"/>
+  <text x="216" y="472" font-size="15" font-weight="bold" fill="#3C5488" text-anchor="middle">2008</text>
+  <text x="216" y="492" font-size="11" fill="#33332E" text-anchor="middle">MACS：peak calling</text>
+  <text x="216" y="508" font-size="11" fill="#33332E" text-anchor="middle">统计模型</text>
+
+  <!-- 2010 上 · navy -->
+  <line x1="312" y1="392" x2="312" y2="338" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="312" cy="400" r="7" fill="#3C5488"/>
+  <text x="312" y="330" font-size="15" font-weight="bold" fill="#3C5488" text-anchor="middle">2010</text>
+  <text x="312" y="308" font-size="11" fill="#33332E" text-anchor="middle">HOMER：motif</text>
+  <text x="312" y="292" font-size="11" fill="#33332E" text-anchor="middle">富集分析</text>
+
+  <!-- 2011 下 · navy -->
+  <line x1="408" y1="408" x2="408" y2="452" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="408" cy="400" r="7" fill="#3C5488"/>
+  <text x="408" y="472" font-size="15" font-weight="bold" fill="#3C5488" text-anchor="middle">2011</text>
+  <text x="408" y="492" font-size="11" fill="#33332E" text-anchor="middle">IDR：重复一致性</text>
+  <text x="408" y="508" font-size="11" fill="#33332E" text-anchor="middle">模型</text>
+
+  <!-- 2012 上 · teal -->
+  <line x1="504" y1="392" x2="504" y2="338" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="504" cy="400" r="7" fill="#4DBBD5"/>
+  <text x="504" y="330" font-size="15" font-weight="bold" fill="#3C8DAD" text-anchor="middle">2012</text>
+  <text x="504" y="308" font-size="11" fill="#33332E" text-anchor="middle">ENCODE 主报告</text>
+  <text x="504" y="292" font-size="11" fill="#33332E" text-anchor="middle">＋ChIP-seq 质量标准</text>
+
+  <!-- 2013 下 · green -->
+  <line x1="600" y1="408" x2="600" y2="452" stroke="#00A087" stroke-width="1.5"/>
+  <circle cx="600" cy="400" r="7" fill="#00A087"/>
+  <text x="600" y="472" font-size="15" font-weight="bold" fill="#00A087" text-anchor="middle">2013</text>
+  <text x="600" y="492" font-size="11" fill="#33332E" text-anchor="middle">ATAC-seq 问世</text>
+  <text x="600" y="508" font-size="11" fill="#33332E" text-anchor="middle">（Buenrostro et al.）</text>
+
+  <!-- 2015 上 · teal -->
+  <line x1="696" y1="392" x2="696" y2="338" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="696" cy="400" r="7" fill="#4DBBD5"/>
+  <text x="696" y="330" font-size="15" font-weight="bold" fill="#3C8DAD" text-anchor="middle">2015</text>
+  <text x="696" y="308" font-size="11" fill="#33332E" text-anchor="middle">人表观基因组路线图</text>
+  <text x="696" y="292" font-size="11" fill="#33332E" text-anchor="middle">（111 例参考）</text>
+
+  <!-- 2017a 下 · green -->
+  <line x1="792" y1="408" x2="792" y2="452" stroke="#00A087" stroke-width="1.5"/>
+  <circle cx="792" cy="400" r="7" fill="#00A087"/>
+  <text x="792" y="472" font-size="15" font-weight="bold" fill="#00A087" text-anchor="middle">2017</text>
+  <text x="792" y="492" font-size="11" fill="#33332E" text-anchor="middle">Omni-ATAC：</text>
+  <text x="792" y="508" font-size="11" fill="#33332E" text-anchor="middle">降背景改进方案</text>
+
+  <!-- 2017b 上 · orange -->
+  <line x1="888" y1="392" x2="888" y2="338" stroke="#F39B7F" stroke-width="1.5"/>
+  <circle cx="888" cy="400" r="7" fill="#F39B7F"/>
+  <text x="888" y="330" font-size="15" font-weight="bold" fill="#C0684B" text-anchor="middle">2017</text>
+  <text x="888" y="308" font-size="11" fill="#33332E" text-anchor="middle">CUT&amp;RUN：酶切</text>
+  <text x="888" y="292" font-size="11" fill="#33332E" text-anchor="middle">抗体附近 DNA</text>
+
+  <!-- 2019 下 · orange -->
+  <line x1="984" y1="408" x2="984" y2="452" stroke="#F39B7F" stroke-width="1.5"/>
+  <circle cx="984" cy="400" r="7" fill="#F39B7F"/>
+  <text x="984" y="472" font-size="15" font-weight="bold" fill="#C0684B" text-anchor="middle">2019</text>
+  <text x="984" y="492" font-size="11" fill="#33332E" text-anchor="middle">CUT&amp;Tag：pA-Tn5</text>
+  <text x="984" y="508" font-size="11" fill="#33332E" text-anchor="middle">就地切割加接头</text>
+
+  <!-- 2021 上 · purple -->
+  <line x1="1080" y1="392" x2="1080" y2="338" stroke="#8491B4" stroke-width="1.5"/>
+  <circle cx="1080" cy="400" r="7" fill="#8491B4"/>
+  <text x="1080" y="330" font-size="15" font-weight="bold" fill="#8491B4" text-anchor="middle">2021</text>
+  <text x="1080" y="308" font-size="11" fill="#33332E" text-anchor="middle">单细胞 ATAC 框架</text>
+  <text x="1080" y="292" font-size="11" fill="#33332E" text-anchor="middle">ArchR · Signac</text>
+  <text x="1080" y="276" font-size="11" fill="#33332E" text-anchor="middle">单细胞 ATAC 框架</text>
+
+  <!-- 阶段注记 -->
+  <text x="636" y="574" font-size="12" fill="#6B6B66" text-anchor="middle">ChIP 时代解决「能不能测」→ ATAC 解决「非模式物种怎么办」→ CUT 系列解决「样本与预算的极限」→ 单细胞解决「谁跟谁在同一个细胞里」</text>
+  <text x="1100" y="600" font-size="11" fill="#6B6B66" text-anchor="end">年份（间距示意，不按比例）</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">CUT&amp;Tag 在细胞量、深度、信噪比上全面占优；但交联固定的间接互作信息仍要找 ChIP——替代有边界，选型看问题。</text>
+  <text x="48" y="754" font-size="11" fill="#6B6B66">节点年份取方法原文发表年（讲义 ⑪ 文献表）；ENCODE 计划节点为公认科学史实。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

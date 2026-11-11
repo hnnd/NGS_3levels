@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Silent semantic errors, part 2</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="30" width="720" height="252" fill="#FBE6DF" rx="12" stroke="#F39B7F" stroke-width="4"/>
+<rect x="64" y="42.0" width="47.472" height="60" fill="#F39B7F" rx="8"/>
+<text x="87.736" y="82.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">4</text>
+<text x="122" y="84" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="start" font-weight="bold">percent.mt &lt; 5</text>
+<line x1="110" y1="214" x2="720" y2="214" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<rect x="110" y="148" width="152.5" height="66" fill="#FBE6DF" stroke="#F39B7F" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="171.25" y1="165" x2="201.25" y2="195" stroke="#F39B7F" stroke-width="8" stroke-linecap="round"/>
+<line x1="171.25" y1="195" x2="201.25" y2="165" stroke="#F39B7F" stroke-width="8" stroke-linecap="round"/>
+<polyline points="262.5,214 354.0,180 445.5,160 537.0,166 628.5,188 720,214" fill="none" stroke="#F39B7F" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="262.5" y1="130" x2="262.5" y2="224" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt" stroke-dasharray="9 6"/>
+<text x="110.0" y="256" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0</text>
+<text x="262.5" y="256" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">5</text>
+<text x="720.0" y="256" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">20</text>
+<rect x="40" y="296" width="720" height="206" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<rect x="64" y="308.0" width="47.472" height="60" fill="#3C5488" rx="8"/>
+<text x="87.736" y="348.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">5</text>
+<text x="122" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">design = ~ condition</text>
+<rect x="80" y="400" width="210" height="70" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="3"/>
+<text x="185" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">condition</text>
+<rect x="324" y="400" width="170" height="70" fill="#FFFFFF" rx="10" stroke="#6B6B66" stroke-width="3" stroke-dasharray="9 7"/>
+<text x="409" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">batch</text>
+<line x1="514" y1="419" x2="546" y2="451" stroke="#6B6B66" stroke-width="7" stroke-linecap="round"/>
+<line x1="514" y1="451" x2="546" y2="419" stroke="#6B6B66" stroke-width="7" stroke-linecap="round"/>
+<line x1="556" y1="435" x2="604" y2="435" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<polygon points="604,435 591.2167548356277,440.70864634283396 591.2167548356277,429.29135365716604" fill="#E64B35"/>
+<text x="616" y="445" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">absorbed</text>
+<rect x="32.0" y="536" width="736" height="116" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="578" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">静默错误二：设计式漏掉批次混杂，</text>
+<text x="400.0" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">跨物种生搬单细胞阈值。常数皆跑通。</text>
+</svg>

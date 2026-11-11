@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="50" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">@RG → 下游</text>
+<rect x="40" y="80" width="240" height="540" fill="#E3E8F2" rx="16" stroke="#3C5488" stroke-width="5"/>
+<text x="160" y="126" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">读段标签</text>
+<rect x="65" y="160" width="190" height="74" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="5"/>
+<text x="160" y="210" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">@RG ID</text>
+<rect x="65" y="270" width="190" height="74" fill="#FFFFFF" rx="12" stroke="#3C8DAD" stroke-width="5"/>
+<text x="160" y="320" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="middle" font-weight="bold">@RG SM</text>
+<rect x="65" y="380" width="190" height="74" fill="#FFFFFF" rx="12" stroke="#8491B4" stroke-width="5"/>
+<text x="160" y="430" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#8491B4" text-anchor="middle" font-weight="bold">@RG PL</text>
+<rect x="65" y="490" width="190" height="74" fill="#FFFFFF" rx="12" stroke="#00A087" stroke-width="5"/>
+<text x="160" y="540" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">@RG LB</text>
+<line x1="280" y1="137" x2="340" y2="137" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="340,137 323.56439907437846,144.33968815507225 323.56439907437846,129.66031184492775" fill="#3C5488"/>
+<rect x="340" y="100" width="310" height="84" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="5"/>
+<text x="495" y="138" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">比对单元</text>
+<text x="495" y="170" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">SAM 记录键</text>
+<line x1="280" y1="282" x2="340" y2="282" stroke="#3C8DAD" stroke-width="6" stroke-linecap="round"/>
+<polygon points="340,282 323.56439907437846,289.3396881550723 323.56439907437846,274.6603118449277" fill="#3C8DAD"/>
+<rect x="340" y="245" width="310" height="84" fill="#FFFFFF" rx="12" stroke="#3C8DAD" stroke-width="5"/>
+<text x="495" y="283" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">样本列</text>
+<text x="495" y="315" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">gVCF 合并</text>
+<line x1="280" y1="427" x2="340" y2="427" stroke="#8491B4" stroke-width="6" stroke-linecap="round"/>
+<polygon points="340,427 323.56439907437846,434.3396881550723 323.56439907437846,419.6603118449277" fill="#8491B4"/>
+<rect x="340" y="390" width="310" height="84" fill="#FFFFFF" rx="12" stroke="#8491B4" stroke-width="5"/>
+<text x="495" y="428" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">平台错误率</text>
+<text x="495" y="460" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">BQSR 模型</text>
+<line x1="280" y1="572" x2="340" y2="572" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="340,572 323.56439907437846,579.3396881550723 323.56439907437846,564.6603118449277" fill="#00A087"/>
+<rect x="340" y="535" width="310" height="84" fill="#FFFFFF" rx="12" stroke="#00A087" stroke-width="5"/>
+<text x="495" y="573" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">文库去重边界</text>
+<text x="495" y="605" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">MarkDup</text>
+<rect x="680" y="250" width="100" height="190" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="730" y="306" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">缺一</text>
+<text x="730" y="348" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">报错</text>
+<text x="730" y="398" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">致命</text>
+<line x1="650" y1="137" x2="680" y2="330" stroke="#E64B35" stroke-width="3" stroke-linecap="butt" stroke-dasharray="9 9"/>
+<line x1="650" y1="282" x2="680" y2="330" stroke="#E64B35" stroke-width="3" stroke-linecap="butt" stroke-dasharray="9 9"/>
+<line x1="650" y1="427" x2="680" y2="330" stroke="#E64B35" stroke-width="3" stroke-linecap="butt" stroke-dasharray="9 9"/>
+<line x1="650" y1="572" x2="680" y2="330" stroke="#E64B35" stroke-width="3" stroke-linecap="butt" stroke-dasharray="9 9"/>
+<text x="400" y="664" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">每个标签各有下游使用者；缺标签 → GATK 报错</text>
+</svg>

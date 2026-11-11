@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+<text x="70" y="76" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">从长到短累计</text>
+<text x="425" y="76" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">一半 = 150</text>
+<text x="740" y="76" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="end" font-weight="bold">&quot;达到&quot;就停</text>
+<line x1="425.0" y1="96" x2="425.0" y2="476" stroke="#3C5488" stroke-width="4" stroke-linecap="butt" stroke-dasharray="14 10"/>
+<rect x="110" y="110" width="210.0" height="56" fill="#3C5488" rx="6"/>
+<text x="124" y="148" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="start" font-weight="bold">100</text>
+<line x1="320.0" y1="484" x2="320.0" y2="496" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="320.0" y="532" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">100</text>
+<rect x="110" y="185" width="168.0" height="56" fill="#00A087" rx="6"/>
+<text x="124" y="223" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="start" font-weight="bold">80</text>
+<line x1="488.0" y1="484" x2="488.0" y2="496" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="488.0" y="532" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">180</text>
+<rect x="110" y="260" width="105.0" height="56" fill="#3C5488" rx="6"/>
+<text x="124" y="298" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="start" font-weight="bold">50</text>
+<line x1="593.0" y1="484" x2="593.0" y2="496" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="593.0" y="532" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">230</text>
+<rect x="110" y="335" width="84.0" height="56" fill="#3C5488" rx="6"/>
+<text x="124" y="373" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="start" font-weight="bold">40</text>
+<line x1="677.0" y1="484" x2="677.0" y2="496" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="677.0" y="532" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">270</text>
+<rect x="110" y="410" width="63.0" height="56" fill="#3C5488" rx="6"/>
+<text x="124" y="448" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="start" font-weight="bold">30</text>
+<line x1="740.0" y1="484" x2="740.0" y2="496" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="740.0" y="532" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">300</text>
+<rect x="286.0" y="191" width="74" height="44" fill="#00A087" rx="8"/>
+<text x="323.0" y="223" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">N50</text>
+<text x="320" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">第二条恰好越阈</text>
+<rect x="170" y="624" width="460" height="62" fill="#3C5488" rx="12"/>
+<text x="400" y="668" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">N50 = 80，L50 = 2</text>
+</svg>

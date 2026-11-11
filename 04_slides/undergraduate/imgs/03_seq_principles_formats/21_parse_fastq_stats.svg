@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="50" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">三参数质控流水线</text>
+<text x="400" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">登录节点只编辑，计算全量投递</text>
+<rect x="50" y="130" width="700" height="96" fill="#1E293B" rx="14"/>
+<text x="80" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="start" font-weight="bold">bash 03_parse_fastq_stats.sh</text>
+<text x="80" y="208" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#4DBBD5" text-anchor="start" font-weight="bold">&lt;F input&gt;  &lt;G genome&gt;  &lt;N decode&gt;</text>
+<rect x="90" y="270" width="160" height="100" fill="#FFFFFF" rx="12" stroke="#3C8DAD" stroke-width="4"/>
+<text x="170" y="334" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#3C8DAD" text-anchor="middle" font-weight="bold">P1</text>
+<line x1="254" y1="320" x2="306" y2="320" stroke="#3C8DAD" stroke-width="6" stroke-linecap="round"/>
+<polygon points="306,320 289.56439907437846,327.3396881550723 289.56439907437846,312.6603118449277" fill="#3C8DAD"/>
+<rect x="310" y="270" width="160" height="100" fill="#FFFFFF" rx="12" stroke="#3C8DAD" stroke-width="4"/>
+<text x="390" y="334" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#3C8DAD" text-anchor="middle" font-weight="bold">P2</text>
+<line x1="474" y1="320" x2="526" y2="320" stroke="#3C8DAD" stroke-width="6" stroke-linecap="round"/>
+<polygon points="526,320 509.56439907437846,327.3396881550723 509.56439907437846,312.6603118449277" fill="#3C8DAD"/>
+<rect x="530" y="270" width="160" height="100" fill="#FFFFFF" rx="12" stroke="#3C8DAD" stroke-width="4"/>
+<text x="610" y="334" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#3C8DAD" text-anchor="middle" font-weight="bold">P3</text>
+<rect x="50" y="440" width="140" height="70" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="120" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">魔数</text>
+<line x1="192" y1="475" x2="226" y2="475" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="226,475 209.56439907437846,482.3396881550723 209.56439907437846,467.6603118449277" fill="#00A087"/>
+<rect x="230" y="440" width="140" height="70" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="300" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">首字符</text>
+<line x1="372" y1="475" x2="406" y2="475" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="406,475 389.56439907437846,482.3396881550723 389.56439907437846,467.6603118449277" fill="#00A087"/>
+<rect x="410" y="440" width="140" height="70" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="480" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">等长</text>
+<line x1="552" y1="475" x2="586" y2="475" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="586,475 569.5643990743785,482.3396881550723 569.5643990743785,467.6603118449277" fill="#00A087"/>
+<rect x="590" y="440" width="140" height="70" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="660" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">N50 · D</text>
+<rect x="140" y="580" width="520" height="76" fill="none" rx="14" stroke="#E64B35" stroke-width="6"/>
+<polygon points="180,596 220,618 180,640" fill="#E64B35"/>
+<text x="430" y="630" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">qsub 投递</text>
+</svg>

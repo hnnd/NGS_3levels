@@ -1,0 +1,40 @@
+# 博士生 · 环境 3/6：宿主-病原互作组学
+# 覆盖专题：p03
+# 创建：conda env create -f env_phd_interaction.yml
+# 激活：conda activate ngs_phd_interaction
+#
+# 【不走 conda】SignalP 需 DTU 学术许可单独申请；EffectorP 是独立分发的
+# Python 工具——两者均在契约 env_exempt_tools 中，需手动安装。
+
+name: ngs_phd_interaction
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # 【生态性断裂】setuptools 82.0.0（2026-02-08）移除了 pkg_resources（81.x 仍含），而 bioconda 上
+  # 2023-2024 年的 Python 工具（multiqc 1.14、macs2、部分 deeptools 子命令等）仍 import 它，
+  # 表现为 `ModuleNotFoundError: No module named 'pkg_resources'`。全课程统一钉 <81（比必要的 <82 多保守一档，已实测可用）。
+  - setuptools<81
+  # ---- 双 RNA-seq 定量与差异表达 ----
+  - star=2.7.10b
+  - salmon=1.10.3
+  - bioconductor-deseq2
+  - samtools=1.17
+
+  # ---- 比较基因组与直系同源 ----
+  - orthofinder=2.5.5
+  - diamond
+  - mafft=7.520
+  - iqtree=2.2.2
+
+  # ---- 效应子与抗性基因挖掘 ----
+  - hmmer            # Pfam 扫 NLR 结构域
+  - seqkit
+  - subread          # featureCounts（大纲 p03 实践表列出的定量路径之一）
+  # 跨膜预测不走 conda：TMHMM 2.0 与 SignalP 同属 DTU 学术许可体系。
+  # 替代方案见讲义 ⑨：DeepTMHMM（在线/容器）或 Phobius。
+
+  - r-base=4.3.1
+  - r-ggplot2=3.4.2

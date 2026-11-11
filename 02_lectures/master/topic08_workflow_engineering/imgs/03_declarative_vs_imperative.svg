@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">命令式 vs 声明式：理解 Snakemake 的唯一关键</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">维护顺序 ｜ 维护依赖 —— 依据 08_workflow_engineering_lecture.md ④</text>
+  <!-- 图例 -->
+  <rect x="952" y="40" width="14" height="14" rx="3" fill="#4DBBD5"/>
+  <text x="974" y="52" font-size="12" fill="#33332E">文件（依赖关系）</text>
+  <rect x="952" y="66" width="14" height="14" rx="3" fill="#E64B35"/>
+  <text x="974" y="78" font-size="12" fill="#33332E">中断 / 易错点</text>
+
+  <!-- ============ 左面板：命令式 ============ -->
+  <rect x="48" y="124" width="528" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="16" font-weight="bold" fill="#3C5488">shell 脚本：命令式——你写执行顺序</text>
+  <rect x="72" y="176" width="480" height="190" rx="6" fill="#FAFAF7"/>
+  <text x="88" y="204" font-size="11.5" fill="#6B6B66"># 多样本调度：for 循环 + 你亲手排的顺序</text>
+  <text x="88" y="232" font-size="12" fill="#33332E">① bash run_fastp.sh -s CK_1</text>
+  <text x="88" y="260" font-size="12" fill="#33332E">② bash run_fastp.sh -s CK_2</text>
+  <text x="88" y="288" font-size="12" fill="#33332E">　 ……（共 20 个样本）</text>
+  <text x="88" y="316" font-size="12" font-weight="bold" fill="#E64B35">⑬ bash run_fastp.sh -s TR_7   ← 半夜失败</text>
+  <text x="88" y="344" font-size="12" fill="#33332E">⑭ samtools sort …   ← -e 不加，照跑空文件</text>
+
+  <circle cx="84" cy="398" r="5" fill="#E64B35"/>
+  <text x="98" y="402" font-size="12.5" fill="#33332E">第 13 个失败：哪些已完成？从哪接着跑？全靠人记</text>
+  <circle cx="84" cy="428" r="5" fill="#A8A8A2"/>
+  <text x="98" y="432" font-size="12.5" fill="#33332E">路径、样本名写死；阈值藏在默认值里，不可见</text>
+  <circle cx="84" cy="458" r="5" fill="#A8A8A2"/>
+  <text x="98" y="462" font-size="12.5" fill="#33332E">只 &gt; log 不 2&gt;&amp;1：日志里只剩「一切顺利」</text>
+
+  <rect x="72" y="494" width="480" height="104" rx="6" fill="#FAFAF7"/>
+  <rect x="72" y="494" width="4" height="104" rx="2" fill="#3C5488"/>
+  <text x="88" y="522" font-size="12.5" fill="#33332E">参数化脚本解决了「换样本、换机器」，</text>
+  <text x="88" y="546" font-size="12.5" fill="#33332E">但没解决多样本调度与中断续跑——</text>
+  <text x="88" y="570" font-size="12.5" font-weight="bold" fill="#3C5488">这正是工作流引擎存在的理由。</text>
+
+  <!-- ============ 右面板：声明式 ============ -->
+  <rect x="600" y="124" width="552" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="624" y="156" font-size="16" font-weight="bold" fill="#3C5488">Snakemake：声明式——你只声明依赖</text>
+
+  <rect x="624" y="176" width="504" height="100" rx="6" fill="#FAFAF7"/>
+  <text x="640" y="202" font-size="13" font-weight="bold" fill="#3C5488">rule fastp:</text>
+  <text x="640" y="226" font-size="11.5" fill="#33332E">input:  <tspan fill="#3C8DAD">data/reads/{sample}_1.fq.gz</tspan></text>
+  <text x="640" y="246" font-size="11.5" fill="#33332E">output: <tspan fill="#3C8DAD">results/clean/{sample}_1.fq.gz</tspan></text>
+  <text x="640" y="266" font-size="11.5" fill="#33332E">shell:  fastp … &gt; {log} 2&gt;&amp;1</text>
+
+  <line x1="700" y1="276" x2="700" y2="316" stroke="#4DBBD5" stroke-width="2" stroke-dasharray="5 3"/>
+  <polygon points="695,316 705,316 700,324" fill="#4DBBD5"/>
+  <text x="714" y="302" font-size="11" fill="#3C8DAD">你声明的只有这条依赖边</text>
+
+  <rect x="624" y="326" width="504" height="100" rx="6" fill="#FAFAF7"/>
+  <text x="640" y="352" font-size="13" font-weight="bold" fill="#3C5488">rule quant:</text>
+  <text x="640" y="376" font-size="11.5" fill="#33332E">input:  <tspan fill="#3C8DAD">results/clean/{sample}_1.fq.gz</tspan>（上一条的 output）</text>
+  <text x="640" y="396" font-size="11.5" fill="#33332E">output: <tspan fill="#3C8DAD">results/quant/{sample}/quant.sf</tspan></text>
+  <text x="640" y="416" font-size="11.5" fill="#33332E">shell:  salmon …</text>
+
+  <text x="624" y="458" font-size="13" font-weight="bold" fill="#3C5488">wildcards 从下游倒推，不是从目录正扫（④）</text>
+  <text x="636" y="484" font-size="11.5" fill="#33332E">① 目标 <tspan fill="#3C8DAD">results/clean/CK_1_1.fq.gz</tspan>（你要的文件）</text>
+  <line x1="642" y1="490" x2="642" y2="498" stroke="#6B6B66" stroke-width="1.5"/>
+  <text x="636" y="514" font-size="11.5" fill="#33332E">② 与各 rule 的 output 模式匹配 → 反解 sample = CK_1</text>
+  <line x1="642" y1="520" x2="642" y2="528" stroke="#6B6B66" stroke-width="1.5"/>
+  <text x="636" y="544" font-size="11.5" fill="#33332E">③ 代回 input → 需要 <tspan fill="#3C8DAD">data/reads/CK_1_1.fq.gz</tspan></text>
+  <line x1="642" y1="550" x2="642" y2="558" stroke="#6B6B66" stroke-width="1.5"/>
+  <text x="636" y="574" font-size="11.5" fill="#33332E">④ 存在 → 执行；不存在 → 递归找；找不到 → MissingInputException</text>
+  <text x="636" y="606" font-size="11.5" fill="#6B6B66">递归到底得到一张 DAG：执行顺序由拓扑排序推出，你从未写过顺序。</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">你从此不再维护顺序，只维护依赖关系——「删掉中间文件只重跑受影响分支」正是这条设计的推论。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

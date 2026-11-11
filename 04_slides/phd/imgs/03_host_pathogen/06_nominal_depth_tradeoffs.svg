@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Nominal depth and three trade-offs</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="44" y="40" width="712" height="150" fill="#F6D8D2" rx="16" stroke="#E64B35" stroke-width="4"/>
+<text x="78" y="106" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="start" font-weight="bold">2×10<tspan dy="-0.32em">9</tspan></text>
+<text x="232" y="106" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#6B6B66" text-anchor="start">/</text>
+<text x="262" y="106" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="start" font-weight="bold">4×10<tspan dy="-0.32em">9</tspan></text>
+<text x="78" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">0.41 Gb · 150 bp</text>
+<text x="722" y="106" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="end" font-weight="bold">732×</text>
+<text x="722" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="end" font-weight="bold">1463×</text>
+<text x="400" y="240" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">名义深度超千倍</text>
+<rect x="44" y="300" width="712" height="100" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<circle cx="102" cy="350" r="28" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<text x="102" y="361" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">1</text>
+<text x="152" y="362" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">高密点接种控同步</text>
+<rect x="520" y="330" width="200" height="40" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<rect x="520" y="330" width="150.0" height="40" fill="#3C5488" rx="8"/>
+<rect x="44" y="418" width="712" height="100" fill="#E7F5F8" rx="14" stroke="#4DBBD5" stroke-width="4"/>
+<circle cx="102" cy="468" r="28" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="4"/>
+<text x="102" y="479" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#4DBBD5" text-anchor="middle" font-weight="bold">2</text>
+<text x="152" y="480" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#4DBBD5" text-anchor="start" font-weight="bold">探针捕获带偏好</text>
+<rect x="520" y="448" width="200" height="40" fill="#FFFFFF" rx="8" stroke="#4DBBD5" stroke-width="3"/>
+<rect x="520" y="448" width="110.00000000000001" height="40" fill="#4DBBD5" rx="8"/>
+<rect x="44" y="536" width="712" height="100" fill="#E7EAF1" rx="14" stroke="#8491B4" stroke-width="4"/>
+<circle cx="102" cy="586" r="28" fill="#FFFFFF" stroke="#8491B4" stroke-width="4"/>
+<text x="102" y="597" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">3</text>
+<text x="152" y="598" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="start" font-weight="bold">后移时相舍早期</text>
+<rect x="520" y="566" width="200" height="40" fill="#FFFFFF" rx="8" stroke="#8491B4" stroke-width="3"/>
+<rect x="520" y="566" width="80.0" height="40" fill="#8491B4" rx="8"/>
+</svg>

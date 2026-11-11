@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">品种与病菌的军备竞赛：泛基因组是观察哨</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">品种部署 ｜ 效应子更替 ｜ 逐年对比 —— 依据 08_project_lecture.md ③（Quibod et al., 2016）</text>
+  <!-- 图例 -->
+  <rect x="840" y="42" width="12" height="12" fill="#00A087"/>
+  <text x="860" y="52" font-size="12" fill="#33332E">水稻 · 育种端</text>
+  <rect x="840" y="59" width="12" height="12" fill="#8491B4"/>
+  <text x="860" y="69" font-size="12" fill="#33332E">Xoo · 病菌端</text>
+  <rect x="840" y="76" width="12" height="12" fill="#3C5488"/>
+  <text x="860" y="86" font-size="12" fill="#33332E">泛基因组监测</text>
+  <rect x="840" y="93" width="12" height="12" fill="#E64B35"/>
+  <text x="860" y="103" font-size="12" fill="#33332E">关键转折（被反超）</text>
+
+  <!-- ============ 主面板 ============ -->
+  <rect x="48" y="124" width="1104" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="158" font-size="17" font-weight="bold" fill="#3C5488">一轮军备竞赛的闭环（顺时针为时间方向）</text>
+
+  <!-- ① 品种部署 -->
+  <rect x="150" y="180" width="280" height="130" rx="10" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="170" y="212" font-size="13" font-weight="bold" fill="#00A087">① 品种部署（育种端）</text>
+  <line x1="170" y1="226" x2="410" y2="226" stroke="#E9E9E5"/>
+  <text x="170" y="252" font-size="11" fill="#33332E">新品种带抗病基因推广，</text>
+  <text x="170" y="272" font-size="11" fill="#33332E">抗性保护能维持若干年。</text>
+  <!-- ② 群体更替 -->
+  <rect x="770" y="180" width="280" height="130" rx="10" fill="#FFFFFF" stroke="#8491B4" stroke-width="1.5"/>
+  <text x="790" y="212" font-size="13" font-weight="bold" fill="#8491B4">② 群体更替（病菌端）</text>
+  <line x1="790" y1="226" x2="1030" y2="226" stroke="#E9E9E5"/>
+  <text x="790" y="252" font-size="11" fill="#33332E">"恰好绕过它"的效应子组合</text>
+  <text x="790" y="272" font-size="11" fill="#33332E">在 Xoo 群体里扩散开来。</text>
+  <!-- ③ 逐年监测 -->
+  <rect x="770" y="520" width="280" height="130" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="790" y="552" font-size="13" font-weight="bold" fill="#3C5488">③ 逐年监测（观察哨）</text>
+  <line x1="790" y1="566" x2="1030" y2="566" stroke="#E9E9E5"/>
+  <text x="790" y="592" font-size="11" fill="#33332E">基因存在 / 缺失 / 正在扩散，</text>
+  <text x="790" y="612" font-size="11" fill="#33332E">core · accessory 逐年对比。</text>
+  <!-- ④ 育种响应 -->
+  <rect x="150" y="520" width="280" height="130" rx="10" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="170" y="552" font-size="13" font-weight="bold" fill="#00A087">④ 育种响应（育种端）</text>
+  <line x1="170" y1="566" x2="410" y2="566" stroke="#E9E9E5"/>
+  <text x="170" y="592" font-size="11" fill="#33332E">在抗性被绕过之前，</text>
+  <text x="170" y="612" font-size="11" fill="#33332E">轮换或聚合抗病基因。</text>
+
+  <!-- 环形箭头 -->
+  <line x1="438" y1="245" x2="756" y2="245" stroke="#E64B35" stroke-width="2.5"/>
+  <polygon points="756,239 756,251 770,245" fill="#E64B35"/>
+  <text x="600" y="226" font-size="12" font-weight="bold" fill="#E64B35" text-anchor="middle">若干年后：被 Xoo 群体反超</text>
+  <line x1="910" y1="318" x2="910" y2="506" stroke="#3C5488" stroke-width="2.5"/>
+  <polygon points="904,506 916,506 910,520" fill="#3C5488"/>
+  <text x="924" y="420" font-size="11" fill="#3C5488">监测捕获更替</text>
+  <line x1="762" y1="585" x2="444" y2="585" stroke="#3C5488" stroke-width="2.5"/>
+  <polygon points="444,579 444,591 430,585" fill="#3C5488"/>
+  <text x="600" y="610" font-size="11" fill="#3C5488" text-anchor="middle">清单支撑轮换决策</text>
+  <line x1="290" y1="508" x2="290" y2="320" stroke="#3C5488" stroke-width="2.5"/>
+  <polygon points="284,320 296,320 290,306" fill="#3C5488"/>
+  <text x="276" y="420" font-size="11" fill="#3C5488" text-anchor="end">下一个品种上场</text>
+  <!-- 中心 -->
+  <circle cx="600" cy="415" r="95" fill="#FFFFFF" stroke="#3C5488" stroke-width="2.5"/>
+  <text x="600" y="396" font-size="15" font-weight="bold" fill="#3C5488" text-anchor="middle">泛基因组监测</text>
+  <text x="600" y="422" font-size="10.5" fill="#33332E" text-anchor="middle">哪个基因存在、缺失、</text>
+  <text x="600" y="440" font-size="10.5" fill="#33332E" text-anchor="middle">正在扩散——逐年对比</text>
+  <text x="600" y="466" font-size="10" fill="#6B6B66" text-anchor="middle">（M6 的产出）</text>
+
+  <!-- ============ 结语与页脚 ============ -->
+  <text x="48" y="736" font-size="13.5" font-weight="bold" fill="#3C5488">M6 产出的基因存在 / 缺失清单，正是第 ③ 步逐年对比的监测数据——这个项目因此不只是练习。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">污水如何变成全球耐药地图：read-based 检测的机制与盲区</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">ARG 比对计数 ｜ 参考库盲区 —— 依据 07_metagenome_lecture.md ③3.1</text>
+  <!-- 图例 -->
+  <rect x="952" y="36" width="24" height="9" rx="3" fill="#4DBBD5"/>
+  <text x="984" y="45" font-size="12" fill="#33332E">read（有命中）</text>
+  <rect x="952" y="58" width="24" height="9" rx="3" fill="#E64B35"/>
+  <text x="984" y="67" font-size="12" fill="#33332E">read（库里没有）</text>
+  <rect x="952" y="80" width="14" height="14" rx="3" fill="#3C5488"/>
+  <text x="984" y="92" font-size="12" fill="#33332E">耐药参考库</text>
+  <line x1="952" y1="112" x2="976" y2="112" stroke="#00A087" stroke-width="2"/>
+  <polygon points="976,108 976,116 984,112" fill="#00A087"/>
+  <text x="990" y="116" font-size="12" fill="#33332E">比对 → 计数</text>
+
+  <!-- ============ 主面板 ============ -->
+  <rect x="48" y="124" width="1104" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- 主流程行 -->
+  <rect x="72" y="176" width="180" height="80" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="88" y="200" font-size="13" font-weight="bold" fill="#3C5488">城市污水</text>
+  <text x="88" y="221" font-size="10.5" fill="#6B6B66">60 国 79 城未处理污水</text>
+  <text x="88" y="239" font-size="10.5" fill="#6B6B66">全城肠道的天然混合快照</text>
+  <line x1="252" y1="216" x2="276" y2="216" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="276,211 276,221 284,216" fill="#3C5488"/>
+  <rect x="284" y="176" width="180" height="80" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="300" y="200" font-size="13" font-weight="bold" fill="#3C5488">鸟枪宏基因组</text>
+  <text x="300" y="221" font-size="10.5" fill="#6B6B66">质控 → 去宿主</text>
+  <text x="300" y="239" font-size="10.5" fill="#6B6B66">此处宿主 = 人（同 5.1）</text>
+  <line x1="464" y1="216" x2="488" y2="216" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="488,211 488,221 496,216" fill="#3C5488"/>
+  <rect x="496" y="176" width="220" height="80" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="512" y="200" font-size="13" font-weight="bold" fill="#3C5488">read-based 双路</text>
+  <text x="512" y="221" font-size="10.5" fill="#6B6B66">物种组成（Kraken2 / Bracken）</text>
+  <text x="512" y="239" font-size="10.5" fill="#6B6B66">ARG 检测（比对耐药参考库）</text>
+  <line x1="716" y1="216" x2="740" y2="216" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="740,211 740,221 748,216" fill="#3C5488"/>
+  <rect x="748" y="176" width="180" height="80" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="764" y="200" font-size="13" font-weight="bold" fill="#3C5488">按基因类别计数</text>
+  <text x="764" y="221" font-size="10.5" fill="#6B6B66">国家与区域间比较</text>
+  <text x="764" y="239" font-size="10.5" fill="#6B6B66">丰度 / 多样性呈梯度</text>
+  <line x1="928" y1="216" x2="952" y2="216" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="952,211 952,221 960,216" fill="#3C5488"/>
+  <rect x="960" y="176" width="168" height="80" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="976" y="200" font-size="13" font-weight="bold" fill="#3C5488">系统性区域梯度</text>
+  <text x="976" y="221" font-size="10.5" fill="#6B6B66">欧洲/北美/大洋洲</text>
+  <text x="976" y="239" font-size="10.5" fill="#6B6B66">vs 亚洲/非洲/南美洲</text>
+
+  <!-- 结论横幅 -->
+  <rect x="72" y="278" width="1056" height="44" rx="6" fill="#FAFAF7"/>
+  <rect x="72" y="278" width="4" height="44" rx="2" fill="#F39B7F"/>
+  <text x="88" y="305" font-size="12" fill="#33332E">污水 = 独立临床的 AMR 监测哨：改善卫生条件与污水处理可能压低全球耐药负担（Hendriksen et al., 2019, Nat Commun）</text>
+
+  <!-- 放大：ARG 检测 -->
+  <text x="72" y="360" font-size="13" font-weight="bold" fill="#3C5488">放大：ARG 检测这一路——reads 比对参考库、按类别计数</text>
+  <rect x="72" y="376" width="628" height="224" rx="8" fill="none" stroke="#6B6B66" stroke-width="1.2" stroke-dasharray="6 4"/>
+
+  <text x="96" y="404" font-size="11" fill="#3C8DAD">环境 reads</text>
+  <rect x="96" y="414" width="40" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="96" y="430" width="40" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="96" y="446" width="40" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="96" y="462" width="40" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="96" y="478" width="40" height="8" rx="3" fill="#4DBBD5"/>
+  <line x1="148" y1="446" x2="266" y2="446" stroke="#00A087" stroke-width="2"/>
+  <polygon points="266,441 266,451 274,446" fill="#00A087"/>
+  <text x="210" y="436" font-size="10.5" fill="#00A087" text-anchor="middle">比对命中</text>
+
+  <!-- 参考库圆柱 -->
+  <rect x="280" y="412" width="140" height="72" rx="4" fill="#3C5488"/>
+  <ellipse cx="350" cy="412" rx="70" ry="11" fill="#3C5488"/>
+  <text x="350" y="448" font-size="11.5" fill="#FFFFFF" text-anchor="middle">耐药参考库</text>
+  <text x="350" y="466" font-size="10.5" fill="#FFFFFF" text-anchor="middle">CARD / ResFinder</text>
+  <line x1="350" y1="496" x2="350" y2="514" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="345,514 355,514 350,522" fill="#3C5488"/>
+  <rect x="280" y="526" width="140" height="46" rx="5" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <line x1="292" y1="540" x2="408" y2="540" stroke="#A8A8A2" stroke-width="1.5"/>
+  <line x1="292" y1="552" x2="384" y2="552" stroke="#A8A8A2" stroke-width="1.5"/>
+  <line x1="292" y1="564" x2="400" y2="564" stroke="#A8A8A2" stroke-width="1.5"/>
+  <text x="434" y="545" font-size="11" fill="#33332E">按基因类别计数</text>
+  <text x="434" y="563" font-size="11" fill="#33332E">→ 区域比较</text>
+
+  <!-- 库里没有的 reads -->
+  <rect x="96" y="508" width="40" height="8" rx="3" fill="#E64B35"/>
+  <rect x="96" y="524" width="40" height="8" rx="3" fill="#E64B35"/>
+  <text x="148" y="525" font-size="11" fill="#E64B35">无命中</text>
+  <text x="96" y="580" font-size="12" font-weight="bold" fill="#E64B35">新型 ARG：库里没有就看不见——须靠组装路线或专门参考库补充（④4.2 的显性约束）</text>
+
+  <!-- 右侧注记 -->
+  <rect x="740" y="376" width="388" height="102" rx="6" fill="#FAFAF7"/>
+  <rect x="740" y="376" width="4" height="102" rx="2" fill="#3C5488"/>
+  <text x="758" y="402" font-size="12" font-weight="bold" fill="#3C5488">组间比较的前提（⑥6.1）</text>
+  <text x="758" y="424" font-size="11.5" fill="#33332E">宿主占比与有效非宿主深度组间无系统差；</text>
+  <text x="758" y="444" font-size="11.5" fill="#33332E">否则「丰度差异」可能只是宿主含量差异——</text>
+  <text x="758" y="464" font-size="11.5" fill="#33332E">下采样到相同非宿主 reads 数后再比。</text>
+
+  <rect x="740" y="494" width="388" height="106" rx="6" fill="#FAFAF7"/>
+  <rect x="740" y="494" width="4" height="106" rx="2" fill="#4DBBD5"/>
+  <text x="758" y="520" font-size="12" font-weight="bold" fill="#3C5488">主线数据练的是同一条链路的微缩版</text>
+  <text x="758" y="542" font-size="11.5" fill="#33332E">PRJDB12800（水田 vs 旱地）：鸟枪 → 去宿主 →</text>
+  <text x="758" y="562" font-size="11.5" fill="#33332E">定量 → 组间比较——换的只是尺度、参考库，</text>
+  <text x="758" y="582" font-size="11.5" fill="#33332E">与背后的公共卫生问题。</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">「库里没有就看不见」在这里从缺点变成监测设计的显性约束：新型 ARG 必须靠组装路线或专门参考库补上。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Three silent upstream contaminations</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="60" width="720" height="50" fill="#E64B35" rx="10"/>
+<text x="400" y="95" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">EXIT 0 · NO ERROR</text>
+<line x1="40" y1="248" x2="760" y2="248" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 10"/>
+<line x1="40" y1="363" x2="760" y2="363" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 10"/>
+<line x1="40" y1="478" x2="760" y2="478" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 10"/>
+<text x="44" y="201" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">AMBIENT RNA</text>
+<line x1="248" y1="190" x2="300" y2="190" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="300,190 288.12984377594,195.3008858897744 288.12984377594,184.6991141102256" fill="#6B6B66"/>
+<path d="M 334 166 A 30 30 0 1 1 380 216" fill="#E3E8F2" stroke="#3C5488" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="326" cy="146" r="5" fill="#F39B7F"/>
+<circle cx="372" cy="142" r="5" fill="#F39B7F"/>
+<circle cx="404" cy="182" r="5" fill="#F39B7F"/>
+<circle cx="314" cy="220" r="5" fill="#F39B7F"/>
+<line x1="414" y1="190" x2="466" y2="190" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="466,190 454.12984377594,195.3008858897744 454.12984377594,184.6991141102256" fill="#6B6B66"/>
+<text x="482" y="201" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">DIFFUSE</text>
+<text x="44" y="316" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">TRUNCATED 3&#x27;</text>
+<line x1="248" y1="305" x2="300" y2="305" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="300,305 288.12984377594,310.3008858897744 288.12984377594,299.6991141102256" fill="#6B6B66"/>
+<rect x="316" y="292" width="62" height="26" fill="#4DBBD5" rx="4" stroke="#4DBBD5" stroke-width="2"/>
+<rect x="378" y="292" width="26" height="26" fill="none" rx="4" stroke="#6B6B66" stroke-width="3" stroke-dasharray="7 7"/>
+<line x1="414" y1="305" x2="466" y2="305" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="466,305 454.12984377594,310.3008858897744 454.12984377594,299.6991141102256" fill="#6B6B66"/>
+<text x="482" y="316" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">FEW GENES</text>
+<text x="44" y="431" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">DOUBLET</text>
+<line x1="248" y1="420" x2="300" y2="420" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="300,420 288.12984377594,425.3008858897744 288.12984377594,414.6991141102256" fill="#6B6B66"/>
+<circle cx="360" cy="420" r="34" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="349" cy="413" r="11" fill="#F39B7F"/>
+<circle cx="371" cy="428" r="11" fill="#8491B4"/>
+<line x1="414" y1="420" x2="466" y2="420" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="466,420 454.12984377594,425.3008858897744 454.12984377594,414.6991141102256" fill="#6B6B66"/>
+<text x="482" y="431" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="start" font-weight="bold">FAKE MIDDLE</text>
+<rect x="28.0" y="524" width="744" height="128" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="574" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">环境游离全图弥漫，截断丢失末端读段，</text>
+<text x="400.0" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">双联体伪造中间态。流程皆不报警。</text>
+</svg>

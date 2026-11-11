@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Silent semantic errors, part 1</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="150" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">code</text>
+<text x="736" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">output</text>
+<rect x="40" y="78" width="720" height="118" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="4"/>
+<rect x="66" y="107.0" width="47.472" height="60" fill="#3C5488" rx="8"/>
+<text x="89.736" y="147.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<text x="132" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">padj  →  pvalue</text>
+<text x="132" y="170" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">wrong_column</text>
+<text x="736" y="144" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="end" font-weight="bold">FP  1 → 94</text>
+<rect x="40" y="210" width="720" height="118" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="4"/>
+<rect x="66" y="239.0" width="47.472" height="60" fill="#3C5488" rx="8"/>
+<text x="89.736" y="279.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<text x="132" y="262" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">contrast: swap 2 / 3</text>
+<text x="132" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">wrong_direction</text>
+<text x="736" y="276" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="end" font-weight="bold">TP  0 / 20</text>
+<rect x="40" y="342" width="720" height="118" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="4"/>
+<rect x="66" y="371.0" width="47.472" height="60" fill="#3C5488" rx="8"/>
+<text x="89.736" y="411.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="132" y="394" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">round(CPM) as counts</text>
+<text x="132" y="434" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">double_normalization</text>
+<text x="736" y="408" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="end" font-weight="bold">SF  1.03 X</text>
+<rect x="40" y="470" width="720" height="62" fill="#F6D8D2" rx="10" stroke="#E64B35" stroke-width="4"/>
+<text x="400" y="510" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">exit 0  ·  tables_and_plots_look_fine</text>
+<rect x="32.0" y="548" width="736" height="114" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="588" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">静默错误一：筛选列误用、方向反转、</text>
+<text x="400.0" y="632" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">双重归一化。正常退出但语义全错。</text>
+</svg>

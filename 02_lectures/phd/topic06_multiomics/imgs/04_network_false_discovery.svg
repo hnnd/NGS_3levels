@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">相关网络：多重校正之前只是一张图</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">间接关联 ｜ 250 万次检验 ｜ 阈值敏感性 —— 依据 06_multiomics_lecture.md ④4.9 · ⑦(1)</text>
+  <!-- 图例 -->
+  <circle cx="932" cy="41" r="7" fill="#3C5488"/>
+  <text x="946" y="45" font-size="12" fill="#33332E">变量（基因 / ME / 代谢物）</text>
+  <line x1="1096" y1="41" x2="1108" y2="41" stroke="#E64B35" stroke-width="2.5" stroke-dasharray="5 3"/>
+  <text x="1114" y="45" font-size="12" fill="#33332E">伪边</text>
+
+  <!-- ============ 面板 A：间接关联 ============ -->
+  <rect x="48" y="120" width="540" height="290" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="17" font-weight="bold" fill="#3C5488">间接关联：这条边可能是别人伪造的</text>
+  <line x1="72" y1="166" x2="564" y2="166" stroke="#E9E9E5"/>
+
+  <text x="318" y="184" font-size="11" fill="#6B6B66" text-anchor="middle">共同上游 B（如处理效应 / 同一代谢链上游）</text>
+  <!-- B→A 折线箭头 -->
+  <polyline points="318,226 318,256 205,256 205,294" fill="none" stroke="#3C5488" stroke-width="1.8"/>
+  <polygon points="201,294 209,294 205,302" fill="#3C5488"/>
+  <!-- B→C 折线箭头 -->
+  <polyline points="318,226 318,256 431,256 431,294" fill="none" stroke="#3C5488" stroke-width="1.8"/>
+  <polygon points="427,294 435,294 431,302" fill="#3C5488"/>
+  <!-- A–C 伪边 -->
+  <line x1="223" y1="318" x2="413" y2="318" stroke="#E64B35" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <circle cx="318" cy="210" r="16" fill="#3C5488"/>
+  <text x="318" y="215" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">B</text>
+  <circle cx="205" cy="318" r="16" fill="#4DBBD5"/>
+  <text x="205" y="323" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">A</text>
+  <circle cx="431" cy="318" r="16" fill="#F39B7F"/>
+  <text x="431" y="323" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">C</text>
+  <text x="318" y="344" font-size="12" font-weight="bold" fill="#E64B35" text-anchor="middle">A–C 出现强相关"伪边"：B 同时驱动 A 与 C</text>
+
+  <text x="72" y="374" font-size="11.5" fill="#33332E">同一条代谢链上的连续代谢物彼此高度相关——间接关联在通路里极其普遍（④4.9）；</text>
+  <text x="72" y="396" font-size="11.5" fill="#33332E">偏相关 / GGM 控制其余变量后更接近真实反应链，但 p ≫ n → 降维后用（ME × 代谢物）。</text>
+
+  <!-- ============ 面板 B：检验规模 ============ -->
+  <rect x="612" y="120" width="540" height="290" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="636" y="152" font-size="17" font-weight="bold" fill="#3C5488">检验规模：随机数也能画出漂亮的网络</text>
+  <line x1="636" y1="166" x2="1128" y2="166" stroke="#E9E9E5"/>
+
+  <text x="882" y="200" font-size="15.5" font-weight="bold" fill="#3C5488" text-anchor="middle">5,000 基因 × 500 代谢物 = 2,500,000 次检验</text>
+  <text x="882" y="234" font-size="13" font-weight="bold" fill="#E64B35" text-anchor="middle">两矩阵全随机：也期望有 125,000 对 p &lt; 0.05 的"显著"边</text>
+  <text x="882" y="266" font-size="12.5" fill="#33332E" text-anchor="middle">全矩阵算完 → BH 校正 → 按 q 值筛边 → 剩下几百条</text>
+  <text x="882" y="292" font-size="12.5" fill="#33332E" text-anchor="middle">置换检验（打乱样本标签 × 1000 次）做整体校准——第二道闸</text>
+
+  <rect x="636" y="314" width="492" height="72" rx="6" fill="#FAFAF7"/>
+  <rect x="636" y="314" width="4" height="72" rx="2" fill="#3C5488"/>
+  <text x="656" y="342" font-size="12" font-weight="bold" fill="#3C5488">纪律：校正对象是全部检验，不是你挑出来看的那些</text>
+  <text x="656" y="366" font-size="11.5" fill="#33332E">"挑出好看的边再算 p"是选择性推断，那个 p 值已经失效（⑦1）</text>
+
+  <!-- ============ 面板 C：阈值敏感性 ============ -->
+  <rect x="48" y="450" width="1104" height="230" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="484" font-size="17" font-weight="bold" fill="#3C5488">阈值敏感性：结论要在一段阈值区间内稳定</text>
+
+  <!-- 坐标轴 -->
+  <line x1="140" y1="500" x2="140" y2="634" stroke="#33332E" stroke-width="1.5"/>
+  <line x1="140" y1="634" x2="700" y2="634" stroke="#33332E" stroke-width="1.5"/>
+  <text x="126" y="516" font-size="11" fill="#6B6B66" text-anchor="middle">边数</text>
+  <text x="160" y="650" font-size="10.5" fill="#6B6B66" text-anchor="middle">0.60</text>
+  <text x="320" y="650" font-size="10.5" fill="#6B6B66" text-anchor="middle">0.70</text>
+  <text x="480" y="650" font-size="10.5" fill="#6B6B66" text-anchor="middle">0.80</text>
+  <text x="640" y="650" font-size="10.5" fill="#6B6B66" text-anchor="middle">0.90</text>
+  <text x="420" y="670" font-size="11" fill="#6B6B66" text-anchor="middle">|r| 阈值</text>
+
+  <!-- 稳定带与曲线 -->
+  <rect x="320" y="500" width="160" height="134" fill="#00A087" fill-opacity="0.08"/>
+  <text x="400" y="512" font-size="11" font-weight="bold" fill="#00A087" text-anchor="middle">核心子网稳定的阈值区间</text>
+  <polyline points="165,505 240,510 320,520 400,538 480,572 560,606 620,622 640,626" fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <line x1="480" y1="500" x2="480" y2="634" stroke="#6B6B66" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- 右侧注释 -->
+  <text x="740" y="524" font-size="12.5" font-weight="bold" fill="#33332E">只在 |r| &gt; 0.80 成立、0.75 或 0.85 就散架的网络，</text>
+  <text x="740" y="548" font-size="12.5" font-weight="bold" fill="#33332E">不是结论（⑥ 表）——报告阈值-边数曲线</text>
+  <text x="740" y="572" font-size="11.5" fill="#6B6B66">文献里最常见的"随手定"就是 0.80，而节点数、边数、</text>
+  <text x="740" y="592" font-size="11.5" fill="#6B6B66">模块结构、hub 身份全由它决定（④4.9）</text>
+  <text x="740" y="622" font-size="11.5" fill="#6B6B66">本讲实践：网络建在 ME × 代谢物上——2 万维压到 12 个 ME，</text>
+  <text x="740" y="642" font-size="11.5" fill="#6B6B66">检验规模与维度问题同时缓解</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="4" height="58" rx="2" fill="#3C5488"/>
+  <rect x="48" y="696" width="1104" height="58" rx="6" fill="#FAFAF7"/>
+  <text x="66" y="718" font-size="12.5" fill="#33332E">任何相关性网络在多重检验校正之前都不是结果，只是一张图（⑦1）；模块-性状热图的 p 值同样要校正（⑦3）。</text>
+  <text x="66" y="740" font-size="12.5" fill="#33332E">四项来源全排除（真实调控 / 共同上游 / 批次伪迹 / 组成性伪相关）之后，剩下的仍只是"值得做实验验证的候选假说"（⑦4）。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

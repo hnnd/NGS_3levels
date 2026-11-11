@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="48" y="128" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="start" font-weight="bold">库全：定种三成半</text>
+<rect x="48" y="150" width="239.92623999999998" height="66" fill="#00A087" rx="8"/>
+<text x="167.96312" y="194.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">34.9%</text>
+<rect x="287.92624" y="150" width="448.07376" height="66" fill="#4DBBD5" rx="8"/>
+<text x="511.96312" y="194.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">65.1%</text>
+<text x="48" y="318" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="start" font-weight="bold">缺种：上浮到属六成半</text>
+<rect x="48" y="340" width="447.17592" height="66" fill="#4DBBD5" rx="8"/>
+<text x="271.58796" y="384.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">65.0%</text>
+<rect x="495.17592" y="340" width="240.82407999999998" height="66" fill="#E9E9E5" rx="8"/>
+<text x="615.5879600000001" y="384.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">35.0%</text>
+<text x="48" y="508" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#E64B35" text-anchor="start" font-weight="bold">剩单种：假精确张冠李戴</text>
+<rect x="48" y="530" width="446.05792" height="66" fill="#E64B35" rx="8"/>
+<text x="271.02896" y="574.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">64.8%</text>
+<rect x="494.05792" y="530" width="241.94207999999998" height="66" fill="#E9E9E5" rx="8"/>
+<text x="615.02896" y="574.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">35.2%</text>
+<line x1="48" y1="596" x2="736" y2="596" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<line x1="48" y1="596" x2="736" y2="596" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<line x1="48" y1="596" x2="736" y2="596" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+</svg>

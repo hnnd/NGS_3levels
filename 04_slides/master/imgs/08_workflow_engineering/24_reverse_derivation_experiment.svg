@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="60" y="24" width="680" height="88" fill="#E9E9E5" rx="14"/>
+<text x="400" y="78" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">rm results/quant/CK_1/quant.sf</text>
+<line x1="214" y1="122" x2="214" y2="162" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="214,162 208.291353657166,149.21675483562768 219.708646342834,149.21675483562768" fill="#4DBBD5"/>
+<text x="214" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">终点齐全判定完成</text>
+<rect x="40" y="226" width="348" height="230" fill="#F6D8D2" rx="16" stroke="#E64B35" stroke-width="5"/>
+<text x="214" y="296" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">snakemake -n</text>
+<text x="214" y="360" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">Nothing to be done</text>
+<text x="214" y="416" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">删中间产物默认不重跑</text>
+<line x1="586" y1="122" x2="586" y2="162" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="586,162 580.291353657166,149.21675483562768 591.708646342834,149.21675483562768" fill="#4DBBD5"/>
+<text x="586" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">点名目标才逆向触发</text>
+<rect x="412" y="226" width="348" height="230" fill="#D8EEE9" rx="16" stroke="#00A087" stroke-width="4"/>
+<text x="586" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">snakemake -n quant.sf</text>
+<text x="586" y="392" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">1 job (rebuild)</text>
+<text x="586" y="502" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">missing input</text>
+</svg>

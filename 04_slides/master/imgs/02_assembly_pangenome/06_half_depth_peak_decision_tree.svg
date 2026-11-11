@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="30" y="70" width="340" height="510" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="60" y1="470" x2="350" y2="470" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<polygon points="240,470 188,470 240,310" fill="#3C5488"/>
+<polygon points="240,470 292,470 240,310" fill="#3C5488"/>
+<polygon points="130,470 90,470 130,248" fill="#F39B7F"/>
+<polygon points="130,470 170,470 130,248" fill="#F39B7F"/>
+<text x="130" y="236" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">21×</text>
+<text x="240" y="298" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">43×</text>
+<text x="185" y="516" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">主峰 43×</text>
+<text x="185" y="552" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">伴半深度峰 21×</text>
+<rect x="470" y="90" width="300" height="84" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="6"/>
+<text x="620" y="143" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">四条基本检查</text>
+<line x1="620" y1="178" x2="620" y2="258" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="620,258 612.6603118449277,241.56439907437846 627.3396881550723,241.56439907437846" fill="#6B6B66"/>
+<line x1="620" y1="258" x2="470" y2="340" stroke="#6B6B66" stroke-width="6" stroke-linecap="butt"/>
+<line x1="620" y1="258" x2="470" y2="490" stroke="#6B6B66" stroke-width="6" stroke-linecap="butt"/>
+<line x1="470" y1="340" x2="470" y2="352" stroke="#E64B35" stroke-width="6" stroke-linecap="round"/>
+<polygon points="470,352 462.6603118449277,335.56439907437846 477.3396881550723,335.56439907437846" fill="#E64B35"/>
+<line x1="470" y1="490" x2="470" y2="502" stroke="#F39B7F" stroke-width="6" stroke-linecap="round"/>
+<polygon points="470,502 462.6603118449277,485.56439907437846 477.3396881550723,485.56439907437846" fill="#F39B7F"/>
+<rect x="330" y="356" width="440" height="84" fill="#E64B35" rx="14"/>
+<text x="550" y="409" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">至少两条同向才判污染</text>
+<rect x="330" y="506" width="440" height="84" fill="#FBE3D9" rx="14" stroke="#F39B7F" stroke-width="6"/>
+<text x="550" y="559" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">否则写原因待定</text>
+</svg>

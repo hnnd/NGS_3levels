@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">红灯不一定是问题：先诊断，再动手</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">PASS/WARN/FAIL 是固定阈值判定，不是统计检验 —— 依据 l0_05 §1、§3</text>
+
+  <!-- ============ 顶部横幅：核心一问 ============ -->
+  <rect x="48" y="120" width="1104" height="84" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="600" y="156" font-size="19" font-weight="bold" fill="#E64B35" text-anchor="middle">「这个红灯，是数据的问题，还是这类数据本来就长这样？」</text>
+  <text x="600" y="184" font-size="12.5" fill="#6B6B66" text-anchor="middle">回答不了，就去查这个建库方式的文献，或把过表达序列 BLAST 一下——不要直接开始裁剪。</text>
+
+  <!-- ============ 左面板：四个红灯不是问题 ============ -->
+  <rect x="48" y="228" width="560" height="472" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="260" font-size="17" font-weight="bold" fill="#3C5488">四个必须记住的「红灯不是问题」</text>
+  <line x1="72" y1="272" x2="584" y2="272" stroke="#E9E9E5"/>
+
+  <!-- 卡片 1 -->
+  <rect x="72" y="282" width="512" height="96" rx="6" fill="#FAFAF7"/>
+  <text x="88" y="306" font-size="13" font-weight="bold" fill="#3C5488">① RNA-seq · Per base sequence content</text>
+  <text x="88" y="328" font-size="11.5" fill="#33332E">前 10–15 bp 剧烈波动报红：随机六聚体引物并非真随机</text>
+  <text x="88" y="346" font-size="11.5" fill="#6B6B66">建库方式的固有特征；STAR / HISAT2 完全能容忍</text>
+  <text x="88" y="366" font-size="11.5" font-weight="bold" fill="#00A087">处置：不动手——不要为了让 FastQC 变绿裁掉这 10 bp</text>
+
+  <!-- 卡片 2 -->
+  <rect x="72" y="386" width="512" height="96" rx="6" fill="#FAFAF7"/>
+  <text x="88" y="410" font-size="13" font-weight="bold" fill="#3C5488">② RNA-seq · Sequence Duplication Levels</text>
+  <text x="88" y="432" font-size="11.5" fill="#33332E">重复度报红：高表达基因本来就被测到成千上万次</text>
+  <text x="88" y="450" font-size="11.5" fill="#6B6B66">序列相同的 read 是真实生物学信号，不携带「伪深度」以外的含义</text>
+  <text x="88" y="470" font-size="11.5" font-weight="bold" fill="#00A087">处置：不去重——去重会削掉真实表达量，差异表达整体失真</text>
+
+  <!-- 卡片 3 -->
+  <rect x="72" y="490" width="512" height="96" rx="6" fill="#FAFAF7"/>
+  <text x="88" y="514" font-size="13" font-weight="bold" fill="#3C5488">③ 扩增子 16S · Per base sequence content</text>
+  <text x="88" y="536" font-size="11.5" fill="#33332E">四条线全程不平行：所有 read 测的是同一段保守区</text>
+  <text x="88" y="554" font-size="11.5" fill="#6B6B66">设计使然；当成问题去修剪会破坏后续 DADA2 去噪</text>
+  <text x="88" y="574" font-size="11.5" font-weight="bold" fill="#00A087">处置：不动手</text>
+
+  <!-- 卡片 4 -->
+  <rect x="72" y="594" width="512" height="96" rx="6" fill="#FAFAF7"/>
+  <text x="88" y="618" font-size="13" font-weight="bold" fill="#3C5488">④ Bisulfite（甲基化）· sequence content</text>
+  <text x="88" y="640" font-size="11.5" fill="#33332E">C 含量极低、T 极高：未甲基化的 C 被转成 U（读作 T）</text>
+  <text x="88" y="658" font-size="11.5" fill="#6B6B66">这正是实验想做的事</text>
+  <text x="88" y="678" font-size="11.5" font-weight="bold" fill="#00A087">处置：不动手——报红说明实验成功了</text>
+
+  <!-- ============ 右面板：必须处理 ============ -->
+  <rect x="632" y="228" width="520" height="472" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="656" y="260" font-size="17" font-weight="bold" fill="#3C5488">反过来，这些必须处理</text>
+  <line x1="656" y1="272" x2="1128" y2="272" stroke="#E9E9E5"/>
+
+  <rect x="656" y="290" width="4" height="38" rx="2" fill="#F39B7F"/>
+  <text x="672" y="306" font-size="12.5" font-weight="bold" fill="#33332E">Adapter Content 末端抬升 &gt;5%</text>
+  <text x="672" y="324" font-size="11" fill="#6B6B66">去接头：fastp --adapter_sequence 或 --detect_adapter_for_pe</text>
+
+  <rect x="656" y="344" width="4" height="38" rx="2" fill="#F39B7F"/>
+  <text x="672" y="360" font-size="12.5" font-weight="bold" fill="#33332E">末端质量落进红区（Q &lt; 20）</text>
+  <text x="672" y="378" font-size="11" fill="#6B6B66">滑窗修剪（--cut_tail），不要一刀切固定长度</text>
+
+  <rect x="656" y="398" width="4" height="38" rx="2" fill="#F39B7F"/>
+  <text x="672" y="414" font-size="12.5" font-weight="bold" fill="#33332E">Per sequence GC content 明显双峰</text>
+  <text x="672" y="432" font-size="11" fill="#6B6B66">先 BLAST 定性（污染？拿错样？index 串扰？）再决定</text>
+
+  <rect x="656" y="452" width="4" height="38" rx="2" fill="#F39B7F"/>
+  <text x="672" y="468" font-size="12.5" font-weight="bold" fill="#33332E">某位置 N 比例飙高</text>
+  <text x="672" y="486" font-size="11" fill="#6B6B66">该循环成像失败，截掉该段</text>
+
+  <rect x="656" y="506" width="4" height="38" rx="2" fill="#F39B7F"/>
+  <text x="672" y="522" font-size="12.5" font-weight="bold" fill="#33332E">清洗后仍大量短于 50 bp 的 read</text>
+  <text x="672" y="540" font-size="11" fill="#6B6B66">丢弃：太短的 read 会产生大量多重比对</text>
+
+  <line x1="656" y1="562" x2="1128" y2="562" stroke="#E9E9E5"/>
+  <rect x="656" y="578" width="472" height="104" rx="6" fill="#FAFAF7"/>
+  <text x="672" y="602" font-size="12.5" font-weight="bold" fill="#3C5488">第 5 个「红灯不是问题」，是你自己动手做出来的：</text>
+  <text x="672" y="624" font-size="11.5" fill="#33332E">清洗后 Sequence Length Distribution 从 PASS 变 WARN——</text>
+  <text x="672" y="642" font-size="11.5" fill="#33332E">修剪让 read 长度不再划一，分布从竖线变成分布。</text>
+  <text x="672" y="664" font-size="11.5" font-weight="bold" fill="#00A087">「某个指标变差」不是失败的证据，要看它变差的原因。</text>
+
+  <!-- 页脚 -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

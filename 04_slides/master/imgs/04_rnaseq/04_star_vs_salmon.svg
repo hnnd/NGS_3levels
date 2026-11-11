@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="200" y="61.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">跨外显子剪接比对</text>
+<text x="40" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">基因组</text>
+<line x1="40" y1="120" x2="360" y2="120" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<rect x="70" y="106" width="60" height="28" fill="#3C5488"/>
+<rect x="200" y="106" width="60" height="28" fill="#3C5488"/>
+<rect x="310" y="106" width="40" height="28" fill="#3C5488"/>
+<rect x="72" y="172" width="56" height="22" fill="#4DBBD5"/>
+<rect x="202" y="172" width="56" height="22" fill="#4DBBD5"/>
+<path d="M 128 183 C 160 152, 170 152, 202 183" fill="none" stroke="#4DBBD5" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="270" y="192" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start">跨剪接读段</text>
+<rect x="90" y="292" width="150" height="92" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="5"/>
+<rect x="80" y="282" width="150" height="92" fill="none" rx="10" stroke="#3C5488" stroke-width="3"/>
+<text x="175" y="346" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#3C5488" text-anchor="middle" font-weight="bold">BAM</text>
+<line x1="160" y1="204" x2="130" y2="276" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="130,276 129.59670063365746,260.00508363194393 141.64131709326324,265.02367382344636" fill="#3C5488"/>
+<text x="200" y="463.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle">坐标输出</text>
+<text x="200" y="504" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">数十 GB 内存 · 较慢</text>
+<text x="600" y="61.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">准比对快速定量</text>
+<text x="440" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">转录本</text>
+<line x1="440" y1="120" x2="760" y2="120" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<rect x="470" y="106" width="90" height="28" fill="#3C5488"/>
+<rect x="600" y="106" width="80" height="28" fill="#3C5488"/>
+<rect x="500" y="162" width="90" height="22" fill="#00A087"/>
+<line x1="505" y1="162" x2="505" y2="184" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+<line x1="525" y1="162" x2="525" y2="184" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+<line x1="545" y1="162" x2="545" y2="184" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+<line x1="565" y1="162" x2="565" y2="184" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+<text x="665" y="178.25" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">k-mer</text>
+<text x="665" y="218.75" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">快速定位</text>
+<line x1="545" y1="190" x2="545" y2="226" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="545,226 539.6991141102255,214.12984377594 550.3008858897745,214.12984377594" fill="#00A087"/>
+<rect x="470" y="236" width="220" height="150" fill="#FFFFFF" rx="10" stroke="#00A087" stroke-width="5"/>
+<rect x="470" y="236" width="220" height="40" fill="#D8EEE9"/>
+<line x1="470" y1="276" x2="690" y2="276" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<line x1="470" y1="314" x2="690" y2="314" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<line x1="470" y1="352" x2="690" y2="352" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<text x="580" y="265" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">丰度</text>
+<rect x="490" y="294" width="130" height="14" fill="#4DBBD5"/>
+<rect x="490" y="332" width="80" height="14" fill="#4DBBD5"/>
+<rect x="490" y="370" width="150" height="14" fill="#4DBBD5"/>
+<text x="600" y="463.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle">转录本丰度</text>
+<text x="600" y="504" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">内存轻量 · 快</text>
+<rect x="80" y="580" width="640" height="88" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="400" y="616" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">要基因组坐标 → STAR</text>
+<text x="400" y="652" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">只做表达定量 → Salmon</text>
+</svg>

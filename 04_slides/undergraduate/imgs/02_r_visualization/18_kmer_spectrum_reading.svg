@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#FAFAF7"/>
+
+<text x="40" y="380" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">纵轴取对数</text>
+<text x="360" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">log10(k-mer count)</text>
+<line x1="160" y1="56" x2="160" y2="700" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="160" y1="700" x2="1520" y2="700" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="148" y1="611.4285714285714" x2="160" y2="611.4285714285714" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="138" y="621.4285714285714" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10^1</text>
+<line x1="148" y1="522.8571428571429" x2="160" y2="522.8571428571429" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="138" y="532.8571428571429" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10^2</text>
+<line x1="148" y1="434.2857142857143" x2="160" y2="434.2857142857143" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="138" y="444.2857142857143" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10^3</text>
+<line x1="148" y1="345.7142857142857" x2="160" y2="345.7142857142857" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="138" y="355.7142857142857" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10^4</text>
+<line x1="148" y1="257.14285714285717" x2="160" y2="257.14285714285717" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="138" y="267.14285714285717" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10^5</text>
+<line x1="148" y1="168.57142857142856" x2="160" y2="168.57142857142856" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="138" y="178.57142857142856" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10^6</text>
+<line x1="160.0" y1="700" x2="160.0" y2="714" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="160.0" y="752" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0</text>
+<line x1="613.3333333333333" y1="700" x2="613.3333333333333" y2="714" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="613.3333333333333" y="752" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">50</text>
+<line x1="1066.6666666666665" y1="700" x2="1066.6666666666665" y2="714" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="1066.6666666666665" y="752" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">100</text>
+<line x1="1520.0" y1="700" x2="1520.0" y2="714" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="1520.0" y="752" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">150</text>
+<text x="840.0" y="796" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">k-mer depth</text>
+<path d="M 323.2 345.7142857142857 C 323.2 345.7 361.0 401.8 386.66666666666663 398.85714285714283 C 412.4 395.9 447.1 350.1 477.3333333333333 328.0 C 507.6 305.9 537.8 279.3 568.0 266.0 C 598.2 252.7 628.4 243.9 658.6666666666667 248.28571428571428 C 688.9 252.7 711.6 273.4 749.3333333333334 292.57142857142856 C 787.1 311.8 832.4 339.8 885.3333333333334 363.42857142857144 C 938.2 387.0 998.7 413.6 1066.6666666666665 434.2857142857143 C 1134.7 455.0 1217.8 471.2 1293.3333333333333 487.42857142857144 C 1368.9 503.7 1520.0 531.7 1520.0 531.7142857142858" fill="none" stroke="#3C5488" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 178.13333333333333 212.85714285714283 C 178.1 212.9 190.2 167.1 196.26666666666665 150.8571428571429 C 202.3 134.6 208.4 118.4 214.4 115.42857142857144 C 220.4 112.5 223.5 112.5 232.53333333333333 133.1428571428571 C 241.6 153.8 253.7 204.0 268.8 239.42857142857144 C 283.9 274.9 323.2 345.7 323.2 345.7142857142857" fill="none" stroke="#E64B35" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="658.6666666666667" y1="248.28571428571428" x2="658.6666666666667" y2="700" stroke="#00A087" stroke-width="5" stroke-linecap="butt" stroke-dasharray="16 12"/>
+<text x="658.6666666666667" y="222.28571428571428" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#00A087" text-anchor="middle" font-weight="bold">主峰</text>
+<text x="305.06666666666666" y="156.8571428571429" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#E64B35" text-anchor="start" font-weight="bold">错误峰</text>
+<rect x="200" y="540" width="380" height="200" fill="#FFFFFF" rx="10" stroke="#6B6B66" stroke-width="4"/>
+<polyline points="224.53333333333333,712.9833787292182 229.06666666666666,684.8335899588659 233.6,631.665971772773 238.13333333333333,664.2649961225103 247.2,716.4833589958865 260.8,719.7781149530555 276.6666666666667,719.9442649961225 299.3333333333333,719.6483358995887 322.0,718.2375044234882 344.66666666666663,717.2066327590436 367.33333333333337,719.1166597177278 401.33333333333337,719.86 446.66666666666663,719.9778114953056 503.33333333333337,719.9944264996122 560.0,719.9982375044235" fill="none" stroke="#E64B35" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="390.0" y="524" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">线性轴主峰贴地</text>
+<text x="564" y="712" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">linear y</text>
+</svg>

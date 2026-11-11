@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="30" y="40" width="220" height="470" fill="#FFFFFF" rx="16" stroke="#F39B7F" stroke-width="5"/>
+<text x="140" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">接头残留</text>
+<rect x="285" y="40" width="220" height="470" fill="#FFFFFF" rx="16" stroke="#8491B4" stroke-width="5"/>
+<text x="395" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">分化或断点</text>
+<rect x="540" y="40" width="220" height="470" fill="#FFFFFF" rx="16" stroke="#3C5488" stroke-width="5"/>
+<text x="650" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">参考缺口</text>
+<rect x="60" y="140" width="120" height="26" fill="#4DBBD5" rx="5"/>
+<rect x="180" y="140" width="30" height="26" fill="#F39B7F" rx="5"/>
+<rect x="60" y="196" width="100" height="26" fill="#4DBBD5" rx="5"/>
+<rect x="160" y="196" width="50" height="26" fill="#F39B7F" rx="5"/>
+<rect x="60" y="252" width="130" height="26" fill="#4DBBD5" rx="5"/>
+<rect x="190" y="252" width="35" height="26" fill="#F39B7F" rx="5"/>
+<line x1="60" y1="420" x2="240" y2="420" stroke="#3C5488" stroke-width="6" stroke-linecap="butt"/>
+<text x="140" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">varies with</text>
+<text x="140" y="498" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">trimming</text>
+<rect x="350" y="140" width="105" height="26" fill="#4DBBD5" rx="5"/>
+<rect x="455" y="140" width="30" height="26" fill="#8491B4" rx="5"/>
+<rect x="380" y="196" width="75" height="26" fill="#4DBBD5" rx="5"/>
+<rect x="455" y="196" width="30" height="26" fill="#8491B4" rx="5"/>
+<rect x="325" y="252" width="130" height="26" fill="#4DBBD5" rx="5"/>
+<rect x="455" y="252" width="30" height="26" fill="#8491B4" rx="5"/>
+<rect x="310" y="300" width="70" height="26" fill="#4DBBD5" rx="5"/>
+<path d="M 380 313 C 410 313, 415 237, 445 237" fill="none" stroke="#8491B4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="10 8"/>
+<rect x="445" y="224" width="50" height="26" fill="#8491B4" rx="5"/>
+<line x1="315" y1="420" x2="495" y2="420" stroke="#3C5488" stroke-width="6" stroke-linecap="butt"/>
+<text x="395" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">with split</text>
+<text x="395" y="498" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">alignments</text>
+<rect x="558" y="140" width="36" height="30" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<text x="576" y="163" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">S1</text>
+<rect x="602" y="140" width="88" height="30" fill="#4DBBD5" rx="5"/>
+<rect x="690" y="140" width="30" height="30" fill="#3C5488" rx="5"/>
+<rect x="558" y="196" width="36" height="30" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<text x="576" y="219" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">S2</text>
+<rect x="602" y="196" width="88" height="30" fill="#4DBBD5" rx="5"/>
+<rect x="690" y="196" width="30" height="30" fill="#3C5488" rx="5"/>
+<rect x="558" y="252" width="36" height="30" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<text x="576" y="275" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">S3</text>
+<rect x="602" y="252" width="88" height="30" fill="#4DBBD5" rx="5"/>
+<rect x="690" y="252" width="30" height="30" fill="#3C5488" rx="5"/>
+<line x1="565" y1="420" x2="672" y2="420" stroke="#3C5488" stroke-width="6" stroke-linecap="butt"/>
+<line x1="688" y1="420" x2="735" y2="420" stroke="#3C5488" stroke-width="6" stroke-linecap="butt"/>
+<line x1="672" y1="412" x2="680" y2="428" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="680" y1="412" x2="688" y2="428" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="650" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">all samples</text>
+<text x="650" y="498" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">agree</text>
+<rect x="30" y="590" width="730" height="64" fill="#E64B35" rx="12"/>
+<text x="395" y="633" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">只报比例分不清</text>
+</svg>

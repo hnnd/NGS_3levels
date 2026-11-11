@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">SAM：一行 11 列，两个必拆的字段</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">SAM 11 列 ｜ FLAG 位拆解 与 CIGAR 形状 —— 依据 l0_04 §4</text>
+
+  <!-- ============ 上面板：11 列 ============ -->
+  <rect x="48" y="120" width="1104" height="190" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="17" font-weight="bold" fill="#3C5488">一条比对记录的 11 个必需列（SAM 是文本；BAM 是其二进制压缩，内容一致，体积约 1/4）</text>
+  <line x1="72" y1="166" x2="1128" y2="166" stroke="#E9E9E5"/>
+
+  <!-- 列单元格：值 -->
+  <rect x="72"   y="180" width="88" height="36" rx="5" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="116"  y="203" font-size="12" fill="#33332E" text-anchor="middle" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">rd0001</text>
+  <rect x="160"  y="180" width="88" height="36" rx="5" fill="#E8EDF5" stroke="#3C5488"/>
+  <text x="204"  y="203" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">163</text>
+  <rect x="248"  y="180" width="88" height="36" rx="5" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="292"  y="203" font-size="12" fill="#33332E" text-anchor="middle" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">contig_1</text>
+  <rect x="336"  y="180" width="88" height="36" rx="5" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="380"  y="203" font-size="12" fill="#33332E" text-anchor="middle" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">52341</text>
+  <rect x="424"  y="180" width="88" height="36" rx="5" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="468"  y="203" font-size="12" fill="#33332E" text-anchor="middle" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">60</text>
+  <rect x="512"  y="180" width="88" height="36" rx="5" fill="#E8EDF5" stroke="#3C5488"/>
+  <text x="556"  y="203" font-size="12.5" font-weight="bold" fill="#3C5488" text-anchor="middle" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">50M2D10M</text>
+  <rect x="600"  y="180" width="88" height="36" rx="5" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="644"  y="203" font-size="12" fill="#33332E" text-anchor="middle" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">=</text>
+  <rect x="688"  y="180" width="88" height="36" rx="5" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="732"  y="203" font-size="12" fill="#33332E" text-anchor="middle" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">52590</text>
+  <rect x="776"  y="180" width="88" height="36" rx="5" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="820"  y="203" font-size="12" fill="#33332E" text-anchor="middle" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">399</text>
+  <rect x="864"  y="180" width="88" height="36" rx="5" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="908"  y="203" font-size="12" fill="#33332E" text-anchor="middle" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">ACGT…</text>
+  <rect x="952"  y="180" width="88" height="36" rx="5" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="996"  y="203" font-size="12" fill="#33332E" text-anchor="middle" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">FFFF…</text>
+  <rect x="1040" y="180" width="88" height="36" rx="5" fill="#FAFAF7" stroke="#6B6B66" stroke-dasharray="4 3"/>
+  <text x="1084" y="203" font-size="12" fill="#33332E" text-anchor="middle" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">NM:i:3</text>
+
+  <!-- 列名与含义 -->
+  <text x="116"  y="238" font-size="11.5" font-weight="bold" fill="#3C5488" text-anchor="middle">1 QNAME</text>
+  <text x="116"  y="256" font-size="10.5" fill="#6B6B66" text-anchor="middle">read 名</text>
+  <text x="204"  y="238" font-size="11.5" font-weight="bold" fill="#3C5488" text-anchor="middle">2 FLAG</text>
+  <text x="204"  y="256" font-size="10.5" fill="#6B6B66" text-anchor="middle">位标志</text>
+  <text x="292"  y="238" font-size="11.5" font-weight="bold" fill="#3C5488" text-anchor="middle">3 RNAME</text>
+  <text x="292"  y="256" font-size="10.5" fill="#6B6B66" text-anchor="middle">比到哪条参考</text>
+  <text x="380"  y="238" font-size="11.5" font-weight="bold" fill="#3C5488" text-anchor="middle">4 POS</text>
+  <text x="380"  y="256" font-size="10.5" fill="#6B6B66" text-anchor="middle">起点</text>
+  <text x="380"  y="270" font-size="10.5" fill="#6B6B66" text-anchor="middle">1-based</text>
+  <text x="468"  y="238" font-size="11.5" font-weight="bold" fill="#3C5488" text-anchor="middle">5 MAPQ</text>
+  <text x="468"  y="256" font-size="10.5" fill="#6B6B66" text-anchor="middle">比对质量</text>
+  <text x="468"  y="270" font-size="10.5" fill="#6B6B66" text-anchor="middle">Phred 尺度</text>
+  <text x="556"  y="238" font-size="11.5" font-weight="bold" fill="#3C5488" text-anchor="middle">6 CIGAR</text>
+  <text x="556"  y="256" font-size="10.5" fill="#6B6B66" text-anchor="middle">比对形状</text>
+  <text x="644"  y="238" font-size="11.5" font-weight="bold" fill="#3C5488" text-anchor="middle">7 RNEXT</text>
+  <text x="644"  y="256" font-size="10.5" fill="#6B6B66" text-anchor="middle">配对比到哪条</text>
+  <text x="644"  y="270" font-size="10.5" fill="#6B6B66" text-anchor="middle">'=' 同一条</text>
+  <text x="732"  y="238" font-size="11.5" font-weight="bold" fill="#3C5488" text-anchor="middle">8 PNEXT</text>
+  <text x="732"  y="256" font-size="10.5" fill="#6B6B66" text-anchor="middle">配对起点</text>
+  <text x="820"  y="238" font-size="11.5" font-weight="bold" fill="#3C5488" text-anchor="middle">9 TLEN</text>
+  <text x="820"  y="256" font-size="10.5" fill="#6B6B66" text-anchor="middle">模板跨度</text>
+  <text x="908"  y="238" font-size="11.5" font-weight="bold" fill="#3C5488" text-anchor="middle">10 SEQ</text>
+  <text x="908"  y="256" font-size="10.5" fill="#6B6B66" text-anchor="middle">序列 · 60 bp</text>
+  <text x="996"  y="238" font-size="11.5" font-weight="bold" fill="#3C5488" text-anchor="middle">11 QUAL</text>
+  <text x="996"  y="256" font-size="10.5" fill="#6B6B66" text-anchor="middle">质量串 · 60 bp</text>
+  <text x="1084" y="238" font-size="11.5" font-weight="bold" fill="#6B6B66" text-anchor="middle">标签</text>
+  <text x="1084" y="256" font-size="10.5" fill="#6B6B66" text-anchor="middle">可选，见右下</text>
+
+  <!-- ============ 左下面板：FLAG ============ -->
+  <rect x="48" y="344" width="528" height="310" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="378" font-size="17" font-weight="bold" fill="#3C5488">FLAG：二进制位的和</text>
+  <text x="72" y="400" font-size="12.5" fill="#6B6B66">拆解 FLAG = 163 之前，先认识常用的位</text>
+  <line x1="72" y1="414" x2="552" y2="414" stroke="#E9E9E5"/>
+
+  <!-- 常用位两列 -->
+  <text x="72" y="442" font-size="12.5" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace"><tspan font-weight="bold" fill="#3C5488">1</tspan><tspan dx="8" font-family="Noto Sans CJK SC, sans-serif">双端测序</tspan></text>
+  <text x="72" y="466" font-size="12.5" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace"><tspan font-weight="bold" fill="#3C5488">2</tspan><tspan dx="8" font-family="Noto Sans CJK SC, sans-serif">正常配对</tspan></text>
+  <text x="72" y="490" font-size="12.5" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace"><tspan font-weight="bold" fill="#3C5488">4</tspan><tspan dx="8" font-family="Noto Sans CJK SC, sans-serif">本 read 未比对</tspan></text>
+  <text x="72" y="514" font-size="12.5" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace"><tspan font-weight="bold" fill="#3C5488">16</tspan><tspan dx="8" font-family="Noto Sans CJK SC, sans-serif">本 read 在负链</tspan></text>
+  <text x="312" y="442" font-size="12.5" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace"><tspan font-weight="bold" fill="#3C5488">64</tspan><tspan dx="8" font-family="Noto Sans CJK SC, sans-serif">是 R1</tspan></text>
+  <text x="312" y="466" font-size="12.5" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace"><tspan font-weight="bold" fill="#3C5488">128</tspan><tspan dx="8" font-family="Noto Sans CJK SC, sans-serif">是 R2</tspan></text>
+  <text x="312" y="490" font-size="12.5" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace"><tspan font-weight="bold" fill="#3C5488">1024</tspan><tspan dx="8" font-family="Noto Sans CJK SC, sans-serif">PCR / 光学重复</tspan></text>
+  <text x="312" y="514" font-size="12.5" fill="#33332E" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace"><tspan font-weight="bold" fill="#3C5488">2048</tspan><tspan dx="8" font-family="Noto Sans CJK SC, sans-serif">补充比对</tspan></text>
+
+  <text x="72" y="550" font-size="15" font-weight="bold" fill="#3C5488" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">163 = 128 + 32 + 2 + 1</text>
+
+  <rect x="72" y="562" width="480" height="66" rx="6" fill="#FAFAF7"/>
+  <text x="88" y="586" font-size="12.5" font-weight="bold" fill="#33332E">→ 双端 · 是 R2 · 正常配对 · 配对在负链 · 它自己在正链（16 位没用到）</text>
+  <text x="88" y="608" font-size="11.5" fill="#6B6B66">用 samtools flags 163 核对；99 / 83 是常见配偶值，各自的配偶是 147 / 163</text>
+
+  <!-- ============ 右下面板：CIGAR ============ -->
+  <rect x="600" y="344" width="552" height="310" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="624" y="378" font-size="17" font-weight="bold" fill="#3C5488">CIGAR：比对形状，M ≠ 完全匹配</text>
+  <line x1="624" y1="394" x2="1128" y2="394" stroke="#E9E9E5"/>
+
+  <!-- read 轨 -->
+  <text x="624" y="432" font-size="12.5" font-weight="bold" fill="#3C8DAD">read 消耗</text>
+  <rect x="724" y="418" width="150" height="22" rx="4" fill="#4DBBD5"/>
+  <text x="799" y="433" font-size="11.5" fill="#FFFFFF" text-anchor="middle">50M</text>
+  <rect x="874" y="418" width="0" height="22" fill="none"/>
+  <text x="884" y="433" font-size="11" fill="#6B6B66" text-anchor="middle">0</text>
+  <rect x="894" y="418" width="60" height="22" rx="4" fill="#4DBBD5"/>
+  <text x="924" y="433" font-size="11.5" fill="#FFFFFF" text-anchor="middle">10M</text>
+  <text x="968" y="433" font-size="12" font-weight="bold" fill="#3C8DAD">= 60 bp</text>
+
+  <!-- 参考轨 -->
+  <text x="624" y="478" font-size="12.5" font-weight="bold" fill="#3C5488">参考跨度</text>
+  <rect x="724" y="464" width="150" height="22" rx="4" fill="#3C5488"/>
+  <text x="799" y="479" font-size="11.5" fill="#FFFFFF" text-anchor="middle">50</text>
+  <rect x="874" y="464" width="20" height="22" rx="4" fill="#FAFAF7" stroke="#6B6B66" stroke-dasharray="3 3"/>
+  <text x="884" y="479" font-size="10.5" fill="#6B6B66" text-anchor="middle">2D</text>
+  <rect x="894" y="464" width="60" height="22" rx="4" fill="#3C5488"/>
+  <text x="924" y="479" font-size="11.5" fill="#FFFFFF" text-anchor="middle">10</text>
+  <text x="968" y="479" font-size="12" font-weight="bold" fill="#3C5488">= 62 bp</text>
+  <text x="724" y="504" font-size="11.5" fill="#6B6B66">D：read 上消耗 0，只在参考上占 2 —— 解 50M2D10M：read 50+0+10，参考 50+2+10</text>
+
+  <!-- M 的含义 -->
+  <text x="624" y="534" font-size="12.5" fill="#33332E">M = alignment match：对上了，<tspan font-weight="bold">可能相同也可能错配</tspan>——</text>
+  <text x="624" y="554" font-size="12.5" fill="#33332E">它把「相同（=）」与「错配（X）」合并成一个符号，</text>
+  <text x="624" y="574" font-size="12.5" fill="#33332E">从 CIGAR 判断错配数是做不到的。</text>
+
+  <rect x="624" y="588" width="480" height="50" rx="6" fill="#FDECE8" stroke="#E64B35" stroke-width="1"/>
+  <text x="640" y="609" font-size="12" font-weight="bold" fill="#E64B35">实物证据：本条 NM:i:3 —— CIGAR 写 50M，NM 却说 3 个碱基不同</text>
+  <text x="640" y="628" font-size="11.5" fill="#33332E">数错配：看 NM:i: 标签，或让 minimap2 --eqx 输出 =/X</text>
+
+  <text x="624" y="656" font-size="11.5" fill="#6B6B66">其他符号：I/D 插入·缺失 · S/H 软/硬剪切 · N 跳过参考（内含子）· =/X 相同·错配</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="712" font-size="15" font-weight="bold" fill="#3C5488">最贵的坑不报错：把 100M 全算成「完美匹配」会虚高比对质量——过滤方向与错配统计都要落到 FLAG 与 NM 上。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

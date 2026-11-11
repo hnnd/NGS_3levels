@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>QC funnel with the disabled HWE gate</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<polygon points="80.0,40 720.0,40 690.0,156 110.0,156" fill="#E3E8F2" stroke="#3C5488" stroke-width="5" stroke-linejoin="round"/>
+<text x="400" y="109.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">--geno 0.1</text>
+<polygon points="110.0,164 690.0,164 660.0,280 140.0,280" fill="#E3E8F2" stroke="#3C5488" stroke-width="5" stroke-linejoin="round"/>
+<text x="400" y="233.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">--maf 0.05</text>
+<polygon points="140.0,288 660.0,288 630.0,404 170.0,404" fill="#E3E8F2" stroke="#3C5488" stroke-width="5" stroke-linejoin="round"/>
+<text x="400" y="357.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">--mind 0.1</text>
+<polygon points="170.0,412 630.0,412 600.0,528 200.0,528" fill="#F6D8D2" stroke="#E64B35" stroke-width="5" stroke-linejoin="round"/>
+<text x="400" y="481.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">--hwe 0</text>
+<line x1="488" y1="450.0" x2="528" y2="490.0" stroke="#E64B35" stroke-width="9" stroke-linecap="round"/>
+<line x1="488" y1="490.0" x2="528" y2="450.0" stroke="#E64B35" stroke-width="9" stroke-linecap="round"/>
+<rect x="552.0" y="467.0" width="48.0" height="36.0" fill="#E64B35" rx="6"/>
+<path d="M 561.6 467.0 L 561.6 451.4 Q 576 437.0 590.4 451.4 L 590.4 467.0" fill="none" stroke="#E64B35" stroke-width="6.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="400" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">次频缺失限稳健样本实际记账</text>
+<text x="400" y="656" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">自交群体关哈代避免误杀真实位点</text>
+</svg>

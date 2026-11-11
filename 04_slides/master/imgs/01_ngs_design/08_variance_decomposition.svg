@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="48" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">v(d) 随深度收敛</text>
+<line x1="100" y1="90" x2="100" y2="560" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="100" y1="560" x2="740" y2="560" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="88" y="570.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">1.0</text>
+<text x="88" y="361.1111111111112" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">1.2</text>
+<text x="88" y="152.22222222222234" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">1.4</text>
+<line x1="125.6" y1="560" x2="125.6" y2="570" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="125.6" y="604" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">5</text>
+<line x1="202.4" y1="560" x2="202.4" y2="570" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="202.4" y="604" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">20</text>
+<line x1="304.8" y1="560" x2="304.8" y2="570" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="304.8" y="604" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">40</text>
+<line x1="407.2" y1="560" x2="407.2" y2="570" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="407.2" y="604" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">60</text>
+<line x1="714.4" y1="560" x2="714.4" y2="570" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="714.4" y="604" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">120</text>
+<line x1="100" y1="560.0" x2="740" y2="560.0" stroke="#00A087" stroke-width="5" stroke-linecap="butt" stroke-dasharray="16 12"/>
+<text x="730" y="540.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="end" font-weight="bold">生物学方差地板</text>
+<path d="M 125.6 142.22222222222234 C 125.6 142.2 138.4 298.9 151.2 351.1111111111112 C 164.0 403.3 185.3 432.3 202.4 455.5555555555555 C 219.5 478.8 236.5 481.7 253.6 490.3703703703704 C 270.7 499.1 279.2 502.0 304.8 507.7777777777777 C 330.4 513.6 373.1 520.8 407.2 525.1851851851851 C 441.3 529.5 458.4 531.0 509.6 533.888888888889 C 560.8 536.8 714.4 542.6 714.4 542.5925925925926" fill="none" stroke="#3C5488" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="125.6" cy="142.22222222222234" r="9" fill="#3C5488"/>
+<text x="149.6" y="118.22222222222234" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">d=5 技术占 28.6%</text>
+<line x1="202.4" y1="522" x2="304.8" y2="522" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<polygon points="304.8,522 290.19057695500305,528.5241672489532 290.19057695500305,515.4758327510468" fill="#E64B35"/>
+<polygon points="202.4,522 217.00942304499694,515.4758327510468 217.00942304499694,528.5241672489531" fill="#E64B35"/>
+<line x1="202.4" y1="510" x2="202.4" y2="528" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="304.8" y1="510" x2="304.8" y2="528" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="330" y1="498" x2="468" y2="350" stroke="#E64B35" stroke-width="4" stroke-linecap="butt" stroke-dasharray="12 10"/>
+<text x="480" y="330" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">20→40 M 仅降 4.5%</text>
+</svg>

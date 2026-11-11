@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">批次效应与样本量：胜负在实验设计阶段就定了</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">平衡可救 / 混杂不可救 ｜ n = 3 的功效只有 16% —— 依据 l0_06 §4、§5、演示 5、演示 6</text>
+  <rect x="48" y="120" width="330" height="290" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="150" font-size="15" font-weight="bold" fill="#00A087">平衡设计：批次可拆开</text>
+  <line x1="96" y1="176" x2="96" y2="336" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="96" y1="336" x2="350" y2="336" stroke="#6B6B66" stroke-width="1.2"/>
+  <text x="223" y="356" font-size="10.5" fill="#6B6B66" text-anchor="middle">PC1 (71%)</text>
+  <text x="82" y="260" font-size="10.5" fill="#6B6B66" text-anchor="middle" transform="rotate(-90 82 260)">PC2</text>
+  <circle cx="150" cy="240" r="7" fill="#3C5488"/>
+  <polygon points="168,292 160,306 176,306" fill="#3C5488"/>
+  <polygon points="130,304 122,318 138,318" fill="#3C5488"/>
+  <circle cx="164" cy="226" r="7" fill="#3C5488"/>
+  <circle cx="282" cy="238" r="7" fill="#F39B7F"/>
+  <polygon points="300,290 292,304 308,304" fill="#F39B7F"/>
+  <polygon points="262,302 254,316 270,316" fill="#F39B7F"/>
+  <circle cx="288" cy="224" r="7" fill="#F39B7F"/>
+  <text x="223" y="382" font-size="11" fill="#33332E" text-anchor="middle">颜色（批次）与形状（处理）各占一个方向</text>
+  <text x="72" y="400" font-size="11" fill="#33332E">把批次写进 design = ~ batch + condition 即可。</text>
+  <rect x="402" y="120" width="330" height="290" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="426" y="150" font-size="15" font-weight="bold" fill="#E64B35">完全混杂：拆不开</text>
+  <line x1="450" y1="176" x2="450" y2="336" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="450" y1="336" x2="704" y2="336" stroke="#6B6B66" stroke-width="1.2"/>
+  <text x="577" y="356" font-size="10.5" fill="#6B6B66" text-anchor="middle">PC1 (82%)</text>
+  <text x="436" y="260" font-size="10.5" fill="#6B6B66" text-anchor="middle" transform="rotate(-90 436 260)">PC2</text>
+  <circle cx="502" cy="298" r="7" fill="#3C5488"/>
+  <circle cx="522" cy="326" r="7" fill="#3C5488"/>
+  <circle cx="542" cy="268" r="7" fill="#3C5488"/>
+  <circle cx="512" cy="248" r="7" fill="#3C5488"/>
+  <polygon points="632,210 624,224 640,224" fill="#F39B7F"/>
+  <polygon points="652,180 644,194 660,194" fill="#F39B7F"/>
+  <polygon points="672,232 664,246 680,246" fill="#F39B7F"/>
+  <polygon points="642,160 634,174 650,174" fill="#F39B7F"/>
+  <text x="577" y="382" font-size="11" fill="#33332E" text-anchor="middle">批次 1 全是对照组、批次 2 全是处理组——</text>
+  <text x="426" y="400" font-size="11" fill="#33332E">颜色与形状沿同一方向同样地分开，信息在数据里不存在。</text>
+  <rect x="756" y="120" width="372" height="290" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="780" y="150" font-size="16" font-weight="bold" fill="#3C5488">唯一可靠的解法在设计阶段</text>
+  <line x1="780" y1="164" x2="1104" y2="164" stroke="#E9E9E5"/>
+  <rect x="780" y="178" width="4" height="40" rx="2" fill="#00A087"/>
+  <text x="796" y="194" font-size="12" font-weight="bold" fill="#33332E">协变量（与处理不完全重合）→ 能救</text>
+  <text x="796" y="212" font-size="11" fill="#6B6B66" font-family="'Noto Sans Mono','DejaVu Sans Mono',monospace">design = ~ batch + condition</text>
+  <rect x="780" y="228" width="4" height="40" rx="2" fill="#E64B35"/>
+  <text x="796" y="244" font-size="12" font-weight="bold" fill="#33332E">混杂（与处理完全重合）→ 不能救</text>
+  <text x="796" y="262" font-size="11" fill="#6B6B66">只能重做实验，或在局限性里明确写出</text>
+  <rect x="780" y="278" width="4" height="58" rx="2" fill="#3C5488"/>
+  <text x="796" y="294" font-size="12" font-weight="bold" fill="#33332E">预防三条</text>
+  <text x="796" y="312" font-size="11" fill="#6B6B66">随机化（别按处理组顺序上机）· 区组（每批各组都有）</text>
+  <text x="796" y="330" font-size="11" fill="#6B6B66">元数据全记下来——没记录的变量事后补不上</text>
+  <rect x="780" y="346" width="4" height="48" rx="2" fill="#8491B4"/>
+  <text x="796" y="362" font-size="12" font-weight="bold" fill="#33332E">需要「洗批次」时用对工具</text>
+  <text x="796" y="380" font-size="11" fill="#6B6B66">ComBat 只用于可视化与聚类；差异分析把批次写进 design</text>
+  <rect x="48" y="434" width="1080" height="266" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="466" font-size="17" font-weight="bold" fill="#3C5488">样本量与功效：n = 3 是「能算」，不是「够用」</text>
+  <line x1="72" y1="480" x2="1104" y2="480" stroke="#E9E9E5"/>
+  <line x1="100" y1="650" x2="590" y2="650" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="100" y1="507" x2="590" y2="507" stroke="#6B6B66" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="102" y="501" font-size="10.5" fill="#6B6B66">目标功效 0.8</text>
+  <rect x="130" y="622" width="64" height="28" rx="4" fill="#E64B35"/>
+  <text x="162" y="614" font-size="12" font-weight="bold" fill="#E64B35" text-anchor="middle">0.157</text>
+  <text x="162" y="668" font-size="11" fill="#6B6B66" text-anchor="middle">n=3</text>
+  <rect x="248" y="588" width="64" height="62" rx="4" fill="#3C5488"/>
+  <text x="280" y="580" font-size="12" font-weight="bold" fill="#3C5488" text-anchor="middle">0.347</text>
+  <text x="280" y="668" font-size="11" fill="#6B6B66" text-anchor="middle">n=6</text>
+  <rect x="366" y="550" width="64" height="100" rx="4" fill="#3C5488"/>
+  <text x="398" y="542" font-size="12" font-weight="bold" fill="#3C5488" text-anchor="middle">0.562</text>
+  <text x="398" y="668" font-size="11" fill="#6B6B66" text-anchor="middle">n=10</text>
+  <rect x="484" y="507" width="64" height="143" rx="4" fill="#00A087"/>
+  <text x="516" y="499" font-size="12" font-weight="bold" fill="#00A087" text-anchor="middle">0.8</text>
+  <text x="516" y="668" font-size="11" fill="#6B6B66" text-anchor="middle">n=17</text>
+  <text x="100" y="690" font-size="11" fill="#6B6B66">效应 = 1 个标准差（生物学里已算相当大）：n = 3 有 84% 的概率漏掉真实存在的差异。</text>
+  <rect x="640" y="498" width="4" height="36" rx="2" fill="#00A087"/>
+  <text x="656" y="513" font-size="12" font-weight="bold" fill="#33332E">生物学重复才是统计上的 n（3 只独立小鼠）</text>
+  <text x="656" y="530" font-size="11" fill="#6B6B66">技术重复（同一份 RNA 建 3 个文库）只反映测量精度，先合并再分析</text>
+  <rect x="640" y="544" width="4" height="52" rx="2" fill="#E64B35"/>
+  <text x="656" y="560" font-size="12" font-weight="bold" fill="#33332E">把技术重复当 n = 伪重复（pseudoreplication）</text>
+  <text x="656" y="578" font-size="11" fill="#6B6B66">人为压低组内方差、虚高显著性——审稿人最爱抓的错误之一</text>
+  <rect x="640" y="606" width="4" height="36" rx="2" fill="#3C5488"/>
+  <text x="656" y="621" font-size="12" font-weight="bold" fill="#33332E">预算固定时：差异表达加重复、别加深度</text>
+  <text x="656" y="638" font-size="11" fill="#6B6B66">深度过了约 20–30 M reads，收益迅速递减；条件允许优先 n &#8805; 5</text>
+  <rect x="640" y="652" width="464" height="40" rx="6" fill="#FAFAF7"/>
+  <text x="656" y="669" font-size="11" fill="#33332E">可直接写进方法部分：「我们把预算从每样本 60 M reads / 3 重复调整为</text>
+  <text x="656" y="686" font-size="11" fill="#33332E">30 M reads / 6 重复，以提高差异表达检出的统计功效。」</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

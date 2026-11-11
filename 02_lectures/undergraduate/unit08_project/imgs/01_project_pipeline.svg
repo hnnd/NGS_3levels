@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">综合项目全程导航：从原始 reads 到泛基因组</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">六模块证据链 ｜ 三天集中流水线 —— 依据 08_project_lecture.md ④4.1–4.2、⑤5.1–5.2</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="57" font-size="12" fill="#33332E">流程模块</text>
+  <rect x="926" y="68" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="79" font-size="12" fill="#33332E">产出文件</text>
+  <rect x="926" y="90" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="101" font-size="12" fill="#33332E">关键交付物</text>
+  <rect x="926" y="112" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="123" font-size="12" fill="#33332E">关键分叉（不可逆）</text>
+
+  <!-- ============ Day 1 括线 ============ -->
+  <text x="571" y="128" font-size="11.5" font-weight="bold" fill="#3C5488" text-anchor="middle">Day 1 · 基因组扫描与组装定稿</text>
+  <line x1="56" y1="136" x2="1086" y2="136" stroke="#3C5488" stroke-width="1"/>
+  <line x1="56" y1="130" x2="56" y2="136" stroke="#3C5488" stroke-width="1"/>
+  <line x1="1086" y1="130" x2="1086" y2="136" stroke="#3C5488" stroke-width="1"/>
+
+  <!-- ============ 第一行：输入 → M1 → M2 → 选型 ============ -->
+  <rect x="56" y="152" width="150" height="148" rx="10" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="131" y="182" font-size="13.5" font-weight="bold" fill="#3C8DAD" text-anchor="middle">输入数据</text>
+  <text x="131" y="206" font-size="11" fill="#33332E" text-anchor="middle">PacBio 原始 reads</text>
+  <text x="131" y="224" font-size="11" fill="#33332E" text-anchor="middle">~4 Mb 细菌基因组</text>
+  <rect x="86" y="240" width="90" height="20" rx="9" fill="#FFFFFF" stroke="#4DBBD5"/>
+  <text x="131" y="254" font-size="10" fill="#3C8DAD" text-anchor="middle">reads.fa</text>
+  <text x="131" y="284" font-size="9.5" fill="#6B6B66" text-anchor="middle">校外自学：CIX4481（ONT）</text>
+
+  <line x1="208" y1="226" x2="228" y2="226" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="228,221 228,231 236,226" fill="#3C5488"/>
+
+  <rect x="236" y="152" width="250" height="148" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="248" y="182" font-size="14" font-weight="bold" fill="#3C5488">① 基因组扫描 Survey</text>
+  <text x="248" y="204" font-size="11" fill="#6B6B66">Jellyfish + GenomeScope</text>
+  <text x="248" y="226" font-size="11" fill="#33332E">k=17/21/25 三档拟合，</text>
+  <text x="248" y="242" font-size="11" fill="#33332E">估大小 / 杂合 / 重复</text>
+  <rect x="248" y="256" width="92" height="18" rx="9" fill="#EAF6F9" stroke="#4DBBD5"/>
+  <text x="294" y="269" font-size="9.5" fill="#3C8DAD" text-anchor="middle">reads.histo</text>
+  <rect x="348" y="256" width="116" height="18" rx="9" fill="#EAF6F9" stroke="#4DBBD5"/>
+  <text x="406" y="269" font-size="9.5" fill="#3C8DAD" text-anchor="middle">gs_k17/21/25</text>
+
+  <line x1="488" y1="226" x2="508" y2="226" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="508,221 508,231 516,226" fill="#3C5488"/>
+
+  <rect x="516" y="152" width="250" height="148" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="528" y="182" font-size="14" font-weight="bold" fill="#3C5488">② 基因组组装 Assembly</text>
+  <text x="528" y="204" font-size="11" fill="#6B6B66">Canu（OLC）· Flye（repeat graph）</text>
+  <text x="528" y="226" font-size="11" fill="#33332E">两套独立算法各拼一遍，</text>
+  <text x="528" y="242" font-size="11" fill="#33332E">交叉验证后再选型</text>
+  <rect x="528" y="256" width="130" height="18" rx="9" fill="#EAF6F9" stroke="#4DBBD5"/>
+  <text x="593" y="269" font-size="9.5" fill="#3C8DAD" text-anchor="middle">test.contigs.fasta</text>
+  <rect x="528" y="278" width="110" height="18" rx="9" fill="#EAF6F9" stroke="#4DBBD5"/>
+  <text x="583" y="291" font-size="9.5" fill="#3C8DAD" text-anchor="middle">assembly.fasta</text>
+
+  <line x1="768" y1="226" x2="788" y2="226" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="788,221 788,231 796,226" fill="#3C5488"/>
+
+  <rect x="796" y="152" width="290" height="148" rx="10" fill="#FFFFFF" stroke="#E64B35" stroke-width="2"/>
+  <text x="808" y="182" font-size="14" font-weight="bold" fill="#E64B35">选型关口（M2-QC）</text>
+  <text x="808" y="204" font-size="11" fill="#6B6B66">QUAST · BUSCO（评估两套组装）</text>
+  <text x="808" y="228" font-size="10.5" fill="#E64B35">不可逆分叉：Canu / Flye 只能选</text>
+  <text x="808" y="246" font-size="10.5" fill="#E64B35">一套进入下游——选错，后面五个</text>
+  <text x="808" y="264" font-size="10.5" fill="#E64B35">模块全错，且不会有任何报错</text>
+  <rect x="808" y="274" width="150" height="20" rx="9" fill="#E8F5F2" stroke="#00A087"/>
+  <text x="883" y="288" font-size="10" fill="#00A087" text-anchor="middle">genome.fasta 定稿</text>
+
+  <!-- ============ 选型 → 第三行的连接 ============ -->
+  <path d="M 941 300 L 941 352 L 181 352 L 181 392" fill="none" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="176,392 186,392 181,400" fill="#3C5488"/>
+  <text x="561" y="344" font-size="11" fill="#6B6B66" text-anchor="middle">选定的 genome.fasta：③④⑤⑥ 全部模块的唯一输入</text>
+
+  <!-- ============ 第二行：M3 → M4 → M5 → M6 ============ -->
+  <rect x="56" y="408" width="250" height="148" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="294" y="428" font-size="10" fill="#6B6B66" text-anchor="end">Day 2</text>
+  <text x="68" y="438" font-size="14" font-weight="bold" fill="#3C5488">③ 基因组注释 Annotation</text>
+  <text x="68" y="460" font-size="11" fill="#6B6B66">Prokka · antiSMASH</text>
+  <text x="68" y="482" font-size="11" fill="#33332E">结构 + 功能注释，</text>
+  <text x="68" y="498" font-size="11" fill="#33332E">antiSMASH 找基因簇</text>
+  <rect x="68" y="508" width="104" height="18" rx="9" fill="#E8F5F2" stroke="#00A087"/>
+  <text x="120" y="521" font-size="9.5" fill="#00A087" text-anchor="middle">mygenome.gff</text>
+  <rect x="178" y="508" width="100" height="18" rx="9" fill="#EAF6F9" stroke="#4DBBD5"/>
+  <text x="228" y="521" font-size="9.5" fill="#3C8DAD" text-anchor="middle">mygenome.faa</text>
+  <rect x="68" y="530" width="104" height="18" rx="9" fill="#EAF6F9" stroke="#4DBBD5"/>
+  <text x="120" y="543" font-size="9.5" fill="#3C8DAD" text-anchor="middle">mygenome.txt</text>
+
+  <line x1="308" y1="482" x2="328" y2="482" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="328,477 328,487 336,482" fill="#3C5488"/>
+
+  <rect x="336" y="408" width="250" height="148" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="574" y="428" font-size="10" fill="#6B6B66" text-anchor="end">Day 2</text>
+  <text x="348" y="438" font-size="14" font-weight="bold" fill="#3C5488">④ 物种鉴定 Identification</text>
+  <text x="348" y="460" font-size="11" fill="#6B6B66">Mash · FastANI</text>
+  <text x="348" y="482" font-size="11" fill="#33332E">Mash 快速缩小范围，</text>
+  <text x="348" y="498" font-size="11" fill="#33332E">FastANI ≥ 95% 判同种</text>
+  <text x="348" y="516" font-size="10" fill="#6B6B66">据此下载参考基因组（⑤⑥ 用）</text>
+  <rect x="348" y="526" width="104" height="18" rx="9" fill="#EAF6F9" stroke="#4DBBD5"/>
+  <text x="400" y="539" font-size="9.5" fill="#3C8DAD" text-anchor="middle">fastani_results</text>
+  <rect x="458" y="526" width="96" height="18" rx="9" fill="#EAF6F9" stroke="#4DBBD5"/>
+  <text x="506" y="539" font-size="9.5" fill="#3C8DAD" text-anchor="middle">mash_screen.tab</text>
+
+  <line x1="588" y1="482" x2="608" y2="482" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="608,477 608,487 616,482" fill="#3C5488"/>
+
+  <rect x="616" y="408" width="250" height="148" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="854" y="428" font-size="10" fill="#6B6B66" text-anchor="end">Day 3</text>
+  <text x="628" y="438" font-size="14" font-weight="bold" fill="#3C5488">⑤ 系统进化 Phylogeny</text>
+  <text x="628" y="460" font-size="11" fill="#6B6B66">GToTree · IQ-TREE</text>
+  <text x="628" y="482" font-size="11" fill="#33332E">单拷贝保守基因比对，</text>
+  <text x="628" y="498" font-size="11" fill="#33332E">建最大似然树（UFBoot）</text>
+  <rect x="628" y="526" width="84" height="18" rx="9" fill="#EAF6F9" stroke="#4DBBD5"/>
+  <text x="670" y="539" font-size="9.5" fill="#3C8DAD" text-anchor="middle">*.treefile</text>
+  <rect x="718" y="526" width="78" height="18" rx="9" fill="#EAF6F9" stroke="#4DBBD5"/>
+  <text x="757" y="539" font-size="9.5" fill="#3C8DAD" text-anchor="middle">树图 PDF</text>
+
+  <line x1="868" y1="482" x2="888" y2="482" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="888,477 888,487 896,482" fill="#3C5488"/>
+
+  <rect x="896" y="408" width="250" height="148" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="1134" y="428" font-size="10" fill="#6B6B66" text-anchor="end">Day 3</text>
+  <text x="908" y="438" font-size="14" font-weight="bold" fill="#3C5488">⑥ 泛基因组 Pan-genome</text>
+  <text x="908" y="460" font-size="11" fill="#6B6B66">批量 Prokka + Roary</text>
+  <text x="908" y="482" font-size="11" fill="#33332E">各基因组统一注释后，</text>
+  <text x="908" y="498" font-size="11" fill="#33332E">算核心 / 附属基因占比</text>
+  <rect x="908" y="526" width="150" height="18" rx="9" fill="#E8F5F2" stroke="#00A087"/>
+  <text x="983" y="539" font-size="9.5" fill="#00A087" text-anchor="middle">gene_presence_absence.csv</text>
+
+  <!-- ============ 依赖虚线：③ → ⑥ ============ -->
+  <path d="M 181 558 L 181 600 L 1021 600 L 1021 562" fill="none" stroke="#3C5488" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <polygon points="1016,566 1026,566 1021,557" fill="#3C5488"/>
+  <text x="601" y="620" font-size="11" fill="#6B6B66" text-anchor="middle">③ 的 mygenome.gff（Prokka 原件）是 ⑥ Roary 的唯一输入——喂错文件不报错，只会给错答案</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="652" width="4" height="68" rx="2" fill="#3C5488"/>
+  <rect x="48" y="652" width="1104" height="68" rx="6" fill="#FAFAF7"/>
+  <text x="72" y="680" font-size="15" font-weight="bold" fill="#3C5488">不知道它是谁，就选不出建树的参考；没有注释，泛基因组连输入都没有——顺序由数据依赖决定。</text>
+  <text x="72" y="706" font-size="12.5" fill="#33332E">提交物：PDF 报告 ｜ results/（至少含 genome.fasta 与 .gff）｜ 可重跑脚本集——本项目占课程总成绩 90%</text>
+  <text x="1152" y="768" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

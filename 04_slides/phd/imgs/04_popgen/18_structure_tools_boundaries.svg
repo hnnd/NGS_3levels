@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Three structure tools, three boundaries</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="30" y="70" width="236" height="560" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="148" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">PCA</text>
+<line x1="54" y1="152" x2="242" y2="152" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<rect x="282" y="70" width="236" height="560" fill="#E7F5F8" rx="14" stroke="#3C8DAD" stroke-width="4"/>
+<text x="400" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">ADMIXTURE</text>
+<line x1="306" y1="152" x2="494" y2="152" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<rect x="534" y="70" width="236" height="560" fill="#FBE6DF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="652" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">TreeMix</text>
+<line x1="558" y1="152" x2="746" y2="152" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<circle cx="70" cy="326" r="6" fill="#3C5488"/>
+<circle cx="74" cy="306" r="6" fill="#3C5488"/>
+<circle cx="78" cy="286" r="6" fill="#3C5488"/>
+<circle cx="82" cy="266" r="6" fill="#3C5488"/>
+<circle cx="100" cy="329" r="6" fill="#3C5488"/>
+<circle cx="104" cy="309" r="6" fill="#3C5488"/>
+<circle cx="108" cy="289" r="6" fill="#3C5488"/>
+<circle cx="112" cy="269" r="6" fill="#3C5488"/>
+<circle cx="130" cy="332" r="6" fill="#3C5488"/>
+<circle cx="134" cy="312" r="6" fill="#3C5488"/>
+<circle cx="138" cy="292" r="6" fill="#3C5488"/>
+<circle cx="142" cy="272" r="6" fill="#3C5488"/>
+<circle cx="160" cy="335" r="6" fill="#3C5488"/>
+<circle cx="164" cy="315" r="6" fill="#3C5488"/>
+<circle cx="168" cy="295" r="6" fill="#3C5488"/>
+<circle cx="172" cy="275" r="6" fill="#3C5488"/>
+<circle cx="190" cy="338" r="6" fill="#3C5488"/>
+<circle cx="194" cy="318" r="6" fill="#3C5488"/>
+<circle cx="198" cy="298" r="6" fill="#3C5488"/>
+<circle cx="202" cy="278" r="6" fill="#3C5488"/>
+<circle cx="220" cy="341" r="6" fill="#3C5488"/>
+<circle cx="224" cy="321" r="6" fill="#3C5488"/>
+<circle cx="228" cy="301" r="6" fill="#3C5488"/>
+<circle cx="232" cy="281" r="6" fill="#3C5488"/>
+<path d="M 56 330 Q 102 254 148 306 Q 194 358 240 282" fill="none" stroke="#6B6B66" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="10 8"/>
+<rect x="310" y="284.0" width="26" height="60.0" fill="#3C8DAD" rx="2"/>
+<rect x="310" y="264.0" width="26" height="20.0" fill="#6B6B66" rx="2"/>
+<rect x="310" y="244.0" width="26" height="20.0" fill="#3C5488" rx="2"/>
+<text x="323" y="376" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">1</text>
+<rect x="342" y="294.0" width="26" height="50.0" fill="#3C8DAD" rx="2"/>
+<rect x="342" y="264.0" width="26" height="30.0" fill="#6B6B66" rx="2"/>
+<rect x="342" y="244.0" width="26" height="20.0" fill="#3C5488" rx="2"/>
+<text x="355" y="376" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">2</text>
+<rect x="374" y="309.0" width="26" height="35.0" fill="#3C8DAD" rx="2"/>
+<rect x="374" y="284.0" width="26" height="25.0" fill="#6B6B66" rx="2"/>
+<rect x="374" y="244.0" width="26" height="40.0" fill="#3C5488" rx="2"/>
+<text x="387" y="376" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">3</text>
+<rect x="406" y="324.0" width="26" height="20.0" fill="#3C8DAD" rx="2"/>
+<rect x="406" y="294.0" width="26" height="30.0" fill="#6B6B66" rx="2"/>
+<rect x="406" y="244.0" width="26" height="50.0" fill="#3C5488" rx="2"/>
+<text x="419" y="376" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">4</text>
+<rect x="438" y="329.0" width="26" height="15.0" fill="#3C8DAD" rx="2"/>
+<rect x="438" y="294.0" width="26" height="35.0" fill="#6B6B66" rx="2"/>
+<rect x="438" y="244.0" width="26" height="50.0" fill="#3C5488" rx="2"/>
+<text x="451" y="376" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">5</text>
+<rect x="470" y="334.0" width="26" height="10.0" fill="#3C8DAD" rx="2"/>
+<rect x="470" y="304.0" width="26" height="30.0" fill="#6B6B66" rx="2"/>
+<rect x="470" y="244.0" width="26" height="60.0" fill="#3C5488" rx="2"/>
+<text x="483" y="376" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">6</text>
+<line x1="552" y1="304" x2="586" y2="304" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<line x1="586" y1="256" x2="586" y2="348" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<line x1="586" y1="256" x2="634" y2="256" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<line x1="634" y1="256" x2="634" y2="230" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<line x1="586" y1="304" x2="634" y2="304" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<line x1="634" y1="304" x2="634" y2="276" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<line x1="586" y1="348" x2="634" y2="348" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<line x1="634" y1="348" x2="634" y2="370" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<path d="M 634 230 Q 692 204 704 284" fill="none" stroke="#6B6B66" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="10 8"/>
+<polygon points="706,292 686,284 702,272" fill="#6B6B66"/>
+<text x="148" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">主成分几何</text>
+<text x="148" y="516" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">投影波形</text>
+<text x="400" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">祖先成分</text>
+<text x="400" y="516" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">非真实种群</text>
+<text x="652" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">迁移边为</text>
+<text x="652" y="516" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">残差假说</text>
+</svg>

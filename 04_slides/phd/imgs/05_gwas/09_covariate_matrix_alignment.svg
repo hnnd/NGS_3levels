@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Covariate matrix engineering</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="38" width="720" height="132" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="64" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">主成分键匹配</text>
+<text x="64" y="144" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">pca.eigenvec → PC1–PC4</text>
+<rect x="566" y="62" width="38" height="28" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+<rect x="608" y="62" width="38" height="28" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+<rect x="650" y="62" width="38" height="28" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+<rect x="692" y="62" width="38" height="28" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+<rect x="566" y="94" width="38" height="28" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+<rect x="608" y="94" width="38" height="28" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+<rect x="650" y="94" width="38" height="28" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+<rect x="692" y="94" width="38" height="28" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+<rect x="566" y="126" width="38" height="28" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+<rect x="608" y="126" width="38" height="28" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+<rect x="650" y="126" width="38" height="28" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+<rect x="692" y="126" width="38" height="28" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+<line x1="400" y1="172" x2="400" y2="192" stroke="#3C8DAD" stroke-width="5" stroke-linecap="round"/>
+<polygon points="400,192 395.10687456328515,181.0429327162523 404.89312543671485,181.0429327162523" fill="#3C8DAD"/>
+<rect x="40" y="196" width="720" height="132" fill="#E7F5F8" rx="14" stroke="#3C8DAD" stroke-width="5"/>
+<text x="64" y="250" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="start" font-weight="bold">对齐行序</text>
+<text x="64" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">join by IID ／ .fam order</text>
+<rect x="566" y="220" width="56" height="28" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="2"/>
+<rect x="626" y="220" width="56" height="28" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="2"/>
+<rect x="566" y="252" width="56" height="28" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="2"/>
+<rect x="626" y="252" width="56" height="28" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="2"/>
+<rect x="566" y="284" width="56" height="28" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="2"/>
+<rect x="626" y="284" width="56" height="28" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="2"/>
+<rect x="40" y="356" width="720" height="132" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="5"/>
+<text x="64" y="410" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="start" font-weight="bold">首列补全一截距</text>
+<text x="64" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">1 ｜ PC1 ｜ PC2 ｜ PC3 ｜ PC4</text>
+<rect x="566" y="380" width="30" height="28" fill="#D8EEE9" stroke="#00A087" stroke-width="2"/>
+<rect x="600" y="380" width="30" height="28" fill="#FFFFFF" stroke="#00A087" stroke-width="2"/>
+<rect x="634" y="380" width="30" height="28" fill="#FFFFFF" stroke="#00A087" stroke-width="2"/>
+<rect x="668" y="380" width="30" height="28" fill="#FFFFFF" stroke="#00A087" stroke-width="2"/>
+<rect x="702" y="380" width="30" height="28" fill="#FFFFFF" stroke="#00A087" stroke-width="2"/>
+<rect x="566" y="412" width="30" height="28" fill="#D8EEE9" stroke="#00A087" stroke-width="2"/>
+<rect x="600" y="412" width="30" height="28" fill="#FFFFFF" stroke="#00A087" stroke-width="2"/>
+<rect x="634" y="412" width="30" height="28" fill="#FFFFFF" stroke="#00A087" stroke-width="2"/>
+<rect x="668" y="412" width="30" height="28" fill="#FFFFFF" stroke="#00A087" stroke-width="2"/>
+<rect x="702" y="412" width="30" height="28" fill="#FFFFFF" stroke="#00A087" stroke-width="2"/>
+<rect x="566" y="444" width="30" height="28" fill="#D8EEE9" stroke="#00A087" stroke-width="2"/>
+<rect x="600" y="444" width="30" height="28" fill="#FFFFFF" stroke="#00A087" stroke-width="2"/>
+<rect x="634" y="444" width="30" height="28" fill="#FFFFFF" stroke="#00A087" stroke-width="2"/>
+<rect x="668" y="444" width="30" height="28" fill="#FFFFFF" stroke="#00A087" stroke-width="2"/>
+<rect x="702" y="444" width="30" height="28" fill="#FFFFFF" stroke="#00A087" stroke-width="2"/>
+<line x1="400" y1="490" x2="400" y2="510" stroke="#3C8DAD" stroke-width="5" stroke-linecap="round"/>
+<polygon points="400,510 395.10687456328515,499.0429327162523 404.89312543671485,499.0429327162523" fill="#3C8DAD"/>
+<rect x="40" y="512" width="720" height="150" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="64" y="568" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">断言行数防静默错位</text>
+<text x="64" y="624" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">assert(covar_rows == fam_rows)</text>
+<line x1="674" y1="554" x2="738" y2="618" stroke="#E64B35" stroke-width="9" stroke-linecap="round"/>
+<line x1="674" y1="618" x2="738" y2="554" stroke="#E64B35" stroke-width="9" stroke-linecap="round"/>
+</svg>

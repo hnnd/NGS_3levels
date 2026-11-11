@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#3C5488" text-anchor="middle" font-weight="bold">四条证据缺一不可</text>
+<rect x="90" y="110" width="260" height="180" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="220.0" y="186" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#3C5488" text-anchor="middle" font-weight="bold">节点</text>
+<text x="220.0" y="246" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#33332E" text-anchor="middle">hostname</text>
+<rect x="450" y="110" width="260" height="180" fill="#D8EEF4" rx="14" stroke="#3C8DAD" stroke-width="5"/>
+<text x="580.0" y="186" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#3C8DAD" text-anchor="middle" font-weight="bold">时间</text>
+<text x="580.0" y="246" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">qstat 起止行</text>
+<rect x="90" y="380" width="260" height="180" fill="#E4E6EF" rx="14" stroke="#8491B4" stroke-width="5"/>
+<text x="220.0" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#8491B4" text-anchor="middle" font-weight="bold">路径</text>
+<text x="220.0" y="516" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#33332E" text-anchor="middle">command -v</text>
+<rect x="450" y="380" width="260" height="180" fill="#FBE3D8" rx="14" stroke="#F39B7F" stroke-width="5"/>
+<text x="580.0" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#F39B7F" text-anchor="middle" font-weight="bold">产物</text>
+<text x="580.0" y="516" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#33332E" text-anchor="middle">wc -l</text>
+<circle cx="400" cy="335" r="78" fill="#F6D8D2" stroke="#E64B35" stroke-width="5"/>
+<text x="400" y="322" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">日志成功</text>
+<text x="400" y="362" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">≠做成</text>
+</svg>

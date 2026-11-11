@@ -1,0 +1,50 @@
+# 硕士生 · 环境 4/6：转录组与调控组
+# 覆盖专题：m04 转录组分析 ｜ m05 转录调控与表观组
+# 创建：conda env create -f env_master_transcriptome.yml
+# 激活：conda activate ngs_ms_transcriptome
+#
+# 【为什么合一】m05 的差异 peak 分析要与 m04 的差异表达结果联合解读，
+# 两者共用同一套 R/Bioconductor 栈，分开会导致跨环境传数据。
+
+name: ngs_ms_transcriptome
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # 【生态性断裂】setuptools 82.0.0（2026-02-08）移除了 pkg_resources（81.x 仍含），而 bioconda 上
+  # 2023-2024 年的 Python 工具（multiqc 1.14、macs2、部分 deeptools 子命令等）仍 import 它，
+  # 表现为 `ModuleNotFoundError: No module named 'pkg_resources'`。全课程统一钉 <81（比必要的 <82 多保守一档，已实测可用）。
+  - setuptools<81
+  # 【必须 pin】本环境同时含 macs2 / deeptools / homer 的 Python 栈与 r-base 4.3.1 的 R 栈，
+  # 在集群的 glibc 2.18 约束下不加 python pin 会让 libmamba 搜索空间爆炸（>400 s 不收敛）。
+  # 实测：python=3.10 → 61 s 解出；python=3.11 → 仍不收敛。改动前先重测。
+  - python=3.10
+  # ---- m04 转录组 ----
+  - star=2.7.10b
+  - salmon=1.10.3
+  - subread=2.0.6
+  - stringtie=2.2.1
+  - bioconductor-deseq2=1.42.0
+  - bioconductor-clusterprofiler=4.10.0
+  # 04_deseq2_analysis.R 必需：tximport 导入 salmon；lfcShrink(type="apeglm")；火山图
+  - bioconductor-tximport
+  - bioconductor-apeglm
+  - bioconductor-enhancedvolcano
+
+  # ---- m05 调控组（ChIP-seq / ATAC-seq / CUT&Tag）----
+  - bowtie2=2.5.1
+  - macs2=2.2.9.1
+  - deeptools=3.5.5
+  - homer=5.1
+  - bioconductor-chipseeker=1.38.0
+  # ChIPseeker 的传递依赖，显式声明以免版本漂移
+  - bioconductor-genomicfeatures
+  - idr
+
+  # ---- 共用 ----
+  - samtools=1.17
+  - bedtools=2.31.0
+  - r-base=4.3.1
+  - r-ggplot2=3.4.2

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Fingerprint 3: double normalization</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="40" width="344" height="274" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="3"/>
+<text x="60" y="82" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">counts</text>
+<text x="366" y="82" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="end" font-weight="bold">2.38 X</text>
+<line x1="84" y1="208" x2="356" y2="208" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<line x1="84" y1="140.5" x2="84" y2="275.5" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<circle cx="96.0" cy="207.18923513410564" r="9" fill="#4DBBD5" stroke="#3C5488" stroke-width="3"/>
+<circle cx="145.6" cy="264.32019349718263" r="9" fill="#4DBBD5" stroke="#3C5488" stroke-width="3"/>
+<circle cx="195.2" cy="135.32892732534413" r="9" fill="#4DBBD5" stroke="#3C5488" stroke-width="3"/>
+<circle cx="244.8" cy="234.0894514023017" r="9" fill="#4DBBD5" stroke="#3C5488" stroke-width="3"/>
+<circle cx="294.4" cy="157.27458917400438" r="9" fill="#4DBBD5" stroke="#3C5488" stroke-width="3"/>
+<circle cx="344.0" cy="212.42232123803262" r="9" fill="#4DBBD5" stroke="#3C5488" stroke-width="3"/>
+<text x="74" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0.6</text>
+<text x="356" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">1.5</text>
+<rect x="410" y="40" width="350" height="274" fill="#FFFFFF" rx="14" stroke="#E64B35" stroke-width="4"/>
+<text x="430" y="82" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">round(CPM)</text>
+<text x="740" y="82" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="end" font-weight="bold">1.03 X</text>
+<line x1="454" y1="208" x2="726" y2="208" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<line x1="454" y1="140.5" x2="454" y2="275.5" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<circle cx="466.0" cy="215.54018535834922" r="9" fill="#E64B35" stroke="#E64B35" stroke-width="2"/>
+<circle cx="515.6" cy="199.05205584687985" r="9" fill="#E64B35" stroke="#E64B35" stroke-width="2"/>
+<circle cx="565.2" cy="201.36979661604346" r="9" fill="#E64B35" stroke="#E64B35" stroke-width="2"/>
+<circle cx="614.8" cy="223.17555142861076" r="9" fill="#E64B35" stroke="#E64B35" stroke-width="2"/>
+<circle cx="664.4" cy="210.9579217185318" r="9" fill="#E64B35" stroke="#E64B35" stroke-width="2"/>
+<circle cx="714.0" cy="197.61045305982753" r="9" fill="#E64B35" stroke="#E64B35" stroke-width="2"/>
+<text x="444" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0.98</text>
+<text x="726" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">1.01</text>
+<rect x="40" y="330" width="720" height="116" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="3"/>
+<text x="66" y="374" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">library</text>
+<text x="66" y="424" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">after_round(CPM)</text>
+<text x="736" y="374" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="end" font-weight="bold">193671 - 463355</text>
+<text x="736" y="424" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="end" font-weight="bold">1.00 X 10^6  flat</text>
+<rect x="40" y="466" width="720" height="62" fill="#F6D8D2" rx="10" stroke="#E64B35" stroke-width="4"/>
+<text x="400" y="506" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">factors ≈ 1.0  +  libraries ~2.5 X</text>
+<rect x="32.0" y="560" width="736" height="114" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">指纹三：缩放因子挤在1.0附近，</text>
+<text x="400.0" y="644" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">原始文库差2.5倍，归一化做了两次。</text>
+</svg>

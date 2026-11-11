@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400.0" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">复氮时序十二样本</text>
+<text x="400.0" y="110" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">对照与处理各三时点双重复</text>
+<text x="64" y="261.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="end" font-weight="bold">K</text>
+<rect x="84" y="176" width="148" height="146" fill="#4DBBD5" rx="14" stroke="#3C8DAD" stroke-width="4"/>
+<text x="158.0" y="220" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">30</text>
+<circle cx="132.0" cy="280" r="19" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="4"/>
+<text x="132.0" y="291" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">A</text>
+<circle cx="184.0" cy="280" r="19" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="4"/>
+<text x="184.0" y="291" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">B</text>
+<rect x="248" y="176" width="148" height="146" fill="#4DBBD5" rx="14" stroke="#3C8DAD" stroke-width="4"/>
+<text x="322.0" y="220" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">60</text>
+<circle cx="296.0" cy="280" r="19" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="4"/>
+<text x="296.0" y="291" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">A</text>
+<circle cx="348.0" cy="280" r="19" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="4"/>
+<text x="348.0" y="291" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">B</text>
+<rect x="412" y="176" width="148" height="146" fill="#4DBBD5" rx="14" stroke="#3C8DAD" stroke-width="4"/>
+<text x="486.0" y="220" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">120</text>
+<circle cx="460.0" cy="280" r="19" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="4"/>
+<text x="460.0" y="291" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">A</text>
+<circle cx="512.0" cy="280" r="19" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="4"/>
+<text x="512.0" y="291" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">B</text>
+<text x="64" y="481.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#C0623F" text-anchor="end" font-weight="bold">N</text>
+<rect x="84" y="396" width="148" height="146" fill="#F39B7F" rx="14" stroke="#C0623F" stroke-width="4"/>
+<text x="158.0" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">30</text>
+<circle cx="132.0" cy="500" r="19" fill="#FFFFFF" stroke="#C0623F" stroke-width="4"/>
+<text x="132.0" y="511" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">A</text>
+<circle cx="184.0" cy="500" r="19" fill="#FFFFFF" stroke="#C0623F" stroke-width="4"/>
+<text x="184.0" y="511" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">B</text>
+<rect x="248" y="396" width="148" height="146" fill="#F39B7F" rx="14" stroke="#C0623F" stroke-width="4"/>
+<text x="322.0" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">60</text>
+<circle cx="296.0" cy="500" r="19" fill="#FFFFFF" stroke="#C0623F" stroke-width="4"/>
+<text x="296.0" y="511" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">A</text>
+<circle cx="348.0" cy="500" r="19" fill="#FFFFFF" stroke="#C0623F" stroke-width="4"/>
+<text x="348.0" y="511" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">B</text>
+<rect x="412" y="396" width="148" height="146" fill="#F39B7F" rx="14" stroke="#C0623F" stroke-width="4"/>
+<text x="486.0" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">120</text>
+<circle cx="460.0" cy="500" r="19" fill="#FFFFFF" stroke="#C0623F" stroke-width="4"/>
+<text x="460.0" y="511" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">A</text>
+<circle cx="512.0" cy="500" r="19" fill="#FFFFFF" stroke="#C0623F" stroke-width="4"/>
+<text x="512.0" y="511" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">B</text>
+<line x1="84" y1="572" x2="560" y2="572" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="568" y="582" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">min</text>
+<rect x="618" y="176" width="150" height="366" fill="#FFFFFF" rx="14" stroke="#8491B4" stroke-width="4"/>
+<text x="693.0" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">RNA</text>
+<circle cx="662" cy="272" r="10" fill="#8491B4"/>
+<circle cx="696" cy="272" r="10" fill="#8491B4"/>
+<circle cx="730" cy="272" r="10" fill="#8491B4"/>
+<circle cx="662" cy="306" r="10" fill="#8491B4"/>
+<circle cx="696" cy="306" r="10" fill="#8491B4"/>
+<circle cx="730" cy="306" r="10" fill="#8491B4"/>
+<circle cx="662" cy="340" r="10" fill="#8491B4"/>
+<circle cx="696" cy="340" r="10" fill="#8491B4"/>
+<circle cx="730" cy="340" r="10" fill="#8491B4"/>
+<circle cx="662" cy="374" r="10" fill="#8491B4"/>
+<circle cx="696" cy="374" r="10" fill="#8491B4"/>
+<circle cx="730" cy="374" r="10" fill="#8491B4"/>
+<text x="693.0" y="516" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">1:1</text>
+<line x1="570" y1="249.0" x2="606" y2="249.0" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="606,249.0 591.3905769550031,255.52416724895312 591.3905769550031,242.47583275104688" fill="#3C5488"/>
+<line x1="570" y1="469.0" x2="606" y2="469.0" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="606,469.0 591.3905769550031,475.5241672489531 591.3905769550031,462.4758327510469" fill="#3C5488"/>
+<text x="400.0" y="636" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle">同批转录组配对</text>
+</svg>

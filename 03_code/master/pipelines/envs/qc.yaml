@@ -1,0 +1,9 @@
+# fastp 质控环境（rule fastp 专用）
+# 一条 rule 一个 env 的好处：换掉 fastp 版本不会牵动 salmon
+name: m08_qc
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fastp=0.23.4

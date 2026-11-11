@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="90" y="66" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="start" font-weight="bold">统一注释：特异约 1643</text>
+<text x="760" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="end" font-weight="bold">混入宽松注释：特异 8150</text>
+<rect x="90" y="464.9558282208589" width="26" height="75.04417177914111" fill="#3C5488" rx="3"/>
+<rect x="126" y="466.0453987730061" width="26" height="73.95460122699386" fill="#3C5488" rx="3"/>
+<rect x="162" y="465.8638036809816" width="26" height="74.13619631901841" fill="#3C5488" rx="3"/>
+<rect x="198" y="465.5006134969325" width="26" height="74.49938650306748" fill="#3C5488" rx="3"/>
+<rect x="234" y="466.0453987730061" width="26" height="73.95460122699386" fill="#3C5488" rx="3"/>
+<rect x="270" y="464.77423312883434" width="26" height="75.22576687116565" fill="#3C5488" rx="3"/>
+<rect x="306" y="465.5914110429448" width="26" height="74.40858895705522" fill="#3C5488" rx="3"/>
+<rect x="342" y="464.9558282208589" width="26" height="75.04417177914111" fill="#3C5488" rx="3"/>
+<rect x="378" y="465.319018404908" width="26" height="74.68098159509202" fill="#3C5488" rx="3"/>
+<rect x="414" y="465.40981595092023" width="26" height="74.59018404907975" fill="#3C5488" rx="3"/>
+<rect x="450" y="465.40981595092023" width="26" height="74.59018404907975" fill="#3C5488" rx="3"/>
+<line x1="80" y1="465.40981595092023" x2="486" y2="465.40981595092023" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="12 9"/>
+<text x="270" y="449.40981595092023" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">median</text>
+<rect x="526" y="170" width="90" height="370" fill="#E64B35" rx="4"/>
+<line x1="76" y1="540" x2="630" y2="540" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="90" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">strain 1–11 (P1)</text>
+<text x="571" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">strain 12 (P2)</text>
+<rect x="360" y="600" width="400" height="56" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<text x="560" y="638" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">假特异 99.9%</text>
+<text x="400" y="682" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">7,919 噪声 ORF ＋ 221 漏检真基因 ＋ 10 真实</text>
+</svg>

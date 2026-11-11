@@ -1,0 +1,91 @@
+---
+title: "`r params$title`"
+author: "`r params$author`"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    embed-resources: true
+params:
+  counts: "../results/counts/counts_matrix.tsv"
+  tpm: "../results/counts/tpm_matrix.tsv"
+  samples: "../samples.tsv"
+  title: "m08 最小流程 · 可重复分析报告"
+  author: "未署名"
+  thresholds_note: "未填写阈值记录"
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r setup}
+library(tidyverse)
+
+counts <- read_tsv(params$counts, show_col_types = FALSE)
+tpm    <- read_tsv(params$tpm,    show_col_types = FALSE)
+meta   <- read_tsv(params$samples, show_col_types = FALSE)
+```
+
+## 1. 本次运行的输入
+
+报告不重述"我大概用了什么"，而是把**实际读到的文件**写进来——
+路径由 Snakemake 通过 `-P` 传入，因此这一段永远和真实运行一致。
+
+```{r inputs}
+knitr::kable(meta, caption = "Sample sheet actually used in this run")
+```
+
+## 2. 定量结果概览
+
+```{r overview}
+libsize <- counts |>
+  pivot_longer(-transcript, names_to = "sample", values_to = "count") |>
+  group_by(sample) |>
+  summarise(total_reads = sum(count),
+            detected = sum(count > 0), .groups = "drop") |>
+  left_join(meta |> select(sample, condition), by = "sample")
+
+knitr::kable(libsize, caption = "Library size and detected transcripts")
+```
+
+```{r libsize-plot, fig.cap="Assigned reads per sample"}
+ggplot(libsize, aes(x = sample, y = total_reads, fill = condition)) +
+  geom_col() +
+  labs(x = "Sample", y = "Assigned reads", fill = "Condition") +
+  theme_bw()
+```
+
+```{r pca, fig.cap="Sample clustering on log2(TPM + 1)"}
+# 只用 base R + tidyverse，不引入 envs/report.yaml 之外的依赖
+mat <- tpm |> column_to_rownames("transcript") |> as.matrix()
+mat <- log2(mat + 1)
+mat <- mat[apply(mat, 1, var) > 0, , drop = FALSE]
+pc  <- prcomp(t(mat), scale. = TRUE)
+as_tibble(pc$x[, 1:2], rownames = "sample") |>
+  left_join(meta |> select(sample, condition), by = "sample") |>
+  ggplot(aes(PC1, PC2, colour = condition, label = sample)) +
+  geom_point(size = 3) +
+  geom_text(vjust = -1, show.legend = FALSE) +
+  labs(x = "PC1", y = "PC2", colour = "Condition") +
+  theme_bw()
+```
+
+## 3. 阈值与参数记录（不可省略）
+
+本讲无独立统计要点，但**报告必须保留前序分析用过的全部阈值**——
+否则别人拿到代码也复现不出你的数字。
+
+- `r params$thresholds_note`
+- fastp / salmon 的全部参数见随附的 `config.yaml`（与本报告同一次提交）。
+
+## 4. 环境快照
+
+```{r session}
+sessionInfo()
+```
+
+> 命令行侧的快照请在 shell 里执行 `conda env export --from-history > env_snapshot.yml`，
+> 与本报告一并归档。

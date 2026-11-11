@@ -1,0 +1,8 @@
+# salmon 定量环境（rule salmon_index / salmon_quant 共用）
+name: m08_quant
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - salmon=1.10.3        # 与 07_envs 与 p07 模块统一（r-base 4.3.1 只能与 1.10.3 共存，见项目 CLAUDE.md）

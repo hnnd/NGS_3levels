@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="100" y1="90" x2="100" y2="560" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="100" y1="560" x2="740" y2="560" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="100.0" y="602" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0</text>
+<text x="300.0" y="602" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">50</text>
+<text x="500.0" y="602" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">100</text>
+<text x="700.0" y="602" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">150</text>
+<text x="88" y="570.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0.0</text>
+<text x="88" y="335.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0.5</text>
+<text x="88" y="100.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">1.0</text>
+<text x="40" y="325.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" transform="rotate(-90 40 325.0)">Cumulative adapter</text>
+<path d="M 100.0 560 L 580.0 560 C 628.0 560 652.0 207.5 700.0 90.0 L 740.0 90.0" fill="none" stroke="#3C5488" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="580.0" cy="550.6" r="12" fill="#D97E52"/>
+<text x="345" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#D97E52" text-anchor="middle" font-weight="bold">抬升点：测穿起始</text>
+<line x1="390" y1="462" x2="570.0" y2="544.6" stroke="#D97E52" stroke-width="4" stroke-linecap="butt"/>
+<text x="560" y="140" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#D97E52" text-anchor="middle" font-weight="bold">高度：带接头占比</text>
+<line x1="648" y1="150" x2="694.0" y2="104.10000000000002" stroke="#D97E52" stroke-width="4" stroke-linecap="butt"/>
+<rect x="100" y="606" width="660" height="64" fill="#F6D8D2" rx="12"/>
+<text x="430" y="649" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">不能直读为片段分布</text>
+</svg>

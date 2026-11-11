@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">FASTQ 四行结构解剖：一条 read 的四个部件</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">FASTQ 四行 ｜ Phred+33 质量编码 —— 依据 03_seq_principles_formats_lecture.md §5.1–5.2</text>
+  <!-- 图例 -->
+  <text x="926" y="57" font-size="11.5" fill="#33332E">碱基色编码</text>
+  <rect x="926" y="64" width="24" height="22" rx="3" fill="#00A087"/><text x="938" y="80" font-size="11" fill="#FFFFFF" text-anchor="middle">A</text>
+  <rect x="956" y="64" width="24" height="22" rx="3" fill="#4DBBD5"/><text x="968" y="80" font-size="11" fill="#FFFFFF" text-anchor="middle">C</text>
+  <rect x="986" y="64" width="24" height="22" rx="3" fill="#F39B7F"/><text x="998" y="80" font-size="11" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="1016" y="64" width="24" height="22" rx="3" fill="#8491B4"/><text x="1028" y="80" font-size="11" fill="#FFFFFF" text-anchor="middle">T</text>
+
+  <!-- ============ 主面板 ============ -->
+  <rect x="48" y="118" width="1104" height="574" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="76" y="146" font-size="12" fill="#6B6B66">一条真实的记录（Illumina PE150，本讲 §5.1 示例）</text>
+
+  <rect x="76" y="160" width="40" height="40" rx="8" fill="#3C5488"/>
+  <text x="96" y="187" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="132" y="187" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="13"><tspan fill="#3C5488" font-weight="bold">@</tspan><tspan fill="#33332E">A00519:263:HKJTLDSXY:1:1101:5701:1000</tspan><tspan fill="#6B6B66"> 1:N:0:ATCACGAT</tspan></text>
+  <text x="648" y="177" font-size="13" fill="#33332E">「@」是起始标志 + read 名——FastQC 靠它认 FASTQ</text>
+  <text x="648" y="198" font-size="11.5" fill="#6B6B66">冒号字段=仪器:run:flowcell:lane:tile:x:y，空格后是 read/index 信息</text>
+
+  <rect x="76" y="232" width="40" height="40" rx="8" fill="#4DBBD5"/>
+  <text x="96" y="259" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="132" y="259" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="13" font-weight="bold"><tspan fill="#F39B7F">G</tspan><tspan fill="#00A087">A</tspan><tspan fill="#8491B4">T</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#F39B7F">G</tspan><tspan fill="#F39B7F">G</tspan><tspan fill="#00A087">A</tspan><tspan fill="#00A087">A</tspan><tspan fill="#F39B7F">G</tspan><tspan fill="#00A087">A</tspan><tspan fill="#F39B7F">G</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#00A087">A</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#00A087">A</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#F39B7F">G</tspan><tspan fill="#8491B4">T</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#8491B4">T</tspan><tspan fill="#F39B7F">G</tspan><tspan fill="#00A087">A</tspan><tspan fill="#00A087">A</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#8491B4">T</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#00A087">A</tspan><tspan fill="#F39B7F">G</tspan><tspan fill="#8491B4">T</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#00A087">A</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#00A087">A</tspan><tspan fill="#8491B4">T</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#00A087">A</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#F39B7F">G</tspan><tspan fill="#00A087">A</tspan><tspan fill="#8491B4">T</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#8491B4">T</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#F39B7F">G</tspan><tspan fill="#8491B4">T</tspan><tspan fill="#00A087">A</tspan><tspan fill="#8491B4">T</tspan><tspan fill="#F39B7F">G</tspan><tspan fill="#4DBBD5">C</tspan><tspan fill="#4DBBD5">C</tspan></text>
+  <text x="648" y="249" font-size="13" fill="#33332E">碱基序列，只含 A C G T N（颜色 = 碱基编码，见图例）</text>
+  <text x="648" y="270" font-size="11.5" fill="#6B6B66">这是 read 本体：一次测序读出的一条序列</text>
+
+  <rect x="76" y="304" width="40" height="40" rx="8" fill="#E9E9E5"/>
+  <text x="96" y="331" font-size="17" font-weight="bold" fill="#33332E" text-anchor="middle">3</text>
+  <text x="132" y="331" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="13"><tspan fill="#33332E">+</tspan></text>
+  <text x="648" y="321" font-size="13" fill="#33332E">「+」分隔符，标志质量行开始</text>
+  <text x="648" y="342" font-size="11.5" fill="#6B6B66">有时后面重复一遍 read 名——浪费空间，现已少见</text>
+
+  <rect x="76" y="376" width="40" height="40" rx="8" fill="#8491B4"/>
+  <text x="96" y="403" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="132" y="403" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="13" font-weight="bold"><tspan fill="#8491B4">FFFFFF:FFFFFFFFFFFFFF,FFFFFFFFFFFFFF:FF,F</tspan><tspan fill="#E64B35">#</tspan><tspan fill="#8491B4">FFFFF:FFF</tspan></text>
+  <text x="648" y="393" font-size="13" fill="#33332E">质量字符串：一字符对一碱基（红色 # 是最低分）</text>
+  <text x="648" y="414" font-size="11.5" fill="#6B6B66">长度必须与第 2 行严格相等——这是 FASTQ 的铁律</text>
+
+  <!-- 行1–4 与解读之间的分隔 -->
+  <line x1="624" y1="160" x2="624" y2="416" stroke="#E9E9E5"/>
+  <line x1="76" y1="452" x2="1124" y2="452" stroke="#E9E9E5"/>
+
+  <!-- ============ Phred+33 解码 ============ -->
+  <text x="76" y="492" font-size="15" font-weight="bold" fill="#3C5488">第 4 行怎么读——Phred+33 编码：字符的 ASCII 码 = Q + 33，Q = ASCII − 33</text>
+
+  <rect x="76" y="512" width="240" height="140" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="76" y="512" width="5" height="140" rx="2.5" fill="#6B6B66"/>
+  <text x="198" y="560" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="30" font-weight="bold" fill="#6B6B66" text-anchor="middle">!</text>
+  <text x="198" y="592" font-size="13" fill="#6B6B66" text-anchor="middle">ASCII 33</text>
+  <text x="198" y="616" font-size="14" font-weight="bold" fill="#33332E" text-anchor="middle">Q = 33 − 33 = 0</text>
+  <text x="198" y="640" font-size="12.5" fill="#33332E" text-anchor="middle">P = 1.0 · 完全不可信</text>
+
+  <rect x="337" y="512" width="240" height="140" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="337" y="512" width="5" height="140" rx="2.5" fill="#E64B35"/>
+  <text x="459" y="560" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="30" font-weight="bold" fill="#E64B35" text-anchor="middle">#</text>
+  <text x="459" y="592" font-size="13" fill="#6B6B66" text-anchor="middle">ASCII 35</text>
+  <text x="459" y="616" font-size="14" font-weight="bold" fill="#33332E" text-anchor="middle">Q = 35 − 33 = 2</text>
+  <text x="459" y="640" font-size="12.5" fill="#33332E" text-anchor="middle">P = 0.63 · 极差：别信这个碱基</text>
+
+  <rect x="598" y="512" width="240" height="140" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="598" y="512" width="5" height="140" rx="2.5" fill="#F39B7F"/>
+  <text x="720" y="560" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="30" font-weight="bold" fill="#F39B7F" text-anchor="middle">5</text>
+  <text x="720" y="592" font-size="13" fill="#6B6B66" text-anchor="middle">ASCII 53</text>
+  <text x="720" y="616" font-size="14" font-weight="bold" fill="#33332E" text-anchor="middle">Q = 53 − 33 = 20</text>
+  <text x="720" y="640" font-size="12.5" fill="#33332E" text-anchor="middle">P = 0.01 · 及格线（百分之一）</text>
+
+  <rect x="859" y="512" width="240" height="140" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="859" y="512" width="5" height="140" rx="2.5" fill="#00A087"/>
+  <text x="981" y="560" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="30" font-weight="bold" fill="#00A087" text-anchor="middle">?</text>
+  <text x="981" y="592" font-size="13" fill="#6B6B66" text-anchor="middle">ASCII 63</text>
+  <text x="981" y="616" font-size="14" font-weight="bold" fill="#33332E" text-anchor="middle">Q = 63 − 33 = 30</text>
+  <text x="981" y="640" font-size="12.5" fill="#33332E" text-anchor="middle">P = 0.001 · 行业金标准（千分之一）</text>
+
+  <text x="76" y="678" font-size="12" fill="#6B6B66">为什么加 33：ASCII 0–32 是控制字符和空格，不能直接印进文本文件，从 33（!）开始才安全。</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

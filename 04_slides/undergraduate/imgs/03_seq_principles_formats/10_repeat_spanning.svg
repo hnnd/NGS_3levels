@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="50" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">短读陷在重复内无锚点</text>
+<text x="400" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">长读两端锚定独特序列</text>
+<rect x="70" y="250" width="190" height="46" fill="#E3E8F2" rx="8"/>
+<rect x="260" y="250" width="280" height="46" fill="#F39B7F" rx="8"/>
+<rect x="540" y="250" width="190" height="46" fill="#E3E8F2" rx="8"/>
+<text x="165.0" y="283" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">U1</text>
+<text x="400.0" y="283" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">R（5 kb）</text>
+<text x="635.0" y="283" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">U2</text>
+<rect x="380" y="190" width="90" height="26" fill="#E64B35" rx="8"/>
+<text x="425" y="178" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#E64B35" text-anchor="middle" font-weight="bold">150 bp</text>
+<text x="425" y="236" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#E64B35" text-anchor="middle" font-weight="bold">?</text>
+<rect x="120" y="130" width="220" height="56" fill="#E64B35" rx="12"/>
+<text x="230" y="170" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">无法锚定</text>
+<line x1="280" y1="190" x2="380" y2="218" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<polygon points="380,218 362.1941080956534,220.63632575580564 366.1521072368373,206.50061453729174" fill="#E64B35"/>
+<rect x="70" y="470" width="190" height="46" fill="#E3E8F2" rx="8"/>
+<rect x="260" y="470" width="280" height="46" fill="#F39B7F" rx="8"/>
+<rect x="540" y="470" width="190" height="46" fill="#E3E8F2" rx="8"/>
+<text x="165.0" y="503" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">U1</text>
+<text x="400.0" y="503" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">R（5 kb）</text>
+<text x="635.0" y="503" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">U2</text>
+<rect x="140" y="400" width="520" height="26" fill="#00A087" rx="8"/>
+<text x="400" y="388" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">15 kb（设例）：长度 ≥ R + a + b</text>
+<polyline points="184,544 196,558 220,528" fill="none" stroke="#00A087" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="584,544 596,558 620,528" fill="none" stroke="#00A087" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="200" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#00A087" text-anchor="middle" font-weight="bold">a（5 kb）</text>
+<text x="600" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#00A087" text-anchor="middle" font-weight="bold">b（5 kb）</text>
+</svg>

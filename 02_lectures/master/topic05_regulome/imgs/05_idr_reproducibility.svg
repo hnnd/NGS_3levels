@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">IDR：用排名一致性定义可重复的 peak</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">copula 混合模型 ｜ 阈值 540 ≈ IDR 0.05 —— 依据 05_regulome_lecture.md ⑦4 与 步骤 4</text>
+  <!-- 图例 -->
+  <circle cx="932" cy="46" r="6" fill="#00A087"/>
+  <text x="946" y="50" font-size="12" fill="#33332E">真信号（排名一致）</text>
+  <circle cx="932" cy="70" r="6" fill="#6B6B66"/>
+  <text x="946" y="74" font-size="12" fill="#33332E">噪声（排名独立）</text>
+
+  <!-- ============ 左面板：rank-rank 散点 ============ -->
+  <rect x="48" y="140" width="560" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="172" font-size="16" font-weight="bold" fill="#3C5488">两重复的 rank–rank 散点（示意）</text>
+  <text x="72" y="192" font-size="11.5" fill="#6B6B66">x：rep1 峰按显著性排名 ｜ y：rep2 排名——左上角 = 两重复都显著</text>
+  <line x1="72" y1="204" x2="584" y2="204" stroke="#E9E9E5"/>
+
+  <!-- 绘图区 -->
+  <rect x="100" y="224" width="460" height="330" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <!-- 对角一致性带 -->
+  <line x1="110" y1="238" x2="550" y2="544" stroke="#00A087" stroke-width="56" stroke-opacity="0.12"/>
+  <!-- 真信号点（沿对角线） -->
+  <circle cx="122" cy="248" r="4.5" fill="#00A087"/>
+  <circle cx="138" cy="266" r="4.5" fill="#00A087"/>
+  <circle cx="232" cy="340" r="4.5" fill="#00A087"/>
+  <circle cx="218" cy="342" r="4.5" fill="#00A087"/>
+  <circle cx="252" cy="370" r="4.5" fill="#00A087"/>
+  <circle cx="288" cy="398" r="4.5" fill="#00A087"/>
+  <circle cx="324" cy="428" r="4.5" fill="#00A087"/>
+  <circle cx="362" cy="452" r="4.5" fill="#00A087"/>
+  <circle cx="402" cy="478" r="4.5" fill="#00A087"/>
+  <circle cx="444" cy="500" r="4.5" fill="#00A087"/>
+  <circle cx="490" cy="522" r="4.5" fill="#00A087"/>
+  <circle cx="532" cy="540" r="4.5" fill="#00A087"/>
+  <!-- 噪声点（弥散） -->
+  <circle cx="196" cy="242" r="4.5" fill="#6B6B66" fill-opacity="0.55"/>
+  <circle cx="286" cy="258" r="4.5" fill="#6B6B66" fill-opacity="0.55"/>
+  <circle cx="372" cy="246" r="4.5" fill="#6B6B66" fill-opacity="0.55"/>
+  <circle cx="470" cy="268" r="4.5" fill="#6B6B66" fill-opacity="0.55"/>
+  <circle cx="540" cy="304" r="4.5" fill="#6B6B66" fill-opacity="0.55"/>
+  <circle cx="162" cy="420" r="4.5" fill="#6B6B66" fill-opacity="0.55"/>
+  <circle cx="226" cy="500" r="4.5" fill="#6B6B66" fill-opacity="0.55"/>
+  <circle cx="306" cy="468" r="4.5" fill="#6B6B66" fill-opacity="0.55"/>
+  <circle cx="388" cy="298" r="4.5" fill="#6B6B66" fill-opacity="0.55"/>
+  <circle cx="470" cy="352" r="4.5" fill="#6B6B66" fill-opacity="0.55"/>
+  <circle cx="536" cy="424" r="4.5" fill="#6B6B66" fill-opacity="0.55"/>
+  <circle cx="140" cy="348" r="4.5" fill="#6B6B66" fill-opacity="0.55"/>
+  <circle cx="330" cy="540" r="4.5" fill="#6B6B66" fill-opacity="0.55"/>
+  <circle cx="420" cy="546" r="4.5" fill="#6B6B66" fill-opacity="0.55"/>
+
+  <!-- 区域标注 -->
+  <text x="120" y="288" font-size="12" font-weight="bold" fill="#00A087">真信号：</text>
+  <text x="120" y="306" font-size="11" fill="#00A087">两重复排名高度相关</text>
+  <text x="544" y="470" font-size="12" font-weight="bold" fill="#6B6B66" text-anchor="end">噪声：</text>
+  <text x="544" y="488" font-size="11" fill="#6B6B66" text-anchor="end">排名相互独立</text>
+
+  <!-- 轴说明 -->
+  <text x="560" y="572" font-size="11" fill="#6B6B66" text-anchor="end">rep1 排名（1 = 最显著）→</text>
+  <text x="104" y="219" font-size="11" fill="#6B6B66">↑ rep2 排名（1 = 最显著）</text>
+
+  <!-- 喂入阈值说明 -->
+  <rect x="72" y="606" width="512" height="56" rx="6" fill="#FAFAF7"/>
+  <rect x="72" y="606" width="4" height="56" rx="2" fill="#3C5488"/>
+  <text x="88" y="630" font-size="12" fill="#33332E">要用宽松阈值（-p 1e-3）喂 IDR：噪声端的信息，</text>
+  <text x="88" y="650" font-size="12" fill="#33332E">正是模型估计噪声成分的原料——只喂高置信峰反而不稳</text>
+
+  <!-- ============ 右面板：为什么优于取交集 ============ -->
+  <rect x="632" y="140" width="520" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="656" y="172" font-size="16" font-weight="bold" fill="#3C5488">为什么优于「两个重复取交集」</text>
+  <line x1="656" y1="186" x2="1128" y2="186" stroke="#E9E9E5"/>
+
+  <!-- 阈值示意 -->
+  <text x="656" y="216" font-size="12.5" font-weight="bold" fill="#33332E">一个两重复里都「差一点」的真峰：</text>
+  <line x1="656" y1="248" x2="1100" y2="248" stroke="#3C5488" stroke-width="2"/>
+  <text x="656" y="238" font-size="11" fill="#6B6B66">rep1 显著性 →</text>
+  <line x1="656" y1="296" x2="1100" y2="296" stroke="#3C5488" stroke-width="2"/>
+  <text x="656" y="286" font-size="11" fill="#6B6B66">rep2 显著性 →</text>
+  <line x1="980" y1="234" x2="980" y2="310" stroke="#6B6B66" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="980" y="324" font-size="10.5" fill="#6B6B66" text-anchor="middle">q = 0.05 阈值</text>
+  <circle cx="962" cy="248" r="7" fill="#4DBBD5"/>
+  <circle cx="962" cy="296" r="7" fill="#4DBBD5"/>
+  <text x="940" y="240" font-size="11" fill="#3C8DAD" text-anchor="end">排名靠前，恰好差一点</text>
+  <line x1="946" y1="356" x2="958" y2="368" stroke="#E64B35" stroke-width="2.5"/>
+  <line x1="958" y1="356" x2="946" y2="368" stroke="#E64B35" stroke-width="2.5"/>
+  <text x="972" y="366" font-size="12" fill="#33332E">交集法：各不过硬阈值 → 丢掉</text>
+  <circle cx="952" cy="396" r="7" fill="#00A087"/>
+  <path d="M 948 396 L 952 400 L 959 391" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+  <text x="972" y="400" font-size="12" fill="#33332E">IDR：两重复排名都靠前 → 保留</text>
+  <text x="656" y="428" font-size="11" fill="#6B6B66">——这些「双双差一点」的峰，恰恰是最典型的真信号</text>
+
+  <!-- 要点列表 -->
+  <text x="656" y="470" font-size="12.5" font-weight="bold" fill="#33332E">要点</text>
+  <text x="656" y="496" font-size="12" fill="#33332E">· copula 混合模型估计每个 peak 属「可重复」</text>
+  <text x="672" y="516" font-size="12" fill="#33332E">成分的概率；假设：真信号排名相关，噪声独立</text>
+  <text x="656" y="542" font-size="12" fill="#33332E">· 输出第 5 列 scaled IDR：540 ≈ IDR 0.05</text>
+  <text x="672" y="562" font-size="12" fill="#33332E">（−125·log₂0.05 ≈ 540，awk 取 $5 ≥ 540）</text>
+  <text x="656" y="588" font-size="12" fill="#33332E">· ENCODE 判据：各重复峰数 / 可重复峰数</text>
+  <text x="672" y="608" font-size="12" fill="#33332E">＞ 2 → 提示重复间质量严重不均</text>
+  <text x="656" y="634" font-size="12" fill="#33332E">· 散点均匀弥散、过审峰只剩几百 → 查重复质量，</text>
+  <text x="672" y="654" font-size="12" fill="#33332E">不是改用交集凑数量</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">前提是真正的生物学重复：技术重复冒充，IDR 会高得不真实——两重复刚好够跑 IDR，正是它的设计用法。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

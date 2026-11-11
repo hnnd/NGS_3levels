@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">论文 Methods 的"软件与版本清单"怎样撑起可复现</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">版本锁行为 ｜ 渠道锁来源 ｜ environment.yml = 世界快照 —— 依据 01_linux_conda_lecture.md ③3.5 · ④4.7</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="57" font-size="12" fill="#33332E">机制 / 结构</text>
+  <rect x="1046" y="46" width="12" height="12" fill="#00A087"/>
+  <text x="1066" y="57" font-size="12" fill="#33332E">复现成立</text>
+
+  <!-- ============ 上排：三张卡片的接力 ============ -->
+  <!-- 卡 1 -->
+  <rect x="48" y="140" width="320" height="270" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="68" y="170" font-size="13" font-weight="bold" fill="#3C5488">① 论文 Methods 末尾的一段话</text>
+  <rect x="68" y="186" width="280" height="128" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="84" y="214" font-size="12" fill="#33332E">"软件及版本：Canu v2.2、</text>
+  <text x="84" y="238" font-size="12" fill="#33332E">Flye v2.9……；运行环境见</text>
+  <text x="84" y="262" font-size="12" fill="#33332E">附加文件 environment.yml。"</text>
+  <text x="84" y="296" font-size="10.5" fill="#6B6B66">—— 不谈生物学的套话吗？不是</text>
+  <text x="68" y="344" font-size="11.5" fill="#6B6B66">审稿人据此能重建与作者完全</text>
+  <text x="68" y="364" font-size="11.5" fill="#6B6B66">一致的运行环境（③3.5）</text>
+
+  <line x1="368" y1="270" x2="420" y2="270" stroke="#3C5488" stroke-width="2.5"/>
+  <polygon points="428,270 418,265 418,275" fill="#3C5488"/>
+  <text x="398" y="254" font-size="11" fill="#6B6B66" text-anchor="middle">报告附录</text>
+
+  <!-- 卡 2 -->
+  <rect x="428" y="140" width="320" height="270" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="448" y="170" font-size="13" font-weight="bold" fill="#3C5488">② 你的 environment.yml</text>
+  <rect x="448" y="186" width="280" height="182" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="464" y="212" font-size="12.5" fill="#33332E">name: ngs_ug_assembly</text>
+  <text x="464" y="234" font-size="12.5" fill="#33332E">channels:</text>
+  <text x="480" y="256" font-size="12.5" fill="#00A087">- conda-forge</text>
+  <text x="480" y="278" font-size="12.5" fill="#00A087">- bioconda</text>
+  <text x="480" y="300" font-size="12.5" fill="#6B6B66">- defaults</text>
+  <text x="464" y="322" font-size="12.5" fill="#33332E">dependencies:</text>
+  <text x="480" y="344" font-size="12.5" fill="#33332E">- canu=2.2</text>
+  <text x="480" y="362" font-size="12.5" fill="#33332E">- flye=2.9</text>
+  <text x="448" y="392" font-size="11" fill="#6B6B66">交作业用 --no-builds 导出（⑤5.3）</text>
+
+  <line x1="748" y1="270" x2="800" y2="270" stroke="#3C5488" stroke-width="2.5"/>
+  <polygon points="808,270 798,265 798,275" fill="#3C5488"/>
+  <text x="778" y="254" font-size="11" fill="#6B6B66" text-anchor="middle">重建环境</text>
+
+  <!-- 卡 3 -->
+  <rect x="808" y="140" width="344" height="270" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="828" y="170" font-size="13" font-weight="bold" fill="#3C5488">③ 半年后 · 别人的机器</text>
+  <text x="828" y="202" font-size="12.5" fill="#33332E">conda env create -f environment.yml</text>
+  <text x="828" y="228" font-size="11.5" fill="#6B6B66">求解器挑出同一组版本（④4.7）</text>
+  <text x="828" y="254" font-size="12.5" fill="#33332E">同样的命令 → 同样的 contig 数</text>
+  <circle cx="838" cy="290" r="10" fill="none" stroke="#00A087" stroke-width="2"/>
+  <polyline points="833,290 837,295 845,284" fill="none" stroke="#00A087" stroke-width="2"/>
+  <text x="856" y="295" font-size="12.5" font-weight="bold" fill="#00A087">复现从"据称可以"变成"当场可查"</text>
+  <text x="828" y="336" font-size="11.5" fill="#6B6B66">文献 4：nf-core 把版本锁定做成社区制度，</text>
+  <text x="828" y="356" font-size="11.5" fill="#6B6B66">论文 Methods 只需一句"分析使用</text>
+  <text x="828" y="376" font-size="11.5" fill="#6B6B66">nf-core/xxx v1.2.1"（③3.5）</text>
+
+  <!-- ============ 下排：反面与三零件 ============ -->
+  <rect x="48" y="440" width="520" height="196" rx="10" fill="#FFFFFF" stroke="#E64B35" stroke-width="1.6"/>
+  <text x="68" y="470" font-size="13" font-weight="bold" fill="#E64B35">反面：只写"用了 Canu"，不写版本</text>
+  <text x="68" y="500" font-size="12.5" fill="#33332E">同一批数据，v2.2 与 v2.9 可给出不同数量的 contig</text>
+  <text x="68" y="526" font-size="12.5" fill="#33332E">论文若不写版本，谁也说不清"哪个才是结论成立时的世界"</text>
+  <text x="68" y="552" font-size="12.5" fill="#33332E">生信结论翻车，常见原因不是算法不行，是两台机器版本不同</text>
+  <text x="68" y="588" font-size="11.5" fill="#6B6B66">对照右表"渠道"一行：同名包从哪个渠道来也要写清楚（④4.5）</text>
+  <text x="68" y="612" font-size="11.5" fill="#6B6B66">这三种疏漏的共同点：结果错了，却没有任何线索提示你</text>
+
+  <rect x="600" y="440" width="552" height="216" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="620" y="470" font-size="13" font-weight="bold" fill="#3C5488">三个零件各管一件事（④4.7）</text>
+  <rect x="620" y="490" width="88" height="32" rx="6" fill="#3C5488"/>
+  <text x="664" y="512" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">版本号</text>
+  <text x="724" y="512" font-size="12" fill="#33332E">锁行为：默认参数与算法细节在版本间会变</text>
+  <rect x="620" y="534" width="88" height="32" rx="6" fill="#3C5488"/>
+  <text x="664" y="556" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">渠　道</text>
+  <text x="724" y="556" font-size="12" fill="#33332E">锁来源：conda-forge → bioconda → defaults（④4.5）</text>
+  <rect x="620" y="578" width="88" height="32" rx="6" fill="#3C5488"/>
+  <text x="664" y="600" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">求解器</text>
+  <text x="724" y="600" font-size="12" fill="#33332E">保装得起来：约束越多越难解，所以才拆 4 个环境</text>
+  <text x="620" y="626" font-size="11.5" fill="#6B6B66">续接 ④4.8：容器（Apptainer）把整个文件系统一起打包——</text>
+  <text x="620" y="646" font-size="11.5" fill="#6B6B66">conda 管"装什么"，容器管"整个世界一起搬走"</text>
+
+  <!-- 结语 -->
+  <text x="48" y="690" font-size="13.5" font-weight="bold" fill="#3C5488">environment.yml 记录的不是环境清单，而是"结论成立时世界的一份快照"——三件事少一件，快照就失真。</text>
+  <text x="48" y="722" font-size="11.5" fill="#6B6B66">报告附录附上实际使用环境的 environment.yml：采的不是格式，是"可复现"的凭据本身（⑤5.3，评分项"报告规范性"）。</text>
+
+  <!-- 页脚 -->
+  <text x="1152" y="770" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

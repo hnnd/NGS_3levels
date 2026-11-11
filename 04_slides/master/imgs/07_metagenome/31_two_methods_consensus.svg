@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<circle cx="336" cy="274" r="132" fill="#D6EFF4" stroke="#3C8DAD" stroke-width="4"/>
+<circle cx="464" cy="274" r="132" fill="#FBE3D8" stroke="#C0623F" stroke-width="4"/>
+<rect x="230.83875" y="251.2" width="54.322500000000005" height="57.6" fill="#FFFFFF" rx="10" stroke="#3C8DAD" stroke-width="4"/>
+<text x="258" y="289.9" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">8</text>
+<rect x="514.83875" y="251.2" width="54.322500000000005" height="57.6" fill="#FFFFFF" rx="10" stroke="#C0623F" stroke-width="4"/>
+<text x="542" y="289.9" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">6</text>
+<rect x="372.261875" y="250.07999999999998" width="55.47625" height="59.84" fill="#FFFFFF" rx="10" stroke="#00A087" stroke-width="4"/>
+<text x="400" y="290.56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">2</text>
+<text x="400" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">两法独立取交集</text>
+<text x="254" y="190" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">ALDEx2</text>
+<text x="548" y="190" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">ANCOM-BC</text>
+<rect x="313.1" y="423.2" width="173.8" height="57.6" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="3"/>
+<text x="400" y="461.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">交集可信</text>
+<text x="400" y="528" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">交并比算式十二分之二</text>
+<text x="400" y="588" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">2 / (8 + 6 − 2) = 2 / 12</text>
+<rect x="88" y="624" width="624" height="62" fill="#FFFFFF" rx="14" stroke="#E64B35" stroke-width="4" stroke-dasharray="12 9"/>
+<text x="400" y="668" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">单法显著降级</text>
+</svg>

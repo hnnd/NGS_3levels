@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">从脚本到软件工程制品：工作流引擎十二年</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">引擎发布 ｜ 生态与质量体系 —— 依据 07_workflow_nextflow_lecture.md ④4.7 · ⑪</text>
+  <!-- 图例 -->
+  <rect x="926" y="36" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="46" font-size="12" fill="#33332E">引擎里程碑</text>
+  <rect x="926" y="58" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="68" font-size="12" fill="#33332E">生态 / 基础设施</text>
+  <rect x="926" y="80" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="90" font-size="12" fill="#33332E">质量体系</text>
+  <rect x="926" y="102" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="112" font-size="12" fill="#33332E">严格化转向</text>
+
+  <!-- ============ 时间轴 ============ -->
+  <line x1="80" y1="470" x2="1124" y2="470" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="1132,470 1122,465 1122,475" fill="#6B6B66"/>
+  <text x="1128" y="492" font-size="10.5" fill="#6B6B66" text-anchor="end">发表 / 发布时间</text>
+
+  <!-- 2012 上：Snakemake -->
+  <line x1="130" y1="430" x2="130" y2="462" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="130" cy="470" r="7" fill="#3C5488"/>
+  <rect x="60" y="280" width="140" height="150" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="74" y="308" font-size="15" font-weight="bold" fill="#3C5488">2012</text>
+  <text x="74" y="330" font-size="12.5" font-weight="bold" fill="#33332E">Snakemake 发布</text>
+  <text x="74" y="352" font-size="10.5" fill="#6B6B66">Köster &amp; Rahmann</text>
+  <text x="74" y="370" font-size="10.5" fill="#6B6B66">pull：目标驱动</text>
+  <text x="74" y="388" font-size="10.5" fill="#6B6B66">DAG 执行前完全确定</text>
+  <text x="74" y="406" font-size="10.5" fill="#6B6B66">（Bioinformatics）</text>
+
+  <!-- 2017 下：Nextflow + 容器生态 -->
+  <line x1="280" y1="478" x2="280" y2="510" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="280" cy="470" r="7" fill="#3C5488"/>
+  <rect x="210" y="510" width="140" height="150" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="224" y="538" font-size="15" font-weight="bold" fill="#3C5488">2017</text>
+  <text x="224" y="560" font-size="12.5" font-weight="bold" fill="#33332E">Nextflow 发布</text>
+  <text x="224" y="582" font-size="10.5" fill="#6B6B66">Di Tommaso 等</text>
+  <text x="224" y="600" font-size="10.5" fill="#6B6B66">push：数据流驱动</text>
+  <text x="224" y="618" font-size="10.5" fill="#6B6B66">同年 Singularity 与</text>
+  <text x="224" y="636" font-size="10.5" fill="#6B6B66">BioContainers 面世</text>
+
+  <!-- 2020 上：nf-core -->
+  <line x1="430" y1="430" x2="430" y2="462" stroke="#00A087" stroke-width="1.5"/>
+  <circle cx="430" cy="470" r="7" fill="#00A087"/>
+  <rect x="360" y="280" width="140" height="150" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="374" y="308" font-size="15" font-weight="bold" fill="#00A087">2020</text>
+  <text x="374" y="330" font-size="12.5" font-weight="bold" fill="#33332E">nf-core 框架</text>
+  <text x="374" y="352" font-size="10.5" fill="#6B6B66">Ewels 等</text>
+  <text x="374" y="370" font-size="10.5" fill="#6B6B66">模块带测试与元数据</text>
+  <text x="374" y="388" font-size="10.5" fill="#6B6B66">社区 lint 规范</text>
+  <text x="374" y="406" font-size="10.5" fill="#6B6B66">流程即产品</text>
+
+  <!-- 2021 下：比较与现行用法 -->
+  <line x1="580" y1="478" x2="580" y2="510" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="580" cy="470" r="7" fill="#4DBBD5"/>
+  <rect x="510" y="510" width="140" height="150" rx="8" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="524" y="538" font-size="15" font-weight="bold" fill="#3C8DAD">2021</text>
+  <text x="524" y="560" font-size="12.5" font-weight="bold" fill="#33332E">系统比较与现行用法</text>
+  <text x="524" y="582" font-size="10.5" fill="#6B6B66">Wratten 等</text>
+  <text x="524" y="600" font-size="10.5" fill="#6B6B66">（Nat. Methods）</text>
+  <text x="524" y="618" font-size="10.5" fill="#6B6B66">Mölder 等：Snakemake</text>
+  <text x="524" y="636" font-size="10.5" fill="#6B6B66">可持续分析实践</text>
+
+  <!-- 2022 上：监测实战 -->
+  <line x1="730" y1="430" x2="730" y2="462" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="730" cy="470" r="7" fill="#4DBBD5"/>
+  <rect x="660" y="280" width="140" height="150" rx="8" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="674" y="308" font-size="15" font-weight="bold" fill="#3C8DAD">2022</text>
+  <text x="674" y="330" font-size="12.5" font-weight="bold" fill="#33332E">千级样本监测实战</text>
+  <text x="674" y="352" font-size="10.5" fill="#6B6B66">Donzelli 等</text>
+  <text x="674" y="370" font-size="10.5" fill="#6B6B66">SARS-CoV-2 追踪</text>
+  <text x="674" y="388" font-size="10.5" fill="#6B6B66">流程工程从加分项</text>
+  <text x="674" y="406" font-size="10.5" fill="#6B6B66">变成必需品</text>
+
+  <!-- 2024 下：严格解析器 -->
+  <line x1="880" y1="478" x2="880" y2="510" stroke="#E64B35" stroke-width="1.5"/>
+  <circle cx="880" cy="470" r="7" fill="#E64B35"/>
+  <rect x="810" y="510" width="140" height="150" rx="8" fill="#FFFFFF" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="824" y="538" font-size="15" font-weight="bold" fill="#E64B35">2024</text>
+  <text x="824" y="560" font-size="12.5" font-weight="bold" fill="#33332E">Nextflow 24</text>
+  <text x="824" y="582" font-size="10.5" fill="#6B6B66">严格语法解析器：</text>
+  <text x="824" y="600" font-size="10.5" fill="#E64B35">“能跑就行”的旧 DSL</text>
+  <text x="824" y="618" font-size="10.5" fill="#E64B35">升级时集中还债</text>
+  <text x="824" y="636" font-size="10.5" fill="#6B6B66">升级前先跑 lint</text>
+
+  <!-- 2025–26 上：严格化常态化 -->
+  <line x1="1030" y1="430" x2="1030" y2="462" stroke="#E64B35" stroke-width="1.5"/>
+  <circle cx="1030" cy="470" r="7" fill="#E64B35"/>
+  <rect x="960" y="280" width="140" height="150" rx="8" fill="#FFFFFF" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="974" y="308" font-size="15" font-weight="bold" fill="#E64B35">2025–26</text>
+  <text x="974" y="330" font-size="12.5" font-weight="bold" fill="#33332E">严格化常态化</text>
+  <text x="974" y="352" font-size="10.5" fill="#6B6B66">25.04（2025-05）：</text>
+  <text x="974" y="370" font-size="10.5" fill="#6B6B66">lint 推为常规</text>
+  <text x="974" y="388" font-size="10.5" fill="#6B6B66">25.10（2025-10）：</text>
+  <text x="974" y="406" font-size="10.5" fill="#6B6B66">类型标注+插件注册表</text>
+
+  <text x="1066" y="452" font-size="10.5" fill="#6B6B66">26.04.4：本课程实测</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="1104" height="58" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="48" y="696" width="4" height="58" rx="2" fill="#3C5488"/>
+  <text x="66" y="718" font-size="12.5" fill="#33332E">方向一致的三件事：有测试、有静态检查、有标准接口——流程正从“脚本”变成软件工程制品；升级引擎前后各跑一遍 -resume，cached 全命中才算迁移无损。</text>
+  <text x="66" y="740" font-size="12.5" fill="#33332E">云原生（Wave 按需现算容器、Fusion 把对象存储挂成 POSIX）正在拆“交给没有集群的合作方”那堵墙；无 root 的 HPC 上 Singularity/Apptainer 仍是主线。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="52" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">簇内分子合成失同步</text>
+<rect x="60" y="76" width="680" height="166" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="84" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">R1</text>
+<circle cx="112" cy="146" r="17" fill="#4DBBD5"/>
+<circle cx="162" cy="146" r="17" fill="#4DBBD5"/>
+<circle cx="212" cy="146" r="17" fill="#4DBBD5"/>
+<circle cx="262" cy="146" r="17" fill="#4DBBD5"/>
+<circle cx="312" cy="146" r="17" fill="#4DBBD5"/>
+<circle cx="112" cy="189" r="17" fill="#4DBBD5"/>
+<circle cx="162" cy="189" r="17" fill="#4DBBD5"/>
+<circle cx="212" cy="189" r="17" fill="#4DBBD5"/>
+<circle cx="262" cy="189" r="17" fill="#4DBBD5"/>
+<circle cx="312" cy="189" r="17" fill="#4DBBD5"/>
+<circle cx="112" cy="232" r="17" fill="#4DBBD5"/>
+<circle cx="162" cy="232" r="17" fill="#4DBBD5"/>
+<circle cx="212" cy="232" r="17" fill="#4DBBD5"/>
+<circle cx="262" cy="232" r="17" fill="#4DBBD5"/>
+<circle cx="312" cy="232" r="17" fill="#4DBBD5"/>
+<text x="480" y="170" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="start" font-weight="bold">正常同步</text>
+<rect x="60" y="258" width="680" height="166" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="84" y="298" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">R100</text>
+<circle cx="112" cy="328" r="17" fill="#4DBBD5"/>
+<circle cx="162" cy="328" r="17" fill="#4DBBD5"/>
+<circle cx="212" cy="328" r="17" fill="#4DBBD5"/>
+<circle cx="262" cy="328" r="17" fill="#4DBBD5"/>
+<circle cx="312" cy="328" r="17" fill="#F39B7F"/>
+<circle cx="112" cy="371" r="17" fill="#4DBBD5"/>
+<circle cx="162" cy="371" r="17" fill="#4DBBD5"/>
+<circle cx="212" cy="371" r="17" fill="#F39B7F"/>
+<circle cx="262" cy="371" r="17" fill="#4DBBD5"/>
+<circle cx="312" cy="371" r="17" fill="#4DBBD5"/>
+<circle cx="112" cy="414" r="17" fill="#4DBBD5"/>
+<circle cx="162" cy="414" r="17" fill="#8491B4"/>
+<circle cx="212" cy="414" r="17" fill="#4DBBD5"/>
+<circle cx="262" cy="414" r="17" fill="#4DBBD5"/>
+<circle cx="312" cy="414" r="17" fill="#4DBBD5"/>
+<circle cx="498" cy="322" r="11" fill="#F39B7F"/>
+<text x="520" y="332" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">掉队 −1</text>
+<circle cx="498" cy="380" r="11" fill="#8491B4"/>
+<text x="520" y="390" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">抢跑 +1</text>
+<rect x="60" y="440" width="340" height="216" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="84" y="484" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">信号混合</text>
+<rect x="84" y="508" width="200" height="52" fill="#4DBBD5"/>
+<rect x="284" y="508" width="38" height="52" fill="#F39B7F"/>
+<rect x="322" y="508" width="24" height="52" fill="#8491B4"/>
+<rect x="420" y="440" width="320" height="216" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="452" y1="500" x2="452" y2="606" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="452" y1="606" x2="716" y2="606" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<polyline points="462,506 512,514 562,530 612,552 662,578" fill="none" stroke="#3C5488" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="662,578 706,612" fill="none" stroke="#E64B35" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="470" y="648" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">3′ 端质量衰减</text>
+</svg>

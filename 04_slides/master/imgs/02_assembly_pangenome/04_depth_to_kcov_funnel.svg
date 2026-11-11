@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<polygon points="120,84 680,84 640,196 160,196" fill="#3C5488"/>
+<text x="400" y="128" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">测序深度 D=30×</text>
+<text x="400" y="176" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">D = 30×</text>
+<polygon points="160,236 640,236 600,348 200,348" fill="#4DBBD5"/>
+<text x="400" y="282" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">产出率 0.80</text>
+<text x="400" y="326" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">乘无错率 0.81</text>
+<polygon points="200,388 600,388 560,500 240,500" fill="#00A087"/>
+<text x="400" y="434" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">理论 D_k=19.4×</text>
+<text x="400" y="478" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">峰位 19×</text>
+<line x1="150" y1="200" x2="210" y2="230" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="210,230 192.0171433020224,229.21459247520698 198.58195996137903,216.0849591564937" fill="#4DBBD5"/>
+<line x1="650" y1="200" x2="590" y2="230" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="590,230 601.418040038621,216.0849591564937 607.9828566979776,229.21459247520698" fill="#4DBBD5"/>
+<line x1="190" y1="352" x2="250" y2="382" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="250,382 232.0171433020224,381.214592475207 238.58195996137903,368.0849591564937" fill="#4DBBD5"/>
+<line x1="610" y1="352" x2="550" y2="382" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="550,382 561.418040038621,368.0849591564937 567.9828566979776,381.214592475207" fill="#4DBBD5"/>
+<rect x="505" y="536" width="272" height="116" fill="#FFFFFF" rx="16" stroke="#E64B35" stroke-width="6"/>
+<text x="641" y="588" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">错误尾占种类</text>
+<text x="641" y="632" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">81.5%</text>
+</svg>

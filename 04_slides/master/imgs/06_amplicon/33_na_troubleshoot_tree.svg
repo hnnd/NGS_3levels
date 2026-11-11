@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="268" y="58" width="304" height="96" fill="#F6D8D2" rx="16" stroke="#E64B35" stroke-width="5"/>
+<text x="420" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">NA</text>
+<line x1="420" y1="154" x2="420" y2="212" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="126" y1="212" x2="420" y2="212" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="126" y1="212" x2="126" y2="570" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="126" y1="286" x2="162" y2="286" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<circle cx="126" cy="286" r="8" fill="#3C5488"/>
+<line x1="126" y1="428" x2="162" y2="428" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<circle cx="126" cy="428" r="8" fill="#3C5488"/>
+<line x1="126" y1="570" x2="162" y2="570" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<circle cx="126" cy="570" r="8" fill="#3C5488"/>
+<rect x="162" y="234.0" width="512" height="104" fill="#FBE3D8" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="190" y="278" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">训练集不匹配首因</text>
+<text x="190" y="322" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">reference</text>
+<text x="646" y="298" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#C0623F" text-anchor="end" font-weight="bold">1</text>
+<rect x="162" y="376.0" width="512" height="104" fill="#FBE3D8" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="190" y="420" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">引物残留干扰分词</text>
+<text x="190" y="464" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">primer / 8-mer</text>
+<text x="646" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#C0623F" text-anchor="end" font-weight="bold">2</text>
+<rect x="162" y="518.0" width="512" height="104" fill="#FBE3D8" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="190" y="562" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">序列反向无匹配</text>
+<text x="190" y="606" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">revcomp / direction</text>
+<text x="646" y="582" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#C0623F" text-anchor="end" font-weight="bold">3</text>
+</svg>

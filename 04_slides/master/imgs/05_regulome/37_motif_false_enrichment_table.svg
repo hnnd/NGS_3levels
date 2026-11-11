@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="58" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">基序假象</text>
+<rect x="30" y="100" width="330" height="366" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="195.0" y="148" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">正常</text>
+<text x="54" y="192" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">targets</text>
+<rect x="54" y="204" width="81.6" height="44" fill="#00A087" rx="8"/>
+<text x="149.6" y="236" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">24%</text>
+<text x="54" y="280" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">background</text>
+<rect x="54" y="292" width="20.4" height="44" fill="#FFFFFF" rx="8" stroke="#00A087" stroke-width="3"/>
+<text x="88.4" y="324" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">6%</text>
+<text x="195.0" y="436" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">×4.0</text>
+<text x="195.0" y="394" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">SP1 · KLF · EGR</text>
+<rect x="400" y="100" width="330" height="366" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="565.0" y="148" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">假富集</text>
+<g fill="#E64B35" stroke="#E64B35" font-family="Noto Sans CJK SC, PingFang SC, sans-serif"><text x="424" y="192" font-size="30" text-anchor="start" fill="#6B6B66">targets</text><rect x="424" y="204" width="139.4" height="44" rx="8" fill="#E64B35"/><text x="577.4" y="236" font-size="30" text-anchor="start">41%</text><text x="424" y="280" font-size="30" text-anchor="start" fill="#6B6B66">background</text><rect x="424" y="292" width="112.2" height="44" rx="8" fill="none" stroke-width="3"/><text x="550.2" y="324" font-size="30" text-anchor="start">33%</text><text x="565.0" y="394" font-size="30" text-anchor="middle" font-weight="bold">SP1 SP1 SP1</text><text x="565.0" y="436" font-size="30" text-anchor="middle" font-weight="bold">×1.2</text></g>
+<text x="400" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">设例</text>
+<text x="400" y="560" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">高碱基偏好致假富集</text>
+<text x="400" y="618" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">匹配背景后显著消失</text>
+</svg>

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">文件系统是一棵倒着长的树</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">唯一的根 / ｜ 绝对路径 vs 相对路径 ｜ 四个符号 —— 依据 01_linux_conda_lecture.md ④4.1 · ⑤步骤 1</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="57" font-size="12" fill="#33332E">系统目录</text>
+  <rect x="1006" y="46" width="12" height="12" fill="#3C8DAD"/>
+  <text x="1026" y="57" font-size="12" fill="#33332E">公共数据</text>
+  <rect x="1082" y="46" width="12" height="12" fill="#00A087"/>
+  <text x="1102" y="57" font-size="12" fill="#33332E">你的项目</text>
+
+  <!-- ============ 左面板：目录树 ============ -->
+  <rect x="48" y="120" width="620" height="620" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="17" font-weight="bold" fill="#3C5488">从根 / 出发的一棵树</text>
+  <text x="72" y="176" font-size="12" fill="#6B6B66">所有磁盘都挂在这棵树上——没有 C 盘 D 盘（④4.1）</text>
+  <line x1="72" y1="190" x2="644" y2="190" stroke="#E9E9E5"/>
+
+  <!-- 树干与连接线 -->
+  <path d="M 82 228 V 536" fill="none" stroke="#3C5488" stroke-width="1.4"/>
+  <path d="M 104 268 V 356 M 104 268 H 118" fill="none" stroke="#3C5488" stroke-width="1.4"/>
+  <path d="M 132 312 V 340 M 132 312 H 146" fill="none" stroke="#3C5488" stroke-width="1.4"/>
+  <path d="M 104 400 V 488 M 104 400 H 118" fill="none" stroke="#3C5488" stroke-width="1.4"/>
+  <path d="M 132 444 V 472 M 132 444 H 146" fill="none" stroke="#3C5488" stroke-width="1.4"/>
+  <path d="M 160 488 V 524 M 160 488 H 174" fill="none" stroke="#3C5488" stroke-width="1.4"/>
+  <path d="M 160 532 V 568 H 182" fill="none" stroke="#00A087" stroke-width="1.4"/>
+
+  <!-- 根 -->
+  <rect x="76" y="206" width="12" height="12" rx="2" fill="#3C5488"/>
+  <text x="96" y="218" font-size="13.5" font-weight="bold" fill="#3C5488">/（根，唯一）</text>
+
+  <!-- data 分支 -->
+  <rect x="108" y="252" width="10" height="10" rx="2" fill="#3C8DAD"/>
+  <text x="126" y="262" font-size="12.5" font-weight="bold" fill="#3C8DAD">data/</text>
+  <text x="330" y="262" font-size="11" fill="#6B6B66">公共数据区：全班共享同一份</text>
+  <rect x="136" y="296" width="10" height="10" rx="2" fill="#3C8DAD"/>
+  <text x="154" y="306" font-size="12.5" fill="#3C8DAD">lab/ngs/</text>
+  <rect x="150" y="332" width="118" height="30" rx="5" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <text x="209" y="352" font-size="11.5" fill="#3C8DAD" text-anchor="middle">reads.fa</text>
+  <text x="330" y="352" font-size="11" fill="#6B6B66">u08 的原始数据；用 ln -s 接入，不 cp（⑤步骤 2）</text>
+
+  <!-- d3 分支 -->
+  <rect x="108" y="384" width="10" height="10" rx="2" fill="#3C5488"/>
+  <text x="126" y="394" font-size="12.5" font-weight="bold" fill="#3C5488">d3/</text>
+  <rect x="136" y="428" width="10" height="10" rx="2" fill="#3C5488"/>
+  <text x="154" y="438" font-size="12.5" fill="#3C5488">scratch/</text>
+  <text x="330" y="438" font-size="11" fill="#6B6B66">大容量临时盘；家目录配额小，别建在那</text>
+  <rect x="164" y="472" width="10" height="10" rx="2" fill="#3C5488"/>
+  <text x="182" y="482" font-size="12.5" font-weight="bold" fill="#33332E">${USER}/</text>
+  <text x="330" y="482" font-size="11" fill="#6B6B66">系统给的变量=你的用户名，换人脚本照样跑</text>
+
+  <!-- ngs 项目根 -->
+  <rect x="178" y="512" width="14" height="14" rx="3" fill="#00A087"/>
+  <text x="200" y="524" font-size="13.5" font-weight="bold" fill="#00A087">ngs/　项目根：建在这里，不是家目录（⑤步骤 1）</text>
+
+  <!-- ngs 子目录 chips -->
+  <rect x="188" y="540" width="452" height="64" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="200" y="548" width="56" height="24" rx="4" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.4"/>
+  <text x="228" y="565" font-size="11" fill="#33332E" text-anchor="middle">fq</text>
+  <rect x="264" y="548" width="84" height="24" rx="4" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="306" y="565" font-size="11" fill="#33332E" text-anchor="middle">survey</text>
+  <rect x="356" y="548" width="80" height="24" rx="4" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="396" y="565" font-size="11" fill="#33332E" text-anchor="middle">assem</text>
+  <rect x="444" y="548" width="72" height="24" rx="4" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="480" y="565" font-size="11" fill="#33332E" text-anchor="middle">anno</text>
+  <rect x="524" y="548" width="78" height="24" rx="4" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="563" y="565" font-size="11" fill="#33332E" text-anchor="middle">ident</text>
+  <rect x="200" y="576" width="80" height="24" rx="4" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="240" y="593" font-size="11" fill="#33332E" text-anchor="middle">phylo</text>
+  <rect x="288" y="576" width="104" height="24" rx="4" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="340" y="593" font-size="11" fill="#33332E" text-anchor="middle">pangenome</text>
+  <rect x="400" y="576" width="84" height="24" rx="4" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="442" y="593" font-size="11" fill="#33332E" text-anchor="middle">scripts</text>
+  <rect x="492" y="576" width="68" height="24" rx="4" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="526" y="593" font-size="11" fill="#33332E" text-anchor="middle">logs</text>
+  <text x="188" y="624" font-size="10.5" fill="#6B6B66">六个分析目录对应 u08 六个模块（③3.4）；fq/ 放软链接，scripts/ 放脚本，logs/ 放日志</text>
+
+  <!-- pwd 演示 -->
+  <rect x="72" y="640" width="568" height="86" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="88" y="664" font-size="12" font-weight="bold" fill="#33332E">假设你现在在 fq/ 里（⑤步骤 1；用 Tab 补全，别手打长路径）</text>
+  <text x="88" y="690" font-size="12" fill="#33332E">pwd　→　/d3/scratch/${USER}/ngs/fq　（绝对路径）</text>
+  <text x="88" y="712" font-size="12" fill="#33332E">../survey　→　/d3/scratch/${USER}/ngs/survey　（相对路径）</text>
+
+  <!-- ============ 右面板：绝对 vs 相对 + 符号 ============ -->
+  <rect x="692" y="120" width="460" height="620" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="716" y="154" font-size="17" font-weight="bold" fill="#3C5488">绝对路径 vs 相对路径</text>
+  <text x="716" y="176" font-size="12" fill="#6B6B66">一个像门牌号，一个像口头指路（④4.1）</text>
+  <line x1="716" y1="190" x2="1128" y2="190" stroke="#E9E9E5"/>
+
+  <rect x="716" y="206" width="412" height="112" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="716" y="206" width="5" height="112" rx="2" fill="#3C8DAD"/>
+  <text x="736" y="234" font-size="14" font-weight="bold" fill="#3C8DAD">绝对路径 = 门牌号</text>
+  <text x="736" y="262" font-size="12.5" fill="#33332E">/d3/scratch/wangys/ngs/survey</text>
+  <text x="736" y="286" font-size="11.5" fill="#6B6B66">以 / 开头；站在任何目录都指向同一处</text>
+
+  <rect x="716" y="334" width="412" height="112" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="716" y="334" width="5" height="112" rx="2" fill="#F39B7F"/>
+  <text x="736" y="362" font-size="14" font-weight="bold" fill="#33332E">相对路径 = 口头指路</text>
+  <text x="736" y="390" font-size="12.5" fill="#33332E">../fq</text>
+  <text x="736" y="414" font-size="11.5" fill="#6B6B66">从"当前目录"出发；换个出发点，同一写法含义就变</text>
+
+  <!-- 四个符号 -->
+  <text x="716" y="486" font-size="14" font-weight="bold" fill="#3C5488">四个必须背下来的符号</text>
+  <rect x="716" y="502" width="56" height="32" rx="6" fill="#3C5488"/>
+  <text x="744" y="524" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">~</text>
+  <text x="788" y="524" font-size="12.5" fill="#33332E">家目录（cd ~ 一秒回家）</text>
+  <rect x="716" y="546" width="56" height="32" rx="6" fill="#3C5488"/>
+  <text x="744" y="568" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">.</text>
+  <text x="788" y="568" font-size="12.5" fill="#33332E">当前目录（./脚本.sh）</text>
+  <rect x="716" y="590" width="56" height="32" rx="6" fill="#3C5488"/>
+  <text x="744" y="612" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">..</text>
+  <text x="788" y="612" font-size="12.5" fill="#33332E">上一层（../fq 回到 ngs/）</text>
+  <rect x="716" y="634" width="56" height="32" rx="6" fill="#3C5488"/>
+  <text x="744" y="656" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">-</text>
+  <text x="788" y="656" font-size="12.5" fill="#33332E">上一次待过的目录（cd - 像"回看"键）</text>
+
+  <text x="716" y="708" font-size="12" font-weight="bold" fill="#E64B35">脚本里写死 /home/张三/ → 换个人就挂</text>
+  <text x="716" y="730" font-size="11.5" fill="#6B6B66">一律用 ${USER} 与相对路径（评分项"技术准确性"看这一点）</text>
+
+  <!-- 页脚 -->
+  <text x="1152" y="770" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

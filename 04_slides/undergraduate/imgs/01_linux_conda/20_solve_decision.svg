@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="120" y="40" width="560" height="64" fill="#6B6B66" rx="12"/>
+<text x="400" y="82" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Solving environment…</text>
+<rect x="280" y="140" width="240" height="64" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="5"/>
+<text x="400" y="182" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">先读冲突输出</text>
+<line x1="400" y1="204" x2="150" y2="258" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<line x1="400" y1="204" x2="400" y2="258" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<line x1="400" y1="204" x2="650" y2="258" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<text x="150" y="246" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">互斥→换版本或拆</text>
+<text x="400" y="246" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C96F4A" text-anchor="middle" font-weight="bold">只是慢→先试 pin</text>
+<text x="650" y="246" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">核渠道</text>
+<rect x="40" y="262" width="220" height="226" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="5"/>
+<rect x="66" y="300" width="168" height="56" fill="#FFFFFF" rx="8" stroke="#00A087" stroke-width="3"/>
+<text x="150" y="338" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">pkgA=1.0</text>
+<line x1="136" y1="372" x2="164" y2="400" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<line x1="164" y1="372" x2="136" y2="400" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<rect x="66" y="402" width="168" height="56" fill="#FFFFFF" rx="8" stroke="#00A087" stroke-width="3"/>
+<text x="150" y="440" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">pkgA=2.0</text>
+<rect x="290" y="262" width="220" height="226" fill="#FBE3D8" rx="14" stroke="#F39B7F" stroke-width="5"/>
+<polygon points="400,300 378,336 422,336" fill="#F39B7F"/>
+<polygon points="400,408 378,372 422,372" fill="#F39B7F"/>
+<line x1="374" y1="300" x2="426" y2="300" stroke="#F39B7F" stroke-width="5" stroke-linecap="round"/>
+<line x1="374" y1="408" x2="426" y2="408" stroke="#F39B7F" stroke-width="5" stroke-linecap="round"/>
+<rect x="320" y="426" width="160" height="52" fill="#FFFFFF" rx="8" stroke="#F39B7F" stroke-width="3"/>
+<text x="400" y="462" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">python=</text>
+<rect x="540" y="262" width="220" height="226" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="5"/>
+<rect x="562" y="286" width="176" height="44" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="650" y="317" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">conda-forge</text>
+<line x1="650" y1="332" x2="650" y2="338" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<rect x="562" y="340" width="176" height="44" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="650" y="371" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">bioconda</text>
+<line x1="650" y1="386" x2="650" y2="392" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<rect x="562" y="394" width="176" height="44" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="650" y="425" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">defaults</text>
+<rect x="580" y="444" width="140" height="40" fill="#3C5488" rx="8"/>
+<text x="650" y="472" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">strict</text>
+<rect x="140" y="560" width="520" height="70" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="4"/>
+<text x="400" y="606" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#E64B35" text-anchor="middle" font-weight="bold">别把慢当冲突乱拆</text>
+</svg>

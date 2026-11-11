@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Dangerous fixes that only silence errors</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="20" width="560" height="144" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<rect x="64" y="30.0" width="47.472" height="60" fill="#3C5488" rx="8"/>
+<text x="87.736" y="70.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<text x="122" y="70" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">round()</text>
+<text x="66" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">non-integer_error_gone</text>
+<text x="66" y="148" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">TPM → 2nd normalization</text>
+<rect x="40" y="172" width="560" height="144" fill="#FBE6DF" rx="12" stroke="#F39B7F" stroke-width="4"/>
+<rect x="64" y="182.0" width="47.472" height="60" fill="#F39B7F" rx="8"/>
+<text x="87.736" y="222.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<text x="122" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="start" font-weight="bold">na.omit()</text>
+<text x="66" y="268" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">NA_error_gone</text>
+<text x="66" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">ID-match_evidence_lost</text>
+<rect x="40" y="324" width="560" height="144" fill="#E7EAF1" rx="12" stroke="#8491B4" stroke-width="4"/>
+<rect x="64" y="334.0" width="47.472" height="60" fill="#8491B4" rx="8"/>
+<text x="87.736" y="374.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="122" y="374" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="start" font-weight="bold">drop_batch</text>
+<text x="66" y="420" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">not_full_rank_gone</text>
+<text x="66" y="452" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">confounding_hidden_in_effect</text>
+<line x1="660" y1="205" x2="736" y2="281" stroke="#E64B35" stroke-width="12" stroke-linecap="round"/>
+<line x1="660" y1="281" x2="736" y2="205" stroke="#E64B35" stroke-width="12" stroke-linecap="round"/>
+<line x1="698" y1="292" x2="698" y2="376" stroke="#E64B35" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 9"/>
+<rect x="40" y="476" width="560" height="62" fill="#F6D8D2" rx="10" stroke="#E64B35" stroke-width="4"/>
+<text x="320" y="516" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">error_gone ≠ problem_fixed</text>
+<rect x="32.0" y="556" width="736" height="116" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="598" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">危险修复三形态：取整抹单位，删缺失毁线索，</text>
+<text x="400.0" y="642" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">删协变量藏混杂。关错非修。</text>
+</svg>

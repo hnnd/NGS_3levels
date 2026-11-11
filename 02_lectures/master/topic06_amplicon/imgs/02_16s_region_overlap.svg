@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">挑区段就是挑取舍：16S 高变区与重叠减法</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">V4 ~253 bp ｜ V3–V4 ~460 bp ｜ truncLen_F＋truncLen_R − 扩增子 ≥ 20 —— 依据 06_amplicon_lecture.md ④4.1 ⑤5.1</text>
+  <!-- 图例 -->
+  <rect x="926" y="36" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="46" font-size="12" fill="#33332E">高变区（V）</text>
+  <rect x="926" y="58" width="12" height="12" fill="#E9E9E5"/>
+  <text x="946" y="68" font-size="12" fill="#33332E">保守区（引物位点）</text>
+  <rect x="926" y="80" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="90" font-size="12" fill="#33332E">通过 / 充裕</text>
+  <rect x="926" y="102" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="112" font-size="12" fill="#33332E">重叠归零（易错点）</text>
+
+  <!-- ============ 上面板：16S 结构 ============ -->
+  <rect x="48" y="120" width="1104" height="290" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="16" font-weight="bold" fill="#3C5488">16S rRNA（约 1540 bp）：保守区让通用引物结合，高变区提供区分能力</text>
+  <text x="72" y="174" font-size="11.5" fill="#6B6B66">区段必须与测序读长、目标分辨率联合决定，不能照抄文献（④4.1）</text>
+
+  <!-- 基因条 -->
+  <rect x="100" y="210" width="952" height="30" fill="#E9E9E5"/>
+  <rect x="186" y="210" width="47" height="30" fill="#4DBBD5"/>
+  <rect x="281" y="210" width="57" height="30" fill="#4DBBD5"/>
+  <rect x="376" y="210" width="38" height="30" fill="#F39B7F"/>
+  <rect x="500" y="210" width="51" height="30" fill="#00A087"/>
+  <rect x="595" y="210" width="38" height="30" fill="#4DBBD5"/>
+  <rect x="671" y="210" width="29" height="30" fill="#4DBBD5"/>
+  <rect x="728" y="210" width="39" height="30" fill="#4DBBD5"/>
+  <rect x="805" y="210" width="53" height="30" fill="#4DBBD5"/>
+  <rect x="928" y="210" width="38" height="30" fill="#4DBBD5"/>
+  <text x="209" y="202" font-size="9.5" fill="#6B6B66" text-anchor="middle">V1</text>
+  <text x="309" y="202" font-size="9.5" fill="#6B6B66" text-anchor="middle">V2</text>
+  <text x="395" y="202" font-size="9.5" font-weight="bold" fill="#C0684B" text-anchor="middle">V3</text>
+  <text x="525" y="202" font-size="9.5" font-weight="bold" fill="#00A087" text-anchor="middle">V4</text>
+  <text x="614" y="202" font-size="9.5" fill="#6B6B66" text-anchor="middle">V5</text>
+  <text x="685" y="202" font-size="9.5" fill="#6B6B66" text-anchor="middle">V6</text>
+  <text x="747" y="202" font-size="9.5" fill="#6B6B66" text-anchor="middle">V7</text>
+  <text x="831" y="202" font-size="9.5" fill="#6B6B66" text-anchor="middle">V8</text>
+  <text x="947" y="202" font-size="9.5" fill="#6B6B66" text-anchor="middle">V9</text>
+  <text x="1052" y="230" font-size="10.5" fill="#6B6B66">3' 端</text>
+  <text x="94" y="230" font-size="10.5" fill="#6B6B66" text-anchor="end">5' 端</text>
+
+  <!-- V4 引线标注 -->
+  <line x1="525" y1="242" x2="525" y2="262" stroke="#00A087" stroke-width="1.5"/>
+  <text x="540" y="266" font-size="12.5" font-weight="bold" fill="#00A087">V4</text>
+  <text x="562" y="266" font-size="11.5" fill="#33332E">：515F/806R → ~253 bp ｜ PE250 即可；EMP 标准、古菌覆盖好</text>
+
+  <!-- V3–V4 引线标注 -->
+  <line x1="463" y1="242" x2="463" y2="298" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="478" y="302" font-size="12.5" font-weight="bold" fill="#C0684B">V3–V4</text>
+  <text x="536" y="302" font-size="11.5" fill="#33332E">：341F/805R → ~460 bp ｜ 分辨率高，但必须 PE300；古菌覆盖差</text>
+
+  <!-- ITS 与 18S 提示 -->
+  <rect x="664" y="322" width="464" height="72" rx="8" fill="#FAFAF7"/>
+  <rect x="664" y="322" width="4" height="72" rx="2" fill="#3C5488"/>
+  <text x="684" y="344" font-size="12" font-weight="bold" fill="#33332E">同表的另外两个条码（ITS / 18S）</text>
+  <text x="684" y="364" font-size="11.5" fill="#33332E">ITS（真菌）：200–450 bp、长度高度可变 → 不能统一 truncLen</text>
+  <text x="684" y="382" font-size="11.5" fill="#33332E">18S（真核微生物）：分辨率低，宿主 18S 大量混入</text>
+
+  <text x="72" y="382" font-size="11.5" fill="#6B6B66">V3–V4 配 PE250 是本领域最常见的设计错误：460 bp 在 2×250 下理论重叠仅 40 bp，按质量截掉尾部后归零。</text>
+
+  <!-- ============ 下面板：重叠减法 ============ -->
+  <rect x="48" y="430" width="1104" height="250" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="462" font-size="16" font-weight="bold" fill="#3C5488">合并前的重叠减法：truncLen_F ＋ truncLen_R − 扩增子长度 ≥ 20 bp</text>
+  <text x="72" y="484" font-size="11.5" fill="#6B6B66">≥ 20 是给 minOverlap = 12 留余量；R2 一定比 R1 差（测序化学决定），截断位点更靠前</text>
+
+  <!-- 行 1：V4 × PE250 -->
+  <text x="72" y="524" font-size="12" font-weight="bold" fill="#33332E">V4 × PE250</text>
+  <rect x="320" y="506" width="278" height="28" fill="none" stroke="#6B6B66" stroke-width="1.2"/>
+  <rect x="320" y="506" width="264" height="12" fill="#3C5488"/>
+  <rect x="378" y="522" width="220" height="12" fill="#4DBBD5"/>
+  <rect x="378" y="540" width="206" height="5" fill="#00A087"/>
+  <text x="880" y="524" font-size="13" font-weight="bold" fill="#00A087">240＋200−253 = 187</text>
+  <text x="880" y="546" font-size="11.5" fill="#00A087">→ 重叠充裕</text>
+
+  <!-- 行 2：V3–V4 × PE300 -->
+  <text x="72" y="580" font-size="12" font-weight="bold" fill="#33332E">V3–V4 × PE300</text>
+  <rect x="320" y="562" width="506" height="28" fill="none" stroke="#6B6B66" stroke-width="1.2"/>
+  <rect x="320" y="562" width="308" height="12" fill="#3C5488"/>
+  <rect x="584" y="578" width="242" height="12" fill="#4DBBD5"/>
+  <rect x="584" y="596" width="44" height="5" fill="#00A087"/>
+  <text x="880" y="580" font-size="13" font-weight="bold" fill="#33332E">280＋220−460 = 40</text>
+  <text x="880" y="602" font-size="11.5" fill="#33332E">→ 紧张但可行</text>
+
+  <!-- 行 3：V3–V4 × PE250 -->
+  <text x="72" y="640" font-size="12" font-weight="bold" fill="#33332E">V3–V4 × PE250</text>
+  <rect x="320" y="618" width="506" height="28" fill="none" stroke="#6B6B66" stroke-width="1.2"/>
+  <rect x="320" y="618" width="286" height="12" fill="#3C5488"/>
+  <rect x="606" y="634" width="220" height="12" fill="#4DBBD5"/>
+  <line x1="596" y1="616" x2="616" y2="636" stroke="#E64B35" stroke-width="2.5"/>
+  <line x1="616" y1="616" x2="596" y2="636" stroke="#E64B35" stroke-width="2.5"/>
+  <text x="880" y="640" font-size="13" font-weight="bold" fill="#E64B35">260＋200−460 = 0</text>
+  <text x="880" y="662" font-size="11.5" font-weight="bold" fill="#E64B35">→ 合并率 &lt;10%，全军覆没</text>
+  <text x="72" y="668" font-size="11" fill="#6B6B66">最危险的是不报错的错误（⑨-2）：一切只在 track 表里体现</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">区段 × 读长 × 截断位点三者联动：先做重叠减法，再写 truncLen——合并失败最常见，也最可预防。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

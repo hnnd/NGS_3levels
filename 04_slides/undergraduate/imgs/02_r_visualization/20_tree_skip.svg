@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="140" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">缺包不报错</text>
+<rect x="30" y="180" width="220" height="100" fill="#3C5488" rx="12"/>
+<text x="140" y="242" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ggtree / ape</text>
+<line x1="250" y1="230" x2="276" y2="230" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="276,230 259.56439907437846,237.33968815507225 259.56439907437846,222.66031184492775" fill="#4DBBD5"/>
+<rect x="280" y="180" width="240" height="100" fill="#3C5488" rx="12"/>
+<text x="400" y="242" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">[skip]，退出码 0</text>
+<line x1="520" y1="230" x2="556" y2="230" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="556,230 539.5643990743785,237.33968815507225 539.5643990743785,222.66031184492775" fill="#4DBBD5"/>
+<rect x="560" y="180" width="220" height="100" fill="#E64B35" rx="12"/>
+<text x="670" y="242" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">树静默缺失</text>
+<line x1="610" y1="284" x2="566" y2="314" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="566,314 575.4448262610842,298.6769697220839 583.7142594993588,310.8054718048867" fill="#6B6B66"/>
+<rect x="430" y="320" width="260" height="104" fill="#4DBBD5" rx="8"/>
+<text x="560" y="362" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">pangenome_</text>
+<text x="560" y="400" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">composition.pdf</text>
+<line x1="712" y1="284" x2="712" y2="497" stroke="#6B6B66" stroke-width="5" stroke-linecap="butt"/>
+<line x1="712" y1="497" x2="694" y2="497" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="694,497 710.4356009256215,489.6603118449277 710.4356009256215,504.3396881550723" fill="#6B6B66"/>
+<rect x="430" y="444" width="260" height="104" fill="none" rx="8" stroke="#6B6B66" stroke-width="4" stroke-dasharray="12 9"/>
+<text x="560" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">core_gene_</text>
+<text x="560" y="524" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">tree.pdf</text>
+<rect x="290" y="596" width="220" height="64" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="4"/>
+<text x="400" y="638" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">验收＝数文件</text>
+<text x="400" y="688" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">expected 2 PDFs → count files</text>
+</svg>

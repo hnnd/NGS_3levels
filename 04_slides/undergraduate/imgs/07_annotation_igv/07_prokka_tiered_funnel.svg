@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<polygon points="240.0,60 440.0,60 480.0,156 200.0,156" fill="#3C5488"/>
+<text x="340" y="120.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">用户精选库</text>
+<text x="600" y="90.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">--proteins</text>
+<text x="600" y="134.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">/ --hmms</text>
+<line x1="460.0" y1="108.0" x2="592" y2="108.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="340" y1="160" x2="340" y2="184" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="340,184 335.10687456328515,173.0429327162523 344.89312543671485,173.0429327162523" fill="#6B6B66"/>
+<polygon points="200.0,188 480.0,188 520.0,284 160.0,284" fill="#3C8DAD"/>
+<text x="340" y="248.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">核心参考库</text>
+<text x="600" y="218.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">ISfinder·AMR</text>
+<text x="600" y="262.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">Swiss-Prot</text>
+<line x1="500.0" y1="236.0" x2="592" y2="236.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="340" y1="288" x2="340" y2="312" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="340,312 335.10687456328515,301.0429327162523 344.89312543671485,301.0429327162523" fill="#6B6B66"/>
+<polygon points="160.0,316 520.0,316 560.0,412 120.0,412" fill="#8491B4"/>
+<text x="340" y="376.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">特异结构域</text>
+<text x="600" y="346.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">Pfam</text>
+<text x="600" y="390.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">TIGRFAM</text>
+<line x1="540.0" y1="364.0" x2="592" y2="364.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="340" y1="416" x2="340" y2="440" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="340,440 335.10687456328515,429.0429327162523 344.89312543671485,429.0429327162523" fill="#6B6B66"/>
+<rect x="110.0" y="444" width="460" height="96" fill="#F39B7F" rx="10" stroke="#E64B35" stroke-width="6"/>
+<text x="340" y="504.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">假定蛋白兜底</text>
+<text x="600" y="494.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">hypothetical</text>
+<line x1="570.0" y1="492.0" x2="592" y2="492.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="340" y="636" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">先严后宽</text>
+</svg>

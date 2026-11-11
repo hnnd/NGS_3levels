@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="96" y="40" width="528" height="88" fill="#E3E8F2" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="360" y="94" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">编码基因：遗传潜力</text>
+<rect x="200" y="182" width="320" height="74" fill="#D6EFF4" rx="8" stroke="#3C8DAD" stroke-width="4"/>
+<rect x="336" y="198" width="48" height="58" fill="#FFFFFF" rx="6" stroke="#3C8DAD" stroke-width="3"/>
+<text x="268" y="228" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="middle" font-weight="bold">1</text>
+<circle cx="562" cy="218" r="10" fill="#3C8DAD"/>
+<circle cx="596" cy="218" r="10" fill="#3C8DAD"/>
+<circle cx="630" cy="218" r="10" fill="#3C8DAD"/>
+<circle cx="664" cy="218" r="10" fill="#3C8DAD"/>
+<rect x="200" y="306" width="320" height="74" fill="#D6EFF4" rx="8" stroke="#3C8DAD" stroke-width="4"/>
+<rect x="336" y="322" width="48" height="58" fill="#FFFFFF" rx="6" stroke="#3C8DAD" stroke-width="3"/>
+<text x="268" y="352" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="middle" font-weight="bold">2</text>
+<circle cx="562" cy="342" r="10" fill="#4DBBD5"/>
+<circle cx="596" cy="342" r="10" fill="#4DBBD5"/>
+<circle cx="630" cy="342" r="10" fill="#4DBBD5"/>
+<rect x="200" y="430" width="320" height="74" fill="#D6EFF4" rx="8" stroke="#3C8DAD" stroke-width="4"/>
+<rect x="336" y="446" width="48" height="58" fill="#FFFFFF" rx="6" stroke="#3C8DAD" stroke-width="3"/>
+<text x="268" y="476" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="middle" font-weight="bold">3</text>
+<circle cx="562" cy="466" r="10" fill="#4DBBD5"/>
+<circle cx="596" cy="466" r="10" fill="#4DBBD5"/>
+<line x1="360" y1="132" x2="360" y2="174" stroke="#3C8DAD" stroke-width="5" stroke-linecap="round"/>
+<polygon points="360,174 354.29135365716604,161.21675483562768 365.70864634283396,161.21675483562768" fill="#3C8DAD"/>
+<line x1="360" y1="260" x2="360" y2="298" stroke="#3C8DAD" stroke-width="5" stroke-linecap="round"/>
+<polygon points="360,298 354.29135365716604,285.2167548356277 365.70864634283396,285.2167548356277" fill="#3C8DAD"/>
+<line x1="360" y1="384" x2="360" y2="422" stroke="#3C8DAD" stroke-width="5" stroke-linecap="round"/>
+<polygon points="360,422 354.29135365716604,409.2167548356277 365.70864634283396,409.2167548356277" fill="#3C8DAD"/>
+<rect x="272" y="552" width="320" height="76" fill="#D8EEE9" rx="16" stroke="#00A087" stroke-width="4"/>
+<polygon points="432.0,562.0 438.9123545669595,580.4859601461507 458.6295824562643,581.3475241575014 443.18442463163103,593.6340398538493 448.45798706418924,612.6524758424986 432.0,601.76 415.54201293581076,612.6524758424986 420.81557536836897,593.6340398538493 405.3704175437357,581.3475241575014 425.0876454330405,580.4859601461507" fill="#00A087"/>
+<text x="52" y="580.4" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">三道屏障：</text>
+<text x="52" y="620.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">转录酶催底物</text>
+<text x="432" y="676" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">潜力不等于活性</text>
+</svg>

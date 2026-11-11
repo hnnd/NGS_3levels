@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">千级样本监测：商业云与本地 HPC 双轨互验</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">双轨信息学 ｜ 参数固化 —— 依据 07_workflow_nextflow_lecture.md ③3.1</text>
+  <!-- 图例 -->
+  <rect x="926" y="36" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="46" font-size="12" fill="#33332E">样本与监测主线</text>
+  <rect x="926" y="58" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="68" font-size="12" fill="#33332E">两条分析路线</text>
+  <rect x="926" y="80" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="90" font-size="12" fill="#33332E">互验 · 可比输出</text>
+  <rect x="926" y="102" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="112" font-size="12" fill="#33332E">真正的瓶颈</text>
+
+  <!-- ============ 面板 A：双轨流程 ============ -->
+  <rect x="48" y="124" width="664" height="556" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="17" font-weight="bold" fill="#3C5488">十个月滚动监测：两条独立路线，一套可比结论</text>
+  <text x="72" y="178" font-size="12.5" fill="#6B6B66">Donzelli 等 2022 · SARS-CoV-2 变异株（VoC）追踪 · 意大利 / 拉齐奥</text>
+  <line x1="72" y1="192" x2="688" y2="192" stroke="#E9E9E5"/>
+
+  <!-- 样本源 -->
+  <rect x="72" y="208" width="616" height="62" rx="8" fill="#3C5488"/>
+  <text x="380" y="233" font-size="13.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">每周数百份样本的测序与谱系判定（2021-04 → 2022-01）</text>
+  <text x="380" y="256" font-size="11" fill="#D8DEEC" text-anchor="middle">3,416 条序列 ≈ 意大利的 3% · 拉齐奥大区的 31%</text>
+
+  <!-- 分流箭头 -->
+  <line x1="217" y1="270" x2="217" y2="304" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="217,310 213,302 221,302" fill="#6B6B66"/>
+  <line x1="543" y1="270" x2="543" y2="304" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="543,310 539,302 547,302" fill="#6B6B66"/>
+
+  <!-- 路线一：商业云 -->
+  <rect x="72" y="314" width="290" height="150" rx="8" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="217" y="342" font-size="13.5" font-weight="bold" fill="#3C5488" text-anchor="middle">路线一 · 商业云</text>
+  <text x="217" y="366" font-size="12" fill="#33332E" text-anchor="middle">DRAGEN 系列应用</text>
+  <text x="217" y="392" font-size="11" fill="#6B6B66" text-anchor="middle">独立于本地路线的第二条信息学路线</text>
+  <text x="217" y="412" font-size="11" fill="#6B6B66" text-anchor="middle">与 HPC 输出互为校验</text>
+
+  <!-- 路线二：本地 HPC -->
+  <rect x="398" y="314" width="290" height="150" rx="8" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="543" y="342" font-size="13.5" font-weight="bold" fill="#3C5488" text-anchor="middle">路线二 · 本地 HPC</text>
+  <text x="543" y="366" font-size="12" fill="#33332E" text-anchor="middle">nf-core/viralrecon（Nextflow）</text>
+  <text x="543" y="392" font-size="11" fill="#6B6B66" text-anchor="middle">48 CPU / 354 GB 节点 · 1–8 板样本 4–24 h 跑完</text>
+  <text x="543" y="412" font-size="11" fill="#6B6B66" text-anchor="middle">按需跳过 kraken2、snpeff 换速度</text>
+
+  <!-- 互验双向箭头 -->
+  <line x1="366" y1="390" x2="394" y2="390" stroke="#00A087" stroke-width="2"/>
+  <polygon points="362,390 370,386 370,394" fill="#00A087"/>
+  <polygon points="398,390 390,386 390,394" fill="#00A087"/>
+  <text x="380" y="376" font-size="10.5" font-weight="bold" fill="#00A087" text-anchor="middle">互验</text>
+
+  <!-- 汇合箭头 -->
+  <line x1="217" y1="464" x2="217" y2="498" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="217,504 213,496 221,496" fill="#6B6B66"/>
+  <line x1="543" y1="464" x2="543" y2="498" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="543,504 539,496 547,496" fill="#6B6B66"/>
+
+  <!-- 输出 -->
+  <rect x="72" y="504" width="616" height="58" rx="8" fill="#00A087"/>
+  <text x="380" y="528" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">输出可比：3,232 份高质量基因组，与云方案结果可比</text>
+  <text x="380" y="550" font-size="10.5" fill="#DFF3EE" text-anchor="middle">可比性只有一条来源：同一流程、同一版本、同一套阈值——撑住 10 个月滚动监测</text>
+
+  <!-- 瓶颈 -->
+  <rect x="72" y="578" width="616" height="84" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="72" y="578" width="4" height="84" rx="2" fill="#E64B35"/>
+  <text x="92" y="604" font-size="12.5" font-weight="bold" fill="#E64B35">作者自陈的真正瓶颈：不是单样本分析，而是——</text>
+  <text x="92" y="628" font-size="12.5" fill="#33332E">污染检测 · 参数固化 · 结果跨批可比——全部是流程工程问题，不是生物学问题</text>
+  <text x="92" y="650" font-size="11.5" fill="#6B6B66">没有固化的流程，就没有可比的监测数据——只有一堆各自正确的文件</text>
+
+  <!-- ============ 面板 B：为什么是试金石 ============ -->
+  <rect x="736" y="124" width="416" height="556" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="760" y="156" font-size="17" font-weight="bold" fill="#3C5488">为什么监测是流程工程的试金石</text>
+  <text x="760" y="178" font-size="12" fill="#6B6B66">与毕业课题的差别只在规模与时长，不在分析类型</text>
+  <line x1="760" y1="192" x2="1128" y2="192" stroke="#E9E9E5"/>
+
+  <text x="760" y="216" font-size="12.5" font-weight="bold" fill="#33332E">同一套分析：装配 + 变异检测 + 谱系判定</text>
+  <rect x="760" y="232" width="6" height="6" fill="#4DBBD5"/>
+  <text x="774" y="240" font-size="12" fill="#33332E">毕业课题：4 个样本、本机、跑一次</text>
+  <rect x="760" y="256" width="6" height="6" fill="#4DBBD5"/>
+  <text x="774" y="264" font-size="12" fill="#33332E">监测：每周数百份、跨 10 个月、换人接手</text>
+  <rect x="760" y="280" width="6" height="6" fill="#4DBBD5"/>
+  <text x="774" y="288" font-size="12" fill="#33332E">参数一个不许漂，consensus 必须能复现</text>
+  <text x="760" y="318" font-size="11.5" fill="#6B6B66">③ 的四堵墙在这里不是假设，是每周都在发生的日常</text>
+  <line x1="760" y1="340" x2="1128" y2="340" stroke="#E9E9E5"/>
+
+  <rect x="760" y="352" width="368" height="86" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="760" y="352" width="4" height="86" rx="2" fill="#00A087"/>
+  <text x="780" y="376" font-size="12.5" font-weight="bold" fill="#00A087">与 ⑤ 的接口：本讲练习是它的最小抽象</text>
+  <text x="780" y="398" font-size="12" fill="#33332E">-stub-run 验接线、-resume 增量补跑——</text>
+  <text x="780" y="420" font-size="12" fill="#33332E">正是“样本源源不断”场景的工程前提</text>
+
+  <rect x="760" y="452" width="368" height="86" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="760" y="452" width="4" height="86" rx="2" fill="#8491B4"/>
+  <text x="780" y="476" font-size="12.5" font-weight="bold" fill="#8491B4">与 ⑧ 的接口：双轨互验 ≈ AI 输出核查</text>
+  <text x="780" y="498" font-size="12" fill="#33332E">任何由独立路线复现出来的结论，</text>
+  <text x="780" y="520" font-size="12" fill="#33332E">可信度都被加了杠杆</text>
+
+  <rect x="760" y="552" width="368" height="108" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="760" y="552" width="4" height="108" rx="2" fill="#3C5488"/>
+  <text x="780" y="576" font-size="12.5" font-weight="bold" fill="#3C5488">写进方案时怎么用</text>
+  <text x="780" y="598" font-size="12" fill="#33332E">监测数据的科学价值全部建立在“跨周</text>
+  <text x="780" y="618" font-size="12" fill="#33332E">可比”之上，而可比性只是流程工程的</text>
+  <text x="780" y="638" font-size="12" fill="#33332E">产物——先固化流程，再谈数据。</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="1104" height="58" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="48" y="696" width="4" height="58" rx="2" fill="#3C5488"/>
+  <text x="66" y="718" font-size="12.5" fill="#33332E">双轨的价值不在“云更好”还是“HPC 更好”，而在两条独立路线互为校验；跨中心可比性的来源只有一条：同一流程、同一版本、同一套阈值。</text>
+  <text x="66" y="740" font-size="12.5" fill="#33332E">监测与毕业课题的差别只在规模与时长——③ 的四堵墙（集群提交 / 环境失控 / 流程不可拆 / 续跑不可靠）在这里是每周的日常。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

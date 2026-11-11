@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">MOFA2：一组共享因子 Z，怎么同时解释两组学</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">每个 view：Y ≈ Z × W 转置 + 噪声 ｜ 判读只认方差分解 —— 依据 06_multiomics_lecture.md ④4.8 · ⑤步骤 4</text>
+  <!-- 图例 -->
+  <rect x="926" y="36" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="46" font-size="12" fill="#33332E">共享因子（样本 × 因子）</text>
+  <rect x="926" y="60" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="70" font-size="12" fill="#33332E">转录组 view</text>
+  <rect x="1076" y="60" width="12" height="12" fill="#F39B7F"/>
+  <text x="1096" y="70" font-size="12" fill="#33332E">代谢组 view</text>
+
+  <!-- ============ 面板 A：模型直觉 ============ -->
+  <rect x="48" y="120" width="600" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="17" font-weight="bold" fill="#3C5488">共享因子 Z 与两套各自的 loading</text>
+  <text x="72" y="176" font-size="12.5" fill="#6B6B66">可以理解为"跨多个数据块的 PCA"（④4.8）</text>
+  <line x1="72" y1="190" x2="624" y2="190" stroke="#E9E9E5"/>
+
+  <!-- 转录组 view -->
+  <rect x="72" y="250" width="140" height="76" rx="8" fill="#4DBBD5"/>
+  <text x="142" y="282" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Y1 转录组</text>
+  <text x="142" y="304" font-size="11" fill="#FFFFFF" text-anchor="middle">vst 矩阵</text>
+  <rect x="72" y="366" width="140" height="46" rx="6" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="2"/>
+  <text x="142" y="394" font-size="11.5" fill="#3C8DAD" text-anchor="middle">W1：基因 loading</text>
+
+  <!-- 代谢组 view -->
+  <rect x="490" y="250" width="140" height="76" rx="8" fill="#F39B7F"/>
+  <text x="560" y="282" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">Y2 代谢组</text>
+  <text x="560" y="304" font-size="11" fill="#33332E" text-anchor="middle">CLR 后峰表</text>
+  <rect x="490" y="366" width="140" height="46" rx="6" fill="#FFFFFF" stroke="#F39B7F" stroke-width="2"/>
+  <text x="560" y="394" font-size="11.5" fill="#33332E" text-anchor="middle">W2：代谢物 loading</text>
+
+  <!-- 共享因子 Z -->
+  <rect x="250" y="230" width="200" height="210" rx="10" fill="#3C5488"/>
+  <text x="350" y="258" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Z（所有 view 共享）</text>
+  <text x="291" y="280" font-size="10.5" fill="#C9D3E6" text-anchor="middle">f1</text>
+  <text x="349" y="280" font-size="10.5" fill="#C9D3E6" text-anchor="middle">f2</text>
+  <text x="407" y="280" font-size="10.5" fill="#C9D3E6" text-anchor="middle">f3</text>
+  <rect x="266" y="288" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="324" y="288" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="382" y="288" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="266" y="312" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="324" y="312" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="382" y="312" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="266" y="336" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="324" y="336" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="382" y="336" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="266" y="360" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="324" y="360" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="382" y="360" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="266" y="384" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="324" y="384" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="382" y="384" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="266" y="408" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="324" y="408" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="382" y="408" width="50" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+
+  <!-- 箭头 -->
+  <line x1="250" y1="288" x2="222" y2="288" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="214,288 222,284 222,292" fill="#6B6B66"/>
+  <line x1="450" y1="288" x2="478" y2="288" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="486,288 478,284 478,292" fill="#6B6B66"/>
+  <text x="348" y="468" font-size="11.5" fill="#6B6B66" text-anchor="middle">每个 view 各乘自己的 W 转置：Y1 = Z·W1 转置，Y2 = Z·W2 转置——Z 只有一份</text>
+
+  <!-- 稀疏先验 -->
+  <text x="348" y="490" font-size="12" fill="#33332E" text-anchor="middle">稀疏先验（ARD + spike-and-slab）让解释不了方差的多余因子</text>
+  <text x="348" y="512" font-size="12" fill="#33332E" text-anchor="middle">自动关闭——那是模型在选维度，不是显著性检验（④4.8）</text>
+  <text x="348" y="546" font-size="11.5" fill="#6B6B66" text-anchor="middle">变分推断有随机性：--seed 必须固定（⑤步骤 4）；换种子后因子个数、</text>
+  <text x="348" y="566" font-size="11.5" fill="#6B6B66" text-anchor="middle">次序、方向都可能漂——"Factor 1"这个编号不可写进结论</text>
+
+  <!-- 输入要求 -->
+  <text x="72" y="604" font-size="12" font-weight="bold" fill="#3C5488">输入要求（⑤步骤 4）</text>
+  <text x="72" y="628" font-size="11.5" fill="#33332E">转录组给 vst，代谢组给 CLR（或 log）后的矩阵，特征中心化；</text>
+  <text x="72" y="650" font-size="11.5" fill="#33332E">view 之间特征数差异大时内部按 view 缩放——优于早期整合之处</text>
+
+  <!-- ============ 面板 B：方差分解 ============ -->
+  <rect x="680" y="120" width="472" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="704" y="154" font-size="17" font-weight="bold" fill="#3C5488">方差分解：唯一可靠的判读出口</text>
+  <text x="704" y="176" font-size="12.5" fill="#6B6B66">先看这张表，再谈生物学（④4.8 · ⑥ 表）</text>
+  <line x1="704" y1="190" x2="1128" y2="190" stroke="#E9E9E5"/>
+
+  <text x="855" y="212" font-size="12" font-weight="bold" fill="#3C5488" text-anchor="middle">转录组 view</text>
+  <text x="1010" y="212" font-size="12" font-weight="bold" fill="#33332E" text-anchor="middle">代谢组 view</text>
+
+  <text x="772" y="258" font-size="11.5" fill="#33332E" text-anchor="end">Factor 1</text>
+  <rect x="780" y="222" width="150" height="64" fill="#3C5488" fill-opacity="0.55"/>
+  <rect x="935" y="222" width="150" height="64" fill="#3C5488" fill-opacity="0.50"/>
+  <text x="772" y="336" font-size="11.5" fill="#33332E" text-anchor="end">Factor 2</text>
+  <rect x="780" y="300" width="150" height="64" fill="#3C5488" fill-opacity="0.45"/>
+  <rect x="935" y="300" width="150" height="64" fill="#3C5488" fill-opacity="0.06"/>
+  <text x="772" y="414" font-size="11.5" fill="#33332E" text-anchor="end">Factor 3</text>
+  <rect x="780" y="378" width="150" height="64" fill="#3C5488" fill-opacity="0.30"/>
+  <rect x="935" y="378" width="150" height="64" fill="#3C5488" fill-opacity="0.42"/>
+  <text x="772" y="492" font-size="11.5" fill="#33332E" text-anchor="end">Factor 4</text>
+  <rect x="780" y="456" width="150" height="64" fill="#3C5488" fill-opacity="0.04"/>
+  <rect x="935" y="456" width="150" height="64" fill="#3C5488" fill-opacity="0.04"/>
+
+  <text x="704" y="552" font-size="12" font-weight="bold" fill="#00A087">F1 两 view 都可观 → 跨组学共变结构（要找的）</text>
+  <text x="704" y="576" font-size="12" fill="#33332E">F2 只在转录组 → 该组学特有（生物学或平台技术）</text>
+  <text x="704" y="600" font-size="12" font-weight="bold" fill="#E64B35">F3 两 view 都大但样本按批次排开 → 批次，先排除</text>
+  <text x="704" y="624" font-size="12" fill="#33332E">F4 权重整体收缩 → 自动关闭（模型在选维度）</text>
+  <text x="704" y="656" font-size="10.5" fill="#6B6B66">颜色深浅 = 该因子在该 view 解释的方差比例（示意，非真实数据）</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="4" height="58" rx="2" fill="#3C5488"/>
+  <rect x="48" y="696" width="1104" height="58" rx="6" fill="#FAFAF7"/>
+  <text x="66" y="718" font-size="12.5" fill="#33332E">因子无方向、无因果；loading 大小不是 p 值；因子与表型的关联要另做检验并校正（④4.8）。</text>
+  <text x="66" y="740" font-size="12.5" fill="#33332E">扩展：MEFISTO 加时间 / 空间协变量；DIABLO 是有监督的互补路线——找区分组的特征组合用 DIABLO，问主要变异轴用 MOFA2。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

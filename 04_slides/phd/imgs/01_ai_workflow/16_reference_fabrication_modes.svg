@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Three modes of fabricated citations</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="40" width="500" height="142" fill="#E9E9E5" rx="12" stroke="#6B6B66" stroke-width="3"/>
+<rect x="62" y="50.0" width="47.472" height="60" fill="#6B6B66" rx="8"/>
+<text x="85.736" y="90.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<text x="116" y="90" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">fully_invented</text>
+<text x="66" y="134" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">fake_title</text>
+<text x="66" y="170" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">fake_pages</text>
+<rect x="40" y="194" width="500" height="142" fill="#FBE6DF" rx="12" stroke="#F39B7F" stroke-width="3"/>
+<rect x="62" y="204.0" width="47.472" height="60" fill="#F39B7F" rx="8"/>
+<text x="85.736" y="244.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<text x="116" y="244" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">real_prefix · fake_suffix</text>
+<text x="66" y="288" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">10.1038/  404</text>
+<rect x="40" y="348" width="500" height="142" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="5"/>
+<rect x="62" y="358.0" width="47.472" height="60" fill="#E64B35" rx="8"/>
+<text x="85.736" y="398.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="116" y="398" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">real_paper · wrong_claim</text>
+<text x="66" y="442" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">resolvable</text>
+<text x="66" y="478" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">unsupported_claim</text>
+<text x="716" y="112" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">script</text>
+<text x="716" y="266" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">script</text>
+<text x="716" y="420" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">manual</text>
+<rect x="32.0" y="560" width="736" height="116" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="602" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">编造引用三形态：完全虚构，</text>
+<text x="400.0" y="646" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">真前缀假后缀404，真实文献张冠李戴。</text>
+</svg>

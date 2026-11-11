@@ -1,0 +1,27 @@
+# 博士生 · 环境 1/6：R 栈与差异表达
+# 覆盖专题：p01 AI 辅助工作流 ｜ p03 宿主-病原互作组学 ｜ p06 多组学整合
+# 创建：conda env create -f env_phd_base.yml   激活：conda activate ngs_phd_base
+#
+# p01 的实践是"排查被植入错误的差异表达脚本"，所以它也需要 R + DESeq2。
+
+name: ngs_phd_base
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # 【生态性断裂】setuptools 82.0.0（2026-02-08）移除了 pkg_resources（81.x 仍含），而 bioconda 上
+  # 2023-2024 年的 Python 工具（multiqc 1.14、macs2、部分 deeptools 子命令等）仍 import 它，
+  # 表现为 `ModuleNotFoundError: No module named 'pkg_resources'`。全课程统一钉 <81（比必要的 <82 多保守一档，已实测可用）。
+  - setuptools<81
+  - r-base=4.3.1
+  - r-tidyverse=2.0.0
+  - r-ggplot2=3.4.2
+  - r-rmarkdown=2.23
+  - r-pheatmap=1.0.12
+  # 钉到集群实装且已双版本实测的版本（p01 讲义数字在 1.42.0 下复现）
+  - bioconductor-deseq2=1.42.0
+  - bioconductor-clusterprofiler=4.10.0
+  - samtools=1.17
+  - bedtools=2.31.0

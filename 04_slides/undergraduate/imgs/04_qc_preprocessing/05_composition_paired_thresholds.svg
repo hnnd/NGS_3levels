@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="60" width="340" height="440" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<rect x="40" y="60" width="340" height="96" fill="#3C5488" rx="16"/>
+<rect x="40" y="92" width="340" height="64" fill="#3C5488"/>
+<text x="210" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Per base sequence</text>
+<text x="210" y="142" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">content</text>
+<rect x="70" y="370" width="130" height="110" fill="#F39B7F" rx="10"/>
+<text x="135" y="412" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">差值超</text>
+<text x="135" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">10%</text>
+<rect x="220" y="260" width="130" height="110" fill="#D97E52" rx="10"/>
+<text x="285" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">差值超</text>
+<text x="285" y="346" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">20%</text>
+<rect x="420" y="60" width="340" height="440" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<rect x="420" y="60" width="340" height="96" fill="#3C8DAD" rx="16"/>
+<rect x="420" y="92" width="340" height="64" fill="#3C8DAD"/>
+<text x="590" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Per sequence GC</text>
+<text x="590" y="142" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">content</text>
+<rect x="450" y="370" width="130" height="110" fill="#F39B7F" rx="10"/>
+<text x="515" y="412" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">偏离超</text>
+<text x="515" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">15%</text>
+<rect x="600" y="260" width="130" height="110" fill="#E64B35" rx="10"/>
+<text x="665" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">偏离超</text>
+<text x="665" y="346" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">30%</text>
+<rect x="40" y="556" width="720" height="84" fill="#F6D8D2" rx="14"/>
+<text x="400" y="612" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">对比模型非物种</text>
+</svg>

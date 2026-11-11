@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="110" width="230" height="150" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<rect x="40" y="110" width="230" height="44" fill="#E3E8F2" rx="14"/>
+<text x="60" y="143" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">①</text>
+<text x="169.0" y="143" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">质控过滤</text>
+<text x="155.0" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">fastp</text>
+<text x="155.0" y="236" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">FASTQ</text>
+<rect x="290" y="110" width="230" height="150" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<rect x="290" y="110" width="230" height="44" fill="#E3E8F2" rx="14"/>
+<text x="310" y="143" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">②</text>
+<text x="419.0" y="143" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">准比对定量</text>
+<text x="405.0" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">Salmon</text>
+<text x="405.0" y="236" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">quant.sf</text>
+<rect x="540" y="110" width="230" height="150" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<rect x="540" y="110" width="230" height="44" fill="#E3E8F2" rx="14"/>
+<text x="560" y="143" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">③</text>
+<text x="669.0" y="143" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">长度校正</text>
+<text x="655.0" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">tximport</text>
+<text x="655.0" y="236" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">cts + coldata</text>
+<rect x="540" y="390" width="230" height="150" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<rect x="540" y="390" width="230" height="44" fill="#E3E8F2" rx="14"/>
+<text x="560" y="423" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">④</text>
+<text x="669.0" y="423" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">负二项建模</text>
+<text x="655.0" y="476" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">DESeq2</text>
+<text x="655.0" y="516" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">res 结果表</text>
+<rect x="290" y="390" width="230" height="150" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<rect x="290" y="390" width="230" height="44" fill="#E3E8F2" rx="14"/>
+<text x="310" y="423" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">⑤</text>
+<text x="419.0" y="423" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">诊断筛选</text>
+<text x="405.0" y="476" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">PCA · 火山图</text>
+<text x="405.0" y="516" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">质控通过</text>
+<rect x="40" y="390" width="230" height="150" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<rect x="40" y="390" width="230" height="44" fill="#E3E8F2" rx="14"/>
+<text x="60" y="423" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">⑥</text>
+<text x="169.0" y="423" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">功能富集</text>
+<text x="155.0" y="476" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">enrichGO</text>
+<text x="155.0" y="516" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">候选清单</text>
+<line x1="272" y1="185" x2="286" y2="185" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="286,185 273.2167548356277,190.708646342834 273.2167548356277,179.291353657166" fill="#6B6B66"/>
+<line x1="522" y1="185" x2="536" y2="185" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="536,185 523.2167548356277,190.708646342834 523.2167548356277,179.291353657166" fill="#6B6B66"/>
+<line x1="655" y1="262" x2="655" y2="386" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="655,386 649.291353657166,373.2167548356277 660.708646342834,373.2167548356277" fill="#6B6B66"/>
+<line x1="536" y1="465" x2="522" y2="465" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="522,465 534.7832451643723,459.29135365716604 534.7832451643724,470.70864634283396" fill="#6B6B66"/>
+<line x1="286" y1="465" x2="272" y2="465" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="272,465 284.7832451643723,459.29135365716604 284.7832451643723,470.70864634283396" fill="#6B6B66"/>
+<text x="40" y="84" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">输入： 原始 FASTQ</text>
+<text x="40" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">输出： 候选基因清单</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">真实零富集</text>
+<text x="200" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">显著 Term 数</text>
+<text x="200" y="138" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">(BH &lt; 0.05)</text>
+<rect x="110" y="474" width="70" height="6" fill="#00A087"/>
+<text x="145" y="458" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#00A087" text-anchor="middle" font-weight="bold">0</text>
+<rect x="230" y="216" width="70" height="264" fill="#E64B35"/>
+<text x="265" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#E64B35" text-anchor="middle" font-weight="bold">22</text>
+<line x1="90" y1="480" x2="330" y2="480" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="145" y="516" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">正确</text>
+<text x="265" y="516" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">错误</text>
+<text x="200" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">真实富集 = 0</text>
+<text x="580" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">p 值中位数</text>
+<rect x="500" y="211.52951193634573" width="70" height="268.4704880636543" fill="#00A087"/>
+<rect x="620" y="393.41485502793637" width="70" height="86.58514497206362" fill="#F39B7F"/>
+<line x1="480" y1="480" x2="720" y2="480" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="535" y="195.52951193634573" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">0.639</text>
+<text x="655" y="377.41485502793637" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">0.206</text>
+<text x="580" y="516" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">整体压缩至 0.323 倍</text>
+<text x="560" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">43 个边缘 Term 被推进</text>
+<text x="400" y="632.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">错误背景虚报二十二项</text>
+<text x="400" y="680.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">值整体压缩三分之二</text>
+</svg>

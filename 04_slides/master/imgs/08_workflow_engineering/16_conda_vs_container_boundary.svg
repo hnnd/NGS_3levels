@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="88" width="336" height="120" fill="#D6EFF4" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="208" y="158" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle">python / fastp / libs</text>
+<rect x="40" y="228" width="336" height="120" fill="#FBE3D8" rx="12" stroke="#C0623F" stroke-width="4"/>
+<text x="208" y="298" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle">glibc 2.18 (host)</text>
+<rect x="424" y="88" width="336" height="260" fill="#E6E9F0" rx="12" stroke="#8491B4" stroke-width="4"/>
+<text x="592" y="186.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">rootfs</text>
+<text x="592" y="232.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">glibc 2.35</text>
+<text x="592" y="279.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">toolchain</text>
+<rect x="40" y="388" width="720" height="96" fill="#3C5488" rx="14"/>
+<text x="400" y="450" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">宿主内核共享</text>
+<line x1="60" y1="356" x2="60" y2="384" stroke="#3C5488" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<line x1="700" y1="356" x2="700" y2="384" stroke="#3C5488" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<text x="208" y="548" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">Conda 换解释器与库</text>
+<text x="208" y="608" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">依赖宿主系统库</text>
+<text x="592" y="548" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">容器换整段用户态</text>
+</svg>

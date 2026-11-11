@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">pipeline 0–7</text>
+<line x1="92" y1="108" x2="92" y2="616" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<circle cx="92" cy="124" r="21" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<text x="92" y="134" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">0</text>
+<text x="132" y="135" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">download</text>
+<rect x="519.1" y="97.2" width="161.8" height="53.6" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="3"/>
+<text x="600" y="133.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">下载预检</text>
+<circle cx="92" cy="192" r="21" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<text x="92" y="202" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">1</text>
+<text x="132" y="203" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">precheck</text>
+<circle cx="92" cy="260" r="21" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<text x="92" y="270" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">2</text>
+<text x="132" y="271" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">truncLen</text>
+<rect x="519.1" y="233.2" width="161.8" height="53.6" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="3"/>
+<text x="600" y="269.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">算清重叠</text>
+<circle cx="92" cy="328" r="21" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<text x="92" y="338" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">3</text>
+<text x="132" y="339" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">qsub</text>
+<rect x="519.1" y="301.2" width="161.8" height="53.6" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="3"/>
+<text x="600" y="337.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">作业投递</text>
+<circle cx="92" cy="396" r="21" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<text x="92" y="406" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">4</text>
+<text x="132" y="407" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">track</text>
+<rect x="519.1" y="369.2" width="161.8" height="53.6" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="3"/>
+<text x="600" y="405.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">诊断漏斗</text>
+<circle cx="92" cy="464" r="21" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<text x="92" y="474" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">5</text>
+<text x="132" y="475" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">taxonomy</text>
+<circle cx="92" cy="532" r="21" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<text x="92" y="542" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">6</text>
+<text x="132" y="543" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">diversity</text>
+<rect x="503.5" y="505.2" width="193.0" height="53.6" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="3"/>
+<text x="600" y="541.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">多样性检验</text>
+<circle cx="92" cy="600" r="21" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<text x="92" y="610" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">7</text>
+<text x="132" y="611" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">stats</text>
+<polygon points="92,282.0 104,294.0 92,306.0 80,294.0" fill="#00A087"/>
+<line x1="110" y1="294.0" x2="340" y2="294.0" stroke="#00A087" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 7"/>
+<text x="354" y="305.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start">gate</text>
+<polygon points="92,486.0 104,498.0 92,510.0 80,498.0" fill="#00A087"/>
+<line x1="110" y1="498.0" x2="340" y2="498.0" stroke="#00A087" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 7"/>
+<text x="354" y="509.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start">gate</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="32" y="72" width="352" height="460" fill="#D6EFF4" rx="18" stroke="#4DBBD5" stroke-width="4"/>
+<text x="208.0" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C8DAD" text-anchor="middle" font-weight="bold">Bowtie2</text>
+<text x="208.0" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">--un-conc-gz</text>
+<rect x="94" y="268" width="76" height="26" fill="#FFFFFF" rx="6" stroke="#6B6B66" stroke-width="4"/>
+<text x="132" y="352" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#6B6B66" text-anchor="middle">R1</text>
+<rect x="224" y="268" width="76" height="26" fill="#3C8DAD" rx="6" stroke="#3C8DAD" stroke-width="4"/>
+<text x="262" y="352" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#6B6B66" text-anchor="middle">R2</text>
+<text x="208.0" y="420.95" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="middle" font-weight="bold">非一致对：</text>
+<text x="208.0" y="466.85" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="middle" font-weight="bold">含单端比对</text>
+<rect x="416" y="72" width="352" height="460" fill="#D8EEE9" rx="18" stroke="#00A087" stroke-width="4"/>
+<text x="592.0" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#00A087" text-anchor="middle" font-weight="bold">SAMtools</text>
+<text x="592.0" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">-f 12</text>
+<rect x="478" y="268" width="76" height="26" fill="#FFFFFF" rx="6" stroke="#6B6B66" stroke-width="4"/>
+<text x="516" y="352" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#6B6B66" text-anchor="middle">R1</text>
+<rect x="608" y="268" width="76" height="26" fill="#FFFFFF" rx="6" stroke="#6B6B66" stroke-width="4"/>
+<text x="646" y="352" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#6B6B66" text-anchor="middle">R2</text>
+<text x="592.0" y="420.95" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">两端均未比对：</text>
+<text x="592.0" y="466.85" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">位掩码十二</text>
+<line x1="400" y1="108" x2="400" y2="470" stroke="#E64B35" stroke-width="5" stroke-linecap="butt" stroke-dasharray="12 10"/>
+<text x="400" y="615.9" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">口径不同勿混用</text>
+<line x1="352" y1="400" x2="388" y2="400" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<polygon points="388,400 377.0429327162523,404.89312543671485 377.0429327162523,395.10687456328515" fill="#E64B35"/>
+<line x1="448" y1="400" x2="412" y2="400" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<polygon points="412,400 422.9570672837477,395.10687456328515 422.9570672837477,404.89312543671485" fill="#E64B35"/>
+</svg>

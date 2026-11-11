@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="50" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">尾部截断行数拦截</text>
+<text x="400" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">中部缺行凑整错位静默放行</text>
+<rect x="30" y="120" width="350" height="480" fill="#FFFFFF" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="60" y="162" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">截断</text>
+<text x="60" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#33332E" text-anchor="start" font-weight="bold">@r1</text>
+<text x="60" y="234" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#33332E" text-anchor="start" font-weight="bold">ACGT…</text>
+<text x="60" y="268" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#33332E" text-anchor="start" font-weight="bold">+</text>
+<text x="60" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#33332E" text-anchor="start" font-weight="bold">IIII…</text>
+<text x="60" y="336" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#33332E" text-anchor="start" font-weight="bold">@r2</text>
+<text x="60" y="370" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#33332E" text-anchor="start" font-weight="bold">TGCA…</text>
+<text x="60" y="404" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#33332E" text-anchor="start" font-weight="bold">+</text>
+<path d="M 60 438 q 15 -18 30 0 t 30 0 t 30 0" fill="none" stroke="#E64B35" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="2 10"/>
+<text x="200" y="480" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">7 行 % 4 = 3</text>
+<rect x="60" y="510" width="290" height="62" fill="#00A087" rx="12"/>
+<text x="215" y="551" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">rc = 5</text>
+<line x1="96" y1="524" x2="116" y2="556" stroke="#FFFFFF" stroke-width="6" stroke-linecap="butt"/>
+<line x1="116" y1="524" x2="96" y2="556" stroke="#FFFFFF" stroke-width="6" stroke-linecap="butt"/>
+<rect x="420" y="120" width="350" height="480" fill="#FFFFFF" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="450" y="162" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">缺行凑整</text>
+<text x="450" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#33332E" text-anchor="start" font-weight="bold">@r1</text>
+<text x="450" y="234" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#33332E" text-anchor="start" font-weight="bold">ACGT…</text>
+<text x="450" y="268" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#33332E" text-anchor="start" font-weight="bold">+</text>
+<text x="450" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#33332E" text-anchor="start" font-weight="bold">IIII…</text>
+<text x="472" y="336" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#E64B35" text-anchor="start" font-weight="bold">IIII…</text>
+<text x="472" y="370" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#E64B35" text-anchor="start" font-weight="bold">@r2</text>
+<text x="472" y="404" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#E64B35" text-anchor="start" font-weight="bold">TGCA…</text>
+<text x="472" y="438" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#E64B35" text-anchor="start" font-weight="bold">+</text>
+<text x="595" y="480" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">8 行 % 4 = 0</text>
+<rect x="450" y="510" width="290" height="62" fill="#E64B35" rx="12"/>
+<text x="605" y="551" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">rc = 0</text>
+<polyline points="484,540 493,552 510,530" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

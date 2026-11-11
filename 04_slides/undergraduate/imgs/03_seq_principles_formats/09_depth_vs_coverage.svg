@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="50" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">深度是垂直堆叠层数</text>
+<text x="400" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">覆盖度是水平覆盖比例</text>
+<rect x="304" y="534" width="54" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="331" y="534" width="80" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="590" y="534" width="63" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="617" y="534" width="87" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="90" y="488" width="69" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="223" y="488" width="64" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="256" y="488" width="84" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="278" y="488" width="60" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="376" y="488" width="80" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="490" y="488" width="55" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="537" y="488" width="59" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="570" y="488" width="69" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="123" y="442" width="73" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="146" y="442" width="85" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="508" y="442" width="55" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="171" y="396" width="70" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="193" y="396" width="72" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="351" y="396" width="61" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="396" y="396" width="63" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="645" y="396" width="51" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="669" y="396" width="65" height="34" fill="#4DBBD5" rx="6"/>
+<rect x="699" y="396" width="41" height="34" fill="#4DBBD5" rx="6"/>
+<line x1="90" y1="580" x2="740" y2="580" stroke="#6B6B66" stroke-width="6" stroke-linecap="butt"/>
+<text x="90" y="624" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">1</text>
+<text x="740" y="624" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end" font-weight="bold">G</text>
+<line x1="60" y1="386" x2="60" y2="580" stroke="#8491B4" stroke-width="6" stroke-linecap="butt"/>
+<polygon points="52,394 68,394 60,374" fill="#8491B4"/>
+<text x="10" y="320" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="start" font-weight="bold">D（×）</text>
+<line x1="90" y1="648" x2="400" y2="648" stroke="#00A087" stroke-width="6" stroke-linecap="butt"/>
+<line x1="490" y1="648" x2="740" y2="648" stroke="#00A087" stroke-width="6" stroke-linecap="butt"/>
+<text x="245.0" y="686" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">覆盖</text>
+<text x="615.0" y="686" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">覆盖</text>
+<rect x="400" y="380" width="90" height="206" fill="none" stroke="#E64B35" stroke-width="5" stroke-dasharray="14 10"/>
+<rect x="300" y="140" width="290" height="60" fill="#E64B35" rx="12"/>
+<text x="445" y="180" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">未覆盖缺口（D=0）</text>
+</svg>

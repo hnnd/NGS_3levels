@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>BLUE versus BLUP shrinkage</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="60" width="330" height="370" fill="#E7F5F8" rx="16" stroke="#4DBBD5" stroke-width="5"/>
+<text x="205" y="106" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">BLUE</text>
+<line x1="96" y1="424" x2="96" y2="114" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 6"/>
+<circle cx="96" cy="100" r="13" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="5"/>
+<line x1="158" y1="424" x2="158" y2="194" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 6"/>
+<circle cx="158" cy="180" r="13" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="5"/>
+<line x1="220" y1="424" x2="220" y2="354" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 6"/>
+<circle cx="220" cy="340" r="13" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="5"/>
+<line x1="282" y1="424" x2="282" y2="414" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 6"/>
+<circle cx="282" cy="400" r="13" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="5"/>
+<line x1="70" y1="430" x2="340" y2="430" stroke="#3C8DAD" stroke-width="4" stroke-linecap="butt"/>
+<rect x="430" y="60" width="330" height="370" fill="#FBE6DF" rx="16" stroke="#F39B7F" stroke-width="5"/>
+<text x="595" y="106" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">BLUP</text>
+<line x1="456" y1="260.0" x2="734" y2="260.0" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt" stroke-dasharray="12 8"/>
+<text x="468" y="244.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">μ</text>
+<line x1="512" y1="424" x2="512" y2="218.0" stroke="#F39B7F" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 6"/>
+<circle cx="512" cy="100" r="13" fill="#FFFFFF" stroke="#F39B7F" stroke-width="5"/>
+<line x1="512" y1="116" x2="512" y2="187.0" stroke="#C86A4D" stroke-width="4" stroke-linecap="round"/>
+<polygon points="512,187.0 506.6991141102256,175.12984377594 517.3008858897745,175.12984377594" fill="#C86A4D"/>
+<circle cx="512" cy="204.0" r="8" fill="#F39B7F"/>
+<line x1="574" y1="424" x2="574" y2="246.0" stroke="#F39B7F" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 6"/>
+<circle cx="574" cy="180" r="13" fill="#FFFFFF" stroke="#F39B7F" stroke-width="5"/>
+<line x1="574" y1="196" x2="574" y2="215.0" stroke="#C86A4D" stroke-width="4" stroke-linecap="round"/>
+<polygon points="574,215.0 568.6991141102255,203.12984377594 579.3008858897745,203.12984377594" fill="#C86A4D"/>
+<circle cx="574" cy="232.0" r="8" fill="#F39B7F"/>
+<line x1="636" y1="424" x2="636" y2="354" stroke="#F39B7F" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 6"/>
+<circle cx="636" cy="340" r="13" fill="#FFFFFF" stroke="#F39B7F" stroke-width="5"/>
+<line x1="636" y1="324" x2="636" y2="305.0" stroke="#C86A4D" stroke-width="4" stroke-linecap="round"/>
+<polygon points="636,305.0 641.3008858897745,316.87015622406 630.6991141102255,316.87015622406" fill="#C86A4D"/>
+<circle cx="636" cy="288.0" r="8" fill="#F39B7F"/>
+<line x1="698" y1="424" x2="698" y2="414" stroke="#F39B7F" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 6"/>
+<circle cx="698" cy="400" r="13" fill="#FFFFFF" stroke="#F39B7F" stroke-width="5"/>
+<line x1="698" y1="384" x2="698" y2="326.0" stroke="#C86A4D" stroke-width="4" stroke-linecap="round"/>
+<polygon points="698,326.0 703.3008858897745,337.87015622406 692.6991141102255,337.87015622406" fill="#C86A4D"/>
+<circle cx="698" cy="309.0" r="8" fill="#F39B7F"/>
+<line x1="456" y1="430" x2="734" y2="430" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<text x="205" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">固定效应无收缩保量纲</text>
+<text x="595" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">随机效应向均值收缩抗噪</text>
+<text y="542" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" text-anchor="start" font-weight="bold"><tspan x="511.8" fill="#E64B35">但压缩方差</tspan></text>
+<rect x="52.900000000000034" y="590.0" width="274.19999999999993" height="56" fill="#FFFFFF" rx="28.0" stroke="#4DBBD5" stroke-width="4"/>
+<text x="190.0" y="628.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle">balanced → BLUE</text>
+<rect x="357.30000000000007" y="590.0" width="305.3999999999999" height="56" fill="#FFFFFF" rx="28.0" stroke="#F39B7F" stroke-width="4"/>
+<text x="510.0" y="628.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C86A4D" text-anchor="middle">unbalanced → BLUP</text>
+</svg>

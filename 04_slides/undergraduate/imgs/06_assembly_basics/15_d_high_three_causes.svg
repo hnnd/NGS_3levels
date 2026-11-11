@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="290" y="50" width="220" height="80" fill="#3C5488" rx="14"/>
+<text x="400" y="102" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#FFFFFF" text-anchor="middle" font-weight="bold">D 偏高</text>
+<line x1="400" y1="130" x2="150" y2="270" stroke="#4DBBD5" stroke-width="5" stroke-linecap="butt"/>
+<rect x="40" y="280" width="220" height="80" fill="#FFFFFF" rx="14" stroke="#4DBBD5" stroke-width="5"/>
+<text x="150" y="332" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">两套都拼出</text>
+<line x1="150" y1="360" x2="150" y2="396" stroke="#4DBBD5" stroke-width="4" stroke-linecap="butt"/>
+<rect x="50" y="400" width="200" height="62" fill="#FFFFFF" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="150" y="442" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">先看总长</text>
+<line x1="400" y1="130" x2="400" y2="270" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<rect x="290" y="280" width="220" height="80" fill="#FFFFFF" rx="14" stroke="#F39B7F" stroke-width="5"/>
+<text x="400" y="332" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">混菌或污染</text>
+<line x1="400" y1="360" x2="400" y2="396" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<rect x="300" y="400" width="200" height="62" fill="#FFFFFF" rx="12" stroke="#F39B7F" stroke-width="4"/>
+<text x="400" y="442" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">看命中与 GC</text>
+<line x1="400" y1="130" x2="650" y2="270" stroke="#8491B4" stroke-width="5" stroke-linecap="butt"/>
+<rect x="540" y="280" width="220" height="80" fill="#FFFFFF" rx="14" stroke="#8491B4" stroke-width="5"/>
+<text x="650" y="332" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">真实复制</text>
+<line x1="650" y1="360" x2="650" y2="480" stroke="#8491B4" stroke-width="4" stroke-linecap="butt"/>
+<rect x="540" y="484" width="220" height="66" fill="#E64B35" rx="12"/>
+<text x="650" y="528" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">不能去冗余</text>
+</svg>

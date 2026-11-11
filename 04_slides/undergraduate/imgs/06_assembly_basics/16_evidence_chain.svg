@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="24" y="250" width="158" height="150" fill="#7A90BC" rx="14"/>
+<text x="103.0" y="345" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="56" fill="#FFFFFF" text-anchor="middle" font-weight="bold">①</text>
+<text x="103.0" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">总长与污染</text>
+<line x1="186" y1="325.0" x2="218" y2="325.0" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="218,325.0 201.56439907437846,332.3396881550723 201.56439907437846,317.6603118449277" fill="#3C5488"/>
+<rect x="222" y="250" width="158" height="150" fill="#5E78A8" rx="14"/>
+<text x="301.0" y="345" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="56" fill="#FFFFFF" text-anchor="middle" font-weight="bold">②</text>
+<text x="301.0" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">结构与回贴</text>
+<line x1="384" y1="325.0" x2="416" y2="325.0" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="416,325.0 399.56439907437846,332.3396881550723 399.56439907437846,317.6603118449277" fill="#3C5488"/>
+<rect x="420" y="250" width="158" height="150" fill="#4A6497" rx="14"/>
+<text x="499.0" y="345" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="56" fill="#FFFFFF" text-anchor="middle" font-weight="bold">③</text>
+<text x="499.0" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">完整性</text>
+<line x1="582" y1="325.0" x2="614" y2="325.0" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="614,325.0 597.5643990743785,332.3396881550723 597.5643990743785,317.6603118449277" fill="#3C5488"/>
+<rect x="618" y="250" width="158" height="150" fill="#3C5488" rx="14"/>
+<text x="697.0" y="345" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="56" fill="#FFFFFF" text-anchor="middle" font-weight="bold">④</text>
+<text x="697.0" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">连续性与拓扑</text>
+<rect x="150" y="550" width="500" height="56" fill="#E64B35" rx="12"/>
+<text x="400" y="588" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">不设 C 一票否决</text>
+</svg>

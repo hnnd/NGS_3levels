@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="250" y="58" width="300" height="76" fill="#E3E8F2" rx="38" stroke="#3C5488" stroke-width="4"/>
+<polyline points="286,101.52607872815523 294,103.22685258590668 302,104.66621949221981 310,105.79211521712621 318,106.56381429050087 326,106.95340310821243 334,106.94678961235023 342,106.54421302376058 350,105.76023518904164 358,104.62321385499025 366,103.17427692301598 374,101.46583478640018 382,99.5596845615684 390,97.52477478639842 398,95.43471144004319 406,93.36509549556652 414,91.39078831042143 422,89.58320377002163 430,88.00772513195481 438,86.72134000776249 446,85.77057902882167 454,85.18983275811905 462,85.00010772794226 470,85.20826659961728 478,85.80677992994426 486,86.77399852334098 494,88.07493651827664 502,89.66253688249216 510,91.47937354199772" fill="none" stroke="#4DBBD5" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="286,90.47392127184476 294,88.77314741409332 302,87.33378050778019 310,86.20788478287379 318,85.43618570949913 326,85.04659689178757 334,85.05321038764977 342,85.45578697623942 350,86.23976481095836 358,87.37678614500975 366,88.82572307698402 374,90.53416521359982 382,92.4403154384316 390,94.47522521360156 398,96.56528855995681 406,98.63490450443348 414,100.60921168957857 422,102.41679622997837 430,103.99227486804519 438,105.27865999223751 446,106.22942097117833 454,106.81016724188095 462,106.99989227205774 470,106.79173340038272 478,106.19322007005574 486,105.22600147665902 494,103.92506348172336 502,102.33746311750784 510,100.52062645800228" fill="none" stroke="#4DBBD5" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="320" y1="140" x2="215" y2="190" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="215,190 224.0871485999904,179.3499422385748 228.99582612272698,189.65816503632166" fill="#4DBBD5"/>
+<line x1="480" y1="140" x2="585" y2="190" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="585,190 571.004173877273,189.65816503632166 575.9128514000096,179.3499422385748" fill="#4DBBD5"/>
+<rect x="40" y="190" width="350" height="330" fill="#D6EFF4" rx="16" stroke="#4DBBD5" stroke-width="4"/>
+<text x="215.0" y="266" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">读段比对：</text>
+<text x="215.0" y="322" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">库外失明</text>
+<text x="215.0" y="408" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">全样快照</text>
+<rect x="128" y="448" width="174" height="12" fill="#3C8DAD" rx="6"/>
+<rect x="128" y="470" width="174" height="12" fill="#4DBBD5" rx="6"/>
+<rect x="128" y="492" width="174" height="12" fill="#3C8DAD" rx="6"/>
+<rect x="410" y="190" width="350" height="330" fill="#D8EEE9" rx="16" stroke="#00A087" stroke-width="4"/>
+<text x="585.0" y="266" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">从头组装：</text>
+<text x="585.0" y="322" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">低丰度断</text>
+<text x="585.0" y="408" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">关键重建</text>
+<rect x="498" y="448" width="174" height="12" fill="#00A087" rx="6"/>
+<rect x="498" y="470" width="174" height="12" fill="#4DBBD5" rx="6"/>
+<rect x="498" y="492" width="174" height="12" fill="#00A087" rx="6"/>
+<rect x="300" y="570" width="200" height="78" fill="#3C5488" rx="16"/>
+<text x="400" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">按需分流</text>
+</svg>

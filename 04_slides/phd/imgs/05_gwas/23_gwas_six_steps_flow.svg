@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Six-step GWAS pipeline</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="60" width="168" height="116" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="124.0" y="112" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">1</text>
+<text x="124.0" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">治理</text>
+<line x1="210" y1="118" x2="222" y2="118" stroke="#3C8DAD" stroke-width="4" stroke-linecap="round"/>
+<polygon points="222,118 211.0429327162523,122.89312543671484 211.0429327162523,113.10687456328516" fill="#3C8DAD"/>
+<rect x="224" y="60" width="168" height="116" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="308.0" y="112" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">2</text>
+<text x="308.0" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">质控</text>
+<line x1="394" y1="118" x2="406" y2="118" stroke="#3C8DAD" stroke-width="4" stroke-linecap="round"/>
+<polygon points="406,118 395.0429327162523,122.89312543671484 395.0429327162523,113.10687456328516" fill="#3C8DAD"/>
+<rect x="408" y="60" width="168" height="116" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="492.0" y="112" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">3</text>
+<text x="492.0" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">结构混合</text>
+<line x1="578" y1="118" x2="590" y2="118" stroke="#3C8DAD" stroke-width="4" stroke-linecap="round"/>
+<polygon points="590,118 579.0429327162523,122.89312543671484 579.0429327162523,113.10687456328516" fill="#3C8DAD"/>
+<rect x="592" y="60" width="168" height="116" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="676.0" y="112" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">4</text>
+<text x="676.0" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">关联</text>
+<line x1="400" y1="176" x2="400" y2="218" stroke="#3C8DAD" stroke-width="5" stroke-linecap="round"/>
+<polygon points="400,218 394.6991141102256,206.12984377594 405.3008858897744,206.12984377594" fill="#3C8DAD"/>
+<rect x="40" y="220" width="348" height="116" fill="#E7F5F8" rx="12" stroke="#3C8DAD" stroke-width="4"/>
+<text x="80" y="262" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">5</text>
+<text x="230" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">分步诊断</text>
+<rect x="412" y="220" width="348" height="116" fill="#E7F5F8" rx="12" stroke="#3C8DAD" stroke-width="4"/>
+<text x="452" y="262" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">6</text>
+<text x="602" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">候选挖掘</text>
+<rect x="40" y="376" width="720" height="118" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="4"/>
+<text x="400" y="446" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">全链计算作业调度</text>
+<text x="400" y="544" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">phenotype → QC → Q+K</text>
+<text x="400" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">→ GLM/MLM → QQ·λ → clump</text>
+<text x="400" y="640" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">qsub ／ recompute on sativas413</text>
+</svg>

@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">Kraken2 怎么定分类：k-mer → LCA；Bracken 补什么</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">k-mer 最低共同祖先 ｜ 假阳性与高阶元滞留 —— 依据 07_metagenome_lecture.md ④4.2、⑥6.2、⑦7.7</text>
+  <!-- 图例 -->
+  <rect x="836" y="36" width="14" height="14" rx="3" fill="#4DBBD5"/>
+  <text x="858" y="48" font-size="12" fill="#33332E">read / k-mer（数据）</text>
+  <ellipse cx="843" cy="72" rx="10" ry="8" fill="none" stroke="#00A087" stroke-width="2"/>
+  <text x="858" y="76" font-size="12" fill="#33332E">LCA 落在种（正常）</text>
+  <ellipse cx="843" cy="94" rx="10" ry="8" fill="none" stroke="#F39B7F" stroke-width="2"/>
+  <text x="858" y="98" font-size="12" fill="#33332E">LCA 上浮到属（滞留）</text>
+  <ellipse cx="843" cy="116" rx="10" ry="8" fill="none" stroke="#E64B35" stroke-width="2"/>
+  <text x="858" y="120" font-size="12" fill="#33332E">偶然命中（假阳性）</text>
+
+  <!-- ============ 左面板：Kraken2 机制 ============ -->
+  <rect x="48" y="124" width="688" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="16" font-weight="bold" fill="#3C5488">Kraken2：每条 read 取 k-mer 命中的最低共同祖先（LCA）</text>
+
+  <!-- read 与 k-mer -->
+  <rect x="72" y="180" width="480" height="22" rx="4" fill="#4DBBD5"/>
+  <rect x="76"  y="181" width="20" height="20" rx="3" fill="#3C8DAD"/>
+  <rect x="134" y="181" width="20" height="20" rx="3" fill="#3C8DAD"/>
+  <rect x="192" y="181" width="20" height="20" rx="3" fill="#3C8DAD"/>
+  <rect x="250" y="181" width="20" height="20" rx="3" fill="#3C8DAD"/>
+  <rect x="308" y="181" width="20" height="20" rx="3" fill="#3C8DAD"/>
+  <rect x="366" y="181" width="20" height="20" rx="3" fill="#3C8DAD"/>
+  <rect x="424" y="181" width="20" height="20" rx="3" fill="#3C8DAD"/>
+  <rect x="482" y="181" width="20" height="20" rx="3" fill="#3C8DAD"/>
+  <text x="564" y="187" font-size="11" fill="#6B6B66">一条 read</text>
+  <text x="564" y="203" font-size="11" fill="#6B6B66">切成 k-mer，</text>
+  <text x="564" y="219" font-size="11" fill="#6B6B66">逐个查库</text>
+
+  <!-- 树边 -->
+  <line x1="140" y1="400" x2="228" y2="400" stroke="#3C5488" stroke-width="1.8"/>
+  <path d="M 330 400 L 362 400 L 362 330 L 388 330" fill="none" stroke="#3C5488" stroke-width="1.8"/>
+  <path d="M 330 400 L 362 400 L 362 490 L 388 490" fill="none" stroke="#3C5488" stroke-width="1.8"/>
+  <path d="M 508 330 L 536 330 L 536 292 L 558 292" fill="none" stroke="#3C5488" stroke-width="1.8"/>
+  <path d="M 508 330 L 536 330 L 536 368 L 558 368" fill="none" stroke="#3C5488" stroke-width="1.8"/>
+  <line x1="500" y1="490" x2="558" y2="490" stroke="#3C5488" stroke-width="1.8"/>
+
+  <!-- 树节点 -->
+  <rect x="80" y="383" width="60" height="34" rx="8" fill="#3C5488"/>
+  <text x="110" y="405" font-size="12" fill="#FFFFFF" text-anchor="middle">root</text>
+  <rect x="228" y="383" width="102" height="34" rx="8" fill="#3C5488"/>
+  <text x="279" y="405" font-size="12" fill="#FFFFFF" text-anchor="middle">Bacteria</text>
+  <rect x="388" y="313" width="120" height="34" rx="8" fill="#3C5488"/>
+  <text x="448" y="335" font-size="12" fill="#FFFFFF" text-anchor="middle">Pseudomonas 属</text>
+  <rect x="388" y="473" width="112" height="34" rx="8" fill="#3C5488"/>
+  <text x="444" y="495" font-size="12" fill="#FFFFFF" text-anchor="middle">Vibrio 属</text>
+  <rect x="558" y="275" width="130" height="34" rx="8" fill="#4DBBD5"/>
+  <text x="623" y="297" font-size="12" fill="#FFFFFF" text-anchor="middle">P. aeruginosa</text>
+  <rect x="558" y="351" width="112" height="34" rx="8" fill="#4DBBD5"/>
+  <text x="614" y="373" font-size="12" fill="#FFFFFF" text-anchor="middle">P. putida</text>
+  <rect x="558" y="473" width="118" height="34" rx="8" fill="#4DBBD5"/>
+  <text x="617" y="495" font-size="12" fill="#FFFFFF" text-anchor="middle">V. cholerae</text>
+
+  <!-- read A：种 -->
+  <ellipse cx="623" cy="292" rx="78" ry="30" fill="none" stroke="#00A087" stroke-width="2.5"/>
+  <rect x="566" y="240" width="12" height="12" rx="2" fill="#4DBBD5"/>
+  <rect x="582" y="240" width="12" height="12" rx="2" fill="#4DBBD5"/>
+  <rect x="598" y="240" width="12" height="12" rx="2" fill="#4DBBD5"/>
+  <rect x="614" y="240" width="12" height="12" rx="2" fill="#4DBBD5"/>
+  <line x1="622" y1="254" x2="622" y2="262" stroke="#00A087" stroke-width="1.5"/>
+  <text x="556" y="251" font-size="11.5" fill="#00A087" text-anchor="end">read A：LCA=种</text>
+
+  <!-- read B：属 -->
+  <ellipse cx="448" cy="330" rx="76" ry="28" fill="none" stroke="#F39B7F" stroke-width="2.5"/>
+  <rect x="566" y="396" width="12" height="12" rx="2" fill="#4DBBD5"/>
+  <rect x="582" y="396" width="12" height="12" rx="2" fill="#4DBBD5"/>
+  <text x="604" y="406" font-size="11" fill="#6B6B66">read B 的 k-mer 分散在</text>
+  <text x="604" y="422" font-size="11" fill="#6B6B66">属内两个种 → LCA 上浮</text>
+  <line x1="575" y1="392" x2="500" y2="348" stroke="#F39B7F" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="575" y1="400" x2="500" y2="352" stroke="#F39B7F" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- read C：假阳性 -->
+  <ellipse cx="617" cy="490" rx="76" ry="30" fill="none" stroke="#E64B35" stroke-width="2.5"/>
+  <rect x="566" y="538" width="12" height="12" rx="2" fill="#4DBBD5"/>
+  <rect x="582" y="538" width="12" height="12" rx="2" fill="#4DBBD5"/>
+  <line x1="580" y1="536" x2="596" y2="514" stroke="#E64B35" stroke-width="1.5"/>
+  <line x1="592" y1="536" x2="604" y2="514" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="540" y="566" font-size="11.5" fill="#E64B35">read C：仅 2 个 k-mer 偶然命中</text>
+
+  <!-- 三种结局 -->
+  <circle cx="84" cy="612" r="5" fill="#00A087"/>
+  <text x="98" y="616" font-size="12.5" fill="#33332E">read A：k-mer 全命中同一个种 → 直接定到种（理想情形）</text>
+  <circle cx="84" cy="640" r="5" fill="#F39B7F"/>
+  <text x="98" y="644" font-size="12.5" fill="#33332E">read B：k-mer 命中属内两个种 → LCA 上浮停在属——大量 reads 只能到属/科</text>
+  <circle cx="84" cy="668" r="5" fill="#E64B35"/>
+  <text x="98" y="672" font-size="12.5" fill="#33332E">read C：库里没有的菌，少数 k-mer 偶然命中 → 被判给它——假阳性，「物种」各只有几条 read</text>
+
+  <!-- ============ 右面板：Bracken ============ -->
+  <rect x="760" y="124" width="392" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="784" y="156" font-size="16" font-weight="bold" fill="#3C5488">Bracken：把停在高阶元的 reads 重估到种</text>
+  <line x1="784" y1="170" x2="1128" y2="170" stroke="#E9E9E5"/>
+
+  <!-- 报告摘录 -->
+  <rect x="784" y="186" width="344" height="88" rx="6" fill="#FAFAF7"/>
+  <text x="800" y="214" font-size="11.5" fill="#33332E">15.67　123456　123456　G　Pseudomonas</text>
+  <text x="800" y="238" font-size="11.5" fill="#33332E">　0.00　　　　3　　　　3　S　P. aeruginosa</text>
+  <text x="800" y="262" font-size="11" fill="#6B6B66">⑥6.2 实例：属节点 12.3 万条，直接分到种的只有 3 条</text>
+
+  <text x="784" y="308" font-size="13" font-weight="bold" fill="#3C5488">为什么原始计数不能当丰度（④4.2）</text>
+  <text x="784" y="332" font-size="12" fill="#33332E">大量 reads 的 LCA 停在属/科——只累计、不指名；</text>
+  <text x="784" y="354" font-size="12" fill="#33332E">基因组大小不同的物种，同样的细胞数产生不同的 read 数</text>
+
+  <!-- Bracken 重估示意 -->
+  <rect x="784" y="382" width="344" height="28" rx="5" fill="#3C5488"/>
+  <text x="956" y="401" font-size="11.5" fill="#FFFFFF" text-anchor="middle">属：123 456 条（含子节点）｜直接分配 3 条</text>
+  <line x1="956" y1="414" x2="956" y2="440" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="951,440 961,440 956,448" fill="#3C5488"/>
+  <text x="784" y="466" font-size="11" fill="#6B6B66">贝叶斯重估：按库内各基因组的 k-mer 归属概率，</text>
+  <text x="784" y="482" font-size="11" fill="#6B6B66">把停在高阶元的 reads 重新分配到种水平</text>
+  <rect x="784" y="496" width="160" height="28" rx="5" fill="#4DBBD5"/>
+  <text x="864" y="515" font-size="11.5" fill="#FFFFFF" text-anchor="middle">种 A（重估后）</text>
+  <rect x="784" y="532" width="96" height="28" rx="5" fill="#4DBBD5"/>
+  <text x="832" y="551" font-size="11.5" fill="#FFFFFF" text-anchor="middle">种 B</text>
+  <text x="960" y="505" font-size="11" fill="#6B6B66">→ 可当相对丰度</text>
+  <text x="960" y="521" font-size="11" fill="#6B6B66">使用的估计</text>
+
+  <rect x="784" y="576" width="344" height="50" rx="6" fill="#FAFAF7"/>
+  <rect x="784" y="576" width="4" height="50" rx="2" fill="#4DBBD5"/>
+  <text x="800" y="598" font-size="11.5" fill="#33332E">报告必须写清用的是 Kraken2 原始计数还是 Bracken</text>
+  <text x="800" y="616" font-size="11.5" fill="#33332E">重估——两者数值差异可以很大（④4.2）</text>
+
+  <rect x="784" y="634" width="344" height="40" rx="6" fill="#FAFAF7"/>
+  <rect x="784" y="634" width="4" height="40" rx="2" fill="#3C5488"/>
+  <text x="800" y="652" font-size="11" fill="#33332E">压假阳性（⑦7.7a）：--confidence 0.1 ＋ 最小 read 数</text>
+  <text x="800" y="668" font-size="11" fill="#33332E">阈值；阈值写进方法学——「物种数」随阈值差好几倍</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">先看 unclassified：环境样本 40–70% 未分类是正常的——库里没有的物种一定分不出来。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

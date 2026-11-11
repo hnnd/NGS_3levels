@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="224.5" y="196" width="312.0" height="160" fill="#D8EEE9"/>
+<line x1="224.5" y1="196" x2="536.5" y2="196" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<line x1="224.5" y1="356" x2="536.5" y2="356" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<line x1="224.5" y1="196" x2="224.5" y2="202" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<line x1="224.5" y1="340" x2="224.5" y2="356" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<line x1="536.5" y1="196" x2="536.5" y2="202" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<line x1="536.5" y1="340" x2="536.5" y2="356" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<text x="400" y="60" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">L_ins = 253 bp</text>
+<rect x="190" y="72" width="379.5" height="60" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="4"/>
+<text x="379.75" y="114.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">插入全长</text>
+<text x="400" y="170" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">双端读段</text>
+<rect x="161.5" y="202" width="375.0" height="48" fill="#4DBBD5" rx="8"/>
+<rect x="161.5" y="202" width="28.5" height="48" fill="#F39B7F" rx="8"/>
+<line x1="214" y1="226.0" x2="518.5" y2="226.0" stroke="#3C8DAD" stroke-width="4" stroke-linecap="round"/>
+<polygon points="518.5,226.0 507.5429327162523,230.89312543671485 507.5429327162523,221.10687456328515" fill="#3C8DAD"/>
+<text x="149.5" y="237.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="end" font-weight="bold">F</text>
+<rect x="224.5" y="292" width="375.0" height="48" fill="#4DBBD5" rx="8"/>
+<rect x="569.5" y="292" width="30.0" height="48" fill="#F39B7F" rx="8"/>
+<line x1="545.5" y1="316.0" x2="242.5" y2="316.0" stroke="#3C8DAD" stroke-width="4" stroke-linecap="round"/>
+<polygon points="242.5,316.0 253.4570672837477,311.10687456328515 253.4570672837477,320.89312543671485" fill="#3C8DAD"/>
+<text x="611.5" y="327.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="start" font-weight="bold">R</text>
+<line x1="400" y1="356" x2="400" y2="372" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<text x="400" y="414" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">重叠区</text>
+<rect x="318.1" y="428" width="24" height="24" fill="#F39B7F" rx="4" stroke="#C0623F" stroke-width="2"/>
+<text x="356.1" y="450" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="start" font-weight="bold">切除引物</text>
+<text x="400" y="524" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">O = (F − l_F) + (R − l_R) − L_ins</text>
+<text x="400" y="574" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">231 + 230 − 253 = 208 bp</text>
+<text x="400" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">F = 250   l_F = 19   R = 250   l_R = 20</text>
+</svg>

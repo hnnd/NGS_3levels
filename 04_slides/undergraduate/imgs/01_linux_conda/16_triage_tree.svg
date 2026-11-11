@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#3C5488" text-anchor="middle" font-weight="bold">症状对号，先做一步</text>
+<rect x="60" y="100" width="270" height="86" fill="#E9E9E5" rx="12" stroke="#6B6B66" stroke-width="4"/>
+<text x="195.0" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">断链？</text>
+<rect x="440" y="100" width="300" height="86" fill="#3C5488" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="590" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ls -lL 回源</text>
+<line x1="336" y1="143.0" x2="432" y2="143.0" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="432,143.0 415.56439907437846,150.33968815507225 415.56439907437846,135.66031184492775" fill="#6B6B66"/>
+<rect x="60" y="225" width="270" height="86" fill="#E9E9E5" rx="12" stroke="#6B6B66" stroke-width="4"/>
+<text x="195.0" y="281" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">伪激活？</text>
+<rect x="440" y="225" width="300" height="86" fill="#3C5488" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="590" y="281" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">conda list</text>
+<line x1="336" y1="268.0" x2="432" y2="268.0" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="432,268.0 415.56439907437846,275.3396881550723 415.56439907437846,260.6603118449277" fill="#6B6B66"/>
+<rect x="60" y="350" width="270" height="86" fill="#E9E9E5" rx="12" stroke="#6B6B66" stroke-width="4"/>
+<text x="195.0" y="406" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">Eqw？</text>
+<rect x="440" y="350" width="300" height="86" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="5"/>
+<text x="590" y="406" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">qstat -j</text>
+<line x1="336" y1="393.0" x2="432" y2="393.0" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="432,393.0 415.56439907437846,400.3396881550723 415.56439907437846,385.6603118449277" fill="#6B6B66"/>
+<rect x="60" y="475" width="270" height="86" fill="#E9E9E5" rx="12" stroke="#6B6B66" stroke-width="4"/>
+<text x="195.0" y="531" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">秒退？</text>
+<rect x="440" y="475" width="300" height="86" fill="#3C5488" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="590" y="531" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">补激活两行</text>
+<line x1="336" y1="518.0" x2="432" y2="518.0" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="432,518.0 415.56439907437846,525.3396881550723 415.56439907437846,510.6603118449277" fill="#6B6B66"/>
+<rect x="530" y="334" width="210" height="46" fill="#E64B35" rx="8"/>
+<text x="635" y="366" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Eqw 不会自己好</text>
+</svg>

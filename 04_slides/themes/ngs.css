@@ -1,0 +1,157 @@
+/* @theme ngs */
+/* 课程统一主题 v2（2026-11-10，D123）：高通量测序技术与数据分析（三层次）。
+ * 设计原则：一页一个意思、大字少字、留白；层次只改强调色（本科绿 / 硕士蓝 / 博士红）。
+ * 版式类（写在 <!-- _class: <level> <版式> --> 里）：
+ *   cover     封面（深色底）          divider   段落分隔页（大号序号 + 标题）
+ *   statement 一句话结论页            figure    大图页（图 + 一行说明）
+ *   warn      出错/失效页（橙色警示）  quiz      课堂提问页
+ * 页内组件：.cols / .cols3 两三栏，.card 卡片，.kpi 大数字，.tag 标签，.ref 出处（右下角），.muted 次要文字
+ */
+@import 'default';
+
+:root {
+  --ink: #1b2430;
+  --muted: #5b6675;
+  --faint: #8a94a3;
+  --line: #e3e6ea;
+  --bg: #fbfaf7;
+  --panel: #f2f1ec;
+  --code-bg: #1f2530;
+  --code-ink: #e8ecf1;
+  --warn: #c2410c;
+  --warn-bg: #fff4ec;
+  --good: #15803d;
+  --bad: #b91c1c;
+  --accent: #0f766e;        /* 本科：青绿 */
+  --accent-soft: #e3f2ef;
+  --accent-deep: #0b3d3a;
+}
+section.master { --accent: #1d4ed8; --accent-soft: #e6edfb; --accent-deep: #14254d; }
+section.phd    { --accent: #9f1239; --accent-soft: #f8e7ec; --accent-deep: #3f0d1d; }
+
+/* ---------- 基础 ---------- */
+section {
+  width: 1280px; height: 720px;
+  font-family: "Noto Sans CJK SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 30px; line-height: 1.5; letter-spacing: 0.01em;
+  color: var(--ink); background: var(--bg);
+  padding: 92px 88px 76px 88px;
+  display: flex; flex-direction: column; justify-content: flex-start;
+}
+section::before {             /* 顶部层次色条 */
+  content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 8px; background: var(--accent);
+}
+section h1, section h2, section h3 { margin: 0; font-weight: 700; color: var(--ink); }
+section h1 { font-size: 56px; line-height: 1.25; }
+section h2 { font-size: 42px; line-height: 1.3; margin-bottom: 36px; padding-left: 22px;
+             border-left: 8px solid var(--accent); }
+section h3 { font-size: 32px; color: var(--accent); margin: 8px 0 14px; }
+section p { margin: 0 0 18px; }
+section strong { color: var(--accent); font-weight: 700; }
+section em { font-style: normal; color: var(--muted); }
+
+/* 列表：方块项目符号、宽行距 */
+section ul, section ol { margin: 0 0 12px; padding-left: 1.3em; }
+section li { margin: 0 0 16px; }
+section li::marker { color: var(--accent); }
+section ul > li { list-style: none; position: relative; }
+section ul > li::before { content: ""; position: absolute; left: -1.05em; top: 0.62em;
+                          width: 0.34em; height: 0.34em; background: var(--accent); border-radius: 2px; }
+section li li { font-size: 0.85em; margin: 8px 0 0; color: var(--muted); }
+
+/* 页眉 / 页脚 / 页码 */
+section header { position: absolute; top: 26px; left: 88px; right: 88px;
+                 font-size: 17px; color: var(--faint); letter-spacing: 0.08em; }
+section footer { position: absolute; bottom: 24px; left: 88px; right: 160px;
+                 font-size: 15px; color: var(--faint); }
+section::after { position: absolute; right: 64px; bottom: 20px; font-size: 16px; font-weight: 700;
+                 color: var(--accent); background: var(--accent-soft); padding: 2px 12px; border-radius: 999px; }
+
+/* ---------- 代码 ---------- */
+section pre, section code { font-family: "JetBrains Mono", "Fira Code", "DejaVu Sans Mono", Consolas, monospace; }
+section code { font-size: 0.82em; background: var(--panel); color: var(--ink); padding: 1px 8px; border-radius: 6px; }
+section pre { font-size: 22px; line-height: 1.5; background: var(--code-bg); color: var(--code-ink);
+              border-radius: 12px; padding: 22px 28px; margin: 6px 0 18px; border-left: 8px solid var(--accent); }
+section pre code { background: none; color: inherit; padding: 0; font-size: 1em; }
+section pre .hljs-comment { color: #8b97a8; }
+section pre .hljs-string { color: #a5d6a7; }
+section pre .hljs-keyword, section pre .hljs-built_in { color: #90caf9; }
+
+/* ---------- 表格 ---------- */
+section table { border-collapse: collapse; font-size: 26px; margin: 4px 0 18px; width: auto; }
+section th, section td { border: none; padding: 12px 22px; text-align: left; }
+section th { background: var(--accent); color: #fff; font-weight: 700; }
+section tr:nth-child(even) td { background: var(--panel); }
+section tr td { border-bottom: 1px solid var(--line); }
+
+/* ---------- 引用块：提示框 ---------- */
+section blockquote { margin: 8px 0 18px; padding: 18px 26px; border: none; border-radius: 12px;
+                     background: var(--accent-soft); color: var(--ink); font-size: 28px; }
+section blockquote::before, section blockquote::after { content: none; }
+section blockquote p:last-child { margin: 0; }
+
+/* ---------- 组件 ---------- */
+section .cols, section .cols3 { width: 100%; }
+section .cols  { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+section .cols3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 36px; align-items: start; }
+section .card  { background: #fff; border: 1px solid var(--line); border-top: 6px solid var(--accent);
+                 border-radius: 14px; padding: 22px 26px; font-size: 26px; box-shadow: 0 2px 8px rgba(27,36,48,.05); }
+section .card h3 { margin-top: 0; }
+section .card.bad  { border-top-color: var(--bad); }
+section .card.good { border-top-color: var(--good); }
+section .kpi   { font-size: 88px; font-weight: 800; line-height: 1.05; color: var(--accent); }
+section .kpi + p, section .kpi-label { font-size: 24px; color: var(--muted); }
+section .tag   { display: inline-block; font-size: 20px; font-weight: 700; padding: 3px 14px; border-radius: 999px;
+                 background: var(--accent-soft); color: var(--accent); margin-right: 8px; vertical-align: middle; }
+section .tag.warn { background: var(--warn-bg); color: var(--warn); }
+section .good  { color: var(--good); font-weight: 700; }
+section .bad   { color: var(--bad);  font-weight: 700; }
+section .muted { color: var(--muted); }
+section .small { font-size: 22px; color: var(--muted); }
+section .ref   { position: absolute; right: 160px; bottom: 50px; font-size: 18px; color: var(--faint); }
+section .meta  { font-size: 24px; }
+section img    { max-width: 100%; }
+/* D130：并排图按高度约束（w: 指令给的宽度只作上限），保证不越过页底安全区 */
+section .cols img, section .cols3 img { max-height: 400px; width: auto !important; height: auto; object-fit: contain; }
+section .cols > div > p:has(img), section .cols > p:has(img) { margin: 0; }
+
+/* ---------- 版式：封面 ---------- */
+section.cover { background: var(--accent-deep); color: #fff; justify-content: center; padding-left: 110px; }
+section.cover::before { width: 14px; height: 100%; }
+section.cover h1 { color: #fff; font-size: 64px; margin-bottom: 28px; }
+section.cover p, section.cover li { color: rgba(255,255,255,.86); }
+section.cover strong { color: #fff; }
+section.cover .meta { margin-top: 36px; font-size: 22px; color: rgba(255,255,255,.7); }
+section.cover .meta ul > li::before { background: rgba(255,255,255,.6); }
+section.cover code { background: rgba(255,255,255,.14); color: #fff; }
+section.cover header, section.cover footer { color: rgba(255,255,255,.55); }
+section.cover::after { display: none; }
+
+/* ---------- 版式：段落分隔 ---------- */
+section.divider { background: var(--accent-soft); justify-content: center; }
+section.divider h1 { font-size: 60px; color: var(--accent-deep); }
+section.divider h1 + p { font-size: 28px; color: var(--muted); margin-top: 18px; }
+section.divider .num { font-size: 120px; font-weight: 800; color: var(--accent); line-height: 1; margin-bottom: 12px; }
+
+/* ---------- 版式：一句话结论 ---------- */
+section.statement { justify-content: center; text-align: left; }
+section.statement p { font-size: 46px; line-height: 1.45; font-weight: 700; max-width: 1000px; }
+section.statement p + p { font-size: 26px; font-weight: 400; color: var(--muted); }
+
+/* ---------- 版式：大图 ---------- */
+section.figure { padding-top: 72px; padding-bottom: 104px; }
+section:has(.ref) { padding-bottom: 104px; }
+section.figure h2 { font-size: 34px; margin-bottom: 18px; }
+section.figure p:has(img) { flex: 1; display: flex; justify-content: center; align-items: center; margin: 0; min-height: 0; }
+section.figure img { height: 100%; max-height: 460px; width: auto; max-width: 1104px; object-fit: contain; }  /* D133: 随说明行数收缩，不再顶出标题 */
+section.figure p:not(:has(img)) { margin: 10px 0 0; font-size: 24px; color: var(--muted); text-align: center; }
+
+/* ---------- 版式：出错 / 失效 ---------- */
+section.warn { --accent: var(--warn); --accent-soft: var(--warn-bg); }
+section.warn h2::before { content: "⚠ "; }
+
+/* ---------- 版式：课堂提问 ---------- */
+section.quiz { justify-content: center; }
+section.quiz h2 { border: none; padding: 0; color: var(--accent); font-size: 30px; letter-spacing: 0.1em; }
+section.quiz p { font-size: 40px; font-weight: 700; line-height: 1.5; }

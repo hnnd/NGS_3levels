@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="200" width="280" height="92" fill="#3C5488" rx="8"/>
+<text x="180.0" y="356" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">核心 100%</text>
+<rect x="320" y="200" width="150" height="92" fill="#4DBBD5" rx="8"/>
+<text x="395.0" y="416" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">软核心 ≥95%</text>
+<rect x="470" y="200" width="120" height="92" fill="#F39B7F" rx="8"/>
+<text x="530.0" y="356" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">壳 15–95%</text>
+<rect x="590" y="200" width="100" height="92" fill="#8491B4" rx="8"/>
+<text x="640.0" y="416" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">云 &lt;15%</text>
+<rect x="690" y="200" width="70" height="92" fill="#6B6B66" rx="8"/>
+<text x="725.0" y="356" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">单株独有</text>
+<line x1="40" y1="182" x2="760" y2="182" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<rect x="120" y="500" width="560" height="62" fill="#E64B35" rx="12"/>
+<text x="400" y="543" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">观测分类不等于功能证明</text>
+</svg>

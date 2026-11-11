@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="70" width="720" height="170" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="64" y="132" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="33" fill="#E64B35" text-anchor="start" font-weight="bold">k−1 &lt; R：分叉 2 塌缩</text>
+<text x="64" y="188" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">k=97</text>
+<line x1="440" y1="114" x2="520" y2="128" stroke="#3C5488" stroke-width="7" stroke-linecap="round"/>
+<polygon points="520,128 502.5452144631209,132.3966421120618 505.0756502213797,117.93700920772578" fill="#3C5488"/>
+<line x1="440" y1="186" x2="520" y2="172" stroke="#3C5488" stroke-width="7" stroke-linecap="round"/>
+<polygon points="520,172 505.0756502213797,182.0629907922742 502.5452144631209,167.6033578879382" fill="#3C5488"/>
+<rect x="522" y="118" width="76" height="64" fill="#F39B7F" rx="8"/>
+<line x1="600" y1="132" x2="700" y2="100" stroke="#E64B35" stroke-width="7" stroke-linecap="round"/>
+<polygon points="700,100 686.5832955988836,111.9996684542976 682.1093780105293,98.01867599069024" fill="#E64B35"/>
+<line x1="600" y1="168" x2="700" y2="200" stroke="#E64B35" stroke-width="7" stroke-linecap="round"/>
+<polygon points="700,200 682.1093780105293,201.98132400930976 686.5832955988836,188.00033154570238" fill="#E64B35"/>
+<text x="716" y="166" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#E64B35" text-anchor="start" font-weight="bold">2</text>
+<rect x="40" y="270" width="720" height="170" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="64" y="332" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="33" fill="#F39B7F" text-anchor="start" font-weight="bold">k−1 = R：分叉 1 断开</text>
+<text x="64" y="388" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">k=101</text>
+<line x1="440" y1="314" x2="520" y2="328" stroke="#3C5488" stroke-width="7" stroke-linecap="round"/>
+<polygon points="520,328 502.5452144631209,332.39664211206184 505.0756502213797,317.9370092077258" fill="#3C5488"/>
+<line x1="440" y1="386" x2="520" y2="372" stroke="#3C5488" stroke-width="7" stroke-linecap="round"/>
+<polygon points="520,372 505.0756502213797,382.0629907922742 502.5452144631209,367.60335788793816" fill="#3C5488"/>
+<rect x="522" y="314" width="80" height="72" fill="#F39B7F" rx="8" stroke="#E64B35" stroke-width="7"/>
+<line x1="604" y1="330" x2="700" y2="314" stroke="#3C5488" stroke-width="7" stroke-linecap="round"/>
+<polygon points="700,314 684.994660412268,323.9418199469132 682.581385812606,309.4621723489411" fill="#3C5488"/>
+<line x1="604" y1="370" x2="700" y2="386" stroke="#3C5488" stroke-width="7" stroke-linecap="round"/>
+<polygon points="700,386 682.581385812606,390.5378276510589 684.994660412268,376.0581800530868" fill="#3C5488"/>
+<text x="716" y="366" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#F39B7F" text-anchor="start" font-weight="bold">1</text>
+<rect x="40" y="470" width="720" height="170" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="64" y="532" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="33" fill="#00A087" text-anchor="start" font-weight="bold">k−1 &gt; R：分叉 0 连通</text>
+<text x="64" y="588" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">k=102</text>
+<line x1="440" y1="550" x2="720" y2="550" stroke="#00A087" stroke-width="8" stroke-linecap="round"/>
+<polygon points="720,550 703.5643990743785,557.3396881550723 703.5643990743785,542.6603118449277" fill="#00A087"/>
+<circle cx="520" cy="550" r="9" fill="#00A087"/>
+<circle cx="640" cy="550" r="9" fill="#00A087"/>
+<text x="724" y="562" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#00A087" text-anchor="start" font-weight="bold">0</text>
+<text x="400" y="676" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">共享节点始于 k−1</text>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">3 010 份水稻的"频率账本"：驯化印记怎么读</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">Wang et al. 2018, Nature ｜ 结构 → 分化 → 扫描 —— 依据 04_popgen_lecture.md ③3.1</text>
+
+  <!-- ============ 左面板：案例 ============ -->
+  <rect x="48" y="120" width="460" height="500" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="16" font-weight="bold" fill="#3C5488">当时最大的水稻变异图谱</text>
+  <text x="72" y="176" font-size="12" fill="#6B6B66">Wang et al. 2018 · Nature：3 010 份亚洲栽培稻重测序</text>
+  <line x1="72" y1="192" x2="484" y2="192" stroke="#E9E9E5"/>
+  <text x="72" y="220" font-size="12.5" fill="#33332E">全球收集的地方种 ＋ 现代品种；资源对社区开放，</text>
+  <text x="72" y="244" font-size="12.5" fill="#33332E">成为此后泛基因组、单倍型与育种研究的底座（§4.9）</text>
+  <text x="72" y="288" font-size="13" font-weight="bold" fill="#3C5488">随后做的正是本讲这套动作：</text>
+  <rect x="72" y="302" width="412" height="56" rx="6" fill="#FAFAF7"/>
+  <circle cx="94" cy="330" r="11" fill="#3C5488"/>
+  <text x="94" y="334" font-size="12" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="116" y="326" font-size="12.5" font-weight="bold" fill="#33332E">群体结构</text>
+  <text x="116" y="348" font-size="12" fill="#33332E">籼 / 粳及其内部亚群——PCA ＋ 祖先成分</text>
+  <rect x="72" y="368" width="412" height="56" rx="6" fill="#FAFAF7"/>
+  <circle cx="94" cy="396" r="11" fill="#3C5488"/>
+  <text x="94" y="400" font-size="12" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="116" y="392" font-size="12.5" font-weight="bold" fill="#33332E">亚群间分化</text>
+  <text x="116" y="414" font-size="12" fill="#33332E">F_ST 比较亚群，围绕驯化与改良做选择扫描</text>
+  <rect x="72" y="434" width="412" height="56" rx="6" fill="#FAFAF7"/>
+  <circle cx="94" cy="462" r="11" fill="#3C5488"/>
+  <text x="94" y="466" font-size="12" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="116" y="458" font-size="12.5" font-weight="bold" fill="#33332E">产出与克制</text>
+  <text x="116" y="480" font-size="12" fill="#33332E">数千个候选区间，最终功能验证的是少数</text>
+  <!-- 祖先成分示意 -->
+  <rect x="88"  y="530" width="26" height="34" fill="#3C5488"/><rect x="88"  y="564" width="26" height="2"  fill="#F39B7F"/>
+  <rect x="126" y="534" width="26" height="28" fill="#3C5488"/><rect x="126" y="562" width="26" height="4"  fill="#F39B7F"/>
+  <rect x="164" y="532" width="26" height="4"  fill="#3C5488"/><rect x="164" y="536" width="26" height="30" fill="#F39B7F"/>
+  <rect x="202" y="536" width="26" height="3"  fill="#3C5488"/><rect x="202" y="539" width="26" height="27" fill="#F39B7F"/>
+  <line x1="84" y1="566" x2="232" y2="566" stroke="#6B6B66" stroke-width="1.5"/>
+  <text x="126" y="584" font-size="11" fill="#6B6B66" text-anchor="middle">籼</text>
+  <text x="202" y="584" font-size="11" fill="#6B6B66" text-anchor="middle">粳</text>
+  <text x="258" y="556" font-size="10.5" fill="#6B6B66">祖先成分堆叠图（示意）：</text>
+  <text x="258" y="574" font-size="10.5" fill="#6B6B66">每列一个体，色段＝祖先成分比例</text>
+  <text x="72" y="612" font-size="11.5" fill="#6B6B66">n 比课堂主线的 40 株稻瘟菌大两个数量级</text>
+
+  <!-- ============ 右面板：四点启示 ============ -->
+  <rect x="532" y="120" width="620" height="500" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="556" y="152" font-size="16" font-weight="bold" fill="#3C5488">对本讲的四点启示</text>
+  <text x="556" y="176" font-size="12" fill="#6B6B66">n 大两个数量级，判读纪律一条不少</text>
+  <line x1="556" y1="192" x2="1128" y2="192" stroke="#E9E9E5"/>
+  <rect x="556" y="208" width="274" height="150" rx="6" fill="#FAFAF7"/>
+  <text x="572" y="236" font-size="13" font-weight="bold" fill="#3C5488">"组内对照"是设计出来的</text>
+  <text x="572" y="262" font-size="11.5" fill="#33332E">地方种与改良种并置，"改良"</text>
+  <text x="572" y="284" font-size="11.5" fill="#33332E">这个时间维度才成为可扫描的信号</text>
+  <text x="572" y="312" font-size="11" fill="#6B6B66">——与"把时间换成基因型"</text>
+  <text x="572" y="332" font-size="11" fill="#6B6B66">同一条设计原则（§4.8）</text>
+  <rect x="854" y="208" width="274" height="150" rx="6" fill="#FAFAF7"/>
+  <text x="870" y="236" font-size="13" font-weight="bold" fill="#3C5488">扫描的产出绝大部分是候选</text>
+  <text x="870" y="262" font-size="11.5" fill="#33332E">数千个扫描区间，最终落成</text>
+  <text x="870" y="284" font-size="11.5" fill="#33332E">功能验证的是少数</text>
+  <text x="870" y="312" font-size="11" fill="#6B6B66">——top 1% 清单要有</text>
+  <text x="870" y="332" font-size="11" fill="#6B6B66">同样的克制（④4.6）</text>
+  <rect x="556" y="384" width="274" height="150" rx="6" fill="#FAFAF7"/>
+  <text x="572" y="412" font-size="13" font-weight="bold" fill="#3C5488">40 株稻瘟菌＝最小版本</text>
+  <text x="572" y="438" font-size="11.5" fill="#33332E">过滤 → LD → 结构 → 扫描，</text>
+  <text x="572" y="460" font-size="11.5" fill="#33332E">链路相同；方法学雷区一个不少</text>
+  <text x="572" y="488" font-size="11" fill="#6B6B66">——40 株时密度反而更高</text>
+  <text x="572" y="508" font-size="11" fill="#6B6B66">（⑥6.1 的异常表）</text>
+  <rect x="854" y="384" width="274" height="150" rx="6" fill="#FAFAF7"/>
+  <text x="870" y="412" font-size="13" font-weight="bold" fill="#3C5488">数据开放的复利</text>
+  <text x="870" y="438" font-size="11.5" fill="#33332E">图谱公开后，泛基因组、单倍型、</text>
+  <text x="870" y="460" font-size="11.5" fill="#33332E">育种研究直接叠上去——</text>
+  <text x="870" y="488" font-size="11" fill="#6B6B66">报告纪律不是形式要求，</text>
+  <text x="870" y="508" font-size="11" fill="#6B6B66">是给别人留的路（⑦7.4）</text>
+  <text x="556" y="580" font-size="12.5" font-weight="bold" fill="#3C5488">从 3 010 份到你课题的一批分离株：链路相同，差别只在 n——以及雷区密度。</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="740" font-size="15" font-weight="bold" fill="#3C5488">同一套链路：候选居多、验证居少、报告写全——3 010 份上和 40 株上同样必要。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

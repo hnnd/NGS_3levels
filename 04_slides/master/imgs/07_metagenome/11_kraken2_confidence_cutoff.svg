@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="120" y="52" width="520" height="56" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="3"/>
+<rect x="146" y="68" width="40" height="24" fill="#3C5488" rx="5"/>
+<rect x="200" y="68" width="40" height="24" fill="#3C8DAD" rx="5"/>
+<rect x="254" y="68" width="40" height="24" fill="#3C5488" rx="5"/>
+<rect x="308" y="68" width="40" height="24" fill="#3C8DAD" rx="5"/>
+<rect x="362" y="68" width="40" height="24" fill="#3C5488" rx="5"/>
+<rect x="416" y="68" width="40" height="24" fill="#3C8DAD" rx="5"/>
+<rect x="470" y="68" width="40" height="24" fill="#3C5488" rx="5"/>
+<rect x="524" y="68" width="40" height="24" fill="#3C8DAD" rx="5"/>
+<rect x="578" y="68" width="40" height="24" fill="#3C5488" rx="5"/>
+<polygon points="50.0,150 710.0,150 660.0,300 100.0,300" fill="#D6EFF4" stroke="#3C8DAD" stroke-width="4"/>
+<text x="380" y="243.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="middle" font-weight="bold">第一道：置信度压偶然匹配</text>
+<polygon points="120.0,322 640.0,322 590.0,452 170.0,452" fill="#D8EEE9" stroke="#00A087" stroke-width="4"/>
+<text x="380" y="402.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">第二道：读段数截断长尾</text>
+<rect x="230" y="484" width="300" height="74" fill="#00A087" rx="14"/>
+<polyline points="354,522 374,540 410,502" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="300" x2="380" y2="320" stroke="#3C8DAD" stroke-width="5" stroke-linecap="round"/>
+<polygon points="380,320 374.29135365716604,307.2167548356277 385.70864634283396,307.2167548356277" fill="#3C8DAD"/>
+<line x1="380" y1="452" x2="380" y2="482" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="380,482 374.29135365716604,469.2167548356277 385.70864634283396,469.2167548356277" fill="#00A087"/>
+<rect x="218" y="472" width="324" height="98" fill="none" rx="16" stroke="#E64B35" stroke-width="4" stroke-dasharray="12 9"/>
+<text x="380" y="646" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#E64B35" text-anchor="middle" font-weight="bold">阈值写进方法</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="96" y="52" width="288" height="82" fill="#E3E8F2" rx="41" stroke="#3C5488" stroke-width="4"/>
+<rect x="136" y="82" width="44" height="24" fill="#4DBBD5" rx="6"/>
+<rect x="194" y="82" width="44" height="24" fill="#3C8DAD" rx="6"/>
+<rect x="252" y="82" width="44" height="24" fill="#4DBBD5" rx="6"/>
+<rect x="310" y="82" width="44" height="24" fill="#3C8DAD" rx="6"/>
+<line x1="240" y1="144" x2="240" y2="190" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="240,190 234.291353657166,177.21675483562768 245.708646342834,177.21675483562768" fill="#4DBBD5"/>
+<rect x="56" y="190" width="368" height="130" fill="#D6EFF4" rx="18" stroke="#4DBBD5" stroke-width="4"/>
+<text x="240" y="268" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C8DAD" text-anchor="middle" font-weight="bold">宿主参考比对</text>
+<line x1="430" y1="226" x2="494" y2="226" stroke="#C0623F" stroke-width="5" stroke-linecap="round"/>
+<polygon points="494,226 481.2167548356277,231.708646342834 481.2167548356277,220.291353657166" fill="#C0623F"/>
+<line x1="430" y1="284" x2="494" y2="470" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="494,470 484.44276083275037,459.76969308867086 495.23882579489793,456.0549180479319" fill="#00A087"/>
+<rect x="494" y="160" width="272" height="132" fill="#FBE3D8" rx="18" stroke="#C0623F" stroke-width="4"/>
+<text x="630" y="215.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#C0623F" text-anchor="middle" font-weight="bold">比对命中：</text>
+<text x="630" y="258.8" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#C0623F" text-anchor="middle" font-weight="bold">剔除</text>
+<text x="630" y="342" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">误删不可逆</text>
+<rect x="494" y="432" width="272" height="132" fill="#D8EEE9" rx="18" stroke="#00A087" stroke-width="4"/>
+<text x="630" y="487.59999999999997" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">未比对：</text>
+<text x="630" y="530.8000000000001" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">进入双路线</text>
+</svg>

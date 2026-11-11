@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">从 HGP 到 T2T：组装器换代与「完成图」标准的抬升</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">短读长 DBG ｜ 长读长容错 ｜ HiFi 与零缺口 —— 依据 06_assembly_basics_lecture.md ④4.4–4.7 ｜ ⑪文献年表</text>
+  <!-- 图例 -->
+  <circle cx="932" cy="46" r="6" fill="#3C5488"/>
+  <text x="946" y="51" font-size="12" fill="#33332E">短读长时代</text>
+  <circle cx="1056" cy="46" r="6" fill="#4DBBD5"/>
+  <text x="1070" y="51" font-size="12" fill="#33332E">长读长时代</text>
+  <circle cx="932" cy="70" r="6" fill="#00A087"/>
+  <text x="946" y="75" font-size="12" fill="#33332E">HiFi 与 T2T</text>
+  <circle cx="1056" cy="70" r="6" fill="#E64B35"/>
+  <text x="1070" y="75" font-size="12" fill="#33332E">标准改写</text>
+
+  <!-- ============ 时代条 ============ -->
+  <rect x="84" y="132" width="301" height="40" rx="8" fill="#EDEFF5" stroke="#3C5488" stroke-width="1.2"/>
+  <text x="234" y="157" font-size="12.5" font-weight="bold" fill="#3C5488" text-anchor="middle">2001–2010 ｜ 短读长时代</text>
+  <rect x="385" y="132" width="340" height="40" rx="8" fill="#E7F5F9" stroke="#4DBBD5" stroke-width="1.2"/>
+  <text x="555" y="157" font-size="12.5" font-weight="bold" fill="#3C8DAD" text-anchor="middle">2011–2020 ｜ 长读长容错时代</text>
+  <rect x="725" y="132" width="407" height="40" rx="8" fill="#E4F3EF" stroke="#00A087" stroke-width="1.2"/>
+  <text x="928" y="157" font-size="12.5" font-weight="bold" fill="#00A087" text-anchor="middle">2021– ｜ HiFi 与 T2T 时代：标准被抬高</text>
+
+  <!-- ============ 时间轴 ============ -->
+  <line x1="70" y1="430" x2="1140" y2="430" stroke="#6B6B66" stroke-width="2"/>
+  <polygon points="1152,430 1138,424 1138,436" fill="#6B6B66"/>
+
+  <!-- 节点 1：2001 -->
+  <circle cx="130" cy="430" r="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="2.5"/>
+  <line x1="130" y1="418" x2="130" y2="358" stroke="#3C5488" stroke-width="1.2"/>
+  <text x="130" y="286" font-size="16" font-weight="bold" fill="#3C5488" text-anchor="middle">2001</text>
+  <text x="130" y="308" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">HGP 工作草图发表</text>
+  <text x="130" y="330" font-size="11" fill="#6B6B66" text-anchor="middle">首个大型基因组组装里程碑</text>
+  <text x="130" y="348" font-size="11" fill="#6B6B66" text-anchor="middle">人类参考基因组的起点</text>
+
+  <!-- 节点 2：2011 -->
+  <circle cx="300" cy="430" r="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="2.5"/>
+  <line x1="300" y1="442" x2="300" y2="470" stroke="#3C5488" stroke-width="1.2"/>
+  <text x="300" y="494" font-size="16" font-weight="bold" fill="#3C5488" text-anchor="middle">2011</text>
+  <text x="300" y="516" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">DBG 成短读长标准</text>
+  <text x="300" y="538" font-size="11" fill="#6B6B66" text-anchor="middle">短 read 免两两比对（④4.4）</text>
+  <text x="300" y="556" font-size="11" fill="#6B6B66" text-anchor="middle">Compeau et al. 2011（⑪）</text>
+
+  <!-- 节点 3：2017 -->
+  <circle cx="470" cy="430" r="10" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="2.5"/>
+  <line x1="470" y1="418" x2="470" y2="358" stroke="#4DBBD5" stroke-width="1.2"/>
+  <text x="470" y="286" font-size="16" font-weight="bold" fill="#3C8DAD" text-anchor="middle">2017</text>
+  <text x="470" y="308" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Canu</text>
+  <text x="470" y="330" font-size="11" fill="#6B6B66" text-anchor="middle">OLC + 纠错（④4.6）</text>
+  <text x="470" y="348" font-size="11" fill="#6B6B66" text-anchor="middle">长读长组装代表作（⑪）</text>
+
+  <!-- 节点 4：2019 -->
+  <circle cx="640" cy="430" r="10" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="2.5"/>
+  <line x1="640" y1="442" x2="640" y2="470" stroke="#4DBBD5" stroke-width="1.2"/>
+  <text x="640" y="494" font-size="16" font-weight="bold" fill="#3C8DAD" text-anchor="middle">2019</text>
+  <text x="640" y="516" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Flye</text>
+  <text x="640" y="538" font-size="11" fill="#6B6B66" text-anchor="middle">repeat graph（④4.6）</text>
+  <text x="640" y="556" font-size="11" fill="#6B6B66" text-anchor="middle">先建图再精修，快得多（⑪）</text>
+
+  <!-- 节点 5：2021 -->
+  <circle cx="810" cy="430" r="10" fill="#FFFFFF" stroke="#00A087" stroke-width="2.5"/>
+  <line x1="810" y1="418" x2="810" y2="358" stroke="#00A087" stroke-width="1.2"/>
+  <text x="810" y="286" font-size="16" font-weight="bold" fill="#00A087" text-anchor="middle">2021</text>
+  <text x="810" y="308" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">hifiasm</text>
+  <text x="810" y="330" font-size="11" fill="#6B6B66" text-anchor="middle">DBG 思想 + HiFi 输入（⑪）</text>
+  <text x="810" y="348" font-size="11" fill="#6B6B66" text-anchor="middle">「又长又准」让 DBG 复活</text>
+
+  <!-- 节点 6：2022（红） -->
+  <circle cx="990" cy="430" r="11" fill="#E64B35"/>
+  <line x1="990" y1="443" x2="990" y2="470" stroke="#E64B35" stroke-width="1.2"/>
+  <text x="990" y="494" font-size="16" font-weight="bold" fill="#E64B35" text-anchor="middle">2022</text>
+  <text x="990" y="516" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">T2T-CHM13</text>
+  <text x="990" y="538" font-size="11" fill="#6B6B66" text-anchor="middle">首个零缺口人类基因组（⑪）</text>
+  <text x="990" y="556" font-size="11" fill="#E64B35" text-anchor="middle">「完成图」成为可检验声明</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="620" width="1104" height="102" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="620" width="4" height="102" rx="2" fill="#3C5488"/>
+  <text x="76" y="650" font-size="14" font-weight="bold" fill="#3C5488">T2T 之后，「完成图」不再是模糊形容词：gapless、（细菌）环状、序列完整覆盖，且需独立证据支撑（④4.7）</text>
+  <text x="76" y="676" font-size="12.5" fill="#33332E">细菌完成图 = 一条 gapless 环状 contig + 证据链（回贴覆盖均匀、BUSCO 完整）；只有「contig 少、N50 高」不算（⑥6.5）。</text>
+  <text x="76" y="702" font-size="12.5" fill="#33332E">也别被「新」绑架：细菌 4–5 Mb 体量上，组装器之间的差距通常小于数据本身的差距——覆盖度够不够、read 干不干净（④4.7）。</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

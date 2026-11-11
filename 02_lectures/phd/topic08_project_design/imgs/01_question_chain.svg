@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">问题 → 数据 → 裁决 → 结论 → 防控：可否定性的主链</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">互斥候选解释 ｜ 数据裁决二选一 —— 依据 08_project_design_lecture.md ③3.1 · ④4.1</text>
+  <!-- 图例 -->
+  <rect x="926" y="36" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="46" font-size="12" fill="#33332E">问题 / 防控行动</text>
+  <rect x="926" y="58" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="68" font-size="12" fill="#33332E">数据 / 证据</text>
+  <rect x="926" y="80" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="90" font-size="12" fill="#33332E">成立的结论 / 存活的解释</text>
+  <rect x="926" y="102" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="112" font-size="12" fill="#33332E">被否定的解释</text>
+
+  <!-- ============ 面板 A：孟加拉小麦穗瘟案例链 ============ -->
+  <rect x="48" y="120" width="680" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="17" font-weight="bold" fill="#3C5488">实例：2016 年孟加拉小麦穗瘟溯源（Islam 等 2016）</text>
+  <text x="72" y="176" font-size="12.5" fill="#6B6B66">病原稻瘟菌属 Magnaporthe oryzae——“问题 → 数据 → 结论 → 防控”四环俱全</text>
+  <line x1="72" y1="190" x2="704" y2="190" stroke="#E9E9E5"/>
+
+  <!-- ① 问题 -->
+  <rect x="88" y="208" width="420" height="58" rx="8" fill="#3C5488"/>
+  <text x="298" y="231" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">问题：穗瘟为何突然暴发？</text>
+  <text x="298" y="252" font-size="10.5" fill="#D8DEEC" text-anchor="middle">2016.02 · 8 个县 · 约 1.5 万公顷（约当全国麦区 16%）</text>
+  <text x="528" y="240" font-size="11" fill="#6B6B66">两个候选解释互斥，</text>
+  <text x="528" y="258" font-size="11" fill="#6B6B66">数据只能对一个</text>
+
+  <!-- 分叉 -->
+  <polyline points="298,266 298,286 233,286 233,298" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="233,304 229,296 237,296" fill="#6B6B66"/>
+  <polyline points="298,266 298,286 543,286 543,298" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="543,304 539,296 547,296" fill="#6B6B66"/>
+
+  <rect x="88" y="304" width="290" height="64" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="233" y="330" font-size="12.5" font-weight="bold" fill="#3C5488" text-anchor="middle">候选一：本地稻瘟菌跳寄主</text>
+  <text x="233" y="352" font-size="10.5" fill="#6B6B66" text-anchor="middle">若真：防控走田间防治 + 广谱抗病育种</text>
+  <rect x="398" y="304" width="290" height="64" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="543" y="330" font-size="12.5" font-weight="bold" fill="#3C5488" text-anchor="middle">候选二：南美小麦致病谱系引入</text>
+  <text x="543" y="352" font-size="10.5" fill="#6B6B66" text-anchor="middle">若真：防控走检疫 + 针对特定谱系的抗源</text>
+
+  <!-- 汇入数据 -->
+  <line x1="233" y1="368" x2="233" y2="396" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="233,402 229,394 237,394" fill="#6B6B66"/>
+  <line x1="543" y1="368" x2="543" y2="396" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="543,402 539,394 547,394" fill="#6B6B66"/>
+
+  <!-- ② 数据 -->
+  <rect x="88" y="402" width="600" height="74" rx="8" fill="#4DBBD5"/>
+  <text x="388" y="426" font-size="13.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">数据：暴发数周内三线取证</text>
+  <text x="388" y="446" font-size="10.5" fill="#FFFFFF" text-anchor="middle">田间病样直接测序获病原序列 · 分离株再接种 · 与全球对照群体系统基因组比较</text>
+  <text x="388" y="464" font-size="10" fill="#EAF7FB" text-anchor="middle">田间测序污染控制难——单条证据链都有环境噪声，互证才是它的“生物学重复”</text>
+
+  <line x1="388" y1="476" x2="388" y2="502" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="388,508 384,500 392,500" fill="#6B6B66"/>
+
+  <!-- ③ 裁决 -->
+  <rect x="88" y="508" width="600" height="84" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="108" y="530" font-size="13" font-weight="bold" fill="#3C5488">裁决：只活一个</text>
+  <text x="108" y="558" font-size="12.5" fill="#6B6B66">候选一：本地稻瘟菌跳寄主</text>
+  <line x1="104" y1="553.5" x2="278" y2="553.5" stroke="#E64B35" stroke-width="2.5"/>
+  <line x1="288" y1="548" x2="300" y2="560" stroke="#E64B35" stroke-width="2.5"/>
+  <line x1="300" y1="548" x2="288" y2="560" stroke="#E64B35" stroke-width="2.5"/>
+  <text x="312" y="558" font-size="11" fill="#6B6B66">全球系统基因组：亚洲分离株不聚在该枝</text>
+  <polyline points="106,576 112,582 124,568" fill="none" stroke="#00A087" stroke-width="2.5"/>
+  <text x="134" y="582" font-size="12.5" font-weight="bold" fill="#00A087">候选二：南美小麦致病谱系——成立</text>
+  <text x="356" y="582" font-size="11" fill="#33332E">佐证：分离株对小麦致病、对水稻不致病</text>
+
+  <!-- 分流到结论与防控 -->
+  <polyline points="388,592 388,606 233,606 233,614" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="233,620 229,612 237,612" fill="#6B6B66"/>
+  <polyline points="388,592 388,606 543,606 543,614" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="543,620 539,612 547,612" fill="#6B6B66"/>
+
+  <rect x="88" y="620" width="290" height="52" rx="8" fill="#00A087"/>
+  <text x="233" y="641" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">结论：南美谱系引起，排除本地适应</text>
+  <text x="233" y="659" font-size="9.5" fill="#DFF3EE" text-anchor="middle">“排除本地跳寄主”本身即发表级结论</text>
+  <rect x="398" y="620" width="290" height="52" rx="8" fill="#3C5488"/>
+  <text x="543" y="641" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">防控行动：检疫 + 针对谱系的抗源筛选</text>
+  <text x="543" y="659" font-size="9.5" fill="#D8DEEC" text-anchor="middle">而非仅田间防治与广谱育种</text>
+
+  <!-- ============ 面板 B：四个必答问题 ============ -->
+  <rect x="752" y="120" width="400" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="776" y="154" font-size="17" font-weight="bold" fill="#3C5488">四个必答问题（④4.1）</text>
+  <text x="776" y="176" font-size="12" fill="#6B6B66">每个都有可操作的判据——答不上就是方案缺口</text>
+  <line x1="776" y1="190" x2="1128" y2="190" stroke="#E9E9E5"/>
+
+  <!-- 问题一 -->
+  <rect x="776" y="210" width="20" height="20" rx="4" fill="#3C5488"/>
+  <text x="786" y="225" font-size="11" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="806" y="225" font-size="13" font-weight="bold" fill="#33332E">未知能一句话写清吗？</text>
+  <text x="776" y="250" font-size="11.5" fill="#6B6B66">写成“已知 A，不知道 B”：写不出 A 是文献</text>
+  <text x="776" y="268" font-size="11.5" fill="#6B6B66">不够，写不出 B 是还停在“想做某个方向”。</text>
+  <text x="776" y="286" font-size="11" fill="#3C8DAD">例：已知穗瘟暴发，不知病原从哪里来。</text>
+
+  <!-- 问题二 -->
+  <rect x="776" y="312" width="20" height="20" rx="4" fill="#3C5488"/>
+  <text x="786" y="327" font-size="11" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="806" y="327" font-size="13" font-weight="bold" fill="#33332E">可否定吗？（进阶）</text>
+  <text x="776" y="352" font-size="11.5" fill="#6B6B66">必须推出两种可区分的观测：若 X 成立应见 P，</text>
+  <text x="776" y="370" font-size="11.5" fill="#6B6B66">若 not-X 应见 Q；写不出 Q 是立场不是问题。</text>
+  <text x="776" y="388" font-size="11" fill="#3C8DAD">例：跳寄主 vs 引入——全球群体比较可区分。</text>
+
+  <!-- 问题三 -->
+  <rect x="776" y="414" width="20" height="20" rx="4" fill="#3C5488"/>
+  <text x="786" y="429" font-size="11" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="806" y="429" font-size="13" font-weight="bold" fill="#33332E">为什么必须用组学？</text>
+  <text x="776" y="454" font-size="11.5" fill="#6B6B66">组学的比较优势只有一条：无先验假设时的</text>
+  <text x="776" y="472" font-size="11.5" fill="#6B6B66">全局筛查；答不出“为什么不是 qPCR”</text>
+  <text x="776" y="490" font-size="11.5" fill="#6B6B66">多半是为做而做。</text>
+  <text x="776" y="508" font-size="11" fill="#3C8DAD">例：病原未知，直接测序溯源，无先验基因列表。</text>
+
+  <!-- 问题四 -->
+  <rect x="776" y="534" width="20" height="20" rx="4" fill="#3C5488"/>
+  <text x="786" y="549" font-size="11" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="806" y="549" font-size="13" font-weight="bold" fill="#33332E">数据从哪来？失败了怎么办？</text>
+  <text x="776" y="574" font-size="11.5" fill="#6B6B66">自测 / 公共 / 合作三条路；至少两个可执行的</text>
+  <text x="776" y="592" font-size="11.5" fill="#6B6B66">Plan B——写它的过程会暴露主路线的脆弱环节。</text>
+  <text x="776" y="610" font-size="11" fill="#3C8DAD">例：田间测序污染难控——靠独立证据互证立住。</text>
+
+  <!-- 阴性结果价值 -->
+  <rect x="776" y="632" width="4" height="40" rx="2" fill="#00A087"/>
+  <rect x="776" y="632" width="352" height="40" rx="6" fill="#FAFAF7"/>
+  <text x="792" y="649" font-size="11.5" fill="#33332E">可否定性决定阴性结果的价值：方案若能在答案为</text>
+  <text x="792" y="665" font-size="11.5" fill="#33332E">“否”时仍产出排除性结论，就不押在单次结果上。</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="4" height="58" rx="2" fill="#3C5488"/>
+  <rect x="48" y="696" width="1104" height="58" rx="6" fill="#FAFAF7"/>
+  <text x="66" y="718" font-size="12.5" fill="#33332E">主链纪律：先画得出组图骨架，再去测序——每个节点都要能回答“预期结果是什么、结果不对时长什么样”（④4.2）。</text>
+  <text x="66" y="740" font-size="12.5" fill="#33332E">先验假设一旦锚错（“就是稻瘟菌”），全套防控都会打错靶——让数据改写问题本身，是方案能得到的最好结果之一（③3.1）。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

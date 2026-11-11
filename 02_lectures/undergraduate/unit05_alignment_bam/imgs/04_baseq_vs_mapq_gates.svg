@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">两个都叫「质量」：BaseQ 管读对，MAPQ 管放对</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">碱基质量值 ｜ 比对质量值 ｜ 变异检测的两道独立闸门 —— 依据 05_alignment_bam_lecture.md ④4.6</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="57" font-size="12" fill="#33332E">BaseQ / 读层</text>
+  <rect x="1058" y="46" width="12" height="12" fill="#3C5488"/>
+  <text x="1078" y="57" font-size="12" fill="#33332E">MAPQ / 比对层</text>
+  <rect x="926" y="68" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="79" font-size="12" fill="#33332E">闸门</text>
+  <rect x="1002" y="68" width="12" height="12" fill="#E64B35"/>
+  <text x="1022" y="79" font-size="12" fill="#33332E">假阳性泄漏</text>
+
+  <!-- ============ 左卡：BaseQ ============ -->
+  <rect x="48" y="116" width="530" height="286" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="116" width="530" height="46" rx="10" fill="#4DBBD5"/>
+  <rect x="48" y="140" width="530" height="22" fill="#4DBBD5"/>
+  <text x="72" y="147" font-size="17" font-weight="bold" fill="#FFFFFF">碱基质量值 BaseQ（FASTQ 第 11 列）</text>
+  <text x="554" y="147" font-size="12" fill="#FFFFFF" text-anchor="end">读层</text>
+  <text x="72" y="192" font-size="12.5" font-weight="bold" fill="#3C5488">回答：这个碱基「读」对了没有（仪器层面）</text>
+  <text x="72" y="222" font-size="12.5" fill="#33332E">谁产生：测序仪 / base caller</text>
+  <text x="72" y="248" font-size="12.5" fill="#33332E">编码：Phred+33 字符，I ≈ Q40</text>
+  <text x="72" y="274" font-size="12.5" fill="#33332E">出错后果：一个错误碱基被当成真实变异</text>
+  <text x="72" y="304" font-size="13" font-weight="bold" fill="#3C8DAD">类比：包裹本身完好无损</text>
+  <rect x="72" y="322" width="482" height="56" rx="6" fill="#FAFAF7"/>
+  <text x="88" y="344" font-size="12" fill="#33332E">亲自看：FASTQ 第 4 行逐字符对应第 2 行碱基；</text>
+  <text x="88" y="366" font-size="12" fill="#33332E">末端质量塌陷是 u04 质控要剪掉的部分</text>
+
+  <!-- ============ 右卡：MAPQ ============ -->
+  <rect x="622" y="116" width="530" height="286" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="622" y="116" width="530" height="46" rx="10" fill="#3C5488"/>
+  <rect x="622" y="140" width="530" height="22" fill="#3C5488"/>
+  <text x="646" y="147" font-size="17" font-weight="bold" fill="#FFFFFF">比对质量值 MAPQ（SAM 第 5 列）</text>
+  <text x="1128" y="147" font-size="12" fill="#FFFFFF" text-anchor="end">比对层</text>
+  <text x="646" y="192" font-size="12.5" font-weight="bold" fill="#3C5488">回答：这条 read「放」对位置了没有（分析层面）</text>
+  <text x="646" y="222" font-size="12.5" fill="#33332E">谁产生：比对软件</text>
+  <text x="646" y="248" font-size="12.5" fill="#33332E">尺度：同为 Phred 尺度；-q 30 ≈ 放错概率 ≤ 千分之一</text>
+  <text x="646" y="274" font-size="12.5" fill="#33332E">出错后果：read 堆到错误位置，制造一个假变异</text>
+  <text x="646" y="304" font-size="13" font-weight="bold" fill="#3C5488">类比：面单上的地址足够独一无二</text>
+  <rect x="646" y="322" width="482" height="56" rx="6" fill="#FAFAF7"/>
+  <text x="662" y="344" font-size="12" fill="#33332E">亲自看：samtools view x.bam | head -1 | cut -f5；</text>
+  <text x="662" y="366" font-size="12" fill="#33332E">bwa 上限 60、bowtie2 上限 42，不能直接比数值（⑩-7）</text>
+
+  <!-- ============ 中部金句 ============ -->
+  <rect x="48" y="424" width="1104" height="88" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <rect x="48" y="424" width="4" height="88" rx="2" fill="#3C5488"/>
+  <text x="76" y="456" font-size="16" font-weight="bold" fill="#3C5488">包裹完好救不了地址含糊</text>
+  <text x="76" y="486" font-size="13" fill="#33332E">一条 read 每个碱基都是 Q40，却恰好落在重复 5 份的序列里——碱基全对，位置五选一，MAPQ 就是 0；反过来，位置唯一也不保证碱基都对。</text>
+
+  <!-- ============ 两道闸门 ============ -->
+  <rect x="48" y="536" width="1104" height="176" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="566" font-size="15" font-weight="bold" fill="#3C5488">变异检测的两道互相独立的闸门</text>
+
+  <!-- reads -->
+  <rect x="84" y="592" width="120" height="16" rx="4" fill="#4DBBD5"/>
+  <rect x="96" y="614" width="108" height="16" rx="4" fill="#4DBBD5"/>
+  <rect x="84" y="636" width="114" height="16" rx="4" fill="#4DBBD5"/>
+  <text x="84" y="674" font-size="11.5" fill="#6B6B66">比对好的 reads</text>
+  <line x1="216" y1="622" x2="248" y2="622" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="248,617 248,627 256,622" fill="#6B6B66"/>
+
+  <!-- gate 1 -->
+  <rect x="258" y="588" width="250" height="68" rx="8" fill="#F39B7F"/>
+  <text x="383" y="614" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">闸门 1：MAPQ 过滤</text>
+  <text x="383" y="638" font-size="12" fill="#33332E" text-anchor="middle">-q 30 ｜ 拦「放错位置」</text>
+  <line x1="508" y1="622" x2="540" y2="622" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="540,617 540,627 548,622" fill="#6B6B66"/>
+
+  <!-- gate 2 -->
+  <rect x="550" y="588" width="250" height="68" rx="8" fill="#00A087"/>
+  <text x="675" y="614" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">闸门 2：碱基质量过滤</text>
+  <text x="675" y="638" font-size="12" fill="#FFFFFF" text-anchor="middle">拦「读错碱基」</text>
+  <line x1="800" y1="622" x2="832" y2="622" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="832,617 832,627 840,622" fill="#6B6B66"/>
+
+  <!-- output -->
+  <rect x="842" y="592" width="150" height="60" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.8"/>
+  <text x="917" y="620" font-size="13.5" font-weight="bold" fill="#00A087" text-anchor="middle">可信变异</text>
+  <text x="917" y="640" font-size="11" fill="#6B6B66" text-anchor="middle">阈值细则见硕士 m03</text>
+  <rect x="1024" y="588" width="106" height="68" rx="8" fill="#FDF2F0" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="1077" y="614" font-size="12" font-weight="bold" fill="#E64B35" text-anchor="middle">少任何一道，</text>
+  <text x="1077" y="634" font-size="12" font-weight="bold" fill="#E64B35" text-anchor="middle">假阳性从另</text>
+  <text x="1077" y="654" font-size="12" font-weight="bold" fill="#E64B35" text-anchor="middle">一道漏进来</text>
+
+  <!-- ============ 底部 ============ -->
+  <text x="48" y="748" font-size="12.5" fill="#33332E">同一位点两类证据都过闸才可信：MAPQ 分布与 BaseQ 分布要分别看——这正是 ⑥6.3 反例里「比对率好看、MAPQ 崩了」的另一半检查。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

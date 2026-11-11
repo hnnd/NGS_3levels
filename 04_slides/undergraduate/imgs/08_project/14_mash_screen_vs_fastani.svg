@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="48" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">第一步 Mash：</text>
+<text x="48" y="96" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">草图初筛 Top10</text>
+<rect x="118" y="124" width="110" height="52" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="4"/>
+<text x="173" y="158" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">query</text>
+<text x="173" y="208" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">RefSeq 6 GB</text>
+<polygon points="48,224 298,224 258,306 88,306" fill="#3C5488"/>
+<text x="173" y="274" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">MinHash k=21</text>
+<rect x="68" y="328" width="210" height="60" fill="#3C5488" rx="12"/>
+<text x="173" y="368" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Top 10 参考集</text>
+<line x1="318" y1="280" x2="400" y2="280" stroke="#6B6B66" stroke-width="7" stroke-linecap="round"/>
+<polygon points="400,280 383.56439907437846,287.3396881550723 383.56439907437846,272.6603118449277" fill="#6B6B66"/>
+<text x="420" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="start" font-weight="bold">第二步 FastANI：</text>
+<text x="420" y="96" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="start" font-weight="bold">片段精细比对</text>
+<rect x="420" y="140" width="130" height="22" fill="#4DBBD5" rx="5"/>
+<line x1="556" y1="151" x2="606" y2="151" stroke="#3C8DAD" stroke-width="4" stroke-linecap="round"/>
+<polygon points="606,151 595.0429327162523,155.89312543671485 595.0429327162523,146.10687456328515" fill="#3C8DAD"/>
+<rect x="420" y="174" width="130" height="22" fill="#4DBBD5" rx="5"/>
+<line x1="606" y1="185" x2="556" y2="185" stroke="#3C8DAD" stroke-width="4" stroke-linecap="round"/>
+<polygon points="556,185 566.9570672837477,180.10687456328515 566.9570672837477,189.89312543671485" fill="#3C8DAD"/>
+<rect x="420" y="208" width="130" height="22" fill="#4DBBD5" rx="5"/>
+<line x1="556" y1="219" x2="606" y2="219" stroke="#3C8DAD" stroke-width="4" stroke-linecap="round"/>
+<polygon points="606,219 595.0429327162523,223.89312543671485 595.0429327162523,214.10687456328515" fill="#3C8DAD"/>
+<rect x="420" y="242" width="130" height="22" fill="#4DBBD5" rx="5"/>
+<line x1="606" y1="253" x2="556" y2="253" stroke="#3C8DAD" stroke-width="4" stroke-linecap="round"/>
+<polygon points="556,253 566.9570672837477,248.10687456328515 566.9570672837477,257.89312543671485" fill="#3C8DAD"/>
+<rect x="420" y="276" width="130" height="22" fill="#4DBBD5" rx="5"/>
+<line x1="556" y1="287" x2="606" y2="287" stroke="#3C8DAD" stroke-width="4" stroke-linecap="round"/>
+<polygon points="606,287 595.0429327162523,291.89312543671485 595.0429327162523,282.10687456328515" fill="#3C8DAD"/>
+<rect x="420" y="310" width="130" height="22" fill="#4DBBD5" rx="5"/>
+<line x1="606" y1="321" x2="556" y2="321" stroke="#3C8DAD" stroke-width="4" stroke-linecap="round"/>
+<polygon points="556,321 566.9570672837477,316.10687456328515 566.9570672837477,325.89312543671485" fill="#3C8DAD"/>
+<text x="420" y="360" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">3,000 bp frags</text>
+<rect x="620" y="190" width="140" height="110" fill="#FFFFFF" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="690" y="238" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">ANI</text>
+<text x="690" y="276" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">精确值</text>
+<rect x="150" y="470" width="500" height="62" fill="#E9E9E5" rx="12"/>
+<text x="400" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">fragLen = 3000, k = 16</text>
+</svg>

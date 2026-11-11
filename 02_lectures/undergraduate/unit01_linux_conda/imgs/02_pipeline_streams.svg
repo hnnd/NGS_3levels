@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">一切皆文本流：管道与重定向</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">stdin(0) ｜ stdout(1) ｜ stderr(2) ｜ 2&gt;&amp;1 —— 依据 01_linux_conda_lecture.md ④4.2 · ⑤步骤 3</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="57" font-size="12" fill="#33332E">数据流 stdin</text>
+  <rect x="926" y="68" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="79" font-size="12" fill="#33332E">成品输出 stdout</text>
+  <rect x="926" y="90" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="101" font-size="12" fill="#33332E">报错流 stderr</text>
+
+  <!-- ============ 面板 A：管道接力 ============ -->
+  <rect x="48" y="120" width="1104" height="300" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="17" font-weight="bold" fill="#3C5488">管道：上一道的成品出口，接下一道的进料口</text>
+  <text x="72" y="176" font-size="12" fill="#6B6B66">每个工具只做一件事；数据像传料一样流过整条线（④4.2）</text>
+  <line x1="72" y1="190" x2="1128" y2="190" stroke="#E9E9E5"/>
+
+  <!-- 文件起点 -->
+  <rect x="72" y="222" width="104" height="90" rx="6" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="124" y="260" font-size="12.5" fill="#3C8DAD" text-anchor="middle">reads.fa</text>
+  <text x="124" y="280" font-size="10.5" fill="#6B6B66" text-anchor="middle">原始数据</text>
+
+  <!-- 箭头 1 -->
+  <line x1="176" y1="267" x2="220" y2="267" stroke="#4DBBD5" stroke-width="2.5"/>
+  <polygon points="228,267 218,262 218,272" fill="#4DBBD5"/>
+  <text x="202" y="212" font-size="15" font-weight="bold" fill="#3C8DAD" text-anchor="middle">|</text>
+  <text x="202" y="334" font-size="10.5" fill="#6B6B66" text-anchor="middle">stdin(0)</text>
+
+  <!-- 工具 1：grep -->
+  <rect x="228" y="222" width="196" height="90" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.8"/>
+  <text x="326" y="254" font-size="13.5" font-weight="bold" fill="#3C5488" text-anchor="middle">grep -v "^&gt;"</text>
+  <text x="326" y="276" font-size="11" fill="#6B6B66" text-anchor="middle">去掉以 &gt; 开头的标题行</text>
+  <text x="326" y="294" font-size="10.5" fill="#6B6B66" text-anchor="middle">只放行序列行</text>
+
+  <!-- 箭头 2 -->
+  <line x1="424" y1="267" x2="468" y2="267" stroke="#00A087" stroke-width="2.5"/>
+  <polygon points="476,267 466,262 466,272" fill="#00A087"/>
+  <text x="450" y="212" font-size="15" font-weight="bold" fill="#3C8DAD" text-anchor="middle">|</text>
+  <text x="450" y="334" font-size="10.5" fill="#6B6B66" text-anchor="middle">stdout(1)</text>
+
+  <!-- 工具 2：tr -->
+  <rect x="476" y="222" width="150" height="90" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.8"/>
+  <text x="551" y="254" font-size="13.5" font-weight="bold" fill="#3C5488" text-anchor="middle">tr -d '\n'</text>
+  <text x="551" y="276" font-size="11" fill="#6B6B66" text-anchor="middle">删掉所有换行符</text>
+  <text x="551" y="294" font-size="10.5" fill="#6B6B66" text-anchor="middle">序列连成一长串</text>
+
+  <!-- 箭头 3 -->
+  <line x1="626" y1="267" x2="670" y2="267" stroke="#00A087" stroke-width="2.5"/>
+  <polygon points="678,267 668,262 668,272" fill="#00A087"/>
+  <text x="652" y="212" font-size="15" font-weight="bold" fill="#3C8DAD" text-anchor="middle">|</text>
+  <text x="652" y="334" font-size="10.5" fill="#6B6B66" text-anchor="middle">stdout(1)</text>
+
+  <!-- 工具 3：wc -->
+  <rect x="678" y="222" width="140" height="90" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.8"/>
+  <text x="748" y="254" font-size="13.5" font-weight="bold" fill="#3C5488" text-anchor="middle">wc -c</text>
+  <text x="748" y="276" font-size="11" fill="#6B6B66" text-anchor="middle">逐字符计数</text>
+  <text x="748" y="294" font-size="10.5" fill="#6B6B66" text-anchor="middle">数出的就是碱基数</text>
+
+  <!-- 箭头 4 -->
+  <line x1="818" y1="267" x2="862" y2="267" stroke="#00A087" stroke-width="2.5"/>
+  <polygon points="870,267 860,262 860,272" fill="#00A087"/>
+  <text x="844" y="212" font-size="15" font-weight="bold" fill="#3C8DAD" text-anchor="middle">|</text>
+  <text x="844" y="334" font-size="10.5" fill="#6B6B66" text-anchor="middle">stdout(1)</text>
+
+  <!-- 结果 -->
+  <rect x="870" y="222" width="130" height="90" rx="6" fill="#FFFFFF" stroke="#00A087" stroke-width="1.8"/>
+  <text x="935" y="260" font-size="12.5" font-weight="bold" fill="#00A087" text-anchor="middle">总碱基数</text>
+  <text x="935" y="282" font-size="10.5" fill="#6B6B66" text-anchor="middle">一行命令出结果</text>
+
+  <!-- 右侧注解 -->
+  <rect x="1020" y="222" width="4" height="90" rx="2" fill="#3C5488"/>
+  <text x="1036" y="250" font-size="11.5" fill="#33332E">三道管道</text>
+  <text x="1036" y="270" font-size="11.5" fill="#33332E">串起四个工具</text>
+  <text x="1036" y="290" font-size="10.5" fill="#6B6B66">每段只看</text>
+  <text x="1036" y="306" font-size="10.5" fill="#6B6B66">自己那一步</text>
+
+  <text x="72" y="376" font-size="12.5" fill="#33332E">统计 FASTA 总碱基数：grep -v "^&gt;" reads.fa | tr -d '\n' | wc -c（⑤步骤 3）</text>
+  <text x="72" y="400" font-size="11.5" fill="#6B6B66">命令再长也别一行行背——读懂流水线的办法，是盯住数据在每个工具之间变成了什么。</text>
+
+  <!-- ============ 面板 B：重定向 ============ -->
+  <rect x="48" y="448" width="1104" height="300" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="482" font-size="17" font-weight="bold" fill="#3C5488">重定向：报错走的是另一条带子</text>
+  <text x="72" y="504" font-size="12" fill="#6B6B66">stdout(1) 成品出口与 stderr(2) 报错出口是两条独立的带子——只重定向 1，报错仍在屏幕上（④4.2）</text>
+  <line x1="72" y1="518" x2="1128" y2="518" stroke="#E9E9E5"/>
+
+  <!-- 左：只写 > 的情形 -->
+  <text x="72" y="546" font-size="13" font-weight="bold" fill="#33332E">只写 &gt; 时</text>
+  <rect x="72" y="562" width="104" height="44" rx="6" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="124" y="589" font-size="11.5" fill="#3C8DAD" text-anchor="middle">reads.fq</text>
+  <line x1="176" y1="584" x2="188" y2="584" stroke="#4DBBD5" stroke-width="2"/>
+  <polygon points="196,584 188,580 188,588" fill="#4DBBD5"/>
+  <rect x="196" y="556" width="200" height="76" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.8"/>
+  <text x="296" y="588" font-size="13.5" font-weight="bold" fill="#3C5488" text-anchor="middle">bwa mem ...</text>
+  <text x="296" y="610" font-size="10.5" fill="#6B6B66" text-anchor="middle">任何命令都有这三条流</text>
+  <!-- stdout 去文件 -->
+  <line x1="396" y1="580" x2="462" y2="580" stroke="#00A087" stroke-width="2.5"/>
+  <polygon points="470,580 460,575 460,585" fill="#00A087"/>
+  <text x="428" y="570" font-size="11" fill="#00A087" text-anchor="middle">&gt;</text>
+  <rect x="470" y="558" width="150" height="44" rx="6" fill="#FFFFFF" stroke="#00A087" stroke-width="1.6"/>
+  <text x="545" y="578" font-size="11.5" fill="#33332E" text-anchor="middle">out.log</text>
+  <text x="545" y="595" font-size="10" fill="#6B6B66" text-anchor="middle">只接住 stdout</text>
+  <!-- stderr 去屏幕 -->
+  <path d="M 296 632 L 296 668 L 462 668" fill="none" stroke="#F39B7F" stroke-width="2.5"/>
+  <polygon points="470,668 460,663 460,673" fill="#F39B7F"/>
+  <text x="380" y="658" font-size="11" fill="#33332E" text-anchor="middle">stderr(2) 默认接屏幕</text>
+  <rect x="470" y="646" width="150" height="44" rx="6" fill="#FFFFFF" stroke="#F39B7F" stroke-width="1.6"/>
+  <text x="545" y="666" font-size="11.5" fill="#33332E" text-anchor="middle">终端屏幕</text>
+  <text x="545" y="683" font-size="10" fill="#6B6B66" text-anchor="middle">报错打在这里</text>
+  <text x="72" y="714" font-size="12" font-weight="bold" fill="#E64B35">bwa mem ... &gt; out.log 之后：报错仍刷在屏幕上——out.log 里没有它（④4.2）</text>
+  <text x="72" y="736" font-size="11.5" fill="#33332E">&gt; 覆盖写入（<tspan fill="#E64B35">原内容没了！</tspan>）；&gt;&gt; 追加；2&gt; 单独接住报错（⑤步骤 3）</text>
+
+  <!-- 右：推荐写法 -->
+  <rect x="652" y="534" width="476" height="196" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="668" y="562" font-size="13" font-weight="bold" fill="#3C5488">一起存的写法（推荐）</text>
+  <text x="668" y="588" font-size="13" fill="#33332E">canu ... &gt; canu.log 2&gt;&amp;1</text>
+  <rect x="668" y="604" width="110" height="60" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.8"/>
+  <text x="723" y="638" font-size="12.5" font-weight="bold" fill="#3C5488" text-anchor="middle">canu</text>
+  <line x1="778" y1="620" x2="866" y2="620" stroke="#00A087" stroke-width="2.5"/>
+  <polygon points="874,620 864,615 864,625" fill="#00A087"/>
+  <text x="826" y="610" font-size="11" fill="#00A087" text-anchor="middle">1</text>
+  <path d="M 723 664 L 723 684 L 846 684 L 872 646" fill="none" stroke="#F39B7F" stroke-width="2.5"/>
+  <polygon points="876,640 866,642 872,651" fill="#F39B7F"/>
+  <text x="800" y="700" font-size="11" fill="#33332E" text-anchor="middle">2&gt;&amp;1：把 2 号带并进 1 号</text>
+  <rect x="884" y="604" width="222" height="60" rx="6" fill="#FFFFFF" stroke="#00A087" stroke-width="1.6"/>
+  <text x="995" y="626" font-size="11.5" fill="#33332E" text-anchor="middle">canu.log</text>
+  <text x="995" y="644" font-size="10" fill="#6B6B66" text-anchor="middle">成品 + 报错同一文件，时间顺序不乱</text>
+  <text x="668" y="720" font-size="11.5" fill="#33332E">同一招在作业脚本里也有：#$ -j y 把报错并进唯一日志（⑤步骤 6）</text>
+
+  <!-- 页脚 -->
+  <text x="1152" y="770" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

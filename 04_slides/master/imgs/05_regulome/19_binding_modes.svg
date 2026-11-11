@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">结合模式</text>
+<rect x="30" y="112" width="240" height="424" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="54" y1="368" x2="246" y2="368" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt"/>
+<line x1="54" y1="376" x2="246" y2="376" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt"/>
+<rect x="120.0" y="361" width="60" height="22" fill="#00A087" rx="4" stroke="#00A087" stroke-width="3"/>
+<circle cx="150.0" cy="300" r="42" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<line x1="150.0" y1="342" x2="150.0" y2="359" stroke="#00A087" stroke-width="6" stroke-linecap="butt"/>
+<text x="150.0" y="496.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">直接识别结合</text>
+<rect x="280" y="112" width="240" height="424" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="304" y1="368" x2="496" y2="368" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt"/>
+<line x1="304" y1="376" x2="496" y2="376" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt"/>
+<rect x="314.0" y="361" width="56" height="22" fill="#3C8DAD" rx="4" stroke="#3C8DAD" stroke-width="3"/>
+<circle cx="342.0" cy="310" r="32" fill="#3C8DAD" stroke="#3C8DAD" stroke-width="3"/>
+<line x1="342.0" y1="342" x2="342.0" y2="359" stroke="#3C8DAD" stroke-width="6" stroke-linecap="butt"/>
+<rect x="430.0" y="361" width="56" height="22" fill="#3C8DAD" rx="4" stroke="#3C8DAD" stroke-width="3"/>
+<circle cx="458.0" cy="310" r="32" fill="#3C8DAD" stroke="#3C8DAD" stroke-width="3"/>
+<line x1="458.0" y1="342" x2="458.0" y2="359" stroke="#3C8DAD" stroke-width="6" stroke-linecap="butt"/>
+<line x1="370.0" y1="310" x2="430.0" y2="310" stroke="#3C8DAD" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<text x="400.0" y="496.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">共结合因子伴随</text>
+<rect x="530" y="112" width="240" height="424" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="554" y1="368" x2="746" y2="368" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt"/>
+<line x1="554" y1="376" x2="746" y2="376" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt"/>
+<rect x="554.0" y="361" width="56" height="22" fill="#00A087" rx="4" stroke="#00A087" stroke-width="3"/>
+<circle cx="582.0" cy="308" r="32" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<line x1="582.0" y1="340" x2="582.0" y2="359" stroke="#00A087" stroke-width="6" stroke-linecap="butt"/>
+<circle cx="712.0" cy="238" r="36" fill="#F39B7F" stroke="#F39B7F" stroke-width="3"/>
+<line x1="606.0" y1="288" x2="682.0" y2="258" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt" stroke-dasharray="13 9"/>
+<text x="650.0" y="496.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">间接蛋白招募</text>
+<text x="400" y="604" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">富集不等于接触</text>
+</svg>

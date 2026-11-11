@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="48" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">同聚物系统少判，多数票原样确认系统偏差</text>
+<line x1="80" y1="180" x2="80" y2="560" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt"/>
+<line x1="80" y1="560" x2="730" y2="560" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt"/>
+<text x="70" y="570.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#6B6B66" text-anchor="end" font-weight="bold">0.0</text>
+<text x="70" y="380.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#6B6B66" text-anchor="end" font-weight="bold">0.5</text>
+<text x="70" y="190.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#6B6B66" text-anchor="end" font-weight="bold">1.0</text>
+<rect x="140" y="267.894" width="90" height="292.106" fill="#3C5488" rx="8"/>
+<rect x="250" y="545.237" width="90" height="14.763000000000034" fill="#00A087" rx="8"/>
+<text x="185" y="253.894" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="middle" font-weight="bold">0.769</text>
+<text x="295" y="531.237" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#00A087" text-anchor="middle" font-weight="bold">0.039</text>
+<text x="240" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">L=6</text>
+<line x1="237" y1="297.894" x2="243" y2="515.237" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="243,515.237 235.20955641990003,499.01020152262686 249.8833423587987,498.60511502049246" fill="#00A087"/>
+<text x="336" y="406.5655" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#00A087" text-anchor="middle" font-weight="bold">↓ 20×</text>
+<rect x="460" y="248.894" width="90" height="311.106" fill="#3C5488" rx="8"/>
+<rect x="570" y="191.039" width="90" height="368.961" fill="#E64B35" rx="8"/>
+<text x="505" y="234.894" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="middle" font-weight="bold">0.819</text>
+<text x="615" y="177.039" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#E64B35" text-anchor="middle" font-weight="bold">0.971</text>
+<text x="560" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">L=7</text>
+<line x1="557" y1="288.894" x2="563" y2="217.039" stroke="#E64B35" stroke-width="6" stroke-linecap="round"/>
+<polygon points="563,217.039 568.9465955824494,234.0283496337792 554.318129174024,232.8068508034883" fill="#E64B35"/>
+<text x="560" y="139.039" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#E64B35" text-anchor="middle" font-weight="bold">确认错误</text>
+<rect x="100" y="622" width="30" height="30" fill="#3C5488" rx="6"/>
+<text x="140" y="648" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="start" font-weight="bold">单次</text>
+<rect x="230" y="622" width="30" height="30" fill="#00A087" rx="6"/>
+<text x="270" y="648" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="start" font-weight="bold">投票</text>
+<text x="400" y="692" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="26" fill="#6B6B66" text-anchor="middle" font-weight="bold">偏移：L=6 → -0.00 bp ｜ L=7 → -1.00 bp</text>
+</svg>

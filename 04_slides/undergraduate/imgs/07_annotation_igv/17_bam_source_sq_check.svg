@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="66" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">读段回贴本讲序列</text>
+<rect x="30" y="120" width="160" height="110" fill="#4DBBD5" rx="12"/>
+<rect x="50" y="140" width="120" height="16" fill="#FFFFFF" rx="6"/>
+<rect x="50" y="166" width="120" height="16" fill="#FFFFFF" rx="6"/>
+<rect x="50" y="192" width="120" height="16" fill="#FFFFFF" rx="6"/>
+<text x="110" y="282" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">reads</text>
+<line x1="196" y1="175" x2="284" y2="175" stroke="#3C8DAD" stroke-width="6" stroke-linecap="round"/>
+<polygon points="284,175 267.56439907437846,182.33968815507225 267.56439907437846,167.66031184492775" fill="#3C8DAD"/>
+<text x="240" y="312" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">minimap2</text>
+<rect x="290" y="110" width="220" height="170" fill="#3C5488" rx="12"/>
+<text x="400" y="154" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">reads.bam</text>
+<text x="400" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">@SQ contig_1</text>
+<text x="400" y="240" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">LN:4,768,212</text>
+<rect x="530" y="110" width="240" height="170" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="6"/>
+<text x="650" y="154" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">genome.fasta</text>
+<text x="650" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">.fai</text>
+<text x="650" y="240" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">contig_1</text>
+<line x1="510" y1="180" x2="530" y2="180" stroke="#00A087" stroke-width="6" stroke-linecap="butt"/>
+<circle cx="520" cy="180" r="9" fill="#00A087"/>
+<line x1="510" y1="232" x2="530" y2="232" stroke="#00A087" stroke-width="6" stroke-linecap="butt"/>
+<circle cx="520" cy="232" r="9" fill="#00A087"/>
+<text x="520" y="320" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">头行名称长度一致</text>
+<rect x="230" y="560" width="340" height="60" fill="#E64B35" rx="12"/>
+<text x="400" y="602" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">严禁跨组装混用</text>
+</svg>

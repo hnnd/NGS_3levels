@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">技术驱动还是问题驱动：两份方案的分岔</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">方案 A（反例）｜ 方案 B（正例）—— 依据 08_project_design_lecture.md ③</text>
+  <!-- 图例 -->
+  <rect x="926" y="36" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="46" font-size="12" fill="#33332E">技术驱动的病灶</text>
+  <rect x="926" y="58" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="68" font-size="12" fill="#33332E">问题驱动的要点</text>
+  <rect x="926" y="80" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="90" font-size="12" fill="#33332E">方案原文引文</text>
+
+  <!-- ============ 面板 A：方案 A ============ -->
+  <rect x="48" y="124" width="544" height="556" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="17" font-weight="bold" fill="#3C5488">方案 A：先选定技术，再找它能回答什么</text>
+  <text x="72" y="178" font-size="12" fill="#6B6B66">A 类方案在课题开题时最常见</text>
+  <line x1="72" y1="192" x2="568" y2="192" stroke="#E9E9E5"/>
+
+  <rect x="72" y="206" width="496" height="104" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="72" y="206" width="4" height="104" rx="2" fill="#F39B7F"/>
+  <text x="92" y="232" font-size="12.5" fill="#33332E">「拟对 X 病原侵染水稻的过程做单细胞转录组</text>
+  <text x="92" y="256" font-size="12.5" fill="#33332E">+ 空间转录组 + 代谢组，并用 WGCNA 做多组学</text>
+  <text x="92" y="280" font-size="12.5" fill="#33332E">整合，构建调控网络。」</text>
+
+  <rect x="72" y="336" width="8" height="8" fill="#E64B35"/>
+  <text x="92" y="345" font-size="12" fill="#33332E"><tspan font-weight="bold" fill="#E64B35">顺序反了</tspan>——先选技术，再去找它能回答的问题</text>
+  <rect x="72" y="396" width="8" height="8" fill="#E64B35"/>
+  <text x="92" y="405" font-size="12" fill="#33332E"><tspan font-weight="bold" fill="#E64B35">写不出“已知 A，不知道 B”</tspan>——没有可检验的问题</text>
+  <rect x="72" y="456" width="8" height="8" fill="#E64B35"/>
+  <text x="92" y="465" font-size="12" fill="#33332E"><tspan font-weight="bold" fill="#E64B35">预期结果只能写“筛选差异分子”</tspan>（⑥ 反例一）</text>
+  <rect x="72" y="516" width="8" height="8" fill="#E64B35"/>
+  <text x="92" y="525" font-size="12" fill="#33332E"><tspan font-weight="bold" fill="#E64B35">判据：</tspan>删掉任一条技术线，回答会不完整吗？</text>
+  <text x="92" y="545" font-size="11.5" fill="#6B6B66">不会——说明这条线是装饰，不是设计</text>
+
+  <rect x="72" y="568" width="496" height="76" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="72" y="568" width="4" height="76" rx="2" fill="#E64B35"/>
+  <text x="92" y="596" font-size="12.5" fill="#33332E">A 类方案最容易在两年后变成一堆“跑完了，</text>
+  <text x="92" y="618" font-size="12.5" fill="#33332E">但不知道说明什么”的结果。</text>
+
+  <!-- ============ 面板 B：方案 B ============ -->
+  <rect x="616" y="124" width="536" height="556" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="640" y="156" font-size="17" font-weight="bold" fill="#3C5488">方案 B：先有具体的未知，再选刚好够用的技术</text>
+  <text x="640" y="178" font-size="12" fill="#6B6B66">值得逐字模仿的写法</text>
+  <line x1="640" y1="192" x2="1128" y2="192" stroke="#E9E9E5"/>
+
+  <rect x="640" y="206" width="488" height="140" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="640" y="206" width="4" height="140" rx="2" fill="#F39B7F"/>
+  <text x="660" y="230" font-size="12.5" fill="#33332E">「已知 X 侵染在 24 h 出现局部细胞死亡但整体</text>
+  <text x="660" y="254" font-size="12.5" fill="#33332E">抗性不变，我们不知道死亡细胞与邻近存活细胞</text>
+  <text x="660" y="278" font-size="12.5" fill="#33332E">的转录状态差在哪。拟用 24 h 感染叶片的空间</text>
+  <text x="660" y="302" font-size="12.5" fill="#33332E">转录组（3 生物学重复 × 2 处理）比较病斑核心区</text>
+  <text x="660" y="326" font-size="12.5" fill="#33332E">与边缘区；若差异基因少于 50 个，转为 LMD……」</text>
+
+  <rect x="640" y="378" width="8" height="8" fill="#00A087"/>
+  <text x="660" y="387" font-size="12" fill="#33332E"><tspan font-weight="bold" fill="#00A087">已知 A + 未知 B</tspan>——问题一句话写清（必答问题一）</text>
+  <rect x="640" y="438" width="8" height="8" fill="#00A087"/>
+  <text x="660" y="447" font-size="12" fill="#33332E"><tspan font-weight="bold" fill="#00A087">技术刚好够用</tspan>：比较病斑核心区与边缘区的表达谱</text>
+  <rect x="640" y="498" width="8" height="8" fill="#00A087"/>
+  <text x="660" y="507" font-size="12" fill="#33332E"><tspan font-weight="bold" fill="#00A087">写得出“结果不对时长什么样”</tspan>：差异基因少于 50 个</text>
+  <text x="660" y="527" font-size="11.5" fill="#6B6B66">→ 转 LMD + bulk RNA-seq——Plan B 具体到能立刻执行</text>
+
+  <rect x="640" y="556" width="488" height="76" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="640" y="556" width="4" height="76" rx="2" fill="#00A087"/>
+  <text x="660" y="584" font-size="12.5" fill="#33332E">问题驱动 = 先有一个具体的未知，再选刚好够用</text>
+  <text x="660" y="606" font-size="12.5" fill="#33332E">的技术，并且写清失败时怎么办。</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="1104" height="58" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="48" y="696" width="4" height="58" rx="2" fill="#3C5488"/>
+  <text x="66" y="718" font-size="12.5" fill="#33332E">自检的三个层次：设计层（④1–2）问“回答什么、数据哪来、哪步最可能失败”；叙事层（④3–5）问“结果怎么讲成论证链”；评审层（④6、⑥）问“别人从哪攻击”。</text>
+  <text x="66" y="740" font-size="12.5" fill="#33332E">先画得出组图骨架，再去测序——能省掉的往往是半年；每删掉一条“因为流行才做”的技术线，方案就清楚一分。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

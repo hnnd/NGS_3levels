@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="48" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">MarkDuplicates 判定键</text>
+<line x1="60" y1="84" x2="740" y2="84" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="72" y1="76" x2="72" y2="92" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="134" y1="76" x2="134" y2="92" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="196" y1="76" x2="196" y2="92" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="258" y1="76" x2="258" y2="92" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="320" y1="76" x2="320" y2="92" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="382" y1="76" x2="382" y2="92" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="444" y1="76" x2="444" y2="92" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="506" y1="76" x2="506" y2="92" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="568" y1="76" x2="568" y2="92" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="630" y1="76" x2="630" y2="92" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="692" y1="76" x2="692" y2="92" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<rect x="50" y="104" width="700" height="280" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="130" y="142" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">LB:lib1</text>
+<line x1="180" y1="166" x2="556" y2="166" stroke="#E9E9E5" stroke-width="10" stroke-linecap="butt"/>
+<rect x="180" y="150" width="76" height="32" fill="#4DBBD5" rx="4"/>
+<rect x="480" y="150" width="76" height="32" fill="#4DBBD5" rx="4"/>
+<line x1="180" y1="140" x2="180" y2="192" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<line x1="556" y1="140" x2="556" y2="192" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<polygon points="180,166 195,155 195,177" fill="#33332E"/>
+<polygon points="556,166 541,155 541,177" fill="#33332E"/>
+<line x1="180" y1="276" x2="556" y2="276" stroke="#E9E9E5" stroke-width="10" stroke-linecap="butt"/>
+<rect x="180" y="260" width="76" height="32" fill="#4DBBD5" rx="4"/>
+<rect x="480" y="260" width="76" height="32" fill="#4DBBD5" rx="4"/>
+<line x1="180" y1="250" x2="180" y2="302" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<line x1="556" y1="250" x2="556" y2="302" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<polygon points="180,276 195,265 195,287" fill="#33332E"/>
+<polygon points="556,276 541,265 541,287" fill="#33332E"/>
+<text x="115" y="224" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">两端坐标</text>
+<text x="655" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">方向一致</text>
+<line x1="196" y1="222" x2="556" y2="222" stroke="#8491B4" stroke-width="5" stroke-linecap="round"/>
+<polygon points="556,222 544.12984377594,227.3008858897744 544.12984377594,216.6991141102256" fill="#8491B4"/>
+<polygon points="196,222 207.87015622406,216.6991141102256 207.87015622406,227.3008858897744" fill="#8491B4"/>
+<text x="376" y="250" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">插入长度</text>
+<line x1="290" y1="302" x2="462" y2="302" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<text x="376" y="338" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">相同判定</text>
+<rect x="50" y="410" width="320" height="130" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="140" y="448" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">LB:lib2</text>
+<line x1="110" y1="484" x2="326" y2="484" stroke="#E9E9E5" stroke-width="10" stroke-linecap="butt"/>
+<rect x="110" y="468" width="76" height="32" fill="#F39B7F" rx="4"/>
+<rect x="250" y="468" width="76" height="32" fill="#F39B7F" rx="4"/>
+<line x1="110" y1="458" x2="110" y2="510" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<line x1="326" y1="458" x2="326" y2="510" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<polygon points="110,484 125,473 125,495" fill="#33332E"/>
+<polygon points="326,484 311,473 311,495" fill="#33332E"/>
+<text x="215" y="506" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">跨文库</text>
+<text x="215" y="538" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">不比对</text>
+<rect x="410" y="410" width="340" height="220" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="580" y="448" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">打标不删</text>
+<rect x="430" y="460" width="300" height="66" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="4"/>
+<text x="580" y="503" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">保留最优读段</text>
+<rect x="430" y="540" width="300" height="78" fill="#FBEEE7" rx="10" stroke="#F39B7F" stroke-width="4"/>
+<text x="580" y="574" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">0x400</text>
+<text x="580" y="606" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">重复打标</text>
+<line x1="376" y1="346" x2="376" y2="366" stroke="#E64B35" stroke-width="6" stroke-linecap="round"/>
+<polygon points="376,366 368.6603118449277,349.56439907437846 383.3396881550723,349.56439907437846" fill="#E64B35"/>
+<line x1="376" y1="366" x2="580" y2="366" stroke="#6B6B66" stroke-width="5" stroke-linecap="butt"/>
+<line x1="580" y1="366" x2="580" y2="410" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="580,410 572.6603118449277,393.56439907437846 587.3396881550723,393.56439907437846" fill="#6B6B66"/>
+<line x1="215" y1="366" x2="215" y2="410" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="215,410 207.66031184492775,393.56439907437846 222.33968815507225,393.56439907437846" fill="#6B6B66"/>
+<line x1="215" y1="366" x2="376" y2="366" stroke="#6B6B66" stroke-width="5" stroke-linecap="butt"/>
+<text x="400" y="668" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">判定键 = 两端 5′ 坐标 + 方向 + 插入长度</text>
+</svg>

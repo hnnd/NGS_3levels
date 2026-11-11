@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">接头从哪来：文库片段比读长短，就会「测穿」</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">建库 ｜ adapter read-through ｜ Adapter Content —— 依据 04_qc_preprocessing_lecture.md §4.1</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" rx="2" fill="#4DBBD5"/><text x="946" y="57" font-size="12" fill="#33332E">接头（人工外来序列）</text>
+  <rect x="926" y="68" width="12" height="12" rx="2" fill="#00A087"/><text x="946" y="79" font-size="12" fill="#33332E">样本自身序列</text>
+
+  <!-- ============ 面板 A：建库 ============ -->
+  <rect x="48" y="118" width="520" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="15" font-weight="bold" fill="#3C5488">① 建库：接头被装到片段两端</text>
+
+  <text x="72" y="192" font-size="12" fill="#6B6B66">基因组 DNA</text>
+  <line x1="72" y1="206" x2="330" y2="206" stroke="#00A087" stroke-width="4"/>
+  <line x1="338" y1="198" x2="352" y2="214" stroke="#FAFAF7" stroke-width="4"/>
+  <line x1="360" y1="206" x2="520" y2="206" stroke="#00A087" stroke-width="4"/>
+  <text x="332" y="232" font-size="11" fill="#6B6B66" text-anchor="middle">打断成 300–500 bp 片段（难免混入偏短片段）</text>
+
+  <line x1="296" y1="244" x2="296" y2="266" stroke="#6B6B66" stroke-width="1.8"/>
+  <polygon points="296,274 291,264 301,264" fill="#6B6B66"/>
+
+  <rect x="112" y="282" width="36" height="50" fill="#4DBBD5"/>
+  <rect x="148" y="282" width="260" height="50" fill="#00A087"/>
+  <rect x="408" y="282" width="36" height="50" fill="#4DBBD5"/>
+  <text x="130" y="312" font-size="11" fill="#FFFFFF" text-anchor="middle">接头</text>
+  <text x="278" y="312" font-size="12" fill="#FFFFFF" text-anchor="middle">insert（样本片段）</text>
+  <text x="426" y="312" font-size="11" fill="#FFFFFF" text-anchor="middle">接头</text>
+  <text x="72" y="356" font-size="12" fill="#33332E">文库片段 = 接头 ＋ insert，两端各一个</text>
+
+  <rect x="72" y="378" width="472" height="146" rx="8" fill="#FAFAF7"/>
+  <text x="88" y="404" font-size="12.5" font-weight="bold" fill="#3C5488">放大一个接头——里面装了三样东西（u03 §4.1①）</text>
+  <rect x="88" y="420" width="12" height="12" rx="2" fill="#4DBBD5"/>
+  <text x="110" y="431" font-size="12" fill="#33332E">P5 / P7 —— 让片段粘上 flowcell（座位号）</text>
+  <rect x="88" y="448" width="12" height="12" rx="2" fill="#4DBBD5"/>
+  <text x="110" y="459" font-size="12" fill="#33332E">测序引物结合位点 —— 机器从这里开始读</text>
+  <rect x="88" y="476" width="12" height="12" rx="2" fill="#4DBBD5"/>
+  <text x="110" y="487" font-size="12" fill="#33332E">Index / barcode —— 样本标签，混样跑机靠它区分</text>
+  <text x="88" y="512" font-size="11" fill="#6B6B66">接头序列人人相同（如 TruSeq 的 AGATCGGAAGAGC），基因组里查无此序列</text>
+
+  <!-- ============ 面板 B：测穿 ============ -->
+  <rect x="596" y="118" width="556" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="620" y="154" font-size="15" font-weight="bold" fill="#3C5488">② 测穿：片段 120 bp ＜ 读长 150 bp</text>
+
+  <text x="620" y="196" font-size="11.5" fill="#6B6B66">read（150 个循环读出的序列）</text>
+  <rect x="620" y="210" width="336" height="60" fill="#00A087"/>
+  <rect x="956" y="210" width="84" height="60" fill="#4DBBD5"/>
+  <text x="788" y="245" font-size="12.5" fill="#FFFFFF" text-anchor="middle">样本序列 120 bp</text>
+  <text x="998" y="245" font-size="12" fill="#FFFFFF" text-anchor="middle">接头</text>
+  <line x1="956" y1="198" x2="956" y2="282" stroke="#E64B35" stroke-width="1.8" stroke-dasharray="5 3"/>
+  <text x="620" y="296" font-size="11" fill="#6B6B66">位置 1</text>
+  <text x="952" y="296" font-size="11" fill="#6B6B66" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" text-anchor="middle">120</text>
+  <text x="1040" y="296" font-size="11" fill="#6B6B66" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" text-anchor="middle">150</text>
+  <text x="788" y="320" font-size="11.5" fill="#00A087" text-anchor="middle">读到这里就断了</text>
+  <text x="998" y="320" font-size="11.5" fill="#3C8DAD" text-anchor="middle">多读的 30 bp 全是接头</text>
+
+  <text x="620" y="368" font-size="11.5" fill="#6B6B66">% reads 带接头</text>
+  <polyline points="620,472 740,472 860,470 956,462 1000,446 1040,424" fill="none" stroke="#4DBBD5" stroke-width="2.5"/>
+  <line x1="620" y1="480" x2="1040" y2="480" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="620" y1="380" x2="620" y2="480" stroke="#6B6B66" stroke-width="1.5"/>
+  <text x="1136" y="404" font-size="11.5" fill="#3C8DAD" text-anchor="end">Adapter Content</text>
+  <text x="1136" y="422" font-size="10.5" fill="#6B6B66" text-anchor="end">从末端抬起</text>
+  <text x="620" y="512" font-size="12" fill="#33332E">曲线从哪个位置开始抬 = 多短的片段在测穿；抬起多高 = 有多少 read 带接头。</text>
+
+  <!-- ============ 底部条 ============ -->
+  <rect x="48" y="572" width="1104" height="62" rx="8" fill="#FAFAF7"/>
+  <rect x="48" y="572" width="4" height="62" rx="2" fill="#3C5488"/>
+  <text x="68" y="598" font-size="13" font-weight="bold" fill="#3C5488">接头是人工序列，基因组里根本没有——带着它比对不上，或被软剪切掉一大截（③ 的代价①：比对率下降）。</text>
+  <text x="68" y="622" font-size="12" fill="#33332E">所以 adapter trim 按「内容」剪：Q 再高的接头也是错的（④4.4 两把剪刀，见 01 图）；抬升高度直接反映文库片段大小分布。</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

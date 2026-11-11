@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="48" y="44" width="704" height="132" fill="#E3E8F2" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="132" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#3C5488" text-anchor="middle" font-weight="bold">Σ max(n − 1, 0) / M</text>
+<text x="168" y="265.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="end" font-weight="bold">x1</text>
+<rect x="196" y="232" width="54" height="44" fill="#4DBBD5" rx="8"/>
+<text x="474" y="266.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#6B6B66" text-anchor="start" font-weight="bold">0</text>
+<text x="168" y="361.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="end" font-weight="bold">x2</text>
+<rect x="196" y="328" width="54" height="44" fill="#4DBBD5" rx="8"/>
+<rect x="260" y="328" width="54" height="44" fill="#F39B7F" rx="8"/>
+<rect x="260" y="328" width="54" height="44" fill="#F39B7F" rx="8"/>
+<line x1="310" y1="350.0" x2="468" y2="350.0" stroke="#C0623F" stroke-width="4" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<text x="474" y="362.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#C0623F" text-anchor="start" font-weight="bold">+1</text>
+<text x="168" y="457.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="end" font-weight="bold">x3</text>
+<rect x="196" y="424" width="54" height="44" fill="#4DBBD5" rx="8"/>
+<rect x="260" y="424" width="54" height="44" fill="#F39B7F" rx="8"/>
+<rect x="324" y="424" width="54" height="44" fill="#F39B7F" rx="8"/>
+<rect x="260" y="424" width="118" height="44" fill="#F39B7F" rx="8"/>
+<line x1="374" y1="446.0" x2="468" y2="446.0" stroke="#C0623F" stroke-width="4" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<text x="474" y="458.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#C0623F" text-anchor="start" font-weight="bold">+2</text>
+<rect x="548" y="214" width="212" height="178" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="4"/>
+<text x="654" y="291.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">分子可超分母</text>
+<text x="654" y="336.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">非百分比截断</text>
+<text x="400" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#C0623F" text-anchor="middle" font-weight="bold">只累计超出一的副本</text>
+<text x="400" y="656" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#C0623F" text-anchor="middle" font-weight="bold">单份不计两份计一</text>
+</svg>

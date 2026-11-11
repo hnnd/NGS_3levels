@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="16" width="340" height="96" fill="#D6EFF4" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="210" y="52" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">login shell</text>
+<text x="210" y="94" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">conda activate rnaseq</text>
+<rect x="420" y="16" width="340" height="96" fill="#FBE3D8" rx="12" stroke="#C0623F" stroke-width="4"/>
+<text x="590" y="52" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">batch job</text>
+<text x="590" y="94" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle">command not found</text>
+<line x1="384" y1="64" x2="412" y2="64" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="412,64 400.12984377594,69.3008858897744 400.12984377594,58.69911411022559" fill="#6B6B66"/>
+<line x1="389" y1="55" x2="407" y2="73" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<line x1="407" y1="55" x2="389" y2="73" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<text x="400" y="146" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">作业不继承登录环境</text>
+<rect x="60" y="190" width="430" height="96" fill="#FFFFFF" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="76" y="232" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">bash job.sh</text>
+<text x="76" y="270" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">command -v fastp</text>
+<text x="524" y="246" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">脚本自激活自检</text>
+<line x1="496" y1="238" x2="512" y2="238" stroke="#00A087" stroke-width="4" stroke-linecap="round"/>
+<polygon points="512,238 501.0429327162523,242.89312543671485 501.0429327162523,233.10687456328515" fill="#00A087"/>
+<rect x="60" y="306" width="430" height="96" fill="#FFFFFF" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="76" y="348" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">--use-conda</text>
+<text x="76" y="386" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">per-rule env</text>
+<text x="524" y="362" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">引擎托管环境</text>
+<line x1="496" y1="354" x2="512" y2="354" stroke="#00A087" stroke-width="4" stroke-linecap="round"/>
+<polygon points="512,354 501.0429327162523,358.89312543671485 501.0429327162523,349.10687456328515" fill="#00A087"/>
+<rect x="60" y="422" width="430" height="96" fill="#FFFFFF" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="76" y="464" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">qsub -S /bin/bash</text>
+<text x="76" y="502" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">explicit shell</text>
+<text x="524" y="478" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">显式 shell</text>
+<line x1="496" y1="470" x2="512" y2="470" stroke="#00A087" stroke-width="4" stroke-linecap="round"/>
+<polygon points="512,470 501.0429327162523,474.89312543671485 501.0429327162523,465.10687456328515" fill="#00A087"/>
+<rect x="120" y="540" width="560" height="120" fill="#F6D8D2" rx="16" stroke="#E64B35" stroke-width="5"/>
+<text x="400" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">非软件未装</text>
+<text x="400" y="634" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">PATH mismatch only</text>
+</svg>

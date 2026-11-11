@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Two reference frames share one wrong denominator</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="52" y="88" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">跨物种比病原低二百倍</text>
+<text x="52" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">1×</text>
+<rect x="120" y="124" width="520" height="34" fill="#3C5488" rx="10"/>
+<text x="52" y="216" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="start" font-weight="bold">1/p</text>
+<rect x="120" y="190" width="520" height="34" fill="#FFFFFF" rx="10" stroke="#F39B7F" stroke-width="2" stroke-dasharray="6 6"/>
+<rect x="120" y="190" width="3" height="34" fill="#F39B7F" rx="2"/>
+<text x="652" y="216" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">1/200</text>
+<line x1="44" y1="246" x2="756" y2="246" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<text x="44" y="296" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">时序内病原虚涨六十倍</text>
+<rect x="44" y="312" width="712" height="130" fill="#FBE6DF" rx="14" stroke="#F39B7F" stroke-width="3"/>
+<line x1="384" y1="414" x2="540" y2="342" stroke="#E64B35" stroke-width="6" stroke-linecap="round"/>
+<polygon points="540,342 529.4692428809598,354.04587707474155 524.001231607356,342.1985193152666" fill="#E64B35"/>
+<text x="552" y="356" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="start" font-weight="bold">61.2×</text>
+<text x="44" y="502" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">恒定宿主假降三成</text>
+<rect x="44" y="518" width="712" height="130" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="3"/>
+<line x1="384" y1="546" x2="540" y2="618" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="540,618 524.001231607356,617.8014806847334 529.4692428809598,605.9541229252585" fill="#3C5488"/>
+<text x="736" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="end" font-weight="bold">0.701</text>
+<circle cx="104" cy="378" r="18" fill="#F39B7F"/>
+<circle cx="104" cy="584" r="18" fill="#3C5488"/>
+</svg>

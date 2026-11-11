@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">Peak calling 的统计直觉：读段堆积 vs 局部背景 λ</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">泊松检验 ｜ 局部 λ = max(λ_BG, λ_1k, λ_5k, λ_10k) —— 依据 05_regulome_lecture.md ④4.3</text>
+  <!-- 图例 -->
+  <rect x="946" y="40" width="12" height="12" fill="#4DBBD5"/>
+  <text x="964" y="50" font-size="12" fill="#33332E">读段堆积（信号）</text>
+  <line x1="946" y1="66" x2="958" y2="66" stroke="#8491B4" stroke-width="2.5" stroke-dasharray="5 3"/>
+  <text x="964" y="70" font-size="12" fill="#33332E">局部背景期望 λ_local</text>
+  <rect x="946" y="86" width="12" height="12" fill="#00A087"/>
+  <text x="964" y="96" font-size="12" fill="#33332E">真实峰（通过检验）</text>
+  <rect x="946" y="110" width="12" height="12" fill="#E64B35"/>
+  <text x="964" y="120" font-size="12" fill="#33332E">假峰风险</text>
+
+  <!-- ============ 主面板：信号轨道 ============ -->
+  <rect x="48" y="140" width="750" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="172" font-size="17" font-weight="bold" fill="#3C5488">一条染色体上的读段堆积（示意）</text>
+  <text x="72" y="192" font-size="12.5" fill="#6B6B66">MACS2 逐窗口问：这里的读段数是否显著高于局部背景期望？</text>
+  <line x1="72" y1="204" x2="774" y2="204" stroke="#E9E9E5"/>
+
+  <!-- 拷贝数扩增 / 重复区底衬 -->
+  <rect x="460" y="260" width="180" height="340" fill="#F1F1EB"/>
+  <text x="550" y="282" font-size="11" fill="#6B6B66" text-anchor="middle">拷贝数扩增 / 重复区</text>
+
+  <!-- λ_local 背景期望线（紫，阶梯） -->
+  <path d="M 96 562 L 460 562 L 460 402 L 640 402 L 640 562 L 760 562" fill="none" stroke="#8491B4" stroke-width="2.5" stroke-dasharray="7 4"/>
+
+  <!-- 读段堆积（青，面积） -->
+  <path d="M 96 600 L 96 593 L 118 588 L 138 593 L 158 589 L 172 560 L 200 430 L 230 320 L 258 445 L 285 560 L 302 588 L 322 562 L 348 470 L 365 430 L 388 480 L 410 572 L 432 590 L 452 587 L 472 592 L 495 555 L 525 490 L 555 430 L 585 495 L 612 565 L 632 590 L 655 588 L 680 593 L 705 589 L 730 594 L 752 591 L 760 593 L 760 600 Z"
+        fill="#4DBBD5" fill-opacity="0.9"/>
+
+  <!-- 真实峰标注（绿） -->
+  <circle cx="230" cy="296" r="13" fill="#00A087"/>
+  <path d="M 223 296 L 228 302 L 238 289" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  <text x="230" y="268" font-size="12.5" font-weight="bold" fill="#00A087" text-anchor="middle">真实峰：显著高于 λ_local</text>
+
+  <!-- 假峰风险标注（红） -->
+  <line x1="549" y1="422" x2="561" y2="434" stroke="#E64B35" stroke-width="2.5"/>
+  <line x1="561" y1="422" x2="549" y2="434" stroke="#E64B35" stroke-width="2.5"/>
+  <text x="550" y="312" font-size="11" fill="#E64B35" text-anchor="middle">假峰风险：此处背景天然偏高，</text>
+  <text x="550" y="330" font-size="11" fill="#E64B35" text-anchor="middle">堆积略升仍未超过 λ_local → 不该报峰；</text>
+  <text x="550" y="348" font-size="11" fill="#E64B35" text-anchor="middle">无 input 对照时常被误报（无任何报错）</text>
+
+  <!-- λ 标签 -->
+  <text x="756" y="552" font-size="11" fill="#8491B4" text-anchor="end">λ_local 局部背景期望</text>
+
+  <!-- 坐标轴 -->
+  <line x1="96" y1="600" x2="758" y2="600" stroke="#33332E" stroke-width="1.5"/>
+  <polygon points="758,595 758,605 770,600" fill="#33332E"/>
+  <!-- 报告为 peak（绿条） -->
+  <rect x="170" y="612" width="120" height="6" rx="3" fill="#00A087"/>
+  <rect x="318" y="612" width="90" height="6" rx="3" fill="#00A087"/>
+  <text x="96" y="640" font-size="11.5" fill="#00A087">报告为 peak（q &lt; 0.05）</text>
+  <text x="770" y="640" font-size="11" fill="#6B6B66" text-anchor="end">基因组坐标</text>
+
+  <!-- ============ 右面板：统计模型 ============ -->
+  <rect x="822" y="140" width="330" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="846" y="172" font-size="16" font-weight="bold" fill="#3C5488">MACS2 在检验什么</text>
+  <line x1="846" y1="186" x2="1128" y2="186" stroke="#E9E9E5"/>
+
+  <rect x="846" y="202" width="282" height="94" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="862" y="228" font-size="12.5" font-weight="bold" fill="#33332E">局部背景期望：取多尺度最大值</text>
+  <text x="862" y="256" font-size="13.5" font-weight="bold" fill="#8491B4">λ_local = max(λ_BG, λ_1k,</text>
+  <text x="898" y="280" font-size="13.5" font-weight="bold" fill="#8491B4">λ_5k, λ_10k)</text>
+  <text x="846" y="316" font-size="11" fill="#6B6B66">保守设计：周边任一尺度本来就密，就用那个</text>
+  <text x="846" y="334" font-size="11" fill="#6B6B66">更高的标准来要求这个位置</text>
+
+  <text x="846" y="372" font-size="12.5" font-weight="bold" fill="#33332E">逐窗口泊松检验（⑦ 统计插件）</text>
+  <text x="846" y="394" font-size="11.5" fill="#33332E">H₀：窗口读段数 ~ Poisson(λ_local)</text>
+  <text x="846" y="414" font-size="11.5" fill="#33332E">p 值 → 全基因组几十万个候选窗口</text>
+  <text x="846" y="434" font-size="11.5" fill="#33332E">→ BH 校正得 q；q &lt; 0.05 才报峰</text>
+
+  <text x="846" y="470" font-size="12.5" font-weight="bold" fill="#33332E">input 对照在校正什么（④4.2）</text>
+  <text x="846" y="492" font-size="11.5" fill="#33332E">打断偏好 · 拷贝数差异 · 可映射性差异</text>
+  <text x="846" y="512" font-size="11.5" fill="#33332E">—— 三类与蛋白结合无关的读段梯度</text>
+
+  <rect x="846" y="536" width="282" height="88" rx="6" fill="#FAFAF7"/>
+  <rect x="846" y="536" width="4" height="88" rx="2" fill="#3C5488"/>
+  <text x="862" y="564" font-size="12" fill="#33332E">无对照不会报错：peak 暴增即症状</text>
+  <text x="862" y="586" font-size="12" fill="#33332E">peak 数随深度单调增加，不可比</text>
+  <text x="862" y="608" font-size="12" fill="#33332E">ATAC 无 input：blacklist + IDR 兜底</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">峰不是“读段最多的地方”，而是“扣除偏差后仍显著高于局部背景期望的窗口”。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

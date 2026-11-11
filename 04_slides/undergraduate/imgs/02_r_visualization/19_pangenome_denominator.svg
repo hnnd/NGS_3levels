@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">gene_presence_absence.csv</text>
+<rect x="88" y="90" width="64" height="64" fill="#F39B7F" stroke="#FFFFFF" stroke-width="3"/>
+<text x="120" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">S1</text>
+<rect x="152" y="90" width="64" height="64" fill="#F39B7F" stroke="#FFFFFF" stroke-width="3"/>
+<text x="184" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">S2</text>
+<rect x="216" y="90" width="64" height="64" fill="#F39B7F" stroke="#FFFFFF" stroke-width="3"/>
+<text x="248" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">S3</text>
+<rect x="280" y="90" width="64" height="64" fill="#F39B7F" stroke="#FFFFFF" stroke-width="3"/>
+<text x="312" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">S4</text>
+<rect x="344" y="90" width="64" height="64" fill="#F39B7F" stroke="#FFFFFF" stroke-width="3"/>
+<text x="376" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">S5</text>
+<rect x="408" y="90" width="64" height="64" fill="#F39B7F" stroke="#FFFFFF" stroke-width="3"/>
+<text x="440" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">S6</text>
+<rect x="472" y="90" width="64" height="64" fill="#F39B7F" stroke="#FFFFFF" stroke-width="3"/>
+<text x="504" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">S7</text>
+<rect x="536" y="90" width="64" height="64" fill="#F39B7F" stroke="#FFFFFF" stroke-width="3"/>
+<text x="568" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">S8</text>
+<rect x="600" y="90" width="64" height="64" fill="#C9C9C3" stroke="#FFFFFF" stroke-width="3"/>
+<text x="632" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">S9</text>
+<rect x="664" y="90" width="64" height="64" fill="#C9C9C3" stroke="#FFFFFF" stroke-width="3"/>
+<text x="696" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">S10</text>
+<rect x="88" y="90" width="640" height="64" fill="none" stroke="#33332E" stroke-width="3"/>
+<line x1="400" y1="156" x2="230" y2="252" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="230,252 240.70228915862424,237.52723223549847 247.92042710755823,250.30935152006907" fill="#6B6B66"/>
+<line x1="400" y1="156" x2="570" y2="252" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="570,252 552.0795728924418,250.30935152006907 559.2977108413758,237.52723223549847" fill="#6B6B66"/>
+<rect x="60" y="258" width="340" height="64" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="4"/>
+<text x="230" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">8 / 8 = 1.00 → Core</text>
+<rect x="400" y="258" width="340" height="64" fill="#F6D8D2" rx="10" stroke="#E64B35" stroke-width="4"/>
+<text x="570" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">8 / 10 = 0.80 → Shell</text>
+<text x="570" y="380" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">分母错了类别就翻</text>
+<text x="400" y="660" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#6B6B66" text-anchor="middle" font-weight="bold">株数从表结构来</text>
+</svg>

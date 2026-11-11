@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">空跑输出四字段</text>
+<rect x="40" y="96" width="720" height="366" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="72" y="148" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">rule fastp:</text>
+<text x="72" y="192" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">jobid: 1</text>
+<rect x="60" y="216" width="680" height="62" fill="#D6EFF4" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="400" y="258" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle">wildcards: sample=CK_1</text>
+<text x="400" y="316" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">通配符反解查贪婪</text>
+<rect x="60" y="342" width="680" height="62" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="400" y="384" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">reason: Updated input files</text>
+<text x="400" y="436" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">触发原因查依据</text>
+<rect x="312.78" y="525.96" width="174.44" height="60.080000000000005" fill="#F6D8D2" rx="10" stroke="#E64B35" stroke-width="3"/>
+<text x="400" y="566.88" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">必查两处</text>
+</svg>

@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">Fig.1–Fig.6 是一条论证链，不是结果的陈列</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">“因此”检验 ｜ 反例对照 —— 依据 08_project_design_lecture.md ④4.4 · ⑥</text>
+  <!-- 图例 -->
+  <rect x="926" y="36" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="46" font-size="12" fill="#33332E">组图节点</text>
+  <rect x="926" y="58" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="68" font-size="12" fill="#33332E">“因此”（递进成立）</text>
+  <rect x="926" y="80" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="90" font-size="12" fill="#33332E">“另外”（只是堆放）</text>
+
+  <!-- ============ 面板 A：正例六图链 ============ -->
+  <rect x="48" y="124" width="1104" height="300" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="17" font-weight="bold" fill="#3C5488">正例：六图成链，相邻之间插得进“因此”</text>
+  <text x="72" y="176" font-size="12" fill="#6B6B66">组图不是结果的陈列，是论证的骨架——每一环都要能被上一环推出</text>
+  <line x1="72" y1="190" x2="1128" y2="190" stroke="#E9E9E5"/>
+
+  <!-- Fig.1 -->
+  <rect x="72" y="206" width="150" height="140" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <rect x="84" y="218" width="48" height="20" rx="4" fill="#3C5488"/>
+  <text x="108" y="232" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Fig.1</text>
+  <text x="84" y="262" font-size="12.5" font-weight="bold" fill="#3C5488">建立现象</text>
+  <text x="84" y="286" font-size="10.5" fill="#33332E">存在一个</text>
+  <text x="84" y="304" font-size="10.5" fill="#33332E">值得解释的观察</text>
+  <!-- Fig.2 -->
+  <rect x="252" y="206" width="150" height="140" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <rect x="264" y="218" width="48" height="20" rx="4" fill="#3C5488"/>
+  <text x="288" y="232" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Fig.2</text>
+  <text x="264" y="262" font-size="12.5" font-weight="bold" fill="#3C5488">刻画范围与特征</text>
+  <text x="264" y="286" font-size="10.5" fill="#33332E">这个现象</text>
+  <text x="264" y="304" font-size="10.5" fill="#33332E">具有 XX 特征</text>
+  <!-- Fig.3 -->
+  <rect x="432" y="206" width="150" height="140" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <rect x="444" y="218" width="48" height="20" rx="4" fill="#3C5488"/>
+  <text x="468" y="232" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Fig.3</text>
+  <text x="444" y="262" font-size="12.5" font-weight="bold" fill="#3C5488">提出机制候选</text>
+  <text x="444" y="286" font-size="10.5" fill="#33332E">可能由</text>
+  <text x="444" y="304" font-size="10.5" fill="#33332E">Y 介导</text>
+  <!-- Fig.4 -->
+  <rect x="612" y="206" width="150" height="140" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <rect x="624" y="218" width="48" height="20" rx="4" fill="#3C5488"/>
+  <text x="648" y="232" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Fig.4</text>
+  <text x="624" y="262" font-size="12.5" font-weight="bold" fill="#3C5488">提供因果证据</text>
+  <text x="624" y="286" font-size="10.5" fill="#33332E">扰动 Y 会改变现象</text>
+  <text x="624" y="304" font-size="10.5" fill="#33332E">（遗传 / 药理 / 互补）</text>
+  <!-- Fig.5 -->
+  <rect x="792" y="206" width="150" height="140" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <rect x="804" y="218" width="48" height="20" rx="4" fill="#3C5488"/>
+  <text x="828" y="232" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Fig.5</text>
+  <text x="804" y="262" font-size="12.5" font-weight="bold" fill="#3C5488">排除替代解释</text>
+  <text x="804" y="286" font-size="10.5" fill="#33332E">不是 Z 导致的</text>
+  <text x="804" y="304" font-size="10.5" fill="#33332E">（先替读者排除）</text>
+  <!-- Fig.6 -->
+  <rect x="972" y="206" width="150" height="140" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <rect x="984" y="218" width="48" height="20" rx="4" fill="#3C5488"/>
+  <text x="1008" y="232" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Fig.6</text>
+  <text x="984" y="262" font-size="12.5" font-weight="bold" fill="#3C5488">收束为模型</text>
+  <text x="984" y="286" font-size="10.5" fill="#33332E">综上，机制是……</text>
+  <text x="984" y="304" font-size="10.5" fill="#33332E">（不超出数据）</text>
+
+  <!-- 因此箭头 -->
+  <line x1="226" y1="276" x2="242" y2="276" stroke="#00A087" stroke-width="1.5"/>
+  <polygon points="248,276 240,272 240,280" fill="#00A087"/>
+  <text x="237" y="266" font-size="10" font-weight="bold" fill="#00A087" text-anchor="middle">因此</text>
+  <line x1="406" y1="276" x2="422" y2="276" stroke="#00A087" stroke-width="1.5"/>
+  <polygon points="428,276 420,272 420,280" fill="#00A087"/>
+  <text x="417" y="266" font-size="10" font-weight="bold" fill="#00A087" text-anchor="middle">因此</text>
+  <line x1="586" y1="276" x2="602" y2="276" stroke="#00A087" stroke-width="1.5"/>
+  <polygon points="608,276 600,272 600,280" fill="#00A087"/>
+  <text x="597" y="266" font-size="10" font-weight="bold" fill="#00A087" text-anchor="middle">因此</text>
+  <line x1="766" y1="276" x2="782" y2="276" stroke="#00A087" stroke-width="1.5"/>
+  <polygon points="788,276 780,272 780,280" fill="#00A087"/>
+  <text x="777" y="266" font-size="10" font-weight="bold" fill="#00A087" text-anchor="middle">因此</text>
+  <line x1="946" y1="276" x2="962" y2="276" stroke="#00A087" stroke-width="1.5"/>
+  <polygon points="968,276 960,272 960,280" fill="#00A087"/>
+  <text x="957" y="266" font-size="10" font-weight="bold" fill="#00A087" text-anchor="middle">因此</text>
+
+  <text x="72" y="384" font-size="12" fill="#33332E">检验方法：从 Fig.1 读到 Fig.6，把“因此”逐对读出声——读不通的那一环，就是论证链的缺口。</text>
+  <text x="72" y="406" font-size="11" fill="#6B6B66">组图能不能讲通，是方案设计是否闭环的检验；Fig.5（排除替代解释）要在方案阶段就预留出来。</text>
+
+  <!-- ============ 面板 B：反例 ============ -->
+  <rect x="48" y="440" width="640" height="240" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="468" font-size="17" font-weight="bold" fill="#3C5488">反例（⑥）：按分析流程排列的结果堆放</text>
+  <text x="72" y="490" font-size="12" fill="#6B6B66">相邻之间只能插“另外”，插不进“因此”</text>
+  <line x1="72" y1="504" x2="664" y2="504" stroke="#E9E9E5"/>
+
+  <rect x="72" y="522" width="86" height="54" rx="6" fill="#FAFAF7" stroke="#E64B35" stroke-width="1.2"/>
+  <text x="115" y="554" font-size="11" font-weight="bold" fill="#33332E" text-anchor="middle">样本 PCA</text>
+  <rect x="171" y="522" width="86" height="54" rx="6" fill="#FAFAF7" stroke="#E64B35" stroke-width="1.2"/>
+  <text x="214" y="554" font-size="11" font-weight="bold" fill="#33332E" text-anchor="middle">火山图</text>
+  <rect x="270" y="522" width="86" height="54" rx="6" fill="#FAFAF7" stroke="#E64B35" stroke-width="1.2"/>
+  <text x="313" y="554" font-size="11" font-weight="bold" fill="#33332E" text-anchor="middle">GO 气泡</text>
+  <rect x="369" y="522" width="86" height="54" rx="6" fill="#FAFAF7" stroke="#E64B35" stroke-width="1.2"/>
+  <text x="412" y="554" font-size="11" font-weight="bold" fill="#33332E" text-anchor="middle">KEGG 通路</text>
+  <rect x="468" y="522" width="86" height="54" rx="6" fill="#FAFAF7" stroke="#E64B35" stroke-width="1.2"/>
+  <text x="511" y="554" font-size="11" font-weight="bold" fill="#33332E" text-anchor="middle">表达热图</text>
+  <rect x="567" y="522" width="86" height="54" rx="6" fill="#FAFAF7" stroke="#E64B35" stroke-width="1.2"/>
+  <text x="610" y="554" font-size="11" font-weight="bold" fill="#33332E" text-anchor="middle">qPCR 柱状图</text>
+
+  <text x="162.5" y="516" font-size="9.5" font-weight="bold" fill="#E64B35" text-anchor="middle">另外</text>
+  <text x="261.5" y="516" font-size="9.5" font-weight="bold" fill="#E64B35" text-anchor="middle">另外</text>
+  <text x="360.5" y="516" font-size="9.5" font-weight="bold" fill="#E64B35" text-anchor="middle">另外</text>
+  <text x="459.5" y="516" font-size="9.5" font-weight="bold" fill="#E64B35" text-anchor="middle">另外</text>
+  <text x="558.5" y="516" font-size="9.5" font-weight="bold" fill="#E64B35" text-anchor="middle">另外</text>
+
+  <text x="72" y="604" font-size="11.5" fill="#33332E">通病：没有任何一张图在排除替代解释——流程顺，不等于论证顺。</text>
+  <text x="72" y="626" font-size="11.5" fill="#6B6B66">⑧ 核查第 1 条：AI 极易产出这种“看起来很顺”的组图方案，要靠“因此”检验抓出来。</text>
+  <text x="72" y="648" font-size="11.5" fill="#6B6B66">判据：把其中一张删掉，主线论证还成立吗？成立，说明它在陈列、不在论证。</text>
+
+  <!-- ============ 面板 C：三种病 ============ -->
+  <rect x="712" y="440" width="440" height="240" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="736" y="468" font-size="17" font-weight="bold" fill="#3C5488">读不通的三种病与对策</text>
+  <text x="736" y="490" font-size="12" fill="#6B6B66">在相邻两张图之间做检验（④4）</text>
+  <line x1="736" y1="504" x2="1128" y2="504" stroke="#E9E9E5"/>
+
+  <text x="736" y="534" font-size="12" fill="#33332E">① 只能插“另外”——并列结果，不是递进论证</text>
+  <text x="736" y="554" font-size="11" fill="#6B6B66">对策：合并成一张多 panel 图，或移进补充材料</text>
+  <line x1="736" y1="572" x2="1128" y2="572" stroke="#E9E9E5"/>
+  <text x="736" y="596" font-size="12" fill="#33332E">② 插得进“因此”，但要读者补一大段推理</text>
+  <text x="736" y="616" font-size="11" fill="#6B6B66">对策：补一张图（常要补实验），或写明“据此推测”</text>
+  <line x1="736" y1="634" x2="1128" y2="634" stroke="#E9E9E5"/>
+  <text x="736" y="658" font-size="12" fill="#33332E">③ Fig.5 到 Fig.6 突然出现新概念</text>
+  <text x="736" y="678" font-size="11" fill="#6B6B66">对策：收窄模型，超出部分写进 Discussion，不画进 Fig.6</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="1104" height="58" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="48" y="696" width="4" height="58" rx="2" fill="#3C5488"/>
+  <text x="66" y="718" font-size="12.5" fill="#33332E">组图骨架是方案的验收标准：每张图下写三行——论点是什么 / 需要什么数据 / 数据来自路线图第几步；第三行填不出来，是路线图缺一步。</text>
+  <text x="66" y="740" font-size="12.5" fill="#33332E">补充材料放“支撑但不承载论点”的内容：质控指标、重复间一致性、参数敏感性、全表——判据：删掉它主线论证还成立。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

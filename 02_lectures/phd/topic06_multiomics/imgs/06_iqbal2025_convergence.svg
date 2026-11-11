@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">晚期整合的实证：三线收敛定位樱花素（Iqbal 等 2025）</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">转录组 × 代谢组 × 基因组 ｜ 通路与候选分子层面收敛 —— 依据 06_multiomics_lecture.md 3.1 · ④4.6</text>
+  <!-- 图例 -->
+  <rect x="926" y="36" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="46" font-size="12" fill="#33332E">转录组</text>
+  <rect x="1014" y="36" width="12" height="12" fill="#F39B7F"/>
+  <text x="1034" y="46" font-size="12" fill="#33332E">代谢组</text>
+  <rect x="926" y="60" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="70" font-size="12" fill="#33332E">基因组</text>
+  <rect x="1014" y="60" width="12" height="12" fill="#00A087"/>
+  <text x="1034" y="70" font-size="12" fill="#33332E">通路层收敛</text>
+
+  <!-- ============ 三条证据线 ============ -->
+  <rect x="72" y="150" width="330" height="170" rx="10" fill="#F39B7F"/>
+  <text x="237" y="182" font-size="14.5" font-weight="bold" fill="#33332E" text-anchor="middle">代谢组 · LC-MS/MS</text>
+  <line x1="92" y1="196" x2="382" y2="196" stroke="#FFFFFF" stroke-opacity="0.55"/>
+  <text x="237" y="226" font-size="12" fill="#33332E" text-anchor="middle">13 株稻瘟菌混合接种，48 h 取样</text>
+  <text x="237" y="252" font-size="12" fill="#33332E" text-anchor="middle">抗病品系 D506 中黄酮类植保素</text>
+  <text x="237" y="280" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">樱花素 sakuranetin 显著积累</text>
+  <text x="237" y="304" font-size="10.5" fill="#33332E" text-anchor="middle">（D506 由感病品种 D502 分子改良而来）</text>
+
+  <rect x="435" y="150" width="330" height="170" rx="10" fill="#4DBBD5"/>
+  <text x="600" y="182" font-size="14.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">转录组 · 配套 RNA-seq</text>
+  <line x1="455" y1="196" x2="745" y2="196" stroke="#FFFFFF" stroke-opacity="0.55"/>
+  <text x="600" y="226" font-size="12" fill="#FFFFFF" text-anchor="middle">同一材料体系的配套转录组</text>
+  <text x="600" y="252" font-size="12" fill="#FFFFFF" text-anchor="middle">樱花素合成基因</text>
+  <text x="600" y="280" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">OMT-9 表达峰值超过 4 倍</text>
+  <text x="600" y="304" font-size="10.5" fill="#FFFFFF" text-anchor="middle">"代谢物累积"与"合成基因上调"同通路呼应</text>
+
+  <rect x="798" y="150" width="330" height="170" rx="10" fill="#3C5488"/>
+  <text x="963" y="182" font-size="14.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">基因组 · 两品系比对</text>
+  <line x1="818" y1="196" x2="1108" y2="196" stroke="#FFFFFF" stroke-opacity="0.4"/>
+  <text x="963" y="226" font-size="12" fill="#FFFFFF" text-anchor="middle">D506 与感病 D502 的非同义 SNP 比对</text>
+  <text x="963" y="252" font-size="12" fill="#FFFFFF" text-anchor="middle">感病品系 NCED1 带一个</text>
+  <text x="963" y="280" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">改变蛋白结构预测的非同义 SNP</text>
+  <text x="963" y="304" font-size="10.5" fill="#FFFFFF" text-anchor="middle">基因组层补上第三条证据</text>
+
+  <!-- 汇聚箭头 -->
+  <line x1="237" y1="320" x2="548" y2="396" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="556,398 545,399 549,390" fill="#6B6B66"/>
+  <line x1="600" y1="320" x2="600" y2="388" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="600,396 596,388 604,388" fill="#6B6B66"/>
+  <line x1="963" y1="320" x2="652" y2="396" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="644,398 651,390 655,399" fill="#6B6B66"/>
+
+  <!-- 收敛结论 -->
+  <rect x="300" y="404" width="600" height="92" rx="10" fill="#00A087"/>
+  <text x="600" y="436" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">通路层互相印证："两张表之间有没有关系"这样才能答得可信</text>
+  <text x="600" y="462" font-size="12.5" fill="#FFFFFF" text-anchor="middle">代谢物累积与合成基因上调落在同一条苯丙烷通路上</text>
+  <text x="600" y="484" font-size="11" fill="#DFF3EE" text-anchor="middle">候选代谢物逐个落到具名化合物（sakuranetin、ABA、IAA）</text>
+
+  <text x="600" y="530" font-size="12.5" fill="#33332E" text-anchor="middle">整合策略 = 晚期整合（④4.6）：三线各自差异分析，再在通路与候选分子层面收敛——每一步都可解释</text>
+
+  <!-- 教学点 -->
+  <rect x="72" y="552" width="1056" height="96" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="92" y="584" font-size="12.5" font-weight="bold" fill="#E64B35">对照主线组合：GSE157400 + MTBLS13460 两层非同一批样本——若改用 WGCNA / MOFA2 做中期整合，</text>
+  <text x="92" y="608" font-size="12.5" font-weight="bold" fill="#E64B35">样本一一配对的前提立刻生效，那条路走不通（③ 案例数据）；本案例靠"同材料体系"满足了前提。</text>
+  <text x="92" y="634" font-size="11.5" fill="#6B6B66">读整合类论文先问一句：这是 ④4.6 里的哪种整合策略？——本讲最重要的读文训练。</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="672" width="4" height="58" rx="2" fill="#3C5488"/>
+  <rect x="48" y="672" width="1104" height="58" rx="6" fill="#FAFAF7"/>
+  <text x="66" y="694" font-size="12.5" fill="#33332E">注释纪律：把候选写到具名化合物，建立在标准品 / 谱库匹配的高置信之上——放在 ④4.5 的语言里，</text>
+  <text x="66" y="716" font-size="12.5" fill="#33332E">只有达到高置信等级（Level 1–2）的 feature 才配"指名道姓"；注释不确定性必须传递到结论中。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

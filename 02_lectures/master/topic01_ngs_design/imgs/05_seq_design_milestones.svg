@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">测序技术与实验设计里程碑（1977–2022）</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">测序技术更替 ｜ 实验设计纪律 —— 依据 01_ngs_design_lecture.md ③3.4 / ④4.8</text>
+  <!-- 图例 -->
+  <rect x="912" y="34" width="12" height="12" fill="#4DBBD5"/>
+  <text x="932" y="44" font-size="12" fill="#33332E">测序技术路线</text>
+  <rect x="912" y="56" width="12" height="12" fill="#00A087"/>
+  <text x="932" y="66" font-size="12" fill="#33332E">实验设计与数据资源</text>
+  <rect x="912" y="78" width="12" height="12" fill="#E64B35"/>
+  <text x="932" y="88" font-size="12" fill="#33332E">关键事件</text>
+
+  <!-- ============ 面板 ============ -->
+  <rect x="48" y="118" width="1104" height="546" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- 时间轴 -->
+  <line x1="106" y1="390" x2="1092" y2="390" stroke="#3C5488" stroke-width="3"/>
+  <polygon points="1092,383 1106,390 1092,397" fill="#3C5488"/>
+  <text x="1060" y="378" font-size="11" fill="#6B6B66">今天</text>
+
+  <!-- 连接杆（上方技术卡） -->
+  <line x1="130" y1="368" x2="130" y2="380" stroke="#4DBBD5" stroke-width="1.5"/>
+  <line x1="435" y1="368" x2="435" y2="380" stroke="#4DBBD5" stroke-width="1.5"/>
+  <line x1="605" y1="368" x2="605" y2="380" stroke="#4DBBD5" stroke-width="1.5"/>
+  <line x1="751" y1="368" x2="751" y2="380" stroke="#4DBBD5" stroke-width="1.5"/>
+  <line x1="922" y1="368" x2="922" y2="380" stroke="#4DBBD5" stroke-width="1.5"/>
+  <line x1="1075" y1="368" x2="1075" y2="380" stroke="#4DBBD5" stroke-width="1.5"/>
+  <!-- 连接杆（下方设计卡） -->
+  <line x1="288" y1="400" x2="288" y2="442" stroke="#E64B35" stroke-width="1.5"/>
+  <line x1="459" y1="400" x2="459" y2="442" stroke="#00A087" stroke-width="1.5"/>
+  <line x1="775" y1="400" x2="775" y2="442" stroke="#00A087" stroke-width="1.5"/>
+
+  <!-- 轴上节点 -->
+  <circle cx="130" cy="390" r="7" fill="#4DBBD5" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="288" cy="390" r="7" fill="#E64B35" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="435" cy="390" r="6.5" fill="#4DBBD5" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="459" cy="390" r="6.5" fill="#00A087" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="605" cy="390" r="7" fill="#4DBBD5" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="751" cy="390" r="6.5" fill="#4DBBD5" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="775" cy="390" r="6.5" fill="#00A087" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="922" cy="390" r="7" fill="#4DBBD5" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="1075" cy="390" r="7" fill="#4DBBD5" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- ============ 上方技术卡（青蓝） ============ -->
+  <!-- 1977 Sanger -->
+  <rect x="55" y="270" width="150" height="98" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="57" y="276" width="4" height="86" rx="2" fill="#4DBBD5"/>
+  <text x="71" y="297" font-size="15" font-weight="bold" fill="#3C8DAD">1977</text>
+  <text x="71" y="319" font-size="12.5" font-weight="bold" fill="#33332E">Sanger 双脱氧法</text>
+  <text x="71" y="341" font-size="11" fill="#33332E">第一代 · 测克隆起点</text>
+  <text x="71" y="358" font-size="11" fill="#6B6B66">（讲义 §3.4）</text>
+
+  <!-- 2008 Illumina -->
+  <rect x="372" y="253" width="150" height="115" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="374" y="259" width="4" height="103" rx="2" fill="#4DBBD5"/>
+  <text x="388" y="280" font-size="15" font-weight="bold" fill="#3C8DAD">2008</text>
+  <text x="388" y="302" font-size="12.5" font-weight="bold" fill="#33332E">Illumina SBS</text>
+  <text x="388" y="324" font-size="11" fill="#33332E">可逆终止化学</text>
+  <text x="388" y="341" font-size="11" fill="#33332E">全基因组重测序</text>
+  <text x="388" y="358" font-size="11" fill="#6B6B66">（Bentley 2008）</text>
+
+  <!-- 2009 PacBio -->
+  <rect x="530" y="270" width="150" height="98" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="532" y="276" width="4" height="86" rx="2" fill="#4DBBD5"/>
+  <text x="546" y="297" font-size="15" font-weight="bold" fill="#3C8DAD">2009</text>
+  <text x="546" y="319" font-size="12.5" font-weight="bold" fill="#33332E">PacBio SMRT</text>
+  <text x="546" y="341" font-size="11" fill="#33332E">ZMW 单分子实时测序</text>
+  <text x="546" y="358" font-size="11" fill="#6B6B66">（Eid 2009）</text>
+
+  <!-- 2016 Nanopore -->
+  <rect x="688" y="270" width="150" height="98" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="690" y="276" width="4" height="86" rx="2" fill="#4DBBD5"/>
+  <text x="704" y="297" font-size="15" font-weight="bold" fill="#3C8DAD">2016</text>
+  <text x="704" y="319" font-size="12.5" font-weight="bold" fill="#33332E">Nanopore 成熟</text>
+  <text x="704" y="341" font-size="11" fill="#33332E">三十年 · 电流信号判读</text>
+  <text x="704" y="358" font-size="11" fill="#6B6B66">（Deamer 2016）</text>
+
+  <!-- 2019 HiFi -->
+  <rect x="847" y="270" width="150" height="98" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="849" y="276" width="4" height="86" rx="2" fill="#4DBBD5"/>
+  <text x="863" y="297" font-size="15" font-weight="bold" fill="#3C8DAD">2019</text>
+  <text x="863" y="319" font-size="12.5" font-weight="bold" fill="#33332E">HiFi 环共识</text>
+  <text x="863" y="341" font-size="11" fill="#33332E">长读长准确率补齐</text>
+  <text x="863" y="358" font-size="11" fill="#6B6B66">（Wenger 2019）</text>
+
+  <!-- 2022 三平台竞争 -->
+  <rect x="1000" y="270" width="150" height="98" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="1002" y="276" width="4" height="86" rx="2" fill="#4DBBD5"/>
+  <text x="1016" y="297" font-size="15" font-weight="bold" fill="#3C8DAD">2022</text>
+  <text x="1016" y="319" font-size="12.5" font-weight="bold" fill="#33332E">短读长首迎竞争</text>
+  <text x="1016" y="341" font-size="11" fill="#33332E">NovaSeq X · AVITI</text>
+  <text x="1016" y="358" font-size="11" fill="#33332E">Revio · 讲义 §4.8</text>
+
+  <!-- ============ 下方设计卡 ============ -->
+  <!-- 1988 LTEE（关键事件） -->
+  <rect x="213" y="442" width="150" height="132" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="215" y="448" width="4" height="120" rx="2" fill="#E64B35"/>
+  <text x="229" y="469" font-size="15" font-weight="bold" fill="#E64B35">1988</text>
+  <text x="229" y="491" font-size="12.5" font-weight="bold" fill="#33332E">LTEE 启动</text>
+  <text x="229" y="513" font-size="11" fill="#33332E">12 个平行种群</text>
+  <text x="229" y="530" font-size="11" fill="#33332E">每日 1:100 转接</text>
+  <text x="229" y="547" font-size="11" fill="#33332E">每 500 代冻存一批</text>
+  <text x="229" y="564" font-size="11" fill="#6B6B66">「冷冻化石记录」</text>
+
+  <!-- 2008 冻存重演 -->
+  <rect x="372" y="442" width="150" height="115" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="374" y="448" width="4" height="103" rx="2" fill="#00A087"/>
+  <text x="388" y="469" font-size="15" font-weight="bold" fill="#00A087">2008</text>
+  <text x="388" y="491" font-size="12.5" font-weight="bold" fill="#33332E">冻存重演</text>
+  <text x="388" y="513" font-size="11" fill="#33332E">柠檬酸利用依赖</text>
+  <text x="388" y="530" font-size="11" fill="#33332E">铺垫突变：历史偶然性</text>
+  <text x="388" y="547" font-size="11" fill="#6B6B66">（Blount 2008）</text>
+
+  <!-- 2016 5万代时间序列 -->
+  <rect x="688" y="442" width="150" height="115" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="690" y="448" width="4" height="103" rx="2" fill="#00A087"/>
+  <text x="704" y="469" font-size="15" font-weight="bold" fill="#00A087">2016</text>
+  <text x="704" y="491" font-size="12.5" font-weight="bold" fill="#33332E">5 万代时间序列</text>
+  <text x="704" y="513" font-size="11" fill="#33332E">12 种群 × 多时间点</text>
+  <text x="704" y="530" font-size="11" fill="#33332E">克隆全基因组测序</text>
+  <text x="704" y="547" font-size="11" fill="#6B6B66">（Tenaillon 2016）</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="706" font-size="15" font-weight="bold" fill="#3C5488">平台换了三代，设计纪律没有换：单碱基成本的下降都被换成更密的采样点，而 1:100 转接、500 代一冻的存档纪律从未改变。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>HWE has one degree of freedom</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="28" y="60" width="304" height="440" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<rect x="68" y="96" width="224" height="54" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="3"/>
+<text x="180" y="134" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">AA</text>
+<rect x="68" y="162" width="224" height="54" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="3"/>
+<text x="180" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">Aa</text>
+<rect x="68" y="228" width="224" height="54" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="3"/>
+<text x="180" y="266" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">aa</text>
+<text x="80" y="328" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="start" font-weight="bold">− 1</text>
+<text x="80" y="374" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="start" font-weight="bold">− 1</text>
+<line x1="60" y1="402" x2="300" y2="402" stroke="#3C5488" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<text x="180" y="448" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#3C5488" text-anchor="middle" font-weight="bold">= 1</text>
+<text x="180" y="490" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">自由度唯一看杂合</text>
+<rect x="352" y="60" width="420" height="196" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="4"/>
+<text x="562" y="122" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">50 × 0.05² = 0.125</text>
+<text x="562" y="178" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">&lt; 5</text>
+<text x="562" y="232" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">低频稀有卡方失效</text>
+<rect x="352" y="272" width="420" height="228" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<circle cx="396" cy="316" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="443" cy="316" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="490" cy="316" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="537" cy="316" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="584" cy="316" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="631" cy="316" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="678" cy="316" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="396" cy="350" r="9" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<circle cx="443" cy="350" r="9" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<circle cx="490" cy="350" r="9" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<circle cx="537" cy="350" r="9" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<circle cx="584" cy="350" r="9" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<circle cx="631" cy="350" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="678" cy="350" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="396" cy="384" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="443" cy="384" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="490" cy="384" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="537" cy="384" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="584" cy="384" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="631" cy="384" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<circle cx="678" cy="384" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="3"/>
+<polyline points="396,350 443,350 490,350 537,350 584,350" fill="none" stroke="#00A087" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="562" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">网络精确枚举残差</text>
+<rect x="120" y="546" width="560" height="78" fill="#3C5488" rx="12"/>
+<text x="400.0" y="596.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">检验非质量分</text>
+</svg>

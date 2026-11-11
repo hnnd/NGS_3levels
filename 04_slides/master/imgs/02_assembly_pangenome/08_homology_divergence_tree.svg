@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<circle cx="400" cy="84" r="14" fill="#3C5488"/>
+<text x="430" y="96" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">anc</text>
+<line x1="400" y1="98" x2="400" y2="190" stroke="#3C5488" stroke-width="6" stroke-linecap="butt"/>
+<circle cx="400" cy="202" r="14" fill="#3C5488"/>
+<text x="400" y="211" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">①</text>
+<line x1="388" y1="210" x2="286" y2="322" stroke="#3C5488" stroke-width="6" stroke-linecap="butt"/>
+<line x1="412" y1="210" x2="624" y2="468" stroke="#3C5488" stroke-width="6" stroke-linecap="butt"/>
+<rect x="272" y="322" width="28" height="28" fill="#F39B7F" rx="4"/>
+<text x="286" y="344" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">②</text>
+<line x1="280" y1="350" x2="116" y2="468" stroke="#F39B7F" stroke-width="6" stroke-linecap="butt"/>
+<line x1="292" y1="350" x2="258" y2="468" stroke="#F39B7F" stroke-width="6" stroke-linecap="butt"/>
+<circle cx="110" cy="492" r="22" fill="#3C5488"/>
+<text x="110" y="503" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">A1</text>
+<circle cx="262" cy="492" r="22" fill="#3C5488"/>
+<text x="262" y="503" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">A2</text>
+<circle cx="630" cy="492" r="22" fill="#3C5488"/>
+<text x="630" y="503" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">B</text>
+<text x="150" y="430" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">species A</text>
+<text x="600" y="430" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">species B</text>
+<text x="436" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">物种分化：直系同源</text>
+<text x="186" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">基因复制：旁系同源</text>
+<path d="M 608 466 C 480 524, 380 524, 292 502" fill="none" stroke="#8491B4" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="16 12"/>
+<polygon points="292,502 318,490 318,516" fill="#8491B4"/>
+<text x="520" y="560" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">水平转移：异系同源</text>
+<rect x="240" y="614" width="320" height="66" fill="#E64B35" rx="14"/>
+<text x="400" y="659" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">看分开时的事件</text>
+</svg>

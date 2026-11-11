@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="140" y="67.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">四列结构</text>
+<text x="430" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">无链 · 正向 · 反向</text>
+<rect x="90" y="96" width="640" height="64" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<text x="200.0" y="139" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">基因标识</text>
+<text x="380.0" y="139" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">U</text>
+<text x="520.0" y="139" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">ISF</text>
+<text x="660.0" y="139" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">ISR</text>
+<rect x="90" y="160" width="640" height="60" fill="#FFFFFF" stroke="#3C5488" stroke-width="3"/>
+<text x="200.0" y="201" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">gene_A</text>
+<text x="380.0" y="201" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">512</text>
+<text x="520.0" y="201" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">305</text>
+<text x="660.0" y="201" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">198</text>
+<rect x="90" y="220" width="640" height="60" fill="#FAFAF7" stroke="#3C5488" stroke-width="3"/>
+<text x="200.0" y="261" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">gene_B</text>
+<text x="380.0" y="261" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">1220</text>
+<text x="520.0" y="261" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">640</text>
+<text x="660.0" y="261" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">702</text>
+<rect x="90" y="280" width="640" height="60" fill="#FFFFFF" stroke="#3C5488" stroke-width="3"/>
+<text x="200.0" y="321" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">gene_C</text>
+<text x="380.0" y="321" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">36</text>
+<text x="520.0" y="321" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">18</text>
+<text x="660.0" y="321" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">15</text>
+<line x1="310" y1="96" x2="310" y2="340" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="450" y1="96" x2="450" y2="340" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="590" y1="96" x2="590" y2="340" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<rect x="590" y="86" width="140" height="264" fill="none" stroke="#00A087" stroke-width="6"/>
+<line x1="380.0" y1="356" x2="380.0" y2="406" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="380.0,406 374.6991141102256,394.12984377594 385.3008858897744,394.12984377594" fill="#00A087"/>
+<text x="380.0" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">无链选第二列</text>
+<line x1="520.0" y1="356" x2="520.0" y2="470" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="520.0,470 514.6991141102255,458.12984377594 525.3008858897745,458.12984377594" fill="#00A087"/>
+<text x="520.0" y="508" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">正向选第三列</text>
+<line x1="660.0" y1="356" x2="660.0" y2="534" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="660.0,534 654.6991141102255,522.12984377594 665.3008858897745,522.12984377594" fill="#00A087"/>
+<text x="660.0" y="572" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">反向选第四列</text>
+<rect x="70" y="610" width="660" height="72" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="6"/>
+<path d="M 94 626 L 118 650 M 118 626 L 94 650" fill="none" stroke="#E64B35" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="140" y="642" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">选错列 → 只剩反义噪声</text>
+<text x="140" y="672" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">表面正常 · 不报错</text>
+</svg>

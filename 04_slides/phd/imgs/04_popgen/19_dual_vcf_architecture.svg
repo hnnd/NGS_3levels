@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Two physically separate VCF products</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="250" y="56" width="300" height="84" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">gtmask.vcf.gz</text>
+<text x="380" y="178" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="end" font-weight="bold">同底座提取双等位</text>
+<line x1="400" y1="140" x2="400" y2="214" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="200" y1="214" x2="600" y2="214" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="200" y1="214" x2="200" y2="250" stroke="#00A087" stroke-width="5" stroke-linecap="butt"/>
+<line x1="600" y1="214" x2="600" y2="250" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<rect x="324.0" y="186.0" width="152.0" height="56" fill="#FFFFFF" rx="28.0" stroke="#3C5488" stroke-width="4"/>
+<text x="400.0" y="224.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">物理分流</text>
+<rect x="58" y="250" width="284" height="186" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="200" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">popgen.vcf.gz</text>
+<text x="200" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">--max-missing 0.8</text>
+<text x="200" y="398" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">MAF: off</text>
+<rect x="458" y="250" width="284" height="186" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="600" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">struct.vcf.gz</text>
+<text x="600" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">--max-missing 0.9</text>
+<text x="600" y="398" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">--maf 0.05</text>
+<text x="200" y="500" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">多样性绝对不滤次频</text>
+<text x="600" y="500" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">结构关联滤点零五</text>
+<text x="200" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">π · θ_W · D_T · SFS</text>
+<text x="600" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">LD · PCA · ADMIXTURE</text>
+</svg>

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">应用案例：抑病土壤三步法——画像给名单，回接给因果</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">谱系画像 → 功能收口 → 结论形态 —— 依据 06_amplicon_lecture.md ③3.1（Mendes et al., 2011, Science）</text>
+
+  <!-- ============ 面板 1：谱系画像 ============ -->
+  <rect x="48" y="130" width="352" height="480" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="162" font-size="15" font-weight="bold" fill="#3C5488">① 谱系画像（关联层）</text>
+  <line x1="72" y1="178" x2="376" y2="178" stroke="#E9E9E5"/>
+
+  <!-- 两块地示意 -->
+  <rect x="72" y="196" width="140" height="96" rx="6" fill="#F39B7F" fill-opacity="0.18" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="142" y="222" font-size="11.5" fill="#33332E" text-anchor="middle">感病土</text>
+  <circle cx="142" cy="252" r="12" fill="#F39B7F"/>
+  <line x1="132" y1="270" x2="152" y2="270" stroke="#6B6B66" stroke-width="2"/>
+  <line x1="142" y1="264" x2="142" y2="270" stroke="#6B6B66" stroke-width="2"/>
+  <text x="142" y="286" font-size="10" fill="#E64B35" text-anchor="middle">发病</text>
+
+  <rect x="236" y="196" width="140" height="96" rx="6" fill="#00A087" fill-opacity="0.12" stroke="#00A087" stroke-width="1.5"/>
+  <text x="306" y="222" font-size="11.5" fill="#33332E" text-anchor="middle">抑病土</text>
+  <circle cx="306" cy="252" r="12" fill="#00A087"/>
+  <line x1="296" y1="270" x2="316" y2="270" stroke="#6B6B66" stroke-width="2"/>
+  <line x1="306" y1="264" x2="306" y2="270" stroke="#6B6B66" stroke-width="2"/>
+  <text x="306" y="286" font-size="10" fill="#00A087" text-anchor="middle">连年不发病</text>
+
+  <text x="72" y="326" font-size="12" fill="#33332E">甜菜根际 16S 系统发育芯片（PhyloChip）画像，</text>
+  <text x="72" y="346" font-size="12" fill="#33332E">检出 3.3 万余个细菌 / 古菌分类单元</text>
+
+  <!-- 共变门类 -->
+  <text x="72" y="382" font-size="12.5" font-weight="bold" fill="#33332E">与抑病状态稳定共变的门类：</text>
+  <rect x="72"  y="394" width="92" height="24" rx="4" fill="#3C5488"/>
+  <text x="118" y="410" font-size="10" fill="#FFFFFF" text-anchor="middle">Proteobacteria</text>
+  <rect x="172" y="394" width="86" height="24" rx="4" fill="#4DBBD5"/>
+  <text x="215" y="410" font-size="10" fill="#FFFFFF" text-anchor="middle">Firmicutes</text>
+  <rect x="266" y="394" width="100" height="24" rx="4" fill="#F39B7F"/>
+  <text x="316" y="410" font-size="10" fill="#33332E" text-anchor="middle">Actinobacteria</text>
+
+  <rect x="72" y="440" width="304" height="60" rx="6" fill="#FAFAF7"/>
+  <rect x="72" y="440" width="4" height="60" rx="2" fill="#3C5488"/>
+  <text x="88" y="466" font-size="12" fill="#33332E">这一步给出的只是候选类群名单——</text>
+  <text x="88" y="486" font-size="12" fill="#33332E">共变 ≠ 因果</text>
+
+  <text x="72" y="536" font-size="11.5" fill="#6B6B66">对应主线：PRJDB13364 铁毒 vs 非铁毒的</text>
+  <text x="72" y="556" font-size="11.5" fill="#6B6B66">PERMANOVA ＋ 差异类群列表，停在同一层</text>
+
+  <!-- ============ 面板 2：功能收口 ============ -->
+  <rect x="424" y="130" width="352" height="480" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="448" y="162" font-size="15" font-weight="bold" fill="#3C5488">② 功能收口（因果层）</text>
+  <line x1="448" y1="178" x2="752" y2="178" stroke="#E9E9E5"/>
+
+  <text x="448" y="208" font-size="12.5" font-weight="bold" fill="#33332E">把「名单」变成「功能」的四步：</text>
+  <rect x="448" y="222" width="304" height="44" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.2"/>
+  <text x="600" y="249" font-size="12" fill="#33332E" text-anchor="middle">从抑病土分离培养菌株</text>
+  <line x1="600" y1="266" x2="600" y2="276" stroke="#3C5488" stroke-width="1.5"/>
+  <polygon points="595,275 605,275 600,283" fill="#3C5488"/>
+  <rect x="448" y="284" width="304" height="44" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.2"/>
+  <text x="600" y="311" font-size="12" fill="#33332E" text-anchor="middle">逐一回接灭菌土，测对病原的保护力</text>
+  <line x1="600" y1="328" x2="600" y2="338" stroke="#3C5488" stroke-width="1.5"/>
+  <polygon points="595,337 605,337 600,345" fill="#3C5488"/>
+  <rect x="448" y="346" width="304" height="44" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.2"/>
+  <text x="600" y="373" font-size="12" fill="#33332E" text-anchor="middle">锁定 γ-变形菌成员具有抑病活性</text>
+  <line x1="600" y1="390" x2="600" y2="400" stroke="#3C5488" stroke-width="1.5"/>
+  <polygon points="595,399 605,399 600,407" fill="#3C5488"/>
+  <rect x="448" y="408" width="304" height="44" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="600" y="428" font-size="12" fill="#33332E" text-anchor="middle">活性依赖非核糖体肽合成酶（NRPS）基因</text>
+  <text x="600" y="446" font-size="10.5" fill="#00A087" text-anchor="middle">抑病能力有明确的分子基础</text>
+
+  <rect x="448" y="474" width="304" height="60" rx="6" fill="#FAFAF7"/>
+  <rect x="448" y="474" width="4" height="60" rx="2" fill="#00A087"/>
+  <text x="464" y="500" font-size="12" fill="#33332E">培养 ＋ 回接给出「谁在干活」——</text>
+  <text x="464" y="520" font-size="12" fill="#33332E">这是画像数据做不到的一步</text>
+
+  <text x="448" y="566" font-size="11.5" fill="#6B6B66">对应主线：把「差异类群」写成「功能差异」，</text>
+  <text x="448" y="586" font-size="11.5" fill="#6B6B66">需培养回接或宏基因组注释（m07）</text>
+
+  <!-- ============ 面板 3：结论形态 ============ -->
+  <rect x="800" y="130" width="352" height="480" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="824" y="162" font-size="15" font-weight="bold" fill="#3C5488">③ 结论形态</text>
+  <line x1="824" y1="178" x2="1128" y2="178" stroke="#E9E9E5"/>
+
+  <!-- 根与菌群联合体示意 -->
+  <line x1="976" y1="210" x2="976" y2="330" stroke="#3C5488" stroke-width="3"/>
+  <line x1="976" y1="250" x2="940" y2="300" stroke="#3C5488" stroke-width="2"/>
+  <line x1="976" y1="270" x2="1012" y2="310" stroke="#3C5488" stroke-width="2"/>
+  <text x="976" y="200" font-size="10.5" fill="#6B6B66" text-anchor="middle">植物根</text>
+  <!-- 护卫菌群（绿圈） -->
+  <circle cx="922" cy="322" r="9" fill="#00A087"/>
+  <circle cx="950" cy="342" r="9" fill="#00A087"/>
+  <circle cx="1002" cy="342" r="9" fill="#00A087"/>
+  <circle cx="1030" cy="322" r="9" fill="#00A087"/>
+  <text x="976" y="372" font-size="10.5" fill="#00A087" text-anchor="middle">被招募的菌群联合体（绿色）</text>
+  <!-- 病原（红） -->
+  <circle cx="880" cy="296" r="12" fill="#E64B35"/>
+  <line x1="896" y1="306" x2="912" y2="314" stroke="#E64B35" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="874" y="274" font-size="10.5" fill="#E64B35" text-anchor="middle">病原</text>
+
+  <text x="824" y="412" font-size="12.5" font-weight="bold" fill="#33332E">论文的结论长这样：</text>
+  <text x="824" y="438" font-size="12" fill="#33332E">· 植物受病原攻击时，可以招募土壤菌群</text>
+  <text x="840" y="458" font-size="12" fill="#33332E">联合体来保护自己</text>
+  <text x="824" y="484" font-size="12" fill="#33332E">· 抑病是「菌群的功能」，不是「某一个</text>
+  <text x="840" y="504" font-size="12" fill="#33332E">物种的存在性」</text>
+
+  <rect x="824" y="528" width="304" height="60" rx="6" fill="#FAFAF7"/>
+  <rect x="824" y="528" width="4" height="60" rx="2" fill="#3C5488"/>
+  <text x="840" y="554" font-size="12" fill="#33332E">16S 读数比例 ≠ 细胞比例——因果表述</text>
+  <text x="840" y="574" font-size="12" fill="#33332E">超出画像数据的承载力（讲义 ③）</text>
+
+  <!-- ============ 底部三段式与页脚 ============ -->
+  <text x="48" y="652" font-size="13.5" font-weight="bold" fill="#3C5488">「功能分组设计 ＋ 群落画像 ＋ 功能验证」三段式——根际微生物组从描述走向应用的通用路径。</text>
+  <text x="48" y="700" font-size="15" font-weight="bold" fill="#3C5488">对主线分析的启示：PERMANOVA ＋ 差异类群 = 三步式的第一步；写成「功能差异」之前，先补第二步。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

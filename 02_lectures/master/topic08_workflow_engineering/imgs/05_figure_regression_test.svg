@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">把论文的图变成回归测试：mini 流程的验收闭环</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">复现验收 ｜ 方向与量级 —— 依据 08_workflow_engineering_lecture.md ③3.1</text>
+  <!-- 图例 -->
+  <rect x="952" y="40" width="14" height="14" rx="3" fill="#4DBBD5"/>
+  <text x="974" y="52" font-size="12" fill="#33332E">流程步骤</text>
+  <rect x="1066" y="40" width="14" height="14" rx="3" fill="#00A087"/>
+  <text x="1088" y="52" font-size="12" fill="#33332E">验收通过</text>
+  <rect x="952" y="66" width="14" height="14" rx="3" fill="#E64B35"/>
+  <text x="974" y="78" font-size="12" fill="#33332E">诚实的预期</text>
+
+  <!-- ============ 左面板：流程骨架 ============ -->
+  <rect x="48" y="124" width="520" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="16" font-weight="bold" fill="#3C5488">mini 流程骨架：全部复用本讲四件套</text>
+
+  <rect x="72" y="170" width="472" height="60" rx="6" fill="#FAFAF7" stroke="#3C5488" stroke-width="2"/>
+  <text x="88" y="194" font-size="13" font-weight="bold" fill="#3C5488">rule all（最终目标）</text>
+  <text x="88" y="216" font-size="11.5" fill="#33332E">论文中的那张图：复氮后氮摄取与同化基因的快速上调</text>
+
+  <rect x="88" y="252" width="400" height="42" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="88" y="252" width="4" height="42" rx="2" fill="#4DBBD5"/>
+  <text x="106" y="278" font-size="12" fill="#33332E">samples.tsv——12 个 run（主线 PRJDB36269）</text>
+  <line x1="288" y1="294" x2="288" y2="308" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="283,308 293,308 288,316" fill="#6B6B66"/>
+  <rect x="88" y="318" width="400" height="42" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="88" y="318" width="4" height="42" rx="2" fill="#4DBBD5"/>
+  <text x="106" y="344" font-size="12" fill="#33332E">rule fastp（④ 的参数化模板）</text>
+  <line x1="288" y1="360" x2="288" y2="374" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="283,374 293,374 288,382" fill="#6B6B66"/>
+  <rect x="88" y="384" width="400" height="42" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="88" y="384" width="4" height="42" rx="2" fill="#4DBBD5"/>
+  <text x="106" y="410" font-size="12" fill="#33332E">比对定量 → counts 汇总（expand()）</text>
+  <line x1="288" y1="426" x2="288" y2="440" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="283,440 293,440 288,448" fill="#6B6B66"/>
+  <rect x="88" y="450" width="400" height="42" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="88" y="450" width="4" height="42" rx="2" fill="#4DBBD5"/>
+  <text x="106" y="476" font-size="12" fill="#33332E">DESeq2 差异分析（m04 的模型）</text>
+  <line x1="288" y1="492" x2="288" y2="506" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="283,506 293,506 288,514" fill="#6B6B66"/>
+  <rect x="88" y="516" width="400" height="42" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="88" y="516" width="4" height="42" rx="2" fill="#4DBBD5"/>
+  <text x="106" y="542" font-size="12" fill="#33332E">ggplot2 出图 → Quarto 报告（-P 传入真实路径）</text>
+
+  <text x="88" y="600" font-size="11.5" fill="#6B6B66">不引入新脚本：换的只是样本清单，和你要复现的那张图。</text>
+  <rect x="72" y="620" width="472" height="40" rx="6" fill="#FAFAF7"/>
+  <text x="308" y="645" font-size="11.5" fill="#33332E" text-anchor="middle">期末作业推荐选题：挑你最常重跑的那张图，照此打包</text>
+
+  <!-- ============ 右面板：验收闭环 ============ -->
+  <rect x="592" y="124" width="560" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="616" y="156" font-size="16" font-weight="bold" fill="#3C5488">验收：图从「结果」变成「回归测试」</text>
+
+  <!-- 论文原图 -->
+  <rect x="616" y="176" width="250" height="130" rx="6" fill="#FFFFFF" stroke="#F39B7F" stroke-width="2"/>
+  <text x="628" y="198" font-size="12" font-weight="bold" fill="#33332E">论文原图（Li 2025）</text>
+  <text x="628" y="216" font-size="10.5" fill="#6B6B66">方向：复氮后快速上调</text>
+  <line x1="632" y1="284" x2="850" y2="284" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="632" y1="222" x2="632" y2="284" stroke="#6B6B66" stroke-width="1.2"/>
+  <polyline points="640,272 690,262 740,248 790,240 844,226" fill="none" stroke="#4DBBD5" stroke-width="2.5"/>
+  <polyline points="640,278 690,272 740,264 790,256 844,248" fill="none" stroke="#F39B7F" stroke-width="2.5"/>
+  <text x="848" y="238" font-size="10.5" fill="#6B6B66" text-anchor="end">发表曲线（示意）</text>
+
+  <!-- 复现报告 -->
+  <rect x="886" y="176" width="250" height="130" rx="6" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="898" y="198" font-size="12" font-weight="bold" fill="#33332E">复现报告（Quarto 渲染）</text>
+  <text x="898" y="216" font-size="10.5" fill="#6B6B66">同一批 run、你自己的参数</text>
+  <line x1="902" y1="284" x2="1120" y2="284" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="902" y1="222" x2="902" y2="284" stroke="#6B6B66" stroke-width="1.2"/>
+  <polyline points="910,274 960,264 1010,252 1060,244 1114,232" fill="none" stroke="#4DBBD5" stroke-width="2.5"/>
+  <polyline points="910,279 960,274 1010,266 1060,259 1114,252" fill="none" stroke="#F39B7F" stroke-width="2.5"/>
+  <text x="1118" y="238" font-size="10.5" fill="#6B6B66" text-anchor="end">渲染即现算</text>
+
+  <!-- 验收带 -->
+  <rect x="616" y="322" width="520" height="44" rx="6" fill="#FAFAF7"/>
+  <rect x="616" y="322" width="4" height="44" rx="2" fill="#00A087"/>
+  <text x="632" y="349" font-size="12.5" fill="#33332E">验收标准：方向一致、量级相当，差异能归因到方法学 → 核心结论还成立</text>
+
+  <!-- 回归测试循环 -->
+  <rect x="616" y="382" width="520" height="92" rx="6" fill="#FAFAF7"/>
+  <rect x="616" y="382" width="4" height="92" rx="2" fill="#3C5488"/>
+  <text x="632" y="408" font-size="12.5" font-weight="bold" fill="#3C5488">怎么当回归测试用（③3.1）</text>
+  <text x="632" y="432" font-size="12" fill="#33332E">此后任何人改动流程任何一步，重新渲染就能</text>
+  <text x="632" y="454" font-size="12" fill="#33332E">立刻看出核心结论还成不成立。</text>
+
+  <!-- 诚实预期 -->
+  <rect x="616" y="490" width="520" height="94" rx="6" fill="#FAFAF7"/>
+  <rect x="616" y="490" width="4" height="94" rx="2" fill="#E64B35"/>
+  <text x="632" y="516" font-size="12.5" font-weight="bold" fill="#E64B35">诚实的预期：复现不了每一个数字</text>
+  <text x="632" y="540" font-size="12" fill="#33332E">它的过滤阈值、比对参数、版本组合你并不全知；</text>
+  <text x="632" y="562" font-size="12" fill="#33332E">能复现的是方向与量级——阈值就是代码的一部分（⑦）。</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">验收标准因此变了：不再是「跑完了」，而是「渲染出的报告与论文方向一致」。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

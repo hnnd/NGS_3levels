@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Model spectrum on two absorption axes</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="58" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">宏观靠主成分微观靠亲缘矩阵</text>
+<line x1="130.0" y1="600.0" x2="744" y2="600.0" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="744,600.0 731.2167548356277,605.708646342834 731.2167548356277,594.291353657166" fill="#3C5488"/>
+<line x1="130.0" y1="600.0" x2="130.0" y2="600.0" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="130.0,600.0 117.21675483562768,605.708646342834 117.21675483562768,594.291353657166" fill="#3C5488"/>
+<line x1="130.0" y1="600.0" x2="130.0" y2="600.0" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="130.0,600.0 117.21675483562768,605.708646342834 117.21675483562768,594.291353657166" fill="#3C5488"/>
+<line x1="130.0" y1="600.0" x2="130.0" y2="104" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="130.0,104 135.708646342834,116.78324516437232 124.29135365716601,116.78324516437232" fill="#3C5488"/>
+<text x="736" y="590" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="start" font-weight="bold">Q</text>
+<text x="104" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="end" font-weight="bold">K</text>
+<line x1="163" y1="539" x2="197" y2="573" stroke="#E64B35" stroke-width="9" stroke-linecap="round"/>
+<line x1="163" y1="573" x2="197" y2="539" stroke="#E64B35" stroke-width="9" stroke-linecap="round"/>
+<text x="180" y="530" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">OLS</text>
+<circle cx="470" cy="556" r="15" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="5"/>
+<circle cx="470" cy="556" r="7" fill="#3C8DAD"/>
+<text x="494" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">GLM+Q</text>
+<circle cx="380" cy="340" r="15" fill="#FFFFFF" stroke="#3C5488" stroke-width="5"/>
+<circle cx="380" cy="340" r="7" fill="#3C5488"/>
+<text x="380" y="314" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">EMMAX</text>
+<circle cx="470" cy="236" r="15" fill="#FFFFFF" stroke="#00A087" stroke-width="5"/>
+<circle cx="470" cy="236" r="7" fill="#00A087"/>
+<text x="470" y="208" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">MLM (Q+K)</text>
+<circle cx="616" cy="150" r="15" fill="#FFFFFF" stroke="#8491B4" stroke-width="5"/>
+<circle cx="616" cy="150" r="7" fill="#8491B4"/>
+<text x="616" y="120" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">FarmCPU/BLINK</text>
+<line x1="130" y1="236" x2="470" y2="236" stroke="#00A087" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<line x1="470" y1="600" x2="470" y2="236" stroke="#00A087" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<text x="400" y="664" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">固定效应迭代求解多基因性状功效</text>
+</svg>

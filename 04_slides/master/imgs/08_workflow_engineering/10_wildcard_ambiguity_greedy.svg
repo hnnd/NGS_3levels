@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="58" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">贪婪吞路径含斜杠</text>
+<rect x="46" y="82" width="708" height="236" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="96" y="126" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">results/clean/CK_1_1.fq.gz</text>
+<rect x="70" y="158" width="660" height="66" fill="#F6D8D2" rx="10" stroke="#E64B35" stroke-width="4"/>
+<text x="400" y="202" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">sample=clean/CK_1</text>
+<rect x="70" y="236" width="660" height="66" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="4"/>
+<text x="400" y="280" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">match = 0 (constrained)</text>
+<line x1="96" y1="552" x2="704" y2="552" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<rect x="174" y="352" width="152" height="200" fill="#E64B35" rx="8"/>
+<text x="250" y="336" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">100.0%</text>
+<text x="250" y="598" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">同前缀歧义率</text>
+<rect x="436" y="547" width="152" height="5" fill="#00A087" rx="8"/>
+<text x="512" y="531" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">0.0%</text>
+<text x="512" y="598" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">异前缀歧义率</text>
+<text x="400" y="668" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">唯一前缀根治</text>
+</svg>

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">多组学整合的两条路线：晚期收敛 vs 早期共嵌入</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">各自分析后比对 ｜ 特征层拼接 / 联合分解 —— 依据 06_multiomics_lecture.md ④4.6</text>
+  <!-- 图例 -->
+  <rect x="926" y="30" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="40" font-size="12" fill="#33332E">转录组（数据层）</text>
+  <rect x="926" y="48" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="58" font-size="12" fill="#33332E">代谢组（数据层）</text>
+  <rect x="926" y="66" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="76" font-size="12" fill="#33332E">分析 / 收敛节点</text>
+  <rect x="926" y="84" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="94" font-size="12" fill="#33332E">共享因子 / 交集产出</text>
+  <rect x="926" y="102" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="112" font-size="12" fill="#33332E">各路线的典型坑</text>
+
+  <!-- ============ 面板 A：晚期整合 ============ -->
+  <rect x="48" y="120" width="536" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="17" font-weight="bold" fill="#3C5488">晚期整合：各自分析 → 结果层收敛</text>
+  <text x="72" y="176" font-size="12.5" fill="#6B6B66">每一步都可解释、方法学最稳（late / 各自分析后比对）</text>
+  <line x1="72" y1="190" x2="560" y2="190" stroke="#E9E9E5"/>
+
+  <!-- 转录组支线 -->
+  <rect x="80" y="224" width="148" height="58" rx="8" fill="#4DBBD5"/>
+  <text x="154" y="250" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">转录组</text>
+  <text x="154" y="270" font-size="10.5" fill="#FFFFFF" text-anchor="middle">vst 表达矩阵</text>
+  <polyline points="228,253 264,253 264,285 292,285" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="300,285 292,281 292,289" fill="#6B6B66"/>
+
+  <!-- 代谢组支线 -->
+  <rect x="80" y="330" width="148" height="58" rx="8" fill="#F39B7F"/>
+  <text x="154" y="356" font-size="15" font-weight="bold" fill="#33332E" text-anchor="middle">代谢组</text>
+  <text x="154" y="376" font-size="10.5" fill="#33332E" text-anchor="middle">CLR 后峰表</text>
+  <polyline points="228,359 264,359 264,327 292,327" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="300,327 292,323 292,331" fill="#6B6B66"/>
+
+  <!-- 各自分析步骤 -->
+  <rect x="300" y="248" width="190" height="116" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="395" y="290" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">各自差异分析 + 富集</text>
+  <text x="395" y="314" font-size="10.5" fill="#6B6B66" text-anchor="middle">两组学各自做、互不掺和</text>
+  <text x="395" y="334" font-size="10.5" fill="#6B6B66" text-anchor="middle">各得一份显著列表</text>
+
+  <!-- 收敛 -->
+  <line x1="395" y1="364" x2="395" y2="444" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="395,452 391,444 399,444" fill="#6B6B66"/>
+  <rect x="150" y="452" width="300" height="58" rx="8" fill="#3C5488"/>
+  <text x="300" y="478" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">通路层面比对 / 取交集</text>
+  <text x="300" y="498" font-size="10.5" fill="#D8DEEC" text-anchor="middle">结果层合并（样本不配对也能各自分析）</text>
+  <line x1="300" y1="510" x2="300" y2="540" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="300,548 296,540 304,540" fill="#6B6B66"/>
+  <rect x="150" y="548" width="300" height="52" rx="8" fill="#00A087"/>
+  <text x="300" y="570" font-size="13.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">交集：两边都显著的候选</text>
+  <text x="300" y="589" font-size="10" fill="#DFF3EE" text-anchor="middle">样本量不足以联合建模时的保底方案</text>
+
+  <!-- 坑 -->
+  <rect x="88" y="626" width="12" height="12" fill="#E64B35"/>
+  <text x="108" y="637" font-size="12.5" fill="#E64B35">坑：只能发现“两边都显著”的部分，</text>
+  <text x="108" y="657" font-size="12.5" fill="#E64B35">漏掉协同的弱效应（④4.6）</text>
+
+  <!-- ============ 面板 B：早期 / 中期共嵌入 ============ -->
+  <rect x="616" y="120" width="536" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="640" y="154" font-size="17" font-weight="bold" fill="#3C5488">早期 / 中期：特征层共嵌入 → 共享因子</text>
+  <text x="640" y="176" font-size="12.5" fill="#6B6B66">MOFA2 自动处理量纲与特征数差异（本讲主推路线）</text>
+  <line x1="640" y1="190" x2="1128" y2="190" stroke="#E9E9E5"/>
+
+  <!-- 两个组学 -->
+  <rect x="648" y="224" width="148" height="58" rx="8" fill="#4DBBD5"/>
+  <text x="722" y="250" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">转录组</text>
+  <text x="722" y="270" font-size="10.5" fill="#FFFFFF" text-anchor="middle">vst 表达矩阵</text>
+  <rect x="648" y="330" width="148" height="58" rx="8" fill="#F39B7F"/>
+  <text x="722" y="356" font-size="15" font-weight="bold" fill="#33332E" text-anchor="middle">代谢组</text>
+  <text x="722" y="376" font-size="10.5" fill="#33332E" text-anchor="middle">CLR 后峰表</text>
+
+  <!-- 共嵌入节点 -->
+  <polyline points="796,253 826,253 826,270 846,270" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="854,270 846,266 846,274" fill="#6B6B66"/>
+  <polyline points="796,359 826,359 826,330 846,330" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="854,330 846,326 846,334" fill="#6B6B66"/>
+  <rect x="856" y="244" width="200" height="124" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="956" y="274" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">特征层拼接（concatenation）</text>
+  <text x="956" y="292" font-size="10.5" fill="#6B6B66" text-anchor="middle">拼大矩阵再 PCA / 聚类</text>
+  <line x1="872" y1="304" x2="1040" y2="304" stroke="#E9E9E5"/>
+  <text x="956" y="326" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">联合分解（MOFA2）</text>
+  <text x="956" y="344" font-size="10.5" fill="#6B6B66" text-anchor="middle">学一个共享低维表示</text>
+  <line x1="956" y1="368" x2="956" y2="398" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="956,404 952,396 960,396" fill="#6B6B66"/>
+  <rect x="856" y="404" width="200" height="56" rx="8" fill="#00A087"/>
+  <text x="956" y="428" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">共享因子 Z</text>
+  <text x="956" y="448" font-size="10" fill="#DFF3EE" text-anchor="middle">跨组学共同变异轴</text>
+
+  <!-- 方差分解判读 -->
+  <rect x="836" y="484" width="240" height="48" rx="6" fill="#FAFAF7"/>
+  <text x="956" y="503" font-size="11" fill="#33332E" text-anchor="middle">方差分解判读：两 view 都有方差 → 共变结构</text>
+  <text x="956" y="521" font-size="11" fill="#33332E" text-anchor="middle">仅一个 view → 组学特有变异或批次</text>
+  <text x="956" y="556" font-size="11" fill="#6B6B66" text-anchor="middle">因子无方向、无因果；编号不可信，Factor1 常是批次</text>
+
+  <!-- 坑 -->
+  <rect x="656" y="626" width="12" height="12" fill="#E64B35"/>
+  <text x="676" y="637" font-size="12.5" fill="#E64B35">坑：2 万基因 vs 500 代谢物，基因完全主导——</text>
+  <text x="676" y="657" font-size="12.5" fill="#E64B35">不做 block scaling 等于只分析了转录组（④4.6）</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="4" height="58" rx="2" fill="#3C5488"/>
+  <rect x="48" y="696" width="1104" height="58" rx="6" fill="#FAFAF7"/>
+  <text x="66" y="718" font-size="12.5" fill="#33332E">贯穿所有策略的前提是样本配对：同一份材料 · 同一时间点 · 同一提取批——不配对时，两层的相关里混着一整年的批次差异，且无法拆开。</text>
+  <text x="66" y="740" font-size="12.5" fill="#33332E">本讲主线 GSE157400 + MTBLS13460 两层非同一批样本：只能做流程操作练习，不能下跨组学生物学结论。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

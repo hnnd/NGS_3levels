@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Three negative controls, three kinds of questions</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="62" width="720" height="108" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<rect x="40" y="62" width="12" height="108" fill="#3C5488"/>
+<circle cx="126" cy="116" r="40" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<path d="M 96 132 Q 116 86 156 96 Q 146 140 96 132 Z" fill="#FFFFFF" stroke="#3C5488" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="222" cy="102" r="17" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<text x="222" y="111" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">1</text>
+<text x="262" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">缺对照误判节律</text>
+<line x1="666" y1="94" x2="710" y2="138" stroke="#6B6B66" stroke-width="7" stroke-linecap="round"/>
+<line x1="666" y1="138" x2="710" y2="94" stroke="#6B6B66" stroke-width="7" stroke-linecap="round"/>
+<rect x="40" y="194" width="720" height="108" fill="#FBE6DF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<rect x="40" y="194" width="12" height="108" fill="#F39B7F"/>
+<circle cx="126" cy="248" r="40" fill="#FFFFFF" stroke="#F39B7F" stroke-width="4"/>
+<path d="M 110.0 222.0 L 142.0 222.0 L 142.0 242.0 L 156.0 270.0 Q 159.0 276.0 148.0 276.0 L 104.0 276.0 Q 93.0 276.0 96.0 270.0 L 110.0 242.0 Z" fill="#FFFFFF" stroke="#F39B7F" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="222" cy="234" r="17" fill="#FFFFFF" stroke="#F39B7F" stroke-width="4"/>
+<text x="222" y="243" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">2</text>
+<text x="262" y="262" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">缺体外难定诱导</text>
+<line x1="666" y1="226" x2="710" y2="270" stroke="#6B6B66" stroke-width="7" stroke-linecap="round"/>
+<line x1="666" y1="270" x2="710" y2="226" stroke="#6B6B66" stroke-width="7" stroke-linecap="round"/>
+<rect x="40" y="326" width="720" height="108" fill="#E7F5F8" rx="14" stroke="#4DBBD5" stroke-width="4"/>
+<rect x="40" y="326" width="12" height="108" fill="#4DBBD5"/>
+<circle cx="126" cy="380" r="40" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="4"/>
+<path d="M 126 354 Q 152 386 126 408 Q 100 386 126 354 Z" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="222" cy="366" r="17" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="4"/>
+<text x="222" y="375" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#4DBBD5" text-anchor="middle" font-weight="bold">3</text>
+<text x="262" y="394" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">缺缓冲液混淆操作</text>
+<line x1="666" y1="358" x2="710" y2="402" stroke="#6B6B66" stroke-width="7" stroke-linecap="round"/>
+<line x1="666" y1="402" x2="710" y2="358" stroke="#6B6B66" stroke-width="7" stroke-linecap="round"/>
+<rect x="96" y="520" width="608" height="84" fill="#3C5488" rx="12"/>
+<text x="400.0" y="573.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">缺一则丢一问</text>
+</svg>

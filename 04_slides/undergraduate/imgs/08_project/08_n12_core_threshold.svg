@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="40" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="start" font-weight="bold">n=12：95% 仍为 12 株</text>
+<rect x="70" y="116" width="62" height="264" fill="#3C5488" rx="6"/>
+<text x="101.0" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">12</text>
+<text x="101.0" y="424" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">100%</text>
+<rect x="158" y="116" width="62" height="264" fill="#3C5488" rx="6"/>
+<text x="189.0" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">12</text>
+<text x="189.0" y="424" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">99%</text>
+<rect x="246" y="116" width="62" height="264" fill="#3C5488" rx="6"/>
+<text x="277.0" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">12</text>
+<text x="277.0" y="424" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">95%</text>
+<rect x="334" y="138" width="62" height="242" fill="#4DBBD5" rx="6"/>
+<text x="365.0" y="122" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#4DBBD5" text-anchor="middle" font-weight="bold">11</text>
+<text x="365.0" y="424" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">缺 1 株</text>
+<line x1="50" y1="116" x2="404" y2="116" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<text x="219" y="476" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">k=0 缺 0 株</text>
+<text x="371" y="476" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle">k=1 缺 1 株</text>
+<text x="70" y="530" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">缺 1 株为 91.67%</text>
+<rect x="510" y="135.96217929032326" width="84" height="284.03782070967674" fill="#E64B35" rx="6"/>
+<text x="552" y="119.96217929032326" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">11.36%</text>
+<text x="552" y="464" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">k=0</text>
+<rect x="650" y="404.56365556793816" width="84" height="15.436344432061865" fill="#00A087" rx="6"/>
+<text x="692" y="388.56365556793816" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">0.62%</text>
+<text x="692" y="464" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">k=1</text>
+<line x1="494" y1="420" x2="760" y2="420" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<rect x="120" y="590" width="560" height="62" fill="#3C5488" rx="12"/>
+<text x="400" y="633" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">漏检误判：11.36% 降至 0.62%</text>
+<text x="400" y="680" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">合成算例 demos/ch11_core_threshold.py</text>
+</svg>

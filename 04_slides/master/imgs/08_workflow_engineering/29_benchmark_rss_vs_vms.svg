@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">虚拟内存虚高十五倍</text>
+<rect x="36" y="96" width="348" height="392" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="210" y="132" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0 - 48000 MB</text>
+<line x1="66" y1="440" x2="354" y2="440" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<rect x="84" y="190" width="104" height="250" fill="#E64B35" rx="8"/>
+<rect x="252" y="423.3333333333333" width="88" height="16.666666666666664" fill="#3C8DAD" rx="6"/>
+<text x="136" y="168" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">48000</text>
+<text x="296" y="409.3333333333333" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">3200</text>
+<text x="136" y="480" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">max_vms</text>
+<text x="296" y="480" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">max_rss</text>
+<text x="200" y="552" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">48000 / 3200 = 15x</text>
+<rect x="412" y="96" width="348" height="392" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="586" y="138" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">max_rss -&gt; request</text>
+<rect x="444" y="158" width="284" height="76" fill="#D6EFF4" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="586" y="206" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">max_rss 3200 MB</text>
+<line x1="586" y1="240" x2="586" y2="274" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="586,274 580.291353657166,261.2167548356277 591.708646342834,261.2167548356277" fill="#00A087"/>
+<text x="600" y="264" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">x1.3-2</text>
+<rect x="444" y="280" width="284" height="76" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="586" y="328" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">4160-6400 MB</text>
+<text x="586" y="402" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">留一点三至两倍</text>
+<text x="586" y="452" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">物理峰值定申请依据</text>
+<rect x="104" y="592" width="592" height="100" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="650" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">3200 x (1.3 - 2.0) = 4160 - 6400 MB</text>
+</svg>

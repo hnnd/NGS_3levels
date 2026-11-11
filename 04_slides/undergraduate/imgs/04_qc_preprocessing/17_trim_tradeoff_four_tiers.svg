@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="100" y1="180.0" x2="740" y2="180.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="88" y="190.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">200k</text>
+<line x1="100" y1="265.0" x2="740" y2="265.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="88" y="275.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">150k</text>
+<line x1="100" y1="350.0" x2="740" y2="350.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="88" y="360.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">100k</text>
+<line x1="100" y1="435.0" x2="740" y2="435.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="88" y="445.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">50k</text>
+<line x1="100" y1="520" x2="740" y2="520" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="100" y1="180" x2="100" y2="520" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="110" y="84" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">保留碱基持续跌</text>
+<text x="38" y="350.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" transform="rotate(-90 38 350.0)">Bases (bp)</text>
+<rect x="150" y="210.64589999999998" width="76" height="309.3541" fill="#3C5488" rx="8"/>
+<text x="188" y="252.64589999999998" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">182k</text>
+<rect x="310" y="227.34160000000003" width="76" height="292.6584" fill="#3C5488" rx="8"/>
+<text x="348" y="269.3416" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">172k</text>
+<rect x="470" y="263.0144" width="76" height="256.9856" fill="#3C5488" rx="8"/>
+<text x="508" y="305.0144" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">151k</text>
+<rect x="630" y="312.634" width="76" height="207.36599999999999" fill="#3C5488" rx="8"/>
+<text x="668" y="354.634" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">122k</text>
+<polyline points="248,280.84364163914427 408,267.20014870579485 568,232.10838272650295 728,180.0" fill="none" stroke="#00A087" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="248" cy="280.84364163914427" r="9" fill="#00A087"/>
+<circle cx="408" cy="267.20014870579485" r="9" fill="#00A087"/>
+<circle cx="568" cy="232.10838272650295" r="9" fill="#00A087"/>
+<circle cx="728" cy="180.0" r="9" fill="#00A087"/>
+<text x="268" y="265" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00806B" text-anchor="middle" font-weight="bold">70.3%</text>
+<text x="428" y="243" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00806B" text-anchor="middle" font-weight="bold">74.4%</text>
+<text x="592" y="212" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00806B" text-anchor="middle" font-weight="bold">84.7%</text>
+<text x="712" y="114" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00806B" text-anchor="end" font-weight="bold">100.0%</text>
+<text x="740" y="60" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00806B" text-anchor="end" font-weight="bold">阈值升高质量升</text>
+<text x="664" y="612" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">三十档达标百</text>
+<text x="664" y="660" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">有效碱基剩六成</text>
+<text x="188" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">Q15</text>
+<text x="348" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">Q20</text>
+<text x="508" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">Q25</text>
+<text x="668" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">Q30</text>
+</svg>

@@ -1,0 +1,32 @@
+# 本科生 · 环境 3/4：基因组注释与完整性
+# 覆盖单元：u07 基因组注释 ｜ u08 综合项目（注释部分）
+#
+# 创建：conda env create -f env_ug_annotation.yml
+# 激活：conda activate ngs_ug_annot
+#
+# 【为什么单独一个环境】antiSMASH 依赖大量特定版本的 Python 包与 hmmer/fasttree，
+# 与 BUSCO/QUAST 的依赖冲突；CheckM 需要独立的参考数据库配置。
+
+name: ngs_ug_annot
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # 【生态性断裂】setuptools 82.0.0（2026-02-08）移除了 pkg_resources（81.x 仍含），而 bioconda 上
+  # 2023-2024 年的 Python 工具（multiqc 1.14、macs2、部分 deeptools 子命令等）仍 import 它，
+  # 表现为 `ModuleNotFoundError: No module named 'pkg_resources'`。全课程统一钉 <81（比必要的 <82 多保守一档，已实测可用）。
+  - setuptools<81
+  # ---- 原核基因组注释 ----
+  - prokka
+
+  # ---- 次级代谢产物基因簇 ----
+  - antismash
+
+  # ---- 基因组完整性与污染评估 ----
+  # bioconda 包名是 checkm-genome，不是 checkm
+  - checkm-genome
+
+  # 注：CheckM 首次使用需下载并配置参考数据库：
+  #   checkm data setRoot <数据库目录>

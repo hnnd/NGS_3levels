@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>GSE222584 design: time confounded with batch</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="60" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">n=1</text>
+<text x="268.0" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">7 dpi</text>
+<text x="424.0" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">14 dpi</text>
+<text x="580.0" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">21 dpi</text>
+<text x="176" y="177.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="end">Mock</text>
+<rect x="198" y="130" width="140" height="72" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="268.0" cy="166.0" r="12" fill="#4DBBD5"/>
+<rect x="354" y="130" width="140" height="72" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="424.0" cy="166.0" r="12" fill="#4DBBD5"/>
+<rect x="510" y="130" width="140" height="72" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="580.0" cy="166.0" r="12" fill="#4DBBD5"/>
+<text x="176" y="261.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="end">RRSV</text>
+<rect x="198" y="214" width="140" height="72" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="268.0" cy="250.0" r="12" fill="#4DBBD5"/>
+<rect x="354" y="214" width="140" height="72" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="424.0" cy="250.0" r="12" fill="#4DBBD5"/>
+<rect x="510" y="214" width="140" height="72" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="580.0" cy="250.0" r="12" fill="#4DBBD5"/>
+<text x="176" y="345.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="end">RGSV</text>
+<rect x="198" y="298" width="140" height="72" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="268.0" cy="334.0" r="12" fill="#4DBBD5"/>
+<rect x="354" y="298" width="140" height="72" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="424.0" cy="334.0" r="12" fill="#4DBBD5"/>
+<rect x="510" y="298" width="140" height="72" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<circle cx="580.0" cy="334.0" r="12" fill="#4DBBD5"/>
+<text x="268.0" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">0828</text>
+<text x="424.0" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">0904</text>
+<text x="580.0" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">0911</text>
+<line x1="200" y1="468" x2="648" y2="468" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<polygon points="200,468 216,461 216,475" fill="#E64B35"/>
+<polygon points="632,461 648,468 632,475" fill="#E64B35"/>
+<text x="329.0" y="508" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">采样日期即时间</text>
+<rect x="28.0" y="524" width="744" height="128" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="574" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">三处理乘三时点单重复。</text>
+<text x="400.0" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">采样日期与周期完全共线，时间效应不可辨识。</text>
+</svg>

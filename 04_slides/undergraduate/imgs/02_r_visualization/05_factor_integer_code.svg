@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="140" y="90" width="520" height="240" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="5"/>
+<text x="175" y="163" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">水平表</text>
+<text x="175" y="285" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">整数码</text>
+<rect x="320" y="120" width="100" height="60" fill="#F39B7F"/>
+<text x="370" y="163" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">10</text>
+<line x1="370" y1="182" x2="370" y2="238" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<rect x="420" y="120" width="100" height="60" fill="#F39B7F"/>
+<text x="470" y="163" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">20</text>
+<line x1="470" y1="182" x2="470" y2="238" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<rect x="520" y="120" width="100" height="60" fill="#F39B7F"/>
+<text x="570" y="163" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">50</text>
+<line x1="570" y1="182" x2="570" y2="238" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<rect x="320" y="240" width="100" height="60" fill="#8491B4"/>
+<text x="370" y="283" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<rect x="420" y="240" width="100" height="60" fill="#8491B4"/>
+<text x="470" y="283" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<rect x="520" y="240" width="100" height="60" fill="#8491B4"/>
+<text x="570" y="283" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="40" y="448" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">as.numeric(f)</text>
+<line x1="272" y1="438" x2="348" y2="438" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="348,438 331.56439907437846,445.3396881550723 331.56439907437846,430.6603118449277" fill="#6B6B66"/>
+<rect x="360" y="408" width="240" height="60" fill="#E64B35" rx="10"/>
+<text x="480" y="449" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1 2 3</text>
+<text x="624" y="448" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">拿到的是码</text>
+<text x="40" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">as.numeric(as.character(f))</text>
+<line x1="472" y1="548" x2="500" y2="548" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="500,548 483.56439907437846,555.3396881550723 483.56439907437846,540.6603118449277" fill="#6B6B66"/>
+<rect x="512" y="518" width="200" height="60" fill="#00A087" rx="10"/>
+<text x="612" y="559" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">10 20 50</text>
+<text x="612" y="630" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">先解引用</text>
+</svg>

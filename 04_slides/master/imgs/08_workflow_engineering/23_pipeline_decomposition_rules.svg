@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="54" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">单体脚本拆为四规则</text>
+<rect x="48" y="84" width="344" height="74" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="220.0" y="132" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">fastp</text>
+<rect x="424" y="84" width="328" height="74" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="588.0" y="132" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">envs/qc.yaml</text>
+<line x1="396" y1="121.0" x2="418" y2="121.0" stroke="#00A087" stroke-width="3" stroke-linecap="butt"/>
+<rect x="48" y="178" width="344" height="74" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="220.0" y="226" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">salmon_index</text>
+<rect x="424" y="178" width="328" height="74" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="588.0" y="226" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">envs/quant.yaml</text>
+<line x1="396" y1="215.0" x2="418" y2="215.0" stroke="#00A087" stroke-width="3" stroke-linecap="butt"/>
+<line x1="100" y1="159" x2="100" y2="175" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="100,175 95.10687456328516,164.0429327162523 104.89312543671484,164.0429327162523" fill="#4DBBD5"/>
+<rect x="48" y="272" width="344" height="74" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="220.0" y="320" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">salmon_quant</text>
+<rect x="424" y="272" width="328" height="74" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="588.0" y="320" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">envs/quant.yaml</text>
+<line x1="396" y1="309.0" x2="418" y2="309.0" stroke="#00A087" stroke-width="3" stroke-linecap="butt"/>
+<line x1="100" y1="253" x2="100" y2="269" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="100,269 95.10687456328516,258.0429327162523 104.89312543671484,258.0429327162523" fill="#4DBBD5"/>
+<rect x="48" y="366" width="344" height="74" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="220.0" y="414" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">merge_counts</text>
+<rect x="424" y="366" width="328" height="74" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="588.0" y="414" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">envs/report.yaml</text>
+<line x1="396" y1="403.0" x2="418" y2="403.0" stroke="#00A087" stroke-width="3" stroke-linecap="butt"/>
+<line x1="100" y1="347" x2="100" y2="363" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="100,363 95.10687456328516,352.0429327162523 104.89312543671484,352.0429327162523" fill="#4DBBD5"/>
+<text x="220.0" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">首尾相接流水线</text>
+<text x="588.0" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">每规则独立环境</text>
+<rect x="140" y="508" width="520" height="96" fill="#F6D8D2" rx="16" stroke="#E64B35" stroke-width="5"/>
+<text x="400" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#E64B35" text-anchor="middle" font-weight="bold">防版本冲突</text>
+</svg>

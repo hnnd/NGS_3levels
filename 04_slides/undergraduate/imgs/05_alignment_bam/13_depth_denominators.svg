@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="60" y="76" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">ctg1</text>
+<rect x="60" y="90" width="480" height="44" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="4"/>
+<rect x="60" y="90" width="240" height="44" fill="#00A087" rx="8"/>
+<text x="180" y="120" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">100 bp</text>
+<rect x="300" y="90" width="240" height="44" fill="#E9E9E5" rx="8"/>
+<text x="60" y="176" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">ctg2</text>
+<rect x="60" y="190" width="480" height="44" fill="#E9E9E5" rx="8" stroke="#3C5488" stroke-width="4"/>
+<text x="580" y="218" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">完全未使用</text>
+<text x="580" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">均值被抬高</text>
+<rect x="60" y="320" width="320" height="150" fill="#FFFFFF" rx="14" stroke="#F39B7F" stroke-width="5"/>
+<text x="90" y="368" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="start" font-weight="bold">depth -a</text>
+<text x="90" y="408" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">200 rows</text>
+<text x="90" y="446" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">100 / 200 = 0.5</text>
+<circle cx="372" cy="328" r="9" fill="#E64B35"/>
+<line x1="372" y1="340" x2="372" y2="470" stroke="#E64B35" stroke-width="4" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<rect x="420" y="320" width="320" height="150" fill="#FFFFFF" rx="14" stroke="#00A087" stroke-width="5"/>
+<text x="450" y="368" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="start" font-weight="bold">depth -aa</text>
+<text x="450" y="408" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">400 rows</text>
+<text x="450" y="446" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">100 / 400 = 0.25</text>
+<text x="220" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">空 contig 被删出分母</text>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">dual RNA-seq：reads 怎么分给两个基因组</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">合并双参考 ｜ 一次竞争性比对 ｜ 歧义 read 三归宿 —— 依据 03_host_pathogen_lecture.md ④4.2 / 4.3 / 4.9</text>
+  <!-- 图例 -->
+  <rect x="940" y="42" width="12" height="12" fill="#3C5488"/>
+  <text x="960" y="53" font-size="12" fill="#33332E">宿主（水稻）</text>
+  <rect x="1056" y="42" width="12" height="12" fill="#F39B7F"/>
+  <text x="1076" y="53" font-size="12" fill="#33332E">病原（稻瘟菌）</text>
+  <rect x="940" y="64" width="12" height="12" fill="#4DBBD5"/>
+  <text x="960" y="75" font-size="12" fill="#33332E">reads / 数据流</text>
+  <rect x="1056" y="64" width="12" height="12" fill="#E64B35"/>
+  <text x="1076" y="75" font-size="12" fill="#33332E">歧义 / 易错点</text>
+
+  <!-- ============ 面板 1：reads 池 ============ -->
+  <rect x="48" y="120" width="300" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="16" font-weight="bold" fill="#3C5488">双物种 reads 池</text>
+  <text x="72" y="173" font-size="12" fill="#6B6B66">宿主 + 病原混在一起，看不出来源</text>
+  <line x1="72" y1="187" x2="324" y2="187" stroke="#E9E9E5"/>
+  <rect x="72" y="206" width="252" height="298" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="94"  y="232" width="128" height="10" rx="5" fill="#4DBBD5"/>
+  <rect x="168" y="264" width="96"  height="10" rx="5" fill="#4DBBD5"/>
+  <rect x="104" y="298" width="150" height="10" rx="5" fill="#4DBBD5"/>
+  <rect x="140" y="332" width="112" height="10" rx="5" fill="#4DBBD5"/>
+  <rect x="88"  y="366" width="134" height="10" rx="5" fill="#4DBBD5"/>
+  <rect x="176" y="398" width="100" height="10" rx="5" fill="#4DBBD5"/>
+  <rect x="112" y="430" width="146" height="10" rx="5" fill="#4DBBD5"/>
+  <rect x="150" y="462" width="118" height="10" rx="5" fill="#4DBBD5"/>
+  <text x="198" y="486" font-size="11" fill="#3C8DAD" text-anchor="middle">来源未知</text>
+  <text x="72" y="532" font-size="11.5" fill="#6B6B66">病原占比随侵染进程跨两个数量级变化</text>
+
+  <!-- 箭头 1 -->
+  <line x1="348" y1="335" x2="372" y2="335" stroke="#4DBBD5" stroke-width="2.5"/>
+  <polygon points="384,335 372,329 372,341" fill="#4DBBD5"/>
+
+  <!-- ============ 面板 2：合并双参考 ============ -->
+  <rect x="384" y="120" width="300" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="408" y="152" font-size="16" font-weight="bold" fill="#3C5488">合并双参考索引</text>
+  <text x="408" y="173" font-size="12" fill="#6B6B66">让两个基因组当场“抢”每一条 read</text>
+  <line x1="408" y1="187" x2="660" y2="187" stroke="#E9E9E5"/>
+
+  <rect x="408" y="210" width="252" height="118" rx="8" fill="#3C5488"/>
+  <text x="534" y="258" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">宿主参考</text>
+  <text x="534" y="284" font-size="11.5" fill="#FFFFFF" text-anchor="middle">水稻 host.fa —— 序列名加前缀</text>
+  <text x="534" y="346" font-size="14" font-weight="bold" fill="#33332E" text-anchor="middle">＋</text>
+  <rect x="408" y="362" width="252" height="118" rx="8" fill="#F39B7F"/>
+  <text x="534" y="410" font-size="14" font-weight="bold" fill="#33332E" text-anchor="middle">病原参考</text>
+  <text x="534" y="436" font-size="11.5" fill="#33332E" text-anchor="middle">稻瘟菌 pathogen.fa —— 加前缀</text>
+
+  <rect x="398" y="200" width="272" height="290" rx="8" fill="none" stroke="#3C5488" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="534" y="514" font-size="11.5" fill="#6B6B66" text-anchor="middle">cat 成一个 FASTA，只建一个索引（§4.2）</text>
+  <text x="408" y="540" font-size="11.5" fill="#6B6B66">代价：宿主大时索引内存可达 40 GB+</text>
+
+  <!-- 箭头 2 -->
+  <line x1="684" y1="335" x2="708" y2="335" stroke="#4DBBD5" stroke-width="2.5"/>
+  <polygon points="720,335 708,329 708,341" fill="#4DBBD5"/>
+
+  <!-- ============ 面板 3：三种归宿 ============ -->
+  <rect x="720" y="120" width="432" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="744" y="152" font-size="16" font-weight="bold" fill="#3C5488">一次竞争性比对的三种归宿</text>
+  <text x="744" y="173" font-size="12" fill="#6B6B66">同源区 read 两侧同时命中——合并参考下藏不住（§4.2）</text>
+  <line x1="744" y1="187" x2="1128" y2="187" stroke="#E9E9E5"/>
+
+  <!-- 归宿 1：唯一 → 宿主 -->
+  <rect x="744" y="240" width="60" height="10" rx="5" fill="#4DBBD5"/>
+  <line x1="808" y1="245" x2="826" y2="245" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="832,245 822,240 822,250" fill="#3C5488"/>
+  <rect x="836" y="214" width="292" height="64" rx="8" fill="#3C5488"/>
+  <text x="852" y="242" font-size="13" font-weight="bold" fill="#FFFFFF">唯一比对 → 宿主</text>
+  <text x="852" y="264" font-size="11.5" fill="#FFFFFF">计数进宿主侧，正常定量</text>
+
+  <!-- 归宿 2：唯一 → 病原 -->
+  <rect x="744" y="336" width="60" height="10" rx="5" fill="#4DBBD5"/>
+  <line x1="808" y1="341" x2="826" y2="341" stroke="#F39B7F" stroke-width="2"/>
+  <polygon points="832,341 822,336 822,346" fill="#F39B7F"/>
+  <rect x="836" y="310" width="292" height="64" rx="8" fill="#F39B7F"/>
+  <text x="852" y="338" font-size="13" font-weight="bold" fill="#33332E">唯一比对 → 病原</text>
+  <text x="852" y="360" font-size="11.5" fill="#33332E">计数进病原侧；逐样本占比 = 生物量曲线</text>
+
+  <!-- 归宿 3：歧义 -->
+  <text x="744" y="424" font-size="11" fill="#6B6B66">同源区</text>
+  <rect x="744" y="438" width="60" height="10" rx="5" fill="#4DBBD5"/>
+  <text x="744" y="472" font-size="11" fill="#6B6B66">两侧都命中</text>
+  <line x1="808" y1="440" x2="824" y2="430" stroke="#E64B35" stroke-width="2"/>
+  <line x1="808" y1="446" x2="824" y2="456" stroke="#E64B35" stroke-width="2"/>
+  <polygon points="830,427 820,425 824,434" fill="#E64B35"/>
+  <polygon points="830,459 824,452 820,461" fill="#E64B35"/>
+  <rect x="836" y="406" width="292" height="126" rx="8" fill="#FFFFFF" stroke="#E64B35" stroke-width="2"/>
+  <text x="852" y="432" font-size="13" font-weight="bold" fill="#E64B35">双比对 → 歧义 read（易错点）</text>
+  <text x="852" y="454" font-size="11.5" fill="#33332E">三归宿（§4.9）：① 剔除（NH:i:1，本讲默认）</text>
+  <text x="852" y="474" font-size="11.5" fill="#33332E">② 顺序归属（分别比对）——偏袒先比的一方</text>
+  <text x="852" y="494" font-size="11.5" fill="#33332E">③ EM 概率分摊——更诚实，仍携带本底</text>
+  <text x="852" y="516" font-size="11" fill="#6B6B66">被剔除比例必须统计并随时间报告（§4.3）</text>
+
+  <!-- ============ 底部红条警示 ============ -->
+  <rect x="48" y="580" width="4" height="106" rx="2" fill="#E64B35"/>
+  <rect x="48" y="580" width="1104" height="106" rx="6" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="608" font-size="13.5" font-weight="bold" fill="#E64B35">为什么歧义 read 是头号易错点：恒定的交叉比对本底，会伪装成生物学趋势（§4.3）</text>
+  <text x="72" y="634" font-size="12.5" fill="#33332E">本底抬高的恰是病原侧保守基因 → 早期虚高、随后“下调”——一条完全由技术产生、却长得像互作信号的趋势线</text>
+  <text x="72" y="660" font-size="12.5" fill="#33332E">三道防线：只留唯一比对并报告剔除比例 ｜ 用合并参考让两侧直接竞争 ｜ 未接种对照跑全流程，“病原”侧本底应 ≈ 0</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="740" font-size="15" font-weight="bold" fill="#3C5488">默认合并参考：别让比对顺序偷偷投票——分别比对的“顺序”就是一个未声明的先验假设。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

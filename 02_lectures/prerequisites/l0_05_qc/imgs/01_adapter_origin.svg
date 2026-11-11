@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">接头从哪里来：文库片段比读长短</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">建库示意 ｜ Adapter Content 末端抬升 —— 依据 l0_05 §2、开篇真实场景</text>
+
+  <!-- ============ 上面板：文库分子与 read ============ -->
+  <rect x="48" y="120" width="1104" height="300" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="17" font-weight="bold" fill="#3C5488">读长 150 bp，片段 120 bp：多出来的 30 bp 读的是接头</text>
+  <line x1="72" y1="166" x2="1128" y2="166" stroke="#E9E9E5"/>
+
+  <!-- 文库分子 -->
+  <text x="165" y="200" font-size="10.5" fill="#33332E" text-anchor="middle">接头</text>
+  <text x="165" y="214" font-size="10.5" fill="#33332E" text-anchor="middle">adapter</text>
+  <text x="340" y="200" font-size="12.5" font-weight="bold" fill="#3C8DAD" text-anchor="middle">插入片段 insert = 120 bp</text>
+  <text x="515" y="200" font-size="10.5" fill="#33332E" text-anchor="middle">接头</text>
+  <rect x="140" y="222" width="50" height="30" rx="4" fill="#F39B7F"/>
+  <rect x="190" y="222" width="300" height="30" rx="4" fill="#4DBBD5"/>
+  <rect x="490" y="222" width="50" height="30" rx="4" fill="#F39B7F"/>
+
+  <!-- R1 read 括弧 -->
+  <line x1="140" y1="284" x2="440" y2="284" stroke="#3C8DAD" stroke-width="3"/>
+  <line x1="440" y1="284" x2="515" y2="284" stroke="#E64B35" stroke-width="5"/>
+  <line x1="140" y1="278" x2="140" y2="290" stroke="#3C8DAD" stroke-width="2"/>
+  <line x1="440" y1="278" x2="440" y2="290" stroke="#E64B35" stroke-width="2"/>
+  <line x1="515" y1="278" x2="515" y2="290" stroke="#E64B35" stroke-width="2"/>
+  <text x="290" y="310" font-size="12" font-weight="bold" fill="#3C8DAD" text-anchor="middle">R1 读入的真实序列 120 bp</text>
+  <text x="478" y="310" font-size="12" font-weight="bold" fill="#E64B35" text-anchor="middle">+30 bp 接头</text>
+  <text x="140" y="338" font-size="11.5" fill="#6B6B66">R2 从另一端读，同理读进左边的接头。</text>
+  <text x="140" y="360" font-size="11.5" fill="#6B6B66">同一个文库分子测出的两条 read，末端互为对方的接头序列。</text>
+
+  <!-- 右侧解释 -->
+  <text x="620" y="214" font-size="13.5" font-weight="bold" fill="#3C5488">测序仪不会在插入片段尽头停下来</text>
+  <text x="620" y="240" font-size="12.5" fill="#33332E">读完真实序列后，它继续往另一端的接头里读，</text>
+  <text x="620" y="260" font-size="12.5" fill="#33332E">直到凑满读长。所以——</text>
+  <text x="620" y="290" font-size="12.5" font-weight="bold" fill="#3C5488">Adapter Content 曲线抬起的高度，</text>
+  <text x="620" y="310" font-size="12.5" font-weight="bold" fill="#3C5488">直接反映文库片段大小分布。</text>
+  <rect x="620" y="330" width="484" height="44" rx="6" fill="#FAFAF7"/>
+  <text x="636" y="357" font-size="12.5" fill="#33332E">片段越短，抬升出现得越早、越高；末端抬升 <tspan font-weight="bold">&gt;5%</tspan> 必须去接头。</text>
+
+  <!-- ============ 左下面板：曲线 ============ -->
+  <rect x="48" y="444" width="528" height="290" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="476" font-size="17" font-weight="bold" fill="#3C5488">FastQC · Adapter Content 怎么读</text>
+  <line x1="72" y1="490" x2="552" y2="490" stroke="#E9E9E5"/>
+
+  <!-- 坐标 -->
+  <text x="110" y="512" font-size="10.5" fill="#6B6B66">接头累计占比 (%)</text>
+  <line x1="110" y1="520" x2="110" y2="680" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="110" y1="680" x2="540" y2="680" stroke="#6B6B66" stroke-width="1.5"/>
+  <text x="100" y="684" font-size="10.5" fill="#6B6B66" text-anchor="end">0</text>
+  <text x="100" y="604" font-size="10.5" fill="#6B6B66" text-anchor="end">20</text>
+  <text x="100" y="524" font-size="10.5" fill="#6B6B66" text-anchor="end">40</text>
+  <text x="110" y="700" font-size="10.5" fill="#6B6B66" text-anchor="middle">0</text>
+  <text x="253" y="700" font-size="10.5" fill="#6B6B66" text-anchor="middle">50</text>
+  <text x="397" y="700" font-size="10.5" fill="#6B6B66" text-anchor="middle">100</text>
+  <text x="540" y="700" font-size="10.5" fill="#6B6B66" text-anchor="middle">150</text>
+  <text x="325" y="718" font-size="11" fill="#6B6B66" text-anchor="middle">读到第几个碱基（bp）</text>
+
+  <!-- FAIL 阈值 -->
+  <line x1="110" y1="660" x2="540" y2="660" stroke="#6B6B66" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="116" y="654" font-size="10.5" fill="#6B6B66">FAIL 阈值 ≈5%</text>
+
+  <!-- 小鼓包曲线（往批真实场景） -->
+  <polyline points="110,679 400,678 470,672 540,664" fill="none" stroke="#F39B7F" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="252" y="646" font-size="10.5" fill="#F39B7F">「小鼓包」没过 FAIL，没人看第二眼</text>
+
+  <!-- 主曲线（本例） -->
+  <polyline points="110,678 350,677 430,672 454,666 490,620 520,588 540,560" fill="none" stroke="#3C8DAD" stroke-width="2.5"/>
+  <text x="318" y="560" font-size="10.5" fill="#3C8DAD" font-weight="bold">30% 片段只有 120 bp（本例）→ 末端陡增</text>
+
+  <!-- ============ 右下面板：静默后果链 ============ -->
+  <rect x="600" y="444" width="552" height="290" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="624" y="476" font-size="17" font-weight="bold" fill="#3C5488">接头不报错，只会一路走进结论</text>
+  <line x1="624" y1="490" x2="1128" y2="490" stroke="#E9E9E5"/>
+
+  <rect x="624" y="504" width="480" height="38" rx="6" fill="#FAFAF7"/>
+  <text x="640" y="528" font-size="12.5" fill="#33332E">① 带着末端接头的 raw FASTQ 直接比对</text>
+  <line x1="864" y1="542" x2="864" y2="554" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="864,558 859,549 869,549" fill="#6B6B66"/>
+  <rect x="624" y="562" width="480" height="38" rx="6" fill="#FAFAF7"/>
+  <text x="640" y="586" font-size="12.5" fill="#33332E">② 接头段判成软剪切（CIGAR 末尾一串 S），或整条不比对</text>
+  <line x1="864" y1="600" x2="864" y2="612" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="864,616 859,607 869,607" fill="#6B6B66"/>
+  <rect x="624" y="620" width="480" height="38" rx="6" fill="#FAFAF7"/>
+  <text x="640" y="644" font-size="12.5" fill="#33332E">③ <tspan font-weight="bold">比对率 92% → 60% 多</tspan>，flagstat 没有任何报错</text>
+
+  <rect x="624" y="670" width="480" height="48" rx="6" fill="#FDECE8" stroke="#E64B35" stroke-width="1"/>
+  <text x="640" y="690" font-size="11.5" fill="#33332E">你先怀疑参考基因组、再换比对参数——最后才有人点开</text>
+  <text x="640" y="708" font-size="11.5" font-weight="bold" fill="#E64B35">MultiQC 的 Adapter Content 面板：整批样本一起抬升。</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="758" font-size="13" font-weight="bold" fill="#3C5488">去接头：fastp --adapter_sequence AGATCGGAAGAGC（TruSeq）或 --detect_adapter_for_pe；质控数字要「和往批比」，不只是「和阈值比」。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">扩增子测序的三类误差与 ASV 去噪</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">PCR 偏好 ｜ 嵌合体 ｜ 测序错误 —— 依据 06_amplicon_lecture.md ④4.2–4.3</text>
+  <!-- 图例 -->
+  <rect x="946" y="40" width="12" height="12" fill="#00A087"/>
+  <text x="964" y="50" font-size="12" fill="#33332E">真实 ASV（通过）</text>
+  <rect x="946" y="64" width="12" height="12" fill="#E64B35"/>
+  <text x="964" y="74" font-size="12" fill="#33332E">嵌合体 / 关键易错点</text>
+  <rect x="946" y="88" width="12" height="12" fill="#F39B7F"/>
+  <text x="964" y="98" font-size="12" fill="#33332E">扩增偏差 / 辅助</text>
+  <rect x="946" y="112" width="12" height="12" fill="#4DBBD5"/>
+  <text x="964" y="122" font-size="12" fill="#33332E">序列 / 读段</text>
+
+  <!-- ============ 左面板：三类误差 ============ -->
+  <rect x="48" y="140" width="540" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="172" font-size="16" font-weight="bold" fill="#3C5488">三类误差 → 假多样性</text>
+  <line x1="72" y1="186" x2="564" y2="186" stroke="#E9E9E5"/>
+
+  <!-- ① 测序错误 -->
+  <text x="72" y="216" font-size="13" font-weight="bold" fill="#33332E">① 测序错误：有结构，可从数据学习</text>
+  <rect x="72" y="228" width="24" height="14" rx="3" fill="#4DBBD5"/>
+  <rect x="98" y="228" width="24" height="14" rx="3" fill="#4DBBD5"/>
+  <rect x="124" y="228" width="24" height="14" rx="3" fill="#4DBBD5"/>
+  <rect x="150" y="228" width="24" height="14" rx="3" fill="#4DBBD5"/>
+  <rect x="176" y="228" width="24" height="14" rx="3" fill="#4DBBD5"/>
+  <rect x="202" y="228" width="24" height="14" rx="3" fill="#4DBBD5"/>
+  <text x="236" y="239" font-size="11" fill="#6B6B66">真实序列</text>
+  <rect x="72" y="252" width="24" height="14" rx="3" fill="#4DBBD5"/>
+  <rect x="98" y="252" width="24" height="14" rx="3" fill="#4DBBD5"/>
+  <rect x="124" y="252" width="24" height="14" rx="3" fill="#4DBBD5"/>
+  <rect x="150" y="252" width="24" height="14" rx="3" fill="#E64B35"/>
+  <rect x="176" y="252" width="24" height="14" rx="3" fill="#4DBBD5"/>
+  <rect x="202" y="252" width="24" height="14" rx="3" fill="#4DBBD5"/>
+  <text x="236" y="263" font-size="11" fill="#6B6B66">测序读段（第 4 位读错）</text>
+  <text x="72" y="294" font-size="12" fill="#33332E">错误率随质量值与碱基组合系统变化（A→C ≠ A→G）</text>
+
+  <!-- ② PCR 偏好 -->
+  <text x="72" y="328" font-size="13" font-weight="bold" fill="#33332E">② PCR 偏好扩增：分析端无法校正</text>
+  <rect x="72" y="342" width="26" height="14" fill="#F39B7F"/>
+  <text x="108" y="353" font-size="11.5" fill="#33332E">模板 η = 0.85 → 1×</text>
+  <rect x="72" y="364" width="124" height="14" fill="#F39B7F"/>
+  <text x="204" y="375" font-size="11.5" fill="#33332E">模板 η = 0.95 → ≈ 4.9×（30 轮循环）</text>
+  <text x="72" y="402" font-size="12" fill="#33332E">读数比例 ≠ 细胞比例 —— 只能靠引物设计与循环数预防</text>
+
+  <!-- ③ 嵌合体 -->
+  <text x="72" y="436" font-size="13" font-weight="bold" fill="#33332E">③ 嵌合体（chimera）：最隐蔽</text>
+  <rect x="72" y="448" width="156" height="14" rx="3" fill="#4DBBD5"/>
+  <text x="238" y="459" font-size="11" fill="#6B6B66">模板 A：只有前半进入产物</text>
+  <rect x="72" y="470" width="156" height="14" rx="3" fill="#4DBBD5"/>
+  <text x="238" y="481" font-size="11" fill="#6B6B66">模板 B：只有后半进入产物</text>
+  <line x1="150" y1="486" x2="150" y2="498" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="146,497 154,497 150,504" fill="#6B6B66"/>
+  <rect x="72" y="506" width="78" height="14" fill="#4DBBD5"/>
+  <rect x="150" y="506" width="78" height="14" fill="#B9E7F0"/>
+  <text x="111" y="536" font-size="10.5" fill="#3C8DAD" text-anchor="middle">来自 A</text>
+  <text x="189" y="536" font-size="10.5" fill="#3C8DAD" text-anchor="middle">来自 B</text>
+  <line x1="244" y1="506" x2="256" y2="518" stroke="#E64B35" stroke-width="2.5"/>
+  <line x1="256" y1="506" x2="244" y2="518" stroke="#E64B35" stroke-width="2.5"/>
+  <text x="266" y="517" font-size="12" font-weight="bold" fill="#E64B35">假序列：凭空多出的“物种”</text>
+  <text x="72" y="560" font-size="12" fill="#33332E">成因：未延伸完的产物当下轮引物 → 模板切换；循环数越多嵌合率越高</text>
+
+  <!-- 左面板结论 -->
+  <rect x="72" y="576" width="492" height="86" rx="6" fill="#FAFAF7"/>
+  <rect x="72" y="576" width="4" height="86" rx="2" fill="#3C5488"/>
+  <text x="88" y="604" font-size="12" fill="#33332E">代价：假序列被当成新物种 → 多样性虚高</text>
+  <text x="88" y="624" font-size="12" fill="#33332E">97% OTU：靠聚类阈值抹平误差，跨研究不可比</text>
+  <text x="88" y="644" font-size="12" fill="#33332E">ASV：错误模型逐条判定，单碱基分辨（→ 右）</text>
+
+  <!-- ============ 右面板：DADA2 去噪 ============ -->
+  <rect x="612" y="140" width="540" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="636" y="172" font-size="16" font-weight="bold" fill="#3C5488">ASV 去噪：DADA2 怎么压回去</text>
+  <line x1="636" y1="186" x2="1128" y2="186" stroke="#E9E9E5"/>
+
+  <!-- 六步流程 -->
+  <rect x="636" y="224" width="250" height="28" rx="14" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="761" y="242" font-size="12" fill="#3C5488" text-anchor="middle">① filterAndTrim（截断过滤）</text>
+  <line x1="761" y1="254" x2="761" y2="258" stroke="#3C5488" stroke-width="1.5"/>
+  <polygon points="757,257 765,257 761,263" fill="#3C5488"/>
+  <rect x="636" y="262" width="250" height="28" rx="14" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="761" y="280" font-size="12" fill="#3C5488" text-anchor="middle">② derepFastq（去重计数）</text>
+  <line x1="761" y1="292" x2="761" y2="296" stroke="#3C5488" stroke-width="1.5"/>
+  <polygon points="757,295 765,295 761,301" fill="#3C5488"/>
+  <rect x="636" y="300" width="250" height="28" rx="14" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="761" y="318" font-size="12" fill="#3C5488" text-anchor="middle">③ learnErrors（学错误模型）</text>
+  <line x1="761" y1="330" x2="761" y2="334" stroke="#3C5488" stroke-width="1.5"/>
+  <polygon points="757,333 765,333 761,339" fill="#3C5488"/>
+  <rect x="636" y="338" width="250" height="28" rx="14" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="761" y="356" font-size="12" fill="#3C5488" text-anchor="middle">④ dada()（推断 ASV）</text>
+  <line x1="761" y1="368" x2="761" y2="372" stroke="#3C5488" stroke-width="1.5"/>
+  <polygon points="757,371 765,371 761,377" fill="#3C5488"/>
+  <rect x="636" y="376" width="250" height="28" rx="14" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="761" y="394" font-size="12" fill="#3C5488" text-anchor="middle">⑤ mergePairs（双端合并）</text>
+  <line x1="761" y1="406" x2="761" y2="410" stroke="#3C5488" stroke-width="1.5"/>
+  <polygon points="757,409 765,409 761,415" fill="#3C5488"/>
+  <rect x="636" y="414" width="250" height="28" rx="14" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="761" y="432" font-size="12" fill="#3C5488" text-anchor="middle">⑥ removeBimeraDenovo（去嵌合）</text>
+
+  <!-- 机制注释 -->
+  <text x="900" y="308" font-size="11.5" fill="#33332E">从数据本身估计：质量值 Q 下</text>
+  <text x="900" y="326" font-size="11.5" fill="#33332E">碱基 X 被读成 Y 的错误率</text>
+  <text x="900" y="346" font-size="11.5" fill="#33332E">若是高丰度序列的错误产物</text>
+  <text x="900" y="364" font-size="11.5" fill="#33332E">（P &lt; 1e-40）→ 归并；否则</text>
+  <text x="900" y="382" font-size="11.5" fill="#33332E">独立成 ASV：单碱基分辨</text>
+  <text x="900" y="422" font-size="11.5" fill="#33332E">亲本判定：可由两条更高丰度</text>
+  <text x="900" y="440" font-size="11.5" fill="#33332E">序列拼出且丰度低于预期 →</text>
+  <text x="900" y="458" font-size="11.5" fill="#33332E">判为嵌合剔除（consensus 投票）</text>
+
+  <!-- 结果条 -->
+  <rect x="636" y="478" width="492" height="112" rx="6" fill="#FAFAF7"/>
+  <rect x="636" y="478" width="4" height="112" rx="2" fill="#00A087"/>
+  <text x="652" y="506" font-size="12.5" fill="#33332E">去噪后：真实 ASV 保留 —— 序列本身即身份</text>
+  <text x="652" y="528" font-size="12.5" fill="#33332E">跨研究可比；单碱基差异判为真即独立保留</text>
+  <rect x="652" y="542" width="20" height="12" rx="2" fill="#00A087"/>
+  <rect x="674" y="542" width="20" height="12" rx="2" fill="#00A087"/>
+  <rect x="696" y="542" width="20" height="12" rx="2" fill="#00A087"/>
+  <rect x="718" y="542" width="20" height="12" rx="2" fill="#00A087"/>
+  <rect x="740" y="542" width="20" height="12" rx="2" fill="#00A087"/>
+  <text x="772" y="552" font-size="11" fill="#00A087">ASV-1（真实变体）</text>
+  <rect x="652" y="562" width="20" height="12" rx="2" fill="#00A087"/>
+  <rect x="674" y="562" width="20" height="12" rx="2" fill="#00A087"/>
+  <rect x="696" y="562" width="20" height="12" rx="2" fill="#00A087"/>
+  <rect x="718" y="562" width="20" height="12" rx="2" fill="#00A087"/>
+  <rect x="740" y="562" width="20" height="12" rx="2" fill="#00A087"/>
+  <text x="772" y="572" font-size="11" fill="#33332E">ASV-2：与 ASV-1 仅一个碱基之差 → 独立 ASV</text>
+
+  <!-- 方法边界 -->
+  <text x="636" y="614" font-size="11" fill="#6B6B66">方法边界：两个低丰度亲本拼出的嵌合体，信号上与真实稀有 ASV 不可区分，</text>
+  <text x="636" y="632" font-size="11" fill="#6B6B66">尾部永远残留少量嵌合 —— 这是方法边界，不是参数没调好</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">误差制造“数出来的多样性”；ASV 用错误模型把多样性压回真实。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

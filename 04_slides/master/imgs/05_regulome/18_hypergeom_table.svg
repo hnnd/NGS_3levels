@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">基序富集手算</text>
+<text x="216" y="202" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="end" font-weight="bold">前景</text>
+<text x="216" y="240" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">n = 4</text>
+<rect x="244" y="168" width="150" height="92" fill="#4DBBD5" rx="10" stroke="#3C8DAD" stroke-width="3"/>
+<text x="319.0" y="226.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<rect x="404" y="168" width="150" height="92" fill="#FFFFFF" rx="10" stroke="#3C8DAD" stroke-width="3"/>
+<text x="479.0" y="226.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#3C8DAD" text-anchor="middle" font-weight="bold">1</text>
+<text x="216" y="294" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#5C6C8C" text-anchor="end" font-weight="bold">背景</text>
+<text x="216" y="332" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">N = 12</text>
+<rect x="244" y="260" width="150" height="92" fill="#8491B4" rx="10" stroke="#5C6C8C" stroke-width="3"/>
+<text x="319.0" y="318.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#FFFFFF" text-anchor="middle" font-weight="bold">5</text>
+<rect x="404" y="260" width="150" height="92" fill="#FFFFFF" rx="10" stroke="#5C6C8C" stroke-width="3"/>
+<text x="479.0" y="318.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#5C6C8C" text-anchor="middle" font-weight="bold">7</text>
+<rect x="130" y="430" width="540" height="108" fill="#E3E8F2" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="400.0" y="498" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">P(X ≥ 3) = 75 / 495 = 0.152</text>
+<line x1="400" y1="368" x2="400" y2="416" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="400,416 393.4758327510469,401.39057695500304 406.5241672489531,401.39057695500304" fill="#6B6B66"/>
+<text x="400" y="606" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">前景阳性率对比匹配背景</text>
+<text x="400" y="662" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">超几何检验显著性</text>
+</svg>

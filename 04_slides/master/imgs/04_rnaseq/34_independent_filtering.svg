@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="190" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">低表达 → 功效低</text>
+<rect x="40" y="76" width="300" height="240" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="5"/>
+<text x="190" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">baseMean</text>
+<text x="60" y="106" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">-log10(p)</text>
+<circle cx="204.77792932776663" cy="280.58087121546214" r="5" fill="#4DBBD5"/>
+<circle cx="285.4309928240323" cy="255.38897242081487" r="5" fill="#4DBBD5"/>
+<circle cx="76.7863459142019" cy="269.1633513052389" r="5" fill="#E9E9E5"/>
+<circle cx="94.67289591642299" cy="277.98124054943725" r="5" fill="#E9E9E5"/>
+<circle cx="68.18092682775452" cy="271.5821605733078" r="5" fill="#E9E9E5"/>
+<circle cx="203.36294885598298" cy="285.98925825708386" r="5" fill="#4DBBD5"/>
+<circle cx="165.41631127240396" cy="275.64167453643273" r="5" fill="#4DBBD5"/>
+<circle cx="298.00236137363095" cy="283.8088502046581" r="5" fill="#4DBBD5"/>
+<circle cx="196.01937182252448" cy="245.16999848679308" r="5" fill="#4DBBD5"/>
+<circle cx="279.3712197909133" cy="250.5371394784637" r="5" fill="#4DBBD5"/>
+<circle cx="239.87355298996633" cy="289.4760243761876" r="5" fill="#4DBBD5"/>
+<circle cx="240.03993865807817" cy="281.69454917051775" r="5" fill="#4DBBD5"/>
+<circle cx="136.95440813777645" cy="282.27290877944085" r="5" fill="#E9E9E5"/>
+<circle cx="285.63111615649655" cy="271.00828057054116" r="5" fill="#4DBBD5"/>
+<circle cx="268.93084752759404" cy="276.55076122457575" r="5" fill="#4DBBD5"/>
+<circle cx="205.13198324611324" cy="273.89428477890937" r="5" fill="#4DBBD5"/>
+<circle cx="135.5770947134642" cy="269.7001420430487" r="5" fill="#E9E9E5"/>
+<circle cx="212.98226628571715" cy="236.43966767363236" r="5" fill="#4DBBD5"/>
+<circle cx="62.866591975667944" cy="289.66156035338383" r="5" fill="#E9E9E5"/>
+<circle cx="287.16647972705323" cy="286.8813082063502" r="5" fill="#4DBBD5"/>
+<circle cx="153.31118332238918" cy="288.6198097610373" r="5" fill="#4DBBD5"/>
+<circle cx="175.67719295048113" cy="288.94156944309304" r="5" fill="#4DBBD5"/>
+<circle cx="192.73647209886065" cy="276.3099613203687" r="5" fill="#4DBBD5"/>
+<circle cx="199.74208112104003" cy="273.0861081032522" r="5" fill="#4DBBD5"/>
+<circle cx="65.73010070970764" cy="289.71675663051616" r="5" fill="#E9E9E5"/>
+<circle cx="178.50992367531887" cy="288.7382910204663" r="5" fill="#4DBBD5"/>
+<circle cx="245.8121261729069" cy="255.5721942523909" r="5" fill="#4DBBD5"/>
+<circle cx="134.2979800717639" cy="281.6730753099537" r="5" fill="#E9E9E5"/>
+<circle cx="128.8687356441544" cy="275.15453659053486" r="5" fill="#E9E9E5"/>
+<circle cx="189.021150239175" cy="289.2103048413206" r="5" fill="#4DBBD5"/>
+<circle cx="271.4748116259778" cy="273.185534744277" r="5" fill="#4DBBD5"/>
+<circle cx="278.0499864371879" cy="227.85614844404893" r="5" fill="#4DBBD5"/>
+<circle cx="114.48556104249371" cy="287.0132626346711" r="5" fill="#E9E9E5"/>
+<circle cx="125.92493408223166" cy="278.80038402107454" r="5" fill="#E9E9E5"/>
+<circle cx="66.10367103787704" cy="284.94883939919714" r="5" fill="#E9E9E5"/>
+<circle cx="96.57249202249967" cy="286.5676892976805" r="5" fill="#E9E9E5"/>
+<circle cx="122.91583949999895" cy="289.27470697997285" r="5" fill="#E9E9E5"/>
+<circle cx="187.68589753442296" cy="230.06536680695513" r="5" fill="#4DBBD5"/>
+<circle cx="269.50101973949904" cy="280.4951605698719" r="5" fill="#4DBBD5"/>
+<circle cx="276.3953506988579" cy="271.3863759429343" r="5" fill="#4DBBD5"/>
+<circle cx="108.7522674729786" cy="288.01121956092857" r="5" fill="#E9E9E5"/>
+<circle cx="164.84040460076295" cy="280.659100532973" r="5" fill="#4DBBD5"/>
+<circle cx="139.58748643398573" cy="280.4523734920456" r="5" fill="#E9E9E5"/>
+<circle cx="234.19457343962196" cy="236.04999675843476" r="5" fill="#4DBBD5"/>
+<circle cx="65.21445243444671" cy="278.6371928495563" r="5" fill="#E9E9E5"/>
+<circle cx="245.4018648346696" cy="284.2541274013657" r="5" fill="#4DBBD5"/>
+<line x1="190" y1="300" x2="190" y2="90" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<text x="150" y="316" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">低均值： 平</text>
+<rect x="380" y="76" width="400" height="240" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="5"/>
+<text x="580" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">过滤分位数 θ</text>
+<text x="400" y="106" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">拒绝数</text>
+<path d="M 410.0 233.94989493910293 C 410.0 233.9 421.3 225.5 427.0 219.8720296762212 C 432.7 214.3 438.3 207.8 444.0 200.39253990936115 C 449.7 193.0 455.3 184.5 461.0 175.59572338106904 C 466.7 166.7 472.3 156.6 478.0 146.7851146720581 C 483.7 137.0 489.3 126.3 495.0 116.63904490079304 C 500.7 107.0 506.3 97.1 512.0 88.94595771774561 C 517.7 80.8 523.3 73.2 529.0 67.8823873271316 C 534.7 62.6 540.3 58.6 546.0 56.997504161463524 C 551.7 55.4 557.3 55.8 563.0 58.237391077753415 C 568.7 60.6 574.3 65.4 580.0 71.37673072267285 C 585.7 77.4 591.3 85.5 597.0 94.08567026642265 C 602.7 102.6 608.3 112.8 614.0 122.60463782830513 C 619.7 132.4 625.3 143.0 631.0 152.75886521090075 C 636.7 162.5 642.3 172.3 648.0 180.9377802297201 C 653.7 189.6 659.3 197.7 665.0 204.73196971698528 C 670.7 211.8 676.3 217.9 682.0 223.10510868456905 C 687.7 228.3 693.3 232.6 699.0 236.17254949785053 C 704.7 239.8 710.3 242.5 716.0 244.77304743317325 C 721.7 247.1 727.3 248.7 733.0 250.0280866717769 C 738.7 251.4 750.0 253.0 750.0 253.01584278618643" fill="none" stroke="#3C8DAD" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="512.0" y1="110" x2="512.0" y2="296" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<line x1="593.6" y1="110" x2="593.6" y2="296" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<polygon points="512.0,70.94595771774561 516.4436565073311,82.82978924027101 529.1190172933127,83.38365181899655 519.1899872631914,91.28212619522021 522.5801345412646,103.50826361649467 512.0,96.50595771774562 501.4198654587355,103.50826361649467 504.81001273680863,91.28212619522021 494.88098270668723,83.38365181899657 507.55634349266893,82.82978924027101" fill="#00A087"/>
+<text x="580" y="390" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">峰值 ± 容差</text>
+<text x="200" y="426.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">低表达功效低</text>
+<text x="200" y="488.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">阈值扫描曲线</text>
+<text x="200" y="540.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">拒绝数峰值容差</text>
+<text x="200" y="600.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">独立过滤控假发现</text>
+<text x="230" y="640" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">仅 padj = NA（被过滤）</text>
+<text x="230" y="684" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">pvalue 保留 · BH 检验更少</text>
+<rect x="420" y="440" width="360" height="236" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="590" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">为什么要过滤</text>
+<text x="590" y="532" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">低均值基因几乎只添噪声</text>
+<text x="590" y="572" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">徒增 BH 检验次数</text>
+<text x="590" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">θ* = 峰值一个残差</text>
+<text x="590" y="656" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">标准差内的最低 θ</text>
+</svg>

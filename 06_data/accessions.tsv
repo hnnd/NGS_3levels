@@ -1,0 +1,114 @@
+# 课程用到的全部登录号清单。列：accession / 用途 / 期望物种关键词（留空则不校验物种）
+# 核验：bash 06_data/verify_accessions.sh
+# 【铁律】任何登录号写进课程材料前必须先在此核验通过。
+# 2026-08-30 实查教训：原 m01 讲义写的 PRJNA294222 在 ENA 与 NCBI 均查无此项，已改为 PRJNA295606。
+# ---------------- 本科层主线：Xanthomonas oryzae pv. oryzae（PRJEB100987）----------------
+# ---------------- 三层共用 / 既有材料引用 ----------------
+
+PRJNA295606	m01 公共数据检索演示（Lenski LTEE）	Escherichia
+SRR2584863	m01 单个 Run 下载与四步验收演示	Escherichia
+GSE222584	p02 单细胞：水稻 RRSV/RGSV 侵染 scRNA-seq（9 样本 10X 矩阵）	
+PRJNA661210	p03 双 RNA-seq：水稻-稻瘟菌侵染时序（=GSE157400）	Oryza
+GSE157400	p03/p06 转录组层：水稻对稻瘟菌响应时序	
+PRJEB53625	p04 群体基因组：稻瘟菌分离株群体重测序	Pyricularia
+PRJEB100987	本科主线项目：西非 Xoo 群体基因组（Illumina+ONT+PacBio+57 完成图）	Xanthomonas oryzae
+ERR15732384	u06 组装主数据：CIX4481 ONT ≈63x（降采样至 40x）	Xanthomonas oryzae
+ERR15732342	u06 k-mer 扫描：CIX4481 Illumina PE ≈48x	Xanthomonas oryzae
+GCA_987216485	u06/u08 对照：CIX4481 作者发表完成图（学生比对自己的组装）	Xanthomonas oryzae
+GCA_987216405	u08 泛基因组菌株 CIX2353	Xanthomonas oryzae
+GCA_987216395	u08 泛基因组菌株 CIX2951	Xanthomonas oryzae
+GCA_987216465	u08 泛基因组菌株 CIX2983	Xanthomonas oryzae
+GCA_987216755	u08 泛基因组菌株 CIX3029	Xanthomonas oryzae
+GCA_987216515	u08 泛基因组菌株 CIX3092	Xanthomonas oryzae
+GCA_987216715	u08 泛基因组菌株 CIX3097	Xanthomonas oryzae
+GCA_987216575	u08 泛基因组菌株 CIX4024	Xanthomonas oryzae
+GCA_987218935	u08 泛基因组菌株 CIX4100	Xanthomonas oryzae
+GCA_987216745	u08 泛基因组菌株 CIX4228	Xanthomonas oryzae
+GCA_987216825	u08 泛基因组菌株 CIX4275	Xanthomonas oryzae
+GCA_987216765	u08 泛基因组菌株 CIX4310	Xanthomonas oryzae
+GCA_030177815	u08 ANI 外群：X. oryzae pv. oryzicola HB8（同种不同致病变种）	Xanthomonas oryzae
+GCA_024298585	u08 ANI 外群：X. campestris pv. campestris CN02（不同种）	Xanthomonas campestris
+GCF_000005845	u03/u05 参考基因组：E. coli K-12 MG1655（格式讲解与比对练习）	
+GCF_000005845.2	同上，带版本号的写法（06_data/README 与参考目录用）	
+SRR001666	速查表示例 Run：E. coli K-12 MG1655（FASTQ 格式演示）	Escherichia
+GCA_024981335	m02/m03 CIX2779 已发表完整基因组：既是组装的标准答案，也是 m03 的参考基因组	Xanthomonas
+ERR15732374	m02 CIX2779 ONT 长读长，Flye 组装输入	Xanthomonas
+GCA_004322815	m02 泛基因组参照株 CIX2374（已发表完整基因组）	Xanthomonas
+GCA_004322835	m02 泛基因组参照株 CIX298（已发表完整基因组）	Xanthomonas
+GCA_029204245	m02 泛基因组参照株 CIX4509（已发表完整基因组）	Xanthomonas
+ERR15732323	m03 西非 Xoo 群体变异检测：菌株 CIX2353 Illumina	Xanthomonas
+ERR15732331	m03 西非 Xoo 群体变异检测：菌株 CIX2725 Illumina	Xanthomonas
+ERR15732332	m03 西非 Xoo 群体变异检测：菌株 CIX2779 Illumina；同时是 m02 的抛光短读长	Xanthomonas
+ERR15732346	m03 西非 Xoo 群体变异检测：菌株 CIX2780 Illumina	Xanthomonas
+ERR15732333	m03 西非 Xoo 群体变异检测：菌株 CIX2785 Illumina	Xanthomonas
+ERR15732324	m03 西非 Xoo 群体变异检测：菌株 CIX2951 Illumina	Xanthomonas
+ERR15732325	m03 西非 Xoo 群体变异检测：菌株 CIX2952 Illumina	Xanthomonas
+ERR15732334	m03 西非 Xoo 群体变异检测：菌株 CIX2974 Illumina	Xanthomonas
+ERR15732326	m03 西非 Xoo 群体变异检测：菌株 CIX2976 Illumina	Xanthomonas
+ERR15732303	m03 西非 Xoo 群体变异检测：菌株 CIX2983 Illumina	Xanthomonas
+ERR15732304	m03 西非 Xoo 群体变异检测：菌株 CIX3025 Illumina	Xanthomonas
+ERR15732305	m03 西非 Xoo 群体变异检测：菌株 CIX3026 Illumina	Xanthomonas
+PRJDB36269	m04/m05 水稻根氮响应时序：ATAC-seq 与配套 RNA-seq 出自同一批样本	Oryza
+GCA_001433935	m04/m05 水稻参考基因组 IRGSP-1.0	Oryza
+DRR737490	m04 水稻 RNA-seq 样本 ZK0030A（Z 基因型，K=对照/N=复氮，重复 A/B）	Oryza
+DRR737503	m04 水稻 RNA-seq 样本 ZK0030B（Z 基因型，K=对照/N=复氮，重复 A/B）	Oryza
+DRR737491	m04 水稻 RNA-seq 样本 ZK0060A（Z 基因型，K=对照/N=复氮，重复 A/B）	Oryza
+DRR737504	m04 水稻 RNA-seq 样本 ZK0060B（Z 基因型，K=对照/N=复氮，重复 A/B）	Oryza
+DRR737492	m04 水稻 RNA-seq 样本 ZK0120A（Z 基因型，K=对照/N=复氮，重复 A/B）	Oryza
+DRR737505	m04 水稻 RNA-seq 样本 ZK0120B（Z 基因型，K=对照/N=复氮，重复 A/B）	Oryza
+DRR737499	m04 水稻 RNA-seq 样本 ZN0030A（Z 基因型，K=对照/N=复氮，重复 A/B）	Oryza
+DRR737512	m04 水稻 RNA-seq 样本 ZN0030B（Z 基因型，K=对照/N=复氮，重复 A/B）	Oryza
+DRR737500	m04 水稻 RNA-seq 样本 ZN0060A（Z 基因型，K=对照/N=复氮，重复 A/B）	Oryza
+DRR737513	m04 水稻 RNA-seq 样本 ZN0060B（Z 基因型，K=对照/N=复氮，重复 A/B）	Oryza
+DRR737501	m04 水稻 RNA-seq 样本 ZN0120A（Z 基因型，K=对照/N=复氮，重复 A/B）	Oryza
+DRR737514	m04 水稻 RNA-seq 样本 ZN0120B（Z 基因型，K=对照/N=复氮，重复 A/B）	Oryza
+DRR737541	m05 水稻 ATAC-seq 样本 ZK0030A（与 m04 同一批样本，一一对应）	Oryza
+DRR737554	m05 水稻 ATAC-seq 样本 ZK0030B（与 m04 同一批样本，一一对应）	Oryza
+DRR737542	m05 水稻 ATAC-seq 样本 ZK0060A（与 m04 同一批样本，一一对应）	Oryza
+DRR737555	m05 水稻 ATAC-seq 样本 ZK0060B（与 m04 同一批样本，一一对应）	Oryza
+DRR737543	m05 水稻 ATAC-seq 样本 ZK0120A（与 m04 同一批样本，一一对应）	Oryza
+DRR737556	m05 水稻 ATAC-seq 样本 ZK0120B（与 m04 同一批样本，一一对应）	Oryza
+DRR737550	m05 水稻 ATAC-seq 样本 ZN0030A（与 m04 同一批样本，一一对应）	Oryza
+DRR737563	m05 水稻 ATAC-seq 样本 ZN0030B（与 m04 同一批样本，一一对应）	Oryza
+DRR737551	m05 水稻 ATAC-seq 样本 ZN0060A（与 m04 同一批样本，一一对应）	Oryza
+DRR737564	m05 水稻 ATAC-seq 样本 ZN0060B（与 m04 同一批样本，一一对应）	Oryza
+DRR737552	m05 水稻 ATAC-seq 样本 ZN0120A（与 m04 同一批样本，一一对应）	Oryza
+DRR737565	m05 水稻 ATAC-seq 样本 ZN0120B（与 m04 同一批样本，一一对应）	Oryza
+PRJDB13364	m06 布基纳法索铁毒稻田 16S（Fe vs nonFe 各 10 重复，跨 2017/2018/2019 三年）	metagenome
+DRR357521	m06 16S 根际土：铁毒(Fe)组	metagenome
+DRR357522	m06 16S 根际土：铁毒(Fe)组	metagenome
+DRR357529	m06 16S 根际土：铁毒(Fe)组	metagenome
+DRR357530	m06 16S 根际土：铁毒(Fe)组	metagenome
+DRR357531	m06 16S 根际土：铁毒(Fe)组	metagenome
+DRR357532	m06 16S 根际土：铁毒(Fe)组	metagenome
+DRR357545	m06 16S 根际土：铁毒(Fe)组	metagenome
+DRR357546	m06 16S 根际土：铁毒(Fe)组	metagenome
+DRR357547	m06 16S 根际土：铁毒(Fe)组	metagenome
+DRR357548	m06 16S 根际土：铁毒(Fe)组	metagenome
+DRR357523	m06 16S 根际土：非铁毒(nonFe)组	metagenome
+DRR357524	m06 16S 根际土：非铁毒(nonFe)组	metagenome
+DRR357533	m06 16S 根际土：非铁毒(nonFe)组	metagenome
+DRR357534	m06 16S 根际土：非铁毒(nonFe)组	metagenome
+DRR357535	m06 16S 根际土：非铁毒(nonFe)组	metagenome
+DRR357536	m06 16S 根际土：非铁毒(nonFe)组	metagenome
+DRR357549	m06 16S 根际土：非铁毒(nonFe)组	metagenome
+DRR357550	m06 16S 根际土：非铁毒(nonFe)组	metagenome
+DRR357551	m06 16S 根际土：非铁毒(nonFe)组	metagenome
+DRR357552	m06 16S 根际土：非铁毒(nonFe)组	metagenome
+PRJDB12800	m07 日本农田鸟枪法宏基因组（水田 vs 旱地）	metagenome
+DRR336839	m07 宏基因组：水田(paddy)组	metagenome
+DRR336851	m07 宏基因组：水田(paddy)组	metagenome
+DRR336863	m07 宏基因组：水田(paddy)组	metagenome
+DRR336843	m07 宏基因组：水田(paddy)组	metagenome
+DRR336855	m07 宏基因组：水田(paddy)组	metagenome
+DRR336867	m07 宏基因组：水田(paddy)组	metagenome
+DRR336847	m07 宏基因组：旱地(uplandfield)组	metagenome
+DRR336871	m07 宏基因组：旱地(uplandfield)组	metagenome
+DRR336859	m07 宏基因组：旱地(uplandfield)组	metagenome
+DRR336848	m07 宏基因组：旱地(uplandfield)组	metagenome
+DRR336872	m07 宏基因组：旱地(uplandfield)组	metagenome
+DRR336860	m07 宏基因组：旱地(uplandfield)组	metagenome
+PRJNA531524	m07 讲义中作为**反面例子**提及：唯一同时含 AMPLICON 与 WGS 的稻田项目，但只有 2 个 WGS 样本且样本名无分组，故不采用	metagenome
+GSE316219	p02 空间：水稻根—丛枝菌根真菌细胞分辨率图谱（阅读对象，非跑通对象）	
+GSE284052	p02 空间：番茄—根结线虫时空图谱（阅读对象）	
+MTBLS13460	p06 代谢组层：水稻—稻瘟菌免疫的苯丙烷代谢重编程（OsWRKY39）	

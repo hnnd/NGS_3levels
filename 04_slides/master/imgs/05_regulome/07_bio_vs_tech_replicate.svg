@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="58" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">重复性质</text>
+<text x="400" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">技术重复虚构一致性，生物学重复提供真实方差</text>
+<rect x="44" y="172" width="314" height="336" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="100" y1="466" x2="332" y2="466" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<line x1="100" y1="224" x2="100" y2="466" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<circle cx="140" cy="325.2" r="12" fill="#00A087"/>
+<circle cx="140" cy="274.0" r="12" fill="#00A087"/>
+<circle cx="224" cy="235.6" r="12" fill="#00A087"/>
+<circle cx="224" cy="190.8" r="12" fill="#00A087"/>
+<circle cx="308" cy="370.0" r="12" fill="#00A087"/>
+<circle cx="308" cy="318.8" r="12" fill="#00A087"/>
+<text x="140" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">1</text>
+<text x="224" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">2</text>
+<text x="308" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">3</text>
+<rect x="442" y="172" width="314" height="336" fill="#FFFFFF" rx="16" stroke="#E64B35" stroke-width="4"/>
+<line x1="498" y1="466" x2="730" y2="466" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<line x1="498" y1="224" x2="498" y2="466" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<path d="M 599 274.0 a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0 M 610 266.0 a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0 M 589 281.0 a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0 M 604 285.0 a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0 M 594 265.0 a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0 M 614 277.0 a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0 M 584 271.0 a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0 M 601 261.0 a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0 M 597 288.0 a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0 M 607 272.0 a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0 M 591 277.0 a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0" fill="#E64B35" stroke="#E64B35" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

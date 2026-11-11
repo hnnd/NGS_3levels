@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">多组学象限</text>
+<text x="400" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">可及性开闭与转录升降</text>
+<line x1="176" y1="470" x2="664" y2="470" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="176" y1="470" x2="176" y2="214" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="420.0" y1="470" x2="420.0" y2="214" stroke="#E9E9E5" stroke-width="5" stroke-linecap="butt" stroke-dasharray="14 10"/>
+<line x1="176" y1="342.0" x2="664" y2="342.0" stroke="#E9E9E5" stroke-width="5" stroke-linecap="butt" stroke-dasharray="14 10"/>
+<text x="170" y="520" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">可及性</text>
+<line x1="288" y1="514" x2="644" y2="514" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="644,514 629.3905769550031,520.5241672489532 629.3905769550031,507.4758327510469" fill="#6B6B66"/>
+<text x="158" y="198" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">转录</text>
+<line x1="132" y1="446" x2="132" y2="232" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="132,232 138.52416724895312,246.60942304499693 125.47583275104688,246.60942304499693" fill="#6B6B66"/>
+<rect x="432.0" y="226" width="220.0" height="104.0" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="3"/>
+<text x="632.0" y="266" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="end" font-weight="bold">Q1</text>
+<text x="454.0" y="314.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#00A087" text-anchor="start" font-weight="bold">↑</text>
+<rect x="188" y="226" width="220.0" height="104.0" fill="#FBE3D8" rx="14" stroke="#F39B7F" stroke-width="3"/>
+<text x="388.0" y="266" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="end" font-weight="bold">Q2</text>
+<text x="210" y="314.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#F39B7F" text-anchor="start" font-weight="bold">↑</text>
+<rect x="188" y="354.0" width="220.0" height="104.0" fill="#E6E9F0" rx="14" stroke="#8491B4" stroke-width="3"/>
+<text x="388.0" y="394.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="end" font-weight="bold">Q3</text>
+<text x="210" y="442.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#8491B4" text-anchor="start" font-weight="bold">↓</text>
+<rect x="432.0" y="354.0" width="220.0" height="104.0" fill="#FBE3D8" rx="14" stroke="#F39B7F" stroke-width="3"/>
+<text x="632.0" y="394.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="end" font-weight="bold">Q4</text>
+<text x="454.0" y="442.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#F39B7F" text-anchor="start" font-weight="bold">↓</text>
+<text x="400" y="604" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">协同激活或阻遏机制</text>
+</svg>

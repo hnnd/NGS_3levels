@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="44" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">三道防线</text>
+<rect x="40" y="76" width="720" height="150" fill="#FFFFFF" rx="16" stroke="#3C5488" stroke-width="5"/>
+<circle cx="105" cy="130" r="30" fill="#3C5488"/>
+<text x="105" y="141" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<text x="245" y="138" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">头行初筛</text>
+<rect x="350" y="90" width="250" height="42" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="475" y="121" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">view -h | grep</text>
+<rect x="350" y="140" width="250" height="42" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="475" y="171" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">&#x27;^##INFO&#x27;</text>
+<text x="650" y="212" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">已在头行声明</text>
+<rect x="40" y="256" width="720" height="150" fill="#FFFFFF" rx="16" stroke="#3C8DAD" stroke-width="5"/>
+<circle cx="105" cy="310" r="30" fill="#3C8DAD"/>
+<text x="105" y="321" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<text x="245" y="318" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="middle" font-weight="bold">逐条分开</text>
+<rect x="350" y="270" width="250" height="42" fill="#FFFFFF" rx="8" stroke="#3C8DAD" stroke-width="3"/>
+<text x="475" y="301" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">逐行书写</text>
+<rect x="350" y="320" width="250" height="42" fill="#FFFFFF" rx="8" stroke="#3C8DAD" stroke-width="3"/>
+<text x="475" y="351" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">不拼 &#x27;||&#x27; 复合式</text>
+<text x="650" y="392" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">无单点失效</text>
+<rect x="40" y="436" width="720" height="150" fill="#FFFFFF" rx="16" stroke="#00A087" stroke-width="5"/>
+<circle cx="105" cy="490" r="30" fill="#00A087"/>
+<text x="105" y="501" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="245" y="498" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">逐条计数</text>
+<rect x="350" y="450" width="250" height="42" fill="#FFFFFF" rx="8" stroke="#00A087" stroke-width="3"/>
+<text x="475" y="481" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">query &#x27;%FILTER&#x27;</text>
+<rect x="350" y="500" width="250" height="42" fill="#FFFFFF" rx="8" stroke="#00A087" stroke-width="3"/>
+<text x="475" y="531" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">sort | uniq -c</text>
+<text x="650" y="572" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">逐条核验拦截数</text>
+<line x1="400" y1="226" x2="400" y2="252" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="400,252 392.6603118449277,235.56439907437846 407.3396881550723,235.56439907437846" fill="#6B6B66"/>
+<line x1="400" y1="406" x2="400" y2="432" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="400,432 392.6603118449277,415.56439907437846 407.3396881550723,415.56439907437846" fill="#6B6B66"/>
+<rect x="40" y="606" width="460" height="70" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="4"/>
+<text x="270" y="650" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">全零即空转</text>
+<rect x="530" y="606" width="230" height="70" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="645" y="650" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">防线生效</text>
+</svg>

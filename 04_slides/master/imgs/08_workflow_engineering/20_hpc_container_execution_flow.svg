@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="56" y="24" width="690" height="132" fill="#D6EFF4" rx="14" stroke="#4DBBD5" stroke-width="4"/>
+<text x="400" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">login node</text>
+<text x="400" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">apptainer pull docker://quay.io/...</text>
+<text x="400" y="142" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">登录节点联网拉取</text>
+<line x1="400" y1="162" x2="400" y2="196" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="400,196 393.4758327510469,181.39057695500307 406.5241672489531,181.39057695500307" fill="#4DBBD5"/>
+<rect x="56" y="202" width="690" height="116" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="246" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">/shared/containers/fastp_0.23.4.sif</text>
+<text x="400" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">共享存储落盘缓存</text>
+<line x1="400" y1="322" x2="400" y2="356" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="400,356 393.4758327510469,341.39057695500304 406.5241672489531,341.39057695500304" fill="#4DBBD5"/>
+<rect x="56" y="362" width="690" height="150" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="400" y="406" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">compute node</text>
+<text x="400" y="446" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">apptainer exec fastp_0.23.4.sif</text>
+<text x="400" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">计算节点离线运行</text>
+<rect x="210" y="544" width="380" height="84" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="400" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">严禁节点联网</text>
+</svg>

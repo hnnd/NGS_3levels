@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="110" y="80" width="460" height="118" fill="#3C5488" rx="16"/>
+<text x="340" y="154" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#FFFFFF" text-anchor="middle" font-weight="bold">① 测什么：平台与文库</text>
+<rect x="110" y="270" width="460" height="118" fill="#3C5488" rx="16"/>
+<text x="340" y="344" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#FFFFFF" text-anchor="middle" font-weight="bold">② 要多少：重复与深度</text>
+<rect x="110" y="460" width="460" height="118" fill="#3C5488" rx="16"/>
+<text x="340" y="534" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#FFFFFF" text-anchor="middle" font-weight="bold">③ 怎么排：批次元数据</text>
+<line x1="340" y1="204" x2="340" y2="262" stroke="#4DBBD5" stroke-width="8" stroke-linecap="round"/>
+<polygon points="340,262 332.6603118449277,245.56439907437846 347.3396881550723,245.56439907437846" fill="#4DBBD5"/>
+<line x1="340" y1="394" x2="340" y2="452" stroke="#4DBBD5" stroke-width="8" stroke-linecap="round"/>
+<polygon points="340,452 332.6603118449277,435.56439907437846 347.3396881550723,435.56439907437846" fill="#4DBBD5"/>
+<path d="M 586 519 C 726 486, 726 172, 586 139" fill="none" stroke="#E64B35" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="586,139 594.1552090611914,157.26177880624616 577.8447909388086,157.26177880624616" fill="#E64B35"/>
+<text x="684" y="340" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold" transform="rotate(90 684 340)">顺序不可倒</text>
+</svg>

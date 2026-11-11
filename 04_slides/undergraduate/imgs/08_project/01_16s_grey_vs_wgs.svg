@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="110" width="330" height="400" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="4"/>
+<text x="70" y="168" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="start" font-weight="bold">16S rDNA</text>
+<rect x="80" y="220" width="250" height="22" fill="#3C5488" rx="6"/>
+<line x1="80" y1="250" x2="80" y2="266" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="205" y1="250" x2="205" y2="266" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="330" y1="250" x2="330" y2="266" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="205" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">1.5 kb</text>
+<text x="205" y="380" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">16S：1.5 kb，属内分不开</text>
+<rect x="72" y="424" width="266" height="58" fill="#E64B35" rx="12"/>
+<text x="205" y="463" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">97.8% 灰区（设例）</text>
+<rect x="430" y="110" width="330" height="400" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="4"/>
+<circle cx="595" cy="292" r="108" fill="none" stroke="#3C8DAD" stroke-width="12"/>
+<rect x="660.5307436087194" y="227.0" width="56" height="22" fill="#F39B7F" rx="6"/>
+<rect x="649.3675323681472" y="357.3675323681471" width="44" height="22" fill="#F39B7F" rx="6"/>
+<rect x="476.4692563912806" y="335.0" width="50" height="22" fill="#F39B7F" rx="6"/>
+<rect x="513.053744874087" y="193.5315792167889" width="40" height="20" fill="#F39B7F" rx="6"/>
+<text x="595" y="170" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">WGS ~4 Mb</text>
+<text x="595" y="452" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">全基因组：~4 Mb</text>
+<text x="595" y="490" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">定种溯源</text>
+<rect x="200" y="560" width="400" height="62" fill="#3C5488" rx="12"/>
+<text x="400" y="603" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">捕捉致病可变基因</text>
+</svg>

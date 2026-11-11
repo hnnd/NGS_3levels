@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="104" width="210" height="70" fill="#FFFFFF" rx="12" stroke="#00A087" stroke-width="5"/>
+<text x="145" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">raw counts</text>
+<rect x="40" y="190" width="210" height="70" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="5"/>
+<text x="145" y="236" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">归一化</text>
+<rect x="40" y="276" width="210" height="70" fill="#FFFFFF" rx="12" stroke="#3C8DAD" stroke-width="5"/>
+<text x="145" y="322" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">vst</text>
+<rect x="40" y="362" width="210" height="70" fill="#FFFFFF" rx="12" stroke="#3C8DAD" stroke-width="5"/>
+<text x="145" y="408" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">rlog</text>
+<rect x="40" y="448" width="210" height="70" fill="#FFFFFF" rx="12" stroke="#F39B7F" stroke-width="5"/>
+<text x="145" y="494" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">TPM / FPKM</text>
+<text x="500" y="86" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">原始整数建模检验</text>
+<rect x="470" y="100" width="290" height="112" fill="#FFFFFF" rx="14" stroke="#00A087" stroke-width="5"/>
+<text x="615" y="144" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">DESeq2 / edgeR</text>
+<text x="615" y="182" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">只收原始计数</text>
+<text x="500" y="268" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">归一化跨样本比</text>
+<rect x="470" y="282" width="290" height="112" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="615" y="326" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">跨样本比较</text>
+<text x="615" y="364" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">已除文库因子</text>
+<text x="500" y="450" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">对数变换聚类</text>
+<rect x="470" y="464" width="290" height="112" fill="#FFFFFF" rx="14" stroke="#3C8DAD" stroke-width="5"/>
+<text x="615" y="508" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">PCA · 热图</text>
+<text x="615" y="546" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">聚类 · 机器学习</text>
+<line x1="250" y1="139" x2="466" y2="144" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="466,144 452.165788347884,149.79780889340608 452.44887949401124,137.56827138071185" fill="#00A087"/>
+<line x1="250" y1="225" x2="466" y2="326" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="466,326 451.0022673112902,325.7392046817802 456.18377039781416,314.65797035812506" fill="#3C5488"/>
+<line x1="250" y1="397" x2="466" y2="508" stroke="#3C8DAD" stroke-width="6" stroke-linecap="round"/>
+<polygon points="466,508 451.02243252409664,507.17995579097146 456.6136707666297,496.2997084000962" fill="#3C8DAD"/>
+<text x="60" y="560" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">相对丰度慎用</text>
+<rect x="40" y="600" width="720" height="84" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="6"/>
+<path d="M 66 618 L 92 666 M 92 618 L 66 666" fill="none" stroke="#E64B35" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="116" y="636" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">round(TPM) → DESeq2</text>
+<text x="116" y="668" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">方差结构被破坏 · 假阳性失控</text>
+</svg>

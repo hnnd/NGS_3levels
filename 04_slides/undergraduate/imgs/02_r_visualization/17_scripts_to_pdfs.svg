@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="210" y="52" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">三个脚本</text>
+<text x="622" y="52" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">五个 PDF</text>
+<rect x="20" y="84" width="380" height="104" fill="#3C5488" rx="10"/>
+<text x="210" y="129" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">02_plot_kmer_</text>
+<text x="210" y="168" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">histogram.R</text>
+<rect x="20" y="244" width="380" height="104" fill="#3C5488" rx="10"/>
+<text x="210" y="289" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">02_plot_assembly_</text>
+<text x="210" y="328" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">metrics.R</text>
+<rect x="20" y="404" width="380" height="104" fill="#3C5488" rx="10"/>
+<text x="210" y="449" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">02_plot_tree_and_</text>
+<text x="210" y="488" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">pangenome.R</text>
+<rect x="456" y="84" width="332" height="60" fill="#4DBBD5" rx="8"/>
+<text x="622" y="124" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">kmer.pdf</text>
+<rect x="456" y="180" width="332" height="60" fill="#4DBBD5" rx="8"/>
+<text x="622" y="220" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">quast_compare.pdf</text>
+<rect x="456" y="252" width="332" height="60" fill="#4DBBD5" rx="8"/>
+<text x="622" y="292" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">busco_stacked.pdf</text>
+<rect x="456" y="380" width="332" height="60" fill="none" rx="8" stroke="#E64B35" stroke-width="4" stroke-dasharray="12 9"/>
+<text x="622" y="420" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">core_gene_tree.pdf</text>
+<rect x="456" y="452" width="332" height="100" fill="#4DBBD5" rx="8"/>
+<text x="622" y="494" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">pangenome_</text>
+<text x="622" y="532" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">composition.pdf</text>
+<text x="622" y="348" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">缺包树会静默少一张</text>
+<line x1="404" y1="136" x2="450" y2="114" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="450,114 438.3396307548533,127.7126142316787 432.00613314884725,114.46984651002971" fill="#4DBBD5"/>
+<line x1="404" y1="284" x2="450" y2="210" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="450,210 447.5565749124612,227.83338649392164 435.08959602785984,220.08364286295318" fill="#4DBBD5"/>
+<line x1="404" y1="308" x2="450" y2="282" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="450,282 439.3033234205024,296.47691645875 432.0802297837369,283.6975969475495" fill="#4DBBD5"/>
+<line x1="404" y1="444" x2="450" y2="410" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="450,410 441.14552689547094,425.6715763738423 432.4202368344356,413.8667721736181" fill="#4DBBD5"/>
+<line x1="404" y1="468" x2="450" y2="502" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="450,502 432.4202368344356,498.1332278263819 441.14552689547094,486.3284236261577" fill="#4DBBD5"/>
+</svg>

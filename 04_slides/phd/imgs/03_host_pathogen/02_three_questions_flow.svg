@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Three questions in strict order</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="36" y="70" width="214" height="200" fill="#E7F5F8" rx="14" stroke="#4DBBD5" stroke-width="4"/>
+<rect x="36" y="70" width="214" height="14" fill="#4DBBD5"/>
+<circle cx="143" cy="146" r="32" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="4"/>
+<text x="143" y="158" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">1</text>
+<text x="143" y="236" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">一查歧义归属</text>
+<rect x="293" y="70" width="214" height="200" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<rect x="293" y="70" width="214" height="14" fill="#3C5488"/>
+<circle cx="400" cy="146" r="32" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="158" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">2</text>
+<text x="400" y="236" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">二分归一分母</text>
+<rect x="550" y="70" width="214" height="200" fill="#E7EAF1" rx="14" stroke="#8491B4" stroke-width="4"/>
+<rect x="550" y="70" width="214" height="14" fill="#8491B4"/>
+<circle cx="657" cy="146" r="32" fill="#FFFFFF" stroke="#8491B4" stroke-width="4"/>
+<text x="657" y="158" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">3</text>
+<text x="657" y="236" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">三限时序边界</text>
+<line x1="250" y1="170" x2="293" y2="170" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="293,170 279.30366589531536,176.11640679589354 279.30366589531536,163.88359320410646" fill="#3C5488"/>
+<line x1="507" y1="170" x2="550" y2="170" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="550,170 536.3036658953154,176.11640679589354 536.3036658953154,163.88359320410646" fill="#3C5488"/>
+<polygon points="48,352.5 222,352.5 222,332.2 236,356 222,379.8 222,359.5 48,359.5" fill="#3C5488"/>
+<polygon points="305,348.5 464.5,348.5 464.5,307.55 493,356 464.5,404.45 464.5,363.5 305,363.5" fill="#3C5488"/>
+<polygon points="562,344.5 706.3,344.5 706.3,281.71000000000004 750,356 706.3,430.28999999999996 706.3,367.5 562,367.5" fill="#3C5488"/>
+<path d="M 764 430 Q 400 508 40 436" fill="none" stroke="#E64B35" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 9"/>
+<polygon points="40,436 62,415 58,446" fill="#E64B35"/>
+<rect x="150" y="540" width="500" height="74" fill="#E64B35" rx="12"/>
+<text x="400.0" y="588.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">顺序不可颠倒</text>
+</svg>

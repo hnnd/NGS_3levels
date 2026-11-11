@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">PERMANOVA 检验什么，betadisper 为什么必须配</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">R² 才是效应量 ｜ 位置差异 ≠ 离散度差异 —— 依据 06_amplicon_lecture.md ⑦7.3–7.5</text>
+  <!-- 图例 -->
+  <circle cx="932" cy="46" r="6" fill="#3C5488"/>
+  <text x="946" y="50" font-size="12" fill="#33332E">健康组样本</text>
+  <circle cx="932" cy="70" r="6" fill="#F39B7F"/>
+  <text x="946" y="74" font-size="12" fill="#33332E">发病组样本</text>
+
+  <!-- ============ 情形 A ============ -->
+  <rect x="48" y="140" width="350" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="68" y="172" font-size="15" font-weight="bold" fill="#3C5488">情形 A：位置移动</text>
+  <text x="68" y="192" font-size="11.5" fill="#6B6B66">各组紧凑、中心分开</text>
+  <line x1="68" y1="204" x2="378" y2="204" stroke="#E9E9E5"/>
+  <ellipse cx="170" cy="300" rx="52" ry="36" fill="none" stroke="#3C5488" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <ellipse cx="310" cy="380" rx="52" ry="36" fill="none" stroke="#F39B7F" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="146" cy="288" r="5" fill="#3C5488"/><circle cx="168" cy="276" r="5" fill="#3C5488"/>
+  <circle cx="190" cy="296" r="5" fill="#3C5488"/><circle cx="156" cy="316" r="5" fill="#3C5488"/>
+  <circle cx="182" cy="320" r="5" fill="#3C5488"/><circle cx="172" cy="298" r="5" fill="#3C5488"/>
+  <circle cx="286" cy="368" r="5" fill="#F39B7F"/><circle cx="308" cy="356" r="5" fill="#F39B7F"/>
+  <circle cx="330" cy="376" r="5" fill="#F39B7F"/><circle cx="296" cy="396" r="5" fill="#F39B7F"/>
+  <circle cx="322" cy="400" r="5" fill="#F39B7F"/><circle cx="312" cy="378" r="5" fill="#F39B7F"/>
+  <text x="213" y="456" font-size="12" font-weight="bold" fill="#00A087">✓ adonis2 显著 ＋ betadisper 不显著</text>
+  <text x="213" y="478" font-size="12" fill="#33332E" text-anchor="middle">干净的位置差异：可以说</text>
+  <text x="213" y="496" font-size="12" fill="#33332E" text-anchor="middle">「两组群落结构不同」</text>
+  <text x="213" y="530" font-size="11" fill="#6B6B66" text-anchor="middle">检验的是「组间距离是否大于</text>
+  <text x="213" y="546" font-size="11" fill="#6B6B66" text-anchor="middle">组内距离超出随机打标签的程度」</text>
+
+  <!-- ============ 情形 B ============ -->
+  <rect x="418" y="140" width="350" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="438" y="172" font-size="15" font-weight="bold" fill="#3C5488">情形 B：离散度差异</text>
+  <text x="438" y="192" font-size="11.5" fill="#6B6B66">中心几乎重合，一组散得到处都是</text>
+  <line x1="438" y1="204" x2="748" y2="204" stroke="#E9E9E5"/>
+  <ellipse cx="592" cy="330" rx="40" ry="30" fill="none" stroke="#3C5488" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <ellipse cx="592" cy="330" rx="100" ry="95" fill="none" stroke="#F39B7F" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="572" cy="318" r="5" fill="#3C5488"/><circle cx="594" cy="306" r="5" fill="#3C5488"/>
+  <circle cx="612" cy="326" r="5" fill="#3C5488"/><circle cx="580" cy="346" r="5" fill="#3C5488"/>
+  <circle cx="600" cy="344" r="5" fill="#3C5488"/><circle cx="590" cy="324" r="5" fill="#3C5488"/>
+  <circle cx="520" cy="270" r="5" fill="#F39B7F"/><circle cx="650" cy="252" r="5" fill="#F39B7F"/>
+  <circle cx="672" cy="360" r="5" fill="#F39B7F"/><circle cx="536" cy="404" r="5" fill="#F39B7F"/>
+  <circle cx="640" cy="416" r="5" fill="#F39B7F"/><circle cx="556" cy="248" r="5" fill="#F39B7F"/>
+  <circle cx="502" cy="342" r="5" fill="#F39B7F"/>
+  <text x="592" y="474" font-size="12" font-weight="bold" fill="#E64B35">也可能显著——但解释是错的</text>
+  <text x="592" y="498" font-size="12" fill="#33332E" text-anchor="middle">Anna Karenina 效应：健康群落彼此</text>
+  <text x="592" y="516" font-size="12" fill="#33332E" text-anchor="middle">相似，失调群落各有各的失调方式</text>
+  <text x="592" y="544" font-size="11" fill="#6B6B66" text-anchor="middle">betadisper：算每点到本组质心的距离，再做 ANOVA</text>
+
+  <!-- ============ 右面板：它在算什么 ============ -->
+  <rect x="788" y="140" width="364" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="808" y="172" font-size="15" font-weight="bold" fill="#3C5488">adonis2 在算什么</text>
+  <line x1="808" y1="186" x2="1132" y2="186" stroke="#E9E9E5"/>
+
+  <rect x="808" y="202" width="324" height="96" rx="8" fill="#FAFAF7"/>
+  <text x="824" y="228" font-size="12" fill="#33332E">SS 组间 ＋ SS 组内 = SS_T</text>
+  <text x="824" y="254" font-size="12" fill="#33332E">pseudo-F = [SS 组间/(k−1)] / [SS 组内/(n−k)]</text>
+  <text x="824" y="282" font-size="13" font-weight="bold" fill="#3C5488">R² = SS 组间 / SS_T ← 这才是效应量</text>
+
+  <text x="808" y="330" font-size="12" fill="#33332E">p 值：随机打乱分组标签（默认 999 次），</text>
+  <text x="808" y="350" font-size="12" fill="#33332E">看观测 F 在随机值里排第几——纯置换，无分布假设</text>
+
+  <rect x="808" y="368" width="324" height="80" rx="6" fill="#FAFAF7"/>
+  <rect x="808" y="368" width="4" height="80" rx="2" fill="#3C5488"/>
+  <text x="824" y="392" font-size="12" fill="#33332E">p &lt; 0.001 而 R² = 0.03 极常见：</text>
+  <text x="824" y="412" font-size="12" fill="#33332E">分组确实不随机，但只解释 3%，</text>
+  <text x="824" y="432" font-size="12" fill="#33332E">其余 97% 来自你没测的东西</text>
+
+  <rect x="808" y="466" width="324" height="84" rx="6" fill="#FAFAF7"/>
+  <rect x="808" y="466" width="4" height="84" rx="2" fill="#F39B7F"/>
+  <text x="824" y="490" font-size="12" fill="#33332E">3v3 的天花板：最小 p = 2/C(6,3) = 0.1，</text>
+  <text x="824" y="510" font-size="12" fill="#33332E">无论结果多漂亮都做不出显著——</text>
+  <text x="824" y="530" font-size="12" fill="#33332E">钱该花在加重复上，不是加深度（⑦7.5）</text>
+
+  <!-- ============ 判读表 ============ -->
+  <rect x="48" y="592" width="1104" height="82" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="68" y="622" font-size="12" font-weight="bold" fill="#00A087">adonis2 显著 ｜ betadisper 不显著</text>
+  <text x="68" y="644" font-size="11.5" fill="#33332E">✓ 干净的位置差异，可写</text>
+  <text x="68" y="662" font-size="11.5" fill="#33332E">「群落结构不同」</text>
+  <line x1="408" y1="606" x2="408" y2="660" stroke="#E9E9E5"/>
+  <text x="428" y="622" font-size="12" font-weight="bold" fill="#C0684B">adonis2 显著 ｜ betadisper 显著</text>
+  <text x="428" y="644" font-size="11.5" fill="#33332E">不能直接说中心不同：须同时报两组</text>
+  <text x="428" y="662" font-size="11.5" fill="#33332E">离散度也不同，并讨论 Anna Karenina</text>
+  <line x1="788" y1="606" x2="788" y2="660" stroke="#E9E9E5"/>
+  <text x="808" y="622" font-size="12" font-weight="bold" fill="#3C5488">adonis2 不显著 ｜ betadisper 显著</text>
+  <text x="808" y="644" font-size="11.5" fill="#33332E">中心相同但一组更异质——</text>
+  <text x="808" y="662" font-size="11.5" fill="#33332E">本身是可报告的发现</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">只报 p 不报 R² 是本领域最常见的过度解读；任何 PERMANOVA 都必须附 betadisper——缺一即不完整。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

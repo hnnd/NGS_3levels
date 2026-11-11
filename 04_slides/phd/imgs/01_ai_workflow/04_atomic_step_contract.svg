@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Atomic step contract: three elements</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="26" width="720" height="138" fill="#E7F5F8" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<rect x="40" y="26" width="10" height="138" fill="#4DBBD5"/>
+<text x="74" y="72" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#4DBBD5" text-anchor="start" font-weight="bold">INPUT</text>
+<text x="736" y="72" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">format · dim · unit</text>
+<text x="74" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">2 000 × 6, integer_counts</text>
+<text x="74" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">coldata: 3 columns, same_order</text>
+<rect x="40" y="182" width="720" height="138" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="4"/>
+<rect x="40" y="182" width="10" height="138" fill="#E64B35"/>
+<text x="74" y="228" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">OUTPUT</text>
+<text x="736" y="228" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">names + machine_asserts</text>
+<text x="74" y="274" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">columns padj / log2FC present</text>
+<text x="74" y="312" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">recall ≥ 18/20, cor ≈ −1</text>
+<rect x="40" y="338" width="720" height="138" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<rect x="40" y="338" width="10" height="138" fill="#3C5488"/>
+<text x="74" y="384" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">DESIGN</text>
+<text x="736" y="384" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">species · reps · batch · ref</text>
+<text x="74" y="430" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">2 groups × 3 biological_reps</text>
+<text x="74" y="468" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">batch_crossed_with_condition</text>
+<rect x="32.0" y="520" width="736" height="116" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="562" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">需求拆解三要素：输入契约定量纲，</text>
+<text x="400.0" y="606" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">输出判据给断言，生物前置定设计。</text>
+</svg>

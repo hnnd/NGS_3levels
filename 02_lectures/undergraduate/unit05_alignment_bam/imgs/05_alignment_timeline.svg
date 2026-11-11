@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">比对算法五十年：从动态规划到图基因组</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">NW 全局 ｜ SW 局部 ｜ FM-index 革命 ｜ 长读长与泛基因组 —— 依据 05_alignment_bam_lecture.md ④4.1–4.8 ｜ ⑪文献年表</text>
+  <!-- 图例 -->
+  <circle cx="932" cy="46" r="6" fill="#3C5488"/>
+  <text x="946" y="51" font-size="12" fill="#33332E">动态规划时代</text>
+  <circle cx="1056" cy="46" r="6" fill="#4DBBD5"/>
+  <text x="1070" y="51" font-size="12" fill="#33332E">索引革命</text>
+  <circle cx="932" cy="70" r="6" fill="#00A087"/>
+  <text x="946" y="75" font-size="12" fill="#33332E">长读长与图</text>
+  <circle cx="1056" cy="70" r="6" fill="#E64B35"/>
+  <text x="1070" y="75" font-size="12" fill="#33332E">关键节点</text>
+
+  <!-- ============ 时代条 ============ -->
+  <rect x="84" y="132" width="394" height="40" rx="8" fill="#EDEFF5" stroke="#3C5488" stroke-width="1.2"/>
+  <text x="281" y="157" font-size="12.5" font-weight="bold" fill="#3C5488" text-anchor="middle">1970–1990 ｜ 动态规划时代</text>
+  <rect x="478" y="132" width="420" height="40" rx="8" fill="#E7F5F9" stroke="#4DBBD5" stroke-width="1.2"/>
+  <text x="688" y="157" font-size="12.5" font-weight="bold" fill="#3C8DAD" text-anchor="middle">2000–2013 ｜ 索引革命：查询代价只随 read 长度</text>
+  <rect x="898" y="132" width="234" height="40" rx="8" fill="#E4F3EF" stroke="#00A087" stroke-width="1.2"/>
+  <text x="1015" y="157" font-size="12.5" font-weight="bold" fill="#00A087" text-anchor="middle">2018– ｜ 长读长与图</text>
+
+  <!-- ============ 时间轴 ============ -->
+  <line x1="70" y1="430" x2="1140" y2="430" stroke="#6B6B66" stroke-width="2"/>
+  <polygon points="1152,430 1138,424 1138,436" fill="#6B6B66"/>
+
+  <!-- 节点 1：1970 -->
+  <circle cx="140" cy="430" r="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="2.5"/>
+  <line x1="140" y1="418" x2="140" y2="358" stroke="#3C5488" stroke-width="1.2"/>
+  <text x="140" y="286" font-size="16" font-weight="bold" fill="#3C5488" text-anchor="middle">1970</text>
+  <text x="140" y="308" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Needleman–Wunsch</text>
+  <text x="140" y="330" font-size="11" fill="#6B6B66" text-anchor="middle">全局比对：整段对整段</text>
+  <text x="140" y="348" font-size="11" fill="#6B6B66" text-anchor="middle">动态规划逐格递推</text>
+
+  <!-- 节点 2：1981 -->
+  <circle cx="280" cy="430" r="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="2.5"/>
+  <line x1="280" y1="442" x2="280" y2="470" stroke="#3C5488" stroke-width="1.2"/>
+  <text x="280" y="494" font-size="16" font-weight="bold" fill="#3C5488" text-anchor="middle">1981</text>
+  <text x="280" y="516" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Smith–Waterman</text>
+  <text x="280" y="538" font-size="11" fill="#6B6B66" text-anchor="middle">局部比对：取最优局部段</text>
+  <text x="280" y="556" font-size="11" fill="#6B6B66" text-anchor="middle">延伸阶段的引擎（④4.4）</text>
+
+  <!-- 节点 3：1990 -->
+  <circle cx="420" cy="430" r="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="2.5"/>
+  <line x1="420" y1="418" x2="420" y2="358" stroke="#3C5488" stroke-width="1.2"/>
+  <text x="420" y="286" font-size="16" font-weight="bold" fill="#3C5488" text-anchor="middle">1990</text>
+  <text x="420" y="308" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">BLAST</text>
+  <text x="420" y="330" font-size="11" fill="#6B6B66" text-anchor="middle">启发式搜库，速度大增</text>
+  <text x="420" y="348" font-size="11" fill="#6B6B66" text-anchor="middle">代价仍与库长正比（④4.1）</text>
+
+  <!-- 节点 4：2000 -->
+  <circle cx="560" cy="430" r="10" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="2.5"/>
+  <line x1="560" y1="442" x2="560" y2="470" stroke="#4DBBD5" stroke-width="1.2"/>
+  <text x="560" y="494" font-size="16" font-weight="bold" fill="#3C8DAD" text-anchor="middle">2000</text>
+  <text x="560" y="516" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">FM-index</text>
+  <text x="560" y="538" font-size="11" fill="#6B6B66" text-anchor="middle">压缩数据结构（⑪）</text>
+  <text x="560" y="556" font-size="11" fill="#6B6B66" text-anchor="middle">查询代价与基因组无关</text>
+
+  <!-- 节点 5：2009（红） -->
+  <circle cx="700" cy="430" r="11" fill="#E64B35"/>
+  <line x1="700" y1="417" x2="700" y2="358" stroke="#E64B35" stroke-width="1.2"/>
+  <text x="700" y="286" font-size="16" font-weight="bold" fill="#E64B35" text-anchor="middle">2009</text>
+  <text x="700" y="308" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">Bowtie / BWA</text>
+  <text x="700" y="330" font-size="11" fill="#6B6B66" text-anchor="middle">FM-index 进入短读长比对</text>
+  <text x="700" y="348" font-size="11" fill="#E64B35" text-anchor="middle">NGS 规模比对从此可行（⑪）</text>
+
+  <!-- 节点 6：2013 -->
+  <circle cx="840" cy="430" r="10" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="2.5"/>
+  <line x1="840" y1="442" x2="840" y2="470" stroke="#4DBBD5" stroke-width="1.2"/>
+  <text x="840" y="494" font-size="16" font-weight="bold" fill="#3C8DAD" text-anchor="middle">2013</text>
+  <text x="840" y="516" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">BWA-MEM</text>
+  <text x="840" y="538" font-size="11" fill="#6B6B66" text-anchor="middle">种子链接 + SW 延伸</text>
+  <text x="840" y="556" font-size="11" fill="#6B6B66" text-anchor="middle">bwa mem 的算法基础（⑪）</text>
+
+  <!-- 节点 7：2018 -->
+  <circle cx="980" cy="430" r="10" fill="#FFFFFF" stroke="#00A087" stroke-width="2.5"/>
+  <line x1="980" y1="418" x2="980" y2="358" stroke="#00A087" stroke-width="1.2"/>
+  <text x="980" y="286" font-size="16" font-weight="bold" fill="#00A087" text-anchor="middle">2018</text>
+  <text x="980" y="308" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">minimap2</text>
+  <text x="980" y="330" font-size="11" fill="#6B6B66" text-anchor="middle">minimizer 索引</text>
+  <text x="980" y="348" font-size="11" fill="#6B6B66" text-anchor="middle">长读长高错误率稳健（④4.7）</text>
+
+  <!-- 节点 8：2021/2023 -->
+  <circle cx="1094" cy="430" r="10" fill="#FFFFFF" stroke="#00A087" stroke-width="2.5"/>
+  <line x1="1094" y1="442" x2="1094" y2="470" stroke="#00A087" stroke-width="1.2"/>
+  <text x="1094" y="494" font-size="16" font-weight="bold" fill="#00A087" text-anchor="middle">2021 / 2023</text>
+  <text x="1094" y="516" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">图基因组</text>
+  <text x="1094" y="538" font-size="11" fill="#6B6B66" text-anchor="middle">vg giraffe（⑪）</text>
+  <text x="1094" y="556" font-size="11" fill="#6B6B66" text-anchor="middle">2023 人类泛基因组草图</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="620" width="1104" height="102" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="620" width="4" height="102" rx="2" fill="#3C5488"/>
+  <text x="76" y="650" font-size="14" font-weight="bold" fill="#3C5488">框架五十年未变：建索引 → 种子 → 延伸 → MAPQ；变的是参考本身——从一条线性参考到一张图（④4.8）</text>
+  <text x="76" y="676" font-size="12.5" fill="#33332E">1970 与 1981 的工作今天仍活着：bwa mem 延伸阶段跑的就是 Smith–Waterman 局部比对（④4.4）。</text>
+  <text x="76" y="702" font-size="12.5" fill="#33332E">对选型：小基因组 + 近缘参考（本讲 E. coli 练习）暂时用不上图比对；群体多样、结构变异密集的项目（本课西非 Xoo 主线）才是受益方。</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

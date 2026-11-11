@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="32" y="124" width="336" height="60" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="3"/>
+<text x="200.0" y="164" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">主脚本：单样本五步通</text>
+<rect x="32" y="196" width="336" height="56" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="3"/>
+<rect x="32" y="196" width="50" height="56" fill="#3C5488" rx="10"/>
+<text x="57" y="235.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<text x="104" y="235.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">host</text>
+<rect x="32" y="274" width="336" height="56" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="3"/>
+<rect x="32" y="274" width="50" height="56" fill="#3C5488" rx="10"/>
+<text x="57" y="313.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<text x="104" y="313.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">MEGAHIT</text>
+<line x1="57" y1="254" x2="57" y2="270" stroke="#3C5488" stroke-width="3" stroke-linecap="round"/>
+<polygon points="57,270 53.33015592246387,261.78219953718923 60.66984407753613,261.78219953718923" fill="#3C5488"/>
+<rect x="32" y="352" width="336" height="56" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="3"/>
+<rect x="32" y="352" width="50" height="56" fill="#3C5488" rx="10"/>
+<text x="57" y="391.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="104" y="391.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">depth+MetaBAT2</text>
+<line x1="57" y1="332" x2="57" y2="348" stroke="#3C5488" stroke-width="3" stroke-linecap="round"/>
+<polygon points="57,348 53.33015592246387,339.78219953718923 60.66984407753613,339.78219953718923" fill="#3C5488"/>
+<rect x="32" y="430" width="336" height="56" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="3"/>
+<rect x="32" y="430" width="50" height="56" fill="#3C5488" rx="10"/>
+<text x="57" y="469.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">4</text>
+<text x="104" y="469.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">CheckM</text>
+<line x1="57" y1="410" x2="57" y2="426" stroke="#3C5488" stroke-width="3" stroke-linecap="round"/>
+<polygon points="57,426 53.33015592246387,417.78219953718923 60.66984407753613,417.78219953718923" fill="#3C5488"/>
+<rect x="32" y="508" width="336" height="56" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="3"/>
+<rect x="32" y="508" width="50" height="56" fill="#3C5488" rx="10"/>
+<text x="57" y="547.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">5</text>
+<text x="104" y="547.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">emapper</text>
+<line x1="57" y1="488" x2="57" y2="504" stroke="#3C5488" stroke-width="3" stroke-linecap="round"/>
+<polygon points="57,504 53.33015592246387,495.78219953718923 60.66984407753613,495.78219953718923" fill="#3C5488"/>
+<rect x="432" y="124" width="336" height="60" fill="#D6EFF4" rx="14" stroke="#3C8DAD" stroke-width="3"/>
+<text x="600.0" y="164" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">手动轨：质控分类共识</text>
+<rect x="432" y="196" width="336" height="56" fill="#FFFFFF" rx="10" stroke="#3C8DAD" stroke-width="3"/>
+<rect x="432" y="196" width="50" height="56" fill="#3C8DAD" rx="10"/>
+<text x="457" y="235.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<text x="504" y="235.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">fastp</text>
+<rect x="432" y="274" width="336" height="56" fill="#FFFFFF" rx="10" stroke="#3C8DAD" stroke-width="3"/>
+<rect x="432" y="274" width="50" height="56" fill="#3C8DAD" rx="10"/>
+<text x="457" y="313.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<text x="504" y="313.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">Kraken2</text>
+<line x1="457" y1="254" x2="457" y2="270" stroke="#3C8DAD" stroke-width="3" stroke-linecap="round"/>
+<polygon points="457,270 453.33015592246386,261.78219953718923 460.66984407753614,261.78219953718923" fill="#3C8DAD"/>
+<rect x="432" y="352" width="336" height="56" fill="#FFFFFF" rx="10" stroke="#3C8DAD" stroke-width="3"/>
+<rect x="432" y="352" width="50" height="56" fill="#3C8DAD" rx="10"/>
+<text x="457" y="391.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="504" y="391.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">Bracken</text>
+<line x1="457" y1="332" x2="457" y2="348" stroke="#3C8DAD" stroke-width="3" stroke-linecap="round"/>
+<polygon points="457,348 453.33015592246386,339.78219953718923 460.66984407753614,339.78219953718923" fill="#3C8DAD"/>
+<rect x="432" y="430" width="336" height="56" fill="#FFFFFF" rx="10" stroke="#3C8DAD" stroke-width="3"/>
+<rect x="432" y="430" width="50" height="56" fill="#3C8DAD" rx="10"/>
+<text x="457" y="469.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">4</text>
+<text x="504" y="469.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">DAS Tool</text>
+<line x1="457" y1="410" x2="457" y2="426" stroke="#3C8DAD" stroke-width="3" stroke-linecap="round"/>
+<polygon points="457,426 453.33015592246386,417.78219953718923 460.66984407753614,417.78219953718923" fill="#3C8DAD"/>
+<line x1="400" y1="116" x2="400" y2="620" stroke="#E64B35" stroke-width="4" stroke-linecap="butt" stroke-dasharray="12 10"/>
+<text x="400" y="686" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">认清脚本边界</text>
+</svg>

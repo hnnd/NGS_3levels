@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="205" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">混在一根轴</text>
+<rect x="30" y="84" width="350" height="476" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="4"/>
+<line x1="90" y1="140" x2="90" y2="500" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<line x1="60" y1="500" x2="360" y2="500" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<rect x="130" y="180" width="80" height="320" fill="#3C5488"/>
+<rect x="250" y="476" width="80" height="24" fill="#E64B35"/>
+<text x="290" y="452" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">压扁了</text>
+<text x="110" y="128" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">Value</text>
+<line x1="96" y1="116" x2="124" y2="140" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="124" y1="116" x2="96" y2="140" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<text x="170" y="536" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">contigs</text>
+<text x="290" y="536" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">N50</text>
+<text x="595" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">分面各标单位</text>
+<rect x="410" y="84" width="170" height="476" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="4"/>
+<rect x="410" y="84" width="170" height="56" fill="#3C5488"/>
+<text x="495" y="122" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">contigs (n)</text>
+<line x1="440" y1="160" x2="440" y2="500" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<line x1="426" y1="500" x2="564" y2="500" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<rect x="600" y="84" width="170" height="476" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="4"/>
+<rect x="600" y="84" width="170" height="56" fill="#3C5488"/>
+<text x="685" y="122" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">N50 (Mb)</text>
+<line x1="630" y1="160" x2="630" y2="500" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<line x1="616" y1="500" x2="754" y2="500" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<rect x="450" y="190" width="90" height="310" fill="#3C5488"/>
+<rect x="640" y="240" width="90" height="260" fill="#3C5488"/>
+<circle cx="555" cy="515" r="16" fill="#00A087"/>
+<line x1="547" y1="515" x2="553" y2="523" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt"/>
+<line x1="553" y1="523" x2="565" y2="505" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt"/>
+<circle cx="745" cy="515" r="16" fill="#00A087"/>
+<line x1="737" y1="515" x2="743" y2="523" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt"/>
+<line x1="743" y1="523" x2="755" y2="505" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt"/>
+<text x="400" y="664" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">主因是单位不同</text>
+</svg>

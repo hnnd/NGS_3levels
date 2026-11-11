@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Two thresholds: generate vs judge</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="56" y1="470" x2="744" y2="470" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="64" y="128" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">A  GENERATE</text>
+<rect x="120" y="170" width="150" height="300" fill="none" rx="4" stroke="#6B6B66" stroke-width="3" stroke-dasharray="12 9"/>
+<line x1="195" y1="196" x2="195" y2="444" stroke="#00A087" stroke-width="7" stroke-linecap="round"/>
+<polygon points="195,444 187.66031184492775,427.56439907437846 202.33968815507225,427.56439907437846" fill="#00A087"/>
+<rect x="110" y="458" width="170" height="12" fill="#00A087"/>
+<text x="300" y="452" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="start" font-weight="bold">0</text>
+<text x="500" y="128" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">B  JUDGE</text>
+<rect x="520" y="170" width="150" height="300" fill="#F6D8D2" stroke="#E64B35" stroke-width="5"/>
+<text x="595" y="410" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#E64B35" text-anchor="middle" font-weight="bold">100</text>
+<line x1="390" y1="210" x2="390" y2="450" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="390,450 384.6991141102256,438.12984377594 395.3008858897744,438.12984377594" fill="#6B6B66"/>
+<line x1="390" y1="450" x2="390" y2="210" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="390,210 395.3008858897744,221.87015622406 384.6991141102256,221.87015622406" fill="#6B6B66"/>
+<text x="390" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">gap</text>
+<rect x="32.0" y="512" width="736" height="128" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="562" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">代码生成趋零，判断对错留在原处。</text>
+<text x="400.0" y="608" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">语言换代码极易，语义验证断层。</text>
+</svg>

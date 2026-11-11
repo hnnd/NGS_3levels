@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="352" y="106" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">S1  ·  O = 187 bp</text>
+<rect x="352" y="146" width="304" height="30" fill="#E9E9E5" rx="5"/>
+<rect x="352" y="146" width="302.404" height="30" fill="#00A087" rx="5"/>
+<text x="336" y="171" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">filtered</text>
+<text x="670" y="171" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">99.5%</text>
+<rect x="352" y="184" width="304" height="30" fill="#E9E9E5" rx="5"/>
+<rect x="352" y="184" width="302.404" height="30" fill="#00A087" rx="5"/>
+<text x="336" y="209" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">denoisedF</text>
+<text x="670" y="209" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">99.5%</text>
+<rect x="352" y="222" width="304" height="30" fill="#E9E9E5" rx="5"/>
+<rect x="352" y="222" width="302.6472" height="30" fill="#00A087" rx="5"/>
+<text x="336" y="247" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">denoisedR</text>
+<text x="670" y="247" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">99.6%</text>
+<rect x="352" y="260" width="304" height="30" fill="#E9E9E5" rx="5"/>
+<rect x="352" y="260" width="301.0583022" height="30" fill="#00A087" rx="5"/>
+<text x="336" y="285" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">merged</text>
+<text x="670" y="285" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">99.0%</text>
+<text x="352" y="324" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">S3  ·  O = 0 bp</text>
+<rect x="352" y="364" width="304" height="30" fill="#E9E9E5" rx="5"/>
+<rect x="352" y="364" width="303.4224" height="30" fill="#00A087" rx="5"/>
+<text x="336" y="389" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">filtered</text>
+<text x="670" y="389" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">99.8%</text>
+<rect x="352" y="402" width="304" height="30" fill="#E9E9E5" rx="5"/>
+<rect x="352" y="402" width="303.4224" height="30" fill="#00A087" rx="5"/>
+<text x="336" y="427" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">denoisedF</text>
+<text x="670" y="427" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">99.8%</text>
+<rect x="352" y="440" width="304" height="30" fill="#E9E9E5" rx="5"/>
+<rect x="352" y="440" width="253.29280000000003" height="30" fill="#00A087" rx="5"/>
+<text x="336" y="465" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">denoisedR</text>
+<text x="670" y="465" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">83.3%</text>
+<rect x="352" y="478" width="304" height="30" fill="#E9E9E5" rx="5"/>
+<rect x="352" y="478" width="17.570402285760004" height="30" fill="#E64B35" rx="5"/>
+<text x="336" y="503" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">merged</text>
+<text x="670" y="503" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">5.78%</text>
+<line x1="168" y1="275" x2="168" y2="481" stroke="#C0623F" stroke-width="5" stroke-linecap="round"/>
+<polygon points="168,481 161.88359320410643,467.30366589531536 174.11640679589354,467.30366589531536" fill="#C0623F"/>
+<text x="148" y="395.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#C0623F" text-anchor="end" font-weight="bold">17×</text>
+<text x="400.0" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle">前四步几乎全绿</text>
+<text x="400.0" y="606" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#C0623F" text-anchor="middle" font-weight="bold">仅合并骤降至半成</text>
+<text x="400.0" y="646" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">静默无报错</text>
+</svg>

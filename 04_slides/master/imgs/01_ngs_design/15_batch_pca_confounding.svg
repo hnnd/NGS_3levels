@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="44" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">PC1 70.8% vs 82.0%</text>
+<rect x="40" y="70" width="340" height="500" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="95" y1="320" x2="325" y2="320" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="325,320 310.39057695500304,326.5241672489531 310.39057695500304,313.4758327510469" fill="#6B6B66"/>
+<polygon points="95,320 109.60942304499693,313.4758327510469 109.60942304499693,326.5241672489531" fill="#6B6B66"/>
+<line x1="210" y1="180" x2="210" y2="460" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="210,460 203.47583275104688,445.39057695500304 216.52416724895312,445.39057695500304" fill="#6B6B66"/>
+<polygon points="210,180 216.52416724895312,194.60942304499693 203.47583275104688,194.60942304499693" fill="#6B6B66"/>
+<circle cx="142.8754732760709" cy="257.44022251263306" r="12" fill="#3C5488"/>
+<polygon points="142.8754732760709,366.5063167412904 131.8754732760709,386.5063167412904 153.8754732760709,386.5063167412904" fill="#3C5488"/>
+<circle cx="297.04903546225944" cy="245.73401138071003" r="12" fill="#F39B7F"/>
+<polygon points="297.04903546225944,366.5063167412904 286.04903546225944,386.5063167412904 308.04903546225944,386.5063167412904" fill="#F39B7F"/>
+<circle cx="117.16512789020291" cy="273.78976564434197" r="12" fill="#3C5488"/>
+<polygon points="117.16512789020291,351.57260370718984 106.16512789020291,371.57260370718984 128.1651278902029,371.57260370718984" fill="#3C5488"/>
+<circle cx="281.73118147993137" cy="268.6715020789005" r="12" fill="#F39B7F"/>
+<polygon points="281.73118147993137,351.57260370718984 270.73118147993137,371.57260370718984 292.73118147993137,371.57260370718984" fill="#F39B7F"/>
+<text x="195" y="425" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">PC1 70.8%</text>
+<text x="60" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">PC2 13.8%</text>
+<text x="210" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">平衡区组：两方向正交可拆</text>
+<rect x="420" y="70" width="340" height="500" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="475" y1="320" x2="705" y2="320" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="705,320 690.3905769550031,326.5241672489531 690.3905769550031,313.4758327510469" fill="#6B6B66"/>
+<polygon points="475,320 489.60942304499696,313.4758327510469 489.60942304499696,326.5241672489531" fill="#6B6B66"/>
+<line x1="590" y1="180" x2="590" y2="460" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="590,460 583.4758327510468,445.39057695500304 596.5241672489532,445.39057695500304" fill="#6B6B66"/>
+<polygon points="590,180 596.5241672489532,194.60942304499693 583.4758327510468,194.60942304499693" fill="#6B6B66"/>
+<circle cx="925.5384011662243" cy="627.7713330491933" r="12" fill="#3C5488"/>
+<polygon points="994.8540854873193,680.7553515184295 983.8540854873193,700.7553515184295 1005.8540854873193,700.7553515184295" fill="#F39B7F"/>
+<circle cx="921.7078368829441" cy="612.1439172707983" r="12" fill="#3C5488"/>
+<polygon points="997.6693822919672,667.7683575126027 986.6693822919672,687.7683575126027 1008.6693822919672,687.7683575126027" fill="#F39B7F"/>
+<circle cx="925.5295878021576" cy="621.6051802442041" r="12" fill="#3C5488"/>
+<polygon points="992.5207800190291,665.202586206761 981.5207800190291,685.202586206761 1003.5207800190291,685.202586206761" fill="#F39B7F"/>
+<circle cx="928.7296344496685" cy="623.7069716581098" r="12" fill="#3C5488"/>
+<polygon points="990.2565512538831,665.6110225128623 979.2565512538831,685.6110225128623 1001.2565512538831,685.6110225128623" fill="#F39B7F"/>
+<line x1="457" y1="443" x2="687" y2="253" stroke="#E64B35" stroke-width="6" stroke-linecap="round"/>
+<polygon points="687,253 679.8918146969271,267.3343538988396 671.5815725410089,257.27458707851764" fill="#E64B35"/>
+<polygon points="457,443 464.1081853030729,428.6656461011604 472.41842745899106,438.72541292148236" fill="#E64B35"/>
+<text x="585" y="415" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">PC1 82.0%</text>
+<text x="590" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">完全混杂：同方向无法分离</text>
+<text x="755" y="648" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">设例</text>
+</svg>

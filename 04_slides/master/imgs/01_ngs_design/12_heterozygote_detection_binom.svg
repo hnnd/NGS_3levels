@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+<defs><clipPath id="hatch0"><polygon points="72,517 96,517 96,520 72,520"/></clipPath><clipPath id="hatch1"><polygon points="100,505.71464851686306 124,505.71464851686306 124,520 100,520"/></clipPath></defs>
+<text x="400" y="48" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">杂合等位抽样</text>
+<rect x="50" y="76" width="330" height="540" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="215" y="112" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">10× 下 P(X≤1)=1.07%</text>
+<line x1="70" y1="520" x2="380" y2="520" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="70" y1="130" x2="70" y2="520" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<rect x="72" y="517" width="24" height="3" fill="#E64B35"/>
+<g clip-path="url(#hatch0)">
+<line x1="52" y1="493" x2="116" y2="453" stroke="#FFFFFF" stroke-width="4" stroke-linecap="butt"/>
+<line x1="52" y1="509" x2="116" y2="469" stroke="#FFFFFF" stroke-width="4" stroke-linecap="butt"/>
+<line x1="52" y1="525" x2="116" y2="485" stroke="#FFFFFF" stroke-width="4" stroke-linecap="butt"/>
+<line x1="52" y1="541" x2="116" y2="501" stroke="#FFFFFF" stroke-width="4" stroke-linecap="butt"/>
+</g>
+<text x="84" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0</text>
+<rect x="100" y="505.71464851686306" width="24" height="14.285351483136935" fill="#E64B35"/>
+<g clip-path="url(#hatch1)">
+<line x1="80" y1="481.71464851686306" x2="144" y2="441.71464851686306" stroke="#FFFFFF" stroke-width="4" stroke-linecap="butt"/>
+<line x1="80" y1="497.71464851686306" x2="144" y2="457.71464851686306" stroke="#FFFFFF" stroke-width="4" stroke-linecap="butt"/>
+<line x1="80" y1="513.714648516863" x2="144" y2="473.714648516863" stroke="#FFFFFF" stroke-width="4" stroke-linecap="butt"/>
+<line x1="80" y1="529.714648516863" x2="144" y2="489.714648516863" stroke="#FFFFFF" stroke-width="4" stroke-linecap="butt"/>
+</g>
+<text x="112" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">1</text>
+<rect x="128" y="455.71591832588376" width="24" height="64.28408167411621" fill="#3C5488"/>
+<text x="140" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">2</text>
+<rect x="156" y="348.5757822023568" width="24" height="171.42421779764322" fill="#3C5488"/>
+<text x="168" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">3</text>
+<rect x="184" y="220.00761885412436" width="24" height="299.99238114587564" fill="#3C5488"/>
+<text x="196" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">4</text>
+<rect x="212" y="160.00914262494922" width="24" height="359.9908573750508" fill="#3C5488"/>
+<text x="224" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">5</text>
+<rect x="240" y="220.00761885412436" width="24" height="299.99238114587564" fill="#3C5488"/>
+<text x="252" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">6</text>
+<rect x="268" y="348.5757822023568" width="24" height="171.42421779764322" fill="#3C5488"/>
+<text x="280" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">7</text>
+<rect x="296" y="455.71591832588376" width="24" height="64.28408167411621" fill="#3C5488"/>
+<text x="308" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">8</text>
+<rect x="324" y="505.71464851686306" width="24" height="14.285351483136935" fill="#3C5488"/>
+<text x="336" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">9</text>
+<rect x="352" y="517" width="24" height="3" fill="#3C5488"/>
+<text x="364" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">10</text>
+<rect x="420" y="76" width="330" height="540" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="440" y1="520" x2="690" y2="520" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="440" y1="150" x2="440" y2="520" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<polyline points="440.0,134.94102681603084 450.90909090909093,149.95705652799006 461.8181818181818,165.22983949891687 472.72727272727275,180.7146297797746 483.6363636363636,196.37744680358458 494.54545454545456,212.1918769384422 505.45454545454544,228.13698119059148 516.3636363636364,244.1958795472819 527.2727272727273,260.35476524973086 538.1818181818182,276.6022012461397 549.0909090909091,292.9286071175784 560.0,309.32587776186244 570.9090909090909,325.78709520857086 581.8181818181818,342.3063075365529 592.7272727272727,358.87835697588196 603.6363636363636,375.4987446211742 614.5454545454545,392.1635227802065 625.4545454545455,408.86920844874777 636.3636363636364,425.6127131237955 647.2727272727273,442.39128538736895 658.1818181818182,459.2024635701481 669.0909090909091,476.04403644328187 680.0,492.91401035795076" fill="none" stroke="#3C5488" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="460.0" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">8</text>
+<text x="505.45454545454544" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">14</text>
+<text x="570.9090909090909" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">20</text>
+<text x="680.0" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">30</text>
+<line x1="505.45454545454544" y1="150" x2="505.45454545454544" y2="520" stroke="#00A087" stroke-width="5" stroke-linecap="butt"/>
+<text x="495.45454545454544" y="440" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="end" font-weight="bold">d=14 达到</text>
+<text x="495.45454545454544" y="480" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="end" font-weight="bold">&lt;0.1%</text>
+<rect x="625.4545454545455" y="150" width="54.545454545454504" height="370" fill="#E3E8F2"/>
+<text x="652" y="110" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">25–30×</text>
+<text x="652" y="146" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">为工程惯例带</text>
+</svg>

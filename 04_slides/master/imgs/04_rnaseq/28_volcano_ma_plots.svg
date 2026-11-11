@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="200" y="62.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">火山图对称双翼</text>
+<rect x="40" y="90" width="320" height="380" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="5"/>
+<circle cx="110" cy="380" r="7" fill="#4DBBD5"/>
+<circle cx="130" cy="350" r="7" fill="#4DBBD5"/>
+<circle cx="150" cy="330" r="7" fill="#4DBBD5"/>
+<circle cx="120" cy="310" r="7" fill="#4DBBD5"/>
+<circle cx="160" cy="300" r="7" fill="#4DBBD5"/>
+<circle cx="140" cy="280" r="7" fill="#00A087"/>
+<circle cx="170" cy="260" r="7" fill="#00A087"/>
+<circle cx="150" cy="240" r="7" fill="#00A087"/>
+<circle cx="330" cy="380" r="7" fill="#4DBBD5"/>
+<circle cx="310" cy="350" r="7" fill="#4DBBD5"/>
+<circle cx="290" cy="330" r="7" fill="#4DBBD5"/>
+<circle cx="320" cy="310" r="7" fill="#4DBBD5"/>
+<circle cx="280" cy="300" r="7" fill="#4DBBD5"/>
+<circle cx="300" cy="280" r="7" fill="#00A087"/>
+<circle cx="270" cy="260" r="7" fill="#00A087"/>
+<circle cx="290" cy="240" r="7" fill="#00A087"/>
+<line x1="200" y1="440" x2="200" y2="120" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<text x="200" y="506" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">log2FC</text>
+<text x="66" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">-log10(padj)</text>
+<text x="200" y="548" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">显著基因两翼展开</text>
+<text x="600" y="62.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">高表达贴近零轴</text>
+<rect x="440" y="90" width="320" height="380" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="5"/>
+<circle cx="470" cy="110.72290362475192" r="6" fill="#4DBBD5"/>
+<circle cx="517" cy="274.46323856526493" r="6" fill="#00A087"/>
+<circle cx="564" cy="231.59769085889604" r="6" fill="#00A087"/>
+<circle cx="611" cy="270.2416512441392" r="6" fill="#00A087"/>
+<circle cx="658" cy="247.53316155348148" r="6" fill="#00A087"/>
+<circle cx="705" cy="152.7032362313385" r="6" fill="#4DBBD5"/>
+<circle cx="502" cy="288.746082229675" r="6" fill="#00A087"/>
+<circle cx="549" cy="229.50934932736735" r="6" fill="#00A087"/>
+<circle cx="596" cy="269.719177679958" r="6" fill="#00A087"/>
+<circle cx="643" cy="254.04057173560838" r="6" fill="#00A087"/>
+<circle cx="690" cy="177.96696187861227" r="6" fill="#4DBBD5"/>
+<circle cx="487" cy="306.7627710656018" r="6" fill="#4DBBD5"/>
+<circle cx="534" cy="229.68750563706143" r="6" fill="#00A087"/>
+<circle cx="581" cy="279.394076597854" r="6" fill="#00A087"/>
+<circle cx="628" cy="257.8127569681402" r="6" fill="#00A087"/>
+<circle cx="675" cy="199.1609730976176" r="6" fill="#4DBBD5"/>
+<circle cx="472" cy="328.7138499141272" r="6" fill="#4DBBD5"/>
+<circle cx="519" cy="232.56984696815567" r="6" fill="#00A087"/>
+<circle cx="566" cy="293.4827432474178" r="6" fill="#4DBBD5"/>
+<circle cx="613" cy="259.3791924348503" r="6" fill="#00A087"/>
+<circle cx="660" cy="216.4702403685849" r="6" fill="#4DBBD5"/>
+<circle cx="707" cy="326.9439374959217" r="6" fill="#4DBBD5"/>
+<circle cx="504" cy="238.4970609128604" r="6" fill="#00A087"/>
+<circle cx="551" cy="204.69272404010064" r="6" fill="#4DBBD5"/>
+<circle cx="598" cy="260.1954874190921" r="6" fill="#00A087"/>
+<circle cx="645" cy="230.1019264671348" r="6" fill="#00A087"/>
+<circle cx="692" cy="325.96359361351585" r="6" fill="#4DBBD5"/>
+<circle cx="489" cy="247.75022463748004" r="6" fill="#00A087"/>
+<circle cx="536" cy="197.6606559631736" r="6" fill="#4DBBD5"/>
+<circle cx="583" cy="265.24851667946643" r="6" fill="#00A087"/>
+<line x1="460" y1="255" x2="740" y2="255" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<text x="600" y="506" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">log2(baseMean)</text>
+<text x="466" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">log2FC</text>
+<text x="600" y="548" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">漏斗形方差收敛</text>
+<text x="400" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">火山图： 对称双翼 · MA： 高表达贴零轴</text>
+<text x="400" y="668" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">单翼缺失 ／ 高表达偏移 → 查设计</text>
+</svg>

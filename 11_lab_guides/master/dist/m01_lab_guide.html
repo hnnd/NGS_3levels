@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>实验指导 m01：高通量测序原理与实验设计</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+color: #aaaaaa;
+}
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } 
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.at { color: #7d9029; } 
+code span.bn { color: #40a070; } 
+code span.bu { color: #008000; } 
+code span.cf { color: #007020; font-weight: bold; } 
+code span.ch { color: #4070a0; } 
+code span.cn { color: #880000; } 
+code span.co { color: #60a0b0; font-style: italic; } 
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.do { color: #ba2121; font-style: italic; } 
+code span.dt { color: #902000; } 
+code span.dv { color: #40a070; } 
+code span.er { color: #ff0000; font-weight: bold; } 
+code span.ex { } 
+code span.fl { color: #40a070; } 
+code span.fu { color: #06287e; } 
+code span.im { color: #008000; font-weight: bold; } 
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.kw { color: #007020; font-weight: bold; } 
+code span.op { color: #666666; } 
+code span.ot { color: #007020; } 
+code span.pp { color: #bc7a00; } 
+code span.sc { color: #4070a0; } 
+code span.ss { color: #bb6688; } 
+code span.st { color: #4070a0; } 
+code span.va { color: #19177c; } 
+code span.vs { color: #4070a0; } 
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } 
+</style>
+  <style type="text/css">body{max-width:58em;margin:2em auto;padding:0 1.2em;font-family:"Noto Sans CJK SC","Source Han Sans SC",sans-serif;line-height:1.7;font-size:15px;color:#222}
+h1{font-size:1.6em;border-bottom:3px solid #3C5488;padding-bottom:.3em}h2{font-size:1.3em;border-bottom:1px solid #ccc;margin-top:2em;color:#3C5488}h3{font-size:1.12em;color:#E64B35;margin-top:1.6em}
+pre{background:#f6f8fa;border:1px solid #e1e4e8;border-radius:4px;padding:.7em;overflow-x:auto;font-size:13px;line-height:1.45;white-space:pre-wrap;word-break:break-all}
+code{font-family:"DejaVu Sans Mono",monospace;font-size:.92em;background:#f3f3f3;padding:0 .2em;border-radius:3px}pre code{background:none;padding:0}
+table{border-collapse:collapse;margin:1em 0;font-size:13.5px}th,td{border:1px solid #ccc;padding:.35em .6em;vertical-align:top}th{background:#eef1f7}
+blockquote{border-left:4px solid #4DBBD5;margin:1em 0;padding:.3em 1em;background:#f4fbfd;color:#444}
+nav#TOC{background:#fafafa;border:1px solid #eee;padding:.5em 1.2em;font-size:14px}
+@media print{body{max-width:none;margin:0;font-size:12px}pre{font-size:10.5px}h2{page-break-after:avoid}pre,table{page-break-inside:avoid}}
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">实验指导 m01：高通量测序原理与实验设计</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#本实验对应什么" id="toc-本实验对应什么">0.
+本实验对应什么</a></li>
+<li><a href="#实验前检查" id="toc-实验前检查">1. 实验前检查</a></li>
+<li><a href="#实验数据" id="toc-实验数据">2. 实验数据</a></li>
+<li><a href="#实验步骤" id="toc-实验步骤">3. 实验步骤</a>
+<ul>
+<li><a href="#步骤-1检索元数据ena-portal-api登录节点" id="toc-步骤-1检索元数据ena-portal-api登录节点">步骤 1：检索元数据（ENA
+Portal API，登录节点）</a></li>
+<li><a href="#步骤-2脚本化拉元数据并看分布登录节点个人副本" id="toc-步骤-2脚本化拉元数据并看分布登录节点个人副本">步骤
+2：脚本化拉元数据并看分布（登录节点，个人副本）</a></li>
+<li><a href="#步骤-3下载-12-个-run登录节点脚本第-2-步已随步骤-2-跑完" id="toc-步骤-3下载-12-个-run登录节点脚本第-2-步已随步骤-2-跑完">步骤
+3：下载 1–2 个 Run（登录节点；脚本第 2 步已随步骤 2 跑完）</a></li>
+<li><a href="#步骤-4四步验收核心步骤一步都不能省" id="toc-步骤-4四步验收核心步骤一步都不能省">步骤
+4：四步验收（核心步骤，一步都不能省）</a></li>
+<li><a href="#步骤-5整理-sample-sheet-并画组-批次交叉表" id="toc-步骤-5整理-sample-sheet-并画组-批次交叉表">步骤 5：整理 sample
+sheet 并画组 × 批次交叉表</a></li>
+<li><a href="#步骤-6设计自检四个合成演示m01-课程目录现跑" id="toc-步骤-6设计自检四个合成演示m01-课程目录现跑">步骤
+6：设计自检（四个合成演示，m01 课程目录现跑）</a></li>
+<li><a href="#步骤-7写你自己课题的六段式方案" id="toc-步骤-7写你自己课题的六段式方案">步骤
+7：写你自己课题的六段式方案</a></li>
+</ul></li>
+<li><a href="#结果记录表学生填写" id="toc-结果记录表学生填写">4.
+结果记录表（学生填写）</a></li>
+<li><a href="#失效条件对照教材-13.5本实验里在哪一步看什么能察觉" id="toc-失效条件对照教材-13.5本实验里在哪一步看什么能察觉">5.
+失效条件对照（教材 §13.5，本实验里在哪一步、看什么能察觉）</a></li>
+<li><a href="#思考题教材-13.7习题-12910-的上机版不给答案" id="toc-思考题教材-13.7习题-12910-的上机版不给答案">6. 思考题（教材
+§13.7，习题 1、2、9、10 的上机版，不给答案）</a></li>
+<li><a href="#提交物" id="toc-提交物">7. 提交物</a></li>
+<li><a href="#附教材讲义脚本指针" id="toc-附教材讲义脚本指针">8.
+附：教材/讲义/脚本指针</a></li>
+</ul>
+</nav>
+<blockquote>
+<p>上机时手边打开的这份文件。每一步都回答四件事：这条命令在做什么、敲什么、
+看到什么算对、看到什么说明错了。判据在教材第 13 章（§13.4 概念、§13.5
+失效条件）， 平台与文库选型判据在第 4 章；本指导只放操作与自查入口。
+检查点里的每个数字都带来源（教材实查、讲义口径或 demos 现跑）；
+2026-11-11 教师已在课程集群（登录节点 mu01 +
+计算节点）按本指导从头到尾彩排一遍，
+文中标「集群实测」的数字即彩排所得；彩排时的网速等环境数字只代表当时，上课以现场为准。</p>
+</blockquote>
+<h2 id="本实验对应什么">0. 本实验对应什么</h2>
+<ul>
+<li><strong>教材</strong>：第 13 章 实验设计：重复、深度与批次，重点
+§13.4.5（批次与区组）、
+§13.4.6（公共数据检索、下载与验收）；对应学习目标
+LO13-05（设计矩阵可识别性、 区组化与随机化）与
+LO13-06（层级检索与四步验收）。步骤 6/7 另用 LO13-03/04 的
+固定预算账与深度换算账。平台与文库选型的判据（方案第 2 段要用）在第 4
+章。</li>
+<li><strong>讲义</strong>：m01
+⑤5.1–5.6（操作步骤）、⑥6.1–6.5（读设计表与验收结果）、⑨E1–E8（排错）。</li>
+<li><strong>学时</strong>：m01 共 4
+学时，本实验是其中的上机实践环节；作业规格建议上机 2–3
+小时（含下载等待）。</li>
+<li><strong>环境</strong>：conda 环境
+<code>ngs_ms_base</code>（<code>07_envs/conda/env_master_base.yml</code>）。
+sra-tools / entrez-direct / pysradb / kingfisher 在该 yml
+里<strong>未钉版本</strong>。集群实测 （2026-11-11）：激活
+<code>ngs_ms_base</code> 后
+<code>prefetch</code>、<code>fasterq-dump</code> 解析到系统的
+<code>/opt/bio/sratk/bin/</code>、<code>esearch</code> 解析到
+<code>/opt/bio/edirect/</code>，<strong><code>kingfisher</code>、<code>pysradb</code>
+不在</strong>—— 上机仍以 <code>command -v</code>
+实查为准，把实见路径与版本号记进 verify_log.txt（教材 13.4.6 口径：
+只写工具名，版本上机自查）。缺件不阻断本实验：检索与验收只用 curl + awk
++ md5sum。</li>
+<li><strong>课程材料在集群上的位置</strong>（下文统称「m01
+课程目录」，只读）：<code>/d3/lab/ngs/master/m01/</code>
+——<code>scripts/</code>（下载脚本、登录号核验脚本与清单）、<code>demos/</code>（步骤
+6 的四个演示）、
+<code>data/</code>（本实验数据的预置副本与对照练习文件，见 §2）。</li>
+<li><strong>计算纪律</strong>：两类任务分两处执行（根 CLAUDE.md
+集群事实：<strong>计算节点不通外网</strong>）——
+<strong>联网任务</strong>（检索元数据、下载
+FASTQ、<code>prefetch</code>）只能在<strong>登录节点</strong>做，绝不能
+qsub 投递 （投到计算节点必因断网失败）；<strong>CPU
+计算</strong>（全文件解压计数、MD5 计算等）一律 <code>qsub</code>
+投递计算节点或进 <code>qrsh</code> 交互节点（讲义
+⑨-E4；登录节点只下载、建环境、编辑， 与本科生 u08
+指导书同口径）。下面每步命令都标了执行位置。</li>
+</ul>
+<h2 id="实验前检查">1. 实验前检查</h2>
+<ul>
+<li><p><strong>前置模块</strong>（讲义
+②，先确认自测能过，跟不上就回查对应题号）： <code>l0_04_formats</code>
+L0-4-Q1/Q2/Q3/Q5（FASTQ 四行结构与计数陷阱、Phred 分数）、
+<code>l0_06_stats</code> L0-6-Q6/Q7/Q8（批次混杂、重复与功效、PCA
+诊断）、 <code>l0_01_linux</code> L0-1-Q5/Q8/Q10（登录节点 vs qsub vs
+qrsh、批量文本处理、项目目录）、 <code>l0_03_conda</code>
+L0-3-Q9/Q10（建环境、SGE 作业内激活环境）。</p></li>
+<li><p><strong>登录号核验</strong>（教材
+13.4.6：凡是登录号先核再用，不能凭印象写）：</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> /d3/lab/ngs/master/m01/scripts/verify_accessions.sh PRJNA295606 SRR2584863</span></code></pre></div>
+<p>这条命令在做什么：向 ENA 与 NCBI 各查一次本实验要用的
+BioProject。先确认联网正常 （代理、时段、HTTP
+状态）再判读结果：网络确认无虞仍查不到，才是未公开或登录号写错 （讲义
+⑨-E1 同型判断；区分流程见步骤 1 出错信号）。
+集群实测（2026-11-11）：两行都是
+<code>[通过]</code>，<code>PRJNA295606</code> 312
+条记录、<code>SRR2584863</code> 1 条记录， 物种均为
+<code>Escherichia coli B str. REL606</code>，末行
+<code>全部通过。</code></p></li>
+<li><p><strong>激活环境并核验工具链</strong>（版本不写死，看到什么记什么）：</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> /opt/miniconda3/bin/activate</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> activate ngs_ms_base</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">command</span> <span class="at">-v</span> prefetch fasterq-dump kingfisher pysradb esearch <span class="kw">||</span> <span class="fu">true</span></span></code></pre></div>
+<p>这条命令在做什么：SGE 作业不继承你终端里的 conda
+变量，每个作业脚本开头都要自己激活环境 （讲义 ⑨-E5
+的写法）；<code>command -v</code> 逐个确认工具在 PATH 里，缺哪个就在
+verify_log.txt 里记一行，本实验的验收流程不依赖它们。</p></li>
+<li><p><strong>检查点</strong>：核验脚本两行 <code>[通过]</code> 并以
+<code>全部通过。</code> 结尾；<code>command -v</code>
+每个工具打印一行路径或静默缺失。</p></li>
+<li><p><strong>出错信号</strong>：<code>conda activate</code> 报
+<code>Could not find conda environment: ngs_ms_base</code> →
+环境没建或没配 envs_dirs（讲义 l0_03 对应自测；根 CLAUDE.md：课程环境在
+<code>/d3/lab/envs</code>， 两套 conda 都要 append envs_dirs）｜工具缺失
+→ 按讲义 ⑨-E6 降级（ENA 直链 curl 永远可用），
+不要为此在登录节点重装环境耽误实验。</p></li>
+</ul>
+<h2 id="实验数据">2. 实验数据</h2>
+<p>本实验只用一套公共数据——Lenski 大肠杆菌长期演化实验（LTEE）——练「检索
+→ 下载 → 验收 → 整理 → 写方案」。两个登录号都已登记
+<code>06_data/accessions.tsv</code> （<code>PRJNA295606</code> 第 8
+行、<code>SRR2584863</code> 第 9 行）：</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>登录号</th>
+<th>层级</th>
+<th>内容与体量</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>PRJNA295606</code></td>
+<td>BioProject</td>
+<td>LTEE 项目；ENA Portal API 实查返回 312 个 Run（2026-11-04
+实查，2026-11-10 复查一致；<strong>以现场 API 返回为准</strong>）</td>
+<td>教材 13.4.6/13.6</td>
+</tr>
+<tr>
+<td><code>SRR2584863</code></td>
+<td>Run</td>
+<td>双端 WGS，Illumina HiSeq 2500；<code>read_count</code> 计 <strong>1
+553 259 个片段</strong>、<code>base_count</code> <strong>465 977 700
+bp</strong>（算术核对：<code>1 553 259 × 2 × 150 = 465 977 700</code>）</td>
+<td>教材 13.4.6/13.6，ENA 实查</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>本实验只下载 <strong>1–2 个 Run</strong>（讲义
+⑤5.3：全部下完既没必要也占配额）。</p></li>
+<li><p>工作目录：<code>/d3/scratch/${USER}/ngs/m01</code>。原始与下载数据一律进
+scratch，<strong>不要放家目录</strong> （家目录配额小，prefetch 默认落
+<code>~/ncbi/public</code> 会写爆，讲义 ⑨-E2）。</p></li>
+<li><p><strong>课上用预置副本，课后再自己下</strong>：集群出口带宽很窄。彩排实测（2026-11-11，登录节点单人）
+从 ENA 取这个 Run：FTP 约 50 KB/s（下载脚本默认走 FTP，两文件共约 374
+MB， 单人约 2 小时）、HTTPS 约 0.37 MB/s（单人约 17
+分钟）；全班同时下载只会更慢。所以课上把 <code>SRR2584863</code>
+的两个原始文件预置在 m01 课程目录，步骤 2 先把它们拷进你的下载目录，
+脚本见到文件「已存在」就跳过下载——<strong>这正好让你亲眼看到「非空即跳过」</strong>（步骤
+2 重跑注意）， 于是步骤 4 的四步验收一步都不能省。预置副本是从 ENA
+直链原样取回的 gzip，MD5 应与 <code>fastq_md5</code>
+逐位一致；<strong>不信它，就用步骤 4 证明它</strong>。</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>文件（m01 课程目录 <code>data/</code> 下）</th>
+<th>用途</th>
+<th>大小（ENA <code>fastq_bytes</code>）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SRR2584863_1.fastq.gz</code>、<code>SRR2584863_2.fastq.gz</code></td>
+<td>预置副本，步骤 2–4 用</td>
+<td>183 292 913 / 191 090 316 bytes</td>
+</tr>
+<tr>
+<td><code>MD5SUMS</code></td>
+<td>教师侧核对记录（<strong>作业的 MD5 判据仍取你自己检索的
+runinfo_ena.tsv</strong>）</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>practice/SRR2584863_1.truncated.fastq.gz</code></td>
+<td>步骤 4
+对照练习：模拟下载被掐断的半截文件，<strong>不是</strong>数据</td>
+<td>120 000 000 bytes</td>
+</tr>
+</tbody>
+</table></li>
+<li><p>数据自查入口：硕士层 README 只登记 m02–m07 主线数据，m01
+数据来自公共库—— 所以四步验收（步骤 4）就是你唯一的对错判据。</p></li>
+<li><p>贯穿说明：本实验的四个合成演示（步骤
+6）是固定种子的合成算例，数字只对各自生成模型 成立（教材 13.1
+末段的数字口径：合成算例不能当实测）；检索与验收的数字则来自 ENA
+实查，入口随数字标注。</p></li>
+</ul>
+<h2 id="实验步骤">3. 实验步骤</h2>
+<blockquote>
+<p>每步五栏：目的 / 命令 / 产出文件 / 检查点 / 出错信号。
+命令里的脚本名、参数名、输出文件名与
+<code>03_code/master/scripts/01_fetch_sra.sh</code>
+现版逐字核对过（本指导修订时已逐个 grep 源码，证据见任务回执）。步骤 1–6
+已于 2026-11-11 在集群按原文彩排（预置副本路线）；prefetch
+备用路线未彩排，其耗时与临时空间不写预期值。</p>
+<p><strong>在哪敲命令（工作目录约定）</strong>：SSH
+登录后当前目录是家目录。下文所有路径以
+<code>/d3/scratch/${USER}/ngs/m01</code>
+为工作根；课程提供的脚本、演示与预置数据都在只读的 m01 课程目录
+<code>/d3/lab/ngs/master/m01/</code>（§0）。联网步骤（步骤 1、2、3
+主体）在登录节点用
+<code>bash</code>/裸命令执行，输出直接打在终端，没有作业日志；<code>qsub</code>
+投递的计算作业（步骤 4 的
+<code>verify_fastq.sh</code>）用绝对路径投递，或在放作业脚本的目录里投递相对路径——作业日志
+（<code>verify_fastq.o&lt;作业号&gt;</code>，作业头 <code>#$ -j y</code>
+<code>#$ -cwd</code>）写在<strong>投递时所在的目录</strong>，
+与产出文件（写在 scratch
+工作根下）不是一回事，找不到文件时先分清自己在找哪一类。</p>
+</blockquote>
+<h3 id="步骤-1检索元数据ena-portal-api登录节点">步骤 1：检索元数据（ENA
+Portal API，登录节点）</h3>
+<ul>
+<li><p><strong>目的</strong>：先看清项目里有什么，再决定下什么。平台、文库类型、声明的
+read 数—— 四步验收的全部对照基准都来自这一步（教材
+13.4.6：先看清楚再下载，避免下错几十 GB）。</p></li>
+<li><p><strong>命令</strong>（讲义 ⑤5.2 方案 A；10 个字段<strong>含
+<code>fastq_md5</code></strong>，该字段只有 ENA 路线拿得到）：</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> /d3/scratch/<span class="va">${USER}</span>/ngs/m01 <span class="kw">&amp;&amp;</span> <span class="bu">cd</span> /d3/scratch/<span class="va">${USER}</span>/ngs/m01</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-fsS</span> <span class="at">-w</span> <span class="st">&#39;\nHTTP %{http_code}\n&#39;</span> <span class="st">&quot;https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR2584863&amp;result=read_run&amp;fields=run_accession,sample_accession,sample_title,instrument_model,library_strategy,library_layout,read_count,base_count,fastq_md5,fastq_ftp&amp;format=tsv&quot;</span> <span class="dt">\</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">-o</span> runinfo_ena.tsv</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span> <span class="at">-2</span> runinfo_ena.tsv</span></code></pre></div>
+<p>这条命令在做什么：ENA Portal API 无需 API
+key，<code>result=read_run</code> 表示一行一个 Run；
+字段顺序就是表列顺序，第 9 列是 <code>fastq_md5</code>、第 10 列是
+<code>fastq_ftp</code>。 ENA 默认返回表头行——第 1 行是字段名，第 2
+行起才是数据（2026-11-10 实查口径）。</p></li>
+<li><p><strong>产出文件</strong>：<code>runinfo_ena.tsv</code>（10
+列；作业提交物之一，<strong>原样保留</strong>不要手改）。</p></li>
+<li><p><strong>检查点</strong>（数字全部带入口）：</p>
+<ol type="1">
+<li>第 1 行为 10 列表头，第 2 行为 <code>SRR2584863</code> 数据行；</li>
+<li><code>read_count=1 553 259</code>、<code>base_count=465 977 700</code>，与
+§2 表一致（教材 13.4.6/13.6，ENA 实查）；</li>
+<li><code>instrument_model=Illumina HiSeq 2500</code>、<code>library_layout=PAIRED</code>、<code>library_strategy=WGS</code>；</li>
+<li><code>fastq_md5</code> 与 <code>fastq_ftp</code>
+各是分号分隔的<strong>两个值</strong>（双端两文件各一枚，ENA
+实查口径）—— 第 4 步验收要从这里拆出两枚 MD5。</li>
+</ol></li>
+<li><p><strong>出错信号</strong>（按序排查：先网络，后登录号）：curl
+报错、非 200 状态码或超时 →
+网络/服务问题（代理、限流、时段），换时段重试或走教师提供的代理——此时还轮不到判
+登录号｜HTTP 200 但只有表头、没有数据行 → 登录号错或未公开（教材 §13.4.6
+登录号实查； 讲义 ⑨-E1
+同型判断）——带着错的对照基准往下走，四步验收全部作废（教材 §13.5.4）｜
+网络确认无虞仍查不到，不要改用 NCBI 路线（它的 runinfo 没有
+<code>fastq_md5</code>，第 4 步 MD5 做不了）。</p></li>
+</ul>
+<h3 id="步骤-2脚本化拉元数据并看分布登录节点个人副本">步骤
+2：脚本化拉元数据并看分布（登录节点，个人副本）</h3>
+<ul>
+<li><p><strong>目的</strong>：体验课程脚本的「先元数据、后下载」流程；脚本自动去重表头并打印
+平台/文库/类型分布，分布表是批次线索的第一来源（教材 13.4.6）。</p></li>
+<li><p><strong>命令</strong>（先复制个人副本再在<strong>登录节点</strong>用
+bash 直接跑——<code>03_code</code> 是课程公共目录，
+只读，不要改原文件；本脚本的主体是联网 I/O，按 §0
+计算纪律<strong>不能</strong> qsub 投递）：</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /d3/scratch/<span class="va">${USER}</span>/ngs/m01</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">&quot;SRR2584863&quot;</span> <span class="op">&gt;</span> acc_list.txt</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> /d3/lab/ngs/master/m01/scripts/01_fetch_sra.sh ./fetch_sra.sh</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">grep</span> <span class="at">-n</span> <span class="st">&#39;ACC_LIST=\|OUTDIR=\|ena_report\|CONDA_ROOT&#39;</span> fetch_sra.sh   <span class="co"># 跑前核对参数与输出名</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># 课上：先放入预置副本，脚本的下载步会跳过（§2「课上用预置副本」）；课后自己下载时省掉这两行</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> sra_data/fastq</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> /d3/lab/ngs/master/m01/data/SRR2584863_<span class="pp">?</span>.fastq.gz sra_data/fastq/</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> ./fetch_sra.sh acc_list.txt /d3/scratch/<span class="va">${USER}</span>/ngs/m01/sra_data</span></code></pre></div>
+<p>这条命令在做什么：<code>01_fetch_sra.sh &lt;accession_list.txt&gt; [outdir]</code>（脚本
+L20–21 的用法行； 列表里每行一个 SRR/ERR/DRR，<code>#</code>
+开头与空行跳过，L29）。<strong>acc_list.txt 只放 1 个 Run</strong>—— 放
+BioProject 号会让脚本的下载步拉全项目几百个 Run。脚本内自己激活
+<code>ngs_ms_base</code>
+（L18：<code>source &quot;${CONDA_ROOT:-/opt/miniconda3}/bin/activate&quot;</code>，登录节点同样适用）。
+它一次跑完三步（L27–37 逐号 curl 元数据并去重表头、打印
+<code>instrument_platform library_strategy library_layout</code>
+分布计数；L41–47 按 <code>fastq_ftp</code> 下载；L51–55 逐文件
+<code>zcat | wc -l</code> 打印实际 read
+数）——前两步是联网任务，在登录节点跑；第三步的解压计数
+只是<strong>初步打印</strong>，正式的验收计数按计算纪律在步骤 4 用 qsub
+重做。</p></li>
+<li><p><strong>产出文件</strong>：<code>sra_data/meta/ena_report.tsv</code>、<code>sra_data/meta/ena_report.clean.tsv</code>
+（去重表头后每 Run 一行）、终端上的分布计数与 read 数打印。</p></li>
+<li><p><strong>重跑注意（脚本的两个可靠性缺口）</strong>：下载步只「跳过非空文件」，<strong>不验证完整性</strong>
+（被截断的半截文件也会被跳过）；元数据用 <code>&gt;&gt;</code>
+追加写，<strong>重跑会在 <code>ena_report.tsv</code>
+里叠出重复行</strong>。所以不要把「重跑」当纠错手段：发现文件损坏或元数据重复时，先删掉
+损坏的 FASTQ 和整个 <code>meta/</code>
+旧表，再从本步骤开头重跑，对错最终以步骤 4 的 MD5
+与计数为准——脚本当前版本行为如此，不要按「幂等，重跑即可」理解它。</p></li>
+<li><p><strong>检查点</strong>（集群实测 2026-11-11：终端依次打印
+<code>1 ILLUMINA WGS PAIRED</code>、两行 <code>已存在，跳过 …</code>、
+两行 <code>… 1553259 reads</code>，登录节点全程约 18 秒）：</p>
+<ol type="1">
+<li><code>ena_report.clean.tsv</code> 行数 = Run 数 + 1（表头；本例应为
+2 行——手算核对）；</li>
+<li>分布计数里 <code>library_strategy</code> 应为 WGS——出现
+AMPLICON/RNA-Seq 混进来说明检索式 没限定策略（教材 13.4.6
+元数据判读第一件：<code>library_strategy</code> 读错，后面全错）；</li>
+<li>对照步骤 1 的 <code>runinfo_ena.tsv</code>：同一 Run 的
+<code>read_count</code>/<code>base_count</code> 两表一致 （ENA
+同一接口，理应逐位相同；不一致说明有一步拿到了截断响应，先按重跑注意
+清旧表重检索，仍不一致再按教材 §13.5.4 处置）。</li>
+</ol></li>
+<li><p><strong>出错信号</strong>：clean 表只有表头（0 数据行）→
+先查网络与 HTTP 状态，再判登录号 （处置同步骤 1）｜把本脚本 qsub
+到计算节点 → 必因计算节点不通外网而失败 （§0 计算纪律），回登录节点用
+bash 重跑｜ 分布全是同一平台 → 批次线索为零：唯一机型当
+<code>batch</code> 列是常数列，下游设计矩阵秩亏 （教材 §13.4.6
+第三误用；代数后果见 §13.5.2）｜终端报 <code>conda activate</code> 失败
+→ 环境没建或没配 envs_dirs（§1 出错信号；脚本 L18 依赖
+<code>${CONDA_ROOT}</code> 或 <code>/opt/miniconda3</code>
+存在）。</p></li>
+</ul>
+<h3 id="步骤-3下载-12-个-run登录节点脚本第-2-步已随步骤-2-跑完">步骤
+3：下载 1–2 个 Run（登录节点；脚本第 2 步已随步骤 2 跑完）</h3>
+<ul>
+<li><p><strong>目的</strong>：把 FASTQ 拿到
+scratch。脚本的下载步（L41–47）从 <code>fastq_ftp</code> 列展开 URL、
+逐文件
+<code>curl</code>，已存在则跳过——注意「非空就跳过」不等于「完整」（重跑可靠性见
+步骤 2 的「重跑注意」）。</p></li>
+<li><p><strong>命令</strong>：步骤 2 的一次运行已跑完三步（元数据 → 下载
+→ 打印 read 数），下载不用
+单独执行。<strong>课上</strong>下载步因预置副本而跳过（终端两行
+<code>已存在，跳过</code>）；<strong>课后</strong>想体验真实下载，
+另建一个空目录（如
+<code>sra_data_self/</code>）、不拷预置副本再跑一遍步骤 2，放进
+<code>screen</code>/<code>tmux</code> 里等（登录节点 FTP 实测约 50
+KB/s，见 §2），下完同样走步骤 4。若改走讲义 ⑤5.3 的 prefetch 路线，按 §0
+计算纪律拆开：<strong>联网的 prefetch 在登录节点跑；耗 CPU
+的转换与压缩写进 qsub 作业脚本</strong>：</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ① prefetch：联网任务，登录节点执行</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">prefetch</span> SRR2584863 <span class="at">-O</span> /d3/scratch/<span class="va">${USER}</span>/ngs/m01/sra <span class="at">--max-size</span> 100G</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># ② fasterq-dump + pigz：CPU 计算，写进作业脚本（verify 之外的第二个作业）再 qsub</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> <span class="op">&gt;</span> convert_fastq.sh <span class="op">&lt;&lt;&#39;EOF&#39;</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="st">#$ -S /bin/bash</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="st">#$ -N convert_fastq</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="st">#$ -cwd</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="st">#$ -j y</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="st">#$ -pe smp 4</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="st">source &quot;${CONDA_ROOT:-/opt/miniconda3}/bin/activate&quot; ngs_ms_base</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="st">fasterq-dump /d3/scratch/${USER}/ngs/m01/sra/SRR2584863 --split-3 -e 8 \</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="st">    -O /d3/scratch/${USER}/ngs/m01/fastq -t /d3/scratch/${USER}/tmp</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="st">pigz -p 8 /d3/scratch/${USER}/ngs/m01/fastq/*.fastq</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="op">EOF</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="ex">qsub</span> convert_fastq.sh</span></code></pre></div>
+<p>这条命令在做什么：<code>-O</code> 不给会落到
+<code>~/ncbi/public</code> 把家目录配额写爆（讲义 ⑨-E2）；
+<code>--max-size</code> 默认 20G，大 Run
+必须放大，否则<strong>静默跳过</strong>（讲义 ⑤5.3 注释）；
+<code>--split-3</code> 保留配对判断，写 <code>--split-files</code>
+会丢（讲义 ⑨-E7）；<code>-t</code> 指向 scratch 大分区，
+临时空间需求取决于工具版本与数据量（本课未实测，不给固定倍数）——投作业前先
+<code>df -h</code> 确认 scratch 余量再跑；fasterq-dump 不压缩，务必自行
+<code>pigz</code>。 ⚠ 备用路线的 FASTQ 是 sra-toolkit 从 SRA
+记录<strong>转换重压缩</strong>的产物，字节与 ENA 直链的 原始 gzip
+不同——步骤 4 的 ① MD5（对 <code>fastq_md5</code>）只适用于 ENA
+直链文件；走备用路线 时用 ② read 数与 ③ 双端行数做验收，不要拿 ENA 的
+MD5 对转换产物。</p></li>
+<li><p><strong>产出文件</strong>：<code>sra_data/fastq/SRR2584863_1.fastq.gz</code>
+与 <code>SRR2584863_2.fastq.gz</code>（成对）。</p></li>
+<li><p><strong>检查点</strong>：两个文件都存在且非空（<code>ls -lh</code>）；文件名
+<code>_1</code>/<code>_2</code> 成对、属于同一 Run
+（非空只是入场券，完整性唯一判据是步骤 4 的 MD5）。</p></li>
+<li><p><strong>出错信号</strong>：<code>Disk quota exceeded</code> /
+<code>can&#39;t open &#39;/home/user/ncbi/public/sra&#39;</code> → 讲义 ⑨-E2（没给
+<code>-O</code>
+或给了家目录）｜<code>storage exhausted while writing file</code> → 讲义
+⑨-E3（<code>-t</code> 临时空间不足，先
+<code>df -h</code>）｜fasterq-dump/pigz 直接在登录节点跑 被管理终止 →
+计算纪律（§0），必须放进作业投计算节点（讲义 ⑨-E4 同型）｜ 只产出一个
+<code>.fastq</code> 没有 <code>_1</code>/<code>_2</code> → 先查元数据
+<code>library_layout</code>（讲义 ⑥6.4：该 Run
+可能本就单端，不要靠猜）｜ 下载步 exit 0
+只说明「跑完了」，不说明「下全了」——跳过本步直接做分析就是 教材 §13.5.4
+的静默截断现场。</p></li>
+</ul>
+<h3 id="步骤-4四步验收核心步骤一步都不能省">步骤
+4：四步验收（核心步骤，一步都不能省）</h3>
+<ul>
+<li><p><strong>目的</strong>：确认拿到的字节与声明一致。课程真实案例：29
+个下载文件里 14 个被静默截断、 脚本不报错不校验、退出码 0（教材 §13.5.4
+引课程数据准备记录；根 CLAUDE.md 同源实测）。 四步的顺序不建议换：MD5
+不解析 FASTQ、最先做；read 数与行数依赖文件能正常解压；
+读长自洽同时用元数据与文件内容，放最后（教材 13.4.6）。</p></li>
+<li><p><strong>命令</strong>（①的拆分是几行文本操作，登录节点即可；MD5
+计算与②③④的全文件解压计数 是 CPU 任务，按 §0 计算纪律写成
+<code>verify_fastq.sh</code> 投计算节点）：</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /d3/scratch/<span class="va">${USER}</span>/ngs/m01</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># ① 拆出期望值（登录节点）：fastq_md5 是分号分隔双值，拆分后逐文件比对</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">awk</span> <span class="at">-F</span><span class="st">&#39;\t&#39;</span> <span class="st">&#39;NR&gt;1{print $9}&#39;</span> runinfo_ena.tsv <span class="kw">|</span> <span class="fu">tr</span> <span class="st">&#39;;&#39;</span> <span class="st">&#39;\n&#39;</span> <span class="op">&gt;</span> expected_md5.txt</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> expected_md5.txt</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># ①②③④ 的核验计算写进作业脚本，投递计算节点</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> <span class="op">&gt;</span> verify_fastq.sh <span class="op">&lt;&lt;&#39;EOF&#39;</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="st">#$ -S /bin/bash</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="st">#$ -N verify_fastq</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="st">#$ -cwd</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="st">#$ -j y</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="st">#$ -pe smp 4</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="st">cd /d3/scratch/${USER}/ngs/m01</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="st">md5sum sra_data/fastq/SRR2584863_1.fastq.gz sra_data/fastq/SRR2584863_2.fastq.gz</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="st"># ② read 数：每个文件各应等于 read_count（ENA 对双端计的是片段数，每文件各含一遍）</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="st">echo $(( $(zcat sra_data/fastq/SRR2584863_1.fastq.gz | wc -l) / 4 ))</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="st">echo $(( $(zcat sra_data/fastq/SRR2584863_2.fastq.gz | wc -l) / 4 ))</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="st"># ③ 双端行数必须相等</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a><span class="st">[[ $(zcat sra_data/fastq/SRR2584863_1.fastq.gz|wc -l) -eq $(zcat sra_data/fastq/SRR2584863_2.fastq.gz|wc -l) ]] &amp;&amp; echo PAIRED_OK</span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="st"># ④ 读长自洽：三来源对账——wc -c 字符数、base_count÷(2×read_count) 反算、机型标称</span></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a><span class="st">zcat sra_data/fastq/SRR2584863_1.fastq.gz | head -2 | tail -1 | wc -c</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="op">EOF</span></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a><span class="ex">qsub</span> verify_fastq.sh</span></code></pre></div>
+<p>这条命令在做什么：①的 <code>tr &#39;;&#39; &#39;\n&#39;</code>
+把双值拆成两行，第一行对应 <code>_1</code>、第二行对应 <code>_2</code>
+（与 <code>fastq_ftp</code> 的文件顺序一致）；作业里 <code>md5sum</code>
+一次算两个文件、与 <code>expected_md5.txt</code>
+逐位比对，②③④随后在同一作业里解压计数。④取<strong>第 1
+条读段的序列行</strong>（FASTQ 每个读段 占 4 行，第 2
+行是序列；<code>head -2 | tail -1</code>
+取的就是它）量字符数。注意口径：<code>read_count=1 553 259</code>
+计的是<strong>片段数</strong>，<code>_1</code>、<code>_2</code> 每个文件
+各含 1 553 259 条读段、各 4
+条一行——按单端口径去对会得到「少一半」的假警报 （教材
+13.4.6）。④的判据是三个来源对得上：<code>wc -c</code> 输出 151（150 bp +
+换行）、 <code>465 977 700 ÷ (2 × 1 553 259) = 150</code>、HiSeq 2500
+标称读长——不是背「151」这个数 （教材 13.4.6：讲义那句「PE150 应为
+151」只是口算版本，具体数据以反算值为准）。</p></li>
+<li><p><strong>产出文件</strong>：<code>verify_log.txt</code>
+的素材——①的终端输出与作业输出日志
+（<code>verify_fastq.o&lt;作业号&gt;</code>，在投递时所在目录）的<strong>原样内容</strong>（作业只交这个，
+不交 FASTQ；手抄的数字不算证据）。</p></li>
+<li><p><strong>检查点</strong>（数字全部带入口）：</p>
+<ol type="1">
+<li>① 两枚拆分 MD5 与 <code>md5sum</code>
+两文件输出逐位一致（字节级唯一判据；<code>gzip -t</code> 通过、
+文件大小接近都不算数，教材 13.4.6）；</li>
+<li>② 两文件各数出 <strong>1 553 259</strong>（ENA 实查，教材
+13.4.6/13.6）；</li>
+<li>③ 输出 <code>PAIRED_OK</code>；两文件行数各 <strong>6 213
+036</strong>（= 4 × 1 553 259，手算）；</li>
+<li>④ <code>wc -c</code> 输出 <strong>151</strong>，与反算 150
+bp、机型标称三者自洽。</li>
+</ol>
+<p>集群实测（2026-11-11，预置副本，计算节点 cu06）：作业日志依次是两行
+MD5 （<code>4a1529a4…</code> / <code>33492a66…</code>，与
+<code>expected_md5.txt</code>
+逐位一致）、<code>1553259</code>、<code>1553259</code>、
+<code>PAIRED_OK</code>、<code>151</code>，作业约 20
+秒跑完。<strong>作业投出后超过 2 分钟仍是 <code>qw</code></strong>，
+不要反复重投——<code>qstat -u $USER</code>
+截图给助教（调度器故障时所有作业都会卡在 qw）。</p></li>
+<li><p><strong>出错信号</strong>：MD5 不符但大小接近 →
+断点续传拼接错/传输截断：<strong>删掉重下，不要接着用</strong>
+（重跑前按步骤 2「重跑注意」同时删掉损坏文件与 <code>meta/</code>
+旧表；讲义 ⑥6.4； 教材 §13.5.4）｜read 数少于声明值 →
+静默截断（完成判据是产物计数对得上 声明值，不是退出码，教材
+§13.5.4）｜<code>_1</code>/<code>_2</code> 行数不等 →
+配对关系已破坏，后续比对会 出现大量孤读段（教材 13.4.6
+第三步）｜④与反算值对不上 → 下错了 Run 或文件混杂， 回步骤 2
+查映射｜四步全过也只说明「这份数据与元数据一致」，不说明「适合你的问题」——
+后者看文库类型、分组与批次（教材 13.4.6）。</p></li>
+<li><p><strong>对照练习（课上必做，5
+分钟）</strong>：看「坏文件」在四步验收里长什么样。m01 课程目录的
+<code>data/practice/SRR2584863_1.truncated.fastq.gz</code> 是把
+<code>_1</code> 只保留前 120 000 000 字节 做成的半截文件，模拟
+<code>curl</code> 下到一半被掐断——<strong>大小有 1.2
+亿字节、看起来一切正常</strong>。</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /d3/scratch/<span class="va">${USER}</span>/ngs/m01 <span class="kw">&amp;&amp;</span> <span class="fu">mkdir</span> <span class="at">-p</span> practice</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> /d3/lab/ngs/master/m01/data/practice/SRR2584863_1.truncated.fastq.gz practice/</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> <span class="op">&gt;</span> verify_practice.sh <span class="op">&lt;&lt;&#39;EOF&#39;</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="st">#$ -S /bin/bash</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="st">#$ -N verify_practice</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="st">#$ -cwd</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="st">#$ -j y</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="st">cd /d3/scratch/${USER}/ngs/m01</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="st">md5sum practice/SRR2584863_1.truncated.fastq.gz</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="st">gzip -t practice/SRR2584863_1.truncated.fastq.gz; echo &quot;gzip -t rc=$?&quot;</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="st">echo $(( $(zcat practice/SRR2584863_1.truncated.fastq.gz | wc -l) / 4 ))</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="op">EOF</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a><span class="ex">qsub</span> verify_practice.sh</span></code></pre></div>
+<p>集群实测（2026-11-11）：MD5 为 <code>f59290df…</code>，与
+<code>fastq_md5</code> 第一枚 <code>4a1529a4…</code> 不符；
+<code>gzip -t</code> 报
+<code>unexpected end of file</code>、<code>rc=1</code>；read 数打印
+<strong>1009467</strong>——只有声明值 1 553 259 的约
+65%，<strong>而计数这一行照样打印出一个像样的整数</strong>。要回答的问题：四步里哪一步最先
+拦住它？如果你只看「作业跑完了、打印了一个数」会怎样？（对应教材
+§13.5.4： 29 个文件 14
+个截断、rc=0。）练习文件<strong>不是数据</strong>，只用于本练习，不要拿去做任何分析。</p></li>
+</ul>
+<h3 id="步骤-5整理-sample-sheet-并画组-批次交叉表">步骤 5：整理 sample
+sheet 并画组 × 批次交叉表</h3>
+<ul>
+<li><p><strong>目的</strong>：把元数据整理成
+<code>m02</code>–<code>m08</code> 全部复用的标准 8
+列表，并人工回填分组——
+公共数据的分组信息经常只写在论文正文里，元数据字段是空的（讲义 ⑤5.5；
+教材 13.4.6）；交叉表是你方案第 5 段的批次设计证据（教材
+13.4.5）。</p></li>
+<li><p><strong>命令</strong>（讲义 ⑤5.5 原式）：</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">awk</span> <span class="at">-F</span><span class="st">&#39;\t&#39;</span> <span class="st">&#39;BEGIN{OFS=&quot;\t&quot;; print &quot;sample_id&quot;,&quot;group&quot;,&quot;replicate&quot;,&quot;batch&quot;,&quot;platform&quot;,&quot;layout&quot;,&quot;run_accession&quot;,&quot;depth_gb&quot;}</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="st">     NR&gt;1{print $3, &quot;TBD&quot;, &quot;TBD&quot;, $4, $4, $6, $1, $8/1e9}&#39;</span> runinfo_ena.tsv <span class="op">&gt;</span> sample_sheet.tsv</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="ex">column</span> <span class="at">-t</span> <span class="at">-s</span> <span class="st">$&#39;</span><span class="dt">\t</span><span class="st">&#39;</span> sample_sheet.tsv   <span class="co"># 只按 Tab 对齐；不加 -s 时 sample_title 里的空格会把一列拆成多列</span></span></code></pre></div>
+<p>这条命令在做什么：自动填
+<code>sample_id</code>（<code>sample_title</code>）、<code>platform</code>（<code>instrument_model</code>）、
+<code>layout</code>、<code>run_accession</code>、<code>depth_gb</code>（<code>base_count ÷ 10⁹</code>，即碱基
+Gb）； <code>group</code>、<code>replicate</code>、<code>batch</code>
+先填 TBD/占位，<strong>必须人工回填</strong>。 ⚠ <code>batch</code>
+列的初值是
+<code>instrument_model</code>——那只是<strong>占位种子</strong>：同一项目出现两种机型
+是潜在批次的第一条线索，但真正的批次还可能来自送样时间、建库人员、测序中心；
+只有一种机型时该列是常数，直接当 batch 送进下游公式会秩亏（讲义 ⑤5.5 ⚠
+注； 教材 §13.4.6 第三误用）。确认后改写成真实批次标签。 本实验只下载 1
+个 Run，这份 <code>sample_sheet.tsv</code> 只有 1
+行——它是<strong>格式与回填方法的
+练习</strong>，不是能画交叉表的设计表。回填的文献入口：本 Run 的
+<code>sample_title</code> 为
+<code>Microbe sample from Escherichia coli B str. REL606</code>（ENA
+实查，即步骤 1 表的第 3 列； 2026-11-10 实查），REL606 是 LTEE
+的祖先对照株（教材 13.1 与 13.8 文献表
+<code>tenaillon2016ltee</code>，Tenaillon et al. 2016, Nature；LTEE
+设计另见 <code>lenski1991ltee</code>）—— 据此可回填
+<code>group=ancestor</code>；<code>batch</code>/<code>replicate</code>
+回论文正文与 ENA 描述确认，写不出 出处就按出错信号处置，不许留
+TBD、也不许填无出处的猜测值。 ⚠ 组 × 批次交叉表自查的对象是<strong>步骤
+7 你自己课题的方案表</strong>（作业 ③ 要求 ≥6 样本、
+分组可查的项目，课上不替你选）：把方案的样本按 批次 × 处理组
+列联画表再判区组化。 课内这 1 行数据画不出交叉表，检查点 3
+对它是「不适用」，不是「填 N」。</p></li>
+<li><p><strong>产出文件</strong>：<code>sample_sheet.tsv</code>（8
+列；作业提交物之一）。</p></li>
+<li><p><strong>检查点</strong>：</p>
+<ol type="1">
+<li>8 列齐全、数据行数 = 你下载的 Run 数；</li>
+<li><code>group</code>/<code>replicate</code>/<code>batch</code> 无
+TBD，且每个值能说出出处（论文正文/补充表/ENA 描述； 教材
+13.4.6：元数据的值要可追溯，否则只是格式正确的空字段）；</li>
+<li>组 × 批次交叉表画出来（行 = 批次，列 = 处理组，格 =
+样本数）：<strong>每批含全部处理组</strong> 即区组化（教材
+13.4.5）；只有一行/对角矩阵就是混杂警报。自查对象是步骤 7 方案表， 课内
+1 行数据不适用（见上）。</li>
+</ol></li>
+<li><p><strong>出错信号</strong>：<code>group</code> 在元数据里是
+<code>sample 1</code>…或空 → 回论文正文与补充材料手工映射；
+<strong>映射不出来就换数据集，不要用</strong>（讲义 ⑨-E8；教材
+§13.4.6、§13.5.4）｜ <code>batch</code> 与 <code>group</code>
+完全一一对应 → 设计本身就是混杂的，该改设计或换数据集，
+不是换分析方法（讲义 ⑥6.4；教材 §13.5.2）｜回填时发现同一 BioSample
+挂多个 Run → 先查 BioSample → Experiment → Run
+映射再决定合并还是并列，别把 Run 数当样本量 （教材 §13.5.1）。</p></li>
+</ul>
+<h3 id="步骤-6设计自检四个合成演示m01-课程目录现跑">步骤
+6：设计自检（四个合成演示，m01 课程目录现跑）</h3>
+<ul>
+<li><p><strong>目的</strong>：把方案里要写的四笔账变成你能当场辩护的数——预算功效账、秩/可识别性账、
+静默截断账、批次 PCA
+诊断账。四个脚本都是固定种子的<strong>合成算例</strong>，数字只对生成模型
+成立，引用时写明口径（教材 13.1 末段）。</p></li>
+<li><p><strong>命令</strong>（四个脚本都只打印、不写文件，几秒跑完；先激活
+<code>ngs_ms_base</code>——两个 Python 演示要 scipy，集群环境 2026-11-11
+已补装；m01 课程目录只读，日志用 <code>tee -a</code> 追加到 scratch 的
+<code>verify_log.txt</code>）：</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /d3/scratch/<span class="va">${USER}</span>/ngs/m01</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> /opt/miniconda3/bin/activate <span class="kw">&amp;&amp;</span> <span class="ex">conda</span> activate ngs_ms_base</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="va">D</span><span class="op">=</span>/d3/lab/ngs/master/m01/demos</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="va">PYTHONDONTWRITEBYTECODE</span><span class="op">=</span>1 <span class="ex">python3</span> <span class="va">$D</span>/ch13_variance_partition.py <span class="at">--selftest</span> <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span> <span class="kw">|</span> <span class="fu">tee</span> <span class="at">-a</span> verify_log.txt</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="va">PYTHONDONTWRITEBYTECODE</span><span class="op">=</span>1 <span class="ex">python3</span> <span class="va">$D</span>/ch13_design_matrix_rank.py <span class="at">--selftest</span> <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span> <span class="kw">|</span> <span class="fu">tee</span> <span class="at">-a</span> verify_log.txt</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="va">PYTHONDONTWRITEBYTECODE</span><span class="op">=</span>1 <span class="ex">python3</span> <span class="va">$D</span>/ch13_truncation_confounding.py <span class="at">--selftest</span> <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span> <span class="kw">|</span> <span class="fu">tee</span> <span class="at">-a</span> verify_log.txt</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="ex">Rscript</span> <span class="va">$D</span>/ch13_batch_pca.R <span class="at">--selftest</span> <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span> <span class="kw">|</span> <span class="fu">tee</span> <span class="at">-a</span> verify_log.txt</span></code></pre></div></li>
+<li><p><strong>产出文件</strong>：无新文件；四个
+<code>SELFTEST PASS</code> 行连同关键输出经 <code>tee -a</code> 追加进
+<code>/d3/scratch/${USER}/ngs/m01/verify_log.txt</code>。若终端不方便用管道，等价做法是
+鼠标选中每次运行的 PASS
+行与关键数字，粘贴到该文件尾部——原样粘贴，手抄不算证据。</p></li>
+<li><p><strong>检查点</strong>（rc=0，且关键输出与教材一致）：</p>
+<ol type="1">
+<li>固定预算功效表：每组 90 M 时 3×30 M → <strong>0.152</strong>、6×15 M
+→ <strong>0.313</strong>、 9×10 M → <strong>0.444</strong>、18×5 M →
+<strong>0.693</strong>（教材 13.4.3，合成模型）； 附加对照 6×20 M =
+<strong>0.321</strong> vs 3×40 M = <strong>0.154</strong>
+是<strong>合成设例</strong>（每组 120 M）， 方向演示，不能挂到 Schurch
+2016 名下（教材 13.4.3 原话）；</li>
+<li>设计矩阵秩：平衡区组 <strong>3</strong>、完全混杂
+<strong>2</strong>（最小范数解 1.606、等价解族 (γ̂+t, γ̂−t) 的 RSS 恒
+1.3879）、lane 与处理共线 <strong>2</strong>/lane 正交
+<strong>3</strong>、 2 组 × 3 批交叉表 <strong>4</strong>（教材
+13.4.5）；</li>
+<li>批次 PCA：平衡 <strong>70.8%/13.8%</strong> vs 完全混杂
+<strong>82.0%/3.3%</strong>（<code>set.seed(1234)</code> 合成数据）——
+这两个数只对这一套数据成立，不能当「混杂的 PC1 一定更高」的判据；PCA
+只提示结构 不裁决（教材 13.4.5）；</li>
+<li>静默截断：不校正假阳性率 <strong>60.7%</strong>（高表达层
+87.6%）、CPM 归一后 <strong>4.7%</strong>、
+更深截断（13%–45%）下低表达层归一后仍 <strong>7.6%</strong>；真实锚点 29
+文件 14 截断、 最少 399 491/3 000 000 =
+<strong>13.3%</strong>、rc=0（教材 §13.5.4；根 CLAUDE.md
+同源记录）。</li>
+</ol></li>
+<li><p><strong>出错信号</strong>：某条 PASS 变 FAIL → 先查
+Python/numpy/scipy 与 R 版本（集群实测 2026-11-11：
+<code>ngs_ms_base</code> 的 Python 3.12.3 / numpy 2.5.2 / scipy 1.18.0 /
+R 4.3.1 下四条全部 PASS， PCA 两组数与 R 4.5.2
+逐位一致），<strong>不要改脚本里的数来「修」测试</strong>｜
+<code>ModuleNotFoundError: No module named &#39;scipy&#39;</code> → 没激活
+<code>ngs_ms_base</code>（系统 python3 没有 scipy）｜
+<code>No such file</code> → <code>$D</code>
+没设或拼错，<code>ls $D</code> 应列出 4 个文件。</p></li>
+</ul>
+<h3 id="步骤-7写你自己课题的六段式方案">步骤
+7：写你自己课题的六段式方案</h3>
+<ul>
+<li><strong>目的</strong>：作业的第二产出。注意练习归练习、方案归方案——<code>design_proposal.pdf</code>
+写的是 <strong>你自己</strong>的课题，不是 LTEE（作业 ③-7；讲义 ⑤5.6
+六段式、教材 13.4.1 六段表）。</li>
+<li><strong>命令</strong>：无新命令。按教材 13.4.1
+六段逐段写，写完用讲义 ⑥6.5 七条逐项自查： ①
+科学问题可证伪（不接受「研究 X 的机制」）；②
+平台选型至少两维判据并写明放弃了什么 （判据细节在第 4 章）；③
+明确区分生物学重复与技术重复、说清独立性来源； ④
+重复数给依据来源（预实验离散度 / 同类文献 /
+功效计算，三选一，不接受「一般用 3」）； ⑤ 深度写
+<code>基因组大小 × 目标深度 ÷ 有效比例</code>
+的换算式、有效比例注明来源； ⑥ 组 ×
+批次交叉表、每批含全部处理组，或写明随机化方案；⑦ 元数据 ≥ 6 项
+（建库日期、操作人、试剂批号、仪器与 lane、RNA 完整性、提取批次）+
+预算含失败重测预留。</li>
+<li><strong>产出文件</strong>：<code>design_proposal.pdf</code>（正文 ≤
+4 页）。</li>
+<li><strong>检查点</strong>：七条每一条都能在文档里找到对应句子（教材
+13.4.1：只能勾出前两条的 还是采购申请，不是实验设计）。</li>
+<li><strong>出错信号</strong>：第 3 段写不出依据 → 回步骤 6
+的功效表与教材 13.4.3 的三步反推 （技术重复估 σ²_shot → 定最小效应 δ →
+由目标功效反解 n）｜第 5 段交叉表是对角矩阵 → 设计即混杂，回到步骤 5
+的出错信号（教材 §13.5.2）｜第 4 段只写整数不写换算式与 分母来源 →
+正是教材 §13.5.3 的失效写法。</li>
+</ul>
+<h2 id="结果记录表学生填写">4. 结果记录表（学生填写）</h2>
+<blockquote>
+<p>只列栏目与单位，不预填结果。判据列的来源写在括号里；「你的结果」一栏填实测，
+与判据不符先按对应步骤的出错信号处置，不要改数字凑判据。</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>步骤</th>
+<th>栏目</th>
+<th>单位/口径</th>
+<th>你的结果</th>
+<th>自查判据（来源）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 检索</td>
+<td>runinfo_ena.tsv 列数 / 数据行数</td>
+<td>列 / 行</td>
+<td></td>
+<td>10 列；数据行 = 检索的 Run 数（ENA 默认带表头，2026-11-10
+实查）</td>
+</tr>
+<tr>
+<td>2 元数据</td>
+<td>ena_report.clean.tsv 行数</td>
+<td>行</td>
+<td></td>
+<td>= Run 数 + 1（去重表头，手算）</td>
+</tr>
+<tr>
+<td>2 元数据</td>
+<td>library_strategy / library_layout</td>
+<td>文本</td>
+<td></td>
+<td>WGS / PAIRED（ENA 实查；读错后果见教材 13.4.6）</td>
+</tr>
+<tr>
+<td>3 下载</td>
+<td><code>_1</code>/<code>_2</code> 文件大小</td>
+<td>bytes</td>
+<td></td>
+<td>183 292 913 / 191 090 316（ENA <code>fastq_bytes</code>，2026-11-11
+实查；大小相同也不代替 MD5）</td>
+</tr>
+<tr>
+<td>4 对照练习</td>
+<td>截断文件的 MD5 / <code>gzip -t</code> / read 数</td>
+<td>— / rc / 条</td>
+<td></td>
+<td>MD5 不符；rc=1；1 009 467（集群实测，约为声明值 65%）</td>
+</tr>
+<tr>
+<td>4 验收</td>
+<td><code>_1</code> / <code>_2</code> 各文件 read 数</td>
+<td>条</td>
+<td></td>
+<td>各 = 1 553 259（ENA 实查，教材 13.4.6/13.6）</td>
+</tr>
+<tr>
+<td>4 验收</td>
+<td><code>_1</code> / <code>_2</code> 各文件行数</td>
+<td>行</td>
+<td></td>
+<td>各 = 6 213 036（4 × 1 553 259，手算）</td>
+</tr>
+<tr>
+<td>4 验收</td>
+<td>MD5 匹配（<code>_1</code> / <code>_2</code>）</td>
+<td>Y/N</td>
+<td></td>
+<td>与 runinfo_ena.tsv 第 9 列拆分值逐位一致（字节级唯一判据）</td>
+</tr>
+<tr>
+<td>4 验收</td>
+<td><code>wc -c</code> 序列行 / 反算读长</td>
+<td>字符 / bp</td>
+<td></td>
+<td>151（含换行）与 465 977 700 ÷ (2 × 1 553 259) = 150
+及机型标称三来源自洽</td>
+</tr>
+<tr>
+<td>4 验收</td>
+<td>instrument_model</td>
+<td>文本</td>
+<td></td>
+<td>Illumina HiSeq 2500（ENA 实查）</td>
+</tr>
+<tr>
+<td>5 sheet</td>
+<td>8 列 / group·replicate·batch 回填</td>
+<td>列 / 定性</td>
+<td></td>
+<td>8 列齐全；无 TBD；batch 非机型常数列（教材 13.4.6）</td>
+</tr>
+<tr>
+<td>5 交叉表</td>
+<td>每批含全部处理组</td>
+<td>Y/N</td>
+<td></td>
+<td>每行同时出现全部处理组（区组化，教材 13.4.5）；对象为步骤 7
+方案表，课内单 Run 填「不适用」</td>
+</tr>
+<tr>
+<td>6 演示</td>
+<td>四个 <code>--selftest</code></td>
+<td>PASS/FAIL</td>
+<td></td>
+<td>全部 PASS（关键数对照 §3 步骤 6 检查点）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="失效条件对照教材-13.5本实验里在哪一步看什么能察觉">5.
+失效条件对照（教材 §13.5，本实验里在哪一步、看什么能察觉）</h2>
+<ol type="1">
+<li><strong>同一份 RNA 的多个文库不是重复，n
+不是文库数</strong>（§13.5.1）｜察觉：步骤 2/5—— 一个 BioSample 挂多个
+Run 时，先查 BioSample → Experiment → Run 映射与文库描述，
+确认可合并再聚合；把 Run
+数当样本量、或把元数据里的多行当成多个独立个体，
+是这条失效在本实验的入口。软件不报错，样本表看着就是「好几个样本」。</li>
+<li><strong>批次与处理完全混杂，事后无法分离</strong>（§13.5.2）｜察觉：步骤
+5 的交叉表—— 有整行只出现一种处理组即警报；代数确认用
+<code>demos/ch13_design_matrix_rank.py</code> （完全混杂秩 2、最小范数解
+1.606、等价解族 RSS 恒 1.3879）；PCA 只提示结构不裁决 （70.8%/13.8% 与
+82.0%/3.3% 只是固定种子合成数据的实现值）。</li>
+<li><strong>深度换不来重复：饱和后加深度几乎不提升功效</strong>（§13.5.3）｜察觉：步骤
+6 的两笔账—— 目标所需绝对读段数（k/f 下限，教材 13.4.4）+
+固定预算功效对照（0.152 → 0.693 的 预算表；固定 n=6 时深度 20→120 M
+功效仅 +6.7%）。方案第 4 段只写整数、不写换算式
+与分母来源，就是这条失效的标准写法。</li>
+<li><strong>数据准备静默截断 +
+元数据分组字段为空</strong>（§13.5.4）｜察觉：步骤 4 就是本失效的
+验收现场——真实案例 29 文件 14 截断、最少 399 491/3 000 000 =
+13.3%、rc=0； 完成判据是「产物计数对得上声明值」，不是退出码。步骤 5 的
+group 回填是后半句： 映射不出分组就换数据集，并把映射来源写进 sample
+sheet。</li>
+</ol>
+<h2 id="思考题教材-13.7习题-12910-的上机版不给答案">6. 思考题（教材
+§13.7，习题 1、2、9、10 的上机版，不给答案）</h2>
+<ol type="1">
+<li>四个情境里 <code>n</code> 各是多少、为什么：① 一株植物的叶片 RNA
+分装三管、分别建库测序； ② 一个文库分两个 lane 上机；③
+三株独立种植的植株、各取一片叶； ④ 公共数据里一个 BioSample 对应三个
+Run。（→ 教材 §13.7 习题 1，概念在 13.4.2）</li>
+<li>一张设计表：批次 1 有 3 个对照 1 个处理、批次 2 有 1 个对照 3
+个处理。批次与处理 是否完全共线？能否同时估出两个效应？改成「每批 2 对照
++ 2 处理」后结论怎么变？ （→ 教材 §13.7 习题 2，概念在 13.4.5；可用
+<code>demos/ch13_design_matrix_rank.py</code> 的
+交叉表情形验证你的判断）</li>
+<li>审查这份方案、至少找出五处问题并各给一条改法：三组、每组 3
+个重复、每样本 20 M reads； 对照组 1 月建库、处理组 3 月建库；sample
+sheet 的 <code>batch</code> 列直接填 <code>instrument_model</code>；
+没有写深度换算的分母来源。（→ 教材 §13.7 习题 9，覆盖
+13.4.1–13.4.6）</li>
+<li>某双端 Run（<strong>设例</strong>：1 400 000
+是教学构造的数字，不是实测记录）的
+<code>read_count=1 553 259</code>（ENA
+实查声明值）、<code>base_count=465 977 700</code>；实测 <code>_1</code>
+文件 1 400 000 条、<code>_2</code> 文件 1 553 259
+条。四步验收里哪一步先失败、哪一步跟着失败？
+可能原因是什么？接下来该做什么、不该做什么？比较与算术入口：1 400 000
+与声明值 1 553 259 比大小、行数 = 4 × 条数（→ 教材 §13.7 习题 10，概念在
+13.4.6 与 13.5.4）</li>
+</ol>
+<h2 id="提交物">7. 提交物</h2>
+<ul>
+<li><p><strong>对应作业</strong>：<code>08_assessment/master/assignments/m01_ngs_design_assignment.md</code>
+②， 打包为 <code>学号_姓名_m01.zip</code>（≤ 100
+MB，<strong>不要</strong>把下载的 FASTQ 打进包，只交
+verify_log）。</p></li>
+<li><p><strong>解压后目录结构</strong>（文件名按此命名，助教按名清点）：</p>
+<pre><code>学号_姓名_m01/
+├── design_proposal.pdf      # 六段式方案，正文 ≤ 4 页（步骤 7）
+├── sample_sheet.tsv         # 标准 8 列，group/replicate/batch 已人工回填（步骤 5）
+├── runinfo_ena.tsv          # 步骤 1 检索原始返回，原样保留
+├── verify_log.txt           # 步骤 4 四步验收（含 verify_fastq 作业日志原样内容）+ 步骤 6 四个 SELFTEST 输出
+├── scripts/
+│   └── fetch_sra.sh         # 你实际用的脚本（步骤 2 复制到个人目录的 01_fetch_sra.sh 副本，未改代码）
+└── figs/                    # 可选：fig1_batch_design.png（组 × 批次交叉表可视化，也可用表格代替）</code></pre></li>
+<li><p><strong>评分口径</strong>（作业 ④，总分 100 折算课程总成绩
+3.5%）：完整性 50（文件齐全、六段一段不缺、 sample sheet
+八列且已回填、verify_log 四步都有原始输出）；规范性 30（平台选型两维判据
++ 放弃项；重复数依据<strong>来源</strong>；换算式 +
+有效比例来源；交叉表每批含全部处理组或写明随机化）； 报告质量
+20（问题可证伪、元数据 ≥ 6
+项、预算含失败重测预留、图表标签英文）。</p></li>
+<li><p><strong>常见失分点自查</strong>（作业
+⑥，按出现频率排序的前几条）：把多个 Run 当多个生物学重复；
+验收没走完就当下载成功；prefetch 写爆家目录；把耗 CPU
+的计算放登录节点跑（下载恰恰应在登录节点，见 §0）；<code>group</code> 留
+TBD； 重复数写「一般用
+3」；深度只给数字不给换算；交叉表是对角矩阵；忽略机型混用。</p></li>
+<li><p><strong>诚实红线</strong>：verify_log
+手抄不算证据，必须原样粘贴；预期区间（未实测）不得写成实测； 允许 AI
+辅助，但方案里每个判据必须是你能当场辩护的——AI 编造 accession
+或深度经验值 按规范性扣分（作业 ③）。</p></li>
+</ul>
+<h2 id="附教材讲义脚本指针">8. 附：教材/讲义/脚本指针</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>内容</th>
+<th>位置</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>教材主章：四步验收判读 §13.4.6、失效条件 §13.5.1–13.5.4（每条「机制
+→ 后果 → 怎样察觉」）、习题 §13.7、四类数字口径 13.1 末段</td>
+<td><code>textbook/chapters/ch13/manuscript.qmd</code></td>
+</tr>
+<tr>
+<td>教材参照章：平台与文库选型判据（方案第 2
+段）、HiFi/同聚物等错误模式口径</td>
+<td><code>textbook/chapters/ch04/manuscript.qmd</code></td>
+</tr>
+<tr>
+<td>讲义：⑤5.1–5.6 操作、⑥6.1–6.5 读设计表与验收、⑨E1–E8 排错与决策树、⑩
+练习</td>
+<td><code>02_lectures/master/topic01_ngs_design/01_ngs_design_lecture.md</code></td>
+</tr>
+<tr>
+<td>下载脚本（集群副本
+<code>/d3/lab/ngs/master/m01/scripts/01_fetch_sra.sh</code>；三步：元数据
+→ 下载 → 打印 read 数；<strong>第三步只打印不比对、自拉字段不含
+fastq_md5</strong>——MD5 一环用步骤 1 的 runinfo_ena.tsv
+补；作业要求交它的个人副本）</td>
+<td><code>03_code/master/scripts/01_fetch_sra.sh</code></td>
+</tr>
+<tr>
+<td>合成自查演示（均带 <code>--selftest</code>；集群副本在
+<code>/d3/lab/ngs/master/m01/demos/</code>）</td>
+<td><code>textbook/demos/ch13_variance_partition.py</code>、<code>ch13_design_matrix_rank.py</code>、<code>ch13_truncation_confounding.py</code>、<code>ch13_batch_pca.R</code></td>
+</tr>
+<tr>
+<td>预置数据与对照练习文件：<code>/d3/lab/ngs/master/m01/data/</code>（见
+§2）；数据说明与登录号：LTEE 项目口径
+<code>06_data/master/README.md</code>；登记
+<code>06_data/accessions.tsv</code>（<code>PRJNA295606</code>
+L8、<code>SRR2584863</code> L9）；核验
+<code>06_data/verify_accessions.sh</code></td>
+<td><code>06_data/</code></td>
+</tr>
+<tr>
+<td>环境定义（<code>ngs_ms_base</code>；sra-tools 族未钉版本）</td>
+<td><code>07_envs/conda/env_master_base.yml</code></td>
+</tr>
+<tr>
+<td>作业规格（交付物、评分、失分点、提交方式）</td>
+<td><code>08_assessment/master/assignments/m01_ngs_design_assignment.md</code></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

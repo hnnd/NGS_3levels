@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Fingerprint 1: wrong DE column</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="90" y1="434" x2="740" y2="434" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<rect x="190" y="385.7" width="150" height="48.3" fill="#00A087" rx="4" stroke="#FFFFFF" stroke-width="3"/>
+<text x="265.0" y="367.7" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">21</text>
+<rect x="470" y="171.8" width="150" height="262.2" fill="#E64B35" rx="4" stroke="#FFFFFF" stroke-width="3"/>
+<text x="545.0" y="153.8" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">114</text>
+<line x1="354" y1="385.7" x2="456" y2="385.7" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 7"/>
+<text x="405" y="371.7" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">5.4 X</text>
+<text x="265.0" y="474" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">padj &lt; 0.05</text>
+<text x="545.0" y="474" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">pvalue &lt; 0.05</text>
+<text x="90" y="84" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">DE genes</text>
+<line x1="78" y1="428" x2="78" y2="148" stroke="#6B6B66" stroke-width="3" stroke-linecap="round"/>
+<polygon points="78,148 82.48536498365527,158.04397834343538 73.51463501634473,158.04397834343538" fill="#6B6B66"/>
+<rect x="40" y="486" width="720" height="62" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="3"/>
+<text x="400" y="526" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">grep -n pvalue</text>
+<rect x="32.0" y="558" width="736" height="112" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">指纹一：差异基因数从20跳到100，假阳性暴涨，</text>
+<text x="400.0" y="640" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">检查是否误用原始值。</text>
+</svg>

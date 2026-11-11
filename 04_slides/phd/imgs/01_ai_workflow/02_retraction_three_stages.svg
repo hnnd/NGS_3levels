@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Retraction case: three official stages</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="44" y="36" width="420" height="136" fill="#E7F5F8" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<rect x="44" y="36" width="8" height="136" fill="#4DBBD5"/>
+<text x="70" y="82" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#4DBBD5" text-anchor="start" font-weight="bold">02-13</text>
+<text x="70" y="126" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">published</text>
+<text x="70" y="158" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">ai_figure</text>
+<rect x="44" y="180" width="420" height="136" fill="#FBE6DF" rx="12" stroke="#F39B7F" stroke-width="4"/>
+<rect x="44" y="180" width="8" height="136" fill="#F39B7F"/>
+<text x="70" y="226" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#F39B7F" text-anchor="start" font-weight="bold">02-15</text>
+<text x="70" y="270" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">flagged</text>
+<text x="70" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">anatomy_error</text>
+<rect x="44" y="324" width="420" height="136" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="5"/>
+<rect x="44" y="324" width="8" height="136" fill="#E64B35"/>
+<text x="70" y="370" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="start" font-weight="bold">02-16</text>
+<text x="70" y="414" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">retracted</text>
+<text x="70" y="446" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">formal_notice</text>
+<rect x="496" y="44" width="260" height="152" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<text x="516" y="76" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">gates</text>
+<polyline points="524.42,104.18 528.92,108.5 535.94,99.86" fill="none" stroke="#00A087" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="552" y="112" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">review</text>
+<polyline points="524.42,134.18 528.92,138.5 535.94,129.86" fill="none" stroke="#00A087" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="552" y="142" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">editor</text>
+<polyline points="524.42,164.18 528.92,168.5 535.94,159.86" fill="none" stroke="#00A087" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="552" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">format</text>
+<rect x="496" y="336" width="260" height="124" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="4"/>
+<line x1="612" y1="362" x2="640" y2="390" stroke="#E64B35" stroke-width="9" stroke-linecap="round"/>
+<line x1="612" y1="390" x2="640" y2="362" stroke="#E64B35" stroke-width="9" stroke-linecap="round"/>
+<text x="626" y="438" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">content_check</text>
+<line x1="254" y1="172" x2="254" y2="180" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="6 6"/>
+<line x1="254" y1="316" x2="254" y2="324" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="6 6"/>
+<rect x="32.0" y="486" width="736" height="118" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="530" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">见刊声明AI，读者指认解剖错误，官方撤稿。</text>
+<text x="400.0" y="574" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">流程拦不住内容错误。</text>
+</svg>

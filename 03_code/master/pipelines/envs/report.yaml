@@ -1,0 +1,13 @@
+# Quarto 报告环境（rule report 专用）
+# 注意：Docker / Singularity 不在这里——它们是系统级运行时，需管理员安装
+name: m08_report
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - quarto
+  - r-base=4.3.1
+  - r-rmarkdown=2.23
+  - r-knitr
+  - r-tidyverse=2.0.0

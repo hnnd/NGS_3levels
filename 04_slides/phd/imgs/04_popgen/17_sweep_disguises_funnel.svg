@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Four disguises of a sweep signal</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="30" y="52" width="360" height="268" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<line x1="90" y1="172" x2="330" y2="172" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="106" y1="172" x2="106" y2="130" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<circle cx="106" cy="124" r="6" fill="#3C5488"/>
+<line x1="148" y1="172" x2="148" y2="142" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<circle cx="148" cy="136" r="6" fill="#3C5488"/>
+<line x1="192" y1="172" x2="192" y2="120" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<circle cx="192" cy="114" r="6" fill="#3C5488"/>
+<line x1="236" y1="172" x2="236" y2="138" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<circle cx="236" cy="132" r="6" fill="#3C5488"/>
+<line x1="280" y1="172" x2="280" y2="126" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<circle cx="280" cy="120" r="6" fill="#3C5488"/>
+<line x1="318" y1="172" x2="318" y2="144" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<circle cx="318" cy="138" r="6" fill="#3C5488"/>
+<line x1="54" y1="238" x2="366" y2="238" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="210" y="288" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">全基因组用经验分位</text>
+<rect x="410" y="52" width="360" height="268" fill="#E7F5F8" rx="14" stroke="#3C8DAD" stroke-width="4"/>
+<line x1="470" y1="138" x2="710" y2="138" stroke="#3C8DAD" stroke-width="4" stroke-linecap="butt"/>
+<polyline points="470,138 530,138 550,172 630,172 650,138 710,138" fill="none" stroke="#3C8DAD" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="550" y1="122" x2="550" y2="186" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 7"/>
+<line x1="630" y1="122" x2="630" y2="186" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 7"/>
+<line x1="434" y1="238" x2="746" y2="238" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="590" y="288" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">按重组率分层排查</text>
+<rect x="30" y="336" width="360" height="268" fill="#E7EAF1" rx="14" stroke="#8491B4" stroke-width="4"/>
+<circle cx="158" cy="432" r="40" fill="#FFFFFF" stroke="#3C5488" stroke-width="4"/>
+<circle cx="262" cy="432" r="40" fill="#FFFFFF" stroke="#8491B4" stroke-width="4"/>
+<line x1="126" y1="418" x2="190" y2="418" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="230" y1="418" x2="294" y2="418" stroke="#8491B4" stroke-width="4" stroke-linecap="butt"/>
+<line x1="126" y1="440" x2="190" y2="440" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="230" y1="440" x2="294" y2="440" stroke="#8491B4" stroke-width="4" stroke-linecap="butt"/>
+<line x1="198" y1="388" x2="222" y2="388" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="222,388 211.95602165656462,392.48536498365524 211.95602165656462,383.51463501634476" fill="#6B6B66"/>
+<line x1="54" y1="522" x2="366" y2="522" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="210" y="572" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">明确分群内部扫描</text>
+<rect x="410" y="336" width="360" height="268" fill="#FBE6DF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<rect x="480" y="410" width="220" height="26" fill="#FFFFFF" rx="6" stroke="#6B6B66" stroke-width="3"/>
+<rect x="480" y="446" width="220" height="26" fill="#FFFFFF" rx="6" stroke="#6B6B66" stroke-width="3"/>
+<rect x="480" y="410" width="60" height="26" fill="#F39B7F" rx="4"/>
+<rect x="560" y="410" width="40" height="26" fill="#3C5488" rx="4"/>
+<rect x="620" y="410" width="50" height="26" fill="#F39B7F" rx="4"/>
+<rect x="680" y="410" width="20" height="26" fill="#F39B7F" rx="4"/>
+<rect x="480" y="446" width="40" height="26" fill="#3C5488" rx="4"/>
+<rect x="540" y="446" width="60" height="26" fill="#F39B7F" rx="4"/>
+<rect x="620" y="446" width="30" height="26" fill="#8491B4" rx="4"/>
+<rect x="670" y="446" width="30" height="26" fill="#3C5488" rx="4"/>
+<line x1="434" y1="522" x2="746" y2="522" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="590" y="572" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">单倍型补验</text>
+</svg>

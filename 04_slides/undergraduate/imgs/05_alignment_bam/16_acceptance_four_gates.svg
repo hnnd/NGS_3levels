@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<ellipse cx="400" cy="56" rx="35" ry="11" fill="#4DBBD5"/>
+<rect x="365" y="56" width="70" height="84" fill="#4DBBD5"/>
+<ellipse cx="400" cy="140" rx="35" ry="11" fill="#4DBBD5"/>
+<ellipse cx="400" cy="140" rx="35" ry="11" fill="none" stroke="#3C8DAD" stroke-width="3"/>
+<text x="400" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">BAM</text>
+<line x1="400" y1="152" x2="400" y2="180" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="230" y1="180" x2="570" y2="180" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="400" y1="180" x2="400" y2="385" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="230" y1="385" x2="570" y2="385" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="230" y1="180" x2="230" y2="204" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="230" y1="385" x2="230" y2="409" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="570" y1="180" x2="570" y2="204" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="570" y1="385" x2="570" y2="409" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<rect x="70" y="206" width="320" height="165" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="100" y="251" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">退出码＋日志</text>
+<text x="100" y="293" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">pipefail</text>
+<circle cx="106" cy="324" r="8" fill="#E64B35"/>
+<text x="122" y="332" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">不删产物</text>
+<rect x="410" y="206" width="320" height="165" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="440" y="251" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">quickcheck</text>
+<text x="440" y="296" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">只查头尾</text>
+<rect x="70" y="411" width="320" height="170" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="100" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">对账</text>
+<text x="100" y="500" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">view -c -F 0x900</text>
+<text x="100" y="544" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">2 × 模板数</text>
+<rect x="410" y="411" width="320" height="170" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="440" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">idxstats</text>
+<text x="440" y="501" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">分 contig 看空缺</text>
+<rect x="70" y="604" width="660" height="56" fill="#00A087" rx="12"/>
+<text x="400" y="642" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">缺一件就有暗门</text>
+</svg>

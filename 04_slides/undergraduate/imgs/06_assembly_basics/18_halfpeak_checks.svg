@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="70" y1="120" x2="70" y2="480" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<line x1="70" y1="480" x2="380" y2="480" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<path d="M 75 140 C 75.0 140.0 88.3 259.2 95 300 C 101.7 340.8 107.5 363.3 115 385 C 122.5 406.7 131.7 418.8 140 430 C 148.3 441.2 155.0 447.3 165 452 C 175.0 456.7 188.3 459.2 200 458 C 211.7 456.8 223.3 488.0 235 445 C 246.7 402.0 259.2 220.8 270 200 C 280.8 179.2 290.0 287.5 300 320 C 310.0 352.5 320.0 375.8 330 395 C 340.0 414.2 352.0 425.5 360 435 C 368.0 444.5 378.0 452.0 378 452" fill="none" stroke="#3C5488" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 150 452 C 150.0 452.0 164.0 322.0 172 322 C 180.0 322.0 198.0 452.0 198 452" fill="none" stroke="#E64B35" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="172" y="296" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">半深度峰</text>
+<line x1="174" y1="306" x2="172" y2="322" stroke="#E64B35" stroke-width="3" stroke-linecap="butt"/>
+<rect x="420" y="110" width="340" height="84" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<rect x="420" y="110" width="12" height="84" fill="#3C5488" rx="4"/>
+<text x="456" y="165" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">① 换 k</text>
+<rect x="420" y="218" width="340" height="84" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<rect x="420" y="218" width="12" height="84" fill="#3C5488" rx="4"/>
+<text x="456" y="273" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">② 回贴分档</text>
+<rect x="420" y="326" width="340" height="84" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<rect x="420" y="326" width="12" height="84" fill="#3C5488" rx="4"/>
+<text x="456" y="381" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">③ 总长对账</text>
+<rect x="420" y="434" width="340" height="84" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<rect x="420" y="434" width="12" height="84" fill="#3C5488" rx="4"/>
+<text x="456" y="489" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">④ 纯化重测</text>
+<rect x="110" y="586" width="580" height="66" fill="#E64B35" rx="12"/>
+<text x="400" y="631" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">两条同向才算证据</text>
+</svg>

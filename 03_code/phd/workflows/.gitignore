@@ -1,0 +1,8 @@
+work/
+results/
+results_test/
+demo/
+.nextflow/
+.nextflow.log*
+.conda_cache/
+.singularity_cache/

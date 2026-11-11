@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="250" y="60" width="300" height="70" fill="#3C5488" rx="12"/>
+<text x="400" y="106" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">padj = NA ?</text>
+<line x1="400" y1="130" x2="130" y2="208" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="130,208 139.93262140750397,199.61292470671725 142.87503346648504,209.79819721857478" fill="#6B6B66"/>
+<rect x="5" y="212" width="250" height="152" fill="#FFFFFF" rx="12" stroke="#4DBBD5" stroke-width="5"/>
+<text x="130" y="252" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#4DBBD5" text-anchor="middle" font-weight="bold">baseMean = 0</text>
+<text x="130" y="296" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">全部计数为零</text>
+<text x="130" y="336" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">pvalue 同为 NA</text>
+<text x="130" y="416" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">全零行无信息</text>
+<line x1="400" y1="130" x2="400" y2="208" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="400,208 394.6991141102256,196.12984377594 405.3008858897744,196.12984377594" fill="#6B6B66"/>
+<rect x="275" y="212" width="250" height="152" fill="#FFFFFF" rx="12" stroke="#F39B7F" stroke-width="5"/>
+<text x="400" y="252" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">Cook 离群点</text>
+<text x="400" y="296" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">需同格 ≥ 3 样本</text>
+<text x="400" y="336" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">2 重复： 不触发</text>
+<text x="400" y="416" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">离群点需多重复</text>
+<line x1="400" y1="130" x2="670" y2="208" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="670,208 657.1249665335149,209.79819721857478 660.067378592496,199.61292470671725" fill="#6B6B66"/>
+<rect x="545" y="212" width="250" height="152" fill="#FFFFFF" rx="12" stroke="#00A087" stroke-width="5"/>
+<text x="670" y="252" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">独立过滤</text>
+<text x="670" y="296" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">均值极低</text>
+<text x="670" y="336" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">仅 padj = NA</text>
+<text x="670" y="416" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">低表达独立过滤</text>
+<rect x="90" y="470" width="620" height="66" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="5"/>
+<text x="400" y="515" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">仅校正值为空</text>
+<text x="400" y="580" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">成批 NA → 成因 ① 或 ③</text>
+<rect x="90" y="614" width="620" height="62" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="4"/>
+<text x="400" y="657" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">排除②： 每格仅 2 重复</text>
+</svg>

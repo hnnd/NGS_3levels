@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="54" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">α diversity</text>
+<rect x="248.0" y="86.0" width="304" height="104" fill="#FBE3D8" rx="16" stroke="#F39B7F" stroke-width="4"/>
+<text x="400" y="128" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#C0623F" text-anchor="middle" font-weight="bold">Observed</text>
+<text x="400" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">种类数极度依赖深度</text>
+<rect x="48.0" y="267.0" width="244" height="110" fill="#E6E9F0" rx="16" stroke="#8491B4" stroke-width="4"/>
+<text x="170" y="296" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">Faith&#x27;s PD</text>
+<rect x="516.0" y="270.0" width="244" height="104" fill="#E3E8F2" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="638" y="312" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">Chao1</text>
+<text x="638" y="356" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">n1 → 0</text>
+<rect x="125.0" y="506.0" width="250" height="104" fill="#D8EEE9" rx="16" stroke="#00A087" stroke-width="4"/>
+<text x="250" y="548" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">Shannon</text>
+<text x="250" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">丰富均匀首选</text>
+<rect x="435.0" y="506.0" width="250" height="104" fill="#D6EFF4" rx="16" stroke="#4DBBD5" stroke-width="4"/>
+<text x="560" y="548" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">Simpson</text>
+<text x="560" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">优势度查垄断</text>
+<line x1="170" y1="324" x2="170" y2="348" stroke="#8491B4" stroke-width="4" stroke-linecap="butt"/>
+<line x1="170" y1="332" x2="144" y2="360" stroke="#8491B4" stroke-width="4" stroke-linecap="butt"/>
+<line x1="170" y1="332" x2="196" y2="360" stroke="#8491B4" stroke-width="4" stroke-linecap="butt"/>
+<circle cx="170" cy="324" r="5" fill="#8491B4"/>
+<circle cx="144" cy="362" r="5" fill="#8491B4"/>
+<circle cx="196" cy="362" r="5" fill="#8491B4"/>
+<circle cx="170" cy="350" r="5" fill="#8491B4"/>
+<circle cx="400" cy="344" r="62" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="358" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#3C5488" text-anchor="middle" font-weight="bold">α</text>
+<line x1="400.0" y1="282.0" x2="400.0" y2="184.0" stroke="#8491B4" stroke-width="3" stroke-linecap="butt" stroke-dasharray="9 7"/>
+<line x1="338.2816979443553" y1="338.0965102381557" x2="285.92730375629543" y2="333.0886986201674" stroke="#8491B4" stroke-width="3" stroke-linecap="butt" stroke-dasharray="9 7"/>
+<line x1="461.7368030638262" y1="338.29323669157907" x2="522.0679217899803" y2="332.71641059084214" stroke="#8491B4" stroke-width="3" stroke-linecap="butt" stroke-dasharray="9 7"/>
+<line x1="364.4134968918375" y1="394.7700777676452" x2="280.2116510885098" y2="514.8980444470593" stroke="#8491B4" stroke-width="3" stroke-linecap="butt" stroke-dasharray="9 7"/>
+<line x1="437.1257069031629" y1="393.65563298298036" x2="527.989265870031" y2="515.1856431011663" stroke="#8491B4" stroke-width="3" stroke-linecap="butt" stroke-dasharray="9 7"/>
+</svg>

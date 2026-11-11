@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="34" y="112" width="344" height="392" fill="#FFFFFF" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="206.0" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#C0623F" text-anchor="middle" font-weight="bold">1</text>
+<text x="206.0" y="212" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">全样本超长报错退出</text>
+<rect x="58" y="244" width="296" height="46" fill="#E9E9E5" rx="8"/>
+<text x="76" y="275" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">reads.in</text>
+<text x="336" y="275" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end" font-weight="bold">0</text>
+<rect x="58" y="304" width="296" height="46" fill="#E9E9E5" rx="8"/>
+<text x="76" y="335" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">reads.out</text>
+<text x="336" y="335" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end" font-weight="bold">0</text>
+<line x1="178.0" y1="372" x2="234.0" y2="428" stroke="#E64B35" stroke-width="8" stroke-linecap="round"/>
+<line x1="234.0" y1="372" x2="178.0" y2="428" stroke="#E64B35" stroke-width="8" stroke-linecap="round"/>
+<text x="206.0" y="472" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">stop</text>
+<rect x="422" y="112" width="344" height="392" fill="#FFFFFF" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="594.0" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#C0623F" text-anchor="middle" font-weight="bold">2</text>
+<text x="594.0" y="212" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">个别超长静默留空</text>
+<rect x="446" y="244" width="296" height="46" fill="#FBE3D8" rx="8" stroke="#F39B7F" stroke-width="3"/>
+<text x="464" y="275" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">reads.out</text>
+<text x="724" y="275" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="end" font-weight="bold">0</text>
+<rect x="446" y="304" width="296" height="46" fill="#D6EFF4" rx="8" stroke="#4DBBD5" stroke-width="3"/>
+<text x="464" y="335" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">sample</text>
+<text x="724" y="335" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="end" font-weight="bold">NA</text>
+<line x1="482" y1="386" x2="706" y2="386" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<text x="594.0" y="432" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">skip</text>
+<text x="594.0" y="472" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">no error</text>
+<rect x="158" y="542" width="484" height="68" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="400" y="587" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">先看警告后查表格</text>
+<text x="400" y="662" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">truncLen &gt; read length</text>
+</svg>

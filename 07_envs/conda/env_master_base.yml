@@ -1,0 +1,40 @@
+# 硕士生 · 环境 1/6：通用工具与 R 报告栈
+# 覆盖专题：m01–m08（贯穿全部专题）
+# 创建：conda env create -f env_master_base.yml   激活：conda activate ngs_ms_base
+#
+# 【版本策略】沿用旧 env_master.yml 中已验证的 pin；新增工具暂不 pin，
+# 首次成功 solve 后用 `conda env export --no-builds` 回填。
+
+name: ngs_ms_base
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # 【生态性断裂】setuptools 82.0.0（2026-02-08）移除了 pkg_resources（81.x 仍含），而 bioconda 上
+  # 2023-2024 年的 Python 工具（multiqc 1.14、macs2、部分 deeptools 子命令等）仍 import 它，
+  # 表现为 `ModuleNotFoundError: No module named 'pkg_resources'`。全课程统一钉 <81（比必要的 <82 多保守一档，已实测可用）。
+  - setuptools<81
+  # ---- 通用处理 ----
+  - fastp=0.23.4
+  - multiqc=1.14
+  - samtools=1.17
+  - bedtools=2.31.0
+  - seqkit
+  # ---- m01 公共数据检索与下载（讲义 ⑤5.2–5.4）----
+  - sra-tools
+  - entrez-direct
+  - pysradb
+  - kingfisher
+  # ---- m01 步骤 6 教材演示（ch13_variance_partition / ch13_truncation_confounding 需 scipy）----
+  # 2026-11-11 集群实装 scipy 1.18.0（numpy 2.5.2、python 3.12.3 未动）；原 env 缺 scipy，演示必报 ModuleNotFoundError
+  - scipy=1.18.0
+
+  # ---- R 与报告 ----
+  - r-base=4.3.1
+  - r-tidyverse=2.0.0
+  - r-ggplot2=3.4.2
+  - r-rmarkdown=2.23
+  - r-knitr
+  - r-pheatmap=1.0.12

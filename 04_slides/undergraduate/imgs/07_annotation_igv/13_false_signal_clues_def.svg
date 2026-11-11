@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="20" y="50" width="240" height="520" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<text x="140.0" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">strand bias</text>
+<rect x="280" y="50" width="240" height="520" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">end bias</text>
+<rect x="540" y="50" width="240" height="520" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<text x="660.0" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">MAPQ = 0</text>
+<rect x="90" y="160" width="34" height="60" fill="#F39B7F" rx="6"/>
+<rect x="132" y="160" width="34" height="60" fill="#F39B7F" rx="6"/>
+<rect x="174" y="160" width="34" height="60" fill="#F39B7F" rx="6"/>
+<rect x="216" y="160" width="34" height="60" fill="#8491B4" rx="6"/>
+<line x1="140" y1="150" x2="140" y2="330" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt" stroke-dasharray="12 10"/>
+<text x="140" y="142" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0.5</text>
+<rect x="140" y="250" width="84" height="30" fill="#F39B7F" rx="6"/>
+<text x="232" y="275" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">0.9</text>
+<text x="140" y="480" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">链偏：</text>
+<text x="140" y="528" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">正链占比偏离</text>
+<rect x="298" y="210" width="204" height="48" fill="#FFFFFF" rx="10" stroke="#6B6B66" stroke-width="4"/>
+<rect x="298" y="210" width="32" height="48" fill="#F6D8D2" rx="10" stroke="#E64B35" stroke-width="5"/>
+<rect x="470" y="210" width="32" height="48" fill="#F6D8D2" rx="10" stroke="#E64B35" stroke-width="5"/>
+<line x1="312" y1="222" x2="312" y2="246" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<line x1="324" y1="222" x2="324" y2="246" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<line x1="482" y1="222" x2="482" y2="246" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<line x1="494" y1="222" x2="494" y2="246" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<text x="400" y="190" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">150 bp</text>
+<text x="400" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">5–10 bp</text>
+<text x="400" y="480" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">末端：</text>
+<text x="400" y="528" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">落入端部窗口</text>
+<rect x="565" y="160" width="110" height="36" fill="#FFFFFF" rx="8" stroke="#6B6B66" stroke-width="4" stroke-dasharray="10 8"/>
+<line x1="678" y1="178" x2="716" y2="178" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="716,178 706.8691105968769,182.0776045305957 706.8691105968769,173.9223954694043" fill="#6B6B66"/>
+<circle cx="742" cy="178" r="14" fill="#E9E9E5" stroke="#6B6B66" stroke-width="4"/>
+<rect x="565" y="228" width="110" height="36" fill="#FFFFFF" rx="8" stroke="#6B6B66" stroke-width="4" stroke-dasharray="10 8"/>
+<line x1="678" y1="246" x2="716" y2="246" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="716,246 706.8691105968769,250.0776045305957 706.8691105968769,241.9223954694043" fill="#6B6B66"/>
+<circle cx="742" cy="246" r="14" fill="#E9E9E5" stroke="#6B6B66" stroke-width="4"/>
+<rect x="565" y="296" width="110" height="36" fill="#FFFFFF" rx="8" stroke="#6B6B66" stroke-width="4" stroke-dasharray="10 8"/>
+<line x1="678" y1="314" x2="716" y2="314" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="716,314 706.8691105968769,318.0776045305957 706.8691105968769,309.9223954694043" fill="#6B6B66"/>
+<circle cx="742" cy="314" r="14" fill="#E9E9E5" stroke="#6B6B66" stroke-width="4"/>
+<text x="660" y="380" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">MAPQ = 0</text>
+<text x="660" y="528" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">重复区不可信</text>
+<text x="400" y="640" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">量化线索</text>
+</svg>

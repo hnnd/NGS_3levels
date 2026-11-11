@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="214.0" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">d</text>
+<rect x="96" y="140" width="236" height="292" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<rect x="110" y="152" width="208" height="44" fill="#E3E8F2" rx="8"/>
+<text x="126" y="182" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">s01</text>
+<rect x="110" y="208" width="208" height="44" fill="#E3E8F2" rx="8"/>
+<text x="126" y="238" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">s02</text>
+<rect x="110" y="264" width="208" height="44" fill="#E3E8F2" rx="8"/>
+<text x="126" y="294" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">s03</text>
+<rect x="110" y="320" width="208" height="44" fill="#E3E8F2" rx="8"/>
+<text x="126" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">s04</text>
+<rect x="110" y="376" width="208" height="44" fill="#E3E8F2" rx="8"/>
+<text x="126" y="406" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">s05</text>
+<text x="588.0" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">meta</text>
+<rect x="470" y="140" width="236" height="292" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<rect x="484" y="152" width="208" height="44" fill="#D6EFF4" rx="8"/>
+<text x="500" y="182" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">s05</text>
+<rect x="484" y="208" width="208" height="44" fill="#D6EFF4" rx="8"/>
+<text x="500" y="238" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">s04</text>
+<rect x="484" y="264" width="208" height="44" fill="#D6EFF4" rx="8"/>
+<text x="500" y="294" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">s03</text>
+<rect x="484" y="320" width="208" height="44" fill="#D6EFF4" rx="8"/>
+<text x="500" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">s02</text>
+<rect x="484" y="376" width="208" height="44" fill="#D6EFF4" rx="8"/>
+<text x="500" y="406" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">s01</text>
+<path d="M 326 174.0 L 476 398.0 M 326 230.0 L 476 342.0 M 326 286.0 L 476 286.0 M 326 342.0 L 476 230.0 M 326 398.0 L 476 174.0 " fill="none" stroke="#E64B35" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="9 7"/>
+<text x="400" y="506" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">行名错位静默配错 统计假显著无报错</text>
+<rect x="212" y="548" width="376" height="60" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="400" y="588" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">必须比对行名</text>
+<text x="400" y="658" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">all(rownames(d) == meta$sample)</text>
+</svg>

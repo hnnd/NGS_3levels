@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="46" y="28" width="708" height="118" fill="#FFFFFF" rx="14" stroke="#E64B35" stroke-width="4"/>
+<text x="400" y="72" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">宿主系统库过旧</text>
+<text x="230" y="122" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">glibc 2.18</text>
+<text x="570" y="122" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">__glibc &gt;=2.28</text>
+<line x1="330" y1="108" x2="470" y2="108" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 6"/>
+<rect x="110" y="250" width="580" height="76" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="374" y="297" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">一找旧构建</text>
+<text x="668" y="297" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="end">ok</text>
+<rect x="110" y="356" width="580" height="76" fill="#FBE3D8" rx="12" stroke="#F39B7F" stroke-width="4"/>
+<text x="374" y="403" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">二用单规则容器</text>
+<text x="668" y="403" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="end">ok</text>
+<rect x="110" y="462" width="580" height="76" fill="#E6E9F0" rx="12" stroke="#8491B4" stroke-width="4"/>
+<text x="374" y="509" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">三换新节点</text>
+<text x="668" y="509" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="end">ok</text>
+<line x1="390" y1="326" x2="390" y2="344" stroke="#4DBBD5" stroke-width="4" stroke-linecap="round"/>
+<polygon points="390,344 385.9223954694043,334.8691105968769 394.0776045305957,334.8691105968769" fill="#4DBBD5"/>
+<line x1="390" y1="432" x2="390" y2="450" stroke="#4DBBD5" stroke-width="4" stroke-linecap="round"/>
+<polygon points="390,450 385.9223954694043,440.8691105968769 394.0776045305957,440.8691105968769" fill="#4DBBD5"/>
+<line x1="390" y1="538" x2="390" y2="556" stroke="#4DBBD5" stroke-width="4" stroke-linecap="round"/>
+<polygon points="390,556 385.9223954694043,546.8691105968769 394.0776045305957,546.8691105968769" fill="#4DBBD5"/>
+<rect x="146" y="574" width="508" height="92" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="400" y="628" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#E64B35" text-anchor="middle" font-weight="bold">严禁改代码</text>
+</svg>

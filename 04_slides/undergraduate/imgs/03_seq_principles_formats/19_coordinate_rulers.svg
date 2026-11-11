@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="50" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">半开与闭标尺对照</text>
+<text x="400" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">起点必须减一终点不变</text>
+<rect x="60" y="340" width="90" height="70" fill="#00A087" rx="6"/>
+<text x="105.0" y="388" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">A</text>
+<rect x="150" y="340" width="90" height="70" fill="#8491B4" rx="6"/>
+<text x="195.0" y="388" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">T</text>
+<rect x="240" y="340" width="90" height="70" fill="#F39B7F" rx="6"/>
+<text x="285.0" y="388" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">G</text>
+<rect x="330" y="340" width="90" height="70" fill="#4DBBD5" rx="6"/>
+<text x="375.0" y="388" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">C</text>
+<rect x="420" y="340" width="90" height="70" fill="#00A087" rx="6"/>
+<text x="465.0" y="388" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">A</text>
+<rect x="150" y="340" width="270" height="70" fill="none" rx="6" stroke="#E64B35" stroke-width="5"/>
+<text x="60" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#00A087" text-anchor="start" font-weight="bold">1-based 闭（GFF3/VCF）</text>
+<line x1="105.0" y1="290" x2="105.0" y2="330" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<text x="105.0" y="282" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#00A087" text-anchor="middle" font-weight="bold">1</text>
+<line x1="195.0" y1="290" x2="195.0" y2="330" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<text x="195.0" y="282" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#00A087" text-anchor="middle" font-weight="bold">2</text>
+<line x1="285.0" y1="290" x2="285.0" y2="330" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<text x="285.0" y="282" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#00A087" text-anchor="middle" font-weight="bold">3</text>
+<line x1="375.0" y1="290" x2="375.0" y2="330" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<text x="375.0" y="282" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#00A087" text-anchor="middle" font-weight="bold">4</text>
+<line x1="465.0" y1="290" x2="465.0" y2="330" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<text x="465.0" y="282" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#00A087" text-anchor="middle" font-weight="bold">5</text>
+<line x1="195.0" y1="250" x2="375.0" y2="250" stroke="#00A087" stroke-width="5" stroke-linecap="butt"/>
+<line x1="195.0" y1="250" x2="195.0" y2="270" stroke="#00A087" stroke-width="5" stroke-linecap="butt"/>
+<line x1="375.0" y1="250" x2="375.0" y2="270" stroke="#00A087" stroke-width="5" stroke-linecap="butt"/>
+<text x="285.0" y="238" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#00A087" text-anchor="middle" font-weight="bold">TGC = [2, 4]，长 3 bp</text>
+<text x="60" y="438" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#8491B4" text-anchor="start" font-weight="bold">0-based 半开（BED）</text>
+<line x1="60" y1="444" x2="60" y2="480" stroke="#8491B4" stroke-width="4" stroke-linecap="butt"/>
+<text x="60" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#8491B4" text-anchor="middle" font-weight="bold">0</text>
+<line x1="150" y1="444" x2="150" y2="480" stroke="#8491B4" stroke-width="4" stroke-linecap="butt"/>
+<text x="150" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#8491B4" text-anchor="middle" font-weight="bold">1</text>
+<line x1="240" y1="444" x2="240" y2="480" stroke="#8491B4" stroke-width="4" stroke-linecap="butt"/>
+<text x="240" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#8491B4" text-anchor="middle" font-weight="bold">2</text>
+<line x1="330" y1="444" x2="330" y2="480" stroke="#8491B4" stroke-width="4" stroke-linecap="butt"/>
+<text x="330" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#8491B4" text-anchor="middle" font-weight="bold">3</text>
+<line x1="420" y1="444" x2="420" y2="480" stroke="#8491B4" stroke-width="4" stroke-linecap="butt"/>
+<text x="420" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#8491B4" text-anchor="middle" font-weight="bold">4</text>
+<line x1="510" y1="444" x2="510" y2="480" stroke="#8491B4" stroke-width="4" stroke-linecap="butt"/>
+<text x="510" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#8491B4" text-anchor="middle" font-weight="bold">5</text>
+<line x1="150" y1="548" x2="420" y2="548" stroke="#8491B4" stroke-width="5" stroke-linecap="butt"/>
+<line x1="150" y1="548" x2="150" y2="528" stroke="#8491B4" stroke-width="5" stroke-linecap="butt"/>
+<line x1="420" y1="548" x2="420" y2="528" stroke="#8491B4" stroke-width="5" stroke-linecap="butt"/>
+<text x="285.0" y="590" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#8491B4" text-anchor="middle" font-weight="bold">TGC = [1, 4)，长 3 bp</text>
+<rect x="540" y="250" width="240" height="200" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="660" y="296" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">照抄进 BED</text>
+<text x="660" y="344" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#33332E" text-anchor="middle" font-weight="bold">chr1 1000 1200</text>
+<text x="660" y="392" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="24" fill="#E64B35" text-anchor="middle" font-weight="bold">→ 第 1001–1200 号</text>
+</svg>

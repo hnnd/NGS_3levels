@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="96" y="80" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">复制到个人目录</text>
+<rect x="60" y="96" width="680" height="84" fill="#D6EFF4" rx="14" stroke="#4DBBD5" stroke-width="4"/>
+<text x="400.0" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#4DBBD5" text-anchor="middle" font-weight="bold">course/  (read-only)</text>
+<text x="96" y="228" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">纯路径规范</text>
+<rect x="60" y="244" width="680" height="84" fill="#D6EFF4" rx="14" stroke="#4DBBD5" stroke-width="4"/>
+<text x="400.0" y="298" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#4DBBD5" text-anchor="middle" font-weight="bold">~/work/m08/</text>
+<line x1="688" y1="182" x2="688" y2="240" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="688,240 682.291353657166,227.21675483562768 693.708646342834,227.21675483562768" fill="#4DBBD5"/>
+<text x="96" y="376" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">生成四样本数据</text>
+<rect x="60" y="392" width="680" height="84" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="400.0" y="446" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">4 samples</text>
+<line x1="688" y1="330" x2="688" y2="388" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="688,388 682.291353657166,375.2167548356277 693.708646342834,375.2167548356277" fill="#4DBBD5"/>
+<rect x="120" y="546" width="560" height="116" fill="#F6D8D2" rx="16" stroke="#E64B35" stroke-width="5"/>
+<text x="400" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#E64B35" text-anchor="middle" font-weight="bold">严禁改动源文件</text>
+<text x="400" y="640" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">cp -r course/ ~/work/m08/</text>
+</svg>

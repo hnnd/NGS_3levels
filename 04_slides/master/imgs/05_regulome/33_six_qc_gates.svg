@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">逐级质控</text>
+<line x1="210" y1="152" x2="210" y2="532" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<circle cx="210" cy="152" r="15" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<text x="244" y="163" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">比对率</text>
+<circle cx="210" cy="228" r="15" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<text x="244" y="239" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">重复率</text>
+<circle cx="210" cy="304" r="15" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<text x="244" y="315" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">阶梯</text>
+<circle cx="210" cy="380" r="15" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<text x="244" y="391" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">落峰比</text>
+<circle cx="210" cy="456" r="15" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<text x="244" y="467" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">重复性</text>
+<circle cx="210" cy="532" r="15" fill="#00A087" stroke="#00A087" stroke-width="3"/>
+<text x="244" y="543" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">注释</text>
+<g stroke="#E64B35" fill="none" stroke-width="4"><line x1="400" y1="152" x2="676" y2="152" stroke-dasharray="12 10"/><line x1="400" y1="228" x2="676" y2="228" stroke-dasharray="12 10"/><line x1="400" y1="304" x2="676" y2="304" stroke-dasharray="12 10"/><line x1="400" y1="380" x2="676" y2="380" stroke-dasharray="12 10"/><line x1="400" y1="456" x2="676" y2="456" stroke-dasharray="12 10"/><line x1="400" y1="532" x2="676" y2="532" stroke-dasharray="12 10"/><line x1="684" y1="128" x2="684" y2="556" stroke-width="7"/></g>
+<text x="700" y="122" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">拦截</text>
+<text x="400" y="634" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">单一指标不放行</text>
+</svg>

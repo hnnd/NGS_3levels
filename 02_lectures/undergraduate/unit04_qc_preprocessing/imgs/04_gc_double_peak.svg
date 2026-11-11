@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">免费的污染探测器：GC 含量分布的单峰与双峰</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">Per sequence GC content ｜ 样本 S17 排查实录 —— 依据 04_qc_preprocessing_lecture.md §3.1 / §5.3</text>
+
+  <!-- ============ 左面板：两张分布图 ============ -->
+  <rect x="48" y="118" width="540" height="580" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="15" font-weight="bold" fill="#3C5488">Per sequence GC content：横轴 %GC，纵轴 read 条数</text>
+
+  <!-- 正常：单峰 -->
+  <circle cx="80" cy="180" r="5" fill="#00A087"/>
+  <text x="94" y="185" font-size="13" font-weight="bold" fill="#33332E">23/24 个样本：单峰，正常</text>
+  <line x1="100" y1="200" x2="100" y2="360" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="100" y1="360" x2="540" y2="360" stroke="#6B6B66" stroke-width="1.5"/>
+  <text x="92" y="212" font-size="10.5" fill="#6B6B66" text-anchor="end">read 条数</text>
+  <path d="M 130,358 C 200,356 240,340 270,300 C 288,276 292,218 306,218 C 320,218 324,276 342,300 C 372,340 412,356 482,358 L 482,360 L 130,360 Z"
+        fill="#00A087" fill-opacity="0.16"/>
+  <path d="M 130,358 C 200,356 240,340 270,300 C 288,276 292,218 306,218 C 320,218 324,276 342,300 C 372,340 412,356 482,358"
+        fill="none" stroke="#00A087" stroke-width="2.5"/>
+  <text x="306" y="200" font-size="11.5" fill="#6B6B66" text-anchor="middle">峰位 = 物种自己的 GC 含量</text>
+  <text x="100" y="378" font-size="10.5" fill="#6B6B66" text-anchor="middle">0%</text>
+  <text x="320" y="378" font-size="10.5" fill="#6B6B66" text-anchor="middle">50%</text>
+  <text x="540" y="378" font-size="10.5" fill="#6B6B66" text-anchor="middle">100% GC</text>
+
+  <!-- S17：双峰 -->
+  <circle cx="80" cy="416" r="5" fill="#E64B35"/>
+  <text x="94" y="421" font-size="13" font-weight="bold" fill="#E64B35">样本 S17：双峰——必查</text>
+  <line x1="100" y1="436" x2="100" y2="600" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="100" y1="600" x2="540" y2="600" stroke="#6B6B66" stroke-width="1.5"/>
+  <text x="92" y="448" font-size="10.5" fill="#6B6B66" text-anchor="end">read 条数</text>
+  <path d="M 112,598 C 180,596 212,584 236,548 C 254,522 256,462 270,462 C 284,462 286,522 304,548 C 326,584 356,596 412,598 L 412,600 L 112,600 Z"
+        fill="#3C5488" fill-opacity="0.14"/>
+  <path d="M 112,598 C 180,596 212,584 236,548 C 254,522 256,462 270,462 C 284,462 286,522 304,548 C 326,584 356,596 412,598"
+        fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <path d="M 372,598 C 396,596 406,586 416,562 C 424,544 428,528 438,528 C 448,528 452,544 460,562 C 470,586 480,596 504,598 L 504,600 L 372,600 Z"
+        fill="#E64B35" fill-opacity="0.14"/>
+  <path d="M 372,598 C 396,596 406,586 416,562 C 424,544 428,528 438,528 C 448,528 452,544 460,562 C 470,586 480,596 504,598"
+        fill="none" stroke="#E64B35" stroke-width="2.5"/>
+  <text x="270" y="442" font-size="11.5" fill="#3C5488" text-anchor="middle">主峰：目标菌</text>
+  <text x="438" y="510" font-size="11.5" fill="#E64B35" text-anchor="middle">次峰：谁？→ 去右图查</text>
+  <text x="100" y="618" font-size="10.5" fill="#6B6B66" text-anchor="middle">0%</text>
+  <text x="320" y="618" font-size="10.5" fill="#6B6B66" text-anchor="middle">50%</text>
+  <text x="540" y="618" font-size="10.5" fill="#6B6B66" text-anchor="middle">100% GC</text>
+
+  <text x="72" y="652" font-size="12" fill="#33332E">单峰即正常；双峰 / 肩峰 = 污染信号：另一物种、接头二聚体或 rRNA（§5.3）。</text>
+  <text x="72" y="674" font-size="11.5" fill="#6B6B66">污染会一路溜进公开数据库：宣称「完成」的淋球菌基因组里混着牛与羊的</text>
+  <text x="72" y="692" font-size="11.5" fill="#6B6B66">序列（Merchant et al., 2014，⑪文献 11）——测序仪不会替你把关。</text>
+
+  <!-- ============ 右面板：排查流程 ============ -->
+  <rect x="616" y="118" width="536" height="580" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="640" y="154" font-size="15" font-weight="bold" fill="#3C5488">S17 的教科书式排除法（§3.1）</text>
+
+  <rect x="640" y="180" width="460" height="64" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="640" y="180" width="4" height="64" rx="2" fill="#3C5488"/>
+  <text x="660" y="206" font-size="12.5" font-weight="bold" fill="#33332E">① MultiQC 总表：S17 的 %GC 低了一截</text>
+  <text x="660" y="228" font-size="11" fill="#6B6B66">General Statistics 表一眼扫过去（§5.6）</text>
+  <line x1="870" y1="244" x2="870" y2="260" stroke="#6B6B66" stroke-width="1.6"/>
+  <polygon points="870,268 865,258 875,258" fill="#6B6B66"/>
+
+  <rect x="640" y="270" width="460" height="64" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="640" y="270" width="4" height="64" rx="2" fill="#3C5488"/>
+  <text x="660" y="296" font-size="12.5" font-weight="bold" fill="#33332E">② 是接头二聚体吗？接头 GC 约 50%，但 read 极短</text>
+  <text x="660" y="318" font-size="11" fill="#6B6B66">Sequence Length Distribution 一眼看穿——排除</text>
+  <line x1="870" y1="334" x2="870" y2="350" stroke="#6B6B66" stroke-width="1.6"/>
+  <polygon points="870,358 865,348 875,348" fill="#6B6B66"/>
+
+  <rect x="640" y="360" width="460" height="64" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="640" y="360" width="4" height="64" rx="2" fill="#3C5488"/>
+  <text x="660" y="386" font-size="12.5" font-weight="bold" fill="#33332E">③ 是 rRNA 吗？长度与丰度也对不上</text>
+  <text x="660" y="408" font-size="11" fill="#6B6B66">排除</text>
+  <line x1="870" y1="424" x2="870" y2="440" stroke="#6B6B66" stroke-width="1.6"/>
+  <polygon points="870,448 865,438 875,438" fill="#6B6B66"/>
+
+  <rect x="640" y="450" width="460" height="64" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.8"/>
+  <rect x="640" y="450" width="4" height="64" rx="2" fill="#00A087"/>
+  <text x="660" y="476" font-size="12.5" font-weight="bold" fill="#33332E">④ Overrepresented sequences 丢进 NCBI BLAST</text>
+  <text x="660" y="498" font-size="11" fill="#00A087">命中另一属的细菌——污染坐实</text>
+  <line x1="870" y1="514" x2="870" y2="530" stroke="#6B6B66" stroke-width="1.6"/>
+  <polygon points="870,538 865,528 875,528" fill="#6B6B66"/>
+
+  <rect x="640" y="540" width="460" height="64" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="640" y="540" width="4" height="64" rx="2" fill="#3C5488"/>
+  <text x="660" y="566" font-size="12.5" font-weight="bold" fill="#33332E">⑤ 溯源：建库 96 孔板的相邻孔串样</text>
+  <text x="660" y="588" font-size="11" fill="#6B6B66">S17 若直接进组装，会拼出两个基因组嵌合的四不像</text>
+
+  <text x="640" y="644" font-size="12.5" font-weight="bold" fill="#3C5488">处置顺序：先定性（BLAST），再决策（剔除 / 重测 / 重提库）</text>
+  <text x="640" y="666" font-size="12" fill="#33332E">——不要上来就调修剪参数（§3.1 教学启示 ③）。</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

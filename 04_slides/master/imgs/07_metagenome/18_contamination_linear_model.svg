@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="300" y1="132" x2="700" y2="132" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="300.0" y1="132" x2="300.0" y2="144" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="300.0" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0%</text>
+<line x1="500.0" y1="132" x2="500.0" y2="144" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="500.0" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">100%</text>
+<line x1="700.0" y1="132" x2="700.0" y2="144" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="700.0" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">200%</text>
+<text x="282" y="251.7" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="end" font-weight="bold">单基因组：</text>
+<text x="282" y="291.3" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="end" font-weight="bold">零污染</text>
+<rect x="300" y="232" width="400" height="58" fill="#E9E9E5" rx="8"/>
+<rect x="300" y="232" width="8" height="58" fill="#00A087" rx="4"/>
+<text x="312.0" y="272.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">0.0%</text>
+<text x="306" y="220" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="start">comp 94.9%</text>
+<text x="282" y="383.7" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="end" font-weight="bold">双基因组：</text>
+<text x="282" y="423.3" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="end" font-weight="bold">污染一百</text>
+<rect x="300" y="364" width="400" height="58" fill="#E9E9E5" rx="8"/>
+<rect x="300" y="364" width="200.0" height="58" fill="#F39B7F" rx="8"/>
+<text x="512.0" y="404.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">100.0%</text>
+<text x="306" y="352" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="start">comp 100.0%</text>
+<text x="282" y="515.7" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="end" font-weight="bold">三基因组：</text>
+<text x="282" y="555.3" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="end" font-weight="bold">污染两百</text>
+<rect x="300" y="496" width="400" height="58" fill="#E9E9E5" rx="8"/>
+<rect x="300" y="496" width="400.0" height="58" fill="#E64B35" rx="8"/>
+<text x="684.0" y="536.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="end" font-weight="bold">200.0%</text>
+<text x="306" y="484" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="start">comp 100.0%</text>
+<text x="700" y="660" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="end" font-weight="bold">非报错</text>
+</svg>

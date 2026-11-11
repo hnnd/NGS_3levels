@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#3C5488" text-anchor="middle" font-weight="bold">来源在前，目标在后</text>
+<rect x="70" y="120" width="230" height="110" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="185" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">本地电脑</text>
+<rect x="500" y="120" width="230" height="110" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="615" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">集群</text>
+<path d="M 300 165 C 360 105, 440 105, 496 158" fill="none" stroke="#00A087" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="500,165 482,146 478,168" fill="#00A087"/>
+<text x="400" y="108" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">scp / rsync →</text>
+<path d="M 500 205 C 440 268, 360 268, 304 212" fill="none" stroke="#3C8DAD" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="300,205 322,208 306,224" fill="#3C8DAD"/>
+<text x="400" y="292" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">← 在本地敲命令</text>
+<line x1="320" y1="420" x2="480" y2="420" stroke="#E64B35" stroke-width="6" stroke-linecap="round"/>
+<polygon points="480,420 462,408 462,432" fill="#E64B35"/>
+<line x1="360" y1="396" x2="440" y2="444" stroke="#E64B35" stroke-width="6" stroke-linecap="round"/>
+<line x1="440" y1="396" x2="360" y2="444" stroke="#E64B35" stroke-width="6" stroke-linecap="round"/>
+<text x="400" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">方向反＝覆盖</text>
+<text x="400" y="640" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#6B6B66" text-anchor="middle" font-weight="bold">tmux 只保会话</text>
+</svg>

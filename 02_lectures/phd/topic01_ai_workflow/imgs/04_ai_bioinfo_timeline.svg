@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">AI 进入生命科学科研流程的五个节点（2020–2024）</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">能力跃迁 ｜ 治理成形 ｜ 基准出现 —— 依据 01_ai_workflow_lecture.md ③3.1 / ④4.5 / ④4.8 / ⑪</text>
+  <!-- 图例 -->
+  <rect x="940" y="46" width="12" height="12" fill="#4DBBD5"/>
+  <text x="958" y="57" font-size="12" fill="#33332E">时间轴</text>
+  <rect x="1024" y="46" width="12" height="12" fill="#E64B35"/>
+  <text x="1042" y="57" font-size="12" fill="#33332E">关键事件</text>
+
+  <!-- ============ 时间轴 ============ -->
+  <line x1="90" y1="398" x2="1120" y2="398" stroke="#4DBBD5" stroke-width="3"/>
+  <polygon points="1132,398 1118,391 1118,405" fill="#4DBBD5"/>
+  <text x="90" y="380" font-size="12" fill="#6B6B66">2020</text>
+  <text x="1078" y="380" font-size="12" fill="#6B6B66">2024 →</text>
+
+  <!-- ============ 节点 1：2020.11（上） ============ -->
+  <rect x="72" y="210" width="216" height="140" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="88" y="238" font-size="15" font-weight="bold" fill="#3C5488">2020.11</text>
+  <text x="88" y="264" font-size="12" fill="#33332E">AlphaFold2 于 CASP14</text>
+  <text x="88" y="284" font-size="12" fill="#33332E">达到实验精度——AI 第一次</text>
+  <text x="88" y="304" font-size="12" fill="#33332E">能产出「可直接用」的</text>
+  <text x="88" y="324" font-size="12" fill="#33332E">科学产物（蛋白质结构）</text>
+  <line x1="180" y1="350" x2="180" y2="388" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="180" cy="398" r="7" fill="#3C5488"/>
+
+  <!-- ============ 节点 2：2022.11（下） ============ -->
+  <rect x="292" y="446" width="216" height="150" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="308" y="474" font-size="15" font-weight="bold" fill="#3C5488">2022.11</text>
+  <text x="308" y="500" font-size="12" fill="#33332E">ChatGPT 上线：「产出代码」</text>
+  <text x="308" y="520" font-size="12" fill="#33332E">的门槛降到接近零，</text>
+  <text x="308" y="540" font-size="12" fill="#33332E">「判断代码对不对」的门槛</text>
+  <text x="308" y="560" font-size="12" fill="#33332E">原样留在原处（本讲 ③）</text>
+  <line x1="400" y1="408" x2="400" y2="446" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="400" cy="398" r="7" fill="#3C5488"/>
+
+  <!-- ============ 节点 3：2023（上） ============ -->
+  <rect x="512" y="210" width="216" height="140" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="528" y="238" font-size="15" font-weight="bold" fill="#3C5488">2023</text>
+  <text x="528" y="264" font-size="12" fill="#33332E">期刊立场成形：AI 不得</text>
+  <text x="528" y="284" font-size="12" fill="#33332E">列为作者、使用须声明、</text>
+  <text x="528" y="304" font-size="12" fill="#33332E">作者对全部内容负全责</text>
+  <text x="528" y="324" font-size="12" fill="#33332E">（Thorp, Science；ICMJE）</text>
+  <line x1="620" y1="350" x2="620" y2="388" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="620" cy="398" r="7" fill="#3C5488"/>
+
+  <!-- ============ 节点 4：2024.02（下，红） ============ -->
+  <rect x="732" y="446" width="216" height="150" rx="10" fill="#FFFFFF" stroke="#E64B35" stroke-width="2"/>
+  <text x="748" y="474" font-size="15" font-weight="bold" fill="#E64B35">2024.02</text>
+  <text x="748" y="500" font-size="12" fill="#33332E">AI 生成图混过同行评议与</text>
+  <text x="748" y="520" font-size="12" fill="#33332E">编辑的全部流程，发表约</text>
+  <text x="748" y="540" font-size="12" font-weight="bold" fill="#E64B35">3 天后撤稿</text>
+  <text x="748" y="560" font-size="12" fill="#33332E">（本讲 §3.1 案例本体）</text>
+  <line x1="840" y1="408" x2="840" y2="446" stroke="#E64B35" stroke-width="1.5"/>
+  <circle cx="840" cy="398" r="7" fill="#E64B35"/>
+
+  <!-- ============ 节点 5：2024（上） ============ -->
+  <rect x="932" y="210" width="216" height="140" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="948" y="238" font-size="15" font-weight="bold" fill="#3C5488">2024</text>
+  <text x="948" y="264" font-size="12" fill="#33332E">BioCoder：生信代码生成</text>
+  <text x="948" y="284" font-size="12" fill="#33332E">2,522 个函数级任务，主流模型</text>
+  <text x="948" y="304" font-size="12" fill="#33332E">得分不高——「通用基准</text>
+  <text x="948" y="324" font-size="12" fill="#33332E">分高」外推不到生信（§4.8）</text>
+  <line x1="1060" y1="350" x2="1060" y2="388" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="1060" cy="398" r="7" fill="#3C5488"/>
+
+  <!-- ============ 底部判读 ============ -->
+  <rect x="48" y="632" width="4" height="60" rx="2" fill="#3C5488"/>
+  <text x="64" y="654" font-size="13" fill="#33332E">失败模式在重新分布，而不是消失：能自己跑代码的 agent 压低「幻觉接口」，</text>
+  <text x="64" y="678" font-size="13" fill="#33332E">剩余错误向「静默语义错误」集中——<tspan font-weight="bold" fill="#3C5488">验证的重心随之移动，而不是失效</tspan>（§4.8）。</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="740" font-size="15" font-weight="bold" fill="#3C5488">模型半年一换，判据不随模型更替而失效——五类错误与三步验证法，今天仍成立。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

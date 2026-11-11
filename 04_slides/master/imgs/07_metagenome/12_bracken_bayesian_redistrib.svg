@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="48" y="44" width="704" height="140" fill="#E3E8F2" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="96" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">属层高阶读段</text>
+<rect x="80" y="118" width="64" height="32" fill="#3C8DAD" rx="7"/>
+<rect x="176" y="118" width="64" height="32" fill="#3C8DAD" rx="7"/>
+<rect x="272" y="118" width="64" height="32" fill="#3C8DAD" rx="7"/>
+<rect x="368" y="118" width="64" height="32" fill="#3C8DAD" rx="7"/>
+<rect x="464" y="118" width="64" height="32" fill="#3C8DAD" rx="7"/>
+<rect x="560" y="118" width="64" height="32" fill="#3C8DAD" rx="7"/>
+<rect x="656" y="118" width="64" height="32" fill="#3C8DAD" rx="7"/>
+<line x1="400" y1="184" x2="400" y2="214" stroke="#3C8DAD" stroke-width="4" stroke-linecap="butt"/>
+<rect x="267.02" y="211.07999999999998" width="265.96000000000004" height="57.84" fill="#FFFFFF" rx="10" stroke="#3C8DAD" stroke-width="3"/>
+<text x="400" y="250.24" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">贝叶斯概率下分</text>
+<line x1="400" y1="272" x2="128" y2="330" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="128,330 139.3116525379618,321.7509687320012 141.69269194806282,332.9172225173024" fill="#4DBBD5"/>
+<line x1="400" y1="272" x2="400" y2="330" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="400,330 394.29135365716604,317.2167548356277 405.70864634283396,317.2167548356277" fill="#4DBBD5"/>
+<line x1="400" y1="272" x2="672" y2="330" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="672,330 658.3073080519372,332.9172225173024 660.6883474620382,321.7509687320012" fill="#4DBBD5"/>
+<rect x="32" y="334" width="192" height="96" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<circle cx="58" cy="364" r="11" fill="#00A087"/>
+<rect x="76" y="392" width="128" height="22" fill="#E9E9E5" rx="6"/>
+<rect x="76" y="392" width="128" height="22" fill="#00A087" rx="6"/>
+<rect x="304" y="334" width="192" height="96" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<circle cx="330" cy="364" r="11" fill="#00A087"/>
+<rect x="348" y="392" width="128" height="22" fill="#E9E9E5" rx="6"/>
+<rect x="348" y="392" width="96" height="22" fill="#00A087" rx="6"/>
+<rect x="576" y="334" width="192" height="96" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<circle cx="602" cy="364" r="11" fill="#00A087"/>
+<rect x="620" y="392" width="128" height="22" fill="#E9E9E5" rx="6"/>
+<rect x="620" y="392" width="72" height="22" fill="#00A087" rx="6"/>
+<text x="400" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#00A087" text-anchor="middle" font-weight="bold">重估到种</text>
+<rect x="48" y="512" width="704" height="150" fill="#F6D8D2" rx="16" stroke="#E64B35" stroke-width="4"/>
+<text x="400" y="570" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">不创造新物种</text>
+<text x="400" y="632" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">仍属组成性</text>
+<line x1="98" y1="536" x2="138" y2="576" stroke="#E64B35" stroke-width="7" stroke-linecap="round"/>
+<line x1="138" y1="536" x2="98" y2="576" stroke="#E64B35" stroke-width="7" stroke-linecap="round"/>
+</svg>

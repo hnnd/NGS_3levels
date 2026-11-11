@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="72" width="330" height="340" fill="#FFFFFF" rx="16" stroke="#F39B7F" stroke-width="4"/>
+<text x="205" y="132" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">fastp:0.23.4</text>
+<text x="205" y="210" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">push build A</text>
+<line x1="205" y1="228" x2="205" y2="280" stroke="#F39B7F" stroke-width="4" stroke-linecap="round"/>
+<polygon points="205,280 199.291353657166,267.2167548356277 210.708646342834,267.2167548356277" fill="#F39B7F"/>
+<text x="205" y="324" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">push build B</text>
+<text x="205" y="392" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">标签是可变指针会漂移</text>
+<rect x="430" y="72" width="330" height="340" fill="#FFFFFF" rx="16" stroke="#00A087" stroke-width="4"/>
+<text x="595" y="132" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">fastp@sha256</text>
+<text x="595" y="210" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">3f2a...c19b</text>
+<line x1="595" y1="228" x2="595" y2="280" stroke="#00A087" stroke-width="4" stroke-linecap="round"/>
+<polygon points="595,280 589.291353657166,267.2167548356277 600.708646342834,267.2167548356277" fill="#00A087"/>
+<text x="595" y="324" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">sha256:9c7d...</text>
+<text x="595" y="392" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">永久锁定不可篡改</text>
+<rect x="120" y="448" width="560" height="152" fill="#D6EFF4" rx="14" stroke="#4DBBD5" stroke-width="4"/>
+<text x="400" y="504" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">摘要是内容密码学指纹</text>
+<text x="400" y="562" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">digest = archive lock</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Four-step practice pipeline</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="40" width="720" height="100" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="3"/>
+<rect x="68" y="59.0" width="48.6368" height="62" fill="#3C5488" rx="8"/>
+<text x="92.3184" y="101.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<text x="126" y="78" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">make_answers</text>
+<text x="126" y="120" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">01_make_spikein_counts.R</text>
+<line x1="400" y1="142" x2="400" y2="158" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="400,158 395.51463501634476,147.95602165656462 404.48536498365524,147.95602165656462" fill="#6B6B66"/>
+<rect x="40" y="164" width="720" height="100" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="3"/>
+<rect x="68" y="183.0" width="48.6368" height="62" fill="#3C5488" rx="8"/>
+<text x="92.3184" y="225.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<text x="126" y="202" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">run AI code</text>
+<text x="126" y="244" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">01_ai_generated_de.R</text>
+<line x1="400" y1="266" x2="400" y2="282" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="400,282 395.51463501634476,271.9560216565646 404.48536498365524,271.9560216565646" fill="#6B6B66"/>
+<rect x="40" y="288" width="720" height="100" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="5"/>
+<rect x="68" y="307.0" width="48.6368" height="62" fill="#E64B35" rx="8"/>
+<text x="92.3184" y="349.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="126" y="326" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">verify</text>
+<text x="126" y="368" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">01_verify_de.R</text>
+<line x1="400" y1="390" x2="400" y2="406" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="400,406 395.51463501634476,395.9560216565646 404.48536498365524,395.9560216565646" fill="#6B6B66"/>
+<rect x="40" y="412" width="720" height="100" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="3"/>
+<rect x="68" y="431.0" width="48.6368" height="62" fill="#3C5488" rx="8"/>
+<text x="92.3184" y="473.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">4</text>
+<text x="126" y="450" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">check_refs</text>
+<text x="126" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">01_check_refs.sh</text>
+<rect x="40" y="288" width="720" height="100" fill="none" rx="12" stroke="#E64B35" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="740" y="344" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="end" font-weight="bold">gate</text>
+<rect x="32.0" y="548" width="736" height="116" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="590" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">实践四步流程：造已知答案，智能体执行分析，</text>
+<text x="400.0" y="634" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">三步验证对账，批量核查引用。</text>
+</svg>

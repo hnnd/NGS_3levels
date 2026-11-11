@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">ANI 95%：一个经验阈值，不是自然常数</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">FastANI ｜ Mash ｜ 物种判定 —— 依据 08_project_lecture.md ⑥6.3、⑩练习 2</text>
+  <!-- 图例 -->
+  <rect x="840" y="42" width="12" height="12" fill="#3C5488"/>
+  <text x="860" y="52" font-size="12" fill="#33332E">95% 阈值线</text>
+  <rect x="840" y="59" width="12" height="12" fill="#00A087" opacity="0.5"/>
+  <text x="860" y="69" font-size="12" fill="#33332E">同种区（仍看片段覆盖）</text>
+  <rect x="840" y="76" width="12" height="12" fill="#F39B7F"/>
+  <text x="860" y="86" font-size="12" fill="#33332E">灰区 95–96%</text>
+  <rect x="840" y="93" width="12" height="12" fill="#E64B35"/>
+  <text x="860" y="103" font-size="12" fill="#33332E">反例点位</text>
+
+  <!-- ============ 主面板：ANI 数轴 ============ -->
+  <rect x="48" y="124" width="1104" height="280" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="15" font-weight="bold" fill="#3C5488">把 FastANI 给出的 ANI 值放回数轴上</text>
+  <!-- 区带 -->
+  <rect x="120" y="252" width="500" height="46" fill="#E9E9E5" opacity="0.55"/>
+  <rect x="620" y="252" width="100" height="46" fill="#F39B7F" opacity="0.35"/>
+  <rect x="720" y="252" width="400" height="46" fill="#00A087" opacity="0.14"/>
+  <text x="370" y="280" font-size="12" fill="#6B6B66" text-anchor="middle">非同种（大概率）</text>
+  <text x="670" y="280" font-size="12" font-weight="bold" fill="#33332E" text-anchor="middle">灰区</text>
+  <text x="670" y="244" font-size="9.5" fill="#33332E" text-anchor="middle">结合：片段占比 · Mash 排序 · 树的位置</text>
+  <text x="920" y="280" font-size="12" fill="#00A087" text-anchor="middle">同种（仍要看片段覆盖）</text>
+  <!-- 阈值线 -->
+  <line x1="620" y1="196" x2="620" y2="300" stroke="#3C5488" stroke-width="3"/>
+  <text x="636" y="206" font-size="12" font-weight="bold" fill="#3C5488">95%：阈值线</text>
+  <text x="608" y="224" font-size="10.5" fill="#6B6B66" text-anchor="end">经验拐点，不是自然常数</text>
+  <!-- 反例 96.3 -->
+  <rect x="740" y="176" width="250" height="50" rx="8" fill="#FFFFFF" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="754" y="196" font-size="11" font-weight="bold" fill="#E64B35">反例："ANI = 96.3%，因此是 X 菌"</text>
+  <text x="754" y="215" font-size="10" fill="#6B6B66">无阈值来源、无灰区讨论、无片段数 → 扣分</text>
+  <line x1="750" y1="226" x2="750" y2="294" stroke="#E64B35" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <circle cx="750" cy="300" r="5" fill="#E64B35"/>
+  <text x="762" y="288" font-size="11" font-weight="bold" fill="#E64B35">96.3%</text>
+  <!-- 灰区点 95.4 -->
+  <line x1="660" y1="306" x2="660" y2="338" stroke="#F39B7F" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <circle cx="660" cy="300" r="5" fill="#F39B7F"/>
+  <rect x="514" y="338" width="292" height="52" rx="8" fill="#FFFFFF" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="528" y="358" font-size="11" font-weight="bold" fill="#33332E">95.4% + 比对片段 62%</text>
+  <text x="528" y="377" font-size="10" fill="#6B6B66">仅凭这两个数不能下"同种"结论（⑩练习 2）</text>
+  <!-- 轴与刻度 -->
+  <line x1="120" y1="300" x2="1120" y2="300" stroke="#33332E" stroke-width="2"/>
+  <line x1="120" y1="300" x2="120" y2="308" stroke="#33332E" stroke-width="1"/><text x="120" y="326" font-size="10.5" fill="#6B6B66" text-anchor="middle">90</text>
+  <line x1="220" y1="300" x2="220" y2="308" stroke="#33332E" stroke-width="1"/><text x="220" y="326" font-size="10.5" fill="#6B6B66" text-anchor="middle">91</text>
+  <line x1="320" y1="300" x2="320" y2="308" stroke="#33332E" stroke-width="1"/><text x="320" y="326" font-size="10.5" fill="#6B6B66" text-anchor="middle">92</text>
+  <line x1="420" y1="300" x2="420" y2="308" stroke="#33332E" stroke-width="1"/><text x="420" y="326" font-size="10.5" fill="#6B6B66" text-anchor="middle">93</text>
+  <line x1="520" y1="300" x2="520" y2="308" stroke="#33332E" stroke-width="1"/><text x="520" y="326" font-size="10.5" fill="#6B6B66" text-anchor="middle">94</text>
+  <line x1="620" y1="300" x2="620" y2="308" stroke="#3C5488" stroke-width="2"/><text x="620" y="326" font-size="10.5" font-weight="bold" fill="#3C5488" text-anchor="middle">95</text>
+  <line x1="720" y1="300" x2="720" y2="308" stroke="#33332E" stroke-width="1"/><text x="720" y="326" font-size="10.5" fill="#6B6B66" text-anchor="middle">96</text>
+  <line x1="820" y1="300" x2="820" y2="308" stroke="#33332E" stroke-width="1"/><text x="820" y="326" font-size="10.5" fill="#6B6B66" text-anchor="middle">97</text>
+  <line x1="920" y1="300" x2="920" y2="308" stroke="#33332E" stroke-width="1"/><text x="920" y="326" font-size="10.5" fill="#6B6B66" text-anchor="middle">98</text>
+  <line x1="1020" y1="300" x2="1020" y2="308" stroke="#33332E" stroke-width="1"/><text x="1020" y="326" font-size="10.5" fill="#6B6B66" text-anchor="middle">99</text>
+  <line x1="1120" y1="300" x2="1120" y2="308" stroke="#33332E" stroke-width="1"/><text x="1120" y="326" font-size="10.5" fill="#6B6B66" text-anchor="middle">100</text>
+  <text x="1120" y="348" font-size="10" fill="#6B6B66" text-anchor="end">FastANI 的 ANI（%）</text>
+
+  <!-- ============ 三张判读卡 ============ -->
+  <rect x="48" y="428" width="352" height="124" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="428" width="4" height="124" rx="2" fill="#3C5488"/>
+  <text x="70" y="456" font-size="12.5" font-weight="bold" fill="#3C5488">阈值从哪来</text>
+  <text x="70" y="480" font-size="11" fill="#33332E">数万个原核基因组 ANI 经验分布的拐点；</text>
+  <text x="70" y="498" font-size="11" fill="#33332E">不是自然常数，也不是所有类群</text>
+  <text x="70" y="516" font-size="11" fill="#33332E">都同样适用。</text>
+  <rect x="424" y="428" width="352" height="124" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="424" y="428" width="4" height="124" rx="2" fill="#4DBBD5"/>
+  <text x="446" y="456" font-size="12.5" font-weight="bold" fill="#3C8DAD">Mash 与 FastANI 的分工</text>
+  <text x="446" y="480" font-size="11" fill="#33332E">Mash 快速缩小范围、决定下载哪些参考；</text>
+  <text x="446" y="498" font-size="11" fill="#33332E">最终判定用 FastANI——两者不一致时</text>
+  <text x="446" y="516" font-size="11" fill="#33332E">以 FastANI 为准，并写明分歧。</text>
+  <rect x="800" y="428" width="352" height="124" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="800" y="428" width="4" height="124" rx="2" fill="#F39B7F"/>
+  <text x="822" y="456" font-size="12.5" font-weight="bold" fill="#3C5488">同时看覆盖度</text>
+  <text x="822" y="480" font-size="11" fill="#33332E">ANI 高但只有很少片段比对上，说明</text>
+  <text x="822" y="498" font-size="11" fill="#33332E">只有局部同源——</text>
+  <text x="822" y="516" font-size="11" fill="#33332E">这种"高 ANI"没有意义。</text>
+
+  <!-- ============ 正确写法 ============ -->
+  <rect x="48" y="576" width="1104" height="112" rx="10" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <rect x="48" y="576" width="4" height="112" rx="2" fill="#00A087"/>
+  <text x="72" y="608" font-size="13" font-weight="bold" fill="#00A087">写进报告的"同种判定"要含四件事</text>
+  <text x="72" y="636" font-size="12" fill="#33332E">阈值来源（95% 的出处与边界） ｜ 你的 ANI 值 ｜ 比对片段覆盖 ｜ 为什么排除次优候选</text>
+  <text x="72" y="662" font-size="11" fill="#6B6B66">只报一个数字就下结论，按评分细则属于"技术准确性"扣分项。</text>
+
+  <!-- ============ 结语与页脚 ============ -->
+  <text x="48" y="736" font-size="13.5" font-weight="bold" fill="#3C5488">ANI 从来不是一个数：阈值来源、你的值、片段覆盖、排除理由——四件齐了，才叫物种判定。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

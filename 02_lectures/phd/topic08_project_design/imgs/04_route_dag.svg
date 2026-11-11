@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">技术路线图就是 DAG：与工作流引擎同构</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">节点六要素 ｜ 三种病征 —— 依据 08_project_design_lecture.md ④4.2（衔接 p07）</text>
+  <!-- 图例 -->
+  <rect x="926" y="36" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="46" font-size="12" fill="#33332E">输入数据</text>
+  <rect x="926" y="58" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="68" font-size="12" fill="#33332E">逐样本节点</text>
+  <rect x="926" y="80" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="90" font-size="12" fill="#33332E">汇总节点（等全部样本到齐）</text>
+  <rect x="926" y="102" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="112" font-size="12" fill="#33332E">统计推断节点（标插件出处）</text>
+
+  <!-- ============ 面板 A：路线图 ============ -->
+  <rect x="48" y="124" width="640" height="556" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="17" font-weight="bold" fill="#3C5488">一份方案的技术路线图（示意）</text>
+  <text x="72" y="178" font-size="12" fill="#6B6B66">节点 = 分析步骤，边 = 数据依赖——p07 的 DAG 换个画法</text>
+  <line x1="72" y1="192" x2="664" y2="192" stroke="#E9E9E5"/>
+
+  <!-- 第一行 -->
+  <rect x="72" y="214" width="104" height="48" rx="8" fill="#4DBBD5"/>
+  <text x="124" y="236" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">样本清单</text>
+  <text x="124" y="254" font-size="9.5" fill="#EAF7FB" text-anchor="middle">3 重复 × 2 处理</text>
+  <line x1="176" y1="238" x2="202" y2="238" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="208,238 200,234 200,242" fill="#6B6B66"/>
+  <rect x="210" y="214" width="120" height="48" rx="8" fill="#3C5488"/>
+  <text x="270" y="236" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">质控</text>
+  <text x="270" y="254" font-size="9.5" fill="#D8DEEC" text-anchor="middle">逐样本 × 6</text>
+  <line x1="330" y1="238" x2="346" y2="238" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="352,238 344,234 344,242" fill="#6B6B66"/>
+  <rect x="354" y="214" width="120" height="48" rx="8" fill="#3C5488"/>
+  <text x="414" y="236" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">比对定量</text>
+  <text x="414" y="254" font-size="9.5" fill="#D8DEEC" text-anchor="middle">逐样本 × 6</text>
+  <line x1="474" y1="238" x2="490" y2="238" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="496,238 488,234 488,242" fill="#6B6B66"/>
+  <rect x="498" y="214" width="140" height="48" rx="8" fill="#F39B7F"/>
+  <text x="568" y="236" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">汇总矩阵</text>
+  <text x="568" y="254" font-size="9.5" fill="#33332E" text-anchor="middle">等全部样本到齐</text>
+
+  <!-- 下行 -->
+  <polyline points="568,262 568,284 524,284 524,298" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="524,304 520,296 528,296" fill="#6B6B66"/>
+  <polyline points="270,262 270,284 152,284 152,298" fill="none" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="152,304 148,296 156,296" fill="#6B6B66"/>
+
+  <rect x="72" y="304" width="160" height="48" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="152" y="326" font-size="12" font-weight="bold" fill="#00A087" text-anchor="middle">PCA 批次检查</text>
+  <text x="152" y="344" font-size="9.5" fill="#6B6B66" text-anchor="middle">统计依据：l0_06_stats</text>
+  <rect x="424" y="304" width="200" height="48" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="524" y="326" font-size="12" font-weight="bold" fill="#00A087" text-anchor="middle">差异与通路定位</text>
+  <text x="524" y="344" font-size="9.5" fill="#6B6B66" text-anchor="middle">统计插件：p02（多重检验）</text>
+  <line x1="232" y1="330" x2="414" y2="330" stroke="#6B6B66" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="420,330 412,326 412,334" fill="#6B6B66"/>
+  <line x1="524" y1="352" x2="524" y2="376" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="524,382 520,374 528,374" fill="#6B6B66"/>
+  <rect x="424" y="382" width="200" height="48" rx="8" fill="#3C5488"/>
+  <text x="524" y="404" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">预期组图骨架</text>
+  <text x="524" y="422" font-size="9.5" fill="#D8DEEC" text-anchor="middle">Fig.1–6 各承载一个论点</text>
+
+  <!-- 六要素 callout -->
+  <rect x="72" y="470" width="568" height="126" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="72" y="470" width="4" height="126" rx="2" fill="#3C5488"/>
+  <text x="92" y="494" font-size="12.5" font-weight="bold" fill="#3C5488">每个节点写全六要素（画路线图的规矩）</text>
+  <rect x="92" y="504" width="170" height="26" rx="5" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="177" y="522" font-size="11.5" fill="#33332E" text-anchor="middle">输入</text>
+  <rect x="272" y="504" width="170" height="26" rx="5" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="357" y="522" font-size="11.5" fill="#33332E" text-anchor="middle">工具（版本）</text>
+  <rect x="452" y="504" width="170" height="26" rx="5" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="537" y="522" font-size="11.5" fill="#33332E" text-anchor="middle">关键参数</text>
+  <rect x="92" y="536" width="170" height="26" rx="5" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="177" y="554" font-size="11.5" fill="#33332E" text-anchor="middle">输出</text>
+  <rect x="272" y="536" width="170" height="26" rx="5" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="357" y="554" font-size="11.5" fill="#33332E" text-anchor="middle">预期结果</text>
+  <rect x="452" y="536" width="170" height="26" rx="5" fill="#FFFFFF" stroke="#E64B35"/>
+  <text x="537" y="554" font-size="11.5" fill="#E64B35" text-anchor="middle">结果不对时长什么样</text>
+  <text x="92" y="586" font-size="11" fill="#6B6B66">例（方案 B）：预期 病斑核心与边缘可区分；不对时 差异基因少于 50 个 → 转 LMD + bulk</text>
+
+  <text x="72" y="630" font-size="12" fill="#33332E">标注两件事：哪些节点必须等全部样本到齐（决定最早出</text>
+  <text x="72" y="650" font-size="12" fill="#33332E">结果的时间）；每个推断节点依赖哪一讲的统计插件。</text>
+
+  <!-- ============ 面板 B：三种病征 ============ -->
+  <rect x="712" y="124" width="440" height="556" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="736" y="156" font-size="17" font-weight="bold" fill="#3C5488">路线图的三种病征</text>
+  <text x="736" y="178" font-size="12" fill="#6B6B66">在 DAG 里长什么样——评审前自己先攻一遍（④6）</text>
+  <line x1="736" y1="192" x2="1128" y2="192" stroke="#E9E9E5"/>
+
+  <text x="736" y="230" font-size="12.5" font-weight="bold" fill="#3C5488">病征一 · 缺入边</text>
+  <text x="736" y="256" font-size="12" fill="#33332E">病：某步的输入说不清从哪来</text>
+  <text x="736" y="278" font-size="12" fill="#6B6B66">诊：该节点没有入边</text>
+  <text x="736" y="300" font-size="12" fill="#E64B35">果：到执行时才发现缺数据</text>
+  <circle cx="1024" cy="270" r="4" fill="none" stroke="#E64B35" stroke-width="1.5"/>
+  <line x1="1030" y1="270" x2="1050" y2="270" stroke="#E64B35" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <rect x="1052" y="252" width="56" height="36" rx="5" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="1080" y="274" font-size="9.5" fill="#6B6B66" text-anchor="middle">某步</text>
+
+  <line x1="736" y1="330" x2="1128" y2="330" stroke="#E9E9E5"/>
+
+  <text x="736" y="366" font-size="12.5" font-weight="bold" fill="#3C5488">病征二 · 不汇合</text>
+  <text x="736" y="392" font-size="12" fill="#33332E">病：两条支线各做各的，最后拼不起来</text>
+  <text x="736" y="414" font-size="12" fill="#6B6B66">诊：两个连通分量，没有汇合节点</text>
+  <text x="736" y="436" font-size="12" fill="#E64B35">果：做完发现两组结果无法互相印证</text>
+  <rect x="1030" y="384" width="44" height="30" rx="5" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="1090" y="414" width="44" height="30" rx="5" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <line x1="736" y1="466" x2="1128" y2="466" stroke="#E9E9E5"/>
+
+  <text x="736" y="502" font-size="12.5" font-weight="bold" fill="#3C5488">病征三 · 全串行</text>
+  <text x="736" y="528" font-size="12" fill="#33332E">病：每一步都要“看结果再定下一步”</text>
+  <text x="736" y="550" font-size="12" fill="#6B6B66">诊：全是串行、无并行</text>
+  <text x="736" y="572" font-size="12" fill="#E64B35">果：无法估工期，也无法工程化</text>
+  <rect x="1052" y="514" width="60" height="22" rx="4" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <line x1="1082" y1="536" x2="1082" y2="544" stroke="#6B6B66" stroke-width="1.2"/>
+  <polygon points="1082,548 1079,542 1085,542" fill="#6B6B66"/>
+  <rect x="1052" y="550" width="60" height="22" rx="4" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <line x1="1082" y1="572" x2="1082" y2="580" stroke="#6B6B66" stroke-width="1.2"/>
+  <polygon points="1082,584 1079,578 1085,578" fill="#6B6B66"/>
+  <rect x="1052" y="586" width="60" height="22" rx="4" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <text x="736" y="646" font-size="11.5" fill="#6B6B66">自评时逐条对照：病征一、二说明方案缺数据或缺汇合，</text>
+  <text x="736" y="664" font-size="11.5" fill="#6B6B66">病征三说明路线没有可并行、可工程化的结构。</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="1104" height="58" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="48" y="696" width="4" height="58" rx="2" fill="#3C5488"/>
+  <text x="66" y="718" font-size="12.5" fill="#33332E">路线图与 Nextflow / Snakemake 的 DAG 是同一个东西的两种画法——⑩-6：把你的路线图改写成流程草图，标出哪些节点逐样本、哪些必须等全部样本到齐。</text>
+  <text x="66" y="740" font-size="12.5" fill="#33332E">“结果出来才知道下一步”的节点：Snakemake 用 checkpoint 打补丁，Nextflow 的数据流天然表达（p07 ④1）——这一条常常直接决定你该选哪个引擎。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

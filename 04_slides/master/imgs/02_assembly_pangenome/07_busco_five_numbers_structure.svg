@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="470" y="70" width="300" height="150" fill="#FFFFFF" rx="16" stroke="#E64B35" stroke-width="7"/>
+<text x="620" y="132" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="46" fill="#3C5488" text-anchor="middle" font-weight="bold">n = 124</text>
+<text x="620" y="188" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">先报库名与分母 n</text>
+<rect x="60" y="300" width="663.68" height="100" fill="#4DBBD5" stroke="#FFFFFF" stroke-width="3"/>
+<text x="391.84" y="362" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">S 97.6%</text>
+<rect x="723.68" y="300" width="5.44" height="100" fill="#F39B7F" stroke="#FFFFFF" stroke-width="3"/>
+<rect x="729.12" y="300" width="6.12" height="100" fill="#8491B4" stroke="#FFFFFF" stroke-width="3"/>
+<rect x="735.24" y="300" width="4.76" height="100" fill="#E9E9E5" stroke="#FFFFFF" stroke-width="3"/>
+<line x1="60" y1="274" x2="729.12" y2="274" stroke="#3C5488" stroke-width="6" stroke-linecap="butt"/>
+<line x1="60" y1="274" x2="60" y2="292" stroke="#3C5488" stroke-width="6" stroke-linecap="butt"/>
+<line x1="729.12" y1="274" x2="729.12" y2="292" stroke="#3C5488" stroke-width="6" stroke-linecap="butt"/>
+<text x="394.56" y="256" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">完整 C = 单拷贝 S + 多拷贝 D</text>
+<rect x="220" y="442" width="22" height="22" fill="#F39B7F" stroke="#6B6B66" stroke-width="2"/>
+<text x="252" y="463" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">D 0.8%</text>
+<rect x="370" y="442" width="22" height="22" fill="#8491B4" stroke="#6B6B66" stroke-width="2"/>
+<text x="402" y="463" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">F 0.9%</text>
+<rect x="520" y="442" width="22" height="22" fill="#E9E9E5" stroke="#6B6B66" stroke-width="2"/>
+<text x="552" y="463" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">M 0.7%</text>
+<text x="400" y="516" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#6B6B66" text-anchor="middle" font-weight="bold">碎片 F 与缺失 M</text>
+<text x="400" y="578" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">C + F + M = 100%</text>
+<text x="400" y="646" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">只报 C 无法解读</text>
+</svg>

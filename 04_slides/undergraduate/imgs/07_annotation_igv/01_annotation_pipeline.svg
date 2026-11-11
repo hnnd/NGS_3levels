@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="70" y1="118" x2="730" y2="118" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="70" y1="118" x2="70" y2="140" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="730" y1="118" x2="730" y2="140" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<text x="400" y="88" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">注释是数据总线</text>
+<rect x="50" y="230" width="160" height="140" fill="#3C5488" rx="14"/>
+<text x="130.0" y="311.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">FASTA</text>
+<line x1="212" y1="300.0" x2="228" y2="300.0" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="228,300.0 211.56439907437846,307.3396881550723 211.56439907437846,292.6603118449277" fill="#6B6B66"/>
+<rect x="230" y="230" width="160" height="140" fill="#4DBBD5" rx="14"/>
+<text x="310.0" y="290.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">结构注释</text>
+<text x="310.0" y="332.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">找位置</text>
+<line x1="392" y1="300.0" x2="408" y2="300.0" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="408,300.0 391.56439907437846,307.3396881550723 391.56439907437846,292.6603118449277" fill="#6B6B66"/>
+<rect x="410" y="230" width="160" height="140" fill="#8491B4" rx="14"/>
+<text x="490.0" y="290.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">功能注释</text>
+<text x="490.0" y="332.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">赋名字</text>
+<line x1="572" y1="300.0" x2="588" y2="300.0" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="588,300.0 571.5643990743785,307.3396881550723 571.5643990743785,292.6603118449277" fill="#6B6B66"/>
+<rect x="590" y="230" width="160" height="140" fill="#00A087" rx="14"/>
+<text x="670.0" y="269.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">compare</text>
+<text x="670.0" y="311.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">pathway</text>
+<text x="670.0" y="353.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">breeding</text>
+<rect x="190" y="560" width="420" height="60" fill="#E64B35" rx="12"/>
+<text x="400" y="602" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">实验验证看功能</text>
+</svg>

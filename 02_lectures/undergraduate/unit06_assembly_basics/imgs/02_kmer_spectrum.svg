@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">k-mer 频率分布：一张图估出基因组大小</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">低频错误尾 ｜ 主峰 = 深度 ｜ 重复小峰 ｜ 杂合警示 —— 依据 06_assembly_basics_lecture.md ④4.1–4.2 ｜ ⑥6.1</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="57" font-size="12" fill="#33332E">测序错误</text>
+  <rect x="1034" y="46" width="12" height="12" fill="#4DBBD5"/>
+  <text x="1054" y="57" font-size="12" fill="#33332E">单拷贝主峰</text>
+  <rect x="926" y="68" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="79" font-size="12" fill="#33332E">重复 2×</text>
+  <rect x="1034" y="68" width="12" height="12" fill="#8491B4"/>
+  <text x="1054" y="79" font-size="12" fill="#33332E">杂合 ½×</text>
+
+  <!-- ============ 左：分布图 ============ -->
+  <rect x="48" y="120" width="700" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="130" y="166" font-size="11" fill="#6B6B66">纵轴：该深度的 k-mer 种类数（对数示意）｜ 横轴：k-mer 深度（覆盖倍数）</text>
+
+  <!-- 坐标轴 -->
+  <line x1="120" y1="180" x2="120" y2="590" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="120" y1="590" x2="710" y2="590" stroke="#6B6B66" stroke-width="1.5"/>
+
+  <!-- 错误尾 -->
+  <path d="M 128 590 L 132 196 Q 135 182 139 196 L 148 590 Z" fill="#FDF2F0" stroke="#E64B35" stroke-width="1.5"/>
+  <!-- 杂合峰 -->
+  <path d="M 190 590 Q 251 442 312 590 Z" fill="#EDEFF5" stroke="#8491B4" stroke-width="1.5"/>
+  <!-- 主峰 -->
+  <path d="M 253 590 Q 373 292 493 590 Z" fill="#E7F5F9" stroke="#3C8DAD" stroke-width="2"/>
+  <!-- 重复峰 -->
+  <path d="M 556 590 Q 616 470 676 590 Z" fill="#FDEEEA" stroke="#F39B7F" stroke-width="1.5"/>
+
+  <!-- 刻度 -->
+  <text x="130" y="608" font-size="10.5" fill="#6B6B66" text-anchor="middle">0</text>
+  <text x="211" y="608" font-size="10.5" fill="#6B6B66" text-anchor="middle">10</text>
+  <text x="292" y="608" font-size="10.5" fill="#6B6B66" text-anchor="middle">20</text>
+  <text x="373" y="608" font-size="10.5" fill="#6B6B66" text-anchor="middle">30</text>
+  <text x="454" y="608" font-size="10.5" fill="#6B6B66" text-anchor="middle">40</text>
+  <text x="535" y="608" font-size="10.5" fill="#6B6B66" text-anchor="middle">50</text>
+  <text x="616" y="608" font-size="10.5" fill="#6B6B66" text-anchor="middle">60</text>
+  <text x="697" y="608" font-size="10.5" fill="#6B6B66" text-anchor="middle">70</text>
+  <line x1="373" y1="590" x2="373" y2="296" stroke="#00A087" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- 标注：错误尾 -->
+  <text x="168" y="216" font-size="11.5" font-weight="bold" fill="#E64B35">测序错误：读错 1 个碱基，</text>
+  <text x="168" y="236" font-size="11.5" font-weight="bold" fill="#E64B35">造出 k 个只出现 1 次的错误 k-mer</text>
+  <!-- 标注：杂合峰 -->
+  <text x="234" y="398" font-size="11.5" font-weight="bold" fill="#8491B4" text-anchor="middle">杂合位点（≈ ½ 深度）</text>
+  <text x="234" y="416" font-size="11" fill="#E64B35" text-anchor="middle">细菌单倍体不该有：</text>
+  <text x="234" y="432" font-size="11" fill="#E64B35" text-anchor="middle">警惕混菌 / 污染（⑥6.1）</text>
+  <!-- 标注：主峰 -->
+  <text x="404" y="272" font-size="12.5" font-weight="bold" fill="#00A087" text-anchor="middle">主峰位置 kcov = 有效测序深度</text>
+  <text x="404" y="291" font-size="11" fill="#6B6B66" text-anchor="middle">单拷贝区域；细菌项目 kcov &lt; 20 要警觉</text>
+  <!-- 标注：重复峰 -->
+  <text x="616" y="446" font-size="11.5" font-weight="bold" fill="#D9785A" text-anchor="middle">2× 处鼓包 = 重复序列</text>
+  <text x="616" y="464" font-size="11" fill="#6B6B66" text-anchor="middle">测到几份就是几倍</text>
+
+  <!-- 公式带 -->
+  <rect x="72" y="632" width="652" height="40" rx="6" fill="#FAFAF7"/>
+  <rect x="72" y="632" width="4" height="40" rx="2" fill="#3C5488"/>
+  <text x="88" y="657" font-size="12.5" font-weight="bold" fill="#3C5488">基因组大小 ≈ k-mer 总数 ÷ 主峰位置——没有公式，就是总量除以单位量（④4.1）</text>
+
+  <!-- ============ 右：k 值选择 ============ -->
+  <rect x="780" y="120" width="372" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="804" y="152" font-size="16" font-weight="bold" fill="#3C5488">k 值怎么选（④4.2）</text>
+  <text x="804" y="186" font-size="12.5" font-weight="bold" fill="#D9785A">k 太小（如 11）</text>
+  <text x="804" y="208" font-size="11.5" fill="#33332E">4^11 ≈ 400 万，与细菌基因组同量级：</text>
+  <text x="804" y="228" font-size="11.5" fill="#33332E">纯靠随机就会撞见好几次——重复高估、</text>
+  <text x="804" y="248" font-size="11.5" fill="#33332E">大小低估，主峰右移</text>
+  <text x="804" y="282" font-size="12.5" font-weight="bold" fill="#8491B4">k 太大（如 31 配 100 bp 读长）</text>
+  <text x="804" y="304" font-size="11.5" fill="#33332E">每条 read 的 k-mer 产量下降；且 k 越长</text>
+  <text x="804" y="324" font-size="11.5" fill="#33332E">含错概率越大——主峰矮胖、低频尾变肥</text>
+  <text x="804" y="358" font-size="12.5" font-weight="bold" fill="#00A087">k = 21：默认值的理由，不是魔法数字</text>
+  <text x="804" y="380" font-size="11.5" fill="#33332E">4^21 ≈ 4.4 万亿 → 随机重复几乎不可能；</text>
+  <text x="804" y="400" font-size="11.5" fill="#33332E">又留给 100–150 bp 读长足够产量与容错</text>
+  <line x1="804" y1="424" x2="1128" y2="424" stroke="#E9E9E5"/>
+  <text x="804" y="452" font-size="12.5" font-weight="bold" fill="#3C5488">画图提示（④4.1）</text>
+  <text x="804" y="474" font-size="11.5" fill="#33332E">.histo 首行数值极大：去掉前几行或 y 轴</text>
+  <text x="804" y="494" font-size="11.5" fill="#33332E">取对数，否则主峰被压成贴地的线</text>
+  <rect x="804" y="514" width="324" height="146" rx="8" fill="#FAFAF7"/>
+  <rect x="804" y="514" width="4" height="146" rx="2" fill="#3C5488"/>
+  <text x="820" y="540" font-size="12.5" font-weight="bold" fill="#3C5488">没有主峰 = 数据撑不住（⑥6.1）</text>
+  <text x="820" y="564" font-size="11.5" fill="#33332E">从左端单调降到 0：深度不足，或拿</text>
+  <text x="820" y="584" font-size="11.5" fill="#33332E">PacBio CLR 来数 k-mer——21-mer 至少</text>
+  <text x="820" y="604" font-size="11.5" fill="#33332E">含 1 个错误的概率 &gt; 90%（§9-5）</text>
+  <text x="820" y="628" font-size="11.5" fill="#33332E">三档 k 估出大小差 2 倍以上 → 写明</text>
+  <text x="820" y="648" font-size="11.5" fill="#33332E">「本数据不足以给出可靠估计」</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

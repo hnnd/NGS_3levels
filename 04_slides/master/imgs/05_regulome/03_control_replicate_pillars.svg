@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400.0" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">背景模型两足</text>
+<rect x="92" y="140" width="616" height="82" fill="#E3E8F2" rx="16" stroke="#3C5488" stroke-width="4"/>
+<polygon points="158,208 178,154 198,208" fill="#E3E8F2" stroke="#3C5488" stroke-width="3"/>
+<polygon points="232,208 252,154 272,208" fill="#E3E8F2" stroke="#3C5488" stroke-width="3"/>
+<polygon points="306,208 326,154 346,208" fill="#E3E8F2" stroke="#3C5488" stroke-width="3"/>
+<polygon points="380,208 400,154 420,208" fill="#E3E8F2" stroke="#3C5488" stroke-width="3"/>
+<polygon points="454,208 474,154 494,208" fill="#E3E8F2" stroke="#3C5488" stroke-width="3"/>
+<polygon points="528,208 548,154 568,208" fill="#E3E8F2" stroke="#3C5488" stroke-width="3"/>
+<polygon points="602,208 622,154 642,208" fill="#E3E8F2" stroke="#3C5488" stroke-width="3"/>
+<line x1="64" y1="486" x2="736" y2="486" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="76" y1="486" x2="63" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="102" y1="486" x2="89" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="128" y1="486" x2="115" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="154" y1="486" x2="141" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="180" y1="486" x2="167" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="206" y1="486" x2="193" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="232" y1="486" x2="219" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="258" y1="486" x2="245" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="284" y1="486" x2="271" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="310" y1="486" x2="297" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="336" y1="486" x2="323" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="362" y1="486" x2="349" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="388" y1="486" x2="375" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="414" y1="486" x2="401" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="440" y1="486" x2="427" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="466" y1="486" x2="453" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="492" y1="486" x2="479" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="518" y1="486" x2="505" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="544" y1="486" x2="531" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="570" y1="486" x2="557" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="596" y1="486" x2="583" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="622" y1="486" x2="609" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="648" y1="486" x2="635" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="674" y1="486" x2="661" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="700" y1="486" x2="687" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<line x1="726" y1="486" x2="713" y2="499" stroke="#6B6B66" stroke-width="2" stroke-linecap="butt"/>
+<rect x="218" y="222" width="150" height="264" fill="#4DBBD5" rx="10" stroke="#3C8DAD" stroke-width="4"/>
+<line x1="244" y1="300" x2="342" y2="300" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt"/>
+<line x1="244" y1="330" x2="342" y2="330" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt"/>
+<line x1="244" y1="360" x2="342" y2="360" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt"/>
+<line x1="244" y1="396" x2="342" y2="396" stroke="#FFFFFF" stroke-width="8" stroke-linecap="butt"/>
+<rect x="464" y="222" width="150" height="264" fill="#00A087" rx="10"/>
+<circle cx="502" cy="288" r="7" fill="#FFFFFF"/>
+<circle cx="540" cy="316" r="7" fill="#FFFFFF"/>
+<circle cx="516" cy="344" r="7" fill="#FFFFFF"/>
+<circle cx="556" cy="372" r="7" fill="#FFFFFF"/>
+<circle cx="508" cy="400" r="7" fill="#FFFFFF"/>
+<circle cx="548" cy="428" r="7" fill="#FFFFFF"/>
+<circle cx="524" cy="456" r="7" fill="#FFFFFF"/>
+<circle cx="562" cy="292" r="7" fill="#FFFFFF"/>
+<text x="293" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">对照扣除偏差</text>
+<text x="539" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">生物学重复压制</text>
+<text x="539" y="608" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">随机噪声</text>
+</svg>

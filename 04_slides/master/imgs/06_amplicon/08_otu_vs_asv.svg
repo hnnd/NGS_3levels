@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="22" y="60" width="356" height="580" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<rect x="422" y="60" width="356" height="580" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<text x="200.0" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">OTU</text>
+<text x="200.0" y="162" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">97%</text>
+<circle cx="200.0" cy="292" r="104" fill="#FBE3D8" stroke="#F39B7F" stroke-width="4" stroke-dasharray="12 8"/>
+<rect x="120.0" y="248" width="160" height="14" fill="#C0623F" rx="4"/>
+<rect x="120.0" y="276" width="160" height="14" fill="#F39B7F" rx="4"/>
+<rect x="202.0" y="276" width="14" height="14" fill="#FFFFFF" rx="2"/>
+<rect x="120.0" y="304" width="160" height="14" fill="#F39B7F" rx="4"/>
+<rect x="232.0" y="304" width="14" height="14" fill="#FFFFFF" rx="2"/>
+<rect x="120.0" y="332" width="160" height="14" fill="#F39B7F" rx="4"/>
+<rect x="262.0" y="332" width="14" height="14" fill="#FFFFFF" rx="2"/>
+<circle cx="200.0" cy="262" r="11" fill="#3C5488"/>
+<text x="200.0" y="459.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#C0623F" text-anchor="middle">聚类抹平误差</text>
+<text x="200.0" y="539.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle">不可跨研究</text>
+<text x="600.0" y="116" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">ASV</text>
+<text x="600.0" y="162" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">100%</text>
+<rect x="508.0" y="216" width="184" height="14" fill="#4DBBD5" rx="4"/>
+<rect x="542.0" y="216" width="14" height="14" fill="#3C5488" rx="2"/>
+<rect x="508.0" y="268" width="184" height="14" fill="#4DBBD5" rx="4"/>
+<rect x="596.0" y="268" width="14" height="14" fill="#3C5488" rx="2"/>
+<rect x="508.0" y="320" width="184" height="14" fill="#4DBBD5" rx="4"/>
+<rect x="650.0" y="320" width="14" height="14" fill="#3C5488" rx="2"/>
+<line x1="500.0" y1="246" x2="700.0" y2="246" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<line x1="500.0" y1="298" x2="700.0" y2="298" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<text x="600.0" y="459.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle">单碱基分辨</text>
+<text x="600.0" y="539.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle">序列即身份</text>
+</svg>

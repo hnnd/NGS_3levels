@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#3C5488" text-anchor="middle" font-weight="bold">Killed 只说被终止</text>
+<text x="400" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">三种来源查三处</text>
+<rect x="280" y="132" width="240" height="60" fill="#4A4A46" rx="10"/>
+<text x="400" y="172" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">$ Killed</text>
+<rect x="40" y="236" width="220" height="250" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="150" y="290" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">内存耗尽</text>
+<line x1="70" y1="318" x2="230" y2="318" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<circle cx="150" cy="372" r="20" fill="none" stroke="#6B6B66" stroke-width="4"/>
+<line x1="164" y1="388" x2="180" y2="404" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<rect x="66" y="418" width="168" height="52" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="150" y="454" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">free -h</text>
+<rect x="290" y="236" width="220" height="250" fill="#FFFFFF" rx="14" stroke="#F39B7F" stroke-width="5"/>
+<text x="400" y="290" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">超限额</text>
+<line x1="320" y1="318" x2="480" y2="318" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<circle cx="400" cy="372" r="20" fill="none" stroke="#6B6B66" stroke-width="4"/>
+<line x1="414" y1="388" x2="430" y2="404" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<rect x="316" y="418" width="168" height="52" fill="#E3E8F2" rx="8" stroke="#F39B7F" stroke-width="3"/>
+<text x="400" y="454" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">qstat -j</text>
+<rect x="540" y="236" width="220" height="250" fill="#FFFFFF" rx="14" stroke="#8491B4" stroke-width="5"/>
+<text x="650" y="290" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="middle" font-weight="bold">登录节点</text>
+<line x1="570" y1="318" x2="730" y2="318" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<circle cx="650" cy="372" r="20" fill="none" stroke="#6B6B66" stroke-width="4"/>
+<line x1="664" y1="388" x2="680" y2="404" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<rect x="566" y="418" width="168" height="52" fill="#E3E8F2" rx="8" stroke="#8491B4" stroke-width="3"/>
+<text x="650" y="454" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">hostname</text>
+<line x1="400" y1="192" x2="150" y2="230" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<line x1="400" y1="192" x2="400" y2="230" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<line x1="400" y1="192" x2="650" y2="230" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<rect x="170" y="560" width="460" height="70" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="4"/>
+<text x="400" y="606" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#E64B35" text-anchor="middle" font-weight="bold">先核对，别先加核</text>
+</svg>

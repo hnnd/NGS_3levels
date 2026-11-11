@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">过滤标记</text>
+<rect x="34" y="132" width="190" height="300" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="129.0" y="174" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">原始</text>
+<rect x="68" y="216" width="122" height="18" fill="#4DBBD5" rx="4"/>
+<rect x="68" y="250" width="122" height="18" fill="#4DBBD5" rx="4"/>
+<rect x="68" y="284" width="122" height="18" fill="#4DBBD5" rx="4"/>
+<rect x="68" y="318" width="122" height="18" fill="#4DBBD5" rx="4"/>
+<rect x="68" y="352" width="122" height="18" fill="#4DBBD5" rx="4"/>
+<rect x="68" y="386" width="122" height="18" fill="#4DBBD5" rx="4"/>
+<rect x="268" y="130" width="210" height="312" fill="#FFFFFF" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="373.0" y="170" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">滤除</text>
+<rect x="288" y="208" width="62" height="28" fill="#E9E9E5" rx="6"/>
+<text x="319" y="229" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">4</text>
+<rect x="364" y="213" width="94" height="18" fill="#CFCFC9" rx="4"/>
+<line x1="370" y1="230" x2="452" y2="214" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<rect x="288" y="248" width="62" height="28" fill="#E9E9E5" rx="6"/>
+<text x="319" y="269" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">8</text>
+<rect x="364" y="253" width="94" height="18" fill="#CFCFC9" rx="4"/>
+<line x1="370" y1="270" x2="452" y2="254" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<rect x="288" y="288" width="62" height="28" fill="#E9E9E5" rx="6"/>
+<text x="319" y="309" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">256</text>
+<rect x="364" y="293" width="94" height="18" fill="#CFCFC9" rx="4"/>
+<line x1="370" y1="310" x2="452" y2="294" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<rect x="288" y="328" width="62" height="28" fill="#E9E9E5" rx="6"/>
+<text x="319" y="349" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">512</text>
+<rect x="364" y="333" width="94" height="18" fill="#CFCFC9" rx="4"/>
+<line x1="370" y1="350" x2="452" y2="334" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<rect x="288" y="368" width="62" height="28" fill="#E9E9E5" rx="6"/>
+<text x="319" y="389" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">1024</text>
+<rect x="364" y="373" width="94" height="18" fill="#CFCFC9" rx="4"/>
+<line x1="370" y1="390" x2="452" y2="374" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<text x="373.0" y="426" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">= 1804</text>
+<line x1="232" y1="282" x2="258" y2="282" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="258,282 245.21675483562768,287.70864634283396 245.21675483562768,276.29135365716604" fill="#6B6B66"/>
+<line x1="486" y1="282" x2="546" y2="282" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="546,282 533.2167548356277,287.70864634283396 533.2167548356277,276.29135365716604" fill="#6B6B66"/>
+<rect x="546" y="132" width="218" height="300" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="655.0" y="174" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">保留</text>
+<rect x="570" y="222" width="14" height="50" fill="#00A087" rx="4"/>
+<line x1="586" y1="228" x2="690" y2="228" stroke="#00A087" stroke-width="7" stroke-linecap="butt"/>
+<line x1="586" y1="266" x2="690" y2="266" stroke="#00A087" stroke-width="7" stroke-linecap="butt"/>
+<rect x="570" y="284" width="14" height="50" fill="#00A087" rx="4"/>
+<line x1="586" y1="290" x2="670" y2="290" stroke="#00A087" stroke-width="7" stroke-linecap="butt"/>
+<line x1="586" y1="328" x2="670" y2="328" stroke="#00A087" stroke-width="7" stroke-linecap="butt"/>
+<rect x="570" y="346" width="14" height="50" fill="#00A087" rx="4"/>
+<line x1="586" y1="352" x2="702" y2="352" stroke="#00A087" stroke-width="7" stroke-linecap="butt"/>
+<line x1="586" y1="390" x2="702" y2="390" stroke="#00A087" stroke-width="7" stroke-linecap="butt"/>
+<text x="400" y="552" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">按掩码清除低质未配对读段</text>
+<text x="400" y="614" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">识别光学重复</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="54" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">PERMANOVA</text>
+<line x1="250" y1="296" x2="192" y2="244" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="250" y1="296" x2="240" y2="218" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="250" y1="296" x2="296" y2="242" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="250" y1="296" x2="198" y2="322" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="250" y1="296" x2="250" y2="352" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="250" y1="296" x2="300" y2="324" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="192" y1="244" x2="296" y2="242" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="192" y1="244" x2="198" y2="322" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="192" y1="244" x2="250" y2="352" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="192" y1="244" x2="300" y2="324" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="240" y1="218" x2="198" y2="322" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="240" y1="218" x2="250" y2="352" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="240" y1="218" x2="300" y2="324" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="296" y1="242" x2="250" y2="352" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="296" y1="242" x2="300" y2="324" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="198" y1="322" x2="300" y2="324" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="556" y1="296" x2="498" y2="240" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="556" y1="296" x2="556" y2="216" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="556" y1="296" x2="610" y2="242" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="556" y1="296" x2="504" y2="318" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="556" y1="296" x2="560" y2="350" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="556" y1="296" x2="616" y2="316" stroke="#4DBBD5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="498" y1="240" x2="610" y2="242" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="498" y1="240" x2="504" y2="318" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="498" y1="240" x2="560" y2="350" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="498" y1="240" x2="616" y2="316" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="556" y1="216" x2="504" y2="318" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="556" y1="216" x2="560" y2="350" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="556" y1="216" x2="616" y2="316" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="610" y1="242" x2="560" y2="350" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="610" y1="242" x2="616" y2="316" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="504" y1="318" x2="616" y2="316" stroke="#4DBBD5" stroke-width="2" stroke-linecap="butt" stroke-dasharray="6 9"/>
+<line x1="266" y1="296" x2="540" y2="296" stroke="#3C5488" stroke-width="10" stroke-linecap="round"/>
+<polygon points="540,296 518.0858654325046,305.7862508734297 518.0858654325046,286.2137491265703" fill="#3C5488"/>
+<circle cx="192" cy="244" r="10" fill="#3C8DAD"/>
+<circle cx="240" cy="218" r="10" fill="#3C8DAD"/>
+<circle cx="296" cy="242" r="10" fill="#3C8DAD"/>
+<circle cx="198" cy="322" r="10" fill="#3C8DAD"/>
+<circle cx="250" cy="352" r="10" fill="#3C8DAD"/>
+<circle cx="300" cy="324" r="10" fill="#3C8DAD"/>
+<circle cx="498" cy="240" r="10" fill="#00A087"/>
+<circle cx="556" cy="216" r="10" fill="#00A087"/>
+<circle cx="610" cy="242" r="10" fill="#00A087"/>
+<circle cx="504" cy="318" r="10" fill="#00A087"/>
+<circle cx="560" cy="350" r="10" fill="#00A087"/>
+<circle cx="616" cy="316" r="10" fill="#00A087"/>
+<circle cx="250" cy="296" r="13" fill="#FFFFFF" stroke="#3C5488" stroke-width="5"/>
+<circle cx="250" cy="296" r="4" fill="#3C5488"/>
+<circle cx="556" cy="296" r="13" fill="#FFFFFF" stroke="#3C5488" stroke-width="5"/>
+<circle cx="556" cy="296" r="4" fill="#3C5488"/>
+<text x="212" y="168" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle">SS_within</text>
+<text x="400" y="168" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">SS_between</text>
+<text x="594" y="168" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle">SS_within</text>
+<text x="212" y="430" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">组内方差细线</text>
+<text x="596" y="430" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">组间距离粗箭</text>
+<rect x="92" y="458" width="616" height="116" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="400" y="502" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">R² = SS_between / SS_total</text>
+<text x="400" y="548" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">SS_between + SS_within = SS_total</text>
+<text x="400" y="672" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">决定效应量大小</text>
+</svg>

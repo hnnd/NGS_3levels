@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="90" y="110" width="620" height="420" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="5"/>
+<text x="400.0" y="586" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">归一化计数均值（log）</text>
+<text x="96" y="98" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">离散度（log）</text>
+<path d="M 130 200 C 130.0 200.0 170.0 214.7 190 222 C 210.0 229.3 230.0 236.7 250 244 C 270.0 251.3 290.0 258.7 310 266 C 330.0 273.3 350.0 280.7 370 288 C 390.0 295.3 410.0 302.7 430 310 C 450.0 317.3 470.0 324.7 490 332 C 510.0 339.3 530.0 346.7 550 354 C 570.0 361.3 590.0 368.7 610 376 C 630.0 383.3 670.0 398.0 670 398" fill="none" stroke="#E64B35" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="120" cy="180" r="8" fill="#33332E"/>
+<circle cx="150" cy="300" r="8" fill="#33332E"/>
+<circle cx="170" cy="230" r="8" fill="#33332E"/>
+<circle cx="200" cy="360" r="8" fill="#33332E"/>
+<circle cx="230" cy="260" r="8" fill="#33332E"/>
+<circle cx="260" cy="410" r="8" fill="#33332E"/>
+<circle cx="300" cy="300" r="8" fill="#33332E"/>
+<circle cx="340" cy="200" r="8" fill="#33332E"/>
+<circle cx="380" cy="170" r="8" fill="#33332E"/>
+<circle cx="430" cy="160" r="8" fill="#33332E"/>
+<circle cx="480" cy="150" r="8" fill="#33332E"/>
+<circle cx="540" cy="145" r="8" fill="#33332E"/>
+<circle cx="600" cy="140" r="8" fill="#33332E"/>
+<circle cx="650" cy="138" r="8" fill="#33332E"/>
+<circle cx="120" cy="200" r="8" fill="#3C8DAD"/>
+<circle cx="150" cy="240" r="8" fill="#3C8DAD"/>
+<circle cx="170" cy="230" r="8" fill="#3C8DAD"/>
+<circle cx="200" cy="280" r="8" fill="#3C8DAD"/>
+<circle cx="230" cy="265" r="8" fill="#3C8DAD"/>
+<circle cx="260" cy="300" r="8" fill="#3C8DAD"/>
+<circle cx="300" cy="290" r="8" fill="#3C8DAD"/>
+<circle cx="340" cy="230" r="8" fill="#3C8DAD"/>
+<circle cx="380" cy="200" r="8" fill="#3C8DAD"/>
+<circle cx="430" cy="185" r="8" fill="#3C8DAD"/>
+<circle cx="480" cy="170" r="8" fill="#3C8DAD"/>
+<circle cx="540" cy="160" r="8" fill="#3C8DAD"/>
+<circle cx="600" cy="152" r="8" fill="#3C8DAD"/>
+<circle cx="650" cy="146" r="8" fill="#3C8DAD"/>
+<line x1="130" y1="174" x2="110" y2="204" stroke="#E9E9E5" stroke-width="3" stroke-linecap="round"/>
+<polygon points="110,204 111.50492068437298,195.12671347618334 117.61191037414885,199.19803993603392" fill="#E9E9E5"/>
+<line x1="160" y1="294" x2="140" y2="244" stroke="#E9E9E5" stroke-width="3" stroke-linecap="round"/>
+<polygon points="140,244 146.45937915720197,250.26709030599565 139.64464978685075,252.99298205413615" fill="#E9E9E5"/>
+<line x1="180" y1="224" x2="160" y2="234" stroke="#E9E9E5" stroke-width="3" stroke-linecap="round"/>
+<polygon points="160,234 165.7090200193105,227.04247957824685 168.99142834898882,233.6072962376035" fill="#E9E9E5"/>
+<circle cx="430" cy="320" r="15" fill="none" stroke="#F39B7F" stroke-width="6"/>
+<circle cx="430" cy="320" r="8" fill="#33332E"/>
+<text x="478" y="296" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">离群 · 不收缩</text>
+<circle cx="120" cy="612" r="9" fill="#33332E"/>
+<text x="140" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">单基因估计点</text>
+<line x1="340" y1="612" x2="390" y2="612" stroke="#E64B35" stroke-width="6" stroke-linecap="butt"/>
+<text x="402" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">拟合红色趋势线</text>
+<circle cx="120" cy="658" r="9" fill="#3C8DAD"/>
+<text x="140" y="668" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">经验贝叶斯收缩</text>
+<circle cx="560" cy="658" r="12" fill="none" stroke="#F39B7F" stroke-width="5"/>
+<text x="582" y="668" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">离群基因不收缩</text>
+</svg>

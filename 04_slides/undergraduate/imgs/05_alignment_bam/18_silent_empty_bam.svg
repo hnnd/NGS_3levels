@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="25" y="150" width="160" height="110" fill="#4DBBD5" rx="14"/>
+<rect x="215" y="150" width="160" height="110" fill="#3C5488" rx="14"/>
+<rect x="405" y="150" width="160" height="110" fill="#3C5488" rx="14"/>
+<rect x="595" y="150" width="160" height="110" fill="#F39B7F" rx="14"/>
+<line x1="190" y1="205" x2="211" y2="205" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="211,205 196.39057695500307,211.52416724895312 196.39057695500307,198.47583275104688" fill="#6B6B66"/>
+<line x1="380" y1="205" x2="401" y2="205" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="401,205 386.39057695500304,211.52416724895312 386.39057695500304,198.47583275104688" fill="#6B6B66"/>
+<line x1="570" y1="205" x2="591" y2="205" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="591,205 576.3905769550031,211.52416724895312 576.3905769550031,198.47583275104688" fill="#6B6B66"/>
+<text x="105" y="192" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">FASTQ</text>
+<text x="105" y="232" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">N reads</text>
+<text x="295" y="184" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">bwa mem</text>
+<line x1="238" y1="198" x2="352" y2="252" stroke="#E64B35" stroke-width="6" stroke-linecap="butt"/>
+<line x1="352" y1="198" x2="238" y2="252" stroke="#E64B35" stroke-width="6" stroke-linecap="butt"/>
+<text x="295" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">中途死亡</text>
+<text x="295" y="340" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">(OOM / killed)</text>
+<text x="485" y="190" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">samtools</text>
+<text x="485" y="228" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">sort</text>
+<text x="485" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">把残流当正常结束</text>
+<text x="675" y="185" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">BAM</text>
+<text x="675" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">0 条记录</text>
+<text x="675" y="252" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">rc = 0</text>
+<line x1="675" y1="262" x2="675" y2="392" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<rect x="585" y="396" width="180" height="52" fill="#E9E9E5" rx="10"/>
+<text x="675" y="432" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">index ✓</text>
+<rect x="585" y="456" width="180" height="52" fill="#E9E9E5" rx="10"/>
+<text x="675" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">flagstat ✓</text>
+<text x="675" y="548" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">照常成功</text>
+<rect x="25" y="592" width="730" height="64" fill="#E64B35" rx="12"/>
+<text x="390" y="633" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">rc=0 ≠ 完整——破绽只有记录数</text>
+</svg>

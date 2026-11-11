@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">AI 生信代码的两类失败模式与验证闭环</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">幻觉编造 ｜ 静默语义错误 ｜ spike-in 已知答案回归 —— 依据 01_ai_workflow_lecture.md ④4.2–4.8</text>
+  <!-- 图例 -->
+  <rect x="940" y="42" width="12" height="12" fill="#3C5488"/>
+  <text x="960" y="53" font-size="12" fill="#33332E">流程步骤</text>
+  <rect x="1040" y="42" width="12" height="12" fill="#4DBBD5"/>
+  <text x="1060" y="53" font-size="12" fill="#33332E">代码 / 数据流</text>
+  <rect x="940" y="64" width="12" height="12" fill="#00A087"/>
+  <text x="960" y="75" font-size="12" fill="#33332E">通过</text>
+  <rect x="1040" y="64" width="12" height="12" fill="#E64B35"/>
+  <text x="1060" y="75" font-size="12" fill="#33332E">未通过 / 易错点</text>
+
+  <!-- ============ 左面板：两类失败模式 ============ -->
+  <rect x="48" y="120" width="430" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="17" font-weight="bold" fill="#3C5488">先认清两类失败模式</text>
+  <text x="72" y="176" font-size="12.5" fill="#6B6B66">有症状的会被看见，无症状的混进论文</text>
+  <line x1="72" y1="190" x2="454" y2="190" stroke="#E9E9E5"/>
+
+  <!-- 块① 幻觉编造 -->
+  <text x="72" y="218" font-size="14" font-weight="bold" fill="#3C5488">① 幻觉编造（有症状）</text>
+  <rect x="72" y="230" width="382" height="92" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="88" y="254" font-size="12.5" fill="#33332E">完全虚构：真作者 · 真期刊 · 真 DOI 前缀</text>
+  <text x="88" y="276" font-size="12.5" fill="#E64B35">＋假标题 · 假卷页 · 随机 DOI 后缀</text>
+  <line x1="88" y1="271" x2="330" y2="271" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="88" y="304" font-size="12.5" fill="#33332E">核查：DOI 解析期望 302，实测 <tspan font-weight="bold" fill="#E64B35">404</tspan> → 伪造</text>
+  <text x="72" y="346" font-size="12.5" fill="#33332E">幻觉接口：编造不存在的函数与参数——一跑就报错</text>
+  <text x="72" y="366" font-size="11.5" fill="#6B6B66">暴露成本最低；能读报错重试的 agent 已大幅压低这类（§4.8）</text>
+
+  <!-- 块② 静默语义错误 -->
+  <text x="72" y="402" font-size="14" font-weight="bold" fill="#3C5488">② 静默语义错误（无症状）</text>
+  <text x="72" y="428" font-size="12.5" fill="#33332E">把 TPM 矩阵喂给 DESeq2（round 后只剩一句 message）</text>
+  <text x="72" y="452" font-size="12.5" fill="#33332E">contrast 写反：结果表结构完全相同，符号整体翻转</text>
+  <text x="72" y="476" font-size="12.5" fill="#33332E">阈值从人类 PBMC 教程搬运：percent.mt &lt; 5</text>
+  <text x="72" y="500" font-size="12.5" fill="#33332E">design 丢掉 batch：混杂被藏起来，照样跑通</text>
+  <rect x="72" y="516" width="4" height="46" rx="2" fill="#3C5488"/>
+  <rect x="72" y="516" width="382" height="46" rx="6" fill="#FAFAF7"/>
+  <text x="88" y="536" font-size="12.5" font-weight="bold" fill="#3C5488">不报错的错误最贵——代码能跑 ≠ 结果可信</text>
+  <text x="88" y="554" font-size="11.5" fill="#6B6B66">生成模型优化 token 似然，语义在代码之外，无从检查</text>
+  <text x="72" y="590" font-size="11.5" fill="#6B6B66">agent 消灭的是“报错”，剩下来的错误恰恰从不报错</text>
+  <text x="72" y="622" font-size="12.5" font-weight="bold" fill="#3C8DAD">→ 右侧：用已知答案（spike-in）把它们抓出来</text>
+
+  <!-- ============ 右面板：spike-in 验证闭环 ============ -->
+  <rect x="498" y="120" width="654" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="522" y="154" font-size="17" font-weight="bold" fill="#3C5488">spike-in 验证闭环</text>
+  <text x="522" y="176" font-size="12.5" fill="#6B6B66">向系统注入已知量，检验系统的响应（§4.7）</text>
+  <line x1="522" y1="190" x2="1128" y2="190" stroke="#E9E9E5"/>
+
+  <!-- ① 造已知答案 -->
+  <rect x="522" y="214" width="270" height="88" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="538" y="242" font-size="14" font-weight="bold" fill="#3C5488">① 造已知答案</text>
+  <text x="538" y="264" font-size="12.5" fill="#33332E">spike-in：20 个基因 8 倍放大</text>
+  <text x="538" y="284" font-size="12.5" fill="#33332E">（log2FC=3），在流程之外造数</text>
+
+  <!-- ② 交给 AI 并运行 -->
+  <rect x="858" y="214" width="270" height="88" rx="8" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="2"/>
+  <text x="874" y="242" font-size="14" font-weight="bold" fill="#3C5488">② 交给 AI 并运行</text>
+  <text x="874" y="264" font-size="12.5" fill="#33332E">AI 生成 / 修改分析代码并执行</text>
+  <text x="874" y="284" font-size="12.5" fill="#33332E">跑通了？§4.2 五类错误偏偏不报错</text>
+
+  <!-- ③ 对答案 -->
+  <rect x="858" y="470" width="270" height="88" rx="8" fill="#FFFFFF" stroke="#3C5488" stroke-width="2"/>
+  <text x="874" y="498" font-size="14" font-weight="bold" fill="#3C5488">③ 对答案</text>
+  <text x="874" y="520" font-size="12.5" fill="#33332E">召回 ≥ 18/20（padj &lt; 0.05）</text>
+  <text x="874" y="540" font-size="12.5" fill="#33332E">换标签后 log2FC 相关 ≈ −1（符号翻转）</text>
+
+  <!-- ④ 未通过 → 修 -->
+  <rect x="522" y="470" width="270" height="88" rx="8" fill="#FFFFFF" stroke="#E64B35" stroke-width="2"/>
+  <text x="538" y="498" font-size="14" font-weight="bold" fill="#E64B35">④ 未通过 → 修</text>
+  <text x="538" y="520" font-size="12.5" fill="#33332E">修 prompt · 换方法 · 补阴性对照</text>
+  <text x="538" y="540" font-size="12.5" fill="#33332E">答案不变，只换被检验的代码</text>
+
+  <!-- 箭头 -->
+  <line x1="792" y1="258" x2="846" y2="258" stroke="#4DBBD5" stroke-width="2.5"/>
+  <polygon points="858,258 846,252 846,264" fill="#4DBBD5"/>
+  <line x1="993" y1="302" x2="993" y2="458" stroke="#4DBBD5" stroke-width="2.5"/>
+  <polygon points="993,470 987,458 999,458" fill="#4DBBD5"/>
+  <text x="1004" y="384" font-size="11.5" fill="#6B6B66">产出结果表</text>
+
+  <line x1="858" y1="514" x2="804" y2="514" stroke="#E64B35" stroke-width="2.5"/>
+  <polygon points="792,514 804,508 804,520" fill="#E64B35"/>
+  <text x="825" y="500" font-size="12" font-weight="bold" fill="#E64B35" text-anchor="middle">未通过</text>
+
+  <line x1="657" y1="470" x2="657" y2="314" stroke="#3C5488" stroke-width="2.5"/>
+  <polygon points="657,302 651,314 663,314" fill="#3C5488"/>
+  <text x="669" y="392" font-size="11.5" fill="#6B6B66">同一份答案，再跑一轮</text>
+
+  <!-- 通过出口 -->
+  <line x1="993" y1="558" x2="993" y2="582" stroke="#00A087" stroke-width="2.5"/>
+  <polygon points="993,594 987,582 999,582" fill="#00A087"/>
+  <text x="1004" y="576" font-size="12" font-weight="bold" fill="#00A087">通过</text>
+  <rect x="858" y="600" width="270" height="40" rx="20" fill="#00A087"/>
+  <text x="993" y="625" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">这批数字才可写进论文（§4.3）</text>
+
+  <!-- 闭环注脚 -->
+  <text x="522" y="606" font-size="12" fill="#33332E">spike-in 思想：对照必须产生于被检验流程之外（规则一）</text>
+  <text x="522" y="628" font-size="12" fill="#33332E">阳性之外必须配阴性（规则三）：只测召回，</text>
+  <text x="522" y="648" font-size="12" fill="#33332E">一条把所有基因都报显著的流程会得满分。</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="740" font-size="15" font-weight="bold" fill="#3C5488">验证的重点不是让代码跑通，而是让数字对上一个独立于流程的答案。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

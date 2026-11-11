@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="30" y="30" width="640" height="300" fill="#E9E9E5" rx="16"/>
+<text x="60" y="86" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="start" font-weight="bold">局部：剪末端</text>
+<text x="640" y="86" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end" font-weight="bold">bwa mem</text>
+<text x="320" y="182" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">150 bp</text>
+<rect x="80" y="195" width="90" height="40" fill="#F39B7F" rx="6"/>
+<rect x="170" y="195" width="300" height="40" fill="#00A087" rx="6"/>
+<rect x="470" y="195" width="90" height="40" fill="#F39B7F" rx="6"/>
+<text x="125" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">S</text>
+<text x="515" y="222" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">S</text>
+<line x1="60" y1="275" x2="580" y2="275" stroke="#3C5488" stroke-width="8" stroke-linecap="butt"/>
+<text x="60" y="312" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">ref</text>
+<line x1="615" y1="255" x2="615" y2="215" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="615,215 621.5241672489532,229.60942304499693 608.4758327510468,229.60942304499693" fill="#6B6B66"/>
+<text x="648" y="242" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">高</text>
+<rect x="30" y="360" width="640" height="300" fill="#E9E9E5" rx="16"/>
+<text x="60" y="416" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="start" font-weight="bold">端到端：整条计分</text>
+<text x="640" y="416" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end" font-weight="bold">bowtie2</text>
+<text x="320" y="508" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">150 bp</text>
+<rect x="80" y="525" width="480" height="40" fill="#00A087" rx="6"/>
+<rect x="80" y="525" width="56" height="40" fill="none" rx="6" stroke="#E64B35" stroke-width="5"/>
+<rect x="504" y="525" width="56" height="40" fill="none" rx="6" stroke="#E64B35" stroke-width="5"/>
+<line x1="60" y1="605" x2="580" y2="605" stroke="#3C5488" stroke-width="8" stroke-linecap="butt"/>
+<text x="60" y="642" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">ref</text>
+<rect x="150" y="622" width="170" height="22" fill="none" rx="6" stroke="#4DBBD5" stroke-width="4" stroke-dasharray="12 8"/>
+<line x1="180" y1="624" x2="290" y2="642" stroke="#E64B35" stroke-width="4" stroke-linecap="butt"/>
+<line x1="290" y1="624" x2="180" y2="642" stroke="#E64B35" stroke-width="4" stroke-linecap="butt"/>
+<text x="360" y="640" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">丢弃</text>
+<line x1="615" y1="545" x2="615" y2="590" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="615,590 608.4758327510468,575.3905769550031 621.5241672489532,575.3905769550031" fill="#6B6B66"/>
+<text x="648" y="572" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">低</text>
+<text x="735" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">都</text>
+<text x="735" y="194" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">不</text>
+<text x="735" y="238" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">更</text>
+<text x="735" y="282" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">准，</text>
+<text x="735" y="326" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">代</text>
+<text x="735" y="370" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">价</text>
+<text x="735" y="414" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">记</text>
+<text x="735" y="458" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">处</text>
+<text x="735" y="502" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">不</text>
+<text x="735" y="546" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">同</text>
+</svg>

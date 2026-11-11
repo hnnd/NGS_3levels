@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="24" y="96" width="276" height="372" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="162" y="139.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">规则字段</text>
+<text x="162" y="178.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">显式接线</text>
+<text x="162" y="230" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">params: qual=25</text>
+<text x="162" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">threads: 8</text>
+<text x="162" y="374" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">log: logs/qc.log</text>
+<text x="162" y="446" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">conda: qc.yaml</text>
+<text x="363" y="157.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">参数注入</text>
+<text x="363" y="196.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">命令</text>
+<line x1="310" y1="222" x2="418" y2="222" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="418,222 405.2167548356277,227.708646342834 405.2167548356277,216.291353657166" fill="#4DBBD5"/>
+<line x1="310" y1="294" x2="418" y2="294" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="418,294 405.2167548356277,299.70864634283396 405.2167548356277,288.29135365716604" fill="#4DBBD5"/>
+<line x1="310" y1="366" x2="418" y2="366" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="418,366 405.2167548356277,371.70864634283396 405.2167548356277,360.29135365716604" fill="#4DBBD5"/>
+<rect x="430" y="96" width="346" height="372" fill="#FFFFFF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="603" y="139.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">独立日志</text>
+<text x="603" y="178.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">重定向</text>
+<text x="603" y="224" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle">fastp -w {threads}</text>
+<text x="603" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle">-q {params.qual}</text>
+<text x="603" y="376" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle">&gt; {log} 2&gt;&amp;1</text>
+<rect x="120" y="508" width="560" height="96" fill="#F6D8D2" rx="16" stroke="#E64B35" stroke-width="5"/>
+<text x="400" y="570" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">必须显式引用</text>
+</svg>

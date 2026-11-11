@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>One mixed library, two species, asymmetric controls</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="50" y="56" width="240" height="190" fill="none" rx="16" stroke="#3C5488" stroke-width="4"/>
+<path d="M 62 200 Q 120 60 262 84 Q 240 216 120 230 Q 74 226 62 200 Z" fill="#FFFFFF" stroke="#00A087" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 74 212 Q 162 148 248 94" fill="none" stroke="#00A087" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="106" y1="168" x2="110" y2="180" stroke="#00A087" stroke-width="3" stroke-linecap="butt"/>
+<line x1="148" y1="136" x2="152" y2="148" stroke="#00A087" stroke-width="3" stroke-linecap="butt"/>
+<line x1="190" y1="108" x2="194" y2="120" stroke="#00A087" stroke-width="3" stroke-linecap="butt"/>
+<circle cx="96" cy="126" r="11" fill="#3C5488"/>
+<circle cx="120" cy="178" r="11" fill="#3C5488"/>
+<circle cx="166" cy="194" r="11" fill="#3C5488"/>
+<circle cx="112" cy="96" r="11" fill="#3C5488"/>
+<circle cx="158" cy="118" r="11" fill="#F39B7F"/>
+<circle cx="208" cy="134" r="11" fill="#F39B7F"/>
+<circle cx="198" cy="176" r="11" fill="#F39B7F"/>
+<line x1="298" y1="150" x2="336" y2="150" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="336,150 323.2167548356277,155.708646342834 323.2167548356277,144.291353657166" fill="#4DBBD5"/>
+<rect x="344" y="84" width="150" height="148" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="419" y="128" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">RNA-seq</text>
+<rect x="360" y="146" width="52" height="10" fill="#3C5488"/>
+<rect x="432" y="146" width="52" height="10" fill="#F39B7F"/>
+<rect x="360" y="168" width="52" height="10" fill="#3C5488"/>
+<rect x="432" y="168" width="52" height="10" fill="#F39B7F"/>
+<rect x="360" y="190" width="52" height="10" fill="#3C5488"/>
+<rect x="432" y="190" width="52" height="10" fill="#F39B7F"/>
+<line x1="502" y1="150" x2="540" y2="150" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="540,150 527.2167548356277,155.708646342834 527.2167548356277,144.291353657166" fill="#4DBBD5"/>
+<circle cx="602" cy="150" r="40" fill="#F6D8D2" stroke="#E64B35" stroke-width="5"/>
+<text x="602" y="163" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#E64B35" text-anchor="middle" font-weight="bold">?</text>
+<text x="602" y="272" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">混合文库来源未知</text>
+<rect x="50" y="300" width="340" height="250" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<rect x="50" y="300" width="10" height="250" fill="#3C5488"/>
+<text x="80" y="356" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">宿主配未接种</text>
+<text x="80" y="414" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">G11 / H2O</text>
+<rect x="96" y="450" width="72" height="72" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="4"/>
+<circle cx="132" cy="486" r="16" fill="#3C5488"/>
+<rect x="188" y="450" width="72" height="72" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="4"/>
+<circle cx="224" cy="486" r="16" fill="#3C5488"/>
+<rect x="410" y="300" width="340" height="250" fill="#FBE6DF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<rect x="410" y="300" width="10" height="250" fill="#F39B7F"/>
+<text x="440" y="356" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">病原配体外培养</text>
+<text x="440" y="414" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">in planta / in vitro</text>
+<rect x="440" y="450" width="72" height="72" fill="#FFFFFF" rx="10" stroke="#F39B7F" stroke-width="4"/>
+<circle cx="476" cy="486" r="16" fill="#F39B7F"/>
+<rect x="32.0" y="580" width="736" height="94" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="636" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">双对照不对称</text>
+</svg>

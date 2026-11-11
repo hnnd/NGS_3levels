@@ -1,0 +1,183 @@
+# ============================================
+# 文件名称：Snakefile
+# 功能描述：m08 最小可重复流程 —— fastp 质控 → salmon 定量 → 合并计数矩阵 → Quarto 报告
+# 作者：王运生
+# 日期：2026-08-29
+# ============================================
+#
+# 设计约束（对应讲义 ④「Snakemake rule 编写」）：
+#   1. 本流程只用课程范围内的特性：rule / input / output / params / threads /
+#      log / benchmark / shell / wildcards / rule all / expand / configfile /
+#      conda。checkpoint、动态输出、remote provider、wrapper 一律不用——
+#      它们是博士 p07 的内容。
+#   2. 每条 rule 必须有 log: 与 benchmark:（项目规范，见 CLAUDE.md 编码规范）。
+#   3. Snakefile 里不写死任何路径 / 阈值 / 线程数，全部来自 config.yaml。
+#
+# 运行：
+#   snakemake -n                       # 空跑，看它打算做什么
+#   snakemake --dag | dot -Tpng > dag.png
+#   snakemake --use-conda -c 8         # 真跑
+
+import csv
+from pathlib import Path
+
+configfile: "config.yaml"
+
+# ---------------------------------------------------------------------------
+# 样本清单：用标准库读 TSV，不引入 pandas 依赖
+# ---------------------------------------------------------------------------
+def load_samples(tsv_path: str) -> dict:
+    """读取样本清单，返回 {sample: 该行的全部字段}。"""
+    with open(tsv_path, newline="", encoding="utf-8") as handle:
+        rows = list(csv.DictReader(handle, delimiter="\t"))
+    missing = [c for c in ("sample", "fq1", "fq2", "condition") if c not in (rows[0] if rows else {})]
+    if missing:
+        raise ValueError(f"{tsv_path} 缺少必需列：{missing}")
+    return {row["sample"]: row for row in rows}
+
+
+SAMPLE_TABLE = load_samples(config["samples_tsv"])
+SAMPLES = sorted(SAMPLE_TABLE)
+
+# 输出根目录固定为 results/：它是"可以整个删掉再重建"的目录，
+# 因此不放进 config——把它做成变量反而会诱使学生把结果散到别处。
+RESULTS = "results"
+
+# 约束 wildcard 取值，避免 {sample} 把路径里的 "/" 一起吃进去（讲义 ⑨-3）
+wildcard_constraints:
+    sample=r"[A-Za-z0-9_.-]+",
+
+
+# ---------------------------------------------------------------------------
+# rule all：整条流程的"我最终想要什么"。
+# 没有它，snakemake 会拿文件里第一条 rule 当默认目标，只跑一个样本。
+# ---------------------------------------------------------------------------
+rule all:
+    input:
+        f"{RESULTS}/counts/counts_matrix.tsv",
+        f"{RESULTS}/report/report.html",
+
+
+rule fastp:
+    """接头去除与质量过滤：把 m04 里手敲的那条 fastp 命令搬进 rule。"""
+    input:
+        r1=lambda w: SAMPLE_TABLE[w.sample]["fq1"],
+        r2=lambda w: SAMPLE_TABLE[w.sample]["fq2"],
+    output:
+        r1=f"{RESULTS}/clean/{{sample}}_1.fq.gz",
+        r2=f"{RESULTS}/clean/{{sample}}_2.fq.gz",
+        html=f"{RESULTS}/qc/{{sample}}.fastp.html",
+        json=f"{RESULTS}/qc/{{sample}}.fastp.json",
+    params:
+        qual=config["fastp"]["qualified_quality_phred"],
+        minlen=config["fastp"]["length_required"],
+        extra=config["fastp"]["extra"],
+    threads: config["threads"]["fastp"]
+    log:
+        "logs/fastp/{sample}.log",
+    benchmark:
+        "benchmarks/fastp/{sample}.tsv"
+    conda:
+        "envs/qc.yaml"
+    shell:
+        "fastp -i {input.r1} -I {input.r2} -o {output.r1} -O {output.r2} "
+        "-h {output.html} -j {output.json} -w {threads} "
+        "--qualified_quality_phred {params.qual} "
+        "--length_required {params.minlen} {params.extra} "
+        "> {log} 2>&1"
+
+
+rule salmon_index:
+    """建索引只做一次：它不带 {sample}，因此 DAG 里只有一个节点。"""
+    input:
+        fa=config["transcriptome"],
+    output:
+        # directory() 告诉 snakemake 这个输出是目录而不是文件，
+        # 否则它会因为"目录的时间戳会被内部文件改动刷新"而反复重跑。
+        idx=directory(f"{RESULTS}/index/salmon"),
+    params:
+        kmer=config["salmon"]["index_kmer"],
+    threads: config["threads"]["salmon_index"]
+    log:
+        "logs/salmon/index.log",
+    benchmark:
+        "benchmarks/salmon/index.tsv"
+    conda:
+        "envs/quant.yaml"
+    shell:
+        "salmon index -t {input.fa} -i {output.idx} -k {params.kmer} "
+        "-p {threads} > {log} 2>&1"
+
+
+rule salmon_quant:
+    """转录本定量：一条 rule 覆盖全部样本，靠 {sample} 通配。"""
+    input:
+        r1=rules.fastp.output.r1,
+        r2=rules.fastp.output.r2,
+        idx=rules.salmon_index.output.idx,
+    output:
+        quant=f"{RESULTS}/quant/{{sample}}/quant.sf",
+    params:
+        outdir=lambda w: f"{RESULTS}/quant/{w.sample}",
+        libtype=config["salmon"]["libtype"],
+        extra=config["salmon"]["extra"],
+    threads: config["threads"]["salmon_quant"]
+    log:
+        "logs/salmon/{sample}.log",
+    benchmark:
+        "benchmarks/salmon/{sample}.tsv"
+    conda:
+        "envs/quant.yaml"
+    shell:
+        "salmon quant -i {input.idx} -l {params.libtype} "
+        "-1 {input.r1} -2 {input.r2} -p {threads} {params.extra} "
+        "-o {params.outdir} > {log} 2>&1"
+
+
+rule merge_counts:
+    """把 N 份 quant.sf 汇总成一个矩阵——expand() 在这里把 N 个样本收拢成一条 rule。"""
+    input:
+        quants=expand(f"{RESULTS}/quant/{{sample}}/quant.sf", sample=SAMPLES),
+    output:
+        counts=f"{RESULTS}/counts/counts_matrix.tsv",
+        tpm=f"{RESULTS}/counts/tpm_matrix.tsv",
+    params:
+        samples=" ".join(SAMPLES),
+    log:
+        "logs/merge_counts.log",
+    benchmark:
+        "benchmarks/merge_counts.tsv"
+    shell:
+        "python3 scripts/merge_quant.py "
+        "--quant-files {input.quants} --sample-names {params.samples} "
+        "--counts-out {output.counts} --tpm-out {output.tpm} > {log} 2>&1"
+
+
+rule report:
+    """Quarto 报告：输入变了它就重渲染，图表与正文永远和结果同步。"""
+    input:
+        counts=rules.merge_counts.output.counts,
+        tpm=rules.merge_counts.output.tpm,
+        qmd="report/report.qmd",
+        samples=config["samples_tsv"],
+    output:
+        html=f"{RESULTS}/report/report.html",
+    params:
+        title=config["report"]["title"],
+        author=config["report"]["author"],
+        note=config["report"]["thresholds_note"],
+        outdir=f"{RESULTS}/report",
+    log:
+        "logs/report.log",
+    benchmark:
+        "benchmarks/report.tsv"
+    conda:
+        "envs/report.yaml"
+    shell:
+        "quarto render {input.qmd} --to html "
+        "--output-dir $(realpath {params.outdir}) "
+        "-P counts:$(realpath {input.counts}) "
+        "-P tpm:$(realpath {input.tpm}) "
+        "-P samples:$(realpath {input.samples}) "
+        "-P title:'{params.title}' -P author:'{params.author}' "
+        "-P thresholds_note:'{params.note}' > {log} 2>&1"

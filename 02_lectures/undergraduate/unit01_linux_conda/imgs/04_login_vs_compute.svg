@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">登录节点 vs 计算节点：售票大厅不是列车</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">登录节点=售票大厅 ｜ SGE 排队上列车 ｜ hostname 自查 —— 依据 01_linux_conda_lecture.md ④4.6 · ⑥6.1–6.2</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="57" font-size="12" fill="#33332E">机器 / 结构</text>
+  <rect x="1046" y="46" width="12" height="12" fill="#00A087"/>
+  <text x="1066" y="57" font-size="12" fill="#33332E">正确做法</text>
+
+  <!-- ============ 左面板：登录节点 ============ -->
+  <rect x="48" y="120" width="520" height="610" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="17" font-weight="bold" fill="#3C5488">登录节点 = 售票大厅</text>
+  <text x="72" y="176" font-size="12" fill="#6B6B66">你 ssh 进来的那台；只有一台，全班共用（④4.6）</text>
+  <line x1="72" y1="190" x2="544" y2="190" stroke="#E9E9E5"/>
+
+  <rect x="72" y="204" width="472" height="122" rx="8" fill="#FAFAF7" stroke="#3C5488" stroke-width="1.8"/>
+  <text x="88" y="230" font-size="13" font-weight="bold" fill="#3C5488">login01</text>
+  <circle cx="112" cy="262" r="9" fill="#8491B4"/>
+  <circle cx="152" cy="262" r="9" fill="#8491B4"/>
+  <circle cx="192" cy="262" r="9" fill="#8491B4"/>
+  <circle cx="232" cy="262" r="9" fill="#8491B4"/>
+  <circle cx="272" cy="262" r="9" fill="#8491B4"/>
+  <circle cx="312" cy="262" r="9" fill="#8491B4"/>
+  <circle cx="352" cy="262" r="9" fill="#8491B4"/>
+  <circle cx="392" cy="262" r="9" fill="#8491B4"/>
+  <text x="430" y="267" font-size="11.5" fill="#6B6B66">…几十人</text>
+  <text x="88" y="304" font-size="11.5" fill="#33332E">全班几十人同时在这台机器上敲命令</text>
+
+  <text x="72" y="356" font-size="13" font-weight="bold" fill="#00A087">这里只做四件事</text>
+  <rect x="72" y="368" width="228" height="36" rx="6" fill="#FFFFFF" stroke="#00A087" stroke-width="1.4"/>
+  <text x="186" y="391" font-size="12.5" fill="#33332E" text-anchor="middle">编辑脚本</text>
+  <rect x="316" y="368" width="228" height="36" rx="6" fill="#FFFFFF" stroke="#00A087" stroke-width="1.4"/>
+  <text x="430" y="391" font-size="12.5" fill="#33332E" text-anchor="middle">看结果</text>
+  <rect x="72" y="412" width="228" height="36" rx="6" fill="#FFFFFF" stroke="#00A087" stroke-width="1.4"/>
+  <text x="186" y="435" font-size="12.5" fill="#33332E" text-anchor="middle">qsub 提交作业</text>
+  <rect x="316" y="412" width="228" height="36" rx="6" fill="#FFFFFF" stroke="#00A087" stroke-width="1.4"/>
+  <text x="430" y="435" font-size="12.5" fill="#33332E" text-anchor="middle">scp / rsync 传文件</text>
+
+  <rect x="72" y="472" width="472" height="176" rx="8" fill="#FFFFFF" stroke="#E64B35" stroke-width="1.6"/>
+  <text x="88" y="500" font-size="13" font-weight="bold" fill="#E64B35">把大任务开进售票大厅 = 事故</text>
+  <text x="88" y="528" font-size="12.5" fill="#33332E">在登录节点直接跑 canu / flye / busco：</text>
+  <text x="88" y="554" font-size="12.5" fill="#33332E">内存被你一人吃光 → 全班连 ls 都卡住</text>
+  <text x="88" y="580" font-size="12.5" fill="#33332E">→ 按管理约定被清理，几小时计算白跑</text>
+  <text x="88" y="614" font-size="12" font-weight="bold" fill="#E64B35">screen / tmux 只保"断线不死"，不救资源占用</text>
+  <text x="88" y="636" font-size="11" fill="#6B6B66">在 screen 里跑 Canu，依然是在登录节点跑，依然会被清理（⑤步骤 4）</text>
+
+  <text x="72" y="690" font-size="11.5" fill="#6B6B66">正确做法只有两条：批处理 qsub、交互式 qrsh——都在右图（④4.6）</text>
+
+  <!-- ============ 右面板：计算节点 ============ -->
+  <rect x="592" y="120" width="560" height="610" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="616" y="154" font-size="17" font-weight="bold" fill="#3C5488">计算节点 = 列车</text>
+  <text x="616" y="176" font-size="12" fill="#6B6B66">真正干活的机器：组装、注释、建树都在这里跑；两扇门进去</text>
+  <line x1="616" y1="190" x2="1128" y2="190" stroke="#E9E9E5"/>
+
+  <!-- 门 1 -->
+  <rect x="616" y="204" width="512" height="158" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.6"/>
+  <text x="632" y="232" font-size="13" font-weight="bold" fill="#00A087">门 1 · 批处理 qsub（默认走这条）</text>
+  <rect x="632" y="248" width="118" height="40" rx="6" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="691" y="273" font-size="11.5" fill="#33332E" text-anchor="middle">qsub 脚本</text>
+  <line x1="750" y1="268" x2="788" y2="268" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="796,268 786,263 786,273" fill="#3C5488"/>
+  <rect x="796" y="248" width="118" height="40" rx="6" fill="#FAFAF7" stroke="#3C5488" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="855" y="273" font-size="11.5" fill="#6B6B66" text-anchor="middle">qw 排队叫号</text>
+  <line x1="914" y1="268" x2="952" y2="268" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="960,268 950,263 950,273" fill="#3C5488"/>
+  <rect x="960" y="248" width="152" height="40" rx="6" fill="#00A087"/>
+  <text x="1036" y="273" font-size="11.5" fill="#FFFFFF" text-anchor="middle">r：某计算节点运行</text>
+  <text x="632" y="322" font-size="11" fill="#6B6B66">轮到你时在某个计算节点跑；日志在提交目录：作业名.o作业号（⑤步骤 6）</text>
+  <text x="632" y="344" font-size="11" fill="#6B6B66">资源写进脚本头：#$ -pe smp 4 申请 4 核，与命令参数一致</text>
+
+  <!-- 门 2 -->
+  <rect x="616" y="378" width="512" height="132" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.6"/>
+  <text x="632" y="406" font-size="13" font-weight="bold" fill="#00A087">门 2 · 交互式 qrsh（调参数、试命令）</text>
+  <rect x="632" y="422" width="150" height="40" rx="6" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="707" y="447" font-size="11.5" fill="#33332E" text-anchor="middle">qrsh -pe smp 2</text>
+  <line x1="782" y1="442" x2="820" y2="442" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="828,442 818,437 818,447" fill="#3C5488"/>
+  <rect x="828" y="422" width="140" height="40" rx="6" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="898" y="447" font-size="11.5" fill="#33332E" text-anchor="middle">计算节点交互 shell</text>
+  <line x1="968" y1="442" x2="996" y2="442" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="1004,442 994,437 994,447" fill="#3C5488"/>
+  <rect x="1004" y="422" width="108" height="40" rx="6" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="1058" y="447" font-size="11.5" fill="#00A087" text-anchor="middle">exit 还资源</text>
+  <text x="632" y="492" font-size="11" fill="#6B6B66">进去先 hostname 确认已不在登录节点；用完立刻退出（⑤步骤 6）</text>
+
+  <!-- 自查 -->
+  <rect x="616" y="526" width="512" height="180" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="632" y="554" font-size="13" font-weight="bold" fill="#3C5488">我在哪？任何时候都能自查</text>
+  <text x="632" y="582" font-size="12.5" fill="#33332E">hostname —— 作业日志第一行也应打印它（⑥6.1）</text>
+  <text x="632" y="610" font-size="12.5" fill="#33332E">qstat 状态速览：qw 排队 · r 运行 · Eqw 出错卡住</text>
+  <text x="632" y="632" font-size="11.5" fill="#6B6B66">Eqw 不会自己恢复：qstat -j 作业号 看原因，改完 qdel 重提（⑥6.2）</text>
+  <text x="632" y="668" font-size="12" font-weight="bold" fill="#E64B35">日志第一行是登录节点 = 你没提交作业——</text>
+  <text x="632" y="690" font-size="12" font-weight="bold" fill="#E64B35">立刻 Ctrl-C，改用 qsub（⑥6.2⑤，最需要自查的一项）</text>
+
+  <!-- 页脚 -->
+  <text x="1152" y="770" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

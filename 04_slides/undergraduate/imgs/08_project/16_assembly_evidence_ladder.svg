@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<polyline points="120,560 310,440 500,320 690,200" fill="none" stroke="#6B6B66" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="14 12"/>
+<rect x="40" y="470.0" width="170" height="120" fill="#3C5488" rx="14"/>
+<text x="125.0" y="520.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#FFFFFF" text-anchor="middle" font-weight="bold">①</text>
+<text x="125.0" y="558.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">总长对账</text>
+<rect x="230" y="350.0" width="170" height="120" fill="#3C8DAD" rx="14"/>
+<text x="315.0" y="400.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#FFFFFF" text-anchor="middle" font-weight="bold">②</text>
+<text x="315.0" y="438.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">结构与回贴</text>
+<rect x="420" y="230.0" width="170" height="120" fill="#00A087" rx="14"/>
+<text x="505.0" y="280.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#FFFFFF" text-anchor="middle" font-weight="bold">③</text>
+<text x="505.0" y="318.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">同库自比</text>
+<text x="505.0" y="342.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">BUSCO</text>
+<rect x="610" y="110.0" width="170" height="120" fill="#8491B4" rx="14"/>
+<text x="695.0" y="160.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#FFFFFF" text-anchor="middle" font-weight="bold">④</text>
+<text x="695.0" y="198.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">连续性</text>
+<rect x="150" y="612" width="500" height="60" fill="#E64B35" rx="12"/>
+<text x="400" y="654" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">不设 C 差 2% 一票否决</text>
+</svg>

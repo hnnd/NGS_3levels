@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+<rect x="250" y="76" width="300" height="92" fill="#3C5488" rx="14"/>
+<text x="400" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">测序深度 D</text>
+<text x="400" y="156" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">D = 30×</text>
+<line x1="360" y1="172" x2="300" y2="196" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="300,196 312.5341806119913,183.08124168559604 317.9859641082723,196.7107004262985" fill="#4DBBD5"/>
+<line x1="440" y1="172" x2="500" y2="196" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="500,196 482.0140358917277,196.7107004262985 487.4658193880087,183.08124168559604" fill="#4DBBD5"/>
+<circle cx="270" cy="270" r="80" fill="#4DBBD5"/>
+<text x="270" y="263" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">× 0.80</text>
+<text x="270" y="301" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">(L−k+1)/L</text>
+<circle cx="530" cy="270" r="80" fill="#4DBBD5"/>
+<text x="530" y="263" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">× 0.81</text>
+<text x="530" y="301" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">(1−e)^k</text>
+<line x1="300" y1="354" x2="365" y2="420" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="365,420 348.23791780592893,413.4400761803809 358.6967353915734,403.13972552785225" fill="#4DBBD5"/>
+<line x1="500" y1="354" x2="435" y2="420" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="435,420 441.3032646084266,403.13972552785225 451.76208219407107,413.4400761803809" fill="#4DBBD5"/>
+<rect x="250" y="424" width="300" height="96" fill="#00A087" rx="14"/>
+<text x="400" y="468" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">k-mer 深度 D_k</text>
+<text x="400" y="510" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#FFFFFF" text-anchor="middle" font-weight="bold">≈ 19.4×</text>
+<rect x="260" y="544" width="280" height="48" fill="#00A087" rx="12"/>
+<text x="400" y="580" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">主峰 19×（现跑）</text>
+<rect x="170" y="616" width="460" height="56" fill="#E64B35" rx="12"/>
+<text x="400" y="654" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">当 D 用→低估</text>
+</svg>

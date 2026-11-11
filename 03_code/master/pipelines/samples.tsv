@@ -1,0 +1,5 @@
+sample	fq1	fq2	condition
+CK_1	data/reads/CK_1_1.fq.gz	data/reads/CK_1_2.fq.gz	control
+CK_2	data/reads/CK_2_1.fq.gz	data/reads/CK_2_2.fq.gz	control
+TR_1	data/reads/TR_1_1.fq.gz	data/reads/TR_1_2.fq.gz	treatment
+TR_2	data/reads/TR_2_1.fq.gz	data/reads/TR_2_2.fq.gz	treatment

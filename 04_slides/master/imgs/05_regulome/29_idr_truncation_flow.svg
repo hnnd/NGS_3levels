@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">截断过滤</text>
+<rect x="34" y="124" width="206" height="356" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="56" y="188" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">rep1</text>
+<rect x="56" y="204" width="162" height="9" fill="#3C8DAD" rx="4"/>
+<rect x="56" y="220" width="126" height="9" fill="#4DBBD5" rx="4"/>
+<rect x="56" y="236" width="138" height="9" fill="#4DBBD5" rx="4"/>
+<rect x="56" y="252" width="150" height="9" fill="#4DBBD5" rx="4"/>
+<text x="56" y="344" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">rep2</text>
+<rect x="56" y="360" width="150" height="9" fill="#3C8DAD" rx="4"/>
+<rect x="56" y="376" width="162" height="9" fill="#4DBBD5" rx="4"/>
+<rect x="56" y="392" width="126" height="9" fill="#4DBBD5" rx="4"/>
+<rect x="56" y="408" width="138" height="9" fill="#4DBBD5" rx="4"/>
+<text x="137.0" y="458" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">-p 1e-3</text>
+<rect x="292" y="186" width="194" height="232" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="389.0" y="244" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">IDR</text>
+<polyline points="318,268 376,304 364,338" fill="none" stroke="#3C5488" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="344,268 402,304 390,338" fill="none" stroke="#3C5488" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="370,268 428,304 416,338" fill="none" stroke="#3C5488" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="389.0" y="396" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">copula</text>
+<line x1="248" y1="208" x2="284" y2="276" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="284,276 272.9736439039887,267.3733279160528 283.0641092169797,262.0313168679987" fill="#6B6B66"/>
+<line x1="248" y1="396" x2="284" y2="330" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="284,330 282.890311167736,343.9559518018496 272.86712046432035,338.48875687271374" fill="#6B6B66"/>
+<line x1="494" y1="302" x2="542" y2="302" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="542,302 529.2167548356277,307.70864634283396 529.2167548356277,296.29135365716604" fill="#6B6B66"/>
+<rect x="542" y="158" width="224" height="288" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="654.0" y="212" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">≥ 540</text>
+<rect x="568" y="244" width="172" height="22" fill="#00A087" rx="5"/>
+<rect x="568" y="284" width="172" height="22" fill="#00A087" rx="5"/>
+<rect x="568" y="324" width="172" height="22" fill="#00A087" rx="5"/>
+<rect x="568" y="364" width="172" height="22" fill="#00A087" rx="5"/>
+<text x="400" y="546" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">宽松检峰输出排秩</text>
+<text x="400" y="608" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">混合模型打分提取高一致峰集</text>
+<text x="400" y="666" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">IDR ≥ 540</text>
+</svg>

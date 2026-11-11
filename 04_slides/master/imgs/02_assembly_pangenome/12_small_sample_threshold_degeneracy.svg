@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<polyline points="90.0,560.0 118.26086956521739,560.0 146.52173913043478,560.0 174.7826086956522,560.0 203.04347826086956,560.0 231.30434782608694,560.0 259.5652173913044,560.0 287.82608695652175,560.0 316.0869565217391,560.0 344.3478260869565,560.0 372.6086956521739,560.0 400.8695652173913,560.0 429.1304347826087,560.0 457.39130434782606,560.0 485.6521739130435,560.0 513.9130434782609,560.0 542.1739130434783,560.0 570.4347826086956,560.0 598.695652173913,560.0 626.9565217391305,560.0 626.9565217391305,376.66666666666663 655.2173913043478,376.66666666666663 683.4782608695651,376.66666666666663 711.7391304347826,376.66666666666663 740.0,376.66666666666663" fill="none" stroke="#3C5488" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="90.0" y1="560.0" x2="752.0" y2="560.0" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<line x1="90.0" y1="560.0" x2="90.0" y2="108.0" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<line x1="90.0" y1="560.0" x2="90.0" y2="570.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="90.0" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">1</text>
+<line x1="174.7826086956522" y1="560.0" x2="174.7826086956522" y2="570.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="174.7826086956522" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">4</text>
+<line x1="287.82608695652175" y1="560.0" x2="287.82608695652175" y2="570.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="287.82608695652175" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">8</text>
+<line x1="400.8695652173913" y1="560.0" x2="400.8695652173913" y2="570.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="400.8695652173913" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">12</text>
+<line x1="513.9130434782609" y1="560.0" x2="513.9130434782609" y2="570.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="513.9130434782609" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">16</text>
+<line x1="626.9565217391305" y1="560.0" x2="626.9565217391305" y2="570.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="626.9565217391305" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">20</text>
+<line x1="740.0" y1="560.0" x2="740.0" y2="570.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="740.0" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">24</text>
+<line x1="80.0" y1="560.0" x2="90.0" y2="560.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="72.0" y="571.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end">0</text>
+<line x1="80.0" y1="376.66666666666663" x2="90.0" y2="376.66666666666663" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="72.0" y="387.66666666666663" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end">1</text>
+<line x1="80.0" y1="193.33333333333331" x2="90.0" y2="193.33333333333331" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="72.0" y="204.33333333333331" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="end">2</text>
+<text x="287.82608695652175" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">退化为全株共有 k=0</text>
+<text x="287.82608695652175" y="508" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">95%≡100%</text>
+<line x1="174.7826086956522" y1="528" x2="400.8695652173913" y2="528" stroke="#E64B35" stroke-width="6" stroke-linecap="butt"/>
+<line x1="174.7826086956522" y1="528" x2="174.7826086956522" y2="552" stroke="#E64B35" stroke-width="6" stroke-linecap="butt"/>
+<line x1="400.8695652173913" y1="528" x2="400.8695652173913" y2="552" stroke="#E64B35" stroke-width="6" stroke-linecap="butt"/>
+<text x="60" y="100" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="start" font-weight="bold">n=4 与 n=12：95%≡100%</text>
+<circle cx="626.9565217391305" cy="376.66666666666663" r="11" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="6"/>
+<text x="602.9565217391305" y="387.66666666666663" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#4DBBD5" text-anchor="end" font-weight="bold">n=20 起才允许缺 1 株</text>
+<text x="400" y="656" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">报核心必带 n、m、k</text>
+</svg>

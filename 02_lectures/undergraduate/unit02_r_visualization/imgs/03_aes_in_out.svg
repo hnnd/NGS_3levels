@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">aes() 里面 vs 外面：数据驱动 vs 固定设置</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">ggplot2 最高频的误解，三种写法并排看 —— 依据 02_r_visualization_lecture.md ④4.5 · ⑥6.2</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="57" font-size="12" fill="#33332E">正确写法</text>
+  <rect x="1046" y="46" width="12" height="12" fill="#E64B35"/>
+  <text x="1066" y="57" font-size="12" fill="#33332E">易错写法</text>
+
+  <!-- ============ 写法一：aes 内 ============ -->
+  <rect x="48" y="120" width="340" height="500" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="68" y="180" font-size="13.5" font-weight="bold" fill="#00A087">写进 aes()：数据驱动</text>
+  <rect x="68" y="196" width="300" height="44" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="218" y="224" font-size="12" fill="#33332E" text-anchor="middle">geom_point(aes(color = species))</text>
+
+  <rect x="68" y="260" width="300" height="250" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <line x1="68" y1="510" x2="368" y2="510" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="68" y1="260" x2="68" y2="510" stroke="#6B6B66" stroke-width="1.2"/>
+  <circle cx="120" cy="300" r="4.5" fill="#3C8DAD"/>
+  <circle cx="145" cy="285" r="4.5" fill="#3C8DAD"/>
+  <circle cx="135" cy="320" r="4.5" fill="#3C8DAD"/>
+  <circle cx="160" cy="310" r="4.5" fill="#3C8DAD"/>
+  <circle cx="125" cy="340" r="4.5" fill="#3C8DAD"/>
+  <circle cx="150" cy="345" r="4.5" fill="#3C8DAD"/>
+  <circle cx="170" cy="330" r="4.5" fill="#3C8DAD"/>
+  <circle cx="140" cy="360" r="4.5" fill="#3C8DAD"/>
+  <circle cx="260" cy="420" r="4.5" fill="#F39B7F"/>
+  <circle cx="285" cy="405" r="4.5" fill="#F39B7F"/>
+  <circle cx="300" cy="430" r="4.5" fill="#F39B7F"/>
+  <circle cx="275" cy="445" r="4.5" fill="#F39B7F"/>
+  <circle cx="310" cy="415" r="4.5" fill="#F39B7F"/>
+  <circle cx="290" cy="455" r="4.5" fill="#F39B7F"/>
+  <circle cx="320" cy="435" r="4.5" fill="#F39B7F"/>
+  <text x="356" y="278" font-size="10" fill="#6B6B66" text-anchor="end">species</text>
+  <rect x="330" y="286" width="11" height="11" fill="#3C8DAD"/>
+  <text x="347" y="296" font-size="10.5" fill="#33332E">A</text>
+  <rect x="330" y="304" width="11" height="11" fill="#F39B7F"/>
+  <text x="347" y="314" font-size="10.5" fill="#33332E">B</text>
+
+  <circle cx="88" cy="544" r="10" fill="none" stroke="#00A087" stroke-width="2"/>
+  <polyline points="83,544 87,549 95,538" fill="none" stroke="#00A087" stroke-width="2"/>
+  <text x="108" y="549" font-size="12.5" font-weight="bold" fill="#00A087">数据驱动</text>
+  <text x="68" y="578" font-size="11.5" fill="#33332E">颜色由 species 列的取值决定，</text>
+  <text x="68" y="598" font-size="11.5" fill="#33332E">图例自动出现</text>
+
+  <!-- ============ 写法二：外面 ============ -->
+  <rect x="424" y="120" width="340" height="500" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="444" y="180" font-size="13.5" font-weight="bold" fill="#00A087">写在外面：固定设置</text>
+  <rect x="444" y="196" width="300" height="44" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="594" y="224" font-size="12" fill="#33332E" text-anchor="middle">geom_point(color = "steelblue")</text>
+
+  <rect x="444" y="260" width="300" height="250" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <line x1="444" y1="510" x2="744" y2="510" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="444" y1="260" x2="444" y2="510" stroke="#6B6B66" stroke-width="1.2"/>
+  <circle cx="506" cy="300" r="4.5" fill="#3C8DAD"/>
+  <circle cx="546" cy="340" r="4.5" fill="#3C8DAD"/>
+  <circle cx="586" cy="280" r="4.5" fill="#3C8DAD"/>
+  <circle cx="626" cy="360" r="4.5" fill="#3C8DAD"/>
+  <circle cx="666" cy="320" r="4.5" fill="#3C8DAD"/>
+  <circle cx="526" cy="420" r="4.5" fill="#3C8DAD"/>
+  <circle cx="606" cy="440" r="4.5" fill="#3C8DAD"/>
+  <circle cx="686" cy="400" r="4.5" fill="#3C8DAD"/>
+  <circle cx="576" cy="380" r="4.5" fill="#3C8DAD"/>
+  <circle cx="636" cy="300" r="4.5" fill="#3C8DAD"/>
+
+  <circle cx="464" cy="544" r="10" fill="none" stroke="#00A087" stroke-width="2"/>
+  <polyline points="459,544 463,549 471,538" fill="none" stroke="#00A087" stroke-width="2"/>
+  <text x="484" y="549" font-size="12.5" font-weight="bold" fill="#00A087">固定设置</text>
+  <text x="444" y="578" font-size="11.5" fill="#33332E">所有点都是同一个写死的颜色，</text>
+  <text x="444" y="598" font-size="11.5" fill="#33332E">不需要图例</text>
+
+  <!-- ============ 写法三：错 ============ -->
+  <rect x="800" y="120" width="352" height="500" rx="10" fill="#FFFFFF" stroke="#E64B35" stroke-width="1.6"/>
+  <text x="820" y="180" font-size="13.5" font-weight="bold" fill="#E64B35">也写进了 aes()：出错了</text>
+  <rect x="820" y="196" width="312" height="44" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="976" y="224" font-size="12" fill="#33332E" text-anchor="middle">geom_point(aes(color = "steelblue"))</text>
+
+  <rect x="820" y="260" width="312" height="250" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <line x1="820" y1="510" x2="1132" y2="510" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="820" y1="260" x2="820" y2="510" stroke="#6B6B66" stroke-width="1.2"/>
+  <circle cx="886" cy="300" r="4.5" fill="#E64B35"/>
+  <circle cx="926" cy="340" r="4.5" fill="#E64B35"/>
+  <circle cx="966" cy="280" r="4.5" fill="#E64B35"/>
+  <circle cx="1006" cy="360" r="4.5" fill="#E64B35"/>
+  <circle cx="1046" cy="320" r="4.5" fill="#E64B35"/>
+  <circle cx="906" cy="420" r="4.5" fill="#E64B35"/>
+  <circle cx="986" cy="440" r="4.5" fill="#E64B35"/>
+  <circle cx="1066" cy="400" r="4.5" fill="#E64B35"/>
+  <circle cx="956" cy="380" r="4.5" fill="#E64B35"/>
+  <circle cx="1016" cy="300" r="4.5" fill="#E64B35"/>
+  <text x="1120" y="278" font-size="10" fill="#6B6B66" text-anchor="end">species</text>
+  <rect x="1082" y="286" width="11" height="11" fill="#E64B35"/>
+  <text x="1099" y="296" font-size="10" fill="#33332E">steelblue</text>
+
+  <text x="820" y="549" font-size="12.5" font-weight="bold" fill="#E64B35">字符串被当成"只有一个水平的分类变量"</text>
+  <text x="820" y="578" font-size="11.5" fill="#33332E">所有点被涂成 ggplot 默认第一色（红），</text>
+  <text x="820" y="598" font-size="11.5" fill="#33332E">还多出一个写着 "steelblue" 的假图例</text>
+
+  <!-- ============ 底部口诀 ============ -->
+  <rect x="48" y="644" width="1104" height="92" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="644" width="6" height="92" rx="3" fill="#3C5488"/>
+  <text x="72" y="674" font-size="13" font-weight="bold" fill="#3C5488">一句话口诀（④4.5）</text>
+  <text x="72" y="700" font-size="12.5" fill="#33332E">写进 aes() = "这个视觉属性由数据的某一列决定"，自动出图例；写在外面 = "所有元素都用这个固定值"，没有图例。</text>
+  <text x="72" y="724" font-size="11.5" fill="#6B6B66">⑥6.2 对照：所有点一个颜色没图例 → color 写到了外面；多出写着颜色名的怪图例 → 写成了 aes(color = "...")。</text>
+
+  <!-- 页脚 -->
+  <text x="1152" y="770" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

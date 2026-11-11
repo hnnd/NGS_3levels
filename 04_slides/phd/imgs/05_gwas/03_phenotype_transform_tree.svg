@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Phenotype distribution decides the transform</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="70.0" y1="210.0" x2="740.0" y2="210.0" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<line x1="70.0" y1="210.0" x2="70.0" y2="38.0" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<rect x="77.54285714285714" y="180.0" width="32.057142857142864" height="30" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="3"/>
+<rect x="124.68571428571428" y="140.0" width="32.057142857142864" height="70" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="3"/>
+<rect x="171.82857142857142" y="100.0" width="32.057142857142864" height="110" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="3"/>
+<rect x="218.9714285714286" y="70.0" width="32.057142857142864" height="140" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="3"/>
+<rect x="266.1142857142857" y="78.0" width="32.057142857142864" height="132" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="3"/>
+<rect x="313.25714285714287" y="98.0" width="32.057142857142864" height="112" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="3"/>
+<rect x="360.40000000000003" y="122.0" width="32.057142857142864" height="88" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="3"/>
+<rect x="407.54285714285714" y="144.0" width="32.057142857142864" height="66" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="3"/>
+<rect x="454.6857142857143" y="162.0" width="32.057142857142864" height="48" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="3"/>
+<rect x="501.8285714285715" y="176.0" width="32.057142857142864" height="34" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="3"/>
+<rect x="548.9714285714285" y="186.0" width="32.057142857142864" height="24" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="3"/>
+<rect x="596.1142857142856" y="193.0" width="32.057142857142864" height="17" fill="#FBE6DF" rx="4" stroke="#F39B7F" stroke-width="3"/>
+<rect x="643.2571428571429" y="198.0" width="32.057142857142864" height="12" fill="#FBE6DF" rx="4" stroke="#F39B7F" stroke-width="3"/>
+<rect x="690.4" y="202.0" width="32.057142857142864" height="8" fill="#FBE6DF" rx="4" stroke="#F39B7F" stroke-width="3"/>
+<line x1="400.0" y1="210.0" x2="400.0" y2="244" stroke="#3C8DAD" stroke-width="5" stroke-linecap="butt"/>
+<line x1="190" y1="244" x2="610" y2="244" stroke="#3C8DAD" stroke-width="5" stroke-linecap="butt"/>
+<line x1="190" y1="244" x2="190" y2="292" stroke="#3C8DAD" stroke-width="5" stroke-linecap="round"/>
+<polygon points="190,292 183.47583275104688,277.39057695500304 196.52416724895312,277.39057695500304" fill="#3C8DAD"/>
+<line x1="610" y1="244" x2="610" y2="292" stroke="#3C8DAD" stroke-width="5" stroke-linecap="round"/>
+<polygon points="610,292 603.4758327510468,277.39057695500304 616.5241672489532,277.39057695500304" fill="#3C8DAD"/>
+<rect x="30" y="296" width="320" height="160" fill="#D8EEE9" rx="16" stroke="#00A087" stroke-width="5"/>
+<path d="M 60.0 348.0 C 60.0 348.0 81.3 331.7 92.0 326.0 C 102.7 320.3 113.3 317.0 124.0 314.0 C 134.7 311.0 143.3 309.7 156.0 308.0 C 168.7 306.3 200.0 304.0 200.0 304.0" fill="none" stroke="#00A087" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="190" y="412" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">轻度偏态用对数</text>
+<rect x="450" y="296" width="320" height="160" fill="#FBE6DF" rx="16" stroke="#F39B7F" stroke-width="5"/>
+<polyline points="480,348 506,348 506,334 532,334 532,320 558,320 558,308 584,308" fill="none" stroke="#F39B7F" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="610" y="412" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">极端分布用逆正态</text>
+<rect x="30" y="496" width="740" height="128" fill="#F6D8D2" rx="16" stroke="#E64B35" stroke-width="5"/>
+<rect x="52.0" y="516.0" width="88" height="88" fill="#FFFFFF" rx="10" stroke="#E64B35" stroke-width="4" stroke-dasharray="10 7"/>
+<rect x="59.0" y="523.0" width="74" height="74" fill="none" rx="7" stroke="#E64B35" stroke-width="2"/>
+<text x="96" y="571.9" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">!</text>
+<text x="400" y="574" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">抹平极端离群失去物理单位</text>
+</svg>

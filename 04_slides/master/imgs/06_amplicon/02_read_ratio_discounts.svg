@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="54" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">16S rRNA</text>
+<polygon points="78,86 722,86 666,186 134,186" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="148.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">拷贝数差</text>
+<polygon points="134,212 666,212 614,312 186,312" fill="#D6EFF4" stroke="#3C8DAD" stroke-width="4"/>
+<text x="400" y="274.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="middle" font-weight="bold">引物偏好</text>
+<polygon points="186,338 614,338 560,438 240,438" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="400.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">区段限制</text>
+<line x1="400" y1="188" x2="400" y2="210" stroke="#3C8DAD" stroke-width="5" stroke-linecap="round"/>
+<polygon points="400,210 395.10687456328515,199.0429327162523 404.89312543671485,199.0429327162523" fill="#3C8DAD"/>
+<line x1="400" y1="314" x2="400" y2="336" stroke="#3C8DAD" stroke-width="5" stroke-linecap="round"/>
+<polygon points="400,336 395.10687456328515,325.0429327162523 404.89312543671485,325.0429327162523" fill="#3C8DAD"/>
+<rect x="74" y="494" width="652" height="92" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="400" y="553.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">读段比例不等于细胞比例</text>
+<line x1="400" y1="442" x2="400" y2="486" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="400,486 393.4758327510469,471.39057695500304 406.5241672489531,471.39057695500304" fill="#3C5488"/>
+<text x="400.0" y="650" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#6B6B66" text-anchor="middle">reads ≠ cells</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Main dataset funnel</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<polygon points="75.0,64 505.0,64 492.0,148 88.0,148" fill="#E3E8F2" stroke="#3C5488" stroke-width="4" stroke-linejoin="round"/>
+<text x="290" y="118" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">257 runs</text>
+<polygon points="115.0,160 465.0,160 452.0,244 128.0,244" fill="#E7F5F8" stroke="#3C8DAD" stroke-width="4" stroke-linejoin="round"/>
+<text x="290" y="214" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">0.4–1.5 Gb</text>
+<polygon points="155.0,256 425.0,256 412.0,340 168.0,340" fill="#D8EEE9" stroke="#00A087" stroke-width="4" stroke-linejoin="round"/>
+<text x="290" y="310" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">18.44 Gb</text>
+<text x="530" y="309" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">实测四十株单倍体</text>
+<polygon points="195.0,352 385.0,352 372.0,436 208.0,436" fill="#FBE6DF" stroke="#F39B7F" stroke-width="4" stroke-linejoin="round"/>
+<text x="290" y="406" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="middle" font-weight="bold">11.5×</text>
+<text x="530" y="405" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">名义深度十一倍</text>
+<text x="530" y="117" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">全球集合筛选</text>
+<text x="378" y="288" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">40</text>
+<text x="60" y="496" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">紧凑基因组</text>
+<rect x="60" y="514" width="470" height="30" fill="#E3E8F2" rx="15" stroke="#3C5488" stroke-width="3"/>
+<text x="552" y="542" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">40 Mb</text>
+<line x1="60" y1="580" x2="740" y2="580" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="400" y="634" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">18.44 Gb ÷ (40 Mb × 40) = 11.5×</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="60" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">短读长：清洗流水线</text>
+<text x="430" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="start" font-weight="bold">长读长：特征评估</text>
+<rect x="60" y="116" width="310" height="74" fill="#3C5488" rx="12"/>
+<text x="215" y="164" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">FastQC</text>
+<line x1="215" y1="192" x2="215" y2="234" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="215,234 207.66031184492775,217.56439907437846 222.33968815507225,217.56439907437846" fill="#3C5488"/>
+<rect x="60" y="238" width="310" height="74" fill="#3C5488" rx="12"/>
+<text x="215" y="286" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">fastp trim</text>
+<line x1="215" y1="314" x2="215" y2="356" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="215,356 207.66031184492775,339.56439907437846 222.33968815507225,339.56439907437846" fill="#3C5488"/>
+<rect x="60" y="360" width="310" height="74" fill="#3C5488" rx="12"/>
+<text x="215" y="408" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">re-check</text>
+<line x1="215" y1="436" x2="215" y2="478" stroke="#3C5488" stroke-width="6" stroke-linecap="round"/>
+<polygon points="215,478 207.66031184492775,461.56439907437846 222.33968815507225,461.56439907437846" fill="#3C5488"/>
+<rect x="60" y="482" width="310" height="74" fill="#3C5488" rx="12"/>
+<text x="215" y="530" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">MultiQC</text>
+<rect x="430" y="116" width="310" height="74" fill="#4DBBD5" rx="12"/>
+<text x="585" y="164" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">length dist.</text>
+<rect x="430" y="238" width="310" height="74" fill="#4DBBD5" rx="12"/>
+<text x="585" y="286" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">total bases</text>
+<rect x="430" y="360" width="310" height="74" fill="#4DBBD5" rx="12"/>
+<text x="585" y="408" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">read N50</text>
+<text x="585" y="520" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">不做外部质量修剪</text>
+<line x1="215" y1="560" x2="285" y2="600" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="285,600 267.0883971205069,598.2182923114791 274.37140729876245,585.4730244995319" fill="#00A087"/>
+<line x1="585" y1="552" x2="515" y2="600" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="515,600 524.4041125081875,584.6519490509918 532.7057160533856,596.7584542210724" fill="#00A087"/>
+<rect x="275" y="600" width="250" height="68" fill="#00A087" rx="14"/>
+<text x="400" y="645" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">下游分析</text>
+</svg>

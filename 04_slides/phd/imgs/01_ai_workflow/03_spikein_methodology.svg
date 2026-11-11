@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Known-answer loop: spike-in methodology</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="36" y="56" width="344" height="170" fill="#E7F5F8" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="54" y="98" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#4DBBD5" text-anchor="start" font-weight="bold">STEP 1</text>
+<text x="54" y="144" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">2 000 × 6</text>
+<text x="54" y="180" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">20 × 8-fold</text>
+<text x="54" y="216" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">seed 20260829</text>
+<rect x="420" y="56" width="344" height="170" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="438" y="98" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">STEP 2</text>
+<text x="438" y="144" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">ai_code_runs</text>
+<text x="438" y="180" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">on_this_matrix</text>
+<rect x="36" y="290" width="344" height="150" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="4"/>
+<text x="54" y="332" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">STEP 4</text>
+<text x="54" y="378" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">fail→patch_code</text>
+<text x="54" y="414" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">rerun_step2</text>
+<rect x="420" y="290" width="344" height="150" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="438" y="332" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="start" font-weight="bold">STEP 3</text>
+<text x="438" y="378" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">recall ≥ 18/20</text>
+<text x="438" y="414" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">cor ≈ −1</text>
+<line x1="382" y1="141" x2="414" y2="141" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="414,141 402.12984377594,146.3008858897744 402.12984377594,135.6991141102256" fill="#6B6B66"/>
+<line x1="592" y1="230" x2="592" y2="286" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="592,286 586.6991141102255,274.12984377594 597.3008858897745,274.12984377594" fill="#6B6B66"/>
+<line x1="414" y1="365" x2="382" y2="365" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="382,365 393.87015622406,359.6991141102256 393.87015622406,370.3008858897744" fill="#6B6B66"/>
+<line x1="208" y1="286" x2="208" y2="230" stroke="#E64B35" stroke-width="5" stroke-linecap="round"/>
+<polygon points="208,230 213.3008858897744,241.87015622406 202.6991141102256,241.87015622406" fill="#E64B35"/>
+<text x="194" y="266" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="end">loop</text>
+<line x1="592" y1="444" x2="592" y2="508" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="592,508 585.8835932041064,494.30366589531536 598.1164067958936,494.30366589531536" fill="#00A087"/>
+<rect x="478.3" y="524.0" width="227.39999999999998" height="56" fill="#FFFFFF" rx="28.0" stroke="#00A087" stroke-width="4"/>
+<text x="592.0" y="562.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">PASS → paper</text>
+<rect x="32.0" y="600" width="736" height="116" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="642" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">真实数据无真值。流程外造已知答案，</text>
+<text x="400.0" y="686" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">向系统注入已知量，验系统响应。</text>
+</svg>

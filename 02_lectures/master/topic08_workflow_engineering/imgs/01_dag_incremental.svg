@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">工作流 DAG 与增量重跑：改动谁，重跑谁</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">声明式 DAG ｜ 时间戳比对 —— 依据 08_workflow_engineering_lecture.md ④–⑤</text>
+  <!-- 图例 -->
+  <rect x="946" y="40" width="12" height="12" fill="#E64B35"/>
+  <text x="964" y="50" font-size="12" fill="#33332E">被修改 / 输入更新 → 重跑</text>
+  <rect x="946" y="64" width="12" height="12" fill="#F39B7F"/>
+  <text x="964" y="74" font-size="12" fill="#33332E">下游过期 → 必须重跑</text>
+  <rect x="946" y="88" width="12" height="12" fill="#F3F3EF" stroke="#BFBFB9" stroke-dasharray="3 2"/>
+  <text x="964" y="98" font-size="12" fill="#33332E">缓存命中 → 跳过</text>
+  <line x1="946" y1="114" x2="958" y2="114" stroke="#3C5488" stroke-width="2"/>
+  <text x="964" y="118" font-size="12" fill="#33332E">依赖边（顺序由拓扑排序决定）</text>
+
+  <!-- ============ 主面板：DAG ============ -->
+  <rect x="48" y="140" width="720" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="170" font-size="16" font-weight="bold" fill="#3C5488">改动一个样本的输入后：谁重跑，谁跳过</text>
+
+  <!-- 依赖边（蓝 = 常规；橙 = 重跑路径） -->
+  <line x1="133" y1="256" x2="133" y2="313" stroke="#3C5488" stroke-width="1.8"/>
+  <polygon points="129,313 137,313 133,320" fill="#3C5488"/>
+  <path d="M 330 256 L 330 284 L 233 284 L 233 313" fill="none" stroke="#3C5488" stroke-width="1.8"/>
+  <polygon points="229,313 237,313 233,320" fill="#3C5488"/>
+  <path d="M 476 256 L 476 284 L 573 284 L 573 313" fill="none" stroke="#3C5488" stroke-width="1.8"/>
+  <polygon points="569,313 577,313 573,320" fill="#3C5488"/>
+  <line x1="623" y1="256" x2="623" y2="313" stroke="#F39B7F" stroke-width="2.2"/>
+  <polygon points="619,313 627,313 623,320" fill="#F39B7F"/>
+  <path d="M 183 376 L 183 408 L 295 408 L 295 433" fill="none" stroke="#3C5488" stroke-width="1.8"/>
+  <polygon points="291,433 299,433 295,440" fill="#3C5488"/>
+  <path d="M 623 376 L 623 408 L 395 408 L 395 433" fill="none" stroke="#F39B7F" stroke-width="2.2"/>
+  <polygon points="391,433 399,433 395,440" fill="#F39B7F"/>
+  <line x1="345" y1="496" x2="345" y2="553" stroke="#F39B7F" stroke-width="2.2"/>
+  <polygon points="341,553 349,553 345,560" fill="#F39B7F"/>
+  <line x1="440" y1="588" x2="451" y2="588" stroke="#F39B7F" stroke-width="2.2"/>
+  <polygon points="451,584 451,592 458,588" fill="#F39B7F"/>
+
+  <!-- 第 1 行 -->
+  <rect x="88" y="200" width="190" height="56" rx="10" fill="#F3F3EF" stroke="#BFBFB9" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="183" y="223" font-size="13.5" font-weight="bold" fill="#6B6B66" text-anchor="middle">rule fastp × 3</text>
+  <text x="183" y="243" font-size="10.5" fill="#6B6B66" text-anchor="middle">CK_2 · TR_1 · TR_2 输入未变</text>
+
+  <rect x="308" y="200" width="190" height="56" rx="10" fill="#F3F3EF" stroke="#BFBFB9" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="403" y="223" font-size="13.5" font-weight="bold" fill="#6B6B66" text-anchor="middle">rule salmon_index</text>
+  <text x="403" y="243" font-size="10.5" fill="#6B6B66" text-anchor="middle">参考索引未变 → 跳过</text>
+
+  <rect x="528" y="200" width="190" height="56" rx="10" fill="#E64B35"/>
+  <text x="623" y="223" font-size="13.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">rule fastp</text>
+  <text x="623" y="243" font-size="10.5" fill="#FFFFFF" text-anchor="middle">CK_1 输入更新 / 输出被删</text>
+
+  <!-- 第 2 行 -->
+  <rect x="88" y="320" width="190" height="56" rx="10" fill="#F3F3EF" stroke="#BFBFB9" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="183" y="343" font-size="13.5" font-weight="bold" fill="#6B6B66" text-anchor="middle">rule salmon_quant × 3</text>
+  <text x="183" y="363" font-size="10.5" fill="#6B6B66" text-anchor="middle">其余样本 → 全部跳过</text>
+
+  <rect x="528" y="320" width="190" height="56" rx="10" fill="#F39B7F"/>
+  <text x="623" y="343" font-size="13.5" font-weight="bold" fill="#33332E" text-anchor="middle">rule salmon_quant</text>
+  <text x="623" y="363" font-size="10.5" fill="#33332E" text-anchor="middle">sample=CK_1 → 重跑</text>
+
+  <!-- 第 3 行 -->
+  <rect x="250" y="440" width="190" height="56" rx="10" fill="#F39B7F"/>
+  <text x="345" y="463" font-size="13.5" font-weight="bold" fill="#33332E" text-anchor="middle">rule merge_counts</text>
+  <text x="345" y="483" font-size="10.5" fill="#33332E" text-anchor="middle">汇总依赖任一上游 → 重跑</text>
+
+  <!-- 第 4 行 -->
+  <rect x="250" y="560" width="190" height="56" rx="10" fill="#F39B7F"/>
+  <text x="345" y="583" font-size="13.5" font-weight="bold" fill="#33332E" text-anchor="middle">rule report</text>
+  <text x="345" y="603" font-size="10.5" fill="#33332E" text-anchor="middle">Quarto 重新渲染</text>
+
+  <rect x="458" y="560" width="150" height="56" rx="10" fill="#F39B7F"/>
+  <text x="533" y="583" font-size="13.5" font-weight="bold" fill="#33332E" text-anchor="middle">rule all</text>
+  <text x="533" y="603" font-size="10.5" fill="#33332E" text-anchor="middle">最终目标</text>
+
+  <text x="72" y="654" font-size="11.5" fill="#6B6B66">执行顺序由 DAG 拓扑排序推出，Snakefile 里从不写顺序（④）</text>
+
+  <!-- ============ 右面板 ============ -->
+  <rect x="792" y="140" width="360" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="816" y="170" font-size="16" font-weight="bold" fill="#3C5488">Snakemake 怎么决定重跑谁</text>
+  <line x1="816" y1="184" x2="1144" y2="184" stroke="#E9E9E5"/>
+
+  <text x="816" y="216" font-size="12.5" font-weight="bold" fill="#33332E">机制：比较输入输出的时间戳</text>
+  <text x="816" y="242" font-size="11.5" fill="#33332E">输出缺失，或输入比输出新 → 该节点重算</text>
+  <text x="816" y="262" font-size="11.5" fill="#33332E">reason 字段写明每次重跑的原因</text>
+
+  <text x="816" y="308" font-size="13" font-weight="bold" fill="#3C5488">先空跑预演：snakemake -n</text>
+  <text x="816" y="332" font-size="11.5" fill="#33332E">只打印打算重跑哪些节点与原因，不执行</text>
+  <text x="816" y="352" font-size="11.5" fill="#33332E">本图即“改了 CK_1 之后 -n”给出的重跑范围</text>
+  <text x="816" y="372" font-size="11.5" fill="#33332E">--dag 可把这张依赖图导出成文件</text>
+
+  <rect x="816" y="396" width="328" height="80" rx="6" fill="#FAFAF7"/>
+  <rect x="816" y="396" width="4" height="80" rx="2" fill="#E64B35"/>
+  <text x="832" y="424" font-size="12" font-weight="bold" fill="#E64B35">易错点：只改 config.yaml 的阈值</text>
+  <text x="832" y="446" font-size="11.5" fill="#33332E">Snakemake 默认只看时间戳、不看参数内容</text>
+  <text x="832" y="466" font-size="11.5" fill="#33332E">→ 用 snakemake -R &lt;rule&gt; 强制重跑</text>
+
+  <rect x="816" y="500" width="328" height="92" rx="6" fill="#FAFAF7"/>
+  <rect x="816" y="500" width="4" height="92" rx="2" fill="#3C5488"/>
+  <text x="832" y="528" font-size="12" fill="#33332E">增量重跑的习惯：改动之后先 -n</text>
+  <text x="832" y="550" font-size="12" fill="#33332E">确认重跑范围符合预期，再真跑</text>
+  <text x="832" y="572" font-size="12" fill="#33332E">排错看 logs/&lt;rule&gt;/&lt;sample&gt;.log</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">改动谁，重跑谁：DAG 上只重算过期的分支，其余节点全部命中缓存、直接跳过。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

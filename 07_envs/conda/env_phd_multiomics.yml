@@ -1,0 +1,33 @@
+# 博士生 · 环境 5/6：多组学整合
+# 覆盖专题：p06（含内嵌的「非测序组学数据入门」1 学时）
+# 创建：conda env create -f env_phd_multiomics.yml
+# 激活：conda activate ngs_phd_multiomics
+#
+# 【不走 conda】Cytoscape 是桌面 Java 应用，需官网下载安装
+# （见契约 env_exempt_tools）。本环境提供 igraph 作为脚本化的替代路径。
+
+name: ngs_phd_multiomics
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # 【生态性断裂】setuptools 82.0.0（2026-02-08）移除了 pkg_resources（81.x 仍含），而 bioconda 上
+  # 2023-2024 年的 Python 工具（multiqc 1.14、macs2、部分 deeptools 子命令等）仍 import 它，
+  # 表现为 `ModuleNotFoundError: No module named 'pkg_resources'`。全课程统一钉 <81（比必要的 <82 多保守一档，已实测可用）。
+  - setuptools<81
+  - r-base=4.3.1
+  - r-wgcna=1.73
+  - bioconductor-mofa2
+  - mofapy2            # MOFA2 的 Python 训练后端，缺它 run_mofa() 直接失败
+  - bioconductor-impute # kNN 填补（讲 MNAR vs MAR 时与 missForest 对比）
+  - r-igraph          # 网络分析的脚本化路径（Cytoscape 的替代）
+  - r-corrplot
+  - r-tidyverse=2.0.0
+  - r-ggplot2=3.4.2
+  # 代谢组/蛋白组数据处理（内嵌模块「非测序组学数据入门」用）
+  - bioconductor-limma
+  # 转录组 counts → vst（p06 讲义 §4.2）；版本与 ngs_phd_base 一致
+  - bioconductor-deseq2=1.42.0
+  - r-missforest      # 缺失值填补，讲 MNAR vs MAR 时对比用

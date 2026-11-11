@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Constitutively low NLR expression</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="44" y="78" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">受体低表达防免疫</text>
+<rect x="74" y="268" width="88" height="130" fill="#D8EEE9" rx="8" stroke="#00A087" stroke-width="4"/>
+<rect x="198" y="122" width="88" height="276" fill="#F6D8D2" rx="8" stroke="#E64B35" stroke-width="4"/>
+<text x="118" y="434" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">low</text>
+<text x="242" y="434" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">high</text>
+<rect x="336" y="92" width="420" height="300" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="3"/>
+<line x1="356" y1="392" x2="736" y2="392" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="356" y1="392" x2="356" y2="108" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<rect x="358" y="112" width="74" height="280" fill="#D8EEE9"/>
+<polyline points="356.0,355.9994404893664 365.5,355.9973525079128 375.0,355.988667886617 384.5,355.95612298584155 394.0,355.8463214920351 403.5,355.51310073475327 413.0,354.6045476306243 422.5,352.38223102455663 432.0,347.5156894364257 441.5,338.0012560453909 451.0,321.4603641187975 460.5,296.042540135953 470.0,261.85037157240197 479.5,222.26536098193392 489.0,184.16203391345465 498.5,156.26956311980723 508.0,146.0 517.5,156.26956311980723 527.0,184.16203391345465 536.5,222.26536098193392 546.0,261.85037157240197 555.5,296.042540135953 565.0,321.4603641187975 574.5,338.0012560453909 584.0,347.5156894364257 593.5,352.38223102455663 603.0,354.6045476306243 612.5,355.51310073475327 622.0,355.8463214920351 631.5,355.95612298584155 641.0,355.988667886617 650.5,355.9973525079128 660.0,355.9994404893664 669.5,355.9998930374044 679.0,355.9999815028237 688.5,355.99999710646426 698.0,355.9999995905488 707.5,355.99999994758866 717.0,355.9999999939313 726.5,355.9999999993643 736.0,355.99999999993975" fill="none" stroke="#3C5488" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="366" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">88%</text>
+<text x="624" y="336" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">10%</text>
+<text x="658" y="132" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">expr</text>
+<text x="384" y="452" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">上调过滤致漏检</text>
+<circle cx="404" cy="496" r="22" fill="#FFFFFF" stroke="#6B6B66" stroke-width="4"/>
+<line x1="404" y1="480" x2="404" y2="500" stroke="#6B6B66" stroke-width="8" stroke-linecap="round"/>
+<line x1="462" y1="492" x2="744" y2="492" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<line x1="512" y1="468" x2="560" y2="516" stroke="#6B6B66" stroke-width="7" stroke-linecap="round"/>
+<line x1="512" y1="516" x2="560" y2="468" stroke="#6B6B66" stroke-width="7" stroke-linecap="round"/>
+<text x="44" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">禁硬设上调门槛</text>
+<line x1="400" y1="620" x2="430" y2="620" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="430,620 415.39057695500304,626.5241672489532 415.39057695500304,613.4758327510468" fill="#00A087"/>
+<text x="452" y="632" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">投射群体定位替代</text>
+</svg>

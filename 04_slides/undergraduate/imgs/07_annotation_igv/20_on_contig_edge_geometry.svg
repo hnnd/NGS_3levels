@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="30" y="48" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">设例</text>
+<rect x="50" y="140" width="700" height="48" fill="#3C5488" rx="6"/>
+<rect x="50" y="140" width="689.0814558058926" height="48" fill="#F39B7F" rx="6"/>
+<rect x="739.0814558058926" y="140" width="10.918544194107426" height="48" fill="#E9E9E5" rx="6"/>
+<line x1="50" y1="108" x2="50" y2="218" stroke="#E64B35" stroke-width="7" stroke-linecap="butt"/>
+<text x="66" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">起点等于一</text>
+<text x="50" y="250" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">1</text>
+<line x1="739.0814558058926" y1="188" x2="739.0814558058926" y2="240" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<line x1="750.0" y1="188" x2="750.0" y2="240" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<rect x="560" y="240" width="210" height="96" fill="#FFFFFF" rx="8" stroke="#6B6B66" stroke-width="3"/>
+<text x="655" y="266" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">450 bp</text>
+<rect x="595" y="278" width="120" height="18" fill="#F39B7F" rx="4"/>
+<line x1="595" y1="296" x2="595" y2="320" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt"/>
+<line x1="715" y1="296" x2="715" y2="320" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt"/>
+<text x="595" y="348" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">28,400</text>
+<text x="715" y="348" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">28,850</text>
+<text x="785" y="430" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="end" font-weight="bold">终点等于总长</text>
+<text x="400" y="500" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">右端有余量不抵消</text>
+<rect x="210" y="580" width="380" height="60" fill="#E64B35" rx="12"/>
+<text x="400" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">贴边即完整性未知</text>
+</svg>

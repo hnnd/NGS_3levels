@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="50" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">零模微孔照孔底，发夹闭合成环</text>
+<text x="400" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">绕环多圈重读</text>
+<rect x="40" y="120" width="720" height="250" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<text x="70" y="162" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">零模波导孔（ZMW）</text>
+<polygon points="300,180 500,180 430,250 370,250" fill="#F39B7F"/>
+<rect x="60" y="250" width="680" height="44" fill="#6B6B66" rx="6"/>
+<rect x="370" y="244" width="60" height="56" fill="#FAFAF7"/>
+<polyline points="400,210 400,284" fill="none" stroke="#3C8DAD" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="400" cy="290" r="12" fill="#3C8DAD"/>
+<rect x="310" y="308" width="180" height="46" fill="#F6D8D2" rx="8" stroke="#E64B35" stroke-width="4"/>
+<text x="400" y="341" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">观测体积 20 zL</text>
+<rect x="40" y="400" width="720" height="270" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<text x="70" y="442" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">SMRTbell</text>
+<rect x="150" y="520" width="70" height="40" fill="#F39B7F" rx="18"/>
+<rect x="580" y="520" width="70" height="40" fill="#F39B7F" rx="18"/>
+<rect x="215" y="528" width="370" height="24" fill="#4DBBD5" rx="10"/>
+<path d="M 620 500 C 700 440, 110 440, 170 502" fill="none"/>
+<path d="M 616 494 C 690 436, 120 436, 174 496" fill="none" stroke="#00A087" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="2 14"/>
+<polygon points="170,502 200,500 184,524" fill="#00A087"/>
+<rect x="310" y="590" width="80" height="44" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="3"/>
+<text x="350" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">R1</text>
+<rect x="420" y="590" width="80" height="44" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="3"/>
+<text x="460" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">R2</text>
+<rect x="530" y="590" width="80" height="44" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="3"/>
+<text x="570" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">R3</text>
+<text x="90" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="28" fill="#6B6B66" text-anchor="start" font-weight="bold">subreads →</text>
+</svg>

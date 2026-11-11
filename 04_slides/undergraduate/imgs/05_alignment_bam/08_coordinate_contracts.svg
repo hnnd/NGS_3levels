@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="60" y="60" width="600" height="40" fill="#3C5488" rx="8"/>
+<text x="80" y="88" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="start" font-weight="bold">contig1</text>
+<text x="620" y="88" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="end" font-weight="bold">2000 bp</text>
+<rect x="360.0" y="52" width="30.0" height="56" fill="none" stroke="#00A087" stroke-width="6"/>
+<text x="375.0" y="34" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">同一段</text>
+<text x="375.0" y="146" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">1001–1100</text>
+<rect x="60" y="150" width="480" height="96" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<rect x="60" y="150" width="118" height="96" fill="#3C5488" rx="14"/>
+<text x="119" y="210" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">SAM</text>
+<text x="200" y="192" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">POS = 1001</text>
+<text x="200" y="228" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">1-based, closed</text>
+<rect x="60" y="280" width="480" height="96" fill="#FFFFFF" rx="14" stroke="#3C8DAD" stroke-width="5"/>
+<rect x="60" y="280" width="118" height="96" fill="#3C8DAD" rx="14"/>
+<text x="119" y="340" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">CLI</text>
+<text x="200" y="322" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">contig1:1001-1100</text>
+<text x="200" y="358" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">= 100 bp</text>
+<rect x="60" y="410" width="480" height="96" fill="#FFFFFF" rx="14" stroke="#8491B4" stroke-width="5"/>
+<rect x="60" y="410" width="118" height="96" fill="#8491B4" rx="14"/>
+<text x="119" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">BED</text>
+<text x="200" y="452" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">contig1  1000  1100</text>
+<text x="200" y="488" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">= 100 bp</text>
+<line x1="570" y1="458" x2="570" y2="404" stroke="#E64B35" stroke-width="6" stroke-linecap="round"/>
+<polygon points="570,404 577.3396881550723,420.43560092562154 562.6603118449277,420.43560092562154" fill="#E64B35"/>
+<text x="665" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">抄错变 101 bp</text>
+<text x="665" y="392" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">无报错</text>
+</svg>

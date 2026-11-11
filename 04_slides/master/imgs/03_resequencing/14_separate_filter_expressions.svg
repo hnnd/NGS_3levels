@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="46" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">VariantFiltration</text>
+<rect x="40" y="72" width="720" height="280" fill="#FFFFFF" rx="16" stroke="#00A087" stroke-width="4"/>
+<text x="400" y="114" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">逐条声明</text>
+<rect x="56" y="140" width="158" height="150" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="135" y="186" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">QD&lt;2</text>
+<text x="135" y="232" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">拦截 927</text>
+<text x="135" y="272" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle">✓</text>
+<rect x="234" y="140" width="158" height="150" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="313" y="186" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">FS&gt;60</text>
+<text x="313" y="232" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">拦截 537</text>
+<text x="313" y="272" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle">✓</text>
+<rect x="412" y="140" width="158" height="150" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="491" y="186" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">MQ&lt;40</text>
+<text x="491" y="232" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">拦截 902</text>
+<text x="491" y="272" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle">✓</text>
+<rect x="590" y="140" width="158" height="150" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="669" y="186" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">SOR&gt;3</text>
+<text x="669" y="232" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">拦截 1000</text>
+<text x="669" y="272" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle">✓</text>
+<text x="400" y="322" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">独立拦截：独立标签 + 独立计数</text>
+<rect x="40" y="390" width="720" height="250" fill="#FFFFFF" rx="16" stroke="#E64B35" stroke-width="4"/>
+<text x="240" y="432" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">复合表达式</text>
+<rect x="80" y="452" width="420" height="64" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="4"/>
+<text x="290" y="496" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">QD&lt;2 || FS&gt;60 || MQ&lt;40 || SOR&gt;3</text>
+<text x="590" y="496" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">单行</text>
+<line x1="290" y1="516" x2="290" y2="552" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="290,552 282.6603118449277,535.5643990743785 297.3396881550723,535.5643990743785" fill="#6B6B66"/>
+<rect x="120" y="556" width="200" height="64" fill="#FFFFFF" rx="10" stroke="#F39B7F" stroke-width="4"/>
+<text x="220" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">标签缺失</text>
+<text x="220" y="610" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">缺 MQRankSum</text>
+<line x1="320" y1="588" x2="380" y2="588" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="380,588 363.56439907437846,595.3396881550723 363.56439907437846,580.6603118449277" fill="#6B6B66"/>
+<rect x="384" y="556" width="190" height="64" fill="#FFFFFF" rx="10" stroke="#E64B35" stroke-width="4"/>
+<text x="479" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">JEXL 短路</text>
+<text x="479" y="610" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">退出码 0</text>
+<line x1="574" y1="588" x2="630" y2="588" stroke="#E64B35" stroke-width="6" stroke-linecap="round"/>
+<polygon points="630,588 613.5643990743785,595.3396881550723 613.5643990743785,580.6603118449277" fill="#E64B35"/>
+<rect x="634" y="556" width="106" height="64" fill="#D8EEE9" rx="10" stroke="#00A087" stroke-width="4"/>
+<text x="687" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">PASS</text>
+<text x="687" y="610" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">拦截=0</text>
+<text x="400" y="662" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">静默全放行：整条表达式失效，计数 = 0</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Biomass curve anomaly fingerprints</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="96" y1="452" x2="750" y2="452" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="750,452 737.2167548356277,457.70864634283396 737.2167548356277,446.29135365716604" fill="#3C5488"/>
+<line x1="96" y1="452" x2="96" y2="140" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="96,140 101.70864634283399,152.78324516437232 90.29135365716601,152.78324516437232" fill="#3C5488"/>
+<text x="152" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">12</text>
+<text x="328" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">24</text>
+<text x="504" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">36</text>
+<text x="674" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="end" font-weight="bold">48</text>
+<text x="744" y="498" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">hpi</text>
+<polyline points="152,402 328,344 504,286 680,228" fill="none" stroke="#00A087" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="152" cy="402" r="9" fill="#00A087"/>
+<circle cx="328" cy="344" r="9" fill="#00A087"/>
+<circle cx="504" cy="286" r="9" fill="#00A087"/>
+<circle cx="680" cy="228" r="9" fill="#00A087"/>
+<text x="56" y="88" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">正常随时相上升</text>
+<line x1="96" y1="438" x2="744" y2="438" stroke="#00A087" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<text x="56" y="560" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">未接种应近全零</text>
+<line x1="90" y1="520" x2="90" y2="442" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="90,442 95.70864634283399,454.7832451643723 84.29135365716601,454.7832451643723" fill="#00A087"/>
+<polyline points="152,428 328,392 504,350 680,300" fill="none" stroke="#E64B35" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="152" cy="428" r="8" fill="#E64B35"/>
+<circle cx="328" cy="392" r="8" fill="#E64B35"/>
+<circle cx="504" cy="350" r="8" fill="#E64B35"/>
+<circle cx="680" cy="300" r="8" fill="#E64B35"/>
+<text x="300" y="202" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">对照检出提示污染</text>
+<line x1="376" y1="214" x2="424" y2="300" stroke="#E64B35" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 6"/>
+<line x1="302" y1="322" x2="302" y2="412" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt" stroke-dasharray="7 6"/>
+<line x1="354" y1="296" x2="354" y2="424" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt" stroke-dasharray="7 6"/>
+<circle cx="302" cy="336" r="8" fill="#6B6B66"/>
+<circle cx="354" cy="402" r="8" fill="#6B6B66"/>
+<text x="300" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">重复离散示不同步</text>
+<line x1="352" y1="570" x2="354" y2="436" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="354,436 358.72906040963846,447.02887064218226 348.9438993798419,446.8828234626331" fill="#6B6B66"/>
+</svg>

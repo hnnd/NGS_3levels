@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="24" width="720" height="150" fill="#D6EFF4" rx="14" stroke="#4DBBD5" stroke-width="4"/>
+<text x="400" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">rule report</text>
+<text x="400" y="108" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">os.path.realpath(counts)</text>
+<text x="400" y="154" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">参数注入真实路径</text>
+<line x1="400" y1="176" x2="400" y2="208" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="400,208 393.4758327510469,193.39057695500307 406.5241672489531,193.39057695500307" fill="#4DBBD5"/>
+<rect x="40" y="214" width="720" height="176" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="256" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">quarto render report.qmd</text>
+<text x="400" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">-P counts=/abs/counts_matrix.tsv</text>
+<text x="400" y="340" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">-P tpm=/abs/tpm_matrix.tsv</text>
+<text x="400" y="378" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">绝对路径绑定输入</text>
+<line x1="400" y1="392" x2="400" y2="424" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="400,424 393.4758327510469,409.39057695500304 406.5241672489531,409.39057695500304" fill="#4DBBD5"/>
+<rect x="40" y="430" width="720" height="122" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="400" y="490" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">report.html</text>
+<text x="400" y="528" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">报告渲染即现算</text>
+<rect x="190" y="566" width="420" height="92" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="400" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">防误读旧文件</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">怎么读一棵进化树：分支长度与支持值</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">UFBoot ｜ SH-aLRT ｜ 分支长度 —— 依据 08_project_lecture.md ⑥6.4</text>
+  <!-- 图例 -->
+  <rect x="840" y="42" width="12" height="12" fill="#3C5488"/>
+  <text x="860" y="52" font-size="12" fill="#33332E">树分支（水平长度 ≈ 差异）</text>
+  <rect x="840" y="59" width="12" height="12" fill="#F39B7F"/>
+  <text x="860" y="69" font-size="12" fill="#33332E">待测株（你的分离株）</text>
+  <rect x="840" y="76" width="12" height="12" fill="#00A087"/>
+  <text x="860" y="86" font-size="12" fill="#33332E">强支持节点（双达标）</text>
+  <rect x="840" y="93" width="12" height="12" fill="#E64B35"/>
+  <text x="860" y="103" font-size="12" fill="#33332E">弱支持节点</text>
+
+  <!-- ============ 左面板：树 ============ -->
+  <rect x="48" y="124" width="700" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="15" font-weight="bold" fill="#3C5488">单拷贝保守基因建出的最大似然树（示意）</text>
+  <!-- 分支 -->
+  <path d="M 105 390 L 160 390" fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <path d="M 160 230 L 160 550" fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <path d="M 160 230 L 690 230" fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <path d="M 160 550 L 260 550" fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <path d="M 260 310 L 260 470" fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <path d="M 260 310 L 460 310" fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <path d="M 460 270 L 460 350" fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <path d="M 460 270 L 690 270" fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <path d="M 460 350 L 690 350" fill="none" stroke="#F39B7F" stroke-width="3.5"/>
+  <path d="M 260 470 L 460 470" fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <path d="M 460 430 L 460 510" fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <path d="M 460 430 L 690 430" fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <path d="M 460 510 L 690 510" fill="none" stroke="#3C5488" stroke-width="2.5"/>
+  <!-- 节点标记 -->
+  <circle cx="160" cy="390" r="5" fill="#E64B35"/>
+  <circle cx="260" cy="550" r="4" fill="#00A087"/>
+  <circle cx="460" cy="310" r="4" fill="#00A087"/>
+  <circle cx="460" cy="470" r="4" fill="#00A087"/>
+  <!-- 支持值 -->
+  <text x="172" y="384" font-size="11.5" font-weight="bold" fill="#E64B35">58/71</text>
+  <text x="270" y="542" font-size="11.5" font-weight="bold" fill="#00A087">100/100</text>
+  <text x="470" y="302" font-size="11.5" font-weight="bold" fill="#00A087">99/98</text>
+  <text x="470" y="462" font-size="11.5" font-weight="bold" fill="#00A087">97/96</text>
+  <!-- 叶标签 -->
+  <text x="686" y="222" font-size="11.5" fill="#6B6B66" text-anchor="end">外群（定根参考）</text>
+  <text x="698" y="274" font-size="11.5" fill="#33332E">参考 1</text>
+  <text x="686" y="342" font-size="11.5" font-weight="bold" fill="#33332E" text-anchor="end">待测株（你的分离株）</text>
+  <text x="698" y="434" font-size="11.5" fill="#33332E">参考 2</text>
+  <text x="698" y="514" font-size="11.5" fill="#33332E">参考 3</text>
+  <!-- 底注 -->
+  <line x1="72" y1="580" x2="724" y2="580" stroke="#E9E9E5"/>
+  <text x="72" y="606" font-size="11.5" fill="#33332E">水平长度 ≈ 遗传差异：外群的水平支很远 = 它更早分化，用来定根。</text>
+  <text x="72" y="630" font-size="11.5" fill="#33332E">节点旁数字 = UFBoot / SH-aLRT（IQ-TREE：-bb 1000 / -alrt 1000）。</text>
+  <text x="72" y="654" font-size="11.5" font-weight="bold" fill="#E64B35">根部 58/71：弱支持——外群放在哪个位置，这棵树其实没把握。</text>
+
+  <!-- ============ 右面板：读法 ============ -->
+  <rect x="780" y="124" width="372" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="804" y="154" font-size="15" font-weight="bold" fill="#3C5488">读树三步 + 两个误区</text>
+  <rect x="804" y="170" width="324" height="72" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="820" y="194" font-size="12.5" font-weight="bold" fill="#3C5488">① 先看待测株坐在哪</text>
+  <text x="820" y="216" font-size="11" fill="#33332E">周围是哪些参考、离谁最近——</text>
+  <text x="820" y="232" font-size="11" fill="#33332E">这是溯源问题的直接答案。</text>
+  <rect x="804" y="254" width="324" height="106" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="820" y="278" font-size="12.5" font-weight="bold" fill="#3C5488">② 支持值：两个都达标才算强</text>
+  <text x="820" y="300" font-size="11" fill="#33332E">UFBoot ≥ 95：数据重抽样下分支稳定；</text>
+  <text x="820" y="318" font-size="11" fill="#33332E">SH-aLRT ≥ 80：相对坍缩统计显著；</text>
+  <text x="820" y="336" font-size="11" fill="#33332E">判定强支持，建议两个值同时满足。</text>
+  <rect x="804" y="372" width="324" height="110" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="820" y="396" font-size="12.5" font-weight="bold" fill="#3C5488">③ 两个误区</text>
+  <text x="820" y="418" font-size="11" fill="#33332E">支持值高 ≠ 该分支为真的概率高——</text>
+  <text x="820" y="436" font-size="11" fill="#33332E">模型选错时照样可以很高；</text>
+  <text x="820" y="454" font-size="11" fill="#33332E">UFBoot 与标准 bootstrap 不在同一尺度，</text>
+  <text x="820" y="472" font-size="11" fill="#33332E">不能互比，报告要写清用的是哪种。</text>
+  <rect x="804" y="494" width="324" height="94" rx="8" fill="#FFFFFF" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="820" y="518" font-size="12.5" font-weight="bold" fill="#E64B35">反例：树不可硬解读</text>
+  <text x="820" y="540" font-size="11" fill="#33332E">待测株孤悬最外侧、周围分支 &lt; 70：</text>
+  <text x="820" y="558" font-size="11" fill="#33332E">参考集选得不好——回 M4 补更近缘</text>
+  <text x="820" y="576" font-size="11" fill="#33332E">的参考基因组，而不是硬解读这棵树。</text>
+  <text x="804" y="616" font-size="11" font-weight="bold" fill="#3C5488">补充：两棵树不一致怎么办</text>
+  <text x="804" y="638" font-size="11" fill="#33332E">Mashtree（全基因组距离）与 GToTree</text>
+  <text x="804" y="656" font-size="11" fill="#33332E">（单拷贝基因）拓扑不一致很常见——</text>
+  <text x="804" y="674" font-size="11" fill="#33332E">在讨论里比较，不要只贴其中一棵。</text>
+
+  <!-- ============ 结语与页脚 ============ -->
+  <text x="48" y="748" font-size="13.5" font-weight="bold" fill="#3C5488">支持值回答"这根分支稳不稳"，不回答"它是不是真的"——解读树之前，先看参考集选得好不好。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

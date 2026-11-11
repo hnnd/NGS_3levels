@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">一次 conda install 背后：渠道、约束与求解</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">包 = 未知数 ｜ 依赖 = 约束 ｜ strict 砍候选集 —— 依据 l0_03 核心内容 §2、§7</text>
+  <!-- 图例 -->
+  <rect x="926" y="44" width="12" height="12" fill="#4DBBD5"/>
+  <text x="944" y="54" font-size="12" fill="#33332E">conda-forge（本课置顶）</text>
+  <rect x="926" y="62" width="12" height="12" fill="#3C5488"/>
+  <text x="944" y="72" font-size="12" fill="#33332E">包 / 渠道 / 约束</text>
+  <rect x="926" y="80" width="12" height="12" fill="#00A087"/>
+  <text x="944" y="90" font-size="12" fill="#33332E">求解成功 / 正确配置</text>
+  <rect x="926" y="98" width="12" height="12" fill="#E64B35"/>
+  <text x="944" y="108" font-size="12" fill="#33332E">无解 / 易错点</text>
+
+  <!-- ============ 上：channel 泳道 ============ -->
+  <rect x="48" y="120" width="1104" height="240" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="16" font-weight="bold" fill="#3C5488">候选从哪来：channel 泳道，谁在前谁优先</text>
+  <line x1="72" y1="188" x2="1128" y2="188" stroke="#E9E9E5"/>
+
+  <text x="78" y="198" font-size="10" fill="#6B6B66" text-anchor="middle">顺序</text>
+  <circle cx="78" cy="225" r="11" fill="#4DBBD5"/>
+  <text x="78" y="229" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+  <circle cx="78" cy="277" r="11" fill="#3C5488"/>
+  <text x="78" y="281" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+  <circle cx="78" cy="329" r="11" fill="#6B6B66"/>
+  <text x="78" y="333" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+
+  <rect x="96" y="205" width="464" height="40" rx="6" fill="#FAFAF7" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="108" y="230" font-size="12" font-weight="bold" fill="#3C8DAD">conda-forge</text>
+  <rect x="200" y="213" width="104" height="24" rx="5" fill="#FFFFFF" stroke="#3C5488"/>
+  <text x="252" y="229" font-size="10" fill="#33332E" text-anchor="middle">samtools 1.19</text>
+  <rect x="314" y="213" width="110" height="24" rx="5" fill="#FFFFFF" stroke="#3C5488"/>
+  <text x="369" y="229" font-size="10" fill="#33332E" text-anchor="middle">htslib 1.19.1</text>
+  <rect x="434" y="213" width="120" height="24" rx="5" fill="#FFFFFF" stroke="#3C8DAD"/>
+  <text x="494" y="229" font-size="10" fill="#3C8DAD" text-anchor="middle">zlib @conda-forge</text>
+
+  <rect x="96" y="257" width="464" height="40" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="108" y="282" font-size="12" font-weight="bold" fill="#3C5488">bioconda</text>
+  <rect x="200" y="265" width="104" height="24" rx="5" fill="#FFFFFF" stroke="#3C5488"/>
+  <text x="252" y="281" font-size="10" fill="#33332E" text-anchor="middle">samtools 1.19</text>
+  <rect x="314" y="265" width="100" height="24" rx="5" fill="#FFFFFF" stroke="#3C5488"/>
+  <text x="364" y="281" font-size="10" fill="#33332E" text-anchor="middle">bwa 0.7.17</text>
+
+  <rect x="96" y="309" width="464" height="40" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="108" y="334" font-size="12" font-weight="bold" fill="#6B6B66">defaults</text>
+  <rect x="200" y="317" width="110" height="24" rx="5" fill="#FFFFFF" stroke="#6B6B66" stroke-dasharray="4 3"/>
+  <text x="255" y="333" font-size="10" fill="#6B6B66" text-anchor="middle">zlib @defaults</text>
+
+  <path d="M 554 225 L 588 236" fill="none" stroke="#F39B7F" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M 554 329 L 588 252" fill="none" stroke="#F39B7F" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <rect x="600" y="205" width="528" height="60" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="616" y="230" font-size="13" font-weight="bold" fill="#33332E">不开 strict：三条泳道全进候选</text>
+  <text x="616" y="252" font-size="11.5" fill="#6B6B66">同名包可能装到 defaults 的 build——conda list 能过，一跑就崩</text>
+
+  <rect x="600" y="289" width="528" height="60" rx="6" fill="#FAFAF7" stroke="#00A087"/>
+  <text x="616" y="314" font-size="13" font-weight="bold" fill="#00A087">channel_priority: strict（本课一律用）</text>
+  <text x="616" y="336" font-size="11.5" fill="#33332E">高优先级里已有 → 低泳道不再考虑：求解更快，也不会静默选错</text>
+
+  <!-- ============ 下：约束求解 ============ -->
+  <rect x="48" y="390" width="1104" height="290" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="422" font-size="16" font-weight="bold" fill="#3C5488">求解器在解什么：一组必须同时成立的方程</text>
+  <text x="72" y="446" font-size="12.5" fill="#6B6B66">每个包 = 一个未知数（取哪个版本）；每条依赖 = 一条约束（如 python ≥ 3.9）。环境越大，约束越多，越难解。</text>
+  <text x="72" y="468" font-size="12" fill="#6B6B66">mamba 快在：同一道题换 C++ 求解器（libsolv）＋并行下载索引；conda 23.10 起默认求解器也是 libmamba。</text>
+
+  <!-- 左：有解 -->
+  <text x="96" y="500" font-size="13" font-weight="bold" fill="#00A087">有解：同时满足全部约束</text>
+  <circle cx="150" cy="565" r="24" fill="#3C5488"/>
+  <text x="150" y="570" font-size="11.5" fill="#FFFFFF" text-anchor="middle">bwa</text>
+  <circle cx="330" cy="545" r="30" fill="#3C5488"/>
+  <text x="330" y="550" font-size="11.5" fill="#FFFFFF" text-anchor="middle">samtools</text>
+  <circle cx="330" cy="625" r="26" fill="#3C5488"/>
+  <text x="330" y="630" font-size="11.5" fill="#FFFFFF" text-anchor="middle">htslib</text>
+  <circle cx="490" cy="565" r="26" fill="#3C5488"/>
+  <text x="490" y="570" font-size="11.5" fill="#FFFFFF" text-anchor="middle">python</text>
+  <line x1="330" y1="575" x2="330" y2="599" stroke="#3C5488" stroke-width="2"/>
+  <text x="344" y="592" font-size="10.5" fill="#33332E">版本要配</text>
+  <line x1="356" y1="534" x2="468" y2="556" stroke="#3C5488" stroke-width="2"/>
+  <text x="400" y="530" font-size="10.5" fill="#33332E">python ≥ 3.9</text>
+  <line x1="174" y1="565" x2="300" y2="552" stroke="#3C5488" stroke-width="2"/>
+  <text x="200" y="542" font-size="10.5" fill="#33332E">依赖要满足</text>
+  <text x="96" y="668" font-size="12" font-weight="bold" fill="#00A087">✓ 解出一组版本：bwa 0.7.17 ＋ samtools 1.19.2 ＋ htslib 1.19.1</text>
+
+  <!-- 右：无解 -->
+  <text x="664" y="500" font-size="13" font-weight="bold" fill="#E64B35">无解：约束互斥，解集为空</text>
+  <circle cx="770" cy="555" r="27" fill="#3C5488"/>
+  <text x="770" y="560" font-size="11.5" fill="#FFFFFF" text-anchor="middle">GATK4</text>
+  <circle cx="1000" cy="555" r="27" fill="#3C5488"/>
+  <text x="1000" y="560" font-size="11.5" fill="#FFFFFF" text-anchor="middle">r-base</text>
+  <line x1="799" y1="555" x2="971" y2="555" stroke="#E64B35" stroke-width="2.5" stroke-dasharray="7 4"/>
+  <text x="885" y="540" font-size="11.5" fill="#E64B35" text-anchor="middle">Java 运行时与 R 栈纠缠</text>
+  <text x="664" y="610" font-size="11.5" fill="#F39B7F">BUSCO/QUAST 与 antiSMASH 的 Python 依赖链同样互斥（§4）</text>
+  <text x="664" y="636" font-size="12" font-weight="bold" fill="#E64B35">UnsatisfiableError 是“方程组无解”：不是网速慢，重试无用</text>
+  <text x="664" y="664" font-size="12" font-weight="bold" fill="#00A087">解法：按任务拆环境——本课程拆成 16 个，而不是 3 个大环境</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

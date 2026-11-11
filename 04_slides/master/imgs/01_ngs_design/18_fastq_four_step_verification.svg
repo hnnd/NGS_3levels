@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="50" y="470" width="170" height="96" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="135" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">① MD5</text>
+<text x="135" y="550" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">字节匹配</text>
+<polygon points="70,448 83.6,456.8 81.2,470.4 70,480 58.8,470.4 56.4,456.8" fill="#00A087"/>
+<rect x="230" y="374" width="170" height="96" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="315" y="416" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">② 片段数</text>
+<text x="315" y="454" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">除以 4</text>
+<polygon points="250,352 263.6,360.8 261.2,374.4 250,384 238.8,374.4 236.4,360.8" fill="#00A087"/>
+<rect x="410" y="278" width="170" height="96" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="495" y="320" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">③ 双端</text>
+<text x="495" y="358" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">行数对齐</text>
+<polygon points="430,256 443.6,264.8 441.2,278.4 430,288 418.8,278.4 416.4,264.8" fill="#00A087"/>
+<rect x="590" y="182" width="170" height="96" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="675" y="224" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">④ 读长</text>
+<text x="675" y="262" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">碱基对账</text>
+<polygon points="610,160 623.6,168.8 621.2,182.4 610,192 598.8,182.4 596.4,168.8" fill="#00A087"/>
+<line x1="140" y1="462" x2="224" y2="416" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="224,416 213.10975531655953,430.33187254809354 206.05903622025048,417.4566463722248" fill="#4DBBD5"/>
+<line x1="320" y1="366" x2="404" y2="320" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="404,320 393.10975531655953,334.33187254809354 386.0590362202505,321.4566463722248" fill="#4DBBD5"/>
+<line x1="500" y1="270" x2="584" y2="224" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="584,224 573.1097553165596,238.33187254809351 566.0590362202505,225.4566463722248" fill="#4DBBD5"/>
+<rect x="170" y="600" width="460" height="64" fill="#E64B35" rx="14"/>
+<text x="400" y="644" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">缺一不可</text>
+</svg>

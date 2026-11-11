@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="56" y="140" width="400" height="112" fill="#E3E8F2" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="256.0" y="208.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">①物种组成：快照</text>
+<rect x="56" y="320" width="400" height="112" fill="#D6EFF4" rx="16" stroke="#4DBBD5" stroke-width="4"/>
+<text x="256.0" y="388.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#4DBBD5" text-anchor="middle" font-weight="bold">②组装分箱：成箱</text>
+<rect x="56" y="500" width="400" height="112" fill="#D8EEE9" rx="16" stroke="#00A087" stroke-width="4"/>
+<text x="256.0" y="568.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">③功能活性：代谢</text>
+<line x1="256.0" y1="256" x2="256.0" y2="314" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="256.0,314 249.47583275104688,299.39057695500304 262.5241672489531,299.39057695500304" fill="#4DBBD5"/>
+<line x1="256.0" y1="436" x2="256.0" y2="494" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="256.0,494 249.47583275104688,479.39057695500304 262.5241672489531,479.39057695500304" fill="#4DBBD5"/>
+<path d="M 560 594 C 672 496 672 300 574 206" fill="none" stroke="#E64B35" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 10"/>
+<polygon points="558,200 600,186 596,224" fill="#E64B35"/>
+<text x="660" y="132" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">前问决定后问边界</text>
+</svg>

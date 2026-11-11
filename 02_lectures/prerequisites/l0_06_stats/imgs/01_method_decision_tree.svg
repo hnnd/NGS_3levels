@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">选检验方法：四问决策树</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">数据类型 → 组数 → 是否配对 → 近似正态与否 —— 依据 l0_06 §1</text>
+
+  <!-- ============ 左面板：①②③ ============ -->
+  <rect x="48" y="120" width="640" height="580" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="17" font-weight="bold" fill="#3C5488">按顺序问，问完方法就定了</text>
+  <line x1="72" y1="166" x2="664" y2="166" stroke="#E9E9E5"/>
+
+  <!-- ① -->
+  <rect x="72" y="227" width="150" height="36" rx="8" fill="#3C5488"/>
+  <text x="147" y="250" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">① 因变量类型？</text>
+  <line x1="222" y1="245" x2="236" y2="245" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="236" y1="191" x2="236" y2="299" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="236" y1="191" x2="240" y2="191" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="236" y1="227" x2="240" y2="227" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="236" y1="263" x2="240" y2="263" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="236" y1="299" x2="240" y2="299" stroke="#6B6B66" stroke-width="1.5"/>
+  <rect x="240" y="176" width="424" height="30" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="252" y="196" font-size="11.5" fill="#33332E">计数（read counts / OTU 丰度）→ <tspan font-weight="bold">DESeq2 / edgeR（负二项）</tspan></text>
+  <rect x="240" y="212" width="424" height="30" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="252" y="232" font-size="11.5" fill="#33332E">类别 / 频数 → <tspan font-weight="bold">卡方</tspan>；任一期望频数 &lt; 5 → <tspan font-weight="bold">Fisher 精确检验</tspan></text>
+  <rect x="240" y="248" width="424" height="30" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="252" y="268" font-size="11.5" fill="#33332E">两连续变量关联 → <tspan font-weight="bold">Pearson</tspan>（近正态）/ <tspan font-weight="bold">Spearman</tspan>（有离群）</text>
+  <rect x="240" y="284" width="424" height="30" rx="6" fill="#E8EDF5" stroke="#3C5488"/>
+  <text x="252" y="304" font-size="11.5" font-weight="bold" fill="#3C5488">连续（长度、表达量、多样性指数）→ 问 ②</text>
+
+  <!-- ① → ② -->
+  <line x1="147" y1="263" x2="147" y2="334" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="147,338 142,329 152,329" fill="#6B6B66"/>
+  <text x="158" y="308" font-size="11" fill="#6B6B66">连续</text>
+
+  <!-- ② -->
+  <rect x="72" y="379" width="150" height="36" rx="8" fill="#3C5488"/>
+  <text x="147" y="402" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">② 比较几组？</text>
+  <line x1="222" y1="397" x2="236" y2="397" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="236" y1="361" x2="236" y2="433" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="236" y1="361" x2="240" y2="361" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="236" y1="397" x2="240" y2="397" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="236" y1="433" x2="240" y2="433" stroke="#6B6B66" stroke-width="1.5"/>
+  <rect x="240" y="346" width="424" height="30" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="252" y="366" font-size="11.5" fill="#33332E">1 组 vs 已知值 → <tspan font-weight="bold">单样本 t / Wilcoxon 符号秩</tspan></text>
+  <rect x="240" y="382" width="424" height="30" rx="6" fill="#E8EDF5" stroke="#3C5488"/>
+  <text x="252" y="402" font-size="11.5" font-weight="bold" fill="#3C5488">2 组 → 问 ③</text>
+  <rect x="240" y="418" width="424" height="30" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="252" y="438" font-size="11.5" fill="#33332E">≥ 3 组 → <tspan font-weight="bold">问 ④（右上）</tspan></text>
+
+  <!-- ② → ③ -->
+  <line x1="147" y1="415" x2="147" y2="486" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="147,490 142,481 152,481" fill="#6B6B66"/>
+  <text x="158" y="460" font-size="11" fill="#6B6B66">2 组</text>
+
+  <!-- ③ -->
+  <rect x="72" y="531" width="150" height="36" rx="8" fill="#3C5488"/>
+  <text x="147" y="554" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">③ 两组配对吗？</text>
+  <line x1="222" y1="549" x2="236" y2="549" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="236" y1="513" x2="236" y2="585" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="236" y1="513" x2="240" y2="513" stroke="#6B6B66" stroke-width="1.5"/>
+  <line x1="236" y1="585" x2="240" y2="585" stroke="#6B6B66" stroke-width="1.5"/>
+  <rect x="240" y="498" width="424" height="30" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="252" y="518" font-size="11.5" fill="#33332E">配对（同一个体前后 / 同批分两半）→ <tspan font-weight="bold">配对 t / Wilcoxon 符号秩</tspan></text>
+  <rect x="240" y="570" width="424" height="30" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="252" y="590" font-size="11.5" fill="#33332E">独立 → <tspan font-weight="bold">两样本 t</tspan>（R 默认 Welch 校正）/ <tspan font-weight="bold">Wilcoxon 秩和</tspan></text>
+
+  <text x="72" y="636" font-size="11.5" fill="#6B6B66">先按数据类型与设计定好方法并写下来，再跑检验——事后按结果换方法是 p-hacking。</text>
+
+  <!-- ============ 右上面板：④ ============ -->
+  <rect x="712" y="120" width="440" height="250" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="736" y="152" font-size="17" font-weight="bold" fill="#3C5488">④ ≥ 3 组：最后两小问</text>
+  <line x1="736" y1="166" x2="1128" y2="166" stroke="#E9E9E5"/>
+
+  <rect x="736" y="182" width="392" height="30" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="748" y="202" font-size="11.5" fill="#33332E">近似正态 → <tspan font-weight="bold">单因素 ANOVA + TukeyHSD</tspan></text>
+  <rect x="736" y="218" width="392" height="30" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="748" y="238" font-size="11.5" fill="#33332E">不满足 → <tspan font-weight="bold">Kruskal-Wallis</tspan> + 事后校正</text>
+  <rect x="736" y="254" width="392" height="30" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="748" y="274" font-size="11.5" fill="#33332E">两个因素 → <tspan font-weight="bold">双因素 ANOVA</tspan></text>
+  <rect x="736" y="290" width="392" height="30" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="748" y="310" font-size="11.5" fill="#33332E">有配对结构 → <tspan font-weight="bold">重复测量设计</tspan></text>
+  <text x="736" y="348" font-size="11.5" fill="#6B6B66">「近似正态」怎么判，见右下。</text>
+
+  <!-- ============ 右下面板：参数 vs 非参数 + 警告 ============ -->
+  <rect x="712" y="394" width="440" height="306" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="736" y="426" font-size="17" font-weight="bold" fill="#3C5488">参数还是非参数？两个警告</text>
+  <line x1="736" y1="440" x2="1128" y2="440" stroke="#E9E9E5"/>
+
+  <rect x="736" y="456" width="4" height="38" rx="2" fill="#00A087"/>
+  <text x="752" y="472" font-size="12" font-weight="bold" fill="#33332E">n 每组 ≥ 10、无极端离群 → t / ANOVA</text>
+  <text x="752" y="490" font-size="11" fill="#6B6B66">中心极限定理兜底，t 检验对轻度偏态稳健</text>
+
+  <rect x="736" y="502" width="4" height="38" rx="2" fill="#F39B7F"/>
+  <text x="752" y="518" font-size="12" font-weight="bold" fill="#33332E">n 小（3–6）且偏态 / 有离群 → 先变换</text>
+  <text x="752" y="536" font-size="11" fill="#6B6B66">log、sqrt；变换后仍不行才用非参数</text>
+
+  <rect x="736" y="548" width="4" height="38" rx="2" fill="#E64B35"/>
+  <text x="752" y="564" font-size="12" font-weight="bold" fill="#E64B35">n = 3 → 别指望非参数</text>
+  <text x="752" y="582" font-size="11" fill="#33332E">3 vs 3 的 Wilcoxon 最小可能 p = 0.1，永远到不了 0.05</text>
+
+  <line x1="736" y1="598" x2="1128" y2="598" stroke="#E9E9E5"/>
+  <text x="736" y="618" font-size="11" fill="#33332E">别用正态性检验替你做决定：shapiro.test 在 n=4 时几乎没功效</text>
+  <text x="736" y="636" font-size="11" fill="#33332E">（对明显偏态数据给 p=0.98），n=500 又过敏感。判据是数据的</text>
+  <text x="736" y="654" font-size="11" fill="#33332E">生成机制 + 一张图（hist / qqnorm），不是一个检验的 p 值。</text>
+  <text x="736" y="680" font-size="11" fill="#33332E">配对与独立必须分清：同一份「处理前后」数据，当独立 p=0.60，</text>
+  <text x="736" y="696" font-size="11" fill="#33332E">按配对 p=5.1e-05——差四个数量级。</text>
+
+  <!-- 页脚 -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

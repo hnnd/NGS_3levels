@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="46" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">FORMAT 分层</text>
+<rect x="40" y="420" width="520" height="116" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="125" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">观测层</text>
+<rect x="220" y="442" width="170" height="50" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="305" y="478" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">AD / DP</text>
+<text x="475" y="478" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">等位深度</text>
+<rect x="40" y="286" width="520" height="116" fill="#FFFFFF" rx="14" stroke="#3C8DAD" stroke-width="5"/>
+<text x="125" y="336" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">似然层</text>
+<rect x="220" y="308" width="170" height="50" fill="#FFFFFF" rx="8" stroke="#3C8DAD" stroke-width="3"/>
+<text x="305" y="344" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">PL</text>
+<text x="475" y="344" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">归一似然</text>
+<rect x="40" y="152" width="520" height="116" fill="#FFFFFF" rx="14" stroke="#00A087" stroke-width="5"/>
+<text x="125" y="202" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">决策层</text>
+<rect x="220" y="174" width="170" height="50" fill="#D8EEE9" rx="8" stroke="#00A087" stroke-width="3"/>
+<text x="305" y="210" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">GT / GQ</text>
+<text x="475" y="210" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">基因型质量</text>
+<line x1="590" y1="460" x2="590" y2="340" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="590,340 597.3396881550723,356.43560092562154 582.6603118449277,356.43560092562154" fill="#6B6B66"/>
+<line x1="590" y1="326" x2="590" y2="206" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="590,206 597.3396881550723,222.43560092562154 582.6603118449277,222.43560092562154" fill="#6B6B66"/>
+<text x="578" y="336" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" transform="rotate(-90 578 336)">推断</text>
+<rect x="600" y="150" width="135" height="386" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="667" y="190" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">诚实度</text>
+<line x1="625" y1="220" x2="625" y2="500" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="625,500 619.291353657166,487.2167548356277 630.708646342834,487.2167548356277" fill="#3C5488"/>
+<polygon points="625,220 630.708646342834,232.78324516437232 619.291353657166,232.78324516437232" fill="#3C5488"/>
+<text x="685" y="275" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">AD DP</text>
+<text x="685" y="385" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle">PL</text>
+<text x="685" y="495" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">GT GQ</text>
+<path d="M 300 152 C 300 110 200 120 200 548" fill="none" stroke="#E64B35" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="14 10"/>
+<line x1="200" y1="538" x2="200" y2="558" stroke="#E64B35" stroke-width="6" stroke-linecap="round"/>
+<polygon points="200,558 192.66031184492775,541.5643990743785 207.33968815507225,541.5643990743785" fill="#E64B35"/>
+<rect x="60" y="560" width="500" height="56" fill="#F6D8D2" rx="10" stroke="#E64B35" stroke-width="4"/>
+<text x="310" y="598" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">GT 下结论前必须回溯 AD</text>
+<text x="400" y="662" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">观测 → 似然 → 决策</text>
+</svg>

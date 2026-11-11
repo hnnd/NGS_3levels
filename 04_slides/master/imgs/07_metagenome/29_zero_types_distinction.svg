@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<polygon points="400,330 340,520 460,520" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<rect x="302" y="520" width="196" height="22" fill="#3C5488" rx="8"/>
+<line x1="168" y1="268" x2="632" y2="268" stroke="#3C5488" stroke-width="10" stroke-linecap="round"/>
+<circle cx="400" cy="330" r="11" fill="#3C5488"/>
+<line x1="168" y1="268" x2="112" y2="398" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<line x1="168" y1="268" x2="224" y2="398" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="56,398 280,398 250,440 86,440" fill="#D6EFF4" stroke="#3C8DAD" stroke-width="4"/>
+<circle cx="106" cy="366" r="11" fill="#4DBBD5"/>
+<circle cx="150" cy="376" r="11" fill="#4DBBD5"/>
+<circle cx="200" cy="362" r="11" fill="#4DBBD5"/>
+<circle cx="236" cy="368" r="13" fill="none" stroke="#3C8DAD" stroke-width="3" stroke-dasharray="6 5"/>
+<line x1="632" y1="268" x2="576" y2="398" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<line x1="632" y1="268" x2="688" y2="398" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="520,398 744,398 714,440 550,440" fill="#D8EEE9" stroke="#00A087" stroke-width="4"/>
+<text x="632" y="378" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">0</text>
+<text x="168" y="122.1" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">采样零：</text>
+<text x="168" y="162.9" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">未抽到可平滑</text>
+<text x="632" y="122.1" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">结构零：</text>
+<text x="632" y="162.9" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">真缺失不可填</text>
+<text x="400" y="648" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">全局加半扭曲杠杆</text>
+</svg>

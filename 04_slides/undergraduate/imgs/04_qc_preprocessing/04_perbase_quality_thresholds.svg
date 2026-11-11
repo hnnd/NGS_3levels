@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="100" y1="540.0" x2="740" y2="540.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="88" y="550.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0</text>
+<line x1="100" y1="425.0" x2="740" y2="425.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="88" y="435.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10</text>
+<line x1="100" y1="310.0" x2="740" y2="310.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="88" y="320.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">20</text>
+<line x1="100" y1="195.0" x2="740" y2="195.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="88" y="205.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">30</text>
+<line x1="100" y1="80.0" x2="740" y2="80.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="88" y="90.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">40</text>
+<line x1="105.81818181818181" y1="540" x2="105.81818181818181" y2="550" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="105.81818181818181" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">1</text>
+<line x1="420.0" y1="540" x2="420.0" y2="550" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="420.0" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">28</text>
+<line x1="734.1818181818181" y1="540" x2="734.1818181818181" y2="550" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="734.1818181818181" y="584" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">55</text>
+<text x="420.0" y="650" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">Base group</text>
+<line x1="100" y1="540" x2="740" y2="540" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="100" y1="80" x2="100" y2="540" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="38" y="310.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" transform="rotate(-90 38 310.0)">Quality</text>
+<line x1="100" y1="252.5" x2="740" y2="252.5" stroke="#D97E52" stroke-width="5" stroke-linecap="butt" stroke-dasharray="16 12"/>
+<line x1="100" y1="310.0" x2="740" y2="310.0" stroke="#E64B35" stroke-width="5" stroke-linecap="butt" stroke-dasharray="16 12"/>
+<text x="112" y="238.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#D97E52" text-anchor="start" font-weight="bold">中位数 &lt; 25</text>
+<text x="112" y="296.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">中位数 &lt; 20</text>
+<polyline points="105.81818181818181,103.0 117.45454545454545,114.5 129.0909090909091,114.5 140.72727272727272,114.5 152.36363636363637,114.5 164.0,114.5 175.63636363636363,114.5 187.27272727272725,114.5 198.9090909090909,114.5 210.54545454545456,114.5 222.1818181818182,114.5 233.8181818181818,114.5 245.45454545454547,114.5 257.0909090909091,114.5 268.72727272727275,114.5 280.3636363636364,114.5 292.0,126.0 303.6363636363636,126.0 315.27272727272725,126.0 326.9090909090909,126.0 338.5454545454545,131.75 350.1818181818182,137.5 361.8181818181818,137.5 373.45454545454544,137.5 385.09090909090907,149.0 396.72727272727275,149.0 408.3636363636364,149.0 420.0,160.5 431.6363636363636,160.5 443.27272727272725,160.5 454.90909090909093,172.0 466.54545454545456,172.0 478.1818181818182,183.5 489.8181818181818,183.5 501.45454545454544,189.25 513.090909090909,195.0 524.7272727272727,200.75 536.3636363636364,206.5 548.0,212.25 559.6363636363636,218.0 571.2727272727273,229.5 582.909090909091,229.5 594.5454545454545,241.0 606.1818181818182,246.75 617.8181818181819,252.5 629.4545454545455,264.0 641.0909090909091,269.75 652.7272727272727,275.5 664.3636363636364,287.0 676.0,292.75 687.6363636363636,298.5 699.2727272727273,310.0 710.9090909090909,321.5 722.5454545454545,327.25 734.1818181818181,333.0" fill="none" stroke="#3C5488" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="629.4545454545455" cy="264.0" r="13" fill="#FFFFFF" stroke="#D97E52" stroke-width="7"/>
+<circle cx="710.9090909090909" cy="321.5" r="13" fill="#FFFFFF" stroke="#E64B35" stroke-width="7"/>
+<text x="629.4545454545455" y="206.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#D97E52" text-anchor="middle" font-weight="bold">82–83 组触发</text>
+<text x="698.9090909090909" y="373.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="end" font-weight="bold">96–97 组触发</text>
+<rect x="250" y="590" width="300" height="70" fill="#FFFFFF" rx="14" stroke="#E64B35" stroke-width="6"/>
+<text x="400" y="638" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">模块判定 FAIL</text>
+</svg>

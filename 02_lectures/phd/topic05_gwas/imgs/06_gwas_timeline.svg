@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">GWAS 二十年：从 HapMap 到泛基因组时代</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">方法谱系主线 ｜ 只标可靠年份，节点取自讲义 ⑪ —— 依据 05_gwas_lecture.md ⑪ · ④4.7</text>
+  <!-- 图例 -->
+  <circle cx="932" cy="41" r="7" fill="#3C5488"/>
+  <text x="946" y="45" font-size="12" fill="#33332E">方法里程碑</text>
+  <circle cx="1054" cy="41" r="7" fill="#E64B35"/>
+  <text x="1068" y="45" font-size="12" fill="#33332E">易错点</text>
+  <circle cx="932" cy="65" r="7" fill="#00A087"/>
+  <text x="946" y="69" font-size="12" fill="#33332E">泛基因组新阶段</text>
+
+  <!-- ============ 主轴 ============ -->
+  <line x1="100" y1="430" x2="1112" y2="430" stroke="#3C5488" stroke-width="3"/>
+  <polygon points="1130,430 1112,423 1112,437" fill="#3C5488"/>
+  <text x="1130" y="452" font-size="11" fill="#6B6B66" text-anchor="end">时间</text>
+
+  <!-- 1999 上 -->
+  <line x1="130" y1="420" x2="130" y2="352" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="130" cy="430" r="8" fill="#3C5488"/>
+  <text x="130" y="338" font-size="15" font-weight="bold" fill="#3C5488" text-anchor="middle">1999</text>
+  <text x="130" y="316" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">λGC 登场</text>
+  <text x="130" y="296" font-size="11" fill="#6B6B66" text-anchor="middle">Devlin &amp; Roeder：genomic control，</text>
+  <text x="130" y="280" font-size="11" fill="#6B6B66" text-anchor="middle">⑦7.3 里 λ 的出处</text>
+
+  <!-- 2005 下 -->
+  <line x1="250" y1="440" x2="250" y2="492" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="250" cy="430" r="8" fill="#3C5488"/>
+  <text x="250" y="512" font-size="15" font-weight="bold" fill="#3C5488" text-anchor="middle">2005</text>
+  <text x="250" y="534" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">国际 HapMap 计划</text>
+  <text x="250" y="554" font-size="11" fill="#6B6B66" text-anchor="middle">常见变异单倍型图谱建成，</text>
+  <text x="250" y="570" font-size="11" fill="#6B6B66" text-anchor="middle">全基因组关联成为可能</text>
+
+  <!-- 2006 上 -->
+  <line x1="370" y1="420" x2="370" y2="352" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="370" cy="430" r="8" fill="#3C5488"/>
+  <text x="370" y="338" font-size="15" font-weight="bold" fill="#3C5488" text-anchor="middle">2006</text>
+  <text x="370" y="316" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">Q + K 与 PCA 校正</text>
+  <text x="370" y="296" font-size="11" fill="#6B6B66" text-anchor="middle">Yu 等统一混合模型 · Price 等</text>
+  <text x="370" y="280" font-size="11" fill="#6B6B66" text-anchor="middle">PCA 校正（⑦7.1–7.2）</text>
+
+  <!-- 2007 下 -->
+  <line x1="490" y1="440" x2="490" y2="492" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="490" cy="430" r="8" fill="#3C5488"/>
+  <text x="490" y="512" font-size="15" font-weight="bold" fill="#3C5488" text-anchor="middle">2007</text>
+  <text x="490" y="534" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">首批大规模 GWAS</text>
+  <text x="490" y="554" font-size="11" fill="#6B6B66" text-anchor="middle">WTCCC 等同期发表 ·</text>
+  <text x="490" y="570" font-size="11" fill="#6B6B66" text-anchor="middle">PLINK 问世（⑪）</text>
+
+  <!-- 2008 上（红） -->
+  <line x1="610" y1="420" x2="610" y2="352" stroke="#E64B35" stroke-width="1.5"/>
+  <circle cx="610" cy="430" r="8" fill="#E64B35"/>
+  <text x="610" y="338" font-size="15" font-weight="bold" fill="#E64B35" text-anchor="middle">2008</text>
+  <text x="610" y="316" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">5e-8 阈值出处</text>
+  <text x="610" y="296" font-size="11" fill="#6B6B66" text-anchor="middle">Dudbridge &amp; Gusnanto——</text>
+  <text x="610" y="280" font-size="11" fill="#E64B35" text-anchor="middle">人类 LD 特有，不可搬用到其他物种</text>
+
+  <!-- 2010 下 -->
+  <line x1="730" y1="440" x2="730" y2="492" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="730" cy="430" r="8" fill="#3C5488"/>
+  <text x="730" y="512" font-size="15" font-weight="bold" fill="#3C5488" text-anchor="middle">2010</text>
+  <text x="730" y="534" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">MLM 提速</text>
+  <text x="730" y="554" font-size="11" fill="#6B6B66" text-anchor="middle">EMMAX / P3D · 压缩 MLM：</text>
+  <text x="730" y="570" font-size="11" fill="#6B6B66" text-anchor="middle">全基因组 MLM 常规化</text>
+
+  <!-- 2011 上 -->
+  <line x1="850" y1="420" x2="850" y2="352" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="850" cy="430" r="8" fill="#3C5488"/>
+  <text x="850" y="338" font-size="15" font-weight="bold" fill="#3C5488" text-anchor="middle">2011</text>
+  <text x="850" y="316" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">RDP1 水稻 GWAS</text>
+  <text x="850" y="296" font-size="11" fill="#6B6B66" text-anchor="middle">Zhao 等：413 份种质 × 34 性状，</text>
+  <text x="850" y="280" font-size="11" fill="#6B6B66" text-anchor="middle">本讲主线数据（3.1）</text>
+
+  <!-- 2016/2019 下 -->
+  <line x1="970" y1="440" x2="970" y2="492" stroke="#3C5488" stroke-width="1.5"/>
+  <circle cx="970" cy="430" r="8" fill="#3C5488"/>
+  <text x="970" y="512" font-size="15" font-weight="bold" fill="#3C5488" text-anchor="middle">2016 / 2019</text>
+  <text x="970" y="534" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">FarmCPU → BLINK</text>
+  <text x="970" y="554" font-size="11" fill="#6B6B66" text-anchor="middle">多基因性状功效提升；</text>
+  <text x="970" y="570" font-size="11" fill="#6B6B66" text-anchor="middle">"多模型并列、交集定高置信"成共识</text>
+
+  <!-- 2020 上（绿） -->
+  <line x1="1090" y1="420" x2="1090" y2="352" stroke="#00A087" stroke-width="1.5"/>
+  <circle cx="1090" cy="430" r="8" fill="#00A087"/>
+  <text x="1090" y="338" font-size="15" font-weight="bold" fill="#00A087" text-anchor="middle">2020 →</text>
+  <text x="1090" y="316" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">泛基因组时代</text>
+  <text x="1090" y="296" font-size="11" fill="#6B6B66" text-anchor="middle">PAV/SV-GWAS：大豆 26 基因组</text>
+  <text x="1090" y="280" font-size="11" fill="#6B6B66" text-anchor="middle">图基因组（Liu 等 2020，④4.7）</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="640" width="4" height="58" rx="2" fill="#3C5488"/>
+  <rect x="48" y="640" width="1104" height="58" rx="6" fill="#FAFAF7"/>
+  <text x="66" y="662" font-size="12.5" fill="#33332E">不变的门槛：样本量与 LD 结构决定自由度——几百个体的群体上先把 MLM 跑干净，比追新方法更值（④4.7）；</text>
+  <text x="66" y="684" font-size="12.5" fill="#33332E">阈值的分母用 Meff 重估（剪枝计数 / simpleM / 置换），不要沿用人类经验数字（④4.3）。</text>
+  <text x="1152" y="740" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

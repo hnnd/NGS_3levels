@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="58" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">泊松窗口检验</text>
+<text x="400" y="104" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">全基因组多重校正</text>
+<line x1="128" y1="528" x2="668" y2="528" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<line x1="128" y1="528" x2="128" y2="216" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="128" y="186" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">P(X = k)</text>
+<text x="686" y="540" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">k</text>
+<line x1="128" y1="235.5" x2="120" y2="235.5" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="112" y="245.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10^-1</text>
+<line x1="128" y1="284.25" x2="120" y2="284.25" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="112" y="294.25" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10^-2</text>
+<line x1="128" y1="333.0" x2="120" y2="333.0" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="112" y="343.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10^-3</text>
+<line x1="128" y1="381.75" x2="120" y2="381.75" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="112" y="391.75" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10^-4</text>
+<line x1="128" y1="430.5" x2="120" y2="430.5" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="112" y="440.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10^-5</text>
+<line x1="128" y1="479.25" x2="120" y2="479.25" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="112" y="489.25" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10^-6</text>
+<line x1="128" y1="528.0" x2="120" y2="528.0" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="112" y="538.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10^-7</text>
+<line x1="128.0" y1="528" x2="128.0" y2="536" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="135.2972972972973" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">0</text>
+<line x1="273.94594594594594" y1="528" x2="273.94594594594594" y2="536" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="281.2432432432432" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">10</text>
+<line x1="419.8918918918919" y1="528" x2="419.8918918918919" y2="536" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="427.18918918918916" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">20</text>
+<line x1="522.0540540540541" y1="528" x2="522.0540540540541" y2="536" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="529.3513513513514" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">27</text>
+<line x1="653.4054054054054" y1="528" x2="653.4054054054054" y2="536" stroke="#33332E" stroke-width="3" stroke-linecap="butt"/>
+<text x="660.7027027027027" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">36</text>
+<rect x="130.0" y="398.46855992783526" width="10.594594594594595" height="129.53144007216474" fill="#4DBBD5" rx="3"/>
+<rect x="144.59459459459458" y="349.71855992783526" width="10.594594594594595" height="178.28144007216474" fill="#4DBBD5" rx="3"/>
+<rect x="159.1891891891892" y="315.6437722164544" width="10.594594594594595" height="212.3562277835456" fill="#4DBBD5" rx="3"/>
+<rect x="173.78378378378378" y="290.1534333840379" width="10.594594594594595" height="237.8465666159621" fill="#4DBBD5" rx="3"/>
+<rect x="188.3783783783784" y="270.7538579612761" width="10.594594594594595" height="257.2461420387239" fill="#4DBBD5" rx="3"/>
+<rect x="202.97297297297297" y="256.078645672657" width="10.594594594594595" height="271.921354327343" fill="#4DBBD5" rx="3"/>
+<rect x="217.56756756756755" y="245.26351912885963" width="10.594594594594595" height="282.7364808711404" fill="#4DBBD5" rx="3"/>
+<rect x="232.16216216216216" y="237.71204857955468" width="10.594594594594595" height="290.2879514204453" fill="#4DBBD5" rx="3"/>
+<rect x="246.75675675675677" y="232.9876854454119" width="10.594594594594595" height="295.0123145545881" fill="#4DBBD5" rx="3"/>
+<rect x="261.35135135135135" y="230.757007780579" width="10.594594594594595" height="297.242992219421" fill="#4DBBD5" rx="3"/>
+<rect x="275.94594594594594" y="230.757007780579" width="10.594594594594595" height="297.242992219421" fill="#4DBBD5" rx="3"/>
+<rect x="290.5405405405405" y="232.7749011820424" width="10.594594594594595" height="295.2250988179576" fill="#4DBBD5" rx="3"/>
+<rect x="305.1351351351351" y="236.63498692686414" width="10.594594594594595" height="291.36501307313586" fill="#4DBBD5" rx="3"/>
+<rect x="319.72972972972974" y="242.18972535182246" width="10.594594594594595" height="285.81027464817754" fill="#4DBBD5" rx="3"/>
+<rect x="334.3243243243243" y="249.31346709113654" width="10.594594594594595" height="278.68653290886346" fill="#4DBBD5" rx="3"/>
+<rect x="348.91891891891896" y="257.897915970101" width="10.594594594594595" height="270.102084029899" fill="#4DBBD5" rx="3"/>
+<rect x="363.51351351351354" y="267.8487651245773" width="10.594594594594595" height="260.1512348754227" fill="#4DBBD5" rx="3"/>
+<rect x="378.1081081081081" y="279.08315004176825" width="10.594594594594595" height="248.91684995823175" fill="#4DBBD5" rx="3"/>
+<rect x="392.7027027027027" y="291.5276846655544" width="10.594594594594595" height="236.47231533444563" fill="#4DBBD5" rx="3"/>
+<rect x="407.2972972972973" y="305.1169227120048" width="10.594594594594595" height="222.8830772879952" fill="#4DBBD5" rx="3"/>
+<rect x="421.8918918918919" y="319.7921350006239" width="10.594594594594595" height="208.2078649993761" fill="#4DBBD5" rx="3"/>
+<rect x="436.4864864864865" y="335.5003256189025" width="10.594594594594595" height="192.49967438109752" fill="#4DBBD5" rx="3"/>
+<rect x="451.0810810810811" y="352.19343130898494" width="10.594594594594595" height="175.80656869101506" fill="#4DBBD5" rx="3"/>
+<rect x="465.6756756756757" y="369.82766331484265" width="10.594594594594595" height="158.17233668515735" fill="#4DBBD5" rx="3"/>
+<rect x="480.27027027027026" y="388.3629613482834" width="10.594594594594595" height="139.63703865171658" fill="#4DBBD5" rx="3"/>
+<rect x="494.86486486486484" y="407.76253677104523" width="10.594594594594595" height="120.23746322895477" fill="#4DBBD5" rx="3"/>
+<rect x="509.4594594594595" y="427.99248748462264" width="10.594594594594595" height="100.00751251537736" fill="#4DBBD5" rx="3"/>
+<path d="M 524.0540540540541 528 L 524.0540540540541 449.0 L 534.6486486486486 449.0 L 534.6486486486486 528 Z M 538.6486486486486 528 L 538.6486486486486 470.8 L 549.2432432432432 470.8 L 549.2432432432432 528 Z M 553.2432432432432 528 L 553.2432432432432 493.4 L 563.8378378378379 493.4 L 563.8378378378379 528 Z M 567.8378378378379 528 L 567.8378378378379 516.6 L 578.4324324324325 516.6 L 578.4324324324325 528 Z M 582.4324324324325 528 L 582.4324324324325 528.0 L 593.0270270270271 528.0 L 593.0270270270271 528 Z M 597.0270270270271 528 L 597.0270270270271 528.0 L 607.6216216216217 528.0 L 607.6216216216217 528 Z M 611.6216216216217 528 L 611.6216216216217 528.0 L 622.2162162162163 528.0 L 622.2162162162163 528 Z M 626.2162162162163 528 L 626.2162162162163 528.0 L 636.8108108108108 528.0 L 636.8108108108108 528 Z M 640.8108108108108 528 L 640.8108108108108 528.0 L 651.4054054054054 528.0 L 651.4054054054054 528 Z M 655.4054054054054 528 L 655.4054054054054 528.0 L 666.0 528.0 L 666.0 528 Z" fill="#E64B35" stroke="#E64B35" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="522.0540540540541" y1="528" x2="522.0540540540541" y2="192" stroke="#E64B35" stroke-width="5" stroke-linecap="butt" stroke-dasharray="14 10"/>
+<text x="281.2432432432432" y="216.757007780579" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">λ = 10</text>
+<text x="400" y="148" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">P(X ≥ 27) = 6.423×10^-6</text>
+<text x="400" y="626" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">观察值达二十七显著过线</text>
+</svg>

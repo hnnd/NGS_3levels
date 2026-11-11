@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">两张最基本的图，挡下了会进人体的错误结论</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">Duke 案 ｜ 标签错位 ｜ 批次效应 —— 依据 02_r_visualization_lecture.md ③3.5 · ⑪文献 7</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" fill="#3C8DAD"/>
+  <text x="946" y="57" font-size="12" fill="#33332E">批次 1</text>
+  <rect x="1006" y="46" width="12" height="12" fill="#F39B7F"/>
+  <text x="1026" y="57" font-size="12" fill="#33332E">批次 2</text>
+  <rect x="1086" y="46" width="12" height="12" fill="#E64B35"/>
+  <text x="1106" y="57" font-size="12" fill="#33332E">后果</text>
+
+  <!-- ============ 证据一：标签错位 ============ -->
+  <rect x="48" y="120" width="536" height="330" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="68" y="152" font-size="15" font-weight="bold" fill="#3C5488">证据一 · 样本标签整体错位</text>
+  <text x="68" y="174" font-size="11.5" fill="#6B6B66">把表达量与样本元数据逐列核对：标签贴到了相邻列上（③3.5）</text>
+
+  <text x="68" y="206" font-size="12" fill="#33332E">真实处理批次：</text>
+  <rect x="88"  y="214" width="52" height="24" fill="#3C8DAD"/>
+  <rect x="146" y="214" width="52" height="24" fill="#3C8DAD"/>
+  <rect x="204" y="214" width="52" height="24" fill="#3C8DAD"/>
+  <rect x="262" y="214" width="52" height="24" fill="#3C8DAD"/>
+  <rect x="320" y="214" width="52" height="24" fill="#F39B7F"/>
+  <rect x="378" y="214" width="52" height="24" fill="#F39B7F"/>
+  <rect x="436" y="214" width="52" height="24" fill="#F39B7F"/>
+  <rect x="494" y="214" width="52" height="24" fill="#F39B7F"/>
+  <text x="114" y="231" font-size="11" fill="#FFFFFF" text-anchor="middle">批次1</text>
+  <text x="172" y="231" font-size="11" fill="#FFFFFF" text-anchor="middle">批次1</text>
+  <text x="230" y="231" font-size="11" fill="#FFFFFF" text-anchor="middle">批次1</text>
+  <text x="288" y="231" font-size="11" fill="#FFFFFF" text-anchor="middle">批次1</text>
+  <text x="346" y="231" font-size="11" fill="#33332E" text-anchor="middle">批次2</text>
+  <text x="404" y="231" font-size="11" fill="#33332E" text-anchor="middle">批次2</text>
+  <text x="462" y="231" font-size="11" fill="#33332E" text-anchor="middle">批次2</text>
+  <text x="520" y="231" font-size="11" fill="#33332E" text-anchor="middle">批次2</text>
+
+  <text x="68" y="270" font-size="12" fill="#33332E">论文里贴的标签：</text>
+  <rect x="88" y="278" width="52" height="24" fill="#FFFFFF" stroke="#6B6B66" stroke-dasharray="4 3"/>
+  <text x="114" y="295" font-size="11" fill="#6B6B66" text-anchor="middle">空缺</text>
+  <rect x="146" y="278" width="52" height="24" fill="#FFFFFF" stroke="#3C8DAD"/>
+  <text x="172" y="295" font-size="11" fill="#3C8DAD" text-anchor="middle">批次1</text>
+  <rect x="204" y="278" width="52" height="24" fill="#FFFFFF" stroke="#3C8DAD"/>
+  <text x="230" y="295" font-size="11" fill="#3C8DAD" text-anchor="middle">批次1</text>
+  <rect x="262" y="278" width="52" height="24" fill="#FFFFFF" stroke="#3C8DAD"/>
+  <text x="288" y="295" font-size="11" fill="#3C8DAD" text-anchor="middle">批次1</text>
+  <rect x="320" y="278" width="52" height="24" fill="#FFFFFF" stroke="#3C8DAD"/>
+  <text x="346" y="295" font-size="11" fill="#3C8DAD" text-anchor="middle">批次1</text>
+  <rect x="378" y="278" width="52" height="24" fill="#FFFFFF" stroke="#F39B7F"/>
+  <text x="404" y="295" font-size="11" fill="#33332E" text-anchor="middle">批次2</text>
+  <rect x="436" y="278" width="52" height="24" fill="#FFFFFF" stroke="#F39B7F"/>
+  <text x="462" y="295" font-size="11" fill="#33332E" text-anchor="middle">批次2</text>
+  <rect x="494" y="278" width="52" height="24" fill="#FFFFFF" stroke="#F39B7F"/>
+  <text x="520" y="295" font-size="11" fill="#33332E" text-anchor="middle">批次2</text>
+
+  <text x="68" y="336" font-size="11.5" fill="#33332E">首列空了一格：每个标签都贴到了右边一列上——</text>
+  <text x="68" y="356" font-size="11.5" font-weight="bold" fill="#3C5488">这不是统计模型的问题，是数据在看图时就能发现的问题</text>
+  <text x="68" y="384" font-size="11" fill="#6B6B66">逐行核对原始文件，部分数值与原始文件也对不上（③3.5）</text>
+  <text x="68" y="408" font-size="11" fill="#6B6B66">教学启示：给图按批次上色或分面，是 aes() 与 facet_*() 最严肃的用途</text>
+
+  <!-- ============ 证据二：批次漂移 ============ -->
+  <rect x="616" y="120" width="536" height="330" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="636" y="152" font-size="15" font-weight="bold" fill="#3C5488">证据二 · "预测信号"实为批次漂移</text>
+  <text x="636" y="174" font-size="11.5" fill="#6B6B66">按"药物有效 / 无效"上色分不开；按处理批次上色分开了</text>
+
+  <rect x="668" y="196" width="452" height="216" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <line x1="668" y1="412" x2="1120" y2="412" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="668" y1="196" x2="668" y2="412" stroke="#6B6B66" stroke-width="1.2"/>
+  <text x="894" y="432" font-size="11" fill="#6B6B66" text-anchor="middle">处理日期（批次顺序）→</text>
+  <text x="652" y="304" font-size="11" fill="#6B6B66" text-anchor="middle" transform="rotate(-90 652 304)">预测信号</text>
+  <circle cx="720" cy="238" r="4.5" fill="#3C8DAD"/>
+  <circle cx="744" cy="252" r="4.5" fill="#3C8DAD"/>
+  <circle cx="768" cy="230" r="4.5" fill="#3C8DAD"/>
+  <circle cx="736" cy="270" r="4.5" fill="#3C8DAD"/>
+  <circle cx="784" cy="258" r="4.5" fill="#3C8DAD"/>
+  <circle cx="756" cy="282" r="4.5" fill="#3C8DAD"/>
+  <circle cx="712" cy="266" r="4.5" fill="#3C8DAD"/>
+  <circle cx="780" cy="238" r="4.5" fill="#3C8DAD"/>
+  <circle cx="960" cy="330" r="4.5" fill="#F39B7F"/>
+  <circle cx="984" cy="344" r="4.5" fill="#F39B7F"/>
+  <circle cx="1008" cy="322" r="4.5" fill="#F39B7F"/>
+  <circle cx="976" cy="362" r="4.5" fill="#F39B7F"/>
+  <circle cx="1024" cy="350" r="4.5" fill="#F39B7F"/>
+  <circle cx="996" cy="374" r="4.5" fill="#F39B7F"/>
+  <circle cx="952" cy="358" r="4.5" fill="#F39B7F"/>
+  <circle cx="1020" cy="330" r="4.5" fill="#F39B7F"/>
+  <line x1="870" y1="262" x2="870" y2="348" stroke="#8491B4" stroke-width="1.5"/>
+  <polygon points="870,256 866,266 874,266" fill="#8491B4"/>
+  <polygon points="870,354 866,344 874,344" fill="#8491B4"/>
+  <text x="884" y="310" font-size="10.5" fill="#6B6B66">整体漂移</text>
+  <text x="746" y="222" font-size="10.5" fill="#3C8DAD" text-anchor="middle">批次 1</text>
+  <text x="988" y="398" font-size="10.5" fill="#33332E" text-anchor="middle">批次 2</text>
+
+  <!-- ============ 事件与启示 ============ -->
+  <rect x="48" y="480" width="1104" height="184" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="68" y="510" font-size="13.5" font-weight="bold" fill="#3C5488">事件与出处（③3.5 · ⑪文献 7）</text>
+  <rect x="68" y="526" width="300" height="60" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="84" y="552" font-size="12" font-weight="bold" fill="#33332E">2006–2010</text>
+  <text x="84" y="574" font-size="11.5" fill="#6B6B66">Duke 系列论文声称可预测化疗药效，并启动临床试验</text>
+  <line x1="368" y1="556" x2="404" y2="556" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="412,556 402,551 402,561" fill="#3C5488"/>
+  <rect x="420" y="526" width="300" height="60" rx="8" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="436" y="552" font-size="12" font-weight="bold" fill="#33332E">2009</text>
+  <text x="436" y="574" font-size="11.5" fill="#6B6B66">Baggerly 与 Coombes 发表"图表取证"论文（AOAS）</text>
+  <line x1="720" y1="556" x2="756" y2="556" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="764,556 754,551 754,561" fill="#3C5488"/>
+  <rect x="772" y="526" width="380" height="60" rx="8" fill="#FFFFFF" stroke="#E64B35" stroke-width="1.6"/>
+  <text x="788" y="552" font-size="12" font-weight="bold" fill="#E64B35">随后</text>
+  <text x="788" y="574" font-size="11.5" fill="#33332E">相关临床试验中止，多篇论文陆续撤稿</text>
+  <text x="68" y="622" font-size="12.5" font-weight="bold" fill="#00A087">图是审计工具，不只是展示工具——复现从最简单的图开始，而不是从最复杂的模型开始。</text>
+  <text x="68" y="648" font-size="11.5" fill="#6B6B66">"法学生信"（forensic bioinformatics）一词由此流传；每张图都要能独立读懂，是本讲坚持的要求（③3.5 · ⑥6.1）。</text>
+
+  <!-- 页脚 -->
+  <text x="1152" y="770" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

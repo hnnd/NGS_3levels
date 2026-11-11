@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">应用案例：自带标准答案的对照实验——CIX4481</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">题目 = ONT 原始 reads ｜ 答案 = 已发表完成图 ｜ 差异即调试线索 —— 依据 06_assembly_basics_lecture.md ③3.1</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="57" font-size="12" fill="#33332E">原始 read</text>
+  <rect x="1034" y="46" width="12" height="12" fill="#3C5488"/>
+  <text x="1054" y="57" font-size="12" fill="#33332E">组装 contig</text>
+  <rect x="926" y="68" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="79" font-size="12" fill="#33332E">流程可信</text>
+  <rect x="1052" y="68" width="12" height="12" fill="#E64B35"/>
+  <text x="1072" y="79" font-size="12" fill="#33332E">接错 / 塌缩</text>
+
+  <!-- ============ 主面板 ============ -->
+  <rect x="48" y="120" width="1104" height="460" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- 题目卡 -->
+  <rect x="72" y="150" width="280" height="180" rx="10" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="96" y="178" font-size="15" font-weight="bold" fill="#3C8DAD">题目：原始 ONT 测序</text>
+  <rect x="96"  y="192" width="180" height="12" rx="4" fill="#4DBBD5"/>
+  <rect x="96"  y="210" width="150" height="12" rx="4" fill="#4DBBD5"/>
+  <rect x="96"  y="228" width="200" height="12" rx="4" fill="#4DBBD5"/>
+  <rect x="96"  y="246" width="140" height="12" rx="4" fill="#4DBBD5"/>
+  <rect x="96"  y="264" width="170" height="12" rx="4" fill="#4DBBD5"/>
+  <rect x="96"  y="282" width="120" height="12" rx="4" fill="#4DBBD5"/>
+  <text x="96" y="316" font-size="11" fill="#6B6B66">CIX4481 ｜ ERR15732384（降采样约 40×）</text>
+  <line x1="352" y1="240" x2="394" y2="240" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="394,235 394,245 402,240" fill="#6B6B66"/>
+
+  <!-- 你的组装卡 -->
+  <rect x="402" y="150" width="280" height="180" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="426" y="178" font-size="15" font-weight="bold" fill="#3C5488">你的组装：Canu 与 Flye</text>
+  <rect x="426" y="196" width="210" height="14" fill="#3C5488"/>
+  <rect x="426" y="222" width="120" height="14" fill="#3C5488"/>
+  <rect x="426" y="248" width="165" height="14" fill="#3C5488"/>
+  <text x="426" y="288" font-size="11" fill="#6B6B66">两套独立算法各拼一遍（§5.4–5.5）</text>
+  <line x1="682" y1="240" x2="722" y2="240" stroke="#6B6B66" stroke-width="1.5"/>
+  <polygon points="722,235 722,245 730,240" fill="#6B6B66"/>
+
+  <!-- 对照方法卡 -->
+  <rect x="730" y="150" width="398" height="180" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="754" y="178" font-size="15" font-weight="bold" fill="#3C5488">对答案：你的组装 vs 作者完成图</text>
+  <text x="754" y="208" font-size="12" fill="#33332E">QUAST 参考模式：总长、重排、结构差异</text>
+  <text x="754" y="232" font-size="12" fill="#33332E">FastANI：ANI ≈ ？（项目 §4.4）</text>
+  <text x="754" y="262" font-size="12.5" font-weight="bold" fill="#3C5488">判读顺序：先宏观（contig 数与总长），</text>
+  <text x="754" y="282" font-size="12.5" font-weight="bold" fill="#3C5488">再看对齐区域分布（哪一段对不上）</text>
+  <text x="754" y="312" font-size="11" fill="#6B6B66">先跑完 §5 组装评估，再做这一步</text>
+
+  <!-- 结果列 -->
+  <text x="72" y="352" font-size="11.5" fill="#6B6B66">对出来的三种结果，每一种都有用（③3.1）：</text>
+  <rect x="72" y="362" width="610" height="56" rx="8" fill="#E4F3EF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="90" y="385" font-size="12.5" font-weight="bold" fill="#00A087">总长相近 · ANI ≈ 100% · 变异 ≈ 0</text>
+  <text x="90" y="406" font-size="11.5" fill="#33332E">→ 流程可信：这是间接指标（N50 / BUSCO）之外「对过答案」的证据</text>
+  <rect x="72" y="430" width="610" height="56" rx="8" fill="#FDEEEA" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="90" y="453" font-size="12.5" font-weight="bold" fill="#D9785A">长度差一截</text>
+  <text x="90" y="474" font-size="11.5" fill="#33332E">→ 有区域没拼出来：差异本身就是调试线索，不用等别人告诉你对错</text>
+  <rect x="72" y="498" width="610" height="56" rx="8" fill="#FDF2F0" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="90" y="521" font-size="12.5" font-weight="bold" fill="#E64B35">成段序列对不上</text>
+  <text x="90" y="542" font-size="11.5" fill="#33332E">→ 接错或塌缩：用 u05 的回贴覆盖度定位断点（samtools depth）</text>
+
+  <!-- 标准答案卡 -->
+  <rect x="730" y="362" width="398" height="192" rx="10" fill="#FFFFFF" stroke="#3C8DAD" stroke-width="1.5"/>
+  <text x="754" y="390" font-size="15" font-weight="bold" fill="#3C8DAD">标准答案：已发表完成图</text>
+  <circle cx="806" cy="466" r="46" fill="none" stroke="#4DBBD5" stroke-width="4"/>
+  <text x="806" y="471" font-size="11.5" fill="#3C8DAD" text-anchor="middle">环状</text>
+  <text x="878" y="432" font-size="13" font-weight="bold" fill="#3C5488">GCA_987216485</text>
+  <text x="878" y="456" font-size="11.5" fill="#33332E">一条环状、到染色体级别的组装</text>
+  <text x="878" y="478" font-size="11.5" fill="#6B6B66">该研究共发表 57 株完成图，</text>
+  <text x="878" y="498" font-size="11.5" fill="#6B6B66">课程选用其中 12 株（含这一株）</text>
+  <text x="754" y="540" font-size="11" fill="#6B6B66">你跑的流程与作者用的是同一类工具链</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="604" width="1104" height="116" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="604" width="4" height="116" rx="2" fill="#3C5488"/>
+  <text x="76" y="634" font-size="14" font-weight="bold" fill="#3C5488">为什么它比普通作业值钱：N50、BUSCO 都是间接指标，只有和「已知正确的组装」对齐才是对答案。</text>
+  <text x="76" y="660" font-size="12.5" fill="#33332E">做完这次对照，你就具备了把关自己组装的能力——这套对照在 u08 报告里值得单独一小节，是「分析深度」的现成素材（③3.1）。</text>
+  <text x="76" y="686" font-size="12.5" fill="#33332E">报告写法：先报 contig 数与总长，再报差异区段的分布，最后才下「我的组装可信」的结论——顺序不能反。</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<polygon points="400,322 338,528 462,528" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<rect x="304" y="528" width="192" height="22" fill="#3C5488" rx="8"/>
+<line x1="138" y1="246" x2="662" y2="306" stroke="#3C5488" stroke-width="10" stroke-linecap="round"/>
+<circle cx="400" cy="322" r="12" fill="#3C5488"/>
+<line x1="138" y1="246" x2="98" y2="414" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<line x1="138" y1="246" x2="190" y2="414" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="48,414 240,414 214,448 74,448" fill="#D6EFF4" stroke="#3C8DAD" stroke-width="4"/>
+<rect x="60" y="336" width="56" height="72" fill="#4DBBD5" rx="6"/>
+<rect x="128" y="372" width="38" height="36" fill="#3C8DAD" rx="6"/>
+<rect x="178" y="384" width="34" height="24" fill="#3C8DAD" rx="6"/>
+<line x1="662" y1="306" x2="610" y2="470" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<line x1="662" y1="306" x2="702" y2="470" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="560,470 752,470 726,504 586,504" fill="#D8EEE9" stroke="#00A087" stroke-width="4"/>
+<rect x="572" y="392" width="36" height="72" fill="#00A087" rx="6"/>
+<rect x="616" y="392" width="36" height="72" fill="#D8EEE9" rx="6"/>
+<rect x="660" y="392" width="36" height="72" fill="#00A087" rx="6"/>
+<rect x="704" y="392" width="36" height="72" fill="#D8EEE9" rx="6"/>
+<text x="144" y="102.4" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">单样本：</text>
+<text x="144" y="142.60000000000002" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">保优势无跨样嵌合</text>
+<text x="656" y="102.4" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">混合拼：</text>
+<text x="656" y="142.60000000000002" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">聚深度但内存剧增</text>
+<text x="400" y="640" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#E64B35" text-anchor="middle" font-weight="bold">按生境权衡</text>
+</svg>

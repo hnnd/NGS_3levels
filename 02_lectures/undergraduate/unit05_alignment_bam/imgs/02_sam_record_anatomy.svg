@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">SAM 记录解剖：一行的 11 列与三个关键字段</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">FLAG 解码 ｜ CIGAR 的 M 陷阱 ｜ MAPQ 不是匹配质量 —— 依据 05_alignment_bam_lecture.md ④4.6 ｜ ⑥6.6</text>
+  <!-- 图例 -->
+  <rect x="926" y="34" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="45" font-size="12" fill="#33332E">FLAG</text>
+  <rect x="990" y="34" width="12" height="12" fill="#4DBBD5"/>
+  <text x="1010" y="45" font-size="12" fill="#33332E">CIGAR / 序列</text>
+  <rect x="1090" y="34" width="12" height="12" fill="#00A087"/>
+  <text x="1110" y="45" font-size="12" fill="#33332E">MAPQ</text>
+  <rect x="926" y="56" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="67" font-size="12" fill="#33332E">易错点</text>
+  <rect x="1002" y="56" width="12" height="12" fill="#3C5488"/>
+  <text x="1022" y="67" font-size="12" fill="#33332E">坐标 / 结构</text>
+
+  <!-- ============ SAM 记录条 ============ -->
+  <rect x="48" y="118" width="1104" height="176" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="138" font-size="11" fill="#6B6B66">@HD / @SQ / @RG 头行从略；@RG（Read Group）为什么不能省见 ⑤5.3</text>
+  <!-- 11 列：列名 -->
+  <text x="74"  y="160" font-size="10.5" font-weight="bold" fill="#6B6B66" text-anchor="middle">1 QNAME</text>
+  <text x="170" y="160" font-size="10.5" font-weight="bold" fill="#33332E" text-anchor="middle">2 FLAG</text>
+  <text x="266" y="160" font-size="10.5" font-weight="bold" fill="#3C5488" text-anchor="middle">3 RNAME</text>
+  <text x="362" y="160" font-size="10.5" font-weight="bold" fill="#3C5488" text-anchor="middle">4 POS</text>
+  <text x="458" y="160" font-size="10.5" font-weight="bold" fill="#33332E" text-anchor="middle">5 MAPQ</text>
+  <text x="554" y="160" font-size="10.5" font-weight="bold" fill="#33332E" text-anchor="middle">6 CIGAR</text>
+  <text x="650" y="160" font-size="10.5" font-weight="bold" fill="#6B6B66" text-anchor="middle">7 RNEXT</text>
+  <text x="746" y="160" font-size="10.5" font-weight="bold" fill="#6B6B66" text-anchor="middle">8 PNEXT</text>
+  <text x="842" y="160" font-size="10.5" font-weight="bold" fill="#6B6B66" text-anchor="middle">9 TLEN</text>
+  <text x="938" y="160" font-size="10.5" font-weight="bold" fill="#6B6B66" text-anchor="middle">10 SEQ</text>
+  <text x="1034" y="160" font-size="10.5" font-weight="bold" fill="#6B6B66" text-anchor="middle">11 QUAL</text>
+  <!-- 取值框 -->
+  <rect x="74"  y="172" width="92" height="30" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="120" y="192" font-size="12" fill="#33332E" text-anchor="middle">read0</text>
+  <rect x="170" y="172" width="92" height="30" fill="#F39B7F"/>
+  <text x="216" y="192" font-size="13" font-weight="bold" fill="#33332E" text-anchor="middle">99</text>
+  <rect x="266" y="172" width="92" height="30" fill="#FFFFFF" stroke="#3C5488"/>
+  <text x="312" y="192" font-size="11.5" fill="#3C5488" text-anchor="middle">NC_000913.3</text>
+  <rect x="362" y="172" width="92" height="30" fill="#FFFFFF" stroke="#3C5488"/>
+  <text x="408" y="192" font-size="12" fill="#3C5488" text-anchor="middle">1000137</text>
+  <rect x="458" y="172" width="92" height="30" fill="#00A087"/>
+  <text x="504" y="192" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">60</text>
+  <rect x="554" y="172" width="92" height="30" fill="#4DBBD5"/>
+  <text x="600" y="192" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">50M2D10M</text>
+  <rect x="650" y="172" width="92" height="30" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="696" y="192" font-size="12" fill="#33332E" text-anchor="middle">=</text>
+  <rect x="746" y="172" width="92" height="30" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="792" y="192" font-size="12" fill="#33332E" text-anchor="middle">1000262</text>
+  <rect x="842" y="172" width="92" height="30" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="888" y="192" font-size="12" fill="#33332E" text-anchor="middle">+245</text>
+  <rect x="938" y="172" width="92" height="30" fill="#FFFFFF" stroke="#4DBBD5"/>
+  <text x="984" y="192" font-size="11" fill="#3C8DAD" text-anchor="middle">ACGTACGTAC…</text>
+  <rect x="1034" y="172" width="92" height="30" fill="#FFFFFF" stroke="#4DBBD5"/>
+  <text x="1080" y="192" font-size="11" fill="#3C8DAD" text-anchor="middle">IFFIIFFIII…</text>
+  <!-- 中文提示 -->
+  <text x="120"  y="212" font-size="10" fill="#6B6B66" text-anchor="middle">读名</text>
+  <text x="216"  y="212" font-size="10" fill="#33332E" text-anchor="middle">双端标记</text>
+  <text x="312"  y="212" font-size="10" fill="#6B6B66" text-anchor="middle">参考序列名</text>
+  <text x="408"  y="212" font-size="10" fill="#6B6B66" text-anchor="middle">左端坐标</text>
+  <text x="504"  y="212" font-size="10" fill="#33332E" text-anchor="middle">比对质量</text>
+  <text x="600"  y="212" font-size="10" fill="#33332E" text-anchor="middle">比对表述</text>
+  <text x="696"  y="212" font-size="10" fill="#6B6B66" text-anchor="middle">配对参考</text>
+  <text x="792"  y="212" font-size="10" fill="#6B6B66" text-anchor="middle">配对位置</text>
+  <text x="888"  y="212" font-size="10" fill="#6B6B66" text-anchor="middle">模板长度</text>
+  <text x="984"  y="212" font-size="10" fill="#6B6B66" text-anchor="middle">碱基序列</text>
+  <text x="1080" y="212" font-size="10" fill="#6B6B66" text-anchor="middle">碱基质量</text>
+  <text x="72" y="252" font-size="11.5" fill="#33332E">本例插入片段 245 bp，取自 ⑥6.1 的实测中位数；RNAME 必须与参考 FASTA 序列名逐字一致，写错只警告不报错（E8）</text>
+  <text x="72" y="276" font-size="11.5" fill="#6B6B66">第 12 列起是可选标签：本例 NM:i:2 表示编辑距离 2——「有多少错配」看它，而不是数 CIGAR 里的 M</text>
+
+  <!-- ============ 面板 A：FLAG ============ -->
+  <rect x="48" y="300" width="352" height="390" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="330" font-size="16" font-weight="bold" fill="#3C5488">FLAG：一组开关位的求和</text>
+  <text x="72" y="350" font-size="11.5" fill="#6B6B66">十进制 99 = 64 + 32 + 2 + 1（⑥6.6）</text>
+  <rect x="72" y="366" width="20" height="20" rx="3" fill="#3C5488"/>
+  <text x="82" y="381" font-size="11" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="102" y="381" font-size="11.5" fill="#33332E">PAIRED：双端测序</text>
+  <rect x="72" y="392" width="20" height="20" rx="3" fill="#3C5488"/>
+  <text x="82" y="407" font-size="11" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="102" y="407" font-size="11.5" fill="#33332E">PROPER_PAIR：方向距离正常</text>
+  <rect x="72" y="418" width="20" height="20" rx="3" fill="#3C5488"/>
+  <text x="82" y="433" font-size="11" fill="#FFFFFF" text-anchor="middle">32</text>
+  <text x="102" y="433" font-size="11.5" fill="#33332E">MREVERSE：配对那条在反向</text>
+  <rect x="72" y="444" width="20" height="20" rx="3" fill="#3C5488"/>
+  <text x="82" y="459" font-size="11" fill="#FFFFFF" text-anchor="middle">64</text>
+  <text x="102" y="459" font-size="11.5" fill="#33332E">READ1：本条是 read1</text>
+  <rect x="72" y="482" width="304" height="112" rx="6" fill="#FDF2F0" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="86" y="506" font-size="12" fill="#E64B35">最常读错的一处：32 是「配对那条」在</text>
+  <text x="86" y="526" font-size="12" fill="#E64B35">反向链，不是本条；本条反向是 16。</text>
+  <text x="86" y="548" font-size="12" fill="#33332E">FLAG 99 = read1、本条正向、配对那条反</text>
+  <text x="86" y="568" font-size="12" fill="#33332E">向——标准 FR 文库里 read1 的典型值。</text>
+  <text x="72" y="620" font-size="11.5" fill="#33332E">不用背：samtools flags 99 直接给答案（⑤5.9）</text>
+  <text x="72" y="642" font-size="11.5" fill="#6B6B66">在线解码器：Picard explain-flags（⑪）</text>
+
+  <!-- ============ 面板 B：CIGAR ============ -->
+  <rect x="424" y="300" width="352" height="390" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="448" y="330" font-size="16" font-weight="bold" fill="#3C5488">CIGAR：两串序列怎么被消耗</text>
+  <text x="448" y="350" font-size="11.5" fill="#6B6B66">M / I / D / S / H 逐个对账（⑥6.6）</text>
+  <rect x="448" y="366" width="46" height="22" rx="4" fill="#4DBBD5"/>
+  <text x="471" y="382" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">50M</text>
+  <text x="504" y="382" font-size="11.5" fill="#33332E">M：匹配+错配都算，双方各 50</text>
+  <rect x="448" y="396" width="46" height="22" rx="4" fill="#FFFFFF" stroke="#4DBBD5"/>
+  <text x="471" y="412" font-size="11.5" font-weight="bold" fill="#3C8DAD" text-anchor="middle">2D</text>
+  <text x="504" y="412" font-size="11.5" fill="#33332E">D：缺失，只消耗参考，read 不动</text>
+  <rect x="448" y="426" width="46" height="22" rx="4" fill="#4DBBD5"/>
+  <text x="471" y="442" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">10M</text>
+  <text x="504" y="442" font-size="11.5" fill="#33332E">再消耗双方各 10</text>
+  <text x="448" y="472" font-size="12.5" font-weight="bold" fill="#3C5488">read 消耗 60 bp；基因组上跨 62 bp（⑩-2）</text>
+  <rect x="448" y="488" width="304" height="82" rx="6" fill="#FDF2F0" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="462" y="512" font-size="12" fill="#E64B35">M 陷阱：100M 不代表 100 个碱基完全匹</text>
+  <text x="462" y="532" font-size="12" fill="#E64B35">配；错配数看 NM / MD 标签</text>
+  <text x="462" y="552" font-size="12" fill="#33332E">（minimap2 --eqx 才用 = 与 X 区分）。</text>
+  <text x="448" y="596" font-size="11.5" fill="#33332E">S=软剪切：序列留在 SEQ；3′ 端聚集→接头残留</text>
+  <text x="448" y="618" font-size="11.5" fill="#33332E">固定位置聚集→结构变异断点；H=硬剪切，截掉</text>
+  <text x="448" y="640" font-size="11.5" fill="#6B6B66">会改变 CIGAR 结构的只有 I 与 D</text>
+
+  <!-- ============ 面板 C：MAPQ ============ -->
+  <rect x="800" y="300" width="352" height="390" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="824" y="330" font-size="16" font-weight="bold" fill="#3C5488">MAPQ：「放对位置了没有」</text>
+  <text x="824" y="350" font-size="11.5" fill="#6B6B66">SAM 第 5 列，与 BaseQ 同为 Phred 尺度（④4.6）</text>
+  <text x="824" y="384" font-size="14" font-weight="bold" fill="#3C5488">MAPQ = −10 · log10 P( 被放错位置 )</text>
+  <text x="824" y="414" font-size="11.5" fill="#33332E">60（bwa 上限）→ 放错概率 ≤ 百万分之一</text>
+  <text x="824" y="436" font-size="11.5" fill="#33332E">-q 30 → 放错概率 ≤ 千分之一（常用阈值）</text>
+  <text x="824" y="462" font-size="12" font-weight="bold" fill="#3C5488">答「位置有多唯一」，不答「匹配有多好」</text>
+  <rect x="824" y="478" width="304" height="76" rx="6" fill="#FFFFFF" stroke="#8491B4" stroke-width="1.5"/>
+  <text x="838" y="504" font-size="12" fill="#33332E">上限不同不能直接比数值：bwa 60、</text>
+  <text x="838" y="524" font-size="12" fill="#33332E">bowtie2 42；两个分布只比形状不比绝对值</text>
+  <text x="838" y="544" font-size="11" fill="#6B6B66">（⑩-7 对照实验的考点）</text>
+  <text x="824" y="586" font-size="11.5" fill="#33332E">亲自看：samtools view x.bam | head -1 | cut -f5</text>
+  <text x="824" y="608" font-size="11.5" fill="#6B6B66">匹配好不好的证据在 NM、MD 与碱基质量里</text>
+  <text x="824" y="630" font-size="11.5" fill="#6B6B66">MAPQ=0 的含义见下一张图（⑥6.3）</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="712" width="4" height="44" rx="2" fill="#3C5488"/>
+  <text x="64" y="732" font-size="14" font-weight="bold" fill="#3C5488">换任何比对器都一样：SAM 的 11 列、FLAG、CIGAR、排序、索引、depth 一个字都不变（③3.4）</text>
+  <text x="1152" y="768" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

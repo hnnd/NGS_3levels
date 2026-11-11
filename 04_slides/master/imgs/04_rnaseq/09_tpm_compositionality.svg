@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="61.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">总和恒定闭合</text>
+<path d="M 200 280 L 350.0 280.0 A 150 150 0 0 1 296.4 394.9 Z" fill="#3C5488"/>
+<circle cx="200" cy="280" r="150" fill="none" stroke="#FAFAF7" stroke-width="3"/>
+<path d="M 200 280 L 296.4 394.9 A 150 150 0 0 1 174.0 427.7 Z" fill="#4DBBD5"/>
+<circle cx="200" cy="280" r="150" fill="none" stroke="#FAFAF7" stroke-width="3"/>
+<path d="M 200 280 L 174.0 427.7 A 150 150 0 0 1 70.1 355.0 Z" fill="#00A087"/>
+<circle cx="200" cy="280" r="150" fill="none" stroke="#FAFAF7" stroke-width="3"/>
+<path d="M 200 280 L 70.1 355.0 A 150 150 0 0 1 59.0 228.7 Z" fill="#3C5488"/>
+<circle cx="200" cy="280" r="150" fill="none" stroke="#FAFAF7" stroke-width="3"/>
+<path d="M 200 280 L 59.0 228.7 A 150 150 0 0 1 136.6 144.1 Z" fill="#4DBBD5"/>
+<circle cx="200" cy="280" r="150" fill="none" stroke="#FAFAF7" stroke-width="3"/>
+<path d="M 200 280 L 136.6 144.1 A 150 150 0 0 1 251.3 139.0 Z" fill="#00A087"/>
+<circle cx="200" cy="280" r="150" fill="none" stroke="#FAFAF7" stroke-width="3"/>
+<path d="M 200 280 L 251.3 139.0 A 150 150 0 0 1 350.0 280.0 Z" fill="#E3E8F2"/>
+<circle cx="200" cy="280" r="150" fill="none" stroke="#FAFAF7" stroke-width="3"/>
+<circle cx="200" cy="280" r="74" fill="#FAFAF7"/>
+<text x="200" y="290" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">Σ = 10^6</text>
+<text x="200" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">基线</text>
+<line x1="390" y1="280" x2="450" y2="280" stroke="#6B6B66" stroke-width="7" stroke-linecap="round"/>
+<polygon points="450,280 433.56439907437846,287.3396881550723 433.56439907437846,272.6603118449277" fill="#6B6B66"/>
+<path d="M 600 280 L 750.0 280.0 A 150 150 0 0 1 553.6 422.7 Z" fill="#F39B7F"/>
+<circle cx="600" cy="280" r="150" fill="none" stroke="#FAFAF7" stroke-width="3"/>
+<path d="M 600 280 L 553.6 422.7 A 150 150 0 0 1 452.3 306.0 Z" fill="#00A087"/>
+<circle cx="600" cy="280" r="150" fill="none" stroke="#FAFAF7" stroke-width="3"/>
+<path d="M 600 280 L 452.3 306.0 A 150 150 0 0 1 493.9 173.9 Z" fill="#3C5488"/>
+<circle cx="600" cy="280" r="150" fill="none" stroke="#FAFAF7" stroke-width="3"/>
+<path d="M 600 280 L 493.9 173.9 A 150 150 0 0 1 613.1 130.6 Z" fill="#4DBBD5"/>
+<circle cx="600" cy="280" r="150" fill="none" stroke="#FAFAF7" stroke-width="3"/>
+<path d="M 600 280 L 613.1 130.6 A 150 150 0 0 1 714.9 183.6 Z" fill="#3C5488"/>
+<circle cx="600" cy="280" r="150" fill="none" stroke="#FAFAF7" stroke-width="3"/>
+<path d="M 600 280 L 714.9 183.6 A 150 150 0 0 1 750.0 280.0 Z" fill="#D8EEE9"/>
+<circle cx="600" cy="280" r="150" fill="none" stroke="#FAFAF7" stroke-width="3"/>
+<circle cx="600" cy="280" r="74" fill="#FAFAF7"/>
+<text x="600" y="290" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">Σ = 10^6</text>
+<text x="600" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">侵染后</text>
+<text x="775" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="end" font-weight="bold">防卫基因</text>
+<text x="775" y="236" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="end" font-weight="bold">~30%</text>
+<text x="600" y="566.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">少数防卫暴涨</text>
+<text x="200" y="566.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">强行压低其余基因</text>
+<rect x="90" y="600" width="620" height="88" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="6"/>
+<text x="400" y="642" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">假全基因组下调</text>
+<text x="400" y="674" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">全基因组下调（假象）</text>
+</svg>

@@ -1,0 +1,33 @@
+# 本科生 · 环境 4/4：物种鉴定、系统进化与泛基因组
+# 覆盖单元：u08 综合项目（鉴定 / 建树 / 泛基因组部分）
+#
+# 创建：conda env create -f env_ug_phylo.yml
+# 激活：conda activate ngs_ug_phylo
+
+name: ngs_ug_phylo
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # 【生态性断裂】setuptools 82.0.0（2026-02-08）移除了 pkg_resources（81.x 仍含），而 bioconda 上
+  # 2023-2024 年的 Python 工具（multiqc 1.14、macs2、部分 deeptools 子命令等）仍 import 它，
+  # 表现为 `ModuleNotFoundError: No module named 'pkg_resources'`。全课程统一钉 <81（比必要的 <82 多保守一档，已实测可用）。
+  - setuptools<81
+  # ---- 物种鉴定 ----
+  - mash
+  - fastani
+
+  # ---- 系统进化 ----
+  - mashtree
+  - gtotree
+  - iqtree
+
+  # ---- 泛基因组 ----
+  - roary
+
+  # ---- 树的可视化 ----
+  - r-base=4.3.1
+  - r-ggplot2=3.4.2
+  - bioconductor-ggtree

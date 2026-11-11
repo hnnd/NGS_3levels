@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<circle cx="110" cy="182" r="22" fill="#D6EFF4" stroke="#3C8DAD" stroke-width="4"/>
+<circle cx="206" cy="182" r="25" fill="#D6EFF4" stroke="#3C8DAD" stroke-width="4"/>
+<line x1="136" y1="182" x2="177" y2="182" stroke="#4DBBD5" stroke-width="4" stroke-linecap="round"/>
+<polygon points="177,182 166.0429327162523,186.89312543671485 166.0429327162523,177.10687456328515" fill="#4DBBD5"/>
+<circle cx="302" cy="182" r="28" fill="#D6EFF4" stroke="#3C8DAD" stroke-width="4"/>
+<line x1="232" y1="182" x2="270" y2="182" stroke="#4DBBD5" stroke-width="4" stroke-linecap="round"/>
+<polygon points="270,182 259.0429327162523,186.89312543671485 259.0429327162523,177.10687456328515" fill="#4DBBD5"/>
+<circle cx="398" cy="182" r="31" fill="#D6EFF4" stroke="#3C8DAD" stroke-width="4"/>
+<line x1="328" y1="182" x2="363" y2="182" stroke="#4DBBD5" stroke-width="4" stroke-linecap="round"/>
+<polygon points="363,182 352.0429327162523,186.89312543671485 352.0429327162523,177.10687456328515" fill="#4DBBD5"/>
+<circle cx="494" cy="182" r="34" fill="#D6EFF4" stroke="#3C8DAD" stroke-width="4"/>
+<line x1="424" y1="182" x2="456" y2="182" stroke="#4DBBD5" stroke-width="4" stroke-linecap="round"/>
+<polygon points="456,182 445.0429327162523,186.89312543671485 445.0429327162523,177.10687456328515" fill="#4DBBD5"/>
+<circle cx="590" cy="182" r="37" fill="#D6EFF4" stroke="#3C8DAD" stroke-width="4"/>
+<line x1="520" y1="182" x2="549" y2="182" stroke="#4DBBD5" stroke-width="4" stroke-linecap="round"/>
+<polygon points="549,182 538.0429327162523,186.89312543671485 538.0429327162523,177.10687456328515" fill="#4DBBD5"/>
+<circle cx="686" cy="182" r="40" fill="#E3E8F2" stroke="#3C5488" stroke-width="4"/>
+<line x1="616" y1="182" x2="642" y2="182" stroke="#4DBBD5" stroke-width="4" stroke-linecap="round"/>
+<polygon points="642,182 631.0429327162523,186.89312543671485 631.0429327162523,177.10687456328515" fill="#4DBBD5"/>
+<text x="110" y="244" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">k=21</text>
+<text x="686" y="248" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">k=141</text>
+<line x1="76" y1="298" x2="302" y2="298" stroke="#3C8DAD" stroke-width="4" stroke-linecap="butt"/>
+<text x="206" y="340" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">小尺连通低深度</text>
+<line x1="494" y1="298" x2="720" y2="298" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="590" y="340" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">大尺跨越重复区</text>
+<rect x="448" y="104" width="266" height="20" fill="#D6EFF4" rx="10" stroke="#3C8DAD" stroke-width="3"/>
+<rect x="60" y="470" width="214" height="64" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="104" y="512" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">锚</text>
+<rect x="136" y="489" width="56" height="26" fill="#00A087" rx="6"/>
+<rect x="202" y="489" width="56" height="26" fill="#00A087" rx="6"/>
+<rect x="468" y="462" width="272" height="80" fill="#FBE3D8" rx="12" stroke="#C0623F" stroke-width="3" stroke-dasharray="10 8"/>
+<rect x="494" y="490" width="52" height="26" fill="#F39B7F" rx="6"/>
+<rect x="574" y="490" width="52" height="26" fill="#F39B7F" rx="6"/>
+<rect x="654" y="490" width="52" height="26" fill="#F39B7F" rx="6"/>
+<line x1="348" y1="502" x2="452" y2="502" stroke="#E64B35" stroke-width="6" stroke-linecap="butt"/>
+<polygon points="446,491 472,502 446,513" fill="#E64B35"/>
+<text x="400" y="618" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#C0623F" text-anchor="middle" font-weight="bold">单端锚定救低频</text>
+<text x="400" y="676" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">保留微弱连接</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="648" y1="296" x2="648" y2="176" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt"/>
+<line x1="672" y1="296" x2="672" y2="224" stroke="#6B6B66" stroke-width="4" stroke-linecap="butt"/>
+<text x="660" y="160" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">深度多少？不知道</text>
+<text x="660" y="208" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">缺口在哪？不知道</text>
+<text x="320" y="232" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="72" fill="#3C5488" text-anchor="middle" font-weight="bold">99.62%</text>
+<text x="320" y="272" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">= 19924 / 20000</text>
+<rect x="60" y="300" width="580" height="56" fill="#00A087" rx="8"/>
+<rect x="640" y="300" width="100" height="56" fill="#E64B35" rx="8"/>
+<rect x="60" y="300" width="680" height="56" fill="none" rx="8" stroke="#3C5488" stroke-width="4"/>
+<text x="350" y="338" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">19,924 bp</text>
+<text x="690" y="338" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">76 bp</text>
+<text x="60" y="392" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start" font-weight="bold">0</text>
+<text x="740" y="392" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end" font-weight="bold">20,000 bp</text>
+<text x="400" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">深度中位数与分位数才说均匀性</text>
+</svg>

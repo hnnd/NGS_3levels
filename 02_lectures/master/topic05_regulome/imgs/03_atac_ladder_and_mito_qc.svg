@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">ATAC 的两张体检图：核小体阶梯与线粒体污染</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">片段长度周期 ｜ mtDNA 20–80% ｜ FRiP / TSS 塌陷 —— 依据 05_regulome_lecture.md ④4.2 ⑥6.1 6.3</text>
+  <!-- 图例 -->
+  <rect x="926" y="40" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="50" font-size="12" fill="#33332E">合格（周期性阶梯）</text>
+  <line x1="926" y1="70" x2="938" y2="70" stroke="#E64B35" stroke-width="2.5" stroke-dasharray="5 3"/>
+  <text x="946" y="74" font-size="12" fill="#33332E">消化过度（单峰无周期）</text>
+  <rect x="926" y="88" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="98" font-size="12" fill="#33332E">核基因组读段</text>
+
+  <!-- ============ 左面板：片段长度分布 ============ -->
+  <rect x="48" y="140" width="540" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="172" font-size="16" font-weight="bold" fill="#3C5488">片段长度分布：应见核小体阶梯</text>
+  <text x="72" y="192" font-size="11.5" fill="#6B6B66">步骤 1 取 TLEN 画直方图（fraglen.txt）——ATAC 最直观的一张质控图</text>
+  <line x1="72" y1="204" x2="564" y2="204" stroke="#E9E9E5"/>
+
+  <!-- 周期参考虚线 -->
+  <line x1="156" y1="236" x2="156" y2="520" stroke="#6B6B66" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="212" y1="236" x2="212" y2="520" stroke="#6B6B66" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="324" y1="236" x2="324" y2="520" stroke="#6B6B66" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="156" y="252" font-size="10.5" fill="#6B6B66" text-anchor="middle">&lt;100</text>
+  <text x="212" y="252" font-size="10.5" fill="#6B6B66" text-anchor="middle">~200</text>
+  <text x="324" y="252" font-size="10.5" fill="#6B6B66" text-anchor="middle">~400</text>
+  <text x="150" y="546" font-size="10.5" fill="#6B6B66" text-anchor="middle">无核小体区</text>
+  <text x="212" y="546" font-size="10.5" fill="#6B6B66" text-anchor="middle">单核小体</text>
+  <text x="330" y="546" font-size="10.5" fill="#6B6B66" text-anchor="middle">双核小体</text>
+
+  <!-- 合格曲线（绿面积） -->
+  <path d="M 100 518 L 112 514 C 122 470 136 300 152 290 C 168 302 178 468 192 506 L 202 512 C 208 478 206 424 214 416 C 224 426 230 492 242 508 L 262 512 C 288 502 304 468 326 462 C 352 470 380 506 420 514 L 548 517 Z"
+        fill="#00A087" fill-opacity="0.85"/>
+  <!-- 消化过度曲线（红虚线） -->
+  <path d="M 100 518 C 128 512 140 320 152 316 C 166 320 178 514 224 517 L 548 518"
+        fill="none" stroke="#E64B35" stroke-width="2.5" stroke-dasharray="6 4"/>
+
+  <!-- 坐标轴 -->
+  <line x1="100" y1="520" x2="560" y2="520" stroke="#33332E" stroke-width="1.5"/>
+  <polygon points="560,515 560,525 570,520" fill="#33332E"/>
+  <text x="100" y="568" font-size="11" fill="#6B6B66">片段长度（bp）→</text>
+  <text x="560" y="568" font-size="11" fill="#6B6B66" text-anchor="end">读段密度 ↑</text>
+
+  <!-- 结论 -->
+  <rect x="72" y="588" width="492" height="70" rx="6" fill="#FAFAF7"/>
+  <rect x="72" y="588" width="4" height="70" rx="2" fill="#00A087"/>
+  <text x="88" y="614" font-size="12" fill="#33332E">正常：清晰的周期性阶梯——&lt;100 / ~200 / ~400 bp 渐弱</text>
+  <text x="88" y="640" font-size="12" fill="#E64B35">只有单峰、没有周期 = 消化过度：染色质结构信息已丢失</text>
+
+  <!-- ============ 右面板：线粒体污染 ============ -->
+  <rect x="612" y="140" width="540" height="540" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="636" y="172" font-size="16" font-weight="bold" fill="#3C5488">线粒体污染：钱花在了线粒体上</text>
+  <text x="636" y="192" font-size="11.5" fill="#6B6B66">植物还要警惕叶绿体——先滤掉再算 FRiP，否则 FRiP 被系统性低估</text>
+  <line x1="636" y1="204" x2="1128" y2="204" stroke="#E9E9E5"/>
+
+  <!-- 失败样本堆叠条 -->
+  <text x="636" y="234" font-size="12.5" font-weight="bold" fill="#33332E">失败样本 ATAC_trt_r1（⑥6.3 质控表）</text>
+  <rect x="636" y="248" width="265" height="38" fill="#E64B35"/>
+  <rect x="901" y="248" width="125" height="38" fill="#3C5488"/>
+  <text x="768" y="272" font-size="12" fill="#FFFFFF" text-anchor="middle">mtDNA 68%</text>
+  <text x="963" y="272" font-size="12" fill="#FFFFFF" text-anchor="middle">核 32%</text>
+
+  <!-- 正常样本堆叠条 -->
+  <text x="636" y="330" font-size="12.5" font-weight="bold" fill="#33332E">正常样本（Omni-ATAC 后）</text>
+  <rect x="636" y="344" width="47" height="38" fill="#E64B35"/>
+  <rect x="683" y="344" width="343" height="38" fill="#3C5488"/>
+  <text x="660" y="368" font-size="11" fill="#FFFFFF" text-anchor="middle">12%</text>
+  <text x="854" y="368" font-size="12" fill="#FFFFFF" text-anchor="middle">核基因组 88%</text>
+
+  <text x="636" y="414" font-size="12" fill="#33332E">经验线：Omni-ATAC 后 &lt; 20%；&gt; 60% 意味着六成读段是线粒体</text>
+
+  <!-- 后果链 -->
+  <text x="636" y="448" font-size="12.5" font-weight="bold" fill="#3C5488">后果链</text>
+  <text x="636" y="474" font-size="12" fill="#33332E">mtDNA 吃掉大半读段</text>
+  <text x="636" y="494" font-size="12" fill="#33332E">↓ 核基因组有效深度只剩名义的 32%</text>
+  <text x="636" y="514" font-size="12" fill="#33332E">↓ 富集稀薄 → FRiP 0.06、TSS enrichment 2.1 双塌陷</text>
+  <text x="636" y="534" font-size="12" font-weight="bold" fill="#33332E">↓ 判定：不通过——此时不能按名义深度与别样本比 peak 数</text>
+
+  <!-- 最隐蔽处 -->
+  <rect x="636" y="556" width="492" height="86" rx="6" fill="#FAFAF7"/>
+  <rect x="636" y="556" width="4" height="86" rx="2" fill="#E64B35"/>
+  <text x="652" y="584" font-size="12.5" font-weight="bold" fill="#E64B35">最隐蔽处：它的比对率仍有 88%</text>
+  <text x="652" y="608" font-size="12" fill="#33332E">只看比对率完全发现不了这个问题——</text>
+  <text x="652" y="628" font-size="12" fill="#33332E">这就是必须同时看多个指标的理由</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">阶梯告诉你实验做没做好，线粒体比例告诉你钱花在哪——两张图过关，才轮到 FRiP 与 TSS。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

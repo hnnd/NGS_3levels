@@ -1,0 +1,43 @@
+# 本科生 · 环境 2/4：基因组扫描与组装
+# 覆盖单元：u06 组装原理与质量评估 ｜ u08 综合项目（组装部分）
+#
+# 创建：conda env create -f env_ug_assembly.yml
+# 激活：conda activate ngs_ug_assembly
+#
+# 【为什么单独一个环境】BUSCO 与 QUAST 的依赖链（尤其 augustus / sepp）
+# 与注释类工具（antiSMASH）冲突严重，合并会导致 solve 失败或耗时极长。
+
+name: ngs_ug_assembly
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # 【生态性断裂】setuptools 82.0.0（2026-02-08）移除了 pkg_resources（81.x 仍含），而 bioconda 上
+  # 2023-2024 年的 Python 工具（multiqc 1.14、macs2、部分 deeptools 子命令等）仍 import 它，
+  # 表现为 `ModuleNotFoundError: No module named 'pkg_resources'`。全课程统一钉 <81（比必要的 <82 多保守一档，已实测可用）。
+  - setuptools<81
+  # ---- 基因组扫描 ----
+  # 注：若 solve 失败，请改用包名 kmer-jellyfish（bioconda 上两个名字都出现过）
+  # GenomeScope 不走 conda：手册中是 wget 下载 genomescope.R 后用 Rscript 运行
+  - jellyfish
+
+  # ---- 长读长组装 ----
+  - canu
+  - flye
+  - minimap2
+
+  # ---- 短读长预处理（可选，用于混合策略）----
+  - trimmomatic
+
+  # ---- 组装质量评估 ----
+  - quast
+  - busco
+
+  # ---- 绘图与拟合（k-mer 分布、组装指标）----
+  - r-base=4.3.1
+  - r-ggplot2=3.4.2
+  # GenomeScope 的非线性最小二乘拟合依赖 minpack.lm；
+  # 缺它会报 there is no package called 'minpack.lm'
+  - r-minpack.lm

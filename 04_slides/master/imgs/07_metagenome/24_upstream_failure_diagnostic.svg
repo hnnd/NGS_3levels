@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="32" y="96" width="240" height="344" fill="#FBE3D8" rx="18" stroke="#C0623F" stroke-width="4"/>
+<text x="152.0" y="142.4" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">宿主保留骤降：</text>
+<text x="152.0" y="182.60000000000002" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">误伤</text>
+<path d="M 86.0 346 A 66 66 0 0 1 218.0 346" fill="none" stroke="#C0623F" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="96.0" y1="346.0" x2="86.0" y2="346.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="103.50257738807143" y1="318.0" x2="94.84232335022705" y2="313.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="123.99999999999999" y1="297.5025773880715" x2="118.99999999999999" y2="288.84232335022705" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="152.0" y1="290.0" x2="152.0" y2="280.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="180.0" y1="297.5025773880714" x2="185.0" y2="288.84232335022705" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="200.49742261192858" y1="318.0" x2="209.15767664977295" y2="313.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="208.0" y1="346.0" x2="218.0" y2="346.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="152.0" y1="346" x2="192.6939228331267" y2="375.05175802686523" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<circle cx="152.0" cy="346" r="8" fill="#33332E"/>
+<rect x="280" y="96" width="240" height="344" fill="#FBE3D8" rx="18" stroke="#C0623F" stroke-width="4"/>
+<text x="400.0" y="142.4" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">未分类畸高：</text>
+<text x="400.0" y="182.60000000000002" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">缺参考</text>
+<path d="M 334.0 346 A 66 66 0 0 1 466.0 346" fill="none" stroke="#C0623F" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="344.0" y1="346.0" x2="334.0" y2="346.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="351.5025773880714" y1="318.0" x2="342.84232335022705" y2="313.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="372.0" y1="297.5025773880715" x2="367.0" y2="288.84232335022705" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="400.0" y1="290.0" x2="400.0" y2="280.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="428.0" y1="297.5025773880714" x2="433.0" y2="288.84232335022705" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="448.4974226119286" y1="318.0" x2="457.15767664977295" y2="313.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="456.0" y1="346.0" x2="466.0" y2="346.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="400.0" y1="346" x2="439.49961157486825" y2="315.3441574013283" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<circle cx="400.0" cy="346" r="8" fill="#33332E"/>
+<rect x="528" y="96" width="240" height="344" fill="#FBE3D8" rx="18" stroke="#C0623F" stroke-width="4"/>
+<text x="648.0" y="142.4" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">比回率暴跌：</text>
+<text x="648.0" y="182.60000000000002" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">碎片化</text>
+<path d="M 582.0 346 A 66 66 0 0 1 714.0 346" fill="none" stroke="#C0623F" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="592.0" y1="346.0" x2="582.0" y2="346.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="599.5025773880715" y1="318.0" x2="590.842323350227" y2="313.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="620.0" y1="297.5025773880715" x2="615.0" y2="288.84232335022705" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="648.0" y1="290.0" x2="648.0" y2="280.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="676.0" y1="297.5025773880714" x2="681.0" y2="288.84232335022705" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="696.4974226119285" y1="318.0" x2="705.157676649773" y2="313.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="704.0" y1="346.0" x2="714.0" y2="346.0" stroke="#C0623F" stroke-width="3" stroke-linecap="butt"/>
+<line x1="648.0" y1="346" x2="682.8353354673583" y2="381.86780454497614" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<circle cx="648.0" cy="346" r="8" fill="#33332E"/>
+<rect x="64" y="494" width="672" height="100" fill="#FFFFFF" rx="18" stroke="#E64B35" stroke-width="4" stroke-dasharray="12 9"/>
+<text x="400" y="556" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">查参考与读长</text>
+</svg>

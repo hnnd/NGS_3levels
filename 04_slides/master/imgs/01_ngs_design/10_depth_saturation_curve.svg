@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="60" y="46" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="start" font-weight="bold">固定 n=6 深度饱和</text>
+<line x1="100" y1="80" x2="100" y2="580" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="100" y1="580" x2="740" y2="580" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="88" y="362.72727272727275" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0.30</text>
+<text x="88" y="135.45454545454555" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0.35</text>
+<text x="149.23076923076923" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">10</text>
+<text x="296.9230769230769" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">40</text>
+<text x="395.3846153846154" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">60</text>
+<path d="M 124.61538461538461 519.308792210205 C 124.6 519.3 136.9 402.0 149.23076923076923 358.27142413140217 C 161.5 314.6 182.1 280.3 198.46153846153845 257.1498641902199 C 214.9 234.0 231.3 229.1 247.6923076923077 219.5460223985222 C 264.1 210.0 272.3 206.6 296.9230769230769 199.9224628437804 C 321.5 193.3 329.7 186.6 395.3846153846154 179.72062353906375 C 461.0 172.9 690.8 158.9 690.7692307692308 158.91610137709597" fill="none" stroke="#3C5488" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="124.61538461538461" cy="519.308792210205" r="7" fill="#3C5488"/>
+<circle cx="149.23076923076923" cy="358.27142413140217" r="7" fill="#3C5488"/>
+<circle cx="198.46153846153845" cy="257.1498641902199" r="7" fill="#3C5488"/>
+<circle cx="247.6923076923077" cy="219.5460223985222" r="7" fill="#3C5488"/>
+<circle cx="296.9230769230769" cy="199.9224628437804" r="7" fill="#3C5488"/>
+<circle cx="395.3846153846154" cy="179.72062353906375" r="7" fill="#3C5488"/>
+<circle cx="690.7692307692308" cy="158.91610137709597" r="7" fill="#3C5488"/>
+<line x1="198.46153846153845" y1="257.1498641902199" x2="198.46153846153845" y2="640" stroke="#E64B35" stroke-width="4" stroke-linecap="butt" stroke-dasharray="14 10"/>
+<line x1="690.7692307692308" y1="158.91610137709597" x2="690.7692307692308" y2="640" stroke="#E64B35" stroke-width="4" stroke-linecap="butt" stroke-dasharray="14 10"/>
+<line x1="198.46153846153845" y1="640" x2="690.7692307692308" y2="640" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="198.46153846153845" y1="632" x2="198.46153846153845" y2="648" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="690.7692307692308" y1="632" x2="690.7692307692308" y2="648" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<text x="300" y="680" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">20→120 M 深度翻 6 倍</text>
+<text x="590" y="680" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">功效仅增 6.7%</text>
+<text x="740" y="46" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">不可盲目加深</text>
+</svg>

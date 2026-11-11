@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="150" y="22" width="500" height="104" fill="#E3E8F2" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="400" y="66" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">rule all</text>
+<text x="400" y="106" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">counts_matrix.tsv + report.html</text>
+<line x1="130" y1="130" x2="130" y2="178" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="130,178 124.29135365716601,165.21675483562768 135.708646342834,165.21675483562768" fill="#4DBBD5"/>
+<rect x="64" y="184" width="132" height="76" fill="#FFFFFF" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="130" y="232" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">CK_1</text>
+<line x1="310" y1="130" x2="310" y2="178" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="310,178 304.29135365716604,165.21675483562768 315.70864634283396,165.21675483562768" fill="#4DBBD5"/>
+<rect x="244" y="184" width="132" height="76" fill="#FFFFFF" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="310" y="232" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">CK_2</text>
+<line x1="490" y1="130" x2="490" y2="178" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="490,178 484.29135365716604,165.21675483562768 495.70864634283396,165.21675483562768" fill="#4DBBD5"/>
+<rect x="424" y="184" width="132" height="76" fill="#FFFFFF" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="490" y="232" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">TR_1</text>
+<line x1="670" y1="130" x2="670" y2="178" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="670,178 664.291353657166,165.21675483562768 675.708646342834,165.21675483562768" fill="#4DBBD5"/>
+<rect x="604" y="184" width="132" height="76" fill="#FFFFFF" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<text x="670" y="232" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">TR_2</text>
+<text x="400" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">批量展开四样本</text>
+<rect x="36" y="336" width="356" height="208" fill="#D8EEE9" rx="16" stroke="#00A087" stroke-width="4"/>
+<text x="214" y="392" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">求值终点契约</text>
+<text x="214" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">quant.sf 不进 all</text>
+<text x="214" y="500" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">防止过度重跑</text>
+<rect x="424" y="336" width="340" height="208" fill="#F6D8D2" rx="16" stroke="#E64B35" stroke-width="5"/>
+<text x="594" y="400" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">中间产物</text>
+<text x="594" y="452" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">勿进终点</text>
+<text x="594" y="508" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">else rerun all</text>
+</svg>

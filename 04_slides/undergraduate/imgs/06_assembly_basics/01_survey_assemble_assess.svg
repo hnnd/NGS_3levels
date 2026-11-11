@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="190" y="70" width="420" height="130" fill="#3C5488" rx="18"/>
+<text x="400" y="128" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#FFFFFF" text-anchor="middle" font-weight="bold">① 勘测</text>
+<text x="400" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">多大？多复杂？</text>
+<rect x="190" y="270" width="420" height="130" fill="#3C5488" rx="18"/>
+<text x="400" y="328" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#FFFFFF" text-anchor="middle" font-weight="bold">② 组装</text>
+<text x="400" y="372" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">拼回原始顺序</text>
+<rect x="190" y="470" width="420" height="130" fill="#FFFFFF" rx="18" stroke="#E64B35" stroke-width="6"/>
+<text x="400" y="528" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#33332E" text-anchor="middle" font-weight="bold">③ 评估</text>
+<text x="400" y="572" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">拼得对不对？</text>
+<line x1="400" y1="206" x2="400" y2="262" stroke="#4DBBD5" stroke-width="8" stroke-linecap="round"/>
+<polygon points="400,262 392.6603118449277,245.56439907437846 407.3396881550723,245.56439907437846" fill="#4DBBD5"/>
+<line x1="400" y1="406" x2="400" y2="462" stroke="#4DBBD5" stroke-width="8" stroke-linecap="round"/>
+<polygon points="400,462 392.6603118449277,445.56439907437846 407.3396881550723,445.56439907437846" fill="#4DBBD5"/>
+</svg>

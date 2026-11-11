@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">NA 会传播：安静的数据污染</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">mean() 得 NA ｜ filter() 悄悄丢行 ｜ na.rm = TRUE —— 依据 l0_02 核心内容 §7</text>
+  <!-- 图例 -->
+  <rect x="926" y="44" width="12" height="12" fill="#4DBBD5"/>
+  <text x="944" y="54" font-size="12" fill="#33332E">正常数据</text>
+  <rect x="926" y="62" width="12" height="12" fill="#E64B35"/>
+  <text x="944" y="72" font-size="12" fill="#33332E">NA 及其直接后果</text>
+  <rect x="926" y="80" width="12" height="12" fill="#00A087"/>
+  <text x="944" y="90" font-size="12" fill="#33332E">正确处理</text>
+  <rect x="926" y="98" width="12" height="12" fill="#3C5488"/>
+  <text x="944" y="108" font-size="12" fill="#33332E">代码 / 函数</text>
+
+  <!-- ============ 左：带 NA 的一列 ============ -->
+  <rect x="48" y="120" width="420" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="16" font-weight="bold" fill="#3C5488">qc$q30_pct（8 个样本）</text>
+  <text x="72" y="178" font-size="12.5" fill="#6B6B66">NA = 缺失：不是 0，也不是 FALSE</text>
+  <line x1="72" y1="192" x2="444" y2="192" stroke="#E9E9E5"/>
+
+  <text x="88" y="238" font-size="10.5" fill="#6B6B66" text-anchor="end">S01</text>
+  <rect x="96" y="212" width="200" height="44" rx="6" fill="#4DBBD5"/>
+  <text x="196" y="240" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">93.2</text>
+  <text x="88" y="290" font-size="10.5" fill="#6B6B66" text-anchor="end">S02</text>
+  <rect x="96" y="264" width="200" height="44" rx="6" fill="#4DBBD5"/>
+  <text x="196" y="292" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">91.7</text>
+  <text x="88" y="342" font-size="10.5" fill="#6B6B66" text-anchor="end">S03</text>
+  <rect x="96" y="316" width="200" height="44" rx="6" fill="#FAFAF7" stroke="#E64B35" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="196" y="344" font-size="12.5" font-weight="bold" fill="#E64B35" text-anchor="middle">NA</text>
+  <text x="88" y="394" font-size="10.5" fill="#6B6B66" text-anchor="end">S04</text>
+  <rect x="96" y="368" width="200" height="44" rx="6" fill="#4DBBD5"/>
+  <text x="196" y="396" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">88.4</text>
+  <text x="88" y="446" font-size="10.5" fill="#6B6B66" text-anchor="end">S05</text>
+  <rect x="96" y="420" width="200" height="44" rx="6" fill="#4DBBD5"/>
+  <text x="196" y="448" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">92.0</text>
+  <text x="88" y="498" font-size="10.5" fill="#6B6B66" text-anchor="end">S06</text>
+  <rect x="96" y="472" width="200" height="44" rx="6" fill="#FAFAF7" stroke="#E64B35" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="196" y="500" font-size="12.5" font-weight="bold" fill="#E64B35" text-anchor="middle">NA</text>
+  <text x="88" y="550" font-size="10.5" fill="#6B6B66" text-anchor="end">S07</text>
+  <rect x="96" y="524" width="200" height="44" rx="6" fill="#4DBBD5"/>
+  <text x="196" y="552" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">94.1</text>
+  <text x="88" y="602" font-size="10.5" fill="#6B6B66" text-anchor="end">S08</text>
+  <rect x="96" y="576" width="200" height="44" rx="6" fill="#4DBBD5"/>
+  <text x="196" y="604" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">90.6</text>
+
+  <text x="96" y="648" font-size="11.5" fill="#33332E">NA == 90 的结果仍是 NA，不是 FALSE</text>
+  <text x="96" y="670" font-size="11" fill="#6B6B66">比较、运算都会把 NA 带进下游——它不报错，只传染</text>
+
+  <!-- ============ 右 ①：统计函数 ============ -->
+  <rect x="492" y="120" width="660" height="170" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="516" y="150" font-size="15" font-weight="bold" fill="#3C5488">① 统计函数：NA 会传染</text>
+  <text x="516" y="182" font-size="12.5" fill="#33332E">mean(qc$q30_pct)</text>
+  <line x1="716" y1="177" x2="756" y2="177" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="764,177 754,172 754,182" fill="#3C5488"/>
+  <rect x="772" y="161" width="64" height="32" rx="6" fill="#FAFAF7" stroke="#E64B35" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="804" y="182" font-size="13" font-weight="bold" fill="#E64B35" text-anchor="middle">NA</text>
+  <text x="516" y="232" font-size="12.5" fill="#33332E">mean(qc$q30_pct, na.rm = TRUE)</text>
+  <line x1="782" y1="227" x2="822" y2="227" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="830,227 820,222 820,232" fill="#3C5488"/>
+  <rect x="838" y="211" width="96" height="32" rx="6" fill="#00A087"/>
+  <text x="886" y="232" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">91.67 ✓</text>
+  <text x="516" y="270" font-size="11.5" fill="#6B6B66">不写 na.rm，一个 NA 毁掉整个汇总——而且全程不报错</text>
+
+  <!-- ============ 右 ②：filter ============ -->
+  <rect x="492" y="310" width="660" height="170" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="516" y="340" font-size="15" font-weight="bold" fill="#3C5488">② filter()：只保留条件严格为 TRUE 的行</text>
+  <text x="516" y="370" font-size="12.5" fill="#33332E">filter(qc, q30_pct &gt;= 90)</text>
+
+  <rect x="516" y="388" width="28" height="32" fill="#4DBBD5"/>
+  <text x="530" y="408" font-size="9" fill="#FFFFFF" text-anchor="middle">93.2</text>
+  <rect x="548" y="388" width="28" height="32" fill="#4DBBD5"/>
+  <text x="562" y="408" font-size="9" fill="#FFFFFF" text-anchor="middle">91.7</text>
+  <rect x="580" y="388" width="28" height="32" fill="#FAFAF7" stroke="#E64B35" stroke-dasharray="3 2"/>
+  <text x="594" y="408" font-size="9" font-weight="bold" fill="#E64B35" text-anchor="middle">NA</text>
+  <rect x="612" y="388" width="28" height="32" fill="#4DBBD5"/>
+  <text x="626" y="408" font-size="9" fill="#FFFFFF" text-anchor="middle">88.4</text>
+  <rect x="644" y="388" width="28" height="32" fill="#4DBBD5"/>
+  <text x="658" y="408" font-size="9" fill="#FFFFFF" text-anchor="middle">92.0</text>
+  <rect x="676" y="388" width="28" height="32" fill="#FAFAF7" stroke="#E64B35" stroke-dasharray="3 2"/>
+  <text x="690" y="408" font-size="9" font-weight="bold" fill="#E64B35" text-anchor="middle">NA</text>
+  <rect x="708" y="388" width="28" height="32" fill="#4DBBD5"/>
+  <text x="722" y="408" font-size="9" fill="#FFFFFF" text-anchor="middle">94.1</text>
+  <rect x="740" y="388" width="28" height="32" fill="#4DBBD5"/>
+  <text x="754" y="408" font-size="9" fill="#FFFFFF" text-anchor="middle">90.6</text>
+  <line x1="776" y1="404" x2="806" y2="404" stroke="#F39B7F" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="814,404 804,399 804,409" fill="#F39B7F"/>
+  <text x="820" y="408" font-size="11.5" font-weight="bold" fill="#F39B7F">2 个 NA 行被悄悄丢弃（不是报错）</text>
+  <text x="516" y="456" font-size="11" fill="#6B6B66">控制台那句：Warning: Removed 2 rows containing missing values——出图后扫一眼控制台</text>
+
+  <!-- ============ 右 ③：自查口令 ============ -->
+  <rect x="492" y="500" width="660" height="180" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="516" y="530" font-size="15" font-weight="bold" fill="#3C5488">③ 自查口令：见到 Removed N rows，先问两句</text>
+  <rect x="516" y="548" width="12" height="12" fill="none" stroke="#00A087" stroke-width="2"/>
+  <text x="540" y="559" font-size="12.5" fill="#33332E">丢的是哪些行？——是随机缺，还是某组整组缺？</text>
+  <rect x="516" y="574" width="12" height="12" fill="none" stroke="#00A087" stroke-width="2"/>
+  <text x="540" y="585" font-size="12.5" fill="#33332E">丢得有没有道理？——是过滤本意，还是意外副作用？</text>
+  <rect x="516" y="600" width="12" height="12" fill="none" stroke="#00A087" stroke-width="2"/>
+  <text x="540" y="611" font-size="12.5" fill="#33332E">统计函数要不要写 na.rm = TRUE？——让跳过成为明示的选择</text>
+  <text x="516" y="646" font-size="11.5" fill="#33332E">同类的静默污染：列里混进 “-” 或 “1,234”，整列变 &lt;chr&gt;——先用 glimpse() 抓出来</text>
+  <text x="516" y="668" font-size="11" fill="#6B6B66">缩放坐标用 coord_cartesian() 而不是 xlim()：后者会真的删数据</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

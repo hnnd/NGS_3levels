@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Time and fungal biomass are collinear</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="60" y="120" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">侵染时相推移</text>
+<line x1="60" y1="170" x2="740" y2="170" stroke="#F39B7F" stroke-width="12" stroke-linecap="round"/>
+<polygon points="740,170 716.25968755188,180.6017717795488 716.25968755188,159.3982282204512" fill="#F39B7F"/>
+<circle cx="60" cy="170" r="12" fill="#F39B7F"/>
+<text x="60" y="216" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">12</text>
+<text x="740" y="216" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="end" font-weight="bold">48 hpi</text>
+<line x1="60" y1="430" x2="740" y2="430" stroke="#F39B7F" stroke-width="12" stroke-linecap="round"/>
+<polygon points="740,430 716.25968755188,440.6017717795488 716.25968755188,419.3982282204512" fill="#F39B7F"/>
+<text x="60" y="392" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">菌丝生物量扩增</text>
+<text x="60" y="476" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">0.5%</text>
+<text x="740" y="476" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="end" font-weight="bold">30%</text>
+<line x1="300" y1="184" x2="300" y2="268" stroke="#E64B35" stroke-width="5" stroke-linecap="butt" stroke-dasharray="9 7"/>
+<line x1="300" y1="352" x2="300" y2="416" stroke="#E64B35" stroke-width="5" stroke-linecap="butt" stroke-dasharray="9 7"/>
+<line x1="402" y1="184" x2="402" y2="268" stroke="#E64B35" stroke-width="5" stroke-linecap="butt" stroke-dasharray="9 7"/>
+<line x1="402" y1="352" x2="402" y2="416" stroke="#E64B35" stroke-width="5" stroke-linecap="butt" stroke-dasharray="9 7"/>
+<line x1="504" y1="184" x2="504" y2="268" stroke="#E64B35" stroke-width="5" stroke-linecap="butt" stroke-dasharray="9 7"/>
+<line x1="504" y1="352" x2="504" y2="416" stroke="#E64B35" stroke-width="5" stroke-linecap="butt" stroke-dasharray="9 7"/>
+<line x1="606" y1="184" x2="606" y2="268" stroke="#E64B35" stroke-width="5" stroke-linecap="butt" stroke-dasharray="9 7"/>
+<line x1="606" y1="352" x2="606" y2="416" stroke="#E64B35" stroke-width="5" stroke-linecap="butt" stroke-dasharray="9 7"/>
+<rect x="170" y="272" width="460" height="76" fill="#FFFFFF" rx="12" stroke="#E64B35" stroke-width="4"/>
+<text x="400" y="322" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">时间与生物量高度共线</text>
+<rect x="96" y="542" width="608" height="80" fill="#3C5488" rx="12"/>
+<text x="400.0" y="593.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">仅能作相对比较</text>
+</svg>

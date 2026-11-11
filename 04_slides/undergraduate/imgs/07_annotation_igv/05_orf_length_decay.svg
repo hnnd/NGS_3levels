@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="770" y="44" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">合成算例</text>
+<line x1="100" y1="140" x2="100" y2="540" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="100" y1="540" x2="740" y2="540" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="100" y1="540.0" x2="740" y2="540.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="92" y="550.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">1</text>
+<line x1="100" y1="454.0" x2="740" y2="454.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="92" y="464.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10</text>
+<line x1="100" y1="368.0" x2="740" y2="368.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="92" y="378.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">100</text>
+<line x1="100" y1="282.0" x2="740" y2="282.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="92" y="292.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">1000</text>
+<line x1="100" y1="196.0" x2="740" y2="196.0" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<text x="92" y="206.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">10000</text>
+<g transform="rotate(-90 30 350)"><text x="30" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">expected count</text></g>
+<line x1="140.0" y1="540" x2="140.0" y2="552" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="140.0" y="586" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">30</text>
+<line x1="202.22222222222223" y1="540" x2="202.22222222222223" y2="552" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="202.22222222222223" y="586" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">60</text>
+<line x1="285.1851851851852" y1="540" x2="285.1851851851852" y2="552" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="285.1851851851852" y="586" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">100</text>
+<line x1="388.8888888888889" y1="540" x2="388.8888888888889" y2="552" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="388.8888888888889" y="586" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">150</text>
+<line x1="700.0" y1="540" x2="700.0" y2="552" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="700.0" y="586" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">300</text>
+<text x="440" y="632" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">ORF length (codons)</text>
+<path d="M 140.0 166.2038287802709 C 140.0 166.2 146.9 172.2 150.37037037037038 175.16938853871255 C 153.8 178.2 157.3 181.1 160.74074074074073 184.1349482971542 C 164.2 187.1 167.7 190.1 171.11111111111111 193.10050805559592 C 174.6 196.1 178.0 199.1 181.48148148148147 202.06606781403752 C 184.9 205.1 188.4 208.0 191.85185185185185 211.03162757247918 C 195.3 214.0 198.8 217.0 202.22222222222223 219.99718733092084 C 205.7 223.0 209.1 226.0 212.5925925925926 228.9627470893625 C 216.0 232.0 219.5 234.9 222.96296296296296 237.92830684780415 C 226.4 240.9 229.9 243.9 233.33333333333331 246.89386660624587 C 236.8 249.9 240.2 252.9 243.7037037037037 255.85942636468747 C 247.2 258.8 250.6 261.8 254.07407407407408 264.8249861231291 C 257.5 267.8 261.0 270.8 264.44444444444446 273.7905458815708 C 267.9 276.8 271.4 279.8 274.8148148148148 282.7561056400125 C 278.3 285.7 281.7 288.7 285.1851851851852 291.7216653984541 C 288.6 294.7 292.1 297.7 295.55555555555554 300.6872251568958 C 299.0 303.7 302.5 306.7 305.9259259259259 309.65278491533746 C 309.4 312.6 312.8 315.6 316.2962962962963 318.6183446737791 C 319.8 321.6 323.2 324.6 326.66666666666663 327.5839044322207 C 330.1 330.6 333.6 333.6 337.03703703703707 336.54946419066243 C 340.5 339.5 344.0 342.5 347.4074074074074 345.5150239491041 C 350.9 348.5 354.3 351.5 357.77777777777777 354.48058370754575 C 361.2 357.5 364.7 360.5 368.14814814814815 363.4461434659874 C 371.6 366.4 375.1 369.4 378.51851851851853 372.41170322442906 C 382.0 375.4 385.4 378.4 388.8888888888889 381.3772629828707 C 392.3 384.4 395.8 387.4 399.25925925925924 390.3428227413124 C 402.7 393.3 406.2 396.3 409.6296296296296 399.30838249975403 C 413.1 402.3 416.5 405.3 420.0 408.2739422581957 C 423.5 411.3 426.9 414.3 430.3703703703704 417.23950201663735 C 433.8 420.2 437.3 423.2 440.74074074074076 426.205061775079 C 444.2 429.2 447.7 432.2 451.11111111111114 435.17062153352066 C 454.6 438.2 458.0 441.1 461.48148148148147 444.1361812919623 C 464.9 447.1 468.4 450.1 471.85185185185185 453.10174105040403 C 475.3 456.1 478.8 459.1 482.22222222222223 462.06730080884563 C 485.7 465.1 489.1 468.0 492.5925925925926 471.0328605672873 C 496.0 474.0 499.5 477.0 502.96296296296293 479.99842032572894 C 506.4 483.0 509.9 486.0 513.3333333333333 488.96398008417066 C 516.8 492.0 520.2 494.9 523.7037037037037 497.92953984261226 C 527.2 500.9 530.6 503.9 534.0740740740741 506.89509960105397 C 537.5 509.9 541.0 512.9 544.4444444444445 515.8606593594956 C 547.9 518.8 551.4 521.8 554.8148148148148 524.8262191179373 C 558.3 527.8 561.7 531.3 565.1851851851852 533.7917788763789 C 568.6 536.3 572.1 539.0 575.5555555555555 540.0 C 579.0 541.0 582.5 540.0 585.9259259259259 540.0 C 589.4 540.0 592.8 540.0 596.2962962962963 540.0 C 599.8 540.0 603.2 540.0 606.6666666666667 540.0 C 610.1 540.0 613.6 540.0 617.0370370370371 540.0 C 620.5 540.0 624.0 540.0 627.4074074074074 540.0 C 630.9 540.0 634.3 540.0 637.7777777777778 540.0 C 641.2 540.0 644.7 540.0 648.1481481481482 540.0 C 651.6 540.0 655.1 540.0 658.5185185185185 540.0 C 662.0 540.0 665.4 540.0 668.8888888888889 540.0 C 672.3 540.0 675.8 540.0 679.2592592592592 540.0 C 682.7 540.0 686.2 540.0 689.6296296296297 540.0 C 693.1 540.0 700.0 540.0 700.0 540.0" fill="none" stroke="#3C5488" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="124.0" y="166.26415039215397" width="32" height="373.73584960784603" fill="#4DBBD5" rx="6"/>
+<circle cx="140.0" cy="166.26415039215397" r="10" fill="#3C5488"/>
+<rect x="684.0" y="518" width="32" height="22" fill="#4DBBD5" rx="6"/>
+<polygon points="686.0,514 714.0,514 700.0,534" fill="#3C5488"/>
+<text x="116" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="start" font-weight="bold">门槛 30：出 22,170 个</text>
+<text x="116" y="136" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#6B6B66" text-anchor="start" font-weight="bold">门槛 300：期望 0.1 个</text>
+<rect x="216" y="646" width="368" height="48" fill="#E64B35" rx="12"/>
+<text x="400" y="680" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">罕见是强证据，不等于一定</text>
+</svg>

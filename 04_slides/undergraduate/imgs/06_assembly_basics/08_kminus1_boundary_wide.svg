@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#FAFAF7"/>
+<rect x="160" y="110" width="349.09090909090907" height="48" fill="#4DBBD5" rx="4"/>
+<text x="334.5454545454545" y="146.24" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">U1</text>
+<rect x="509.09090909090907" y="110" width="116.36363636363636" height="48" fill="#F39B7F" rx="4"/>
+<text x="567.2727272727273" y="146.24" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">R</text>
+<rect x="625.4545454545454" y="110" width="349.09090909090907" height="48" fill="#4DBBD5" rx="4"/>
+<text x="799.9999999999999" y="146.24" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">U2</text>
+<rect x="974.5454545454545" y="110" width="116.36363636363636" height="48" fill="#F39B7F" rx="4"/>
+<text x="1032.7272727272727" y="146.24" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">R</text>
+<rect x="1090.9090909090908" y="110" width="349.09090909090907" height="48" fill="#4DBBD5" rx="4"/>
+<text x="1265.4545454545453" y="146.24" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">U3</text>
+<line x1="567.2727272727273" y1="104" x2="567.2727272727273" y2="88" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt"/>
+<text x="567.2727272727273" y="80" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">R=100 bp</text>
+<rect x="60" y="210" width="430" height="480" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="275.0" y="262" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#3C5488" text-anchor="middle" font-weight="bold">k−1 &lt; R</text>
+<rect x="585" y="210" width="430" height="480" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="800.0" y="262" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#3C5488" text-anchor="middle" font-weight="bold">k−1 = R</text>
+<rect x="1110" y="210" width="430" height="480" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="1325.0" y="262" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#3C5488" text-anchor="middle" font-weight="bold">k−1 &gt; R</text>
+<text x="275" y="760" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">两个出口：</text>
+<text x="275" y="812" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">路径不唯一</text>
+<text x="800" y="760" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">重复 R 达到 k−1：</text>
+<text x="800" y="812" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">共享节点</text>
+<text x="1325" y="760" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">单链：无歧义</text>
+<line x1="100" y1="380" x2="208" y2="396" stroke="#3C5488" stroke-width="9" stroke-linecap="round"/>
+<polygon points="208,396 188.74025020729852,401.3909218063829 191.130520144943,385.2565997272825" fill="#3C5488"/>
+<line x1="100" y1="520" x2="208" y2="452" stroke="#3C5488" stroke-width="9" stroke-linecap="round"/>
+<polygon points="208,452 196.89148666056693,468.6313238014187 188.20107945083208,454.8289123506634" fill="#3C5488"/>
+<rect x="214" y="380" width="100" height="140" fill="#F39B7F" rx="10"/>
+<line x1="318" y1="412" x2="360" y2="340" stroke="#E64B35" stroke-width="9" stroke-linecap="round"/>
+<polygon points="360,340 357.8427163044756,359.88331277873544 343.7541212655299,351.66496567268376" fill="#E64B35"/>
+<line x1="318" y1="488" x2="360" y2="590" stroke="#E64B35" stroke-width="9" stroke-linecap="round"/>
+<polygon points="360,590 345.50588806855853,576.2188273605311 360.587774483291,570.0086388368177" fill="#E64B35"/>
+<text x="466" y="306" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#6B6B66" text-anchor="end" font-weight="bold">分叉</text>
+<text x="466" y="398.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="80" fill="#3C5488" text-anchor="end" font-weight="bold">2</text>
+<line x1="625" y1="380" x2="713" y2="388" stroke="#3C5488" stroke-width="9" stroke-linecap="round"/>
+<polygon points="713,388 694.0748806123559,394.46837353307745 695.5515564853313,378.2249389303487" fill="#3C5488"/>
+<line x1="625" y1="520" x2="713" y2="472" stroke="#3C5488" stroke-width="9" stroke-linecap="round"/>
+<polygon points="713,472 700.8732044675518,487.9041136223995 693.0629259973578,473.5852697603771" fill="#3C5488"/>
+<rect x="731" y="380" width="108" height="140" fill="#F39B7F" rx="10" stroke="#E64B35" stroke-width="8"/>
+<line x1="843" y1="392" x2="885" y2="384" stroke="#3C5488" stroke-width="9" stroke-linecap="round"/>
+<polygon points="885,384 868.5866887448709,395.4281763043039 865.5348120294248,379.40582354821123" fill="#3C5488"/>
+<line x1="843" y1="468" x2="885" y2="516" stroke="#3C5488" stroke-width="9" stroke-linecap="round"/>
+<polygon points="885,516 866.8371142282963,507.62685361145276 879.1119547881262,496.8863681216015" fill="#3C5488"/>
+<text x="991" y="306" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#6B6B66" text-anchor="end" font-weight="bold">分叉</text>
+<text x="991" y="398.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="80" fill="#3C5488" text-anchor="end" font-weight="bold">1</text>
+<line x1="1150" y1="450" x2="1506" y2="450" stroke="#00A087" stroke-width="10" stroke-linecap="round"/>
+<polygon points="1506,450 1487.7382211937538,458.1552090611914 1487.7382211937538,441.8447909388086" fill="#00A087"/>
+<circle cx="1260" cy="450" r="10" fill="#00A087"/>
+<circle cx="1380" cy="450" r="10" fill="#00A087"/>
+<text x="1516" y="306" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#6B6B66" text-anchor="end" font-weight="bold">分叉</text>
+<text x="1516" y="398.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="80" fill="#3C5488" text-anchor="end" font-weight="bold">0</text>
+</svg>

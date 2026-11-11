@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Hydrophobic region posing as a TM helix</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="44" y="92" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">疏水区假冒跨膜段</text>
+<rect x="58" y="132" width="470" height="48" fill="#E7F5F8" rx="24.0"/>
+<rect x="58" y="132" width="138" height="48" fill="#F39B7F" rx="24.0"/>
+<rect x="58" y="132" width="470" height="48" fill="none" rx="24.0" stroke="#3C5488" stroke-width="3"/>
+<rect x="50" y="122" width="158" height="68" fill="none" rx="12" stroke="#8491B4" stroke-width="4" stroke-dasharray="9 7"/>
+<text x="244" y="166" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">TM</text>
+<line x1="228" y1="156" x2="196" y2="152" stroke="#F39B7F" stroke-width="5" stroke-linecap="round"/>
+<polygon points="196,152 209.39260180321068,147.92100294917515 207.97646093521655,159.25012989312825" fill="#F39B7F"/>
+<line x1="618" y1="124" x2="682" y2="188" stroke="#E64B35" stroke-width="10" stroke-linecap="round"/>
+<line x1="618" y1="188" x2="682" y2="124" stroke="#E64B35" stroke-width="10" stroke-linecap="round"/>
+<text x="44" y="258" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">全长直跑误杀效应子</text>
+<line x1="44" y1="292" x2="756" y2="292" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<text x="44" y="372" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">先切除信号肽</text>
+<rect x="58" y="512" width="470" height="48" fill="#E7F5F8" rx="24.0"/>
+<rect x="58" y="512" width="138" height="48" fill="#F39B7F" rx="24.0"/>
+<rect x="58" y="512" width="470" height="48" fill="none" rx="24.0" stroke="#3C5488" stroke-width="3"/>
+<line x1="196" y1="488" x2="196" y2="584" stroke="#00A087" stroke-width="4" stroke-linecap="butt" stroke-dasharray="9 7"/>
+<line x1="144" y1="464" x2="178" y2="482" stroke="#00A087" stroke-width="5" stroke-linecap="butt"/>
+<line x1="144" y1="456" x2="178" y2="438" stroke="#00A087" stroke-width="5" stroke-linecap="butt"/>
+<circle cx="134" cy="468" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="4"/>
+<circle cx="134" cy="452" r="9" fill="#FFFFFF" stroke="#00A087" stroke-width="4"/>
+<text x="216" y="446" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">成熟肽上判跨膜</text>
+<line x1="284" y1="468" x2="264" y2="522" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="264,522 263.08652852619656,508.02983286189647 273.7930805930015,511.99522251626865" fill="#00A087"/>
+<polyline points="630.16,536.64 646.16,552.0 671.12,521.28" fill="none" stroke="#00A087" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">命令行简史：从贝尔实验室到你的作业脚本</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">Unix 与 shell ｜ 生信工具与 conda 生态 —— 依据 01_linux_conda_lecture.md ④4.8 · ⑤步骤 5 · ⑪文献</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="57" font-size="12" fill="#33332E">Unix / shell</text>
+  <rect x="1046" y="46" width="12" height="12" fill="#00A087"/>
+  <text x="1066" y="57" font-size="12" fill="#33332E">生信工具 / conda</text>
+
+  <!-- ============ 轨道一：Unix 与 shell ============ -->
+  <text x="72" y="152" font-size="14" font-weight="bold" fill="#3C8DAD">轨道一 · Unix 与 shell：命令行的地基</text>
+  <line x1="100" y1="280" x2="1118" y2="280" stroke="#3C5488" stroke-width="2.5"/>
+  <polygon points="1130,280 1116,274 1116,286" fill="#3C5488"/>
+  <text x="1128" y="304" font-size="11" fill="#6B6B66" text-anchor="end">同一套命令行哲学沿用至今</text>
+
+  <!-- 1969 上 -->
+  <line x1="150" y1="268" x2="150" y2="252" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="150" cy="280" r="6.5" fill="#4DBBD5"/>
+  <text x="150" y="244" font-size="14" font-weight="bold" fill="#3C8DAD" text-anchor="middle">1969</text>
+  <text x="150" y="222" font-size="11.5" fill="#33332E" text-anchor="middle">Unix 诞生 · 贝尔实验室</text>
+  <text x="150" y="204" font-size="11" fill="#6B6B66" text-anchor="middle">一切皆文件的开端</text>
+  <!-- 1979 下 -->
+  <line x1="370" y1="292" x2="370" y2="308" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="370" cy="280" r="6.5" fill="#4DBBD5"/>
+  <text x="370" y="330" font-size="14" font-weight="bold" fill="#3C8DAD" text-anchor="middle">1979</text>
+  <text x="370" y="352" font-size="11.5" fill="#33332E" text-anchor="middle">Bourne shell（sh）</text>
+  <text x="370" y="372" font-size="11" fill="#6B6B66" text-anchor="middle">把命令写进脚本从此有了统一语法</text>
+  <!-- 1983 上 -->
+  <line x1="520" y1="268" x2="520" y2="252" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="520" cy="280" r="6.5" fill="#4DBBD5"/>
+  <text x="520" y="244" font-size="14" font-weight="bold" fill="#3C8DAD" text-anchor="middle">1983</text>
+  <text x="520" y="222" font-size="11.5" fill="#33332E" text-anchor="middle">GNU 计划启动</text>
+  <text x="520" y="204" font-size="11" fill="#6B6B66" text-anchor="middle">自由软件的工具箱蓝图</text>
+  <!-- 1989 下 -->
+  <line x1="730" y1="292" x2="730" y2="308" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="730" cy="280" r="6.5" fill="#4DBBD5"/>
+  <text x="730" y="330" font-size="14" font-weight="bold" fill="#3C8DAD" text-anchor="middle">1989</text>
+  <text x="730" y="352" font-size="11.5" fill="#33332E" text-anchor="middle">Bash 发布</text>
+  <text x="730" y="372" font-size="11" fill="#6B6B66" text-anchor="middle">你 ~/.bashrc 里的主角</text>
+  <!-- 1991 上 -->
+  <line x1="870" y1="268" x2="870" y2="252" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="870" cy="280" r="6.5" fill="#4DBBD5"/>
+  <text x="870" y="244" font-size="14" font-weight="bold" fill="#3C8DAD" text-anchor="middle">1991</text>
+  <text x="870" y="222" font-size="11.5" fill="#33332E" text-anchor="middle">Linux 内核问世</text>
+  <text x="870" y="204" font-size="11" fill="#6B6B66" text-anchor="middle">今天集群每个节点的底座</text>
+
+  <!-- ============ 轨道二：生信工具与 conda ============ -->
+  <text x="72" y="446" font-size="14" font-weight="bold" fill="#00A087">轨道二 · 生信工具与 conda：本课工具的来路</text>
+  <line x1="100" y1="580" x2="1118" y2="580" stroke="#3C5488" stroke-width="2.5"/>
+  <polygon points="1130,580 1116,574 1116,586" fill="#3C5488"/>
+
+  <!-- 2009 上 -->
+  <line x1="130" y1="568" x2="130" y2="552" stroke="#00A087" stroke-width="1.5"/>
+  <circle cx="130" cy="580" r="6.5" fill="#00A087"/>
+  <text x="130" y="544" font-size="14" font-weight="bold" fill="#00A087" text-anchor="middle">2009</text>
+  <text x="130" y="522" font-size="11.5" fill="#33332E" text-anchor="middle">BWA 与 SAMtools 论文</text>
+  <text x="130" y="504" font-size="11" fill="#6B6B66" text-anchor="middle">比对与 BAM 操作的标配</text>
+  <!-- 2014 下 -->
+  <line x1="350" y1="592" x2="350" y2="608" stroke="#00A087" stroke-width="1.5"/>
+  <circle cx="350" cy="580" r="6.5" fill="#00A087"/>
+  <text x="350" y="630" font-size="14" font-weight="bold" fill="#00A087" text-anchor="middle">2014</text>
+  <text x="350" y="652" font-size="11.5" fill="#33332E" text-anchor="middle">Prokka</text>
+  <text x="350" y="672" font-size="11" fill="#6B6B66" text-anchor="middle">细菌基因组快速注释（u07）</text>
+  <!-- 2015 上 -->
+  <line x1="470" y1="568" x2="470" y2="552" stroke="#00A087" stroke-width="1.5"/>
+  <circle cx="470" cy="580" r="6.5" fill="#00A087"/>
+  <text x="470" y="544" font-size="14" font-weight="bold" fill="#00A087" text-anchor="middle">2015</text>
+  <text x="470" y="522" font-size="11.5" fill="#33332E" text-anchor="middle">Roary</text>
+  <text x="470" y="504" font-size="11" fill="#6B6B66" text-anchor="middle">细菌泛基因组分析（u08）</text>
+  <!-- 2017 下 -->
+  <line x1="650" y1="592" x2="650" y2="608" stroke="#00A087" stroke-width="1.5"/>
+  <circle cx="650" cy="580" r="6.5" fill="#00A087"/>
+  <text x="650" y="630" font-size="14" font-weight="bold" fill="#00A087" text-anchor="middle">2017</text>
+  <text x="650" y="652" font-size="11.5" fill="#33332E" text-anchor="middle">Canu</text>
+  <text x="650" y="672" font-size="11" fill="#6B6B66" text-anchor="middle">长读长组装器（u08 组装模块）</text>
+  <!-- 2018 上 -->
+  <line x1="790" y1="568" x2="790" y2="552" stroke="#00A087" stroke-width="1.5"/>
+  <circle cx="790" cy="580" r="6.5" fill="#00A087"/>
+  <text x="790" y="544" font-size="14" font-weight="bold" fill="#00A087" text-anchor="middle">2018</text>
+  <text x="790" y="522" font-size="11.5" fill="#33332E" text-anchor="middle">Bioconda 论文发表</text>
+  <text x="790" y="504" font-size="11" fill="#6B6B66" text-anchor="middle">channel 顺序的官方出处（文献 1）</text>
+  <!-- 2023 下：关键事件 -->
+  <line x1="1010" y1="592" x2="1010" y2="608" stroke="#E64B35" stroke-width="1.5"/>
+  <circle cx="1010" cy="580" r="7.5" fill="#E64B35"/>
+  <text x="1010" y="630" font-size="14" font-weight="bold" fill="#E64B35" text-anchor="middle">2023</text>
+  <text x="1010" y="652" font-size="11.5" font-weight="bold" fill="#33332E" text-anchor="middle">conda-libmamba 成为默认求解器</text>
+  <text x="1010" y="672" font-size="11" fill="#6B6B66" text-anchor="middle">conda 23.10 起，解环境分钟级 → 秒级（④4.8）</text>
+
+  <!-- 底注 -->
+  <text x="72" y="726" font-size="11" fill="#6B6B66">生信工具按其代表论文的发表年标注，与讲义 ⑪ 参考文献一致；这条生态的今天，就是你 conda env list 里的 4 个环境（⑤步骤 5）。</text>
+
+  <!-- 页脚 -->
+  <text x="1152" y="770" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

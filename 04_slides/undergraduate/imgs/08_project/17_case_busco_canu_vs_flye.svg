@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+<defs><clipPath id="hatch"><polygon points="332.348,320 351.32800000000003,320 351.32800000000003,366 332.348,366"/></clipPath></defs>
+<rect x="40" y="100" width="340" height="400" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="4"/>
+<rect x="64" y="124" width="20" height="20" fill="#4DBBD5" rx="4"/>
+<text x="96" y="144" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="start" font-weight="bold">Canu</text>
+<text x="64" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">12 contigs / 4.6 Mb</text>
+<text x="64" y="248" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">BUSCO bacteria_odb10</text>
+<rect x="64" y="320" width="268.348" height="46" fill="#4DBBD5" rx="4"/>
+<rect x="332.348" y="320" width="18.98" height="46" fill="#E64B35"/>
+<g clip-path="url(#hatch)">
+<line x1="308.348" y1="366" x2="354.348" y2="320" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+<line x1="320.348" y1="366" x2="366.348" y2="320" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+<line x1="332.348" y1="366" x2="378.348" y2="320" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+<line x1="344.348" y1="366" x2="390.348" y2="320" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+<line x1="356.348" y1="366" x2="402.348" y2="320" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+<line x1="368.348" y1="366" x2="414.348" y2="320" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+<line x1="380.348" y1="366" x2="426.348" y2="320" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+<line x1="392.348" y1="366" x2="438.348" y2="320" stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt"/>
+</g>
+<rect x="351.32800000000003" y="320" width="4.671999999999986" height="46" fill="#E9E9E5"/>
+<rect x="64" y="320" width="292" height="46" fill="none" rx="4" stroke="#33332E" stroke-width="2"/>
+<text x="64" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">C=98.4%  (S=91.9%)</text>
+<text x="356" y="414" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="end" font-weight="bold">D=6.5% 冗余</text>
+<text x="74" y="354.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="start" font-weight="bold">S=91.9%</text>
+<rect x="420" y="100" width="340" height="400" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="4"/>
+<rect x="444" y="124" width="20" height="20" fill="#00A087" rx="4"/>
+<text x="476" y="144" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="start" font-weight="bold">Flye</text>
+<text x="444" y="196" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">2 contigs / 4.05 Mb</text>
+<text x="444" y="248" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">BUSCO bacteria_odb10</text>
+<rect x="444" y="320" width="284.99199999999996" height="46" fill="#00A087" rx="4"/>
+<rect x="728.992" y="320" width="2.3360000000000003" height="46" fill="#E9E9E5"/>
+<rect x="731.328" y="320" width="4.672000000000038" height="46" fill="#E9E9E5"/>
+<rect x="444" y="320" width="292" height="46" fill="none" rx="4" stroke="#33332E" stroke-width="2"/>
+<text x="444" y="302" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">C=98.4%  (S=97.6%)</text>
+<text x="736" y="414" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#6B6B66" text-anchor="end" font-weight="bold">D=0.8%</text>
+<text x="454" y="354.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="start" font-weight="bold">S=97.6%</text>
+<rect x="160" y="552" width="480" height="62" fill="#00A087" rx="12"/>
+<text x="400" y="595" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">C 相同看 D：选 Flye</text>
+<text x="400" y="650" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">设例（讲义 ⑩ Q1）</text>
+<text x="400" y="688" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">demos/ch08_n50_vs_completeness.py</text>
+</svg>

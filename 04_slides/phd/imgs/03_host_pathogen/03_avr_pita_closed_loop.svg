@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>AVR-Pita / Pi-ta gene-for-gene closed loop</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="36" y="66" width="320" height="218" fill="#FBE6DF" rx="14" stroke="#F39B7F" stroke-width="4"/>
+<text x="60" y="120" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="start" font-weight="bold">AVR-Pita</text>
+<rect x="60" y="148" width="268" height="32" fill="#FFFFFF" rx="8" stroke="#F39B7F" stroke-width="4"/>
+<rect x="62" y="150" width="13" height="28" fill="#F39B7F"/>
+<rect x="82" y="150" width="13" height="28" fill="#F39B7F"/>
+<rect x="102" y="150" width="13" height="28" fill="#F39B7F"/>
+<rect x="122" y="150" width="13" height="28" fill="#F39B7F"/>
+<polygon points="296,142 322,164 296,186" fill="#F39B7F"/>
+<rect x="190" y="144" width="44" height="40" fill="#F6D8D2" rx="6" stroke="#E64B35" stroke-width="4"/>
+<text x="60" y="250" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">端粒不稳定区</text>
+<rect x="444" y="66" width="320" height="218" fill="#E3E8F2" rx="14" stroke="#3C5488" stroke-width="4"/>
+<text x="468" y="120" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">Pi-ta</text>
+<rect x="468" y="146" width="268" height="30" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="4"/>
+<rect x="480" y="148" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="512" y="148" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="544" y="148" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="576" y="148" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="608" y="148" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="640" y="148" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="672" y="148" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="704" y="148" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="468" y="186" width="268" height="30" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="4"/>
+<rect x="480" y="188" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="512" y="188" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="544" y="188" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="576" y="188" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="608" y="188" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="640" y="188" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="672" y="188" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="704" y="188" width="24" height="26" fill="#E3E8F2" rx="5" stroke="#3C5488" stroke-width="3"/>
+<rect x="608" y="188" width="24" height="26" fill="#F39B7F" rx="5" stroke="#F39B7F" stroke-width="3"/>
+<text x="468" y="250" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">等位差单残基</text>
+<line x1="362" y1="184" x2="418" y2="184" stroke="#00A087" stroke-width="7" stroke-linecap="round"/>
+<polygon points="418,184 402.4774880146908,190.9319277020127 402.4774880146908,177.0680722979873" fill="#00A087"/>
+<line x1="418" y1="200" x2="362" y2="200" stroke="#00A087" stroke-width="7" stroke-linecap="round"/>
+<polygon points="362,200 377.5225119853092,193.0680722979873 377.5225119853092,206.9319277020127" fill="#00A087"/>
+<rect x="150" y="344" width="500" height="70" fill="#00A087" rx="12"/>
+<text x="400.0" y="390.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">直接结合触发抗性</text>
+<line x1="90" y1="306" x2="90" y2="340" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="90,340 83.88359320410645,326.30366589531536 96.11640679589355,326.30366589531536" fill="#00A087"/>
+<line x1="710" y1="306" x2="710" y2="340" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="710,340 703.8835932041064,326.30366589531536 716.1164067958936,326.30366589531536" fill="#00A087"/>
+<rect x="165.0" y="480.0" width="330" height="96" fill="#FFFFFF" rx="10" stroke="#E64B35" stroke-width="4" stroke-dasharray="10 7"/>
+<rect x="172.0" y="487.0" width="316" height="82" fill="none" rx="7" stroke="#E64B35" stroke-width="2"/>
+<text x="330" y="539.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">计算只供候选</text>
+<line x1="506" y1="528" x2="552" y2="528" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="552,528 537.3905769550031,534.5241672489532 537.3905769550031,521.4758327510468" fill="#6B6B66"/>
+<path d="M 622 492 L 650 492 L 650 514 L 666 548 Q 670 556 658 556 L 614 556 Q 602 556 606 548 L 622 514 Z" fill="#FFFFFF" stroke="#00A087" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="620" y="488" width="32" height="8" fill="#00A087" rx="3"/>
+<path d="M 611 534 L 661 534" fill="none" stroke="#00A087" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

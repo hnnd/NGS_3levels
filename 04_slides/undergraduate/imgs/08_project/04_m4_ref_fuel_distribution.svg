@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="50" y="270" width="290" height="150" fill="#3C5488" rx="16"/>
+<text x="195" y="322" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">M4 定种产出</text>
+<text x="195" y="366" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle">参考基因组集</text>
+<text x="195" y="402" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#CFE8F0" text-anchor="middle">ref_genomes/*.fna</text>
+<line x1="346" y1="316" x2="418" y2="208" stroke="#3C8DAD" stroke-width="7" stroke-linecap="round"/>
+<polygon points="418,208 414.990158631254,225.74657304763332 402.77617925170233,217.60392012793216" fill="#3C8DAD"/>
+<line x1="346" y1="384" x2="418" y2="492" stroke="#8491B4" stroke-width="7" stroke-linecap="round"/>
+<polygon points="418,492 402.77617925170233,482.39607987206784 414.990158631254,474.2534269523667" fill="#8491B4"/>
+<rect x="420" y="148" width="330" height="116" fill="#FFFFFF" rx="14" stroke="#3C8DAD" stroke-width="5"/>
+<text x="585" y="198" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="middle" font-weight="bold">M5 建树</text>
+<text x="585" y="240" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">GToTree + IQ-TREE</text>
+<rect x="420" y="436" width="330" height="116" fill="#FFFFFF" rx="14" stroke="#8491B4" stroke-width="5"/>
+<text x="585" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#8491B4" text-anchor="middle" font-weight="bold">M6 矩阵</text>
+<text x="585" y="528" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">Prokka → Roary</text>
+<g transform="rotate(-8 452 358)">
+<rect x="372" y="324" width="160" height="68" fill="#E64B35" rx="14"/>
+<text x="452" y="368" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">共同燃料</text>
+</g>
+<rect x="110" y="592" width="580" height="62" fill="#3C5488" rx="12"/>
+<text x="400" y="635" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">M5 建树与 M6 矩阵共同燃料</text>
+</svg>

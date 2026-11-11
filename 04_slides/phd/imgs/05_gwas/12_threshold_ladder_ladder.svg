@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Threshold ladder on the -log10 p scale</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="200.0" y1="600" x2="200.0" y2="60" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<text x="200.0" y="44" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">-log10 p</text>
+<line x1="190.0" y1="600.0" x2="200.0" y2="600.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="180.0" y="611.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">4</text>
+<line x1="190.0" y1="467.5" x2="200.0" y2="467.5" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="180.0" y="478.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">5</text>
+<line x1="190.0" y1="335.0" x2="200.0" y2="335.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="180.0" y="346.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">6</text>
+<line x1="190.0" y1="202.5" x2="200.0" y2="202.5" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="180.0" y="213.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">7</text>
+<line x1="190.0" y1="70.0" x2="200.0" y2="70.0" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="180.0" y="81.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">8</text>
+<line x1="200.0" y1="162.6135255745225" x2="690.0" y2="162.6135255745225" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<text x="592.5" y="150.6135255745225" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">5×10<tspan dy="-11" font-size="21">−8</tspan></text>
+<line x1="200.0" y1="202.5" x2="690.0" y2="202.5" stroke="#3C5488" stroke-width="5" stroke-linecap="butt" stroke-dasharray="14 9"/>
+<text x="592.5" y="234.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">1×10<tspan dy="-11" font-size="21">−7</tspan></text>
+<line x1="200.0" y1="352.480972621072" x2="690.0" y2="352.480972621072" stroke="#3C8DAD" stroke-width="5" stroke-linecap="butt"/>
+<text x="546.9" y="340.480972621072" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="start" font-weight="bold">1.35×10<tspan dy="-11" font-size="21">−6</tspan></text>
+<line x1="200.0" y1="374.8864744254775" x2="560" y2="374.8864744254775" stroke="#00A087" stroke-width="5" stroke-linecap="butt" stroke-dasharray="14 9"/>
+<text x="462.5" y="406.8864744254775" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">2×10<tspan dy="-11" font-size="21">−6</tspan></text>
+<line x1="200.0" y1="547.272948850955" x2="690.0" y2="547.272948850955" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<text x="592.5" y="535.272948850955" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">4×10<tspan dy="-11" font-size="21">−5</tspan></text>
+<line x1="740" y1="162.6135255745225" x2="740" y2="374.8864744254775" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="740,374.8864744254775 734.6991141102255,363.0163182014175 745.3008858897745,363.0163182014175" fill="#6B6B66"/>
+<polygon points="740,162.6135255745225 745.3008858897745,174.4836817985825 734.6991141102255,174.4836817985825" fill="#6B6B66"/>
+<text x="736" y="288" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end" font-weight="bold">40×</text>
+<text x="400" y="654" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">人类阈值严格四十倍自交作物假阴性灾难</text>
+<text x="400" y="690" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">建议按有效检验定界</text>
+</svg>

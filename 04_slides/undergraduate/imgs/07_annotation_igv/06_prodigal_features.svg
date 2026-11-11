@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="30" y="60" width="220" height="470" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<rect x="270" y="60" width="240" height="470" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<rect x="550" y="60" width="220" height="470" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<path d="M 55.0 300.0 C 55.0 300.0 58.5 214.5 60.2 197.7946484512398 C 61.9 181.0 63.7 182.4 65.4 199.48395432399127 C 67.1 216.5 68.9 267.0 70.6 300.0 C 72.3 333.0 74.1 381.3 75.8 397.22073773462034 C 77.5 413.2 79.3 411.8 81.0 395.6138202814773 C 82.7 379.4 84.5 331.3 86.2 300.0 C 87.9 268.7 89.7 222.7 91.4 207.52077359516227 C 93.1 192.4 94.9 193.6 96.6 209.04932075933561 C 98.3 224.5 100.1 270.2 101.80000000000001 299.99999999999994 C 103.5 329.8 105.3 373.5 107.0 387.9689613113451 C 108.7 402.4 110.5 401.2 112.2 386.5149622720462 C 113.9 371.9 115.7 328.4 117.4 300.00000000000006 C 119.1 271.6 120.9 230.0 122.60000000000001 216.32133555788366 C 124.3 202.6 126.1 203.8 127.8 217.7044222272605 C 129.5 231.7 131.3 273.0 133.0 299.9999999999998 C 134.7 327.0 136.5 366.6 138.2 379.5976078202626 C 139.9 392.6 141.7 391.5 143.4 378.2819750837167 C 145.1 365.0 146.9 325.7 148.60000000000002 300.00000000000006 C 150.3 274.3 152.1 236.7 153.8 224.28441332149805 C 155.5 211.9 157.3 212.9 159.0 225.53588189233696 C 160.7 238.2 162.5 275.6 164.2 299.99999999999994 C 165.9 324.4 167.7 360.2 169.4 372.0228939419253 C 171.1 383.8 172.9 382.8 174.60000000000002 370.83246021350567 C 176.3 358.8 178.1 323.2 179.8 300.00000000000006 C 181.5 276.8 183.3 242.7 185.0 231.4897040447463 C 186.7 220.3 188.5 221.2 190.20000000000002 232.62207963513742 C 191.9 244.0 193.7 277.9 195.4 299.99999999999994 C 197.1 322.1 198.9 354.5 200.6 365.16900939388944 C 202.3 375.9 204.1 375.0 205.8 364.0918604127232 C 207.5 353.2 209.3 321.0 211.0 300.00000000000034 C 212.7 279.0 214.5 248.2 216.20000000000002 238.00932069896893 C 217.9 227.8 219.7 228.7 221.4 239.0339365044251 C 223.1 249.4 224.9 280.0 226.6 300.00000000000017 C 228.3 320.0 230.1 349.3 231.8 358.9673581959282 C 233.5 368.6 235.3 367.8 237.0 357.9927134929696 C 238.7 348.2 242.2 300.0 242.20000000000002 300.0000000000001" fill="none" stroke="#3C8DAD" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="60.2" cy="197.7946484512398" r="8" fill="#4DBBD5"/>
+<circle cx="75.8" cy="397.22073773462034" r="8" fill="#4DBBD5"/>
+<circle cx="91.4" cy="207.52077359516227" r="8" fill="#4DBBD5"/>
+<circle cx="107.0" cy="387.9689613113451" r="8" fill="#4DBBD5"/>
+<circle cx="122.60000000000001" cy="216.32133555788366" r="8" fill="#4DBBD5"/>
+<circle cx="138.2" cy="379.5976078202626" r="8" fill="#4DBBD5"/>
+<circle cx="153.8" cy="224.28441332149805" r="8" fill="#4DBBD5"/>
+<circle cx="169.4" cy="372.0228939419253" r="8" fill="#4DBBD5"/>
+<circle cx="185.0" cy="231.4897040447463" r="8" fill="#4DBBD5"/>
+<circle cx="200.6" cy="365.16900939388944" r="8" fill="#4DBBD5"/>
+<circle cx="216.20000000000002" cy="238.00932069896893" r="8" fill="#4DBBD5"/>
+<circle cx="231.8" cy="358.9673581959282" r="8" fill="#4DBBD5"/>
+<line x1="55" y1="300" x2="235" y2="300" stroke="#E9E9E5" stroke-width="3" stroke-linecap="butt"/>
+<line x1="285" y1="260" x2="495" y2="260" stroke="#4DBBD5" stroke-width="8" stroke-linecap="round"/>
+<rect x="285" y="175" width="122" height="46" fill="#F39B7F" rx="8"/>
+<text x="346" y="208" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">AGGAGG</text>
+<rect x="448" y="175" width="52" height="46" fill="#00A087" rx="8"/>
+<text x="474" y="208" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ATG</text>
+<line x1="414" y1="198" x2="442" y2="198" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<line x1="414" y1="186" x2="414" y2="210" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<line x1="442" y1="186" x2="442" y2="210" stroke="#F39B7F" stroke-width="5" stroke-linecap="butt"/>
+<text x="432" y="152" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">5–10 bp</text>
+<rect x="295" y="350" width="90" height="44" fill="#FFFFFF" rx="8" stroke="#6B6B66" stroke-width="4"/>
+<text x="340" y="381" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">GTG</text>
+<rect x="295" y="430" width="90" height="44" fill="#FFFFFF" rx="8" stroke="#6B6B66" stroke-width="4"/>
+<text x="340" y="461" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">TTG</text>
+<line x1="590" y1="140" x2="645" y2="140" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="590" y1="140" x2="645" y2="250" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="590" y1="140" x2="645" y2="360" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="590" y1="250" x2="645" y2="140" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="590" y1="250" x2="645" y2="250" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="590" y1="250" x2="645" y2="360" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="590" y1="360" x2="645" y2="140" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="590" y1="360" x2="645" y2="250" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="590" y1="360" x2="645" y2="360" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="645" y1="140" x2="700" y2="140" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="645" y1="140" x2="700" y2="250" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="645" y1="140" x2="700" y2="360" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="645" y1="250" x2="700" y2="140" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="645" y1="250" x2="700" y2="250" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="645" y1="250" x2="700" y2="360" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="645" y1="360" x2="700" y2="140" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="645" y1="360" x2="700" y2="250" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="645" y1="360" x2="700" y2="360" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="700" y1="140" x2="755" y2="140" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="700" y1="140" x2="755" y2="250" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="700" y1="140" x2="755" y2="360" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="700" y1="250" x2="755" y2="140" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="700" y1="250" x2="755" y2="250" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="700" y1="250" x2="755" y2="360" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="700" y1="360" x2="755" y2="140" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="700" y1="360" x2="755" y2="250" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<line x1="700" y1="360" x2="755" y2="360" stroke="#C7D0E4" stroke-width="3" stroke-linecap="butt"/>
+<circle cx="590" cy="140" r="15" fill="#3C5488"/>
+<circle cx="590" cy="250" r="15" fill="#3C5488"/>
+<circle cx="590" cy="360" r="15" fill="#3C5488"/>
+<circle cx="645" cy="140" r="15" fill="#3C5488"/>
+<circle cx="645" cy="250" r="15" fill="#3C5488"/>
+<circle cx="645" cy="360" r="15" fill="#3C5488"/>
+<circle cx="700" cy="140" r="15" fill="#3C5488"/>
+<circle cx="700" cy="250" r="15" fill="#3C5488"/>
+<circle cx="700" cy="360" r="15" fill="#3C5488"/>
+<circle cx="755" cy="140" r="15" fill="#3C5488"/>
+<circle cx="755" cy="250" r="15" fill="#3C5488"/>
+<circle cx="755" cy="360" r="15" fill="#3C5488"/>
+<line x1="590" y1="250" x2="645" y2="250" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="645,250 632.2167548356277,255.708646342834 632.2167548356277,244.291353657166" fill="#00A087"/>
+<line x1="645" y1="250" x2="700" y2="140" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="700,140 699.3891274807165,153.98666632064925 689.1771904550507,148.88069780781632" fill="#00A087"/>
+<line x1="700" y1="140" x2="755" y2="140" stroke="#00A087" stroke-width="6" stroke-linecap="round"/>
+<polygon points="755,140 742.2167548356277,145.708646342834 742.2167548356277,134.291353657166" fill="#00A087"/>
+<circle cx="590" cy="250" r="15" fill="#00A087"/>
+<circle cx="755" cy="140" r="15" fill="#00A087"/>
+<text x="140" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">位置偏好</text>
+<text x="390" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">基序与间距</text>
+<text x="660" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">全基因组最优</text>
+<rect x="270" y="636" width="260" height="52" fill="#E64B35" rx="12"/>
+<text x="400" y="672" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">不用单一长度</text>
+</svg>

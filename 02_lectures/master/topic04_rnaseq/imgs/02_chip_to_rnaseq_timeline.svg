@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">转录组测量三十年：从芯片到 RNA-seq 与长读长</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">测量技术 ｜ 统计框架 —— 依据 04_rnaseq_lecture.md §3.1 / §4.2 / §4.6</text>
+  <!-- 图例 -->
+  <rect x="896" y="30" width="12" height="12" fill="#F39B7F"/>
+  <text x="916" y="40" font-size="12" fill="#33332E">芯片时代</text>
+  <rect x="1004" y="30" width="12" height="12" fill="#4DBBD5"/>
+  <text x="1024" y="40" font-size="12" fill="#33332E">短读长时代</text>
+  <rect x="896" y="52" width="12" height="12" fill="#00A087"/>
+  <text x="916" y="62" font-size="12" fill="#33332E">长读长时代</text>
+  <rect x="1004" y="52" width="12" height="12" fill="#E64B35"/>
+  <text x="1024" y="62" font-size="12" fill="#33332E">技术换代</text>
+
+  <!-- ============ 面板 ============ -->
+  <rect x="48" y="118" width="1104" height="546" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- 时代底色带 -->
+  <rect x="96" y="150" width="256" height="494" fill="#F39B7F" fill-opacity="0.08"/>
+  <rect x="352" y="150" width="388" height="494" fill="#4DBBD5" fill-opacity="0.08"/>
+  <rect x="740" y="150" width="364" height="494" fill="#00A087" fill-opacity="0.08"/>
+  <text x="224" y="176" font-size="12" font-weight="bold" fill="#33332E" text-anchor="middle">芯片时代（至 2007）</text>
+  <text x="546" y="176" font-size="12" font-weight="bold" fill="#3C8DAD" text-anchor="middle">短读长 RNA-seq 时代（2008–2018）</text>
+  <text x="922" y="176" font-size="12" font-weight="bold" fill="#00A087" text-anchor="middle">长读长时代（2019 起）</text>
+
+  <!-- 时间轴 -->
+  <line x1="96" y1="400" x2="1100" y2="400" stroke="#3C5488" stroke-width="3"/>
+  <polygon points="1100,393 1114,400 1100,407" fill="#3C5488"/>
+
+  <!-- 连接杆（上） -->
+  <line x1="150" y1="368" x2="150" y2="380" stroke="#F39B7F" stroke-width="1.5"/>
+  <line x1="400" y1="368" x2="400" y2="378" stroke="#E64B35" stroke-width="1.5"/>
+  <line x1="680" y1="368" x2="680" y2="380" stroke="#4DBBD5" stroke-width="1.5"/>
+  <line x1="990" y1="368" x2="990" y2="380" stroke="#00A087" stroke-width="1.5"/>
+  <!-- 连接杆（下） -->
+  <line x1="290" y1="400" x2="290" y2="442" stroke="#F39B7F" stroke-width="1.5"/>
+  <line x1="560" y1="400" x2="560" y2="442" stroke="#3C5488" stroke-width="1.5"/>
+  <line x1="810" y1="400" x2="810" y2="442" stroke="#00A087" stroke-width="1.5"/>
+
+  <!-- 节点 -->
+  <circle cx="150" cy="400" r="7" fill="#F39B7F" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="290" cy="400" r="7" fill="#F39B7F" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="400" cy="400" r="8" fill="#E64B35" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="560" cy="400" r="7" fill="#3C5488" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="680" cy="400" r="7" fill="#4DBBD5" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="810" cy="400" r="7" fill="#00A087" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="990" cy="400" r="7" fill="#00A087" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- ============ 1995 微阵列（上） ============ -->
+  <rect x="72" y="273" width="155" height="95" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="74" y="279" width="4" height="83" rx="2" fill="#F39B7F"/>
+  <text x="88" y="299" font-size="14" font-weight="bold" fill="#33332E">1995</text>
+  <text x="88" y="320" font-size="12.5" font-weight="bold" fill="#33332E">DNA 微阵列问世</text>
+  <text x="88" y="341" font-size="11" fill="#33332E">并行测量多基因表达</text>
+  <text x="88" y="358" font-size="11" fill="#6B6B66">（Schena 1995 · Science）</text>
+
+  <!-- ============ 2006 Os8N3（下） ============ -->
+  <rect x="212" y="442" width="155" height="112" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="214" y="448" width="4" height="100" rx="2" fill="#F39B7F"/>
+  <text x="228" y="468" font-size="14" font-weight="bold" fill="#33332E">2006</text>
+  <text x="228" y="489" font-size="12.5" font-weight="bold" fill="#33332E">感病基因 Os8N3</text>
+  <text x="228" y="510" font-size="11" fill="#33332E">表达严格跟随特定</text>
+  <text x="228" y="527" font-size="11" fill="#33332E">TAL effector 的有无</text>
+  <text x="228" y="544" font-size="11" fill="#6B6B66">（Yang 2006 · §3.1）</text>
+
+  <!-- ============ 2008 RNA-seq（上，红） ============ -->
+  <rect x="322" y="273" width="155" height="95" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="324" y="279" width="4" height="83" rx="2" fill="#E64B35"/>
+  <text x="338" y="299" font-size="14" font-weight="bold" fill="#E64B35">2008</text>
+  <text x="338" y="320" font-size="12.5" font-weight="bold" fill="#33332E">RNA-seq 登场</text>
+  <text x="338" y="341" font-size="11" fill="#33332E">计数代替杂交信号</text>
+  <text x="338" y="358" font-size="11" fill="#6B6B66">（Mortazavi 2008）</text>
+
+  <!-- ============ 2010–2014 统计框架（下） ============ -->
+  <rect x="482" y="442" width="155" height="112" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="484" y="448" width="4" height="100" rx="2" fill="#3C5488"/>
+  <text x="498" y="468" font-size="14" font-weight="bold" fill="#3C5488">2010–2014</text>
+  <text x="498" y="489" font-size="12.5" font-weight="bold" fill="#33332E">统计框架成熟</text>
+  <text x="498" y="510" font-size="11" fill="#33332E">DESeq → DESeq2</text>
+  <text x="498" y="527" font-size="11" fill="#33332E">负二项 + 离散度收缩</text>
+  <text x="498" y="544" font-size="11" fill="#6B6B66">（Love 2014 · 主文献）</text>
+
+  <!-- ============ 2017 Salmon（上） ============ -->
+  <rect x="602" y="273" width="155" height="95" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="604" y="279" width="4" height="83" rx="2" fill="#4DBBD5"/>
+  <text x="618" y="299" font-size="14" font-weight="bold" fill="#3C8DAD">2017</text>
+  <text x="618" y="320" font-size="12.5" font-weight="bold" fill="#33332E">Salmon 定量</text>
+  <text x="618" y="341" font-size="11" fill="#33332E">比对自由 · 偏好校正</text>
+  <text x="618" y="358" font-size="11" fill="#6B6B66">（Patro 2017）</text>
+
+  <!-- ============ 2019 direct RNA（下） ============ -->
+  <rect x="732" y="442" width="155" height="95" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="734" y="448" width="4" height="83" rx="2" fill="#00A087"/>
+  <text x="748" y="468" font-size="14" font-weight="bold" fill="#00A087">2019</text>
+  <text x="748" y="489" font-size="12.5" font-weight="bold" fill="#33332E">direct RNA 直读</text>
+  <text x="748" y="510" font-size="11" fill="#33332E">不逆转录 · 直读 RNA</text>
+  <text x="748" y="527" font-size="11" fill="#6B6B66">（Workman 2019）</text>
+
+  <!-- ============ 2022 长读长图谱（上） ============ -->
+  <rect x="912" y="273" width="155" height="95" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="914" y="279" width="4" height="83" rx="2" fill="#00A087"/>
+  <text x="928" y="299" font-size="14" font-weight="bold" fill="#00A087">2022</text>
+  <text x="928" y="320" font-size="12.5" font-weight="bold" fill="#33332E">长读长转录组图谱</text>
+  <text x="928" y="341" font-size="11" fill="#33332E">转录本多样性远超注释</text>
+  <text x="928" y="358" font-size="11" fill="#6B6B66">（Glinos 2022）</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="706" font-size="15" font-weight="bold" fill="#3C5488">拆得越细，每个单元分到的计数越少——分析转向「哪个转录本、哪类细胞」，对重复数与测序深度的要求只会更高。（§4.6）</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,10 @@
+gsm	title	files
+GSM6926986	Mock 7dpi, scRNAseq	GSM6926986_CK0828_barcodes.tsv.gz GSM6926986_CK0828_features.tsv.gz GSM6926986_CK0828_matrix.mtx.gz
+GSM6926987	Mock 14dpi, scRNAseq	GSM6926987_CK0904_barcodes.tsv.gz GSM6926987_CK0904_features.tsv.gz GSM6926987_CK0904_matrix.mtx.gz
+GSM6926988	Mock 21dpi, scRNAseq	GSM6926988_CK0911_barcodes.tsv.gz GSM6926988_CK0911_features.tsv.gz GSM6926988_CK0911_matrix.mtx.gz
+GSM6926989	RGSV 7dpi, scRNAseq	GSM6926989_RGSV0828_barcodes.tsv.gz GSM6926989_RGSV0828_features.tsv.gz GSM6926989_RGSV0828_matrix.mtx.gz
+GSM6926990	RGSV 14dpi, scRNAseq	GSM6926990_RGSV0904_barcodes.tsv.gz GSM6926990_RGSV0904_features.tsv.gz GSM6926990_RGSV0904_matrix.mtx.gz
+GSM6926991	RGSV 21dpi, scRNAseq	GSM6926991_RGSV0911_barcodes.tsv.gz GSM6926991_RGSV0911_features.tsv.gz GSM6926991_RGSV0911_matrix.mtx.gz
+GSM6926992	RRSV 7dpi, scRNAseq	GSM6926992_RRSV0828_barcodes.tsv.gz GSM6926992_RRSV0828_features.tsv.gz GSM6926992_RRSV0828_matrix.mtx.gz
+GSM6926993	RRSV 14dpi, scRNAseq	GSM6926993_RRSV0904_barcodes.tsv.gz GSM6926993_RRSV0904_features.tsv.gz GSM6926993_RRSV0904_matrix.mtx.gz
+GSM6926994	RRSV 21dpi, scRNAseq	GSM6926994_RRSV0911_barcodes.tsv.gz GSM6926994_RRSV0911_features.tsv.gz GSM6926994_RRSV0911_matrix.mtx.gz

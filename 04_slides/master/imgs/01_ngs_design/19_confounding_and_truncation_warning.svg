@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="80" width="300" height="470" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="190" y="124" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">完全混杂两效应绑定</text>
+<line x1="70" y1="220" x2="310" y2="220" stroke="#3C5488" stroke-width="16" stroke-linecap="round"/>
+<polygon points="310,220 288.0858654325046,229.78625087342968 288.0858654325046,210.21374912657032" fill="#3C5488"/>
+<line x1="70" y1="292" x2="310" y2="292" stroke="#F39B7F" stroke-width="16" stroke-linecap="round"/>
+<polygon points="310,292 288.0858654325046,301.7862508734297 288.0858654325046,282.2137491265703" fill="#F39B7F"/>
+<path d="M 172 348 A 18 18 0 1 1 208 348" fill="none" stroke="#33332E" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="150" y="348" width="80" height="56" fill="#3C5488" rx="10"/>
+<circle cx="190" cy="372" r="8" fill="#FFFFFF"/>
+<line x1="190" y1="376" x2="190" y2="388" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt"/>
+<text x="190" y="505" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">静默截断 29 截 14</text>
+<rect x="380" y="60" width="380" height="490" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<rect x="432" y="471.09" width="42" height="8.91" fill="#3C5488"/>
+<rect x="486" y="475.71" width="42" height="4.29" fill="#E64B35"/>
+<rect x="542" y="331.5" width="42" height="148.5" fill="#3C5488"/>
+<rect x="596" y="381.0" width="42" height="99.0" fill="#F39B7F"/>
+<rect x="652" y="150.0" width="42" height="330.0" fill="#3C5488"/>
+<rect x="706" y="157.59000000000003" width="42" height="322.40999999999997" fill="#F39B7F"/>
+<text x="428" y="459.09" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">2.7</text>
+<text x="538" y="463.71" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="end">1.3</text>
+<text x="480" y="524" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">低</text>
+<text x="563" y="319.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">45.0</text>
+<text x="617" y="369.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">30.0</text>
+<text x="590" y="524" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">中</text>
+<text x="673" y="138.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">100.0</text>
+<text x="727" y="111.59000000000003" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">97.7</text>
+<text x="700" y="524" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">高</text>
+<line x1="410" y1="480" x2="740" y2="480" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="507" y1="492" x2="507" y2="545" stroke="#E64B35" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<text x="483" y="585" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">低表达检出塌至 1.3%</text>
+<text x="775" y="320" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold" transform="rotate(90 775 320)">列表偏高表达</text>
+</svg>

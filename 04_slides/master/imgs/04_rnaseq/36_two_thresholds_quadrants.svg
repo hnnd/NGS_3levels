@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="60" y="90" width="380" height="420" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="5"/>
+<line x1="250.0" y1="90" x2="250.0" y2="510" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt" stroke-dasharray="12 10"/>
+<line x1="60" y1="300.0" x2="440" y2="300.0" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt" stroke-dasharray="12 10"/>
+<line x1="333.59999999999997" y1="90" x2="333.59999999999997" y2="510" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="60" y1="216.0" x2="440" y2="216.0" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<text x="333.59999999999997" y="550" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">|log2FC| 阈值</text>
+<text x="66" y="78" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">-log10(padj)</text>
+<circle cx="396.13302004679207" cy="134.76820198366602" r="7" fill="#00A087"/>
+<circle cx="426.5123406303855" cy="166.6305889168247" r="7" fill="#00A087"/>
+<circle cx="347.922856961016" cy="197.66341054237546" r="7" fill="#00A087"/>
+<circle cx="354.66012412851927" cy="175.83353934286635" r="7" fill="#00A087"/>
+<circle cx="344.68148243845417" cy="198.36725665969868" r="7" fill="#00A087"/>
+<circle cx="395.6000440690869" cy="116.70767208725388" r="7" fill="#00A087"/>
+<circle cx="381.3068105792721" cy="156.72684313307946" r="7" fill="#00A087"/>
+<circle cx="431.247556117401" cy="116.86732912796575" r="7" fill="#00A087"/>
+<circle cx="392.8339633864842" cy="189.31917160735705" r="7" fill="#00A087"/>
+<circle cx="424.229826121244" cy="172.37193729850486" r="7" fill="#00A087"/>
+<circle cx="409.35237162622064" cy="101.96151705386295" r="7" fill="#00A087"/>
+<circle cx="409.4150435612094" cy="127.00507908468813" r="7" fill="#00A087"/>
+<circle cx="370.5861603985624" cy="142.990331641297" r="7" fill="#00A087"/>
+<circle cx="426.587720418947" cy="144.93132540116758" r="7" fill="#00A087"/>
+<circle cx="213.2872316850627" cy="136.26115450736233" r="7" fill="#8491B4"/>
+<circle cx="170.75465549740883" cy="151.9192503614488" r="7" fill="#8491B4"/>
+<circle cx="124.38472980897612" cy="178.2047225972981" r="7" fill="#8491B4"/>
+<circle cx="175.98817752381143" cy="191.4338440418929" r="7" fill="#8491B4"/>
+<circle cx="75.91106131711196" cy="106.86366171820502" r="7" fill="#8491B4"/>
+<circle cx="225.4443198180355" cy="109.22588426816104" r="7" fill="#8491B4"/>
+<circle cx="136.20745554825947" cy="108.34801753727562" r="7" fill="#8491B4"/>
+<circle cx="151.1181286336541" cy="105.53817022761656" r="7" fill="#8491B4"/>
+<circle cx="162.49098139924044" cy="148.70132135531043" r="7" fill="#8491B4"/>
+<circle cx="167.16138741402668" cy="154.7699078134711" r="7" fill="#8491B4"/>
+<circle cx="343.7583379339898" cy="245.95296415611193" r="7" fill="#F39B7F"/>
+<circle cx="386.2387379177034" cy="248.69507488834097" r="7" fill="#F39B7F"/>
+<circle cx="411.58923419179496" cy="419.73175718187576" r="7" fill="#F39B7F"/>
+<circle cx="369.5855724936977" cy="351.68612006866783" r="7" fill="#F39B7F"/>
+<circle cx="367.5405570926315" cy="410.9320457809222" r="7" fill="#F39B7F"/>
+<circle cx="390.1979665900892" cy="241.91578674603764" r="7" fill="#F39B7F"/>
+<circle cx="421.2555123791183" cy="342.70013301029456" r="7" fill="#F39B7F"/>
+<circle cx="423.7321615580074" cy="458.6979773278472" r="7" fill="#F39B7F"/>
+<circle cx="362.1228946593393" cy="293.26778095546587" r="7" fill="#F39B7F"/>
+<circle cx="366.4317251709739" cy="386.39303488062217" r="7" fill="#F39B7F"/>
+<text x="180" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle">显著 · 弱效应</text>
+<text x="440" y="78" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">双达标</text>
+<text x="450" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle">仅 FC · 噪声</text>
+<rect x="480" y="90" width="300" height="420" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="630" y="136" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">报告必须写明</text>
+<circle cx="518" cy="230" r="22" fill="#00A087"/>
+<text x="518" y="241" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<text x="552" y="241" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">设计公式</text>
+<circle cx="518" cy="340" r="22" fill="#00A087"/>
+<text x="518" y="351" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<text x="552" y="351" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">两个阈值</text>
+<circle cx="518" cy="450" r="22" fill="#00A087"/>
+<text x="518" y="461" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="552" y="461" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">背景基因集</text>
+<text x="250" y="590" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">统计显著与效应量</text>
+<text x="640" y="590" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">双重正交阈值</text>
+<text x="250" y="646" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">报告标明设计公式</text>
+<text x="640" y="646" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">双阈值与背景集</text>
+</svg>

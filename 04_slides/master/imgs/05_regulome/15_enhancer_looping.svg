@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">空间调控</text>
+<text x="400" y="112" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">增强子跨越临近基因远程激活</text>
+<text x="400" y="152" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">最近非真实靶标</text>
+<line x1="64" y1="512" x2="736" y2="512" stroke="#3C5488" stroke-width="8" stroke-linecap="round"/>
+<text x="64" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">DNA</text>
+<rect x="120" y="460" width="90" height="104" fill="#F39B7F" rx="12" stroke="#C0623F" stroke-width="4"/>
+<text x="165.0" y="632" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">增强子</text>
+<rect x="330" y="468" width="90" height="88" fill="#FFFFFF" rx="12" stroke="#E64B35" stroke-width="5"/>
+<text x="375.0" y="523" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">A</text>
+<rect x="640" y="468" width="90" height="88" fill="#FFFFFF" rx="12" stroke="#00A087" stroke-width="5"/>
+<text x="685.0" y="523" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">B</text>
+<text x="685.0" y="632" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">靶基因</text>
+<path d="M 210 486 C 230 246 596 250 644 460" fill="none" stroke="#00A087" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="644,460 622,426 604,468" fill="#00A087"/>
+<g stroke="#E64B35" fill="#E64B35"><line x1="214" y1="482" x2="322" y2="482" stroke-width="4" stroke-dasharray="12 9"/><polygon points="322,482 338,472 338,492"/></g>
+</svg>

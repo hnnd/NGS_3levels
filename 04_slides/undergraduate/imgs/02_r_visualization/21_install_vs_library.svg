@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="150" y="70" width="500" height="150" fill="#FFFFFF" rx="14" stroke="#3C8DAD" stroke-width="5"/>
+<text x="400" y="160" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#3C8DAD" text-anchor="middle" font-weight="bold">会话</text>
+<rect x="150" y="430" width="500" height="210" fill="#FFFFFF" rx="14" stroke="#3C5488" stroke-width="5"/>
+<text x="400" y="488" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#3C5488" text-anchor="middle" font-weight="bold">环境（conda）</text>
+<rect x="215" y="512" width="90" height="90" fill="#F39B7F" rx="10"/>
+<rect x="330" y="512" width="90" height="90" fill="#F39B7F" rx="10"/>
+<rect x="445" y="512" width="90" height="90" fill="#F39B7F" rx="10"/>
+<line x1="64" y1="384" x2="200" y2="504" stroke="#F39B7F" stroke-width="7" stroke-linecap="round"/>
+<polygon points="200,504 182.81986775742956,498.62942683433215 192.53206074316125,487.62227478383625" fill="#F39B7F"/>
+<text x="60" y="364" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="start" font-weight="bold">装：一次</text>
+<line x1="230" y1="424" x2="230" y2="230" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="230,230 237.33968815507225,246.43560092562154 222.66031184492775,246.43560092562154" fill="#4DBBD5"/>
+<line x1="575" y1="230" x2="575" y2="424" stroke="#4DBBD5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="575,424 567.6603118449277,407.56439907437846 582.3396881550723,407.56439907437846" fill="#4DBBD5"/>
+<text x="390" y="334" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C8DAD" text-anchor="middle" font-weight="bold">加载：每个会话</text>
+<text x="385" y="396" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#E64B35" text-anchor="middle" font-weight="bold">装了不等于加载了</text>
+</svg>

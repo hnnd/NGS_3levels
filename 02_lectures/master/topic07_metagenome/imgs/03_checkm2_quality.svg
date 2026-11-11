@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">CheckM2 在验什么：完整度与污染度的直觉</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">单拷贝标记基因 ｜ MIMAG 分级 —— 依据 07_metagenome_lecture.md ④4.5、⑥6.4</text>
+  <!-- 图例 -->
+  <rect x="950" y="36" width="14" height="14" rx="3" fill="#00A087"/>
+  <text x="972" y="48" font-size="12" fill="#33332E">标记基因恰一份（正常）</text>
+  <rect x="950" y="58" width="14" height="14" rx="3" fill="none" stroke="#6B6B66" stroke-dasharray="3 2"/>
+  <text x="972" y="70" font-size="12" fill="#33332E">缺失 → 拉低完整度</text>
+  <rect x="950" y="80" width="14" height="14" rx="3" fill="#E64B35"/>
+  <text x="972" y="92" font-size="12" fill="#33332E">重复出现 → 污染度</text>
+  <text x="950" y="114" font-size="11" fill="#6B6B66">色块为示意，非全部 140 个标记</text>
+
+  <!-- ============ 左面板：机制 ============ -->
+  <rect x="48" y="124" width="672" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="16" font-weight="bold" fill="#3C5488">机制：数单拷贝标记基因</text>
+  <text x="72" y="180" font-size="12.5" fill="#6B6B66">单拷贝标记基因：某谱系几乎所有基因组都恰好有一份的那批基因</text>
+  <text x="72" y="200" font-size="12.5" fill="#6B6B66">检出的比例 → 完整度；重复出现的比例 → 污染度（CheckM2 用 ML 模型估计）</text>
+
+  <!-- bin.1 干净的箱 -->
+  <text x="72" y="238" font-size="14" font-weight="bold" fill="#33332E">bin.1 · 干净的箱（contig 与标记示意）</text>
+  <rect x="72" y="252" width="560" height="152" rx="8" fill="none" stroke="#6B6B66" stroke-width="1.2" stroke-dasharray="5 3"/>
+  <rect x="96" y="272" width="512" height="20" rx="4" fill="#3C5488"/>
+  <rect x="120" y="274" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="160" y="274" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="200" y="274" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="240" y="274" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="280" y="274" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="320" y="274" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="360" y="274" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="400" y="274" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="440" y="274" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="480" y="274" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="520" y="274" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="96" y="312" width="512" height="20" rx="4" fill="#3C5488"/>
+  <rect x="140" y="314" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="185" y="314" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="230" y="314" width="16" height="16" rx="2" fill="none" stroke="#6B6B66" stroke-dasharray="3 2"/>
+  <rect x="275" y="314" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="320" y="314" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="365" y="314" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="410" y="314" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="455" y="314" width="16" height="16" rx="2" fill="none" stroke="#6B6B66" stroke-dasharray="3 2"/>
+  <rect x="500" y="314" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="96" y="352" width="512" height="20" rx="4" fill="#3C5488"/>
+  <rect x="130" y="354" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="180" y="354" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="230" y="354" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="280" y="354" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="330" y="354" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="380" y="354" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="430" y="354" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="480" y="354" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="530" y="354" width="16" height="16" rx="2" fill="#00A087"/>
+  <text x="72" y="434" font-size="12.5" fill="#33332E">检出 133 / 140 份 → 完整度 95.2%　｜　重复 2 份 → 污染度 1.3%</text>
+  <text x="72" y="456" font-size="12.5" font-weight="bold" fill="#00A087">对照 MIMAG：&gt;90% 且 &lt;5% → 冲击 High-quality（还须含 rRNA/tRNA，见右）</text>
+
+  <!-- bin.19 混箱 -->
+  <text x="72" y="498" font-size="14" font-weight="bold" fill="#33332E">bin.19 · 混箱：重复的标记基因 = 箱里混了别的基因组</text>
+  <rect x="72" y="512" width="560" height="116" rx="8" fill="none" stroke="#6B6B66" stroke-width="1.2" stroke-dasharray="5 3"/>
+  <rect x="96" y="532" width="512" height="20" rx="4" fill="#3C5488"/>
+  <rect x="130" y="534" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="170" y="534" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="210" y="534" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="250" y="534" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="300" y="534" width="16" height="16" rx="2" fill="#E64B35"/>
+  <rect x="318" y="534" width="16" height="16" rx="2" fill="#E64B35"/>
+  <text x="326" y="528" font-size="10.5" fill="#E64B35" text-anchor="middle">×2</text>
+  <rect x="370" y="534" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="410" y="534" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="460" y="534" width="16" height="16" rx="2" fill="#E64B35"/>
+  <rect x="478" y="534" width="16" height="16" rx="2" fill="#E64B35"/>
+  <rect x="496" y="534" width="16" height="16" rx="2" fill="#E64B35"/>
+  <text x="504" y="528" font-size="10.5" fill="#E64B35" text-anchor="middle">×3</text>
+  <rect x="96" y="572" width="512" height="20" rx="4" fill="#3C5488"/>
+  <rect x="150" y="574" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="206" y="574" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="262" y="574" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="318" y="574" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="374" y="574" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="430" y="574" width="16" height="16" rx="2" fill="#00A087"/>
+  <rect x="480" y="574" width="16" height="16" rx="2" fill="#E64B35"/>
+  <rect x="498" y="574" width="16" height="16" rx="2" fill="#E64B35"/>
+  <text x="72" y="656" font-size="12.5" fill="#33332E">检出 123 / 140 份 → 完整度 88.0%　｜　重复 ≈200 份 → 污染度 142%</text>
+  <text x="72" y="678" font-size="12.5" font-weight="bold" fill="#E64B35">污染度 &gt;100%：混了 2–3 个基因组 → DAS_Tool 精化或丢弃，别手动删 contig 调数字</text>
+
+  <!-- ============ 右面板：判级 ============ -->
+  <rect x="744" y="124" width="408" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="768" y="156" font-size="16" font-weight="bold" fill="#3C5488">判级：MIMAG 标准（2017）</text>
+  <line x1="768" y1="170" x2="1128" y2="170" stroke="#E9E9E5"/>
+
+  <rect x="768" y="184" width="360" height="62" rx="6" fill="#FAFAF7"/>
+  <rect x="768" y="184" width="4" height="62" rx="2" fill="#00A087"/>
+  <text x="786" y="210" font-size="13.5" font-weight="bold" fill="#33332E">High-quality ｜ &gt;90%，&lt;5%</text>
+  <text x="786" y="232" font-size="11.5" fill="#6B6B66">还须含 23S/16S/5S rRNA 与 ≥18 种 tRNA</text>
+
+  <rect x="768" y="256" width="360" height="62" rx="6" fill="#FAFAF7"/>
+  <rect x="768" y="256" width="4" height="62" rx="2" fill="#F39B7F"/>
+  <text x="786" y="282" font-size="13.5" font-weight="bold" fill="#33332E">Medium-quality ｜ ≥50%，&lt;10%</text>
+  <text x="786" y="304" font-size="11.5" fill="#6B6B66">可用，但结论要限定</text>
+
+  <rect x="768" y="328" width="360" height="62" rx="6" fill="#FAFAF7"/>
+  <rect x="768" y="328" width="4" height="62" rx="2" fill="#A8A8A2"/>
+  <text x="786" y="354" font-size="13.5" font-weight="bold" fill="#33332E">Low-quality ｜ &lt;50%</text>
+  <text x="786" y="376" font-size="11.5" fill="#6B6B66">一般不用于结论</text>
+
+  <text x="768" y="426" font-size="13" font-weight="bold" fill="#3C5488">讲义 ⑥6.4 的四个箱</text>
+  <circle cx="775" cy="448" r="4" fill="#00A087"/>
+  <text x="788" y="452" font-size="12" fill="#33332E">bin.1　95.2% / 1.3% → 可用</text>
+  <circle cx="775" cy="472" r="4" fill="#F39B7F"/>
+  <text x="788" y="476" font-size="12" fill="#33332E">bin.7　72.1% / 8.5% → Medium，限定结论</text>
+  <circle cx="775" cy="496" r="4" fill="#A8A8A2"/>
+  <text x="788" y="500" font-size="12" fill="#33332E">bin.12　45.3% / 15.2% → 丢弃</text>
+  <circle cx="775" cy="520" r="4" fill="#E64B35"/>
+  <text x="788" y="524" font-size="12" fill="#33332E">bin.19　88.0% / 142% → 混箱</text>
+
+  <rect x="768" y="544" width="360" height="64" rx="6" fill="#FAFAF7"/>
+  <rect x="768" y="544" width="4" height="64" rx="2" fill="#E64B35"/>
+  <text x="786" y="566" font-size="12" font-weight="bold" fill="#E64B35">反直觉 ①：「完整度 95% 但没有 16S」是常态</text>
+  <text x="786" y="586" font-size="11" fill="#33332E">rRNA 操纵子高度重复，短读组装几乎必然断在</text>
+  <text x="786" y="602" font-size="11" fill="#33332E">contig 边界、被分箱器丢掉——不是错误</text>
+
+  <rect x="768" y="616" width="360" height="56" rx="6" fill="#FAFAF7"/>
+  <rect x="768" y="616" width="4" height="56" rx="2" fill="#3C5488"/>
+  <text x="786" y="638" font-size="11" fill="#33332E">再加一维：GUNC 抓分类学嵌合——「高完整度、低污染」</text>
+  <text x="786" y="654" font-size="11" fill="#33332E">的箱可能来自两个门；规范报告 = CheckM2 + GUNC（④4.7）</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">完整度数「缺了多少」，污染度数「多出多少」——污染度可以超过 100%，因为它统计的是重复出现的标记基因。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

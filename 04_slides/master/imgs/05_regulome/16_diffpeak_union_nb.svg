@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">差异分析</text>
+<text x="72" y="169.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#4DBBD5" text-anchor="end" font-weight="bold">A</text>
+<line x1="88" y1="186" x2="712" y2="186" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<rect x="96" y="128" width="74" height="48" fill="#4DBBD5" rx="8"/>
+<rect x="216" y="128" width="52" height="48" fill="#4DBBD5" rx="8"/>
+<rect x="322" y="128" width="96" height="48" fill="#4DBBD5" rx="8"/>
+<rect x="486" y="128" width="62" height="48" fill="#4DBBD5" rx="8"/>
+<rect x="618" y="128" width="78" height="48" fill="#4DBBD5" rx="8"/>
+<text x="72" y="255.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#8491B4" text-anchor="end" font-weight="bold">B</text>
+<line x1="88" y1="272" x2="712" y2="272" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<rect x="120" y="214" width="60" height="48" fill="#8491B4" rx="8"/>
+<rect x="240" y="214" width="88" height="48" fill="#8491B4" rx="8"/>
+<rect x="356" y="214" width="54" height="48" fill="#8491B4" rx="8"/>
+<rect x="508" y="214" width="96" height="48" fill="#8491B4" rx="8"/>
+<rect x="646" y="214" width="56" height="48" fill="#8491B4" rx="8"/>
+<text x="72" y="357.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="end" font-weight="bold">∪</text>
+<line x1="88" y1="374" x2="712" y2="374" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<rect x="96" y="316" width="98" height="48" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<rect x="216" y="316" width="76" height="48" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<rect x="322" y="316" width="96" height="48" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<rect x="486" y="316" width="62" height="48" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<rect x="508" y="316" width="96" height="48" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<rect x="618" y="316" width="96" height="48" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<rect x="646" y="316" width="56" height="48" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="96" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">并集</text>
+<line x1="756" y1="190" x2="756" y2="308" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="756,308 750.291353657166,295.2167548356277 761.708646342834,295.2167548356277" fill="#6B6B66"/>
+<line x1="756" y1="276" x2="756" y2="308" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="756,308 750.291353657166,295.2167548356277 761.708646342834,295.2167548356277" fill="#6B6B66"/>
+<rect x="82" y="390" width="292" height="154" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<rect x="96" y="404" width="132" height="42" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="2"/>
+<rect x="228" y="404" width="132" height="42" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="2"/>
+<rect x="96" y="446" width="132" height="42" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="2"/>
+<rect x="228" y="446" width="132" height="42" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="2"/>
+<rect x="96" y="488" width="132" height="42" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="2"/>
+<rect x="228" y="488" width="132" height="42" fill="#E3E8F2" rx="4" stroke="#3C5488" stroke-width="2"/>
+<text x="162.0" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">A</text>
+<text x="294.0" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">B</text>
+<line x1="228" y1="378" x2="228" y2="384" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="228,384 222.291353657166,371.2167548356277 233.708646342834,371.2167548356277" fill="#6B6B66"/>
+<rect x="452" y="404" width="300" height="130" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="602.0" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">DESeq2</text>
+<text x="602.0" y="504" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle">负二项</text>
+<line x1="382" y1="469.0" x2="442" y2="469.0" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="442,469.0 429.2167548356277,474.70864634283396 429.2167548356277,463.29135365716604" fill="#6B6B66"/>
+<text x="400" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">取并集构建一致峰</text>
+<text x="400" y="654" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">统计读段做负二项检验</text>
+</svg>

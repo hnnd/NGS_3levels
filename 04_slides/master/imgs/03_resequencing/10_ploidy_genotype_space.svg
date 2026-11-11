@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="48" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#33332E" text-anchor="middle" font-weight="bold">基因型空间</text>
+<rect x="40" y="76" width="340" height="430" fill="#FFFFFF" rx="16" stroke="#4DBBD5" stroke-width="4"/>
+<text x="210" y="122" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C8DAD" text-anchor="middle" font-weight="bold">单倍体</text>
+<text x="210" y="162" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">-ploidy 1</text>
+<rect x="90" y="200" width="110" height="80" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="145" y="254" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#3C5488" text-anchor="middle" font-weight="bold">0</text>
+<rect x="230" y="200" width="110" height="80" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="285" y="254" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="38" fill="#00A087" text-anchor="middle" font-weight="bold">1</text>
+<text x="210" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">仅参考或变异</text>
+<line x1="110" y1="440" x2="310" y2="440" stroke="#E9E9E5" stroke-width="6" stroke-linecap="butt"/>
+<polygon points="140,440 175,440 175,396 140,396" fill="#4DBBD5"/>
+<polygon points="245,440 280,440 280,382 245,382" fill="#00A087"/>
+<text x="210" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">似然×先验，2 状态</text>
+<rect x="420" y="76" width="340" height="430" fill="#FFFFFF" rx="16" stroke="#8491B4" stroke-width="4"/>
+<text x="590" y="122" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#8491B4" text-anchor="middle" font-weight="bold">二倍体</text>
+<text x="590" y="162" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">-ploidy 2</text>
+<rect x="445" y="200" width="90" height="80" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<text x="490" y="252" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">0/0</text>
+<rect x="550" y="200" width="90" height="80" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="4"/>
+<text x="595" y="252" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">0/1</text>
+<rect x="655" y="200" width="90" height="80" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="700" y="252" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">1/1</text>
+<text x="595" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">杂合状态</text>
+<text x="595" y="392" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">细菌伪杂合</text>
+<line x1="445" y1="440" x2="745" y2="440" stroke="#E9E9E5" stroke-width="6" stroke-linecap="butt"/>
+<polygon points="470,440 500,440 500,400 470,400" fill="#8491B4"/>
+<polygon points="555,440 585,440 585,414 555,414" fill="#E64B35"/>
+<polygon points="640,440 670,440 670,388 640,388" fill="#F39B7F"/>
+<text x="595" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">3 状态，搜索更宽</text>
+<rect x="40" y="556" width="720" height="60" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="400" y="598" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">细菌设单倍体：-ploidy 1 消除伪杂合</text>
+<text x="400" y="664" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">先验空间与输出格式随倍性而定</text>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">测序数据的格式家族：分析链上怎么流转</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">FASTQ ｜ FASTA ｜ SAM/BAM ｜ VCF ｜ GFF/BED —— 依据 03_seq_principles_formats_lecture.md §5.3–5.7</text>
+
+  <!-- ============ 内容面板 ============ -->
+  <rect x="48" y="118" width="1104" height="580" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- ① 组装线 -->
+  <text x="100" y="172" font-size="13" font-weight="bold" fill="#3C5488">① 组装线：从 reads 拼出基因组，再注释出基因结构</text>
+
+  <!-- FASTQ 节点 -->
+  <rect x="100" y="192" width="170" height="120" rx="10" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="2.5"/>
+  <text x="116" y="226" font-size="17" font-weight="bold" fill="#3C8DAD">FASTQ</text>
+  <text x="116" y="248" font-size="11" fill="#6B6B66">.fq / .fastq（可 gzip）</text>
+  <text x="116" y="274" font-size="12" fill="#33332E">原始 reads ＋ 质量值</text>
+  <text x="116" y="294" font-size="12" fill="#33332E">下机数据的标准形态</text>
+
+  <!-- 组装箭头 -->
+  <line x1="270" y1="252" x2="366" y2="252" stroke="#6B6B66" stroke-width="1.8"/>
+  <polygon points="374,252 364,247 364,257" fill="#6B6B66"/>
+  <text x="322" y="238" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">组装</text>
+  <text x="322" y="272" font-size="11" fill="#6B6B66" text-anchor="middle">Canu / Flye · u06</text>
+
+  <!-- FASTA 节点 -->
+  <rect x="380" y="192" width="170" height="120" rx="10" fill="#FFFFFF" stroke="#3C5488" stroke-width="2.5"/>
+  <text x="396" y="226" font-size="17" font-weight="bold" fill="#3C5488">FASTA</text>
+  <text x="396" y="248" font-size="11" fill="#6B6B66">.fa / .fna · 无质量值</text>
+  <text x="396" y="274" font-size="12" fill="#33332E">组装结果 contigs</text>
+  <text x="396" y="294" font-size="12" fill="#33332E">参考基因组同格式</text>
+
+  <!-- 注释箭头 -->
+  <line x1="550" y1="252" x2="646" y2="252" stroke="#6B6B66" stroke-width="1.8"/>
+  <polygon points="654,252 644,247 644,257" fill="#6B6B66"/>
+  <text x="602" y="238" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">基因注释</text>
+  <text x="602" y="272" font-size="11" fill="#6B6B66" text-anchor="middle">Prokka · u07</text>
+
+  <!-- GFF3 节点 -->
+  <rect x="660" y="192" width="170" height="120" rx="10" fill="#FFFFFF" stroke="#F39B7F" stroke-width="2.5"/>
+  <text x="676" y="226" font-size="17" font-weight="bold" fill="#33332E">GFF3 / GTF</text>
+  <text x="676" y="248" font-size="11" fill="#6B6B66" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace">.gff / .gtf</text>
+  <text x="676" y="274" font-size="12" fill="#33332E">基因/CDS/外显子结构</text>
+  <text x="676" y="294" font-size="12" fill="#33332E">Prokka 等注释的输出</text>
+
+  <!-- ② 比对线 -->
+  <text x="100" y="398" font-size="13" font-weight="bold" fill="#3C5488">② 比对线：把 reads 排回参考序列，再找出变异</text>
+
+  <!-- FASTQ 下引肘形连接 -->
+  <polyline points="185,312 185,480 366,480" fill="none" stroke="#6B6B66" stroke-width="1.8"/>
+  <polygon points="374,480 364,475 364,485" fill="#6B6B66"/>
+  <text x="292" y="466" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">比对</text>
+  <text x="292" y="500" font-size="11" fill="#6B6B66" text-anchor="middle">minimap2 / bowtie2 · u05</text>
+  <text x="292" y="518" font-size="10.5" fill="#6B6B66" text-anchor="middle">参考基因组通常也是 FASTA</text>
+
+  <!-- SAM/BAM 节点 -->
+  <rect x="380" y="420" width="170" height="120" rx="10" fill="#FFFFFF" stroke="#8491B4" stroke-width="2.5"/>
+  <text x="396" y="454" font-size="17" font-weight="bold" fill="#8491B4">SAM / BAM</text>
+  <text x="396" y="476" font-size="11" fill="#6B6B66">.sam 文本 ｜ .bam 压缩</text>
+  <text x="396" y="502" font-size="12" fill="#33332E">read 排回参考的位置</text>
+  <text x="396" y="522" font-size="12" fill="#33332E">与形状：FLAG / CIGAR</text>
+
+  <!-- 变异检测箭头 -->
+  <line x1="550" y1="480" x2="646" y2="480" stroke="#6B6B66" stroke-width="1.8"/>
+  <polygon points="654,480 644,475 644,485" fill="#6B6B66"/>
+  <text x="602" y="466" font-size="12.5" font-weight="bold" fill="#33332E" text-anchor="middle">变异检测</text>
+  <text x="602" y="500" font-size="11" fill="#6B6B66" text-anchor="middle">bcftools / GATK</text>
+
+  <!-- VCF 节点 -->
+  <rect x="660" y="420" width="170" height="120" rx="10" fill="#FFFFFF" stroke="#00A087" stroke-width="2.5"/>
+  <text x="676" y="454" font-size="17" font-weight="bold" fill="#00A087">VCF</text>
+  <text x="676" y="476" font-size="11" fill="#6B6B66">.vcf（含 ## 头信息）</text>
+  <text x="676" y="502" font-size="12" fill="#33332E">与参考不一样的位置</text>
+  <text x="676" y="522" font-size="12" fill="#33332E">变异检测的最终结论</text>
+
+  <!-- ============ 右侧速查卡：坐标差一错误 ============ -->
+  <rect x="900" y="192" width="208" height="348" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="916" y="224" font-size="14" font-weight="bold" fill="#3C5488">坐标差一错误</text>
+  <text x="916" y="254" font-size="11.5" fill="#33332E">GFF3 / GTF / VCF：1-based</text>
+  <text x="916" y="276" font-size="11.5" fill="#33332E">BED：0-based 半开</text>
+  <text x="916" y="310" font-size="11" fill="#6B6B66" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace">A T G C A   (1..5)</text>
+  <text x="916" y="332" font-size="11.5" fill="#33332E">取中间「TGC」这段：</text>
+  <text x="916" y="356" font-size="11.5" font-weight="bold" fill="#3C8DAD" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace">BED  -&gt; 1 4</text>
+  <text x="916" y="378" font-size="11.5" font-weight="bold" fill="#33332E" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace">GFF3 -&gt; 2 4</text>
+  <rect x="912" y="398" width="184" height="66" rx="6" fill="#FDF2F0" stroke="#E64B35" stroke-width="1.4"/>
+  <text x="924" y="424" font-size="11.5" font-weight="bold" fill="#E64B35">把 GFF 坐标直接当 BED 用，</text>
+  <text x="924" y="444" font-size="11.5" font-weight="bold" fill="#E64B35">所有区间都会向左错一位</text>
+  <text x="916" y="494" font-size="11.5" fill="#33332E">BED 记区间最简：前 3 列</text>
+  <text x="916" y="514" font-size="11.5" fill="#33332E">就能用（bedtools 求交集）</text>
+
+  <!-- ============ 底部注 ============ -->
+  <text x="100" y="640" font-size="12" fill="#6B6B66">上游：下机数据先质控清洗（u04，fastp）再进两条线；BED 常作为比对后的区间中间产物（u05）。</text>
+  <text x="100" y="664" font-size="12" fill="#6B6B66">本项目组装的输入 /data/lab/ngs/reads.fa 是被有意剥掉质量值的 reads（§5.3）；文件名会骗人，用 file / head -1 看内容（§5.4）。</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

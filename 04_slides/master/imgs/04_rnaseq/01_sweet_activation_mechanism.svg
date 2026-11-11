@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="133" y="56.25" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">病原分泌</text>
+<text x="133" y="96.75" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">效应因子</text>
+<text x="400" y="56.25" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">转录组锁定</text>
+<text x="400" y="96.75" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">感病基因</text>
+<text x="667" y="56.25" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">靶向编辑</text>
+<text x="667" y="96.75" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">获抗性</text>
+<rect x="55" y="116" width="160" height="88" fill="#E3E8F2" rx="18" stroke="#3C5488" stroke-width="5"/>
+<text x="135" y="173" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="40" fill="#3C5488" text-anchor="middle" font-weight="bold">Xoo</text>
+<line x1="215" y1="138" x2="258" y2="218" stroke="#F39B7F" stroke-width="5" stroke-linecap="round"/>
+<polygon points="258,218 247.71100666327584,210.05414472087202 257.0493058982945,205.0348088820495" fill="#F39B7F"/>
+<line x1="215" y1="168" x2="258" y2="252" stroke="#F39B7F" stroke-width="5" stroke-linecap="round"/>
+<polygon points="258,252 247.87253865048612,243.84926220430918 257.30968685130244,239.01834110151037" fill="#F39B7F"/>
+<line x1="215" y1="198" x2="258" y2="286" stroke="#F39B7F" stroke-width="5" stroke-linecap="round"/>
+<polygon points="258,286 248.0259734376885,277.6622068786576 257.55138832925127,273.00774278391674" fill="#F39B7F"/>
+<circle cx="133" cy="441" r="92" fill="#FFFFFF" stroke="#3C5488" stroke-width="6"/>
+<line x1="63" y1="441" x2="203" y2="441" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<rect x="136" y="417" width="60" height="48" fill="#4DBBD5" stroke="#3C5488" stroke-width="4"/>
+<text x="166" y="450" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">EBE</text>
+<line x1="166" y1="467" x2="166" y2="508" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="166,508 160.6991141102256,496.12984377594 171.3008858897744,496.12984377594" fill="#00A087"/>
+<text x="182" y="502" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">Os8N3</text>
+<text x="133" y="599.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle">结合启动子</text>
+<line x1="252" y1="441" x2="292" y2="441" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="292,441 277.39057695500304,447.5241672489531 277.39057695500304,434.4758327510469" fill="#6B6B66"/>
+<line x1="508" y1="441" x2="548" y2="441" stroke="#6B6B66" stroke-width="6" stroke-linecap="round"/>
+<polygon points="548,441 533.3905769550031,447.5241672489531 533.3905769550031,434.4758327510469" fill="#6B6B66"/>
+<text x="452" y="128" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">Os8N3</text>
+<line x1="466" y1="136" x2="466" y2="206" stroke="#F39B7F" stroke-width="4" stroke-linecap="round"/>
+<polygon points="466,206 461.10687456328515,195.0429327162523 470.89312543671485,195.0429327162523" fill="#F39B7F"/>
+<rect x="288" y="210" width="96" height="190" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="4"/>
+<rect x="300" y="358" width="13" height="24" fill="#4DBBD5"/>
+<rect x="316" y="349" width="13" height="33" fill="#4DBBD5"/>
+<rect x="332" y="361" width="13" height="21" fill="#4DBBD5"/>
+<rect x="348" y="355" width="13" height="27" fill="#4DBBD5"/>
+<rect x="364" y="360" width="13" height="22" fill="#4DBBD5"/>
+<line x1="294" y1="382" x2="378" y2="382" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<rect x="416" y="210" width="96" height="190" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="4"/>
+<rect x="428" y="358" width="13" height="24" fill="#4DBBD5"/>
+<rect x="444" y="349" width="13" height="33" fill="#4DBBD5"/>
+<rect x="460" y="232" width="13" height="150" fill="#F39B7F"/>
+<rect x="476" y="355" width="13" height="27" fill="#4DBBD5"/>
+<rect x="492" y="360" width="13" height="22" fill="#4DBBD5"/>
+<line x1="422" y1="382" x2="506" y2="382" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="336" y="436" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">对照</text>
+<text x="464" y="436" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">感病</text>
+<line x1="563" y1="441" x2="763" y2="441" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<rect x="625" y="417" width="60" height="48" fill="#4DBBD5" stroke="#3C5488" stroke-width="4"/>
+<text x="655" y="450" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">EBE</text>
+<line x1="629" y1="421" x2="681" y2="465" stroke="#E64B35" stroke-width="7" stroke-linecap="butt"/>
+<line x1="681" y1="421" x2="629" y2="465" stroke="#E64B35" stroke-width="7" stroke-linecap="butt"/>
+<line x1="680" y1="336" x2="680" y2="206" stroke="#00A087" stroke-width="8" stroke-linecap="round"/>
+<polygon points="680,284 640,256 676,262" fill="#00A087"/>
+<polygon points="680,262 722,232 684,242" fill="#00A087"/>
+<circle cx="680" cy="192" r="7" fill="#00A087"/>
+<circle cx="666" cy="206" r="7" fill="#00A087"/>
+<circle cx="694" cy="206" r="7" fill="#00A087"/>
+<circle cx="737" cy="144" r="27" fill="#00A087"/>
+<polyline points="724,144 733,155 751,132" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

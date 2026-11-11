@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="32" y="90" width="336" height="410" fill="#FFFFFF" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="200.0" y="134" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">单批次紧密贴合</text>
+<line x1="76" y1="182" x2="76" y2="408" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="76" y1="408" x2="328" y2="408" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="76.0" y1="408" x2="76.0" y2="417" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="76.0" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">10</text>
+<line x1="160.0" y1="408" x2="160.0" y2="417" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="160.0" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">20</text>
+<line x1="244.0" y1="408" x2="244.0" y2="417" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="244.0" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">30</text>
+<line x1="328.0" y1="408" x2="328.0" y2="417" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="328.0" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">40</text>
+<text x="200.0" y="476" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">Q</text>
+<line x1="82" y1="186" x2="322" y2="386" stroke="#4DBBD5" stroke-width="4" stroke-linecap="butt" stroke-dasharray="11 8"/>
+<line x1="82" y1="186" x2="322" y2="386" stroke="#3C5488" stroke-width="7" stroke-linecap="butt"/>
+<circle cx="76.0" cy="185.0" r="6" fill="#3C5488"/>
+<circle cx="101.2" cy="207.6" r="6" fill="#3C5488"/>
+<circle cx="126.4" cy="210.2" r="6" fill="#3C5488"/>
+<circle cx="151.6" cy="232.8" r="6" fill="#3C5488"/>
+<circle cx="176.8" cy="235.4" r="6" fill="#3C5488"/>
+<circle cx="202.0" cy="258.0" r="6" fill="#3C5488"/>
+<circle cx="227.2" cy="260.6" r="6" fill="#3C5488"/>
+<circle cx="252.39999999999998" cy="283.2" r="6" fill="#3C5488"/>
+<circle cx="277.6" cy="285.8" r="6" fill="#3C5488"/>
+<circle cx="302.8" cy="308.4" r="6" fill="#3C5488"/>
+<circle cx="328.0" cy="311.0" r="6" fill="#3C5488"/>
+<text x="46" y="168" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">err_F.pdf</text>
+<rect x="432" y="90" width="336" height="410" fill="#FFFFFF" rx="16" stroke="#3C5488" stroke-width="4"/>
+<text x="600.0" y="134" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">混学散布脱离拟合</text>
+<line x1="476" y1="182" x2="476" y2="408" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="476" y1="408" x2="728" y2="408" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="476.0" y1="408" x2="476.0" y2="417" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="476.0" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">10</text>
+<line x1="560.0" y1="408" x2="560.0" y2="417" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="560.0" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">20</text>
+<line x1="644.0" y1="408" x2="644.0" y2="417" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="644.0" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">30</text>
+<line x1="728.0" y1="408" x2="728.0" y2="417" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="728.0" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">40</text>
+<text x="600.0" y="476" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle" font-weight="bold">Q</text>
+<line x1="482" y1="186" x2="722" y2="386" stroke="#4DBBD5" stroke-width="4" stroke-linecap="butt" stroke-dasharray="11 8"/>
+<line x1="482" y1="246" x2="722" y2="294" stroke="#E64B35" stroke-width="7" stroke-linecap="butt"/>
+<circle cx="476.0" cy="220.0" r="6" fill="#33332E"/>
+<circle cx="476.0" cy="276.0" r="6" fill="#33332E"/>
+<circle cx="501.2" cy="219.8" r="6" fill="#33332E"/>
+<circle cx="501.2" cy="285.8" r="6" fill="#33332E"/>
+<circle cx="526.4" cy="229.6" r="6" fill="#33332E"/>
+<circle cx="526.4" cy="285.6" r="6" fill="#33332E"/>
+<circle cx="551.6" cy="229.39999999999998" r="6" fill="#33332E"/>
+<circle cx="551.6" cy="295.4" r="6" fill="#33332E"/>
+<circle cx="576.8" cy="239.2" r="6" fill="#33332E"/>
+<circle cx="576.8" cy="295.2" r="6" fill="#33332E"/>
+<circle cx="602.0" cy="239.0" r="6" fill="#33332E"/>
+<circle cx="602.0" cy="305.0" r="6" fill="#33332E"/>
+<circle cx="627.2" cy="248.8" r="6" fill="#33332E"/>
+<circle cx="627.2" cy="304.8" r="6" fill="#33332E"/>
+<circle cx="652.4" cy="248.60000000000002" r="6" fill="#33332E"/>
+<circle cx="652.4" cy="314.6" r="6" fill="#33332E"/>
+<circle cx="677.6" cy="258.4" r="6" fill="#33332E"/>
+<circle cx="677.6" cy="314.4" r="6" fill="#33332E"/>
+<circle cx="702.8" cy="258.2" r="6" fill="#33332E"/>
+<circle cx="702.8" cy="324.2" r="6" fill="#33332E"/>
+<circle cx="728.0" cy="268.0" r="6" fill="#33332E"/>
+<circle cx="728.0" cy="324.0" r="6" fill="#33332E"/>
+<text x="446" y="168" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">err_F.pdf</text>
+<text x="400" y="620" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">模型两头失真</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="190" y="70" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">假阳性率 (H0) / 检出率 (H1)</text>
+<rect x="90" y="421.5" width="56" height="38.5" fill="#00A087"/>
+<text x="118" y="407.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">0.038</text>
+<rect x="170" y="171.5" width="56" height="288.5" fill="#E64B35"/>
+<text x="198" y="157.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">0.288</text>
+<rect x="270" y="205.72" width="56" height="254.28" fill="#00A087"/>
+<text x="298" y="191.72" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">0.978</text>
+<rect x="350" y="266.56" width="56" height="193.44" fill="#E64B35"/>
+<text x="378" y="252.56" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">0.744</text>
+<line x1="70" y1="460" x2="430" y2="460" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<text x="158" y="500" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">H0 假阳性</text>
+<text x="310" y="500" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">H1 检出率</text>
+<text x="190" y="550" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">虚增 7.6 倍</text>
+<text x="190" y="608" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">原始计数假阳性达标</text>
+<text x="190" y="664" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">假整数假阳性失控</text>
+<text x="610" y="70" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">文库因子估计</text>
+<rect x="470" y="120" width="300" height="340" fill="#FFFFFF" rx="8" stroke="#3C5488" stroke-width="4"/>
+<line x1="500.0" y1="430.0" x2="740.0" y2="150.0" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<line x1="608.5514410387112" y1="283.5939513215055" x2="644.494397918711" y2="283.5939513215055" stroke="#3C5488" stroke-width="6" stroke-linecap="butt"/>
+<text x="478" y="170" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">≈ 1 (0.93–1.14)</text>
+<circle cx="735.9851781952975" cy="154.68395877215295" r="5" fill="#E9E9E5"/>
+<circle cx="735.9851781952975" cy="283.0009154152948" r="9" fill="#3C8DAD"/>
+<circle cx="693.723276021934" cy="203.9895113077437" r="5" fill="#E9E9E5"/>
+<circle cx="693.723276021934" cy="274.7042561227054" r="9" fill="#3C8DAD"/>
+<circle cx="663.737979235942" cy="238.97235755806767" r="5" fill="#E9E9E5"/>
+<circle cx="663.737979235942" cy="269.28492703172446" r="9" fill="#3C8DAD"/>
+<circle cx="584.2996066660002" cy="331.65045888966654" r="5" fill="#E9E9E5"/>
+<circle cx="584.2996066660002" cy="272.4684894550214" r="9" fill="#3C8DAD"/>
+<circle cx="525.9704749812895" cy="399.7011125218289" r="5" fill="#E9E9E5"/>
+<circle cx="525.9704749812895" cy="267.9548051514766" r="9" fill="#3C8DAD"/>
+<circle cx="549.228878103223" cy="372.56630887957317" r="5" fill="#E9E9E5"/>
+<circle cx="549.228878103223" cy="276.92525240341035" r="9" fill="#3C8DAD"/>
+<circle cx="525.9704749812895" cy="399.7011125218289" r="5" fill="#E9E9E5"/>
+<circle cx="525.9704749812895" cy="285.4824978034037" r="9" fill="#3C8DAD"/>
+<circle cx="693.723276021934" cy="203.9895113077437" r="5" fill="#E9E9E5"/>
+<circle cx="693.723276021934" cy="291.93169468069345" r="9" fill="#3C8DAD"/>
+<circle cx="735.9851781952975" cy="154.68395877215295" r="5" fill="#E9E9E5"/>
+<circle cx="735.9851781952975" cy="286.24747105487324" r="9" fill="#3C8DAD"/>
+<circle cx="549.228878103223" cy="372.56630887957317" r="5" fill="#E9E9E5"/>
+<circle cx="549.228878103223" cy="284.6446659554389" r="9" fill="#3C8DAD"/>
+<circle cx="663.737979235942" cy="238.97235755806767" r="5" fill="#E9E9E5"/>
+<circle cx="663.737979235942" cy="289.10266221759974" r="9" fill="#3C8DAD"/>
+<circle cx="584.2996066660002" cy="331.65045888966654" r="5" fill="#E9E9E5"/>
+<circle cx="584.2996066660002" cy="287.72440989406107" r="9" fill="#3C8DAD"/>
+<text x="620.0" y="496" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">真实深度 (0.38–2.89)</text>
+<text x="610" y="664" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">文库因子估计失明</text>
+</svg>

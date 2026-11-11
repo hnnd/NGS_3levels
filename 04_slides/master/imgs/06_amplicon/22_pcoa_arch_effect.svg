@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="52" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">PCoA</text>
+<rect x="44" y="92" width="336" height="380" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<rect x="424" y="92" width="336" height="380" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<line x1="84" y1="430" x2="366" y2="430" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="84" y1="430" x2="84" y2="140" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="370" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">PC1</text>
+<text x="110" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">PC2</text>
+<line x1="464" y1="430" x2="746" y2="430" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<line x1="464" y1="430" x2="464" y2="140" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="750" y="444" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">PC1</text>
+<text x="490" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">PC2</text>
+<circle cx="132" cy="226" r="9" fill="#4DBBD5"/>
+<circle cx="152" cy="208" r="9" fill="#4DBBD5"/>
+<circle cx="172" cy="228" r="9" fill="#4DBBD5"/>
+<circle cx="144" cy="250" r="9" fill="#4DBBD5"/>
+<circle cx="166" cy="244" r="9" fill="#4DBBD5"/>
+<circle cx="186" cy="236" r="9" fill="#4DBBD5"/>
+<circle cx="128" cy="274" r="9" fill="#4DBBD5"/>
+<circle cx="152" cy="272" r="9" fill="#4DBBD5"/>
+<circle cx="176" cy="268" r="9" fill="#4DBBD5"/>
+<circle cx="198" cy="262" r="9" fill="#4DBBD5"/>
+<circle cx="170" cy="292" r="9" fill="#4DBBD5"/>
+<circle cx="196" cy="288" r="9" fill="#00A087"/>
+<circle cx="220" cy="280" r="9" fill="#00A087"/>
+<circle cx="240" cy="296" r="9" fill="#00A087"/>
+<circle cx="204" cy="312" r="9" fill="#00A087"/>
+<circle cx="228" cy="306" r="9" fill="#00A087"/>
+<circle cx="250" cy="300" r="9" fill="#00A087"/>
+<circle cx="212" cy="330" r="9" fill="#00A087"/>
+<circle cx="238" cy="330" r="9" fill="#00A087"/>
+<circle cx="258" cy="322" r="9" fill="#00A087"/>
+<circle cx="228" cy="350" r="9" fill="#00A087"/>
+<circle cx="252" cy="348" r="9" fill="#00A087"/>
+<circle cx="480" cy="196" r="9" fill="#4DBBD5"/>
+<circle cx="480" cy="236" r="9" fill="#00A087"/>
+<circle cx="508" cy="262" r="9" fill="#4DBBD5"/>
+<circle cx="508" cy="302" r="9" fill="#00A087"/>
+<circle cx="536" cy="316" r="9" fill="#4DBBD5"/>
+<circle cx="536" cy="356" r="9" fill="#00A087"/>
+<circle cx="564" cy="350" r="9" fill="#4DBBD5"/>
+<circle cx="564" cy="390" r="9" fill="#00A087"/>
+<circle cx="592" cy="366" r="9" fill="#4DBBD5"/>
+<circle cx="592" cy="406" r="9" fill="#00A087"/>
+<circle cx="620" cy="368" r="9" fill="#4DBBD5"/>
+<circle cx="620" cy="408" r="9" fill="#00A087"/>
+<circle cx="648" cy="354" r="9" fill="#4DBBD5"/>
+<circle cx="648" cy="394" r="9" fill="#00A087"/>
+<circle cx="676" cy="322" r="9" fill="#4DBBD5"/>
+<circle cx="676" cy="362" r="9" fill="#00A087"/>
+<circle cx="702" cy="268" r="9" fill="#4DBBD5"/>
+<circle cx="702" cy="308" r="9" fill="#00A087"/>
+<circle cx="724" cy="198" r="9" fill="#4DBBD5"/>
+<circle cx="724" cy="238" r="9" fill="#00A087"/>
+<path d="M 480 216 C 480.0 216.0 498.7 262.0 508 282 C 517.3 302.0 526.7 321.3 536 336 C 545.3 350.7 554.7 361.7 564 370 C 573.3 378.3 582.7 383.0 592 386 C 601.3 389.0 610.7 390.0 620 388 C 629.3 386.0 638.7 381.7 648 374 C 657.3 366.3 667.0 356.3 676 342 C 685.0 327.7 694.0 308.7 702 288 C 710.0 267.3 724.0 218.0 724 218" fill="none" stroke="#E64B35" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 10"/>
+<text x="212" y="520" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">正常点云轻度分散</text>
+<text x="212" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">方差小属常态</text>
+<text x="592" y="546" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">拱形效应改排序</text>
+<text x="592" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">NMDS</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="250" y="497.14285714285717" width="100" height="62.85714285714283" fill="#E64B35"/>
+<rect x="250" y="371.42857142857144" width="100" height="125.71428571428572" fill="#F39B7F"/>
+<rect x="250" y="245.71428571428572" width="100" height="125.71428571428572" fill="#00A087"/>
+<rect x="250" y="120.0" width="100" height="125.71428571428572" fill="#3C5488"/>
+<rect x="244" y="120.0" width="112" height="8" fill="#33332E" rx="4"/>
+<line x1="246" y1="497.14285714285717" x2="354" y2="497.14285714285717" stroke="#FFFFFF" stroke-width="4" stroke-linecap="butt"/>
+<text x="232" y="508.14285714285717" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end" font-weight="bold">Q10</text>
+<text x="372" y="508.14285714285717" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">十：错百分之十</text>
+<line x1="246" y1="371.42857142857144" x2="354" y2="371.42857142857144" stroke="#FFFFFF" stroke-width="4" stroke-linecap="butt"/>
+<text x="232" y="382.42857142857144" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end" font-weight="bold">Q20</text>
+<text x="372" y="382.42857142857144" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#D97E52" text-anchor="start" font-weight="bold">二十：错百分之一</text>
+<line x1="246" y1="245.71428571428572" x2="354" y2="245.71428571428572" stroke="#FFFFFF" stroke-width="4" stroke-linecap="butt"/>
+<text x="232" y="256.7142857142857" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end" font-weight="bold">Q30</text>
+<text x="372" y="256.7142857142857" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00806B" text-anchor="start" font-weight="bold">三十：错千分之一</text>
+<line x1="246" y1="120.0" x2="354" y2="120.0" stroke="#FFFFFF" stroke-width="4" stroke-linecap="butt"/>
+<text x="232" y="131.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end" font-weight="bold">Q40</text>
+<text x="400" y="645" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">两档不必然上升</text>
+</svg>

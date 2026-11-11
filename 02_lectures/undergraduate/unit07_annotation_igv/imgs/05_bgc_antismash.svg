@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">次级代谢基因簇：逐个注释不够，还要看"成簇"</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">生物合成基因簇 BGC ｜ antiSMASH ｜ MIBiG 相似度 —— 依据 07_annotation_igv_lecture.md ⑤5.4、⑥6.4</text>
+  <!-- 图例 -->
+  <rect x="840" y="42" width="12" height="12" fill="#3C5488"/>
+  <text x="860" y="52" font-size="12" fill="#33332E">基因</text>
+  <rect x="840" y="59" width="12" height="12" fill="#4DBBD5"/>
+  <text x="860" y="69" font-size="12" fill="#33332E">contig</text>
+  <rect x="840" y="76" width="12" height="12" fill="#F39B7F"/>
+  <text x="860" y="86" font-size="12" fill="#33332E">antiSMASH 簇范围</text>
+  <rect x="840" y="93" width="12" height="12" fill="#00A087"/>
+  <text x="860" y="103" font-size="12" fill="#33332E">高相似（可放心写）</text>
+  <rect x="840" y="110" width="12" height="12" fill="#E64B35"/>
+  <text x="860" y="120" font-size="12" fill="#33332E">陷阱</text>
+
+  <!-- ============ 面板 1：contig 上的簇 ============ -->
+  <rect x="48" y="124" width="1104" height="270" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="17" font-weight="bold" fill="#3C5488">为什么逐个注释不够：抗生素、色素、铁载体、毒素的基因是"成簇"的</text>
+  <text x="72" y="180" font-size="12" fill="#6B6B66">整条生物合成通路的酶基因挨在一起 = 生物合成基因簇（BGC）；对微生物资源、生防菌、抗生素发现，这一步常是全项目最有产出价值的一步</text>
+
+  <!-- Region 标签 -->
+  <rect x="520" y="208" width="12" height="12" fill="#F39B7F"/>
+  <text x="538" y="218" font-size="11" font-weight="bold" fill="#33332E">Region 1 · 类型 NRPS（antiSMASH 判定）</text>
+  <!-- 簇范围框 -->
+  <rect x="424" y="236" width="422" height="96" rx="8" fill="none" stroke="#F39B7F" stroke-width="2.5"/>
+  <!-- contig 线 -->
+  <text x="100" y="240" font-size="12" font-weight="bold" fill="#3C8DAD">contig_1</text>
+  <line x1="100" y1="285" x2="1108" y2="285" stroke="#4DBBD5" stroke-width="4" stroke-linecap="round"/>
+  <!-- 散在基因 -->
+  <rect x="130" y="247" width="54" height="28" rx="3" fill="#3C5488"/>
+  <rect x="210" y="295" width="44" height="28" rx="3" fill="#3C5488"/>
+  <rect x="280" y="247" width="58" height="28" rx="3" fill="#3C5488"/>
+  <text x="205" y="352" font-size="10" fill="#6B6B66" text-anchor="middle">散在的单个基因</text>
+  <!-- 簇内基因：12 个连排 -->
+  <rect x="440" y="247" width="28" height="28" rx="3" fill="#3C5488"/>
+  <rect x="473" y="295" width="28" height="28" rx="3" fill="#3C5488"/>
+  <rect x="506" y="247" width="28" height="28" rx="3" fill="#3C5488"/>
+  <rect x="539" y="295" width="28" height="28" rx="3" fill="#3C5488"/>
+  <rect x="572" y="247" width="28" height="28" rx="3" fill="#3C5488"/>
+  <rect x="605" y="295" width="28" height="28" rx="3" fill="#3C5488"/>
+  <rect x="638" y="247" width="28" height="28" rx="3" fill="#3C5488"/>
+  <rect x="671" y="295" width="28" height="28" rx="3" fill="#3C5488"/>
+  <rect x="704" y="247" width="28" height="28" rx="3" fill="#3C5488"/>
+  <rect x="737" y="295" width="28" height="28" rx="3" fill="#3C5488"/>
+  <rect x="770" y="247" width="28" height="28" rx="3" fill="#3C5488"/>
+  <rect x="803" y="295" width="28" height="28" rx="3" fill="#3C5488"/>
+  <text x="635" y="352" font-size="10" fill="#6B6B66" text-anchor="middle">十几个基因连排 = 一条完整合成通路</text>
+  <!-- 尾部散在基因 -->
+  <rect x="900" y="295" width="50" height="28" rx="3" fill="#3C5488"/>
+  <rect x="985" y="247" width="54" height="28" rx="3" fill="#3C5488"/>
+  <rect x="1060" y="295" width="44" height="28" rx="3" fill="#3C5488"/>
+  <!-- 两个视角 -->
+  <text x="72" y="376" font-size="11.5" font-weight="bold" fill="#3C5488">Prokka 视角：逐个给功能名</text>
+  <text x="268" y="376" font-size="11" fill="#6B6B66">——"这是一个聚酮合酶"，但不会告诉你它们是一条通路</text>
+  <text x="1136" y="376" font-size="11" fill="#6B6B66" text-anchor="end">antiSMASH 补上的正是"成簇"这一层</text>
+
+  <!-- ============ 面板 2：相似度三档 ============ -->
+  <rect x="48" y="418" width="1104" height="160" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="450" font-size="17" font-weight="bold" fill="#3C5488">结果怎么读：每个簇给出与 MIBiG 已知簇的相似度</text>
+  <rect x="72" y="468" width="340" height="92" rx="8" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="88" y="494" font-size="12.5" font-weight="bold" fill="#00A087">相似度 &gt; 80%</text>
+  <text x="88" y="516" font-size="11" fill="#33332E">大概率就是那个已知产物的通路，</text>
+  <text x="88" y="534" font-size="11" fill="#33332E">可以放心往报告里写</text>
+  <rect x="432" y="468" width="340" height="92" rx="8" fill="#FFFFFF" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="448" y="494" font-size="12.5" font-weight="bold" fill="#33332E">相似度 30–60%</text>
+  <text x="448" y="516" font-size="11" fill="#33332E">同类型但有差异——可能是已知化合物</text>
+  <text x="448" y="534" font-size="11" fill="#33332E">的类似物，这一档最有意思</text>
+  <rect x="792" y="468" width="340" height="92" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="808" y="494" font-size="12.5" font-weight="bold" fill="#6B6B66">无已知匹配</text>
+  <text x="808" y="516" font-size="11" fill="#33332E">可能是新颖 BGC，也可能只是预测噪声</text>
+  <text x="808" y="534" font-size="11" fill="#33332E">——别急着写"发现新抗生素"</text>
+
+  <!-- ============ 面板 3：陷阱 ============ -->
+  <rect x="48" y="602" width="1104" height="104" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="602" width="4" height="104" rx="2" fill="#E64B35"/>
+  <text x="72" y="634" font-size="13" font-weight="bold" fill="#E64B35">陷阱一：on contig edge——簇被组装断点截断了</text>
+  <text x="72" y="658" font-size="11.5" fill="#33332E">簇的起止坐标贴近 contig 末端（如 contig_7:1–24500，而总长 24800 bp）= 簇很可能不完整。报告必须写明，否则"发现完整 BGC"站不住。</text>
+  <text x="72" y="688" font-size="13" font-weight="bold" fill="#E64B35">陷阱二：首次运行前必须下载数据库</text>
+  <text x="340" y="688" font-size="11.5" fill="#33332E">conda 装的 antiSMASH 只有程序、不含数据库，不先下载必然报错（⑨ 错误 3）。</text>
+
+  <!-- ============ 结语与页脚 ============ -->
+  <text x="48" y="748" font-size="13.5" font-weight="bold" fill="#3C5488">Prokka 回答"每个基因是什么"，antiSMASH 回答"哪几个基因合起来干什么"——两问都要答。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

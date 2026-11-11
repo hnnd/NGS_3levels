@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Blind HWE filtering kills real polymorphisms</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<line x1="84" y1="470" x2="748" y2="470" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="748,470 735.2167548356277,475.70864634283396 735.2167548356277,464.29135365716604" fill="#3C5488"/>
+<line x1="84" y1="470" x2="84" y2="126" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="84,126 89.70864634283399,138.78324516437232 78.29135365716601,138.78324516437232" fill="#3C5488"/>
+<line x1="76" y1="470.0" x2="84" y2="470.0" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="64" y="480.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">0</text>
+<line x1="76" y1="305.0" x2="84" y2="305.0" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="64" y="315.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">50</text>
+<line x1="76" y1="140.0" x2="84" y2="140.0" stroke="#3C5488" stroke-width="3" stroke-linecap="butt"/>
+<text x="64" y="150.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">100</text>
+<line x1="748" y1="453.5" x2="96" y2="453.5" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="12 9"/>
+<text x="744" y="441.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end" font-weight="bold">5%</text>
+<rect x="110" y="141.32" width="120" height="328.68" fill="#E64B35" rx="8"/>
+<text x="170" y="191.32" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">99.6%</text>
+<text x="170" y="520" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">分层样本</text>
+<text x="170" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">误杀九成九</text>
+<rect x="340" y="455.04" width="120" height="14.95999999999998" fill="#00A087" rx="8"/>
+<text x="400" y="437.04" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">4.5%</text>
+<text x="400" y="520" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">分群后回到</text>
+<text x="400" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">名义水平</text>
+<rect x="570" y="140.16499999999996" width="120" height="329.83500000000004" fill="#E64B35" rx="8"/>
+<text x="630" y="190.16499999999996" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">100.0%</text>
+<text x="630" y="520" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">高自交体系</text>
+<text x="630" y="566" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">位点全删</text>
+</svg>

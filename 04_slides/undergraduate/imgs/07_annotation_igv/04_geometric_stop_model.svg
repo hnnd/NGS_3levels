@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="760" y="48" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">合成算例</text>
+<rect x="170" y="66" width="460" height="70" fill="#3C5488" rx="12"/>
+<text x="400" y="112" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">p = 3/64 = 0.046875</text>
+<rect x="40" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="68" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="96" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="124" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="152" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="180" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="208" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="236" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="264" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="292" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="320" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="348" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="376" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="404" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="432" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="460" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="488" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="516" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="544" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="572" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="600" y="300" width="25" height="56" fill="#F39B7F" rx="6"/>
+<rect x="628" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="656" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<rect x="684" y="300" width="25" height="56" fill="#E3E8F2" rx="6" stroke="#3C5488" stroke-width="3"/>
+<line x1="8" y1="328" x2="34" y2="328" stroke="#6B6B66" stroke-width="5" stroke-linecap="round"/>
+<polygon points="34,328 23.042932716252302,332.89312543671485 23.042932716252302,323.10687456328515" fill="#6B6B66"/>
+<text x="612" y="276" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">密码子是终止</text>
+<text x="612" y="226" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">21</text>
+<line x1="40" y1="420" x2="625" y2="420" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="40" y1="420" x2="40" y2="434" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="625" y1="420" x2="625" y2="434" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<text x="332.5" y="470" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">含终止平均步数 = 21.3</text>
+<line x1="40" y1="530" x2="597" y2="530" stroke="#00A087" stroke-width="5" stroke-linecap="butt"/>
+<line x1="40" y1="530" x2="40" y2="516" stroke="#00A087" stroke-width="5" stroke-linecap="butt"/>
+<line x1="597" y1="530" x2="597" y2="516" stroke="#00A087" stroke-width="5" stroke-linecap="butt"/>
+<text x="318.5" y="580" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">终止前非终止 = 20.3</text>
+<rect x="190" y="628" width="420" height="56" fill="#E64B35" rx="12"/>
+<text x="400" y="668" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">差一但含义不同</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="30" y="170" width="170" height="110" fill="#3C5488" rx="16"/>
+<text x="115" y="240" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#FFFFFF" text-anchor="middle" font-weight="bold">输入</text>
+<text x="115" y="335" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">读表看类型</text>
+<line x1="206" y1="225" x2="219" y2="225" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="219,225 202.56439907437846,232.33968815507225 202.56439907437846,217.66031184492775" fill="#4DBBD5"/>
+<rect x="225" y="170" width="170" height="110" fill="#3C5488" rx="16"/>
+<text x="310" y="240" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#FFFFFF" text-anchor="middle" font-weight="bold">变换</text>
+<text x="310" y="335" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">每步核行数</text>
+<line x1="401" y1="225" x2="414" y2="225" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="414,225 397.56439907437846,232.33968815507225 397.56439907437846,217.66031184492775" fill="#4DBBD5"/>
+<rect x="420" y="170" width="170" height="110" fill="#3C5488" rx="16"/>
+<text x="505" y="240" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#FFFFFF" text-anchor="middle" font-weight="bold">图</text>
+<text x="505" y="335" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">轴名带单位</text>
+<line x1="596" y1="225" x2="609" y2="225" stroke="#4DBBD5" stroke-width="7" stroke-linecap="round"/>
+<polygon points="609,225 592.5643990743785,232.33968815507225 592.5643990743785,217.66031184492775" fill="#4DBBD5"/>
+<rect x="615" y="170" width="170" height="110" fill="#3C5488" rx="16"/>
+<text x="700" y="240" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="44" fill="#FFFFFF" text-anchor="middle" font-weight="bold">导出</text>
+<text x="700" y="335" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">记版本</text>
+<rect x="40" y="520" width="720" height="96" fill="#E64B35" rx="14"/>
+<text x="400" y="586" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="46" fill="#FFFFFF" text-anchor="middle" font-weight="bold">出错不报错</text>
+</svg>

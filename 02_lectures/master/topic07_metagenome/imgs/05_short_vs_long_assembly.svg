@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">读长正在改写宏基因组组装的默认值</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">短读断在重复区 ｜ HiFi 跨越重复直取闭合基因组 —— 依据 07_metagenome_lecture.md ④4.3、④4.7</text>
+  <!-- 图例 -->
+  <rect x="952" y="36" width="20" height="12" rx="3" fill="#8491B4"/>
+  <text x="980" y="46" font-size="12" fill="#33332E">rRNA 操纵子（重复）</text>
+  <rect x="952" y="58" width="20" height="8" rx="3" fill="#4DBBD5"/>
+  <text x="980" y="68" font-size="12" fill="#33332E">read（测序读段）</text>
+  <line x1="952" y1="90" x2="960" y2="98" stroke="#E64B35" stroke-width="2.5"/>
+  <line x1="960" y1="90" x2="952" y2="98" stroke="#E64B35" stroke-width="2.5"/>
+  <text x="980" y="98" font-size="12" fill="#33332E">组装断点</text>
+  <circle cx="962" cy="116" r="9" fill="none" stroke="#00A087" stroke-width="2.5"/>
+  <text x="980" y="120" font-size="12" fill="#33332E">闭合基因组</text>
+
+  <!-- ============ 左面板：短读长 ============ -->
+  <rect x="48" y="124" width="552" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="16" font-weight="bold" fill="#3C5488">短读长（PE150）· de Bruijn 图</text>
+  <text x="72" y="180" font-size="12" fill="#6B6B66">MEGAHIT：迭代 k-mer 21→141；mercy-k-mer 保留低覆盖区</text>
+
+  <text x="84" y="214" font-size="11" fill="#6B6B66">一份基因组的参考：rRNA 操纵子（高度重复 ×3）</text>
+  <line x1="84" y1="230" x2="552" y2="230" stroke="#6B6B66" stroke-width="2"/>
+  <rect x="140" y="220" width="46" height="20" fill="#8491B4"/>
+  <rect x="300" y="220" width="46" height="20" fill="#8491B4"/>
+  <rect x="460" y="220" width="46" height="20" fill="#8491B4"/>
+
+  <text x="84" y="262" font-size="11" fill="#3C8DAD">短读 2×150 bp：跨不过任何一份重复拷贝</text>
+  <rect x="92"  y="268" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="124" y="268" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="168" y="268" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="210" y="268" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="246" y="268" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="290" y="268" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="338" y="268" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="380" y="268" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="430" y="268" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="478" y="268" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="520" y="268" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="104" y="288" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="146" y="288" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="190" y="288" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="232" y="288" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="278" y="288" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="322" y="288" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="368" y="288" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="414" y="288" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="458" y="288" width="22" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="506" y="288" width="22" height="8" rx="3" fill="#4DBBD5"/>
+
+  <text x="84" y="336" font-size="11" fill="#33332E">组装结果：一个基因组 → 一堆 contig</text>
+  <rect x="84"  y="346" width="54"  height="18" rx="4" fill="#3C5488"/>
+  <rect x="188" y="346" width="110" height="18" rx="4" fill="#3C5488"/>
+  <rect x="348" y="346" width="110" height="18" rx="4" fill="#3C5488"/>
+  <rect x="508" y="346" width="44"  height="18" rx="4" fill="#3C5488"/>
+  <line x1="158" y1="349" x2="168" y2="361" stroke="#E64B35" stroke-width="2.5"/>
+  <line x1="168" y1="349" x2="158" y2="361" stroke="#E64B35" stroke-width="2.5"/>
+  <line x1="318" y1="349" x2="328" y2="361" stroke="#E64B35" stroke-width="2.5"/>
+  <line x1="328" y1="349" x2="318" y2="361" stroke="#E64B35" stroke-width="2.5"/>
+  <line x1="478" y1="349" x2="488" y2="361" stroke="#E64B35" stroke-width="2.5"/>
+  <line x1="488" y1="349" x2="478" y2="361" stroke="#E64B35" stroke-width="2.5"/>
+  <text x="300" y="390" font-size="12" font-weight="bold" fill="#E64B35" text-anchor="middle">几乎必然断在重复区 → 16S 丢失、基因组碎裂</text>
+
+  <circle cx="84" cy="426" r="5" fill="#F39B7F"/>
+  <text x="98" y="430" font-size="12" fill="#33332E">株系变异在图上形成气泡 → 嵌合 contig（④4.3）</text>
+  <circle cx="84" cy="454" r="5" fill="#A8A8A2"/>
+  <text x="98" y="458" font-size="12" fill="#33332E">丰度不均：优势菌 100×、稀有菌 0.5×，一套参数难两顾</text>
+
+  <rect x="72" y="486" width="504" height="104" rx="6" fill="#FAFAF7"/>
+  <rect x="72" y="486" width="4" height="104" rx="2" fill="#3C5488"/>
+  <text x="88" y="514" font-size="12" fill="#33332E">结局：MAG 完整度 95% 却没有 16S——短读 MAG 很难达</text>
+  <text x="88" y="536" font-size="12" fill="#33332E">MIMAG High-quality；这是常态，不是错误（④4.5）</text>
+  <text x="88" y="558" font-size="12" fill="#6B6B66">缺的恰是重复区、可移动元件——也常是功能上最有意思处（⑦7.7b）</text>
+
+  <!-- ============ 右面板：长读长 ============ -->
+  <rect x="624" y="124" width="528" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="648" y="156" font-size="16" font-weight="bold" fill="#3C5488">长读长（PacBio HiFi）· hifiasm-meta</text>
+  <text x="648" y="180" font-size="12" fill="#6B6B66">2024 年综述：长读宏基因组已从「前瞻」列为「可用」（⑪ 文献 18）</text>
+
+  <text x="648" y="214" font-size="11" fill="#6B6B66">同一份基因组：重复区还是那些重复区</text>
+  <line x1="648" y1="230" x2="1104" y2="230" stroke="#6B6B66" stroke-width="2"/>
+  <rect x="716" y="220" width="46" height="20" fill="#8491B4"/>
+  <rect x="876" y="220" width="46" height="20" fill="#8491B4"/>
+  <rect x="996" y="220" width="46" height="20" fill="#8491B4"/>
+
+  <text x="648" y="262" font-size="11" fill="#3C8DAD">HiFi 读长 15–25 kb：一条 read 跨过整份重复拷贝</text>
+  <rect x="660" y="270" width="380" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="690" y="290" width="400" height="8" rx="3" fill="#4DBBD5"/>
+  <rect x="648" y="310" width="332" height="8" rx="3" fill="#4DBBD5"/>
+
+  <!-- 闭合基因组 -->
+  <circle cx="740" cy="438" r="56" fill="none" stroke="#00A087" stroke-width="3.5"/>
+  <circle cx="740" cy="438" r="40" fill="none" stroke="#00A087" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="740" y="443" font-size="12" font-weight="bold" fill="#00A087" text-anchor="middle">闭合</text>
+  <text x="824" y="412" font-size="13" font-weight="bold" fill="#3C5488">一个 contig = 一个完整基因组</text>
+  <text x="824" y="436" font-size="12" fill="#33332E">rRNA 操纵子不再打断组装；株系嵌合不再由</text>
+  <text x="824" y="456" font-size="12" fill="#33332E">「打断再拼」造成（hifiasm-meta，⑪ 文献 17）</text>
+  <text x="824" y="480" font-size="11" fill="#6B6B66">复杂群落中已能直接回收闭合基因组（④4.7）</text>
+
+  <rect x="648" y="524" width="480" height="110" rx="6" fill="#FAFAF7"/>
+  <rect x="648" y="524" width="4" height="110" rx="2" fill="#F39B7F"/>
+  <text x="664" y="552" font-size="12" font-weight="bold" fill="#33332E">边界（④4.7）：长读不是万能</text>
+  <text x="664" y="576" font-size="12" fill="#33332E">对 DNA 完整性要求高，降解严重的样品仍是短读的天下；</text>
+  <text x="664" y="598" font-size="12" fill="#33332E">成本高一档；分箱与评估工具多为短读调参——</text>
+  <text x="664" y="620" font-size="12" fill="#33332E">本讲流程在长读长数据上不能照跑。</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">读长本身消解了「短读 MAG 很难 High-quality」的遗憾——但只对 DNA 完整度够好的样品成立。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Size factor diagnostic scatter</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="44" y="88" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">正常聚原点线</text>
+<rect x="44" y="106" width="348" height="330" fill="#FFFFFF" rx="14" stroke="#00A087" stroke-width="3"/>
+<line x1="90" y1="384" x2="374" y2="384" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="90" y1="142" x2="90" y2="384" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="90" y1="167.47368421052633" x2="374" y2="167.47368421052633" stroke="#00A087" stroke-width="4" stroke-linecap="butt" stroke-dasharray="9 8"/>
+<circle cx="140.0" cy="168.1105263157895" r="10" fill="#00A087"/>
+<circle cx="202.66666666666666" cy="169.38421052631583" r="10" fill="#00A087"/>
+<line x1="140.0" y1="168.1105263157895" x2="202.66666666666666" y2="169.38421052631583" stroke="#00A087" stroke-width="3" stroke-linecap="butt"/>
+<circle cx="265.3333333333333" cy="168.74736842105267" r="10" fill="#00A087"/>
+<line x1="202.66666666666666" y1="169.38421052631583" x2="265.3333333333333" y2="168.74736842105267" stroke="#00A087" stroke-width="3" stroke-linecap="butt"/>
+<circle cx="328.0" cy="166.83684210526326" r="10" fill="#00A087"/>
+<line x1="265.3333333333333" y1="168.74736842105267" x2="328.0" y2="166.83684210526326" stroke="#00A087" stroke-width="3" stroke-linecap="butt"/>
+<text x="140.0" y="418" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">12</text>
+<text x="202.66666666666666" y="418" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">24</text>
+<text x="265.3333333333333" y="418" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">36</text>
+<text x="328.0" y="418" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">48</text>
+<text x="374" y="136" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">ratio</text>
+<text x="66" y="177.47368421052633" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="end" font-weight="bold">1</text>
+<text x="412" y="88" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">漂移吸收生物量</text>
+<rect x="412" y="106" width="344" height="330" fill="#FFFFFF" rx="14" stroke="#E64B35" stroke-width="3"/>
+<line x1="458" y1="384" x2="738" y2="384" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="458" y1="142" x2="458" y2="384" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<line x1="458" y1="167.47368421052633" x2="738" y2="167.47368421052633" stroke="#00A087" stroke-width="4" stroke-linecap="butt" stroke-dasharray="9 8"/>
+<polyline points="508.0,170.6828222156768 692.0,359.4043444537108" fill="none" stroke="#F6D8D2" stroke-width="26" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="508.0" cy="170.6828222156768" r="13" fill="#F39B7F"/>
+<circle cx="569.3333333333334" cy="180.26190060883275" r="13" fill="#F39B7F"/>
+<line x1="508.0" y1="170.6828222156768" x2="569.3333333333334" y2="180.26190060883275" stroke="#F39B7F" stroke-width="4" stroke-linecap="butt"/>
+<circle cx="630.6666666666666" cy="231.50414188517504" r="13" fill="#8491B4"/>
+<line x1="569.3333333333334" y1="180.26190060883275" x2="630.6666666666666" y2="231.50414188517504" stroke="#8491B4" stroke-width="4" stroke-linecap="butt"/>
+<circle cx="692.0" cy="359.4043444537108" r="13" fill="#8491B4"/>
+<line x1="630.6666666666666" y1="231.50414188517504" x2="692.0" y2="359.4043444537108" stroke="#8491B4" stroke-width="4" stroke-linecap="butt"/>
+<text x="508.0" y="418" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">12</text>
+<text x="569.3333333333334" y="418" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">24</text>
+<text x="630.6666666666666" y="418" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">36</text>
+<text x="692.0" y="418" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">48</text>
+<text x="738" y="136" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="end">ratio</text>
+<text x="434" y="177.47368421052633" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="end" font-weight="bold">1</text>
+<rect x="32.0" y="496" width="736" height="130" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="544" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">破坏多数不变</text>
+<text x="400.0" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">检验前即失效</text>
+</svg>

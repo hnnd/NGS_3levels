@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>NLR domain combination criteria</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="44" y="86" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">核心结构域必选</text>
+<rect x="60" y="110" width="180" height="62" fill="#E7F5F8" rx="10" stroke="#4DBBD5" stroke-width="4"/>
+<rect x="240" y="110" width="260" height="62" fill="#3C5488" rx="10" stroke="#3C5488" stroke-width="4"/>
+<rect x="500" y="110" width="180" height="62" fill="#E7F5F8" rx="10" stroke="#4DBBD5" stroke-width="4"/>
+<text x="150" y="152" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">TIR</text>
+<text x="370" y="152" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">NB-ARC</text>
+<text x="590" y="152" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">LRR</text>
+<rect x="44" y="250" width="712" height="76" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="3"/>
+<text x="400" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">PF00931 ∩ ( PF00560 ∪ PF07723 ∪ PF01582 )</text>
+<line x1="370" y1="178" x2="370" y2="244" stroke="#3C5488" stroke-width="5" stroke-linecap="round"/>
+<polygon points="370,244 364.29135365716604,231.21675483562768 375.70864634283396,231.21675483562768" fill="#3C5488"/>
+<polyline points="383.88,366.52 396.88,379.0 417.16,354.04" fill="none" stroke="#00A087" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="444" y="376" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="start" font-weight="bold">交集识别天线</text>
+<rect x="44" y="430" width="340" height="196" fill="#FFFFFF" rx="14" stroke="#E64B35" stroke-width="4"/>
+<rect x="66" y="462" width="150" height="52" fill="#E3E8F2" rx="8" stroke="#3C5488" stroke-width="3"/>
+<text x="141" y="496" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">NB-ARC</text>
+<line x1="272" y1="462" x2="324" y2="514" stroke="#E64B35" stroke-width="9" stroke-linecap="round"/>
+<line x1="272" y1="514" x2="324" y2="462" stroke="#E64B35" stroke-width="9" stroke-linecap="round"/>
+<text x="64" y="594" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">单碎片疑假基因</text>
+<rect x="416" y="430" width="340" height="196" fill="#FFFFFF" rx="14" stroke="#E64B35" stroke-width="4"/>
+<rect x="444" y="462" width="108" height="52" fill="#E7F5F8" rx="8" stroke="#4DBBD5" stroke-width="3"/>
+<text x="498" y="496" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">LRR</text>
+<line x1="648" y1="462" x2="700" y2="514" stroke="#E64B35" stroke-width="9" stroke-linecap="round"/>
+<line x1="648" y1="514" x2="700" y2="462" stroke="#E64B35" stroke-width="9" stroke-linecap="round"/>
+<text x="436" y="594" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="start" font-weight="bold">游离天线无特异性</text>
+</svg>

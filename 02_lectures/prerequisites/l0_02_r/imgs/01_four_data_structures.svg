@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">R 的四种数据结构：容器之辨</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">向量 ｜ 数据框 ｜ 列表 ｜ 因子 —— 依据 l0_02 核心内容 §1</text>
+  <!-- 图例 -->
+  <rect x="926" y="44" width="12" height="12" fill="#4DBBD5"/>
+  <text x="944" y="54" font-size="12" fill="#33332E">同类型数值</text>
+  <rect x="926" y="62" width="12" height="12" fill="#F39B7F"/>
+  <text x="944" y="72" font-size="12" fill="#33332E">被污染成字符</text>
+  <rect x="926" y="80" width="12" height="12" fill="#00A087"/>
+  <text x="944" y="90" font-size="12" fill="#33332E">正确顺序</text>
+  <rect x="926" y="98" width="12" height="12" fill="#E64B35"/>
+  <text x="944" y="108" font-size="12" fill="#33332E">易错点</text>
+
+  <!-- ============ A 向量 ============ -->
+  <rect x="48" y="120" width="528" height="300" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="16" font-weight="bold" fill="#3C5488">vector · 向量</text>
+  <text x="72" y="178" font-size="12.5" fill="#6B6B66">一排试管装同一种液体：元素必须同类型</text>
+  <line x1="72" y1="192" x2="552" y2="192" stroke="#E9E9E5"/>
+
+  <text x="72" y="216" font-size="11.5" fill="#33332E">x &lt;- c(1.0, 2.3, 0.7, 1.8, 2.1)</text>
+  <rect x="96"  y="228" width="44" height="56" rx="8" fill="#4DBBD5"/>
+  <text x="118" y="261" font-size="10.5" fill="#FFFFFF" text-anchor="middle">1.0</text>
+  <rect x="166" y="228" width="44" height="56" rx="8" fill="#4DBBD5"/>
+  <text x="188" y="261" font-size="10.5" fill="#FFFFFF" text-anchor="middle">2.3</text>
+  <rect x="236" y="228" width="44" height="56" rx="8" fill="#4DBBD5"/>
+  <text x="258" y="261" font-size="10.5" fill="#FFFFFF" text-anchor="middle">0.7</text>
+  <rect x="306" y="228" width="44" height="56" rx="8" fill="#4DBBD5"/>
+  <text x="328" y="261" font-size="10.5" fill="#FFFFFF" text-anchor="middle">1.8</text>
+  <rect x="376" y="228" width="44" height="56" rx="8" fill="#4DBBD5"/>
+  <text x="398" y="261" font-size="10.5" fill="#FFFFFF" text-anchor="middle">2.1</text>
+  <text x="438" y="261" font-size="11" fill="#3C8DAD">全部 &lt;dbl&gt;</text>
+
+  <line x1="258" y1="290" x2="258" y2="308" stroke="#3C5488" stroke-width="2"/>
+  <polygon points="258,314 253,304 263,304" fill="#3C5488"/>
+  <text x="270" y="308" font-size="11.5" fill="#33332E">混进一个 “A”（比如列里混着 “-” 或 “1,234”）</text>
+
+  <rect x="96"  y="320" width="44" height="56" rx="8" fill="#F39B7F"/>
+  <text x="118" y="353" font-size="10.5" fill="#33332E" text-anchor="middle">“1.0”</text>
+  <rect x="166" y="320" width="44" height="56" rx="8" fill="#F39B7F"/>
+  <text x="188" y="353" font-size="10.5" fill="#33332E" text-anchor="middle">“2.3”</text>
+  <rect x="236" y="320" width="44" height="56" rx="8" fill="#F39B7F"/>
+  <text x="258" y="353" font-size="10.5" fill="#33332E" text-anchor="middle">“A”</text>
+  <rect x="306" y="320" width="44" height="56" rx="8" fill="#F39B7F"/>
+  <text x="328" y="353" font-size="10.5" fill="#33332E" text-anchor="middle">“1.8”</text>
+  <rect x="376" y="320" width="44" height="56" rx="8" fill="#F39B7F"/>
+  <text x="398" y="353" font-size="10.5" fill="#33332E" text-anchor="middle">“2.1”</text>
+  <text x="438" y="353" font-size="11" font-weight="bold" fill="#E64B35">整排变 &lt;chr&gt;</text>
+
+  <text x="72" y="396" font-size="12" fill="#33332E">数值运算、画图排序全变味：10 会排在 9 前面</text>
+  <text x="72" y="414" font-size="11" fill="#6B6B66">生信里是：一列表达值、一列 contig 长度</text>
+
+  <!-- ============ B 数据框 ============ -->
+  <rect x="600" y="120" width="552" height="300" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="624" y="156" font-size="16" font-weight="bold" fill="#3C5488">data.frame / tibble · 数据框</text>
+  <text x="624" y="178" font-size="12.5" fill="#6B6B66">一张规范表格：行 = 观测，列 = 变量</text>
+  <line x1="624" y1="192" x2="1128" y2="192" stroke="#E9E9E5"/>
+
+  <rect x="624" y="216" width="504" height="28" fill="#3C5488"/>
+  <text x="687"  y="235" font-size="11.5" fill="#FFFFFF" text-anchor="middle">sample</text>
+  <text x="813"  y="235" font-size="11.5" fill="#FFFFFF" text-anchor="middle">group</text>
+  <text x="939"  y="235" font-size="11.5" fill="#FFFFFF" text-anchor="middle">reads_M</text>
+  <text x="1065" y="235" font-size="11.5" fill="#FFFFFF" text-anchor="middle">q30_pct</text>
+  <rect x="624" y="244" width="504" height="20" fill="#FAFAF7"/>
+  <text x="687"  y="258" font-size="10" fill="#6B6B66" text-anchor="middle">&lt;chr&gt;</text>
+  <text x="813"  y="258" font-size="10" fill="#6B6B66" text-anchor="middle">&lt;chr&gt;</text>
+  <text x="939"  y="258" font-size="10" fill="#6B6B66" text-anchor="middle">&lt;dbl&gt;</text>
+  <text x="1065" y="258" font-size="10" fill="#6B6B66" text-anchor="middle">&lt;dbl&gt;</text>
+  <rect x="624" y="264" width="504" height="28" fill="#FFFFFF"/>
+  <text x="687"  y="282" font-size="11" fill="#33332E" text-anchor="middle">S01</text>
+  <text x="813"  y="282" font-size="11" fill="#33332E" text-anchor="middle">control</text>
+  <text x="939"  y="282" font-size="11" fill="#33332E" text-anchor="middle">22.4</text>
+  <text x="1065" y="282" font-size="11" fill="#33332E" text-anchor="middle">93.1</text>
+  <rect x="624" y="292" width="504" height="28" fill="#FFFFFF"/>
+  <text x="687"  y="310" font-size="11" fill="#33332E" text-anchor="middle">S02</text>
+  <text x="813"  y="310" font-size="11" fill="#33332E" text-anchor="middle">treat</text>
+  <text x="939"  y="310" font-size="11" fill="#33332E" text-anchor="middle">25.1</text>
+  <text x="1065" y="310" font-size="11" fill="#33332E" text-anchor="middle">89.8</text>
+  <rect x="624" y="320" width="504" height="28" fill="#FFFFFF"/>
+  <text x="687"  y="338" font-size="11" fill="#33332E" text-anchor="middle">S03</text>
+  <text x="813"  y="338" font-size="11" fill="#33332E" text-anchor="middle">treat</text>
+  <text x="939"  y="338" font-size="11" fill="#33332E" text-anchor="middle">27.9</text>
+  <text x="1065" y="338" font-size="11" fill="#33332E" text-anchor="middle">91.5</text>
+  <line x1="750"  y1="216" x2="750"  y2="348" stroke="#E9E9E5"/>
+  <line x1="876"  y1="216" x2="876"  y2="348" stroke="#E9E9E5"/>
+  <line x1="1002" y1="216" x2="1002" y2="348" stroke="#E9E9E5"/>
+  <line x1="624" y1="244" x2="1128" y2="244" stroke="#E9E9E5"/>
+  <line x1="624" y1="264" x2="1128" y2="264" stroke="#E9E9E5"/>
+  <line x1="624" y1="292" x2="1128" y2="292" stroke="#E9E9E5"/>
+  <line x1="624" y1="320" x2="1128" y2="320" stroke="#E9E9E5"/>
+  <rect x="624" y="216" width="504" height="132" fill="none" stroke="#3C5488" stroke-width="1.5"/>
+
+  <text x="624" y="372" font-size="12" font-weight="bold" fill="#3C5488">行 = 观测（一行一个样本）</text>
+  <text x="880" y="372" font-size="12" font-weight="bold" fill="#3C5488">列 = 变量（列内同类型）</text>
+  <text x="624" y="394" font-size="11" fill="#6B6B66">各列之间可以是不同类型，但所有列必须等长——Excel 的手感，R 的规矩</text>
+  <text x="624" y="414" font-size="11" fill="#6B6B66">glimpse() 随时查类型：&lt;int&gt; &lt;dbl&gt; &lt;chr&gt; &lt;fct&gt;——这是 counts 表、样本信息表的样子</text>
+
+  <!-- ============ C 列表 ============ -->
+  <rect x="48" y="440" width="528" height="300" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="476" font-size="16" font-weight="bold" fill="#3C5488">list · 列表</text>
+  <text x="72" y="498" font-size="12.5" fill="#6B6B66">杂物箱：什么都能装，可嵌套</text>
+  <line x1="72" y1="512" x2="552" y2="512" stroke="#E9E9E5"/>
+
+  <rect x="96" y="528" width="290" height="150" fill="#FAFAF7" stroke="#3C5488" stroke-width="1.5"/>
+  <text x="108" y="548" font-size="10.5" fill="#3C5488">res（一个 DESeq2 结果对象）</text>
+  <rect x="108" y="558" width="120" height="20" rx="4" fill="#4DBBD5"/>
+  <text x="168" y="572" font-size="9.5" fill="#FFFFFF" text-anchor="middle">log2FC 数值</text>
+  <rect x="240" y="558" width="70" height="20" rx="4" fill="#F39B7F"/>
+  <text x="275" y="572" font-size="10" fill="#33332E" text-anchor="middle">2.718</text>
+  <rect x="108" y="588" width="120" height="44" fill="#FFFFFF" stroke="#3C5488"/>
+  <text x="168" y="614" font-size="9.5" fill="#33332E" text-anchor="middle">结果表</text>
+  <rect x="240" y="588" width="70" height="20" rx="4" fill="#F39B7F"/>
+  <text x="275" y="602" font-size="10" fill="#33332E" text-anchor="middle">“treat”</text>
+  <rect x="240" y="618" width="132" height="50" fill="#FFFFFF" stroke="#8491B4" stroke-dasharray="4 3"/>
+  <text x="252" y="636" font-size="9.5" fill="#33332E">meta（又是 list）</text>
+  <rect x="252" y="644" width="108" height="16" fill="none" stroke="#8491B4"/>
+  <text x="306" y="656" font-size="8.5" fill="#6B6B66" text-anchor="middle">…可继续嵌套</text>
+
+  <text x="402" y="566" font-size="15" font-weight="bold" fill="#3C5488">$ 与 [[ ]]</text>
+  <text x="402" y="594" font-size="11" fill="#33332E">res$log2FC</text>
+  <text x="402" y="614" font-size="11" fill="#33332E">res[["results"]]</text>
+  <text x="402" y="640" font-size="10.5" fill="#6B6B66">取子对象全靠它</text>
+
+  <text x="72" y="706" font-size="11.5" fill="#6B6B66">DESeq2 / Seurat 返回的分析对象就是列表——看不懂 $ 与 [[ ]]，就看不懂任何一行示例代码</text>
+
+  <!-- ============ D 因子 ============ -->
+  <rect x="600" y="440" width="552" height="300" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="624" y="476" font-size="16" font-weight="bold" fill="#3C5488">factor · 因子</text>
+  <text x="624" y="498" font-size="12.5" fill="#6B6B66">预印好顺序的标签贴纸：levels 决定图上出场顺序</text>
+  <line x1="624" y1="512" x2="1128" y2="512" stroke="#E9E9E5"/>
+
+  <text x="624" y="540" font-size="12" font-weight="bold" fill="#E64B35">字符列：默认按字母序（乱）</text>
+  <rect x="624" y="552" width="88"  height="30" rx="6" fill="#FAFAF7" stroke="#E64B35" stroke-dasharray="4 3"/>
+  <text x="668" y="572" font-size="11" fill="#33332E" text-anchor="middle">Duplicated</text>
+  <rect x="722" y="552" width="92"  height="30" rx="6" fill="#FAFAF7" stroke="#E64B35" stroke-dasharray="4 3"/>
+  <text x="768" y="572" font-size="11" fill="#33332E" text-anchor="middle">Fragmented</text>
+  <rect x="824" y="552" width="70"  height="30" rx="6" fill="#FAFAF7" stroke="#E64B35" stroke-dasharray="4 3"/>
+  <text x="859" y="572" font-size="11" fill="#33332E" text-anchor="middle">Missing</text>
+  <rect x="904" y="552" width="90"  height="30" rx="6" fill="#FAFAF7" stroke="#E64B35" stroke-dasharray="4 3"/>
+  <text x="949" y="572" font-size="11" fill="#33332E" text-anchor="middle">Single-copy</text>
+
+  <text x="624" y="622" font-size="12" font-weight="bold" fill="#00A087">factor(x, levels = c(...))：按内在顺序（对）</text>
+  <rect x="624" y="634" width="96"  height="30" rx="6" fill="#00A087"/>
+  <text x="672" y="654" font-size="11" fill="#FFFFFF" text-anchor="middle">Single-copy</text>
+  <rect x="730" y="634" width="92"  height="30" rx="6" fill="#00A087"/>
+  <text x="776" y="654" font-size="11" fill="#FFFFFF" text-anchor="middle">Duplicated</text>
+  <rect x="832" y="634" width="96"  height="30" rx="6" fill="#00A087"/>
+  <text x="880" y="654" font-size="11" fill="#FFFFFF" text-anchor="middle">Fragmented</text>
+  <rect x="938" y="634" width="72"  height="30" rx="6" fill="#00A087"/>
+  <text x="974" y="654" font-size="11" fill="#FFFFFF" text-anchor="middle">Missing</text>
+
+  <text x="624" y="696" font-size="11.5" fill="#33332E">BUSCO 四类图、分组图顺序乱，九成是没设 levels</text>
+  <text x="624" y="718" font-size="11" fill="#6B6B66">filter 之后多余的水平还留在 levels 里：droplevels() 收拾</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

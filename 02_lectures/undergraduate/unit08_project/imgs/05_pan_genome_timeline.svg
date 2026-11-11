@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">泛基因组：从概念到作物病原监测</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">里程碑时间线 ｜ 年份取自本讲引用文献 —— 依据 08_project_lecture.md ③、⑪参考资料</text>
+  <!-- 图例 -->
+  <rect x="840" y="42" width="12" height="12" fill="#3C5488"/>
+  <text x="860" y="52" font-size="12" fill="#33332E">领域里程碑</text>
+  <rect x="840" y="59" width="12" height="12" fill="#00A087"/>
+  <text x="860" y="69" font-size="12" fill="#33332E">你的位置（本项目）</text>
+  <rect x="840" y="76" width="12" height="12" fill="#E64B35"/>
+  <text x="860" y="86" font-size="12" fill="#33332E">军备竞赛警示</text>
+
+  <!-- ============ 主面板 ============ -->
+  <rect x="48" y="124" width="1104" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="158" font-size="17" font-weight="bold" fill="#3C5488">从概念到监测：泛基因组这十八年</text>
+
+  <!-- 时间轴 -->
+  <line x1="90" y1="430" x2="1102" y2="430" stroke="#6B6B66" stroke-width="2"/>
+  <polygon points="1102,424 1116,430 1102,436" fill="#6B6B66"/>
+  <!-- 节点 -->
+  <circle cx="195" cy="430" r="6" fill="#3C5488"/>
+  <circle cx="455" cy="430" r="6" fill="#3C5488"/>
+  <circle cx="715" cy="430" r="6" fill="#3C5488"/>
+  <circle cx="995" cy="430" r="6" fill="#00A087"/>
+  <!-- 连接线 -->
+  <line x1="195" y1="360" x2="195" y2="424" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="715" y1="360" x2="715" y2="424" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="455" y1="436" x2="455" y2="500" stroke="#6B6B66" stroke-width="1.2"/>
+  <line x1="995" y1="436" x2="995" y2="500" stroke="#00A087" stroke-width="1.2"/>
+
+  <!-- 2008 卡（上） -->
+  <rect x="80" y="190" width="230" height="170" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="96" y="224" font-size="22" font-weight="bold" fill="#3C5488">2008</text>
+  <text x="96" y="250" font-size="12.5" font-weight="bold" fill="#3C5488">概念：细菌泛基因组</text>
+  <line x1="96" y1="262" x2="294" y2="262" stroke="#E9E9E5"/>
+  <text x="96" y="286" font-size="10.5" fill="#33332E">Tettelin 等提出框架：物种的</text>
+  <text x="96" y="306" font-size="10.5" fill="#33332E">基因全集 = 核心 + 附属，</text>
+  <text x="96" y="326" font-size="10.5" fill="#33332E">同一物种的基因组并不相同。</text>
+  <text x="96" y="348" font-size="9.5" fill="#6B6B66">Curr. Opin. Microbiol.</text>
+
+  <!-- 2016 卡（上） -->
+  <rect x="600" y="190" width="230" height="170" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="616" y="224" font-size="22" font-weight="bold" fill="#3C5488">2016</text>
+  <text x="616" y="250" font-size="12.5" font-weight="bold" fill="#3C5488">监测：田间记录</text>
+  <line x1="616" y1="262" x2="814" y2="262" stroke="#E9E9E5"/>
+  <text x="616" y="286" font-size="10.5" fill="#33332E">Quibod 等总结菲律宾长期监测：新品</text>
+  <text x="616" y="306" font-size="10.5" fill="#33332E">种推广若干年后，被"恰好绕过它"的</text>
+  <text x="616" y="326" font-size="10.5" fill="#33332E">效应子组合<tspan fill="#E64B35" font-weight="bold">反超</tspan>——水稻与 Xoo 的</text>
+  <text x="616" y="346" font-size="10.5" fill="#33332E">军备竞赛。Sci. Rep. 6:34137</text>
+
+  <!-- 2015 卡（下） -->
+  <rect x="340" y="500" width="230" height="170" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="356" y="534" font-size="22" font-weight="bold" fill="#3C5488">2015</text>
+  <text x="356" y="560" font-size="12.5" font-weight="bold" fill="#3C5488">工具：Roary</text>
+  <line x1="356" y1="572" x2="554" y2="572" stroke="#E9E9E5"/>
+  <text x="356" y="596" font-size="10.5" fill="#33332E">Page 等发布 Roary：从 Prokka</text>
+  <text x="356" y="616" font-size="10.5" fill="#33332E">.gff 出发，几小时算完 core /</text>
+  <text x="356" y="636" font-size="10.5" fill="#33332E">accessory——本项目 M6 用的</text>
+  <text x="356" y="656" font-size="10.5" fill="#33332E">就是它。</text>
+
+  <!-- 现在 卡（下） -->
+  <rect x="880" y="500" width="230" height="170" rx="10" fill="#FFFFFF" stroke="#00A087" stroke-width="1.5"/>
+  <rect x="880" y="500" width="4" height="170" rx="2" fill="#00A087"/>
+  <text x="1000" y="522" font-size="11" font-weight="bold" fill="#00A087" text-anchor="end">你在这里</text>
+  <text x="896" y="544" font-size="22" font-weight="bold" fill="#00A087">现在</text>
+  <text x="896" y="570" font-size="12.5" font-weight="bold" fill="#3C5488">你的项目：群体快照</text>
+  <line x1="896" y1="582" x2="1094" y2="582" stroke="#E9E9E5"/>
+  <text x="896" y="606" font-size="10.5" fill="#33332E">主线数据 = 西非 Xoo 群体快照</text>
+  <text x="896" y="626" font-size="10.5" fill="#33332E">（PRJEB100987）；你这三天的</text>
+  <text x="896" y="646" font-size="10.5" fill="#33332E">六模块流水线 = 这条监测体系</text>
+  <text x="896" y="666" font-size="10.5" fill="#33332E">的最小闭环。</text>
+
+  <!-- ============ 结语与页脚 ============ -->
+  <text x="48" y="736" font-size="13.5" font-weight="bold" fill="#3C5488">育种端据此在抗性被绕过之前轮换或聚合抗病基因——core / accessory 清单就是逐年对比的决策依据。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

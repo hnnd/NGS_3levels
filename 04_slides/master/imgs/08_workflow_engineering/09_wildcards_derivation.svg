@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="24" width="640" height="118" fill="#D6EFF4" rx="14" stroke="#4DBBD5" stroke-width="4"/>
+<text x="66" y="62" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">目标文件名出发</text>
+<text x="66" y="116.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">results/clean/CK_1_1.fq.gz</text>
+<rect x="40" y="150" width="640" height="118" fill="#FFFFFF" rx="14" stroke="#4DBBD5" stroke-width="4"/>
+<text x="66" y="188" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">模式匹配反解变量</text>
+<text x="66" y="226.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">{sample}_1.fq.gz</text>
+<text x="66" y="259.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">sample=CK_1</text>
+<rect x="40" y="276" width="640" height="118" fill="#D6EFF4" rx="14" stroke="#4DBBD5" stroke-width="4"/>
+<text x="66" y="314" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="start" font-weight="bold">代回输入递归向上</text>
+<text x="66" y="368.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">data/reads/CK_1_1.fq.gz</text>
+<line x1="56" y1="142" x2="56" y2="148" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="56,148 51.10687456328516,137.0429327162523 60.89312543671484,137.0429327162523" fill="#4DBBD5"/>
+<line x1="56" y1="268" x2="56" y2="274" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="56,274 51.10687456328516,263.0429327162523 60.89312543671484,263.0429327162523" fill="#4DBBD5"/>
+<line x1="56" y1="394" x2="56" y2="400" stroke="#4DBBD5" stroke-width="5" stroke-linecap="round"/>
+<polygon points="56,400 51.10687456328516,389.0429327162523 60.89312543671484,389.0429327162523" fill="#4DBBD5"/>
+<rect x="40" y="412" width="300" height="104" fill="#D8EEE9" rx="14" stroke="#00A087" stroke-width="4"/>
+<text x="190" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#00A087" text-anchor="middle" font-weight="bold">exists</text>
+<text x="190" y="496" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">run job</text>
+<rect x="380" y="412" width="300" height="104" fill="#FFFFFF" rx="14" stroke="#E64B35" stroke-width="4"/>
+<text x="530" y="456" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">MissingInput</text>
+<text x="530" y="496" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">Exception</text>
+<text x="400" y="600" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#E64B35" text-anchor="middle" font-weight="bold">绝不扫描目录</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="90" width="200" height="200" fill="#FFFFFF" rx="12" stroke="#3C5488" stroke-width="5"/>
+<text x="140" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">cts 矩阵</text>
+<text x="66" y="152" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">s1</text>
+<text x="124" y="152" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">s2</text>
+<text x="182" y="152" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">s3</text>
+<rect x="44" y="164" width="50" height="28" fill="#E9E9E5"/>
+<rect x="102" y="164" width="50" height="28" fill="#E9E9E5"/>
+<rect x="160" y="164" width="50" height="28" fill="#E9E9E5"/>
+<rect x="44" y="194" width="50" height="28" fill="#E9E9E5"/>
+<rect x="102" y="194" width="50" height="28" fill="#E9E9E5"/>
+<rect x="160" y="194" width="50" height="28" fill="#E9E9E5"/>
+<rect x="44" y="224" width="50" height="28" fill="#E9E9E5"/>
+<rect x="102" y="224" width="50" height="28" fill="#E9E9E5"/>
+<rect x="160" y="224" width="50" height="28" fill="#E9E9E5"/>
+<text x="140" y="278" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">colnames</text>
+<rect x="520" y="90" width="200" height="200" fill="#FFFFFF" rx="12" stroke="#8491B4" stroke-width="5"/>
+<text x="620" y="130" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#8491B4" text-anchor="middle" font-weight="bold">coldata</text>
+<text x="546" y="152" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">s1</text>
+<text x="604" y="152" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">s2</text>
+<text x="662" y="152" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">s3</text>
+<rect x="534" y="164" width="172" height="28" fill="#E6E9F0"/>
+<text x="620" y="188" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">K 组</text>
+<rect x="534" y="194" width="172" height="28" fill="#E6E9F0"/>
+<text x="620" y="218" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">K 组</text>
+<rect x="534" y="224" width="172" height="28" fill="#E6E9F0"/>
+<text x="620" y="248" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">N 组</text>
+<text x="620" y="278" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">rownames</text>
+<rect x="268" y="120" width="224" height="150" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="5"/>
+<path d="M 290 142 L 316 188 M 316 142 L 290 188" fill="none" stroke="#E64B35" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="380" y="168" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">顺序</text>
+<text x="380" y="208" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">不一致</text>
+<text x="380" y="252" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">静默 · 全错</text>
+<rect x="60" y="350" width="420" height="76" fill="#FFFFFF" rx="12" stroke="#F39B7F" stroke-width="5"/>
+<circle cx="104" cy="388" r="22" fill="#F39B7F"/>
+<text x="104" y="398" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<text x="320" y="384" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">anyDuplicated()</text>
+<text x="320" y="416" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">检查重复名称</text>
+<line x1="486" y1="388" x2="540" y2="388" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="540,388 528.12984377594,393.3008858897744 528.12984377594,382.6991141102256" fill="#00A087"/>
+<circle cx="572" cy="388" r="24" fill="#00A087"/>
+<polyline points="560,388 569,395 586,375" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="60" y="438" width="420" height="76" fill="#FFFFFF" rx="12" stroke="#F39B7F" stroke-width="5"/>
+<circle cx="104" cy="476" r="22" fill="#F39B7F"/>
+<text x="104" y="486" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<text x="320" y="472" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">setdiff() 双向</text>
+<text x="320" y="504" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">双侧集合比对</text>
+<line x1="486" y1="476" x2="540" y2="476" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="540,476 528.12984377594,481.3008858897744 528.12984377594,470.6991141102256" fill="#00A087"/>
+<circle cx="572" cy="476" r="24" fill="#00A087"/>
+<polyline points="560,476 569,483 586,463" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="60" y="526" width="420" height="76" fill="#FFFFFF" rx="12" stroke="#3C8DAD" stroke-width="5"/>
+<circle cx="104" cy="564" r="22" fill="#3C8DAD"/>
+<text x="104" y="574" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="320" y="560" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">coldata[colnames, ]</text>
+<text x="320" y="592" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">显式强制重排</text>
+<line x1="486" y1="564" x2="540" y2="564" stroke="#00A087" stroke-width="5" stroke-linecap="round"/>
+<polygon points="540,564 528.12984377594,569.3008858897745 528.12984377594,558.6991141102255" fill="#00A087"/>
+<circle cx="572" cy="564" r="24" fill="#00A087"/>
+<polyline points="560,564 569,571 586,551" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="60" y="628" width="660" height="62" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="5"/>
+<text x="360" y="671" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">终极一致性断言</text>
+<text x="620" y="671" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">stopifnot()</text>
+</svg>

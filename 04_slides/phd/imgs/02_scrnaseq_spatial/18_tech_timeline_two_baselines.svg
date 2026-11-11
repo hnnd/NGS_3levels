@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Two technology tracks and two fixed baselines</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="40" y="96" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">SPATIAL</text>
+<line x1="60" y1="150" x2="740" y2="150" stroke="#3C5488" stroke-width="4" stroke-linecap="butt"/>
+<rect x="117.4" y="123.0" width="125.19999999999999" height="54" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="4"/>
+<text x="180.0" y="160.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">Visium</text>
+<rect x="304.70000000000005" y="123.0" width="190.59999999999997" height="54" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="4"/>
+<text x="400.0" y="160.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">Stereo-seq</text>
+<rect x="557.4" y="123.0" width="125.19999999999999" height="54" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="4"/>
+<text x="620.0" y="160.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle">Xenium</text>
+<text x="40" y="236" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">SINGLE CELL</text>
+<line x1="60" y1="290" x2="740" y2="290" stroke="#3C8DAD" stroke-width="4" stroke-linecap="butt"/>
+<rect x="100.30000000000001" y="263.0" width="159.39999999999998" height="54" fill="#FFFFFF" rx="10" stroke="#3C8DAD" stroke-width="4"/>
+<text x="180.0" y="300.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle">Drop-seq</text>
+<rect x="321.8" y="263.0" width="156.39999999999998" height="54" fill="#FFFFFF" rx="10" stroke="#3C8DAD" stroke-width="4"/>
+<text x="400.0" y="300.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle">Chromium</text>
+<rect x="561.6" y="263.0" width="116.80000000000001" height="54" fill="#FFFFFF" rx="10" stroke="#3C8DAD" stroke-width="4"/>
+<text x="620.0" y="300.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle">scGPT</text>
+<text x="70" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">2015</text>
+<text x="400" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">2020</text>
+<text x="730" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">2026</text>
+<rect x="40" y="386" width="460" height="52" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="3"/>
+<text x="56" y="421" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">UNIT = INDIVIDUAL</text>
+<rect x="40" y="456" width="460" height="52" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="3"/>
+<text x="56" y="491" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">ANNOT = SPECIES PRIOR</text>
+<line x1="546" y1="378" x2="546" y2="514" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="536" y1="378" x2="556" y2="378" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="536" y1="514" x2="556" y2="514" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<text x="574" y="454" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">UNCHANGED</text>
+<rect x="28.0" y="540" width="744" height="128" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="590" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">全转录组探索，靶向成像验证。</text>
+<text x="400.0" y="636" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">模型变大，统计单位与注释底线不变。</text>
+</svg>

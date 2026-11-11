@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="96" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">漏检率 q=1% 下真核心误失率</text>
+<line x1="90" y1="560.0" x2="740" y2="560.0" stroke="#33332E" stroke-width="5" stroke-linecap="butt"/>
+<rect x="80" y="410.0" width="140" height="150" fill="#E64B35" rx="6"/>
+<text x="150" y="388.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">k=0 误失 11.36%</text>
+<text x="150" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">k=0</text>
+<rect x="330" y="539.4182074239175" width="140" height="20.58179257608249" fill="#00A087" rx="6"/>
+<text x="400" y="517.4182074239175" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">k=1 降至 0.62%</text>
+<text x="400" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">k=1</text>
+<rect x="550" y="552.0" width="140" height="8" fill="#8491B4" rx="6"/>
+<text x="620" y="604.0" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">k=2</text>
+<line x1="240" y1="250" x2="330" y2="500" stroke="#6B6B66" stroke-width="5" stroke-linecap="butt" stroke-dasharray="12 10"/>
+<polygon points="330,500 312,474 336,462" fill="#6B6B66"/>
+<text x="262" y="350" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#6B6B66" text-anchor="middle" font-weight="bold">18×</text>
+<text x="400" y="656" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">放宽阈值对抗注释漏检</text>
+</svg>

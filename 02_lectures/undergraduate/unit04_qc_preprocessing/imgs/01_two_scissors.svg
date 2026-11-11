@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">修剪的两把剪刀：adapter trim 与 quality trim</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">接头按内容剪 ｜ 低 Q 尾按质量剪 —— 依据 04_qc_preprocessing_lecture.md ④4.4</text>
+  <!-- 图例 -->
+  <rect x="926" y="34" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="45" font-size="12" fill="#33332E">接头（外来序列）</text>
+  <rect x="926" y="56" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="67" font-size="12" fill="#33332E">自身正常序列</text>
+  <rect x="926" y="78" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="89" font-size="12" fill="#33332E">末端低 Q（递减）</text>
+  <rect x="926" y="100" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="111" font-size="12" fill="#33332E">不剪的后果</text>
+
+  <!-- ============ 内容面板 ============ -->
+  <rect x="48" y="130" width="1104" height="586" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- 剪刀 ① -->
+  <text x="286" y="168" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">剪刀 ① adapter trim</text>
+  <text x="286" y="188" font-size="11.5" fill="#6B6B66" text-anchor="middle">判据=序列内容：Q 再高的接头也切</text>
+  <line x1="270" y1="206" x2="292" y2="236" stroke="#3C5488" stroke-width="2.2"/>
+  <line x1="302" y1="206" x2="280" y2="236" stroke="#3C5488" stroke-width="2.2"/>
+  <circle cx="268" cy="204" r="4.5" fill="none" stroke="#3C5488" stroke-width="2"/>
+  <circle cx="304" cy="204" r="4.5" fill="none" stroke="#3C5488" stroke-width="2"/>
+  <circle cx="286" cy="221" r="2.2" fill="#3C5488"/>
+  <line x1="286" y1="242" x2="286" y2="316" stroke="#6B6B66" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- 剪刀 ② -->
+  <text x="828" y="168" font-size="14" font-weight="bold" fill="#3C5488" text-anchor="middle">剪刀 ② quality trim</text>
+  <text x="828" y="188" font-size="11.5" fill="#6B6B66" text-anchor="middle">判据=Q 值：--cut_tail 滑窗，均值 &lt;Q20 就切</text>
+  <line x1="812" y1="206" x2="834" y2="236" stroke="#3C5488" stroke-width="2.2"/>
+  <line x1="844" y1="206" x2="822" y2="236" stroke="#3C5488" stroke-width="2.2"/>
+  <circle cx="810" cy="204" r="4.5" fill="none" stroke="#3C5488" stroke-width="2"/>
+  <circle cx="846" cy="204" r="4.5" fill="none" stroke="#3C5488" stroke-width="2"/>
+  <circle cx="828" cy="221" r="2.2" fill="#3C5488"/>
+  <line x1="828" y1="242" x2="828" y2="316" stroke="#6B6B66" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- 读序横条：接头 + 正常 + 低 Q 尾 -->
+  <rect x="120" y="250" width="166" height="52" rx="6" fill="#4DBBD5"/>
+  <text x="203" y="282" font-size="13" fill="#FFFFFF" text-anchor="middle">AGATCGGAAGAGC</text>
+  <rect x="286" y="250" width="28" height="52" fill="#00A087"/>
+  <rect x="314.5" y="250" width="28" height="52" fill="#33B39D"/>
+  <rect x="343" y="250" width="28" height="52" fill="#00A087"/>
+  <rect x="371.5" y="250" width="28" height="52" fill="#33B39D"/>
+  <rect x="400" y="250" width="28" height="52" fill="#00A087"/>
+  <rect x="428.5" y="250" width="28" height="52" fill="#33B39D"/>
+  <rect x="457" y="250" width="28" height="52" fill="#00A087"/>
+  <rect x="485.5" y="250" width="28" height="52" fill="#33B39D"/>
+  <rect x="514" y="250" width="28" height="52" fill="#00A087"/>
+  <rect x="542.5" y="250" width="28" height="52" fill="#33B39D"/>
+  <rect x="571" y="250" width="28" height="52" fill="#00A087"/>
+  <rect x="599.5" y="250" width="28" height="52" fill="#33B39D"/>
+  <rect x="628" y="250" width="28" height="52" fill="#00A087"/>
+  <rect x="656.5" y="250" width="28" height="52" fill="#33B39D"/>
+  <rect x="685" y="250" width="28" height="52" fill="#00A087"/>
+  <rect x="713.5" y="250" width="28" height="52" fill="#33B39D"/>
+  <rect x="742" y="250" width="28" height="52" fill="#00A087"/>
+  <rect x="770.5" y="250" width="28" height="52" fill="#33B39D"/>
+  <rect x="799" y="250" width="28" height="52" fill="#00A087"/>
+  <rect x="828"  y="250" width="31" height="52" fill="#F39B7F"/>
+  <rect x="859"  y="250" width="31" height="52" fill="#F5AC95"/>
+  <rect x="890"  y="250" width="31" height="52" fill="#F7BDAB"/>
+  <rect x="921"  y="250" width="31" height="52" fill="#F9CDC1"/>
+  <rect x="952"  y="250" width="31" height="52" fill="#FADDD4"/>
+  <rect x="983"  y="250" width="31" height="52" fill="#FBEAE3"/>
+  <rect x="1014" y="250" width="31" height="52" fill="#FCEFE9"/>
+  <rect x="1045" y="250" width="35" height="52" fill="#FDF6F2"/>
+  <text x="843"  y="281" font-size="10" fill="#33332E" text-anchor="middle">24</text>
+  <text x="874"  y="281" font-size="10" fill="#33332E" text-anchor="middle">20</text>
+  <text x="905"  y="281" font-size="10" fill="#33332E" text-anchor="middle">17</text>
+  <text x="936"  y="281" font-size="10" fill="#33332E" text-anchor="middle">14</text>
+  <text x="967"  y="281" font-size="10" fill="#33332E" text-anchor="middle">11</text>
+  <text x="998"  y="281" font-size="10" fill="#33332E" text-anchor="middle">9</text>
+  <text x="1029" y="281" font-size="10" fill="#33332E" text-anchor="middle">7</text>
+  <text x="1062" y="281" font-size="10" fill="#33332E" text-anchor="middle">5</text>
+
+  <!-- 分段标注 -->
+  <text x="203" y="330" font-size="11" fill="#3C8DAD" text-anchor="middle">接头：不属于样本的外来序列</text>
+  <text x="557" y="330" font-size="11" fill="#00A087" text-anchor="middle">自身序列，质量达标</text>
+  <text x="954" y="330" font-size="11" fill="#6B6B66" text-anchor="middle">末端 Q 值衰减（相位偏移累积）</text>
+
+  <!-- 关键句 -->
+  <text x="600" y="368" font-size="13" font-weight="bold" fill="#3C5488" text-anchor="middle">接头是「多出来的错内容」，低 Q 尾是「读坏的真内容」——前者按内容剪，后者按质量剪</text>
+
+  <!-- 清洗后保留 -->
+  <rect x="286" y="396" width="542" height="40" rx="6" fill="#00A087"/>
+  <text x="557" y="421" font-size="12.5" fill="#FFFFFF" text-anchor="middle">清洗后保留的 clean read</text>
+  <!-- 剪下丢弃 -->
+  <rect x="120" y="456" width="166" height="32" rx="6" fill="#4DBBD5" opacity="0.35"/>
+  <rect x="120" y="456" width="166" height="32" rx="6" fill="none" stroke="#4DBBD5" stroke-dasharray="4 3"/>
+  <text x="203" y="477" font-size="11" fill="#6B6B66" text-anchor="middle">剪下丢弃</text>
+  <rect x="828" y="456" width="252" height="32" rx="6" fill="#F39B7F" opacity="0.35"/>
+  <rect x="828" y="456" width="252" height="32" rx="6" fill="none" stroke="#F39B7F" stroke-dasharray="4 3"/>
+  <text x="954" y="477" font-size="11" fill="#6B6B66" text-anchor="middle">剪下丢弃</text>
+
+  <!-- 红色警示：不剪的后果 -->
+  <rect x="150" y="520" width="900" height="66" rx="8" fill="#FDF2F0" stroke="#E64B35" stroke-width="1.6"/>
+  <text x="170" y="546" font-size="13" font-weight="bold" fill="#E64B35">不剪的后果（③「垃圾进垃圾出」）</text>
+  <text x="170" y="572" font-size="12.5" fill="#33332E">接头残留 → 比对不上或被软剪切掉一大截，比对率下降；低 Q 尾 → Q10 时每 10 个碱基错 1 个，低深度位点被当成真实 SNP（假变异）</text>
+
+  <!-- 两把剪刀对照 -->
+  <rect x="120" y="610" width="460" height="96" rx="8" fill="#FAFAF7"/>
+  <rect x="120" y="610" width="4" height="96" rx="2" fill="#3C5488"/>
+  <text x="140" y="636" font-size="13" font-weight="bold" fill="#3C5488">adapter trim · 按内容剪</text>
+  <text x="140" y="660" font-size="11.5" fill="#33332E">切：本来就不属于样本的外来序列</text>
+  <text x="140" y="680" font-size="11.5" fill="#33332E">病因：文库片段比读长短，测穿到另一端</text>
+  <text x="140" y="700" font-size="11.5" fill="#33332E">fastp：--detect_adapter_for_pe</text>
+  <rect x="620" y="610" width="460" height="96" rx="8" fill="#FAFAF7"/>
+  <rect x="620" y="610" width="4" height="96" rx="2" fill="#3C5488"/>
+  <text x="640" y="636" font-size="13" font-weight="bold" fill="#3C5488">quality trim · 按质量剪</text>
+  <text x="640" y="660" font-size="11.5" fill="#33332E">切：属于样本、但被读错的自身序列</text>
+  <text x="640" y="680" font-size="11.5" fill="#33332E">病因：末端相位偏移，Q 值衰减</text>
+  <text x="640" y="700" font-size="11.5" fill="#33332E">fastp：--cut_tail（窗口均值 &lt;Q20）</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

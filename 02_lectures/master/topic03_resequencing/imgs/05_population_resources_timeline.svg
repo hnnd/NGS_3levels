@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">群体重测序与群体资源里程碑</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">人类群体资源 ｜ 方法与作物应用 —— 依据 03_resequencing_lecture.md §3.4 / §4.9 / §6.2.5</text>
+  <!-- 图例 -->
+  <rect x="912" y="34" width="12" height="12" fill="#F39B7F"/>
+  <text x="932" y="44" font-size="12" fill="#33332E">人类群体资源</text>
+  <rect x="912" y="56" width="12" height="12" fill="#4DBBD5"/>
+  <text x="932" y="66" font-size="12" fill="#33332E">方法与作物应用</text>
+  <rect x="912" y="78" width="12" height="12" fill="#E64B35"/>
+  <text x="932" y="88" font-size="12" fill="#33332E">关键：基准真集</text>
+
+  <!-- ============ 面板 ============ -->
+  <rect x="48" y="118" width="1104" height="546" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+
+  <!-- 时间轴 -->
+  <line x1="100" y1="400" x2="1064" y2="400" stroke="#3C5488" stroke-width="3"/>
+  <polygon points="1064,393 1078,400 1064,407" fill="#3C5488"/>
+  <text x="1038" y="378" font-size="11" fill="#6B6B66">今天</text>
+
+  <!-- 连接杆（上：资源） -->
+  <line x1="135" y1="368" x2="135" y2="380" stroke="#F39B7F" stroke-width="1.5"/>
+  <line x1="318" y1="368" x2="318" y2="380" stroke="#F39B7F" stroke-width="1.5"/>
+  <line x1="684" y1="368" x2="684" y2="380" stroke="#E64B35" stroke-width="1.5"/>
+  <!-- 连接杆（下：方法） -->
+  <line x1="501" y1="400" x2="501" y2="442" stroke="#4DBBD5" stroke-width="1.5"/>
+  <line x1="867" y1="400" x2="867" y2="442" stroke="#4DBBD5" stroke-width="1.5"/>
+  <line x1="1050" y1="400" x2="1050" y2="442" stroke="#4DBBD5" stroke-width="1.5"/>
+
+  <!-- 节点 -->
+  <circle cx="135" cy="400" r="7" fill="#F39B7F" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="318" cy="400" r="7" fill="#F39B7F" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="501" cy="400" r="7" fill="#4DBBD5" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="684" cy="400" r="7" fill="#E64B35" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="867" cy="400" r="7" fill="#4DBBD5" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="1050" cy="400" r="7" fill="#4DBBD5" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- ============ 2005 HapMap（上） ============ -->
+  <rect x="50" y="253" width="170" height="115" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="52" y="259" width="4" height="103" rx="2" fill="#F39B7F"/>
+  <text x="66" y="280" font-size="15" font-weight="bold" fill="#33332E">2005</text>
+  <text x="66" y="302" font-size="12.5" font-weight="bold" fill="#33332E">国际 HapMap 计划</text>
+  <text x="66" y="324" font-size="11" fill="#33332E">单体型图谱一期公布</text>
+  <text x="66" y="341" font-size="11" fill="#33332E">人类遗传变异坐标系</text>
+  <text x="66" y="358" font-size="11" fill="#6B6B66">（后为 VQSR 训练集）</text>
+
+  <!-- ============ 2008 1000G（上） ============ -->
+  <rect x="233" y="253" width="170" height="115" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="235" y="259" width="4" height="103" rx="2" fill="#F39B7F"/>
+  <text x="249" y="280" font-size="15" font-weight="bold" fill="#33332E">2008</text>
+  <text x="249" y="302" font-size="12.5" font-weight="bold" fill="#33332E">1000 Genomes</text>
+  <text x="249" y="324" font-size="11" fill="#33332E">项目启动：绘制人类</text>
+  <text x="249" y="341" font-size="11" fill="#33332E">群体变异频率目录</text>
+  <text x="249" y="358" font-size="11" fill="#6B6B66">（VQSR 训练集之一）</text>
+
+  <!-- ============ 2014 GIAB（上，红） ============ -->
+  <rect x="599" y="236" width="170" height="132" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="601" y="242" width="4" height="120" rx="2" fill="#E64B35"/>
+  <text x="615" y="263" font-size="15" font-weight="bold" fill="#E64B35">2014</text>
+  <text x="615" y="285" font-size="12.5" font-weight="bold" fill="#33332E">GIAB 基准真集</text>
+  <text x="615" y="307" font-size="11" fill="#33332E">多平台集成数据构建</text>
+  <text x="615" y="324" font-size="11" fill="#33332E">人类基因组标准答案</text>
+  <text x="615" y="341" font-size="11" fill="#6B6B66">（Zook 2014）</text>
+  <text x="615" y="358" font-size="11.5" font-weight="bold" fill="#E64B35">先过真集再谈准确率</text>
+
+  <!-- ============ 2012 MutMap（下） ============ -->
+  <rect x="416" y="442" width="170" height="115" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="418" y="448" width="4" height="103" rx="2" fill="#4DBBD5"/>
+  <text x="432" y="469" font-size="15" font-weight="bold" fill="#3C8DAD">2012</text>
+  <text x="432" y="491" font-size="12.5" font-weight="bold" fill="#33332E">MutMap 混池作图</text>
+  <text x="432" y="513" font-size="11" fill="#33332E">突变体 × 野生型 F2</text>
+  <text x="432" y="530" font-size="11" fill="#33332E">两个混池 · SNP-index</text>
+  <text x="432" y="547" font-size="11" fill="#6B6B66">定位 OsCAO1（Abe）</text>
+
+  <!-- ============ 2021 vg giraffe（下） ============ -->
+  <rect x="782" y="442" width="170" height="115" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="784" y="448" width="4" height="103" rx="2" fill="#4DBBD5"/>
+  <text x="798" y="469" font-size="15" font-weight="bold" fill="#3C8DAD">2021</text>
+  <text x="798" y="491" font-size="12.5" font-weight="bold" fill="#33332E">vg giraffe 图比对</text>
+  <text x="798" y="513" font-size="11" fill="#33332E">read 直比泛基因组图</text>
+  <text x="798" y="530" font-size="11" fill="#33332E">参考偏倚前移到比对层</text>
+  <text x="798" y="547" font-size="11" fill="#6B6B66">（Sirén 2021 · Science）</text>
+
+  <!-- ============ 2024 Sniffles2（下） ============ -->
+  <rect x="965" y="442" width="170" height="115" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <rect x="967" y="448" width="4" height="103" rx="2" fill="#4DBBD5"/>
+  <text x="981" y="469" font-size="15" font-weight="bold" fill="#3C8DAD">2024</text>
+  <text x="981" y="491" font-size="12.5" font-weight="bold" fill="#33332E">Sniffles2 长读长 SV</text>
+  <text x="981" y="513" font-size="11" fill="#33332E">群体感知过滤：约 5×</text>
+  <text x="981" y="530" font-size="11" fill="#33332E">长读长浅测即可参与</text>
+  <text x="981" y="547" font-size="11" fill="#6B6B66">（Smolka 2024）</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="704" font-size="15" font-weight="bold" fill="#3C5488">流程质控要内建标准答案：GIAB 之于人类，self-vs-self 之于本课——CIX2779 与参考自比，变异数应接近 0。</text>
+  <text x="48" y="728" font-size="11.5" fill="#6B6B66">注：HapMap / 1000 Genomes 的年份为公认项目节点（讲义 §6.2.5 中作为 VQSR 训练集提及）；GIAB、MutMap、vg、Sniffles2 见讲义 §3.4 与 §4.9。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

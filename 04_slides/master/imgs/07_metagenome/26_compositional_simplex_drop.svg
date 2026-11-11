@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="64" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">绝对生物量暴增</text>
+<rect x="140" y="210" width="150" height="120" fill="#3C5488" rx="8"/>
+<rect x="440" y="120" width="150" height="210" fill="#3C5488" rx="8"/>
+<line x1="88" y1="330" x2="624" y2="330" stroke="#33332E" stroke-width="4" stroke-linecap="butt"/>
+<text x="112" y="356" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">A</text>
+<text x="618" y="356" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">B</text>
+<line x1="515.0" y1="108" x2="515.0" y2="82" stroke="#C0623F" stroke-width="5" stroke-linecap="round"/>
+<polygon points="515.0,82 520.708646342834,94.78324516437232 509.29135365716604,94.78324516437232" fill="#C0623F"/>
+<text x="400" y="372" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">归一化比例恒为一</text>
+<line x1="400" y1="388" x2="400" y2="428" stroke="#3C8DAD" stroke-width="6" stroke-linecap="round"/>
+<polygon points="400,428 392.6603118449277,411.56439907437846 407.3396881550723,411.56439907437846" fill="#3C8DAD"/>
+<rect x="120" y="440" width="560" height="68" fill="#E9E9E5" rx="10"/>
+<rect x="120" y="440" width="112" height="68" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="3"/>
+<rect x="232" y="440" width="448" height="68" fill="#3C5488" rx="10"/>
+<text x="176.0" y="483" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">A</text>
+<text x="456.0" y="483" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">B</text>
+<line x1="176.0" y1="516" x2="176.0" y2="548" stroke="#C0623F" stroke-width="6" stroke-linecap="round"/>
+<polygon points="176.0,548 169.47583275104688,533.3905769550031 182.52416724895312,533.3905769550031" fill="#C0623F"/>
+<text x="176.0" y="582.4" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">未变类群</text>
+<text x="176.0" y="622.6" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#C0623F" text-anchor="middle" font-weight="bold">被动假降</text>
+<text x="400" y="682" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#E64B35" text-anchor="middle" font-weight="bold">非真实抑制</text>
+</svg>

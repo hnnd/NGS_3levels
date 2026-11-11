@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="60" y="84" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">50M2D10M5I15M</text>
+<text x="60" y="126" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">读段消耗</text>
+<rect x="60" y="150" width="350" height="40" fill="#4DBBD5" rx="4"/>
+<text x="235" y="178" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">50</text>
+<rect x="410" y="150" width="70" height="40" fill="#4DBBD5" rx="4"/>
+<text x="445" y="178" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">10</text>
+<rect x="480" y="150" width="35" height="40" fill="#4DBBD5" rx="4"/>
+<text x="497" y="178" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">5</text>
+<rect x="515" y="150" width="105" height="40" fill="#4DBBD5" rx="4"/>
+<text x="567" y="178" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">15</text>
+<text x="645" y="178" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">= 80</text>
+<text x="60" y="240" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">参考跨</text>
+<rect x="60" y="250" width="350" height="40" fill="#3C5488" rx="4"/>
+<text x="235" y="278" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">50</text>
+<rect x="410" y="250" width="14" height="40" fill="#3C5488" rx="4" stroke="#E64B35" stroke-width="5"/>
+<text x="417" y="240" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">2D</text>
+<rect x="424" y="250" width="70" height="40" fill="#3C5488" rx="4"/>
+<text x="459" y="278" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">10</text>
+<rect x="494" y="250" width="105" height="40" fill="#3C5488" rx="4"/>
+<text x="546" y="278" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">15</text>
+<text x="630" y="278" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">= 77</text>
+<text x="60" y="334" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">M ≠ 完全匹配，差异看 NM</text>
+<text x="60" y="404" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">15S85M</text>
+<text x="700" y="418" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">= 100</text>
+<rect x="60" y="430" width="105" height="40" fill="#F39B7F" rx="4"/>
+<text x="112" y="458" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">15</text>
+<rect x="165" y="430" width="595" height="40" fill="#4DBBD5" rx="4"/>
+<text x="462" y="458" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">85</text>
+<text x="112" y="505" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">留在 SEQ</text>
+<text x="60" y="552" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">参考跨</text>
+<rect x="60" y="560" width="595" height="40" fill="#3C5488" rx="4"/>
+<text x="357" y="588" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">85</text>
+<text x="672" y="588" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start" font-weight="bold">= 85</text>
+</svg>

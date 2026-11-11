@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="52" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#3C5488" text-anchor="middle" font-weight="bold">边合成边测序三步循环</text>
+<rect x="60" y="96" width="200" height="150" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<text x="160" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">① 掺入</text>
+<rect x="300" y="96" width="200" height="150" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">② 成像</text>
+<rect x="540" y="96" width="200" height="150" fill="#FFFFFF" rx="16" stroke="#E9E9E5" stroke-width="3"/>
+<text x="640" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#33332E" text-anchor="middle" font-weight="bold">③ 切除</text>
+<polyline points="85,210 150,210 170,190" fill="none" stroke="#3C8DAD" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="88" y="196" width="22" height="28" fill="#00A087" rx="4"/>
+<text x="99" y="218" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="bold">A</text>
+<rect x="114" y="196" width="22" height="28" fill="#4DBBD5" rx="4"/>
+<text x="125" y="218" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="bold">C</text>
+<rect x="140" y="196" width="22" height="28" fill="#F39B7F" rx="4"/>
+<text x="151" y="218" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="bold">G</text>
+<rect x="172" y="186" width="26" height="38" fill="#E64B35" rx="4"/>
+<text x="185" y="212" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="bold">T</text>
+<circle cx="400" cy="205" r="30" fill="#F39B7F"/>
+<circle cx="400" cy="205" r="16" fill="#FFFFFF"/>
+<circle cx="400" cy="205" r="7" fill="#F39B7F"/>
+<line x1="590" y1="180" x2="640" y2="230" stroke="#6B6B66" stroke-width="6" stroke-linecap="butt"/>
+<line x1="640" y1="180" x2="590" y2="230" stroke="#6B6B66" stroke-width="6" stroke-linecap="butt"/>
+<circle cx="680" cy="205" r="12" fill="#4DBBD5"/>
+<rect x="250" y="262" width="160" height="56" fill="#E64B35" rx="12"/>
+<text x="330" y="300" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3′ 封闭基团</text>
+<path d="M 640 262 C 640 420, 160 420, 160 262" fill="none"/>
+<path d="M 640 268 C 640 430, 170 430, 166 274" fill="none" stroke="#3C8DAD" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="2 16"/>
+<polygon points="160,262 190,268 172,292" fill="#3C8DAD"/>
+<circle cx="400" cy="520" r="105" fill="#FFFFFF" stroke="#3C5488" stroke-width="6"/>
+<text x="400" y="500" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">1 轮循环</text>
+<text x="400" y="545" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">只读 1 个碱基</text>
+<line x1="330" y1="330" x2="360" y2="420" stroke="#3C8DAD" stroke-width="7" stroke-linecap="round"/>
+<polygon points="360,420 347.83956707053017,406.728833096978 361.76564620176265,402.08680671990055" fill="#3C8DAD"/>
+</svg>

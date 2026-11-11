@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>DESeq2 input states and the rounding trap</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="40" y="44" width="250" height="76" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="4"/>
+<text x="64" y="94" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">double  (0.5)</text>
+<line x1="298" y1="82" x2="366" y2="82" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="366,82 355.0429327162523,86.89312543671484 355.0429327162523,77.10687456328516" fill="#6B6B66"/>
+<rect x="378" y="53.0" width="98.4" height="58" fill="#F6D8D2" rx="29.0" stroke="#E64B35" stroke-width="4"/>
+<text x="427.2" y="92.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">stop</text>
+<rect x="40" y="144" width="250" height="76" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="4"/>
+<text x="64" y="194" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">double  (1.0)</text>
+<line x1="298" y1="182" x2="366" y2="182" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="366,182 355.0429327162523,186.89312543671485 355.0429327162523,177.10687456328515" fill="#6B6B66"/>
+<rect x="378" y="153.0" width="145.2" height="58" fill="#FBE6DF" rx="29.0" stroke="#F39B7F" stroke-width="4"/>
+<text x="450.6" y="192.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">message</text>
+<rect x="40" y="244" width="250" height="76" fill="#FFFFFF" rx="10" stroke="#3C5488" stroke-width="4"/>
+<text x="64" y="294" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">integer</text>
+<line x1="298" y1="282" x2="366" y2="282" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="366,282 355.0429327162523,286.89312543671485 355.0429327162523,277.10687456328515" fill="#6B6B66"/>
+<rect x="378" y="253.0" width="129.6" height="58" fill="#D8EEE9" rx="29.0" stroke="#00A087" stroke-width="4"/>
+<text x="442.8" y="292.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">silent</text>
+<line x1="378" y1="236" x2="720" y2="236" stroke="#E64B35" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<line x1="720" y1="224" x2="744" y2="248" stroke="#E64B35" stroke-width="7" stroke-linecap="round"/>
+<line x1="720" y1="248" x2="744" y2="224" stroke="#E64B35" stroke-width="7" stroke-linecap="round"/>
+<rect x="40" y="330" width="720" height="178" fill="#FBE6DF" rx="12" stroke="#F39B7F" stroke-width="4"/>
+<text x="70" y="382" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="start" font-weight="bold">counts</text>
+<text x="470" y="382" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="start" font-weight="bold">round(CPM)</text>
+<line x1="446" y1="350" x2="446" y2="486" stroke="#6B6B66" stroke-width="3" stroke-linecap="butt" stroke-dasharray="8 7"/>
+<text x="70" y="432" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">lib max/min</text>
+<text x="70" y="484" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">SF spread</text>
+<text x="430" y="432" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="end" font-weight="bold">2.39 X</text>
+<text x="430" y="484" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="end" font-weight="bold">2.38 X</text>
+<text x="680" y="432" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="end" font-weight="bold">1.0001</text>
+<text x="680" y="484" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#F39B7F" text-anchor="end" font-weight="bold">1.03 X</text>
+<rect x="32.0" y="534" width="736" height="118" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="578" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">输入三态：小数报错，整数值提示信息，</text>
+<text x="400.0" y="622" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">整数通过。取整掩盖双重归一化。</text>
+</svg>

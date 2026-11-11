@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">泛基因组：核心与附属，一张矩阵看懂</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">gene presence–absence ｜ core / accessory —— 依据 08_project_lecture.md ⑥6.5、③</text>
+  <!-- 图例 -->
+  <rect x="840" y="42" width="12" height="12" fill="#3C5488"/>
+  <text x="860" y="52" font-size="12" fill="#33332E">该菌株有此基因</text>
+  <rect x="840" y="59" width="12" height="12" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="860" y="69" font-size="12" fill="#33332E">没有此基因</text>
+  <rect x="840" y="76" width="12" height="12" fill="#00A087"/>
+  <text x="860" y="86" font-size="12" fill="#33332E">Core（共有）</text>
+  <rect x="840" y="93" width="12" height="12" fill="#F39B7F"/>
+  <text x="860" y="103" font-size="12" fill="#33332E">Accessory（部分才有）</text>
+  <rect x="840" y="110" width="12" height="12" fill="#E64B35"/>
+  <text x="860" y="120" font-size="12" fill="#33332E">易错点</text>
+
+  <!-- ============ 左面板：矩阵 ============ -->
+  <rect x="48" y="124" width="560" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="154" font-size="15" font-weight="bold" fill="#3C5488">gene_presence_absence 矩阵（示意）</text>
+  <text x="72" y="174" font-size="11" fill="#6B6B66">行 = 同源基因家族 ｜ 列 = 菌株（本项目 5–6 个基因组）</text>
+  <!-- 列头 -->
+  <text x="120" y="200" font-size="10.5" font-weight="bold" fill="#33332E" text-anchor="middle">本株</text>
+  <text x="188" y="200" font-size="10.5" fill="#6B6B66" text-anchor="middle">参考 1</text>
+  <text x="256" y="200" font-size="10.5" fill="#6B6B66" text-anchor="middle">参考 2</text>
+  <text x="324" y="200" font-size="10.5" fill="#6B6B66" text-anchor="middle">参考 3</text>
+  <text x="392" y="200" font-size="10.5" fill="#6B6B66" text-anchor="middle">参考 4</text>
+  <text x="460" y="200" font-size="10.5" fill="#6B6B66" text-anchor="middle">参考 5</text>
+  <!-- 矩阵单元 -->
+  <rect x="88" y="210" width="64" height="24" rx="3" fill="#3C5488"/><rect x="156" y="210" width="64" height="24" rx="3" fill="#3C5488"/><rect x="224" y="210" width="64" height="24" rx="3" fill="#3C5488"/><rect x="292" y="210" width="64" height="24" rx="3" fill="#3C5488"/><rect x="360" y="210" width="64" height="24" rx="3" fill="#3C5488"/><rect x="428" y="210" width="64" height="24" rx="3" fill="#3C5488"/>
+  <rect x="88" y="238" width="64" height="24" rx="3" fill="#3C5488"/><rect x="156" y="238" width="64" height="24" rx="3" fill="#3C5488"/><rect x="224" y="238" width="64" height="24" rx="3" fill="#3C5488"/><rect x="292" y="238" width="64" height="24" rx="3" fill="#3C5488"/><rect x="360" y="238" width="64" height="24" rx="3" fill="#3C5488"/><rect x="428" y="238" width="64" height="24" rx="3" fill="#3C5488"/>
+  <rect x="88" y="266" width="64" height="24" rx="3" fill="#3C5488"/><rect x="156" y="266" width="64" height="24" rx="3" fill="#3C5488"/><rect x="224" y="266" width="64" height="24" rx="3" fill="#3C5488"/><rect x="292" y="266" width="64" height="24" rx="3" fill="#3C5488"/><rect x="360" y="266" width="64" height="24" rx="3" fill="#3C5488"/><rect x="428" y="266" width="64" height="24" rx="3" fill="#3C5488"/>
+  <rect x="88" y="294" width="64" height="24" rx="3" fill="#3C5488"/><rect x="156" y="294" width="64" height="24" rx="3" fill="#3C5488"/><rect x="224" y="294" width="64" height="24" rx="3" fill="#3C5488"/><rect x="292" y="294" width="64" height="24" rx="3" fill="#3C5488"/><rect x="360" y="294" width="64" height="24" rx="3" fill="#3C5488"/><rect x="428" y="294" width="64" height="24" rx="3" fill="#3C5488"/>
+  <rect x="88" y="322" width="64" height="24" rx="3" fill="#3C5488"/><rect x="156" y="322" width="64" height="24" rx="3" fill="#3C5488"/><rect x="224" y="322" width="64" height="24" rx="3" fill="#3C5488"/><rect x="292" y="322" width="64" height="24" rx="3" fill="#3C5488"/><rect x="360" y="322" width="64" height="24" rx="3" fill="#3C5488"/><rect x="428" y="322" width="64" height="24" rx="3" fill="#3C5488"/>
+  <rect x="88" y="350" width="64" height="24" rx="3" fill="#3C5488"/><rect x="156" y="350" width="64" height="24" rx="3" fill="#3C5488"/><rect x="224" y="350" width="64" height="24" rx="3" fill="#3C5488"/><rect x="292" y="350" width="64" height="24" rx="3" fill="#3C5488"/><rect x="360" y="350" width="64" height="24" rx="3" fill="#3C5488"/><rect x="428" y="350" width="64" height="24" rx="3" fill="#3C5488"/>
+  <rect x="88" y="378" width="64" height="24" rx="3" fill="#3C5488"/><rect x="156" y="378" width="64" height="24" rx="3" fill="#3C5488"/><rect x="224" y="378" width="64" height="24" rx="3" fill="#3C5488"/><rect x="292" y="378" width="64" height="24" rx="3" fill="#3C5488"/><rect x="360" y="378" width="64" height="24" rx="3" fill="#3C5488"/><rect x="428" y="378" width="64" height="24" rx="3" fill="#3C5488"/>
+  <rect x="88" y="406" width="64" height="24" rx="3" fill="#3C5488"/><rect x="156" y="406" width="64" height="24" rx="3" fill="#3C5488"/><rect x="224" y="406" width="64" height="24" rx="3" fill="#3C5488"/><rect x="292" y="406" width="64" height="24" rx="3" fill="#3C5488"/><rect x="360" y="406" width="64" height="24" rx="3" fill="#3C5488"/><rect x="428" y="406" width="64" height="24" rx="3" fill="#3C5488"/>
+  <rect x="88" y="434" width="64" height="24" rx="3" fill="#3C5488"/><rect x="156" y="434" width="64" height="24" rx="3" fill="#3C5488"/><rect x="224" y="434" width="64" height="24" rx="3" fill="#3C5488"/><rect x="292" y="434" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="360" y="434" width="64" height="24" rx="3" fill="#3C5488"/><rect x="428" y="434" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="88" y="462" width="64" height="24" rx="3" fill="#3C5488"/><rect x="156" y="462" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="224" y="462" width="64" height="24" rx="3" fill="#3C5488"/><rect x="292" y="462" width="64" height="24" rx="3" fill="#3C5488"/><rect x="360" y="462" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="428" y="462" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="88" y="490" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="156" y="490" width="64" height="24" rx="3" fill="#3C5488"/><rect x="224" y="490" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="292" y="490" width="64" height="24" rx="3" fill="#3C5488"/><rect x="360" y="490" width="64" height="24" rx="3" fill="#3C5488"/><rect x="428" y="490" width="64" height="24" rx="3" fill="#3C5488"/>
+  <rect x="88" y="518" width="64" height="24" rx="3" fill="#3C5488"/><rect x="156" y="518" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="224" y="518" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="292" y="518" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="360" y="518" width="64" height="24" rx="3" fill="#3C5488"/><rect x="428" y="518" width="64" height="24" rx="3" fill="#3C5488"/>
+  <rect x="88" y="546" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="156" y="546" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="224" y="546" width="64" height="24" rx="3" fill="#3C5488"/><rect x="292" y="546" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="360" y="546" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="428" y="546" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="88" y="574" width="64" height="24" rx="3" fill="#3C5488"/><rect x="156" y="574" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="224" y="574" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="292" y="574" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="360" y="574" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="428" y="574" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="88" y="602" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="156" y="602" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="224" y="602" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="292" y="602" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="360" y="602" width="64" height="24" rx="3" fill="#3C5488"/><rect x="428" y="602" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="88" y="630" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="156" y="630" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="224" y="630" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="292" y="630" width="64" height="24" rx="3" fill="#3C5488"/><rect x="360" y="630" width="64" height="24" rx="3" fill="#FFFFFF" stroke="#E9E9E5"/><rect x="428" y="630" width="64" height="24" rx="3" fill="#3C5488"/>
+  <!-- 分组括线 -->
+  <line x1="504" y1="210" x2="504" y2="430" stroke="#00A087" stroke-width="2.5"/>
+  <line x1="498" y1="210" x2="504" y2="210" stroke="#00A087" stroke-width="2.5"/>
+  <line x1="498" y1="430" x2="504" y2="430" stroke="#00A087" stroke-width="2.5"/>
+  <text x="514" y="316" font-size="13" font-weight="bold" fill="#00A087">Core</text>
+  <text x="514" y="334" font-size="10" fill="#6B6B66">全部菌株共有</text>
+  <line x1="504" y1="438" x2="504" y2="654" stroke="#F39B7F" stroke-width="2.5"/>
+  <line x1="498" y1="438" x2="504" y2="438" stroke="#F39B7F" stroke-width="2.5"/>
+  <line x1="498" y1="654" x2="504" y2="654" stroke="#F39B7F" stroke-width="2.5"/>
+  <text x="514" y="540" font-size="13" font-weight="bold" fill="#33332E">Accessory</text>
+  <text x="514" y="558" font-size="10" fill="#6B6B66">shell + cloud</text>
+  <text x="514" y="576" font-size="10" fill="#6B6B66">部分菌株才有</text>
+  <text x="72" y="672" font-size="10" fill="#6B6B66">示意矩阵；行已按 core → shell → cloud 分组排列</text>
+
+  <!-- ============ 右面板：怎么读 ============ -->
+  <rect x="632" y="124" width="520" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="656" y="154" font-size="15" font-weight="bold" fill="#3C5488">怎么读这张矩阵</text>
+  <rect x="656" y="170" width="472" height="100" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="656" y="170" width="4" height="100" rx="2" fill="#00A087"/>
+  <text x="674" y="196" font-size="12.5" font-weight="bold" fill="#3C5488">Core：所有（或 ≥99%）菌株共有</text>
+  <text x="674" y="220" font-size="11" fill="#33332E">物种的"身份"与基本代谢都写在</text>
+  <text x="674" y="240" font-size="11" fill="#33332E">这一部分里——它定义"这个种是什么"。</text>
+  <rect x="656" y="286" width="472" height="100" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="656" y="286" width="4" height="100" rx="2" fill="#F39B7F"/>
+  <text x="674" y="312" font-size="12.5" font-weight="bold" fill="#3C5488">Accessory（shell + cloud）：部分菌株才有</text>
+  <text x="674" y="336" font-size="11" fill="#33332E">耐药、毒力、噬菌体、环境适应写在这里，</text>
+  <text x="674" y="356" font-size="11" fill="#33332E">也是菌株间表型差异的主要来源。</text>
+  <rect x="656" y="402" width="472" height="132" rx="8" fill="#FFFFFF" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="674" y="428" font-size="12.5" font-weight="bold" fill="#E64B35">核心占比的两个极端，都要先怀疑取样</text>
+  <text x="674" y="450" font-size="11" fill="#33332E">占比高（&gt; 80%）：亲缘近或菌株数太少——本项目</text>
+  <text x="674" y="468" font-size="11" fill="#33332E">5–6 个基因组几乎必然发生，是取样效应，不是生物学结论；</text>
+  <text x="674" y="486" font-size="11" fill="#33332E">占比低（&lt; 50%）：先怀疑混入非同种基因组，</text>
+  <text x="674" y="504" font-size="11" fill="#33332E">回查 M4 的 ANI。</text>
+  <rect x="656" y="550" width="472" height="114" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="674" y="576" font-size="12.5" font-weight="bold" fill="#3C5488">产物与反例</text>
+  <text x="674" y="598" font-size="11" fill="#33332E">Roary 产出 gene_presence_absence.csv；若核心只有几百个</text>
+  <text x="674" y="616" font-size="11" fill="#33332E">而泛基因组上万 → 混入别的物种，或某基因组注释失败</text>
+  <text x="674" y="634" font-size="11" fill="#33332E">产出了空 .gff——先查 annotations/ 里每个 .gff 的行数。</text>
+  <text x="656" y="688" font-size="10" fill="#6B6B66">与 u07 衔接：Roary 的唯一输入是 Prokka 的 .gff 原件。</text>
+
+  <!-- ============ 结语与页脚 ============ -->
+  <text x="48" y="748" font-size="13.5" font-weight="bold" fill="#3C5488">泛基因组把"哪个基因在群体中存在、缺失、正在扩散"变成一份可逐年对比的清单。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

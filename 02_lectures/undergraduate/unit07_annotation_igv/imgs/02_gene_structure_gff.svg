@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">一条 GFF 记录，对应基因组上的什么？</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">基因结构 ｜ GFF3 九列 —— 依据 07_annotation_igv_lecture.md ④4.3</text>
+  <!-- 图例 -->
+  <rect x="926" y="42" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="52" font-size="12" fill="#33332E">注释特征（CDS / tRNA / rRNA）</text>
+  <rect x="926" y="59" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="69" font-size="12" fill="#33332E">contig（序列本体）</text>
+  <rect x="926" y="76" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="86" font-size="12" fill="#33332E">坐标与长度（正常参照）</text>
+  <rect x="926" y="93" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="103" font-size="12" fill="#33332E">上游信号（RBS）</text>
+  <rect x="926" y="110" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="120" font-size="12" fill="#33332E">易错点 / 警示</text>
+
+  <!-- ============ 面板 1：基因组实体 ============ -->
+  <rect x="48" y="124" width="1104" height="280" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="17" font-weight="bold" fill="#3C5488">基因组实体：特征按坐标与链方向"钉"在 contig 上</text>
+  <text x="72" y="178" font-size="12" fill="#6B6B66">Prokka 在序列上找特征：CDS、tRNA、rRNA……每条特征都有起止坐标与正反链</text>
+
+  <!-- contig 线 -->
+  <line x1="150" y1="300" x2="1050" y2="300" stroke="#4DBBD5" stroke-width="4" stroke-linecap="round"/>
+  <text x="150" y="322" font-size="12" font-weight="bold" fill="#3C8DAD">contig_1</text>
+  <!-- 线上的 RNA 特征 -->
+  <rect x="840" y="297" width="32" height="6" fill="#3C5488"/>
+  <text x="856" y="290" font-size="10" fill="#3C5488" text-anchor="middle">tRNA</text>
+  <rect x="900" y="297" width="75" height="6" fill="#3C5488"/>
+  <text x="937" y="290" font-size="10" fill="#3C5488" text-anchor="middle">rRNA（操纵子）</text>
+  <!-- 正链 CDS：箭头向右 -->
+  <path d="M 338 252 L 556 252 L 571 272 L 556 292 L 338 292 Z" fill="#3C5488"/>
+  <text x="450" y="277" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">gyrB（正链）</text>
+  <!-- RBS -->
+  <rect x="314" y="262" width="18" height="20" fill="#F39B7F"/>
+  <text x="310" y="276" font-size="10.5" fill="#33332E" text-anchor="end">RBS（AGGAGG，起点上游）</text>
+  <text x="342" y="246" font-size="10" fill="#00A087">ATG 起</text>
+  <!-- 反链 CDS：箭头向左 -->
+  <path d="M 669 308 L 780 308 L 780 344 L 669 344 L 654 326 Z" fill="#3C5488"/>
+  <text x="722" y="330" font-size="11" fill="#FFFFFF" text-anchor="middle">CDS（−）</text>
+  <text x="717" y="360" font-size="10" fill="#6B6B66" text-anchor="middle">反链基因：箭头指向左</text>
+  <!-- 坐标虚线与标注 -->
+  <line x1="338" y1="304" x2="338" y2="350" stroke="#00A087" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="571" y1="304" x2="571" y2="350" stroke="#00A087" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="338" y="364" font-size="10.5" fill="#00A087" text-anchor="middle">start = 1042</text>
+  <text x="571" y="364" font-size="10.5" fill="#00A087" text-anchor="middle">end = 2340</text>
+  <text x="454" y="384" font-size="11" fill="#00A087" text-anchor="middle">长度 = 2340 − 1042 + 1 = 1299 bp（1-based，含两端）</text>
+  <!-- 比例尺 -->
+  <line x1="940" y1="380" x2="1030" y2="380" stroke="#6B6B66" stroke-width="2"/>
+  <line x1="940" y1="375" x2="940" y2="385" stroke="#6B6B66" stroke-width="2"/>
+  <line x1="1030" y1="375" x2="1030" y2="385" stroke="#6B6B66" stroke-width="2"/>
+  <text x="985" y="370" font-size="10" fill="#6B6B66" text-anchor="middle">500 bp</text>
+
+  <!-- ============ 面板 2：GFF 九列 ============ -->
+  <rect x="48" y="428" width="1104" height="300" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="458" font-size="17" font-weight="bold" fill="#3C5488">同一信息在 .gff 里怎么写：Tab 分隔九列</text>
+
+  <!-- 列号 -->
+  <text x="88" y="472" font-size="9" fill="#6B6B66">1</text>
+  <text x="175" y="472" font-size="9" fill="#6B6B66">2</text>
+  <text x="345" y="472" font-size="9" fill="#6B6B66">3</text>
+  <text x="380" y="472" font-size="9" fill="#6B6B66">4</text>
+  <text x="430" y="472" font-size="9" fill="#6B6B66">5</text>
+  <text x="484" y="472" font-size="9" fill="#6B6B66">6</text>
+  <text x="522" y="472" font-size="9" fill="#6B6B66">7</text>
+  <text x="568" y="472" font-size="9" fill="#6B6B66">8</text>
+  <text x="600" y="472" font-size="9" fill="#6B6B66">9</text>
+  <!-- 代码块：每列独立定位 -->
+  <rect x="72" y="478" width="1056" height="42" rx="6" fill="#FAFAF7" stroke="#E9E9E5"/>
+  <text x="88" y="505" font-size="13" font-family="Noto Sans Mono, DejaVu Sans Mono, monospace" fill="#3C8DAD">contig_1</text>
+  <text x="175" y="505" font-size="13" font-family="Noto Sans Mono, DejaVu Sans Mono, monospace" fill="#6B6B66">Prodigal:002006</text>
+  <text x="345" y="505" font-size="13" font-weight="bold" font-family="Noto Sans Mono, DejaVu Sans Mono, monospace" fill="#3C5488">CDS</text>
+  <text x="380" y="505" font-size="13" font-family="Noto Sans Mono, DejaVu Sans Mono, monospace" fill="#00A087">1042</text>
+  <text x="430" y="505" font-size="13" font-family="Noto Sans Mono, DejaVu Sans Mono, monospace" fill="#00A087">2340</text>
+  <text x="484" y="505" font-size="13" font-family="Noto Sans Mono, DejaVu Sans Mono, monospace" fill="#6B6B66">.</text>
+  <text x="522" y="505" font-size="13" font-weight="bold" font-family="Noto Sans Mono, DejaVu Sans Mono, monospace" fill="#3C5488">+</text>
+  <text x="568" y="505" font-size="13" font-family="Noto Sans Mono, DejaVu Sans Mono, monospace" fill="#6B6B66">0</text>
+  <text x="600" y="505" font-size="13" font-family="Noto Sans Mono, DejaVu Sans Mono, monospace" fill="#33332E">ID=MYGENOME_00001;product=DNA gyrase subunit B;gene=gyrB</text>
+  <!-- 列名 -->
+  <text x="88" y="542" font-size="9.5" fill="#3C8DAD">seqid</text>
+  <text x="175" y="542" font-size="9.5" fill="#6B6B66">source</text>
+  <text x="345" y="542" font-size="9.5" fill="#3C5488">type</text>
+  <text x="380" y="542" font-size="9.5" fill="#00A087">start</text>
+  <text x="430" y="542" font-size="9.5" fill="#00A087">end</text>
+  <text x="482" y="542" font-size="9.5" fill="#6B6B66">score</text>
+  <text x="522" y="542" font-size="9.5" fill="#3C5488">strand</text>
+  <text x="568" y="542" font-size="9.5" fill="#6B6B66">phase</text>
+  <text x="600" y="542" font-size="9.5" fill="#33332E">attributes</text>
+
+  <!-- 三张要点卡 -->
+  <rect x="72" y="562" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="88" y="586" font-size="12.5" font-weight="bold" fill="#E64B35">第 1 列 seqid 必须 = FASTA 头行</text>
+  <text x="88" y="606" font-size="11" fill="#33332E">不一致（含大小写、| 后缀）时</text>
+  <text x="88" y="622" font-size="11" fill="#33332E">IGV 一片空白——空白排查第一因</text>
+  <rect x="424" y="562" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="440" y="586" font-size="12.5" font-weight="bold" fill="#3C5488">第 4/5 列：1-based、含两端</text>
+  <text x="440" y="606" font-size="11" fill="#33332E">长度 = end − start + 1；</text>
+  <text x="440" y="622" font-size="11" fill="#33332E">第 7 列 strand：基因在正链还是反链</text>
+  <rect x="776" y="562" width="352" height="72" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="792" y="586" font-size="12.5" font-weight="bold" fill="#3C5488">第 3 列统计、第 9 列装功能名</text>
+  <text x="792" y="606" font-size="11" fill="#33332E">type：CDS / tRNA / rRNA / repeat_region；</text>
+  <text x="792" y="622" font-size="11" fill="#33332E">attributes：ID / product / gene / EC_number</text>
+
+  <!-- ##FASTA 警示 -->
+  <rect x="72" y="650" width="1056" height="64" rx="8" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="72" y="650" width="4" height="64" rx="2" fill="#E64B35"/>
+  <text x="90" y="674" font-size="12.5" font-weight="bold" fill="#E64B35">易错点：文件末尾的 ##FASTA 段——一个文件，两种用法</text>
+  <text x="90" y="696" font-size="11.5" fill="#33332E">##FASTA 之后附着完整基因组序列：Roary 靠这段序列工作，删掉即失败；给 IGV 用时要切掉。喂错版本不报错、只给错答案。</text>
+
+  <!-- ============ 结语与页脚 ============ -->
+  <text x="48" y="752" font-size="13.5" font-weight="bold" fill="#3C5488">GFF 是注释的通用坐标语言：九列说清"哪里、哪条链、是什么"。</text>
+  <text x="1152" y="778" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

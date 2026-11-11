@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">可重复性四层：每层锁住什么，怎么失效</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">代码 ｜ 数据 ｜ 环境 ｜ 报告 —— 依据 08_workflow_engineering_lecture.md ④、⑦</text>
+
+  <!-- ============ 四列 ============ -->
+  <!-- ① 代码 -->
+  <rect x="48" y="140" width="252" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="140" width="252" height="6" rx="3" fill="#3C5488"/>
+  <text x="68" y="180" font-size="17" font-weight="bold" fill="#3C5488">① 代码</text>
+  <line x1="68" y1="194" x2="280" y2="194" stroke="#E9E9E5"/>
+  <text x="68" y="220" font-size="12" font-weight="bold" fill="#6B6B66">什么在变</text>
+  <text x="68" y="242" font-size="11.5" fill="#33332E">执行逻辑、阈值、参数；</text>
+  <text x="68" y="260" font-size="11.5" fill="#33332E">「阈值就是代码的一部分」</text>
+  <text x="68" y="294" font-size="12" font-weight="bold" fill="#6B6B66">工程手段</text>
+  <text x="68" y="316" font-size="11.5" fill="#33332E">git 版本化；阈值只进</text>
+  <text x="68" y="334" font-size="11.5" fill="#33332E">config.yaml，随 git 提交</text>
+  <text x="68" y="368" font-size="12" font-weight="bold" fill="#6B6B66">失效时排查</text>
+  <text x="68" y="390" font-size="11.5" fill="#33332E">git log / diff：这批结果</text>
+  <text x="68" y="408" font-size="11.5" fill="#33332E">是用哪版参数跑的？</text>
+  <rect x="68" y="520" width="212" height="34" rx="6" fill="#FAFAF7"/>
+  <text x="174" y="542" font-size="11" fill="#33332E" text-anchor="middle">Snakefile + config.yaml</text>
+
+  <!-- ② 数据 -->
+  <rect x="332" y="140" width="252" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="332" y="140" width="252" height="6" rx="3" fill="#4DBBD5"/>
+  <text x="352" y="180" font-size="17" font-weight="bold" fill="#3C8DAD">② 数据</text>
+  <line x1="352" y1="194" x2="564" y2="194" stroke="#E9E9E5"/>
+  <text x="352" y="220" font-size="12" font-weight="bold" fill="#6B6B66">什么在变</text>
+  <text x="352" y="242" font-size="11.5" fill="#33332E">输入文件被替换；</text>
+  <text x="352" y="260" font-size="11.5" fill="#33332E">随机种子不一致</text>
+  <text x="352" y="294" font-size="12" font-weight="bold" fill="#6B6B66">工程手段</text>
+  <text x="352" y="316" font-size="11.5" fill="#33332E">samples.tsv 随 git 固定；</text>
+  <text x="352" y="334" font-size="11.5" fill="#33332E">种子写进 config.yaml；</text>
+  <text x="352" y="352" font-size="11.5" fill="#33332E">存一份输入 md5 快照</text>
+  <text x="352" y="386" font-size="12" font-weight="bold" fill="#6B6B66">失效时排查</text>
+  <text x="352" y="408" font-size="11.5" fill="#33332E">md5sum 对快照；种子</text>
+  <text x="352" y="426" font-size="11.5" fill="#33332E">在不在 config 里？</text>
+  <rect x="352" y="520" width="212" height="34" rx="6" fill="#FAFAF7"/>
+  <text x="458" y="542" font-size="11" fill="#33332E" text-anchor="middle">samples.tsv + md5 快照</text>
+
+  <!-- ③ 环境 -->
+  <rect x="616" y="140" width="252" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="616" y="140" width="252" height="6" rx="3" fill="#00A087"/>
+  <text x="636" y="180" font-size="17" font-weight="bold" fill="#00A087">③ 环境</text>
+  <line x1="636" y1="194" x2="848" y2="194" stroke="#E9E9E5"/>
+  <text x="636" y="220" font-size="12" font-weight="bold" fill="#6B6B66">什么在变</text>
+  <text x="636" y="242" font-size="11.5" fill="#33332E">软件版本、系统库随时间</text>
+  <text x="636" y="260" font-size="11.5" fill="#33332E">漂移（GLIBC not found）</text>
+  <text x="636" y="294" font-size="12" font-weight="bold" fill="#6B6B66">工程手段</text>
+  <text x="636" y="316" font-size="11.5" fill="#33332E">conda env export；容器</text>
+  <text x="636" y="334" font-size="11.5" fill="#33332E">镜像：锁 tag 之外还要</text>
+  <text x="636" y="352" font-size="11.5" fill="#33332E">锁 digest</text>
+  <text x="636" y="386" font-size="12" font-weight="bold" fill="#6B6B66">失效时排查</text>
+  <text x="636" y="408" font-size="11.5" fill="#33332E">conda list / 镜像 digest</text>
+  <text x="636" y="426" font-size="11.5" fill="#33332E">与报告尾部快照对得上吗？</text>
+  <rect x="636" y="520" width="212" height="34" rx="6" fill="#FAFAF7"/>
+  <text x="742" y="542" font-size="11" fill="#33332E" text-anchor="middle">env_snapshot.yml + @sha256</text>
+
+  <!-- ④ 报告 -->
+  <rect x="900" y="140" width="252" height="430" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="900" y="140" width="252" height="6" rx="3" fill="#F39B7F"/>
+  <text x="920" y="180" font-size="17" font-weight="bold" fill="#33332E">④ 报告</text>
+  <line x1="920" y1="194" x2="1132" y2="194" stroke="#E9E9E5"/>
+  <text x="920" y="220" font-size="12" font-weight="bold" fill="#6B6B66">什么在变</text>
+  <text x="920" y="242" font-size="11.5" fill="#33332E">数字与叙述脱节：数据</text>
+  <text x="920" y="260" font-size="11.5" fill="#33332E">改了、正文数字忘改</text>
+  <text x="920" y="294" font-size="12" font-weight="bold" fill="#6B6B66">工程手段</text>
+  <text x="920" y="316" font-size="11.5" fill="#33332E">渲染时计算（Quarto -P</text>
+  <text x="920" y="334" font-size="11.5" fill="#33332E">传入真实路径）；尾部固定</text>
+  <text x="920" y="352" font-size="11.5" fill="#33332E">sessionInfo() + 环境快照</text>
+  <text x="920" y="386" font-size="12" font-weight="bold" fill="#6B6B66">失效时排查</text>
+  <text x="920" y="408" font-size="11.5" fill="#33332E">改一个阈值重渲染——</text>
+  <text x="920" y="426" font-size="11.5" fill="#33332E">报告里的数字自己变了吗？</text>
+  <rect x="920" y="520" width="212" height="34" rx="6" fill="#FAFAF7"/>
+  <text x="1026" y="542" font-size="11" fill="#33332E" text-anchor="middle">report.qmd + sessionInfo()</text>
+
+  <!-- ============ 两处最常被漏掉 ============ -->
+  <rect x="48" y="594" width="528" height="74" rx="6" fill="#FAFAF7"/>
+  <rect x="48" y="594" width="4" height="74" rx="2" fill="#F39B7F"/>
+  <text x="66" y="620" font-size="12.5" font-weight="bold" fill="#33332E">最常漏掉 ①：tag 不等于锁定</text>
+  <text x="66" y="644" font-size="11.5" fill="#33332E">同一个 tag 可以被重新 push——</text>
+  <text x="252" y="644" font-size="11.5" fill="#33332E">真正锁定的是 </text>
+  <text x="322" y="644" font-size="11.5" font-weight="bold" fill="#E64B35">@sha256 摘要</text>
+
+  <rect x="624" y="594" width="528" height="74" rx="6" fill="#FAFAF7"/>
+  <rect x="624" y="594" width="4" height="74" rx="2" fill="#F39B7F"/>
+  <text x="642" y="620" font-size="12.5" font-weight="bold" fill="#33332E">最常漏掉 ②：随机性也是代码的一部分</text>
+  <text x="642" y="644" font-size="11.5" fill="#33332E">set.seed() / --seed 不进 config.yaml，等于方法学里没写</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">四层独立失效、互不兜底：四件套缺任何一件，排查其余三层都是白费。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

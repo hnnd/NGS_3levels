@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">应用案例：菲律宾 Xoo 群体监测——比对读出效应子多样化</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">半隔离分岛进化 ｜ 逐株比对回参考 ｜ 覆盖度 / 分裂比对 / 软剪切信号 —— 依据 05_alignment_bam_lecture.md ③3.4 ｜ ⑥6.2–6.6</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="57" font-size="12" fill="#33332E">参考基因组</text>
+  <rect x="1058" y="46" width="12" height="12" fill="#4DBBD5"/>
+  <text x="1078" y="57" font-size="12" fill="#33332E">read</text>
+  <rect x="926" y="68" width="12" height="12" fill="#F39B7F"/>
+  <text x="946" y="79" font-size="12" fill="#33332E">座位 / 软剪切</text>
+  <rect x="1072" y="68" width="12" height="12" fill="#E64B35"/>
+  <text x="1092" y="79" font-size="12" fill="#33332E">易错点</text>
+
+  <!-- ============ 左面板：案例背景 ============ -->
+  <rect x="48" y="120" width="320" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="152" font-size="16" font-weight="bold" fill="#3C5488">菲律宾：天然的观察场</text>
+  <text x="72" y="174" font-size="11.5" fill="#6B6B66">灌溉水流与调种有限 → 半隔离分岛进化</text>
+  <line x1="72" y1="188" x2="344" y2="188" stroke="#E9E9E5"/>
+
+  <!-- 群岛示意 -->
+  <ellipse cx="150" cy="230" rx="52" ry="26" fill="#E4F3EF" stroke="#00A087" stroke-width="1.5"/>
+  <text x="150" y="235" font-size="11.5" fill="#33332E" text-anchor="middle">吕宋</text>
+  <circle cx="118" cy="298" r="13" fill="#EDEFF5" stroke="#8491B4" stroke-width="1.5"/>
+  <circle cx="158" cy="308" r="11" fill="#EDEFF5" stroke="#8491B4" stroke-width="1.5"/>
+  <circle cx="196" cy="296" r="12" fill="#EDEFF5" stroke="#8491B4" stroke-width="1.5"/>
+  <text x="158" y="340" font-size="11.5" fill="#33332E" text-anchor="middle">米沙鄢</text>
+  <ellipse cx="160" cy="388" rx="46" ry="24" fill="#FDEEEA" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="160" y="393" font-size="11.5" fill="#33332E" text-anchor="middle">棉兰老</text>
+  <path d="M 146 258 Q 132 272 122 284" fill="none" stroke="#6B6B66" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <path d="M 156 320 Q 156 336 158 362" fill="none" stroke="#6B6B66" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="252" y="292" font-size="10.5" fill="#6B6B66" text-anchor="middle">岛间基因流</text>
+  <text x="252" y="308" font-size="10.5" fill="#6B6B66" text-anchor="middle">有限（示意）</text>
+
+  <!-- 背景叙述 -->
+  <text x="72" y="448" font-size="12" fill="#33332E">抗 Xa4 品种推广后，当地 Xoo</text>
+  <text x="72" y="470" font-size="12" fill="#33332E">群体发生过整体更替。Quibod</text>
+  <text x="72" y="492" font-size="12" fill="#33332E">et al. 2016（Sci Rep）对各岛</text>
+  <text x="72" y="514" font-size="12" fill="#33332E">分离株全基因组测序、比对回</text>
+  <text x="72" y="536" font-size="12" fill="#33332E">参考，逐株编录 TAL effector</text>
+  <text x="72" y="558" font-size="12" fill="#33332E">（注入水稻细胞、冒充转录因</text>
+  <text x="72" y="580" font-size="12" fill="#33332E">子的毒性蛋白，详见 u07）。</text>
+  <rect x="72" y="600" width="272" height="60" rx="6" fill="#FAFAF7"/>
+  <rect x="72" y="600" width="4" height="60" rx="2" fill="#00A087"/>
+  <text x="88" y="624" font-size="11.5" fill="#33332E">监测的地基正是「比对回参考」</text>
+  <text x="88" y="644" font-size="11.5" fill="#33332E">——本讲能力的真实用武之地</text>
+
+  <!-- ============ 右面板：三类比对信号 ============ -->
+  <rect x="400" y="120" width="752" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="424" y="152" font-size="16" font-weight="bold" fill="#3C5488">比对信号：多样化最先在这里露头</text>
+  <text x="424" y="174" font-size="11.5" fill="#6B6B66">效应子座位的序列差异、拷贝数变化、嵌合重组的最早形式（③3.4）</text>
+  <line x1="424" y1="186" x2="1128" y2="186" stroke="#E9E9E5"/>
+
+  <!-- 参考条 -->
+  <text x="424" y="212" font-size="10.5" fill="#6B6B66">参考基因组</text>
+  <text x="800" y="212" font-size="10.5" fill="#D9785A" text-anchor="middle">TAL effector 座位</text>
+  <rect x="424" y="218" width="704" height="24" rx="4" fill="#3C5488"/>
+  <rect x="700" y="218" width="200" height="24" fill="#F39B7F"/>
+
+  <!-- 信号① 覆盖度 -->
+  <text x="424" y="278" font-size="13" font-weight="bold" fill="#3C5488">① 覆盖度翻倍</text>
+  <text x="424" y="298" font-size="11" fill="#6B6B66">拷贝数变化：局部深度</text>
+  <text x="424" y="316" font-size="11" fill="#6B6B66">≈ 2× 平均（⑥6.5）</text>
+  <polyline points="700,318 750,318 770,266 790,260 810,266 830,318 1100,318" fill="none" stroke="#3C8DAD" stroke-width="2"/>
+  <line x1="700" y1="318" x2="1100" y2="318" stroke="#E9E9E5" stroke-width="1"/>
+  <line x1="790" y1="260" x2="790" y2="248" stroke="#6B6B66" stroke-width="1"/>
+  <text x="790" y="242" font-size="10.5" fill="#33332E" text-anchor="middle">2×</text>
+
+  <!-- 信号② 分裂比对 -->
+  <text x="424" y="368" font-size="13" font-weight="bold" fill="#3C5488">② 分裂比对（supplementary）</text>
+  <text x="424" y="388" font-size="11" fill="#6B6B66">嵌合 / 重组：一条 read</text>
+  <text x="424" y="406" font-size="11" fill="#6B6B66">跨两个位置，FLAG 2048</text>
+  <rect x="700" y="378" width="90" height="18" fill="#4DBBD5"/>
+  <rect x="1010" y="378" width="90" height="18" fill="#4DBBD5"/>
+  <path d="M 790 387 L 860 402 L 1010 402" fill="none" stroke="#3C8DAD" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <text x="935" y="396" font-size="10.5" fill="#3C8DAD" text-anchor="middle">同一条 read 的两段</text>
+
+  <!-- 信号③ 软剪切 -->
+  <text x="424" y="458" font-size="13" font-weight="bold" fill="#3C5488">③ 软剪切聚集</text>
+  <text x="424" y="478" font-size="11" fill="#6B6B66">序列分化 / 接头残留：</text>
+  <text x="424" y="496" font-size="11" fill="#6B6B66">S 集中在同一处（⑥6.6）</text>
+  <rect x="700" y="452" width="24" height="16" fill="#F39B7F"/>
+  <rect x="724" y="452" width="130" height="16" fill="#3C5488"/>
+  <rect x="700" y="474" width="24" height="16" fill="#F39B7F"/>
+  <rect x="724" y="474" width="118" height="16" fill="#3C5488"/>
+  <rect x="700" y="496" width="24" height="16" fill="#F39B7F"/>
+  <rect x="724" y="496" width="126" height="16" fill="#3C5488"/>
+  <rect x="700" y="518" width="24" height="16" fill="#F39B7F"/>
+  <rect x="724" y="518" width="112" height="16" fill="#3C5488"/>
+  <text x="712" y="464" font-size="10" fill="#FFFFFF" text-anchor="middle">S</text>
+  <text x="712" y="486" font-size="10" fill="#FFFFFF" text-anchor="middle">S</text>
+  <text x="712" y="508" font-size="10" fill="#FFFFFF" text-anchor="middle">S</text>
+  <text x="712" y="530" font-size="10" fill="#FFFFFF" text-anchor="middle">S</text>
+  <text x="878" y="490" font-size="10.5" fill="#6B6B66">软剪切段序列保留在 SEQ</text>
+
+  <!-- 红色侦探框 -->
+  <rect x="424" y="556" width="704" height="100" rx="8" fill="#FDF2F0" stroke="#E64B35" stroke-width="1.5"/>
+  <text x="440" y="584" font-size="13" font-weight="bold" fill="#E64B35">侦探题（⑩-4）：一片「覆盖度翻倍 + MAPQ 0 白 read」不一定是 bug</text>
+  <text x="440" y="610" font-size="12" fill="#33332E">用菲律宾监测的眼光看：可能是这株菌真的多了一份拷贝，或参考混入冗余序列。</text>
+  <text x="440" y="634" font-size="12" fill="#33332E">信号靠比对露头，坐实靠 IGV 人工核查（u07）。</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <rect x="48" y="696" width="1104" height="56" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <rect x="48" y="696" width="4" height="56" rx="2" fill="#3C5488"/>
+  <text x="72" y="718" font-size="12.5" fill="#33332E">结论：毒力多样化主要发生在谱系内部，且靶向不同感病基因的 effector 组合并存——单一抗病基因注定难以持久，育种端据此轮换或聚合。</text>
+  <text x="72" y="740" font-size="12.5" fill="#33332E">本课主线 PRJEB100987（西非 Xoo 群体）与该研究同一逻辑；你在 u08 泛基因组分析里会亲手碰到这套数据（③3.4）。</text>
+
+  <!-- ============ 页脚 ============ -->
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<polygon points="60.0,90 700.0,90 630.0,166 130.0,166" fill="#E3E8F2" stroke="#3C5488" stroke-width="5"/>
+<text x="380" y="132" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">1  独立分子</text>
+<polygon points="694.0,108 758.0,120 758.0,144 698.0,158" fill="#F6D8D2" stroke="#E64B35" stroke-width="4"/>
+<line x1="714.0" y1="116" x2="742.0" y2="146" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="742.0" y1="116" x2="714.0" y2="146" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<polygon points="130.0,182 630.0,182 560.0,258 200.0,258" fill="#E3E8F2" stroke="#3C5488" stroke-width="5"/>
+<text x="380" y="224" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">2  质量可靠</text>
+<polygon points="624.0,200 688.0,212 688.0,236 628.0,250" fill="#F6D8D2" stroke="#E64B35" stroke-width="4"/>
+<line x1="644.0" y1="208" x2="672.0" y2="238" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="672.0" y1="208" x2="644.0" y2="238" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<polygon points="200.0,274 560.0,274 490.0,350 270.0,350" fill="#E3E8F2" stroke="#3C5488" stroke-width="5"/>
+<text x="380" y="316" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">3  单倍型合理</text>
+<polygon points="554.0,292 618.0,304 618.0,328 558.0,342" fill="#F6D8D2" stroke="#E64B35" stroke-width="4"/>
+<line x1="574.0" y1="300" x2="602.0" y2="330" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="602.0" y1="300" x2="574.0" y2="330" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<polygon points="270.0,366 490.0,366 440.0,442 320.0,442" fill="#D8EEE9" stroke="#3C5488" stroke-width="5"/>
+<text x="380" y="408" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#00A087" text-anchor="middle" font-weight="bold">4  过滤过线</text>
+<polygon points="484.0,384 548.0,396 548.0,420 488.0,434" fill="#F6D8D2" stroke="#E64B35" stroke-width="4"/>
+<line x1="504.0" y1="392" x2="532.0" y2="422" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="532.0" y1="392" x2="504.0" y2="422" stroke="#E64B35" stroke-width="5" stroke-linecap="butt"/>
+<line x1="380" y1="452" x2="380" y2="512" stroke="#00A087" stroke-width="7" stroke-linecap="round"/>
+<polygon points="380,512 372.6603118449277,495.56439907437846 387.3396881550723,495.56439907437846" fill="#00A087"/>
+<rect x="280" y="514" width="200" height="66" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="5"/>
+<text x="380" y="558" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="36" fill="#00A087" text-anchor="middle" font-weight="bold">PASS</text>
+<rect x="682" y="116" width="96" height="326" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="730" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">假变异</text>
+<text x="730" y="242" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="middle" font-weight="bold">拦截</text>
+<text x="730" y="306" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">任一</text>
+<text x="730" y="342" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">门禁</text>
+<text x="730" y="378" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">破损</text>
+<text x="730" y="414" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">掉落</text>
+<text x="380" y="634" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">MarkDuplicates → 硬过滤兜底 → HC</text>
+<text x="380" y="676" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">→ QD/FS/SOR/MQ/RankSum 双过线</text>
+</svg>

@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">谁在哪切割 DNA：三种调控组技术的机制之辨</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">免疫沉淀 ｜ 抗体引导 pA-Tn5 ｜ 自由 Tn5 转座 —— 依据 05_regulome_lecture.md ④4.1</text>
+  <!-- 图例 -->
+  <rect x="926" y="36" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="46" font-size="12" fill="#33332E">蛋白 / 结构</text>
+  <rect x="926" y="58" width="12" height="12" fill="#4DBBD5"/>
+  <text x="946" y="68" font-size="12" fill="#33332E">DNA / 接头</text>
+  <rect x="926" y="80" width="12" height="12" fill="#00A087"/>
+  <text x="946" y="90" font-size="12" fill="#33332E">开放 / 免抗体</text>
+  <rect x="926" y="102" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="112" font-size="12" fill="#33332E">易错点（仅警示）</text>
+
+  <!-- ============ 面板 A：ChIP-seq ============ -->
+  <rect x="48" y="120" width="352" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="17" font-weight="bold" fill="#3C5488">ChIP-seq · 免疫沉淀</text>
+  <text x="72" y="178" font-size="12.5" fill="#6B6B66">交联 → 打断 → 抗体 IP → 解交联建库</text>
+  <line x1="72" y1="192" x2="376" y2="192" stroke="#E9E9E5"/>
+
+  <text x="72" y="220" font-size="12.5" font-weight="bold" fill="#33332E">靶蛋白结合在特定位点，背景全基因组打断</text>
+
+  <!-- DNA 与核小体 -->
+  <line x1="72" y1="300" x2="376" y2="300" stroke="#4DBBD5" stroke-width="2.5"/>
+  <circle cx="96" cy="300" r="11" fill="#3C5488"/>
+  <circle cx="134" cy="300" r="11" fill="#3C5488"/>
+  <circle cx="172" cy="300" r="11" fill="#3C5488"/>
+  <circle cx="300" cy="300" r="11" fill="#3C5488"/>
+  <circle cx="338" cy="300" r="11" fill="#3C5488"/>
+  <!-- 随机打断记号 -->
+  <line x1="111" y1="295" x2="121" y2="305" stroke="#6B6B66" stroke-width="2"/>
+  <line x1="121" y1="295" x2="111" y2="305" stroke="#6B6B66" stroke-width="2"/>
+  <line x1="189" y1="295" x2="199" y2="305" stroke="#6B6B66" stroke-width="2"/>
+  <line x1="199" y1="295" x2="189" y2="305" stroke="#6B6B66" stroke-width="2"/>
+  <text x="72" y="262" font-size="11" fill="#6B6B66">超声 / MNase 随机打断（与结合无关）</text>
+  <!-- 靶蛋白 TF -->
+  <rect x="216" y="286" width="46" height="28" rx="6" fill="#F39B7F"/>
+  <text x="239" y="305" font-size="12" fill="#33332E" text-anchor="middle">TF</text>
+  <text x="239" y="276" font-size="11" fill="#6B6B66" text-anchor="middle">靶蛋白结合位点</text>
+  <!-- 抗体 Y -->
+  <line x1="229" y1="316" x2="239" y2="338" stroke="#3C5488" stroke-width="3"/>
+  <line x1="249" y1="316" x2="239" y2="338" stroke="#3C5488" stroke-width="3"/>
+  <line x1="239" y1="338" x2="239" y2="356" stroke="#3C5488" stroke-width="3"/>
+  <text x="72" y="384" font-size="11.5" fill="#33332E">特异性抗体把靶复合物捞出来——抗体好坏决定成败</text>
+  <text x="72" y="406" font-size="11.5" fill="#6B6B66">input：同批染色质、不做 IP 的平行库——背景模型的唯一来源</text>
+
+  <!-- 四步 -->
+  <text x="72" y="442" font-size="12" fill="#33332E">① 甲醛交联，固定结合状态</text>
+  <text x="72" y="466" font-size="12" fill="#33332E">② 超声 / MNase 随机打断</text>
+  <text x="72" y="490" font-size="12" fill="#33332E">③ 特定抗体免疫沉淀靶复合物</text>
+  <text x="72" y="514" font-size="12" fill="#33332E">④ 解交联、建库、测序</text>
+
+  <!-- 结论条 -->
+  <rect x="72" y="556" width="304" height="104" rx="6" fill="#FAFAF7"/>
+  <rect x="72" y="556" width="4" height="104" rx="2" fill="#3C5488"/>
+  <text x="88" y="588" font-size="12" fill="#33332E">靶标：特定蛋白（TF / 组蛋白修饰）</text>
+  <text x="88" y="614" font-size="12" fill="#33332E">细胞量 10⁵–10⁷ ｜ 深度 20–50 M</text>
+  <text x="88" y="640" font-size="12" fill="#33332E">对照：input 必需 ｜ 坑：抗体不特异</text>
+
+  <!-- ============ 面板 B：CUT&amp;Tag ============ -->
+  <rect x="424" y="120" width="352" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="448" y="156" font-size="17" font-weight="bold" fill="#3C5488">CUT&amp;Tag · 抗体引导 Tn5</text>
+  <text x="448" y="178" font-size="12.5" fill="#6B6B66">抗体牵 pA-Tn5 就地切割 + 同时加接头</text>
+  <line x1="448" y1="192" x2="752" y2="192" stroke="#E9E9E5"/>
+
+  <text x="448" y="220" font-size="12.5" font-weight="bold" fill="#33332E">切割被抗体限制在靶蛋白旁边</text>
+
+  <!-- DNA 与核小体 -->
+  <line x1="448" y1="300" x2="752" y2="300" stroke="#4DBBD5" stroke-width="2.5"/>
+  <circle cx="468" cy="300" r="11" fill="#3C5488"/>
+  <circle cx="504" cy="300" r="11" fill="#3C5488"/>
+  <circle cx="700" cy="300" r="11" fill="#3C5488"/>
+  <circle cx="736" cy="300" r="11" fill="#3C5488"/>
+  <!-- 两侧切割位点（绿） -->
+  <polygon points="536,306 530,296 542,296" fill="#00A087"/>
+  <polygon points="640,306 634,296 646,296" fill="#00A087"/>
+  <!-- 接头 -->
+  <rect x="524" y="266" width="22" height="10" rx="2" fill="#4DBBD5"/>
+  <rect x="628" y="266" width="22" height="10" rx="2" fill="#4DBBD5"/>
+  <text x="660" y="275" font-size="10.5" fill="#3C8DAD">接头就地加上</text>
+  <!-- 靶蛋白 -->
+  <rect x="556" y="286" width="46" height="28" rx="6" fill="#F39B7F"/>
+  <text x="579" y="305" font-size="12" fill="#33332E" text-anchor="middle">TF</text>
+  <!-- 抗体 + pA-Tn5 -->
+  <line x1="569" y1="316" x2="579" y2="338" stroke="#3C5488" stroke-width="3"/>
+  <line x1="589" y1="316" x2="579" y2="338" stroke="#3C5488" stroke-width="3"/>
+  <line x1="579" y1="338" x2="579" y2="352" stroke="#3C5488" stroke-width="3"/>
+  <line x1="581" y1="350" x2="601" y2="344" stroke="#3C5488" stroke-width="2"/>
+  <circle cx="612" cy="342" r="11" fill="#3C5488"/>
+  <text x="612" y="346" font-size="9" fill="#FFFFFF" text-anchor="middle">Tn5</text>
+  <text x="448" y="384" font-size="11.5" fill="#33332E">切在哪由抗体决定——问的是『靶蛋白在哪』</text>
+  <text x="448" y="406" font-size="11.5" fill="#6B6B66">对照 IgG：同流程换非特异抗体（不含打断与拷贝数梯度）</text>
+
+  <!-- 四步 -->
+  <text x="448" y="442" font-size="12" fill="#33332E">① 抗体结合靶蛋白（特异性同样关键）</text>
+  <text x="448" y="466" font-size="12" fill="#33332E">② pA-Tn5 被牵到靶点旁，就地切割</text>
+  <text x="448" y="490" font-size="12" fill="#33332E">③ 切割与加接头同步完成</text>
+  <text x="448" y="514" font-size="12" fill="#33332E">④ 信噪比高，深度只要 3–8 M</text>
+
+  <!-- 结论条 -->
+  <rect x="448" y="556" width="304" height="104" rx="6" fill="#FAFAF7"/>
+  <rect x="448" y="556" width="4" height="104" rx="2" fill="#3C5488"/>
+  <text x="464" y="588" font-size="12" fill="#33332E">靶标：同 ChIP（TF / 组蛋白修饰）</text>
+  <text x="464" y="614" font-size="12" fill="#33332E">细胞量 10³–10⁴（可到单细胞级）</text>
+  <text x="464" y="640" font-size="12" fill="#33332E">坑：Tn5 偏好开放染色质，低信号易假阳</text>
+
+  <!-- ============ 面板 C：ATAC-seq ============ -->
+  <rect x="800" y="120" width="352" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="824" y="156" font-size="17" font-weight="bold" fill="#3C5488">ATAC-seq · 自由 Tn5 转座</text>
+  <text x="824" y="178" font-size="12.5" fill="#6B6B66">Tn5 只插入无核小体保护的开放区</text>
+  <line x1="824" y1="192" x2="1128" y2="192" stroke="#E9E9E5"/>
+
+  <text x="824" y="220" font-size="12.5" font-weight="bold" fill="#33332E">没有抗体：染色质开不开，决定切不切</text>
+
+  <!-- DNA：关闭区 + 开放区 -->
+  <line x1="824" y1="300" x2="1128" y2="300" stroke="#4DBBD5" stroke-width="2.5"/>
+  <circle cx="848" cy="300" r="11" fill="#3C5488"/>
+  <circle cx="886" cy="300" r="11" fill="#3C5488"/>
+  <circle cx="924" cy="300" r="11" fill="#3C5488"/>
+  <rect x="952" y="282" width="150" height="36" rx="6" fill="#00A087" fill-opacity="0.12"/>
+  <text x="1027" y="256" font-size="11" fill="#00A087" text-anchor="middle">开放区（无核小体保护）</text>
+  <!-- Tn5 插入 -->
+  <circle cx="990" cy="300" r="9" fill="#3C5488"/>
+  <circle cx="1036" cy="300" r="9" fill="#3C5488"/>
+  <circle cx="1078" cy="300" r="9" fill="#3C5488"/>
+  <rect x="981" y="268" width="18" height="9" rx="2" fill="#4DBBD5"/>
+  <rect x="1027" y="268" width="18" height="9" rx="2" fill="#4DBBD5"/>
+  <rect x="1069" y="268" width="18" height="9" rx="2" fill="#4DBBD5"/>
+  <text x="824" y="384" font-size="11.5" fill="#00A087">✓ 不需要抗体——非模式物种上的最大优势</text>
+  <text x="824" y="406" font-size="11.5" fill="#E64B35">线粒体基因组无核小体保护，Tn5 疯狂插入：</text>
+  <text x="824" y="424" font-size="11.5" fill="#E64B35">mtDNA 可占原始读段 20–80%，必须显式过滤</text>
+
+  <!-- 三步 -->
+  <text x="824" y="456" font-size="12" fill="#33332E">① Tn5 自由扩散，遇开放区才插入</text>
+  <text x="824" y="480" font-size="12" fill="#33332E">② 切割与加接头一步完成</text>
+  <text x="824" y="504" font-size="12" fill="#33332E">③ 切在哪由染色质开不开决定——问『哪里开放』</text>
+
+  <!-- 结论条 -->
+  <rect x="824" y="556" width="304" height="104" rx="6" fill="#FAFAF7"/>
+  <rect x="824" y="556" width="4" height="104" rx="2" fill="#3C5488"/>
+  <text x="840" y="588" font-size="12" fill="#33332E">靶标：全基因组可及性，不指定蛋白</text>
+  <text x="840" y="614" font-size="12" fill="#33332E">细胞量 5×10⁴ ｜ 深度 25–50 M</text>
+  <text x="840" y="640" font-size="12" fill="#33332E">对照：无严格对照，blacklist＋IDR 兜底</text>
+
+  <!-- ============ 底部结语与页脚 ============ -->
+  <text x="48" y="728" font-size="15" font-weight="bold" fill="#3C5488">九维表是一条决策链：前三维定「能不能回答问题」，中三维定「做不做得起」，后三维定「会在哪翻车」。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<title>Three-step verification funnel</title>
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="88" y="62" width="660" height="118" fill="#E3E8F2" rx="12" stroke="#3C5488" stroke-width="4"/>
+<rect x="116" y="90.0" width="48.6368" height="62" fill="#3C5488" rx="8"/>
+<text x="140.3184" y="132.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+<text x="178" y="114" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="start" font-weight="bold">self-check</text>
+<text x="178" y="158" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">dim · type · names · order</text>
+<rect x="88" y="198" width="596" height="118" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="6"/>
+<rect x="116" y="226.0" width="48.6368" height="62" fill="#E64B35" rx="8"/>
+<text x="140.3184" y="268.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+<text x="178" y="250" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#E64B35" text-anchor="start" font-weight="bold">regression</text>
+<text x="178" y="294" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">recall · mirror r</text>
+<rect x="88" y="334" width="532" height="118" fill="#E7F5F8" rx="12" stroke="#4DBBD5" stroke-width="4"/>
+<rect x="116" y="362.0" width="48.6368" height="62" fill="#4DBBD5" rx="8"/>
+<text x="140.3184" y="404.2" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="178" y="386" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#4DBBD5" text-anchor="start" font-weight="bold">hand-calc</text>
+<text x="178" y="430" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="start">resultsNames · BH · CPM</text>
+<line x1="760" y1="150" x2="760" y2="470" stroke="#6B6B66" stroke-width="4" stroke-linecap="round"/>
+<polygon points="760,470 755.1068745632851,459.0429327162523 764.8931254367149,459.0429327162523" fill="#6B6B66"/>
+<text x="660" y="268" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="end" font-weight="bold">0/20</text>
+<rect x="32.0" y="486" width="736" height="152" fill="#FFFFFF" rx="14" stroke="#E9E9E5" stroke-width="3"/>
+<text x="400.0" y="526" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">三步验证法：自检查格式，回归测答案，</text>
+<text x="400.0" y="568" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle">手算核中间量。</text>
+<text x="400.0" y="610" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle">第二步抓无症状。</text>
+</svg>

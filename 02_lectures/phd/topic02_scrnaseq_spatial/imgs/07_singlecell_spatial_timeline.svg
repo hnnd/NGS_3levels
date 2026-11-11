@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">单细胞与空间转录组：技术代际时间线（2009–2024）</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">液滴范式 ｜ 空间分辨 ｜ 基础模型 —— 依据 02_scrnaseq_spatial_lecture.md ④4.2 / ④4.8 / ④4.11 / ⑪</text>
+  <!-- 图例 -->
+  <rect x="880" y="46" width="12" height="12" fill="#4DBBD5"/>
+  <text x="898" y="57" font-size="12" fill="#33332E">单细胞转录组路线</text>
+  <rect x="1030" y="46" width="12" height="12" fill="#F39B7F"/>
+  <text x="1048" y="57" font-size="12" fill="#33332E">空间转录组路线</text>
+
+  <!-- ============ 路线 1：单细胞（轴 y=280） ============ -->
+  <line x1="100" y1="280" x2="1110" y2="280" stroke="#4DBBD5" stroke-width="3"/>
+  <polygon points="1122,280 1108,273 1108,287" fill="#4DBBD5"/>
+
+  <!-- 2009（上） -->
+  <rect x="22" y="140" width="196" height="106" rx="10" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="38" y="168" font-size="15" font-weight="bold" fill="#3C8DAD">2009</text>
+  <text x="38" y="192" font-size="12" fill="#33332E">首例单细胞转录组：</text>
+  <text x="38" y="212" font-size="12" fill="#33332E">测一个细胞的全转录组</text>
+  <text x="38" y="232" font-size="12" fill="#33332E">（Tang et al.，小鼠卵裂球）</text>
+  <line x1="120" y1="246" x2="120" y2="272" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="120" cy="280" r="7" fill="#4DBBD5"/>
+
+  <!-- 2015（下） -->
+  <rect x="422" y="314" width="196" height="106" rx="10" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="438" y="342" font-size="15" font-weight="bold" fill="#3C8DAD">2015</text>
+  <text x="438" y="366" font-size="12" fill="#33332E">液滴法范式确立：Drop-seq</text>
+  <text x="438" y="386" font-size="12" fill="#33332E">（Macosko）；Seurat 发表</text>
+  <text x="438" y="406" font-size="12" fill="#33332E">（Satija，本讲流程的起点）</text>
+  <line x1="520" y1="288" x2="520" y2="314" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="520" cy="280" r="7" fill="#4DBBD5"/>
+
+  <!-- 2017（上） -->
+  <rect x="555" y="140" width="196" height="106" rx="10" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="571" y="168" font-size="15" font-weight="bold" fill="#3C8DAD">2017</text>
+  <text x="571" y="192" font-size="12" fill="#33332E">10X Chromium 工程化，</text>
+  <text x="571" y="212" font-size="12" fill="#33332E">细胞捕获率大幅提高</text>
+  <text x="571" y="232" font-size="12" fill="#33332E">（Zheng；⑨-E1 的三件套）</text>
+  <line x1="653" y1="246" x2="653" y2="272" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="653" cy="280" r="7" fill="#4DBBD5"/>
+
+  <!-- 2023–24（下） -->
+  <rect x="992" y="314" width="196" height="106" rx="10" fill="#FFFFFF" stroke="#4DBBD5" stroke-width="1.5"/>
+  <text x="1008" y="342" font-size="15" font-weight="bold" fill="#3C8DAD">2023–24</text>
+  <text x="1008" y="366" font-size="12" fill="#33332E">单细胞基础模型：</text>
+  <text x="1008" y="386" font-size="12" fill="#33332E">Geneformer · scGPT</text>
+  <text x="1008" y="406" font-size="12" font-weight="bold" fill="#E64B35">语料几乎全是人、鼠（§4.11）</text>
+  <line x1="1090" y1="288" x2="1090" y2="314" stroke="#4DBBD5" stroke-width="1.5"/>
+  <circle cx="1090" cy="280" r="7" fill="#4DBBD5"/>
+
+  <!-- ============ 路线 2：空间（轴 y=580） ============ -->
+  <line x1="100" y1="580" x2="1110" y2="580" stroke="#F39B7F" stroke-width="3"/>
+  <polygon points="1122,580 1108,573 1108,587" fill="#F39B7F"/>
+
+  <!-- 2016（上） -->
+  <rect x="489" y="440" width="196" height="106" rx="10" fill="#FFFFFF" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="505" y="468" font-size="15" font-weight="bold" fill="#B45A3C">2016</text>
+  <text x="505" y="492" font-size="12" fill="#33332E">空间转录组范式确立：</text>
+  <text x="505" y="512" font-size="12" fill="#33332E">位置条形码芯片原位捕获</text>
+  <text x="505" y="532" font-size="12" fill="#33332E">（Ståhl；spot ≠ cell，§4.8）</text>
+  <line x1="587" y1="546" x2="587" y2="572" stroke="#F39B7F" stroke-width="1.5"/>
+  <circle cx="587" cy="580" r="7" fill="#F39B7F"/>
+
+  <!-- 2022（下） -->
+  <rect x="889" y="614" width="196" height="106" rx="10" fill="#FFFFFF" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="905" y="642" font-size="15" font-weight="bold" fill="#B45A3C">2022</text>
+  <text x="905" y="666" font-size="12" fill="#33332E">Stereo-seq：DNA 纳球星</text>
+  <text x="905" y="686" font-size="12" fill="#33332E">阵列，亚细胞分辨率大视场</text>
+  <text x="905" y="706" font-size="12" fill="#33332E">（Chen A et al.）</text>
+  <line x1="987" y1="588" x2="987" y2="614" stroke="#F39B7F" stroke-width="1.5"/>
+  <circle cx="987" cy="580" r="7" fill="#F39B7F"/>
+
+  <!-- 2023–24（上） -->
+  <rect x="982" y="440" width="196" height="106" rx="10" fill="#FFFFFF" stroke="#F39B7F" stroke-width="1.5"/>
+  <text x="998" y="468" font-size="15" font-weight="bold" fill="#B45A3C">2023–24</text>
+  <text x="998" y="492" font-size="12" fill="#33332E">Visium HD（2 µm 方格）与</text>
+  <text x="998" y="512" font-size="12" fill="#33332E">靶向成像（Xenium 等）：</text>
+  <text x="998" y="532" font-size="12" fill="#33332E">高分辨、只测预选基因</text>
+  <line x1="1080" y1="546" x2="1080" y2="572" stroke="#F39B7F" stroke-width="1.5"/>
+  <circle cx="1080" cy="580" r="7" fill="#F39B7F"/>
+
+  <!-- 中部连接说明 -->
+  <text x="48" y="126" font-size="12.5" fill="#6B6B66">通量与分辨率两条线在 2023 年前后汇合：探索性问题走全转录组，验证性问题走靶向成像（§4.8 / §4.11）</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="748" font-size="15" font-weight="bold" fill="#3C5488">分辨率在提高、模型在变大——但「观测单位与统计单位」「注释的知识依赖」2026 年仍原样成立。</text>
+  <text x="1152" y="774" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

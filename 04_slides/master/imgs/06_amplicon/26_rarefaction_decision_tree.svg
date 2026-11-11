@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<text x="400" y="54" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#3C5488" text-anchor="middle" font-weight="bold">rarefaction</text>
+<rect x="291.87874999999997" y="98.08" width="216.2425" height="59.84" fill="#E3E8F2" rx="10" stroke="#3C5488" stroke-width="3"/>
+<text x="400" y="138.24" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#3C5488" text-anchor="middle" font-weight="bold">ASV counts</text>
+<line x1="400" y1="152" x2="400" y2="184" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="216" y1="184" x2="584" y2="184" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="216" y1="184" x2="216" y2="212" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<line x1="584" y1="184" x2="584" y2="212" stroke="#3C5488" stroke-width="5" stroke-linecap="butt"/>
+<rect x="44" y="212" width="344" height="424" fill="#FFFFFF" rx="14" stroke="#4DBBD5" stroke-width="4"/>
+<text x="216" y="262" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C8DAD" text-anchor="middle" font-weight="bold">diversity</text>
+<text x="216" y="310" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">Observed · Chao1</text>
+<text x="216" y="352" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">Faith&#x27;s PD</text>
+<text x="216" y="394" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">Jaccard · UniFrac(uw)</text>
+<line x1="70" y1="420" x2="362" y2="420" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<text x="216" y="484" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#33332E" text-anchor="middle" font-weight="bold">种类数必须抽平</text>
+<line x1="70" y1="508" x2="362" y2="508" stroke="#E9E9E5" stroke-width="4" stroke-linecap="butt"/>
+<text x="216" y="560" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">指数可选相对丰度</text>
+<text x="216" y="604" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">Shannon · Simpson</text>
+<rect x="412" y="212" width="344" height="424" fill="#F6D8D2" rx="14" stroke="#E64B35" stroke-width="5"/>
+<text x="584" y="268" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">差异丰度严禁抽平</text>
+<line x1="438" y1="300" x2="730" y2="300" stroke="#F6D8D2" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<text x="584" y="372" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">ANCOM-BC</text>
+<text x="584" y="424" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#3C5488" text-anchor="middle" font-weight="bold">ALDEx2</text>
+<line x1="438" y1="480" x2="730" y2="480" stroke="#F6D8D2" stroke-width="4" stroke-linecap="butt" stroke-dasharray="10 8"/>
+<text x="584" y="552" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">raw counts</text>
+<text x="584" y="596" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="middle">keep variance</text>
+</svg>

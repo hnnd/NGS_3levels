@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<polygon points="100,90 700,90 640,230 160,230" fill="#3C5488"/>
+<text x="400" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">① 覆盖度账：测到了吗</text>
+<text x="685" y="172" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">e^(−C)</text>
+<polygon points="160,250 640,250 580,390 220,390" fill="#3C8DAD"/>
+<text x="400" y="332" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">② 共识账：测对了吗</text>
+<text x="625" y="332" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">Bin(d, ε)</text>
+<polygon points="220,410 580,410 520,550 280,550" fill="#8491B4"/>
+<text x="400" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">③ 换算账：下单多少</text>
+<text x="570" y="492" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">Gb</text>
+<rect x="170" y="592" width="460" height="64" fill="#E64B35" rx="14"/>
+<text x="400" y="636" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">三本账不可顶替</text>
+</svg>

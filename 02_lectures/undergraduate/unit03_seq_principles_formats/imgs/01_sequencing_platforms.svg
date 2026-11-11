@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Noto Sans CJK SC, Noto Sans CJK JP, PingFang SC, sans-serif">
+  <!-- ============ 底与标题 ============ -->
+  <rect width="1200" height="800" fill="#FAFAF7"/>
+  <text x="48" y="64" font-size="26" font-weight="bold" fill="#3C5488">测序怎么“读”出碱基：三条路线对比</text>
+  <text x="48" y="92" font-size="14" fill="#6B6B66">Illumina SBS ｜ PacBio SMRT（HiFi）｜ Oxford Nanopore —— 依据 u03 讲义 ④4.1–4.4</text>
+  <!-- 图例 -->
+  <rect x="926" y="46" width="12" height="12" fill="#3C5488"/>
+  <text x="946" y="57" font-size="12" fill="#33332E">结构 / 主体</text>
+  <rect x="926" y="68" width="12" height="12" fill="#E64B35"/>
+  <text x="946" y="79" font-size="12" fill="#33332E">关键事件 / 易错点</text>
+  <text x="926" y="102" font-size="11.5" fill="#33332E">碱基色编码</text>
+  <rect x="1008" y="91" width="14" height="14" rx="3" fill="#00A087"/>
+  <text x="1015" y="102" font-size="9" fill="#FFFFFF" text-anchor="middle">A</text>
+  <rect x="1028" y="91" width="14" height="14" rx="3" fill="#4DBBD5"/>
+  <text x="1035" y="102" font-size="9" fill="#FFFFFF" text-anchor="middle">C</text>
+  <rect x="1048" y="91" width="14" height="14" rx="3" fill="#F39B7F"/>
+  <text x="1055" y="102" font-size="9" fill="#33332E" text-anchor="middle">G</text>
+  <rect x="1068" y="91" width="14" height="14" rx="3" fill="#8491B4"/>
+  <text x="1075" y="102" font-size="9" fill="#FFFFFF" text-anchor="middle">T</text>
+
+  <!-- ============ 面板 A：Illumina ============ -->
+  <rect x="48" y="120" width="352" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="72" y="156" font-size="17" font-weight="bold" fill="#3C5488">Illumina · 边合成边测序（SBS）</text>
+  <text x="72" y="178" font-size="12.5" fill="#6B6B66">克隆扩增簇 + 可逆终止荧光</text>
+  <line x1="72" y1="192" x2="376" y2="192" stroke="#E9E9E5"/>
+
+  <!-- 循环读序条 -->
+  <text x="72" y="228" font-size="13" font-weight="bold" fill="#33332E">循环读序（示意）</text>
+  <rect x="72"  y="244" width="28" height="28" rx="5" fill="#00A087"/>
+  <text x="86"  y="264" font-size="13" fill="#FFFFFF" text-anchor="middle">A</text>
+  <rect x="108" y="244" width="28" height="28" rx="5" fill="#4DBBD5"/>
+  <text x="122" y="264" font-size="13" fill="#FFFFFF" text-anchor="middle">C</text>
+  <rect x="144" y="244" width="28" height="28" rx="5" fill="#8491B4"/>
+  <text x="158" y="264" font-size="13" fill="#FFFFFF" text-anchor="middle">T</text>
+  <!-- 荧光 rays -->
+  <line x1="158" y1="230" x2="158" y2="238" stroke="#E64B35" stroke-width="2"/>
+  <line x1="158" y1="278" x2="158" y2="286" stroke="#E64B35" stroke-width="2"/>
+  <line x1="138" y1="258" x2="144" y2="258" stroke="#E64B35" stroke-width="2"/>
+  <line x1="172" y1="258" x2="178" y2="258" stroke="#E64B35" stroke-width="2"/>
+  <rect x="180" y="244" width="28" height="28" rx="5" fill="none" stroke="#6B6B66" stroke-dasharray="3 3"/>
+  <text x="194" y="264" font-size="13" fill="#6B6B66" text-anchor="middle">A</text>
+  <text x="216" y="262" font-size="11.5" fill="#6B6B66">已读 / 本轮 / 未读</text>
+
+  <!-- 模板与新链 -->
+  <line x1="90" y1="330" x2="330" y2="330" stroke="#6B6B66" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="90" y="322" font-size="11" fill="#6B6B66">模板链</text>
+  <line x1="90" y1="368" x2="330" y2="368" stroke="#4DBBD5" stroke-width="2.5"/>
+  <text x="90" y="392" font-size="11" fill="#4DBBD5">新合成链</text>
+  <rect x="140" y="348" width="18" height="18" rx="3" fill="#00A087"/>
+  <rect x="180" y="348" width="18" height="18" rx="3" fill="#4DBBD5"/>
+  <rect x="220" y="348" width="18" height="18" rx="3" fill="#8491B4"/>
+  <line x1="229" y1="336" x2="229" y2="343" stroke="#E64B35" stroke-width="2"/>
+  <line x1="229" y1="371" x2="229" y2="378" stroke="#E64B35" stroke-width="2"/>
+  <line x1="212" y1="357" x2="218" y2="357" stroke="#E64B35" stroke-width="2"/>
+  <line x1="240" y1="357" x2="246" y2="357" stroke="#E64B35" stroke-width="2"/>
+  <text x="229" y="414" font-size="11" fill="#E64B35" text-anchor="middle">本轮掺入发光</text>
+
+  <text x="72" y="432" font-size="12.5" fill="#33332E">一轮一碱基：掺入 → 拍荧光 → 切终止子 → 下一轮</text>
+
+  <!-- flowcell 表面 -->
+  <line x1="72" y1="486" x2="376" y2="486" stroke="#6B6B66" stroke-width="2"/>
+  <line x1="100" y1="474" x2="100" y2="486" stroke="#3C5488" stroke-width="2"/>
+  <line x1="140" y1="474" x2="140" y2="486" stroke="#3C5488" stroke-width="2"/>
+  <line x1="180" y1="474" x2="180" y2="486" stroke="#3C5488" stroke-width="2"/>
+  <line x1="220" y1="474" x2="220" y2="486" stroke="#3C5488" stroke-width="2"/>
+  <line x1="260" y1="474" x2="260" y2="486" stroke="#3C5488" stroke-width="2"/>
+  <line x1="300" y1="474" x2="300" y2="486" stroke="#3C5488" stroke-width="2"/>
+  <line x1="340" y1="474" x2="340" y2="486" stroke="#3C5488" stroke-width="2"/>
+  <text x="72" y="508" font-size="11" fill="#6B6B66">flowcell 表面：接头锚定 PCR 克隆簇（放大 millions 倍的同一个片段）</text>
+
+  <!-- 结论条 -->
+  <rect x="72" y="576" width="4" height="88" rx="2" fill="#3C5488"/>
+  <rect x="72" y="576" width="304" height="88" rx="6" fill="#FAFAF7"/>
+  <text x="88"  y="604" font-size="12.5" fill="#33332E">读长：2×150 bp（PE150），末端衰减</text>
+  <text x="88"  y="626" font-size="12.5" fill="#33332E">准确度：≥Q30 碱基占比通常 &gt;85%</text>
+  <text x="88"  y="648" font-size="12.5" fill="#33332E">场景：重测序 · RNA-seq · 高深度变异</text>
+
+  <!-- ============ 面板 B：PacBio ============ -->
+  <rect x="424" y="120" width="352" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="448" y="156" font-size="17" font-weight="bold" fill="#3C5488">PacBio SMRT · 环共识（HiFi）</text>
+  <text x="448" y="178" font-size="12.5" fill="#6B6B66">单分子实时合成 + 绕环重读</text>
+  <line x1="448" y1="192" x2="752" y2="192" stroke="#E9E9E5"/>
+
+  <text x="448" y="232" font-size="12.5" fill="#33332E">聚合酶固定在孔底，dNTP 自然扩散进孔</text>
+
+  <!-- 模板链 -->
+  <line x1="546" y1="262" x2="546" y2="440" stroke="#6B6B66" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="448" y="272" font-size="11" fill="#6B6B66">模板链</text>
+
+  <!-- ZMW 孔 -->
+  <path d="M 470 300 L 470 424 Q 470 440 486 440 L 606 440 Q 622 440 622 424 L 622 300"
+        fill="none" stroke="#3C5488" stroke-width="3"/>
+  <text x="470" y="462" font-size="11" fill="#6B6B66">零模波导孔（ZMW）：只照亮孔底</text>
+
+  <!-- 聚合酶 -->
+  <circle cx="546" cy="420" r="20" fill="#3C5488"/>
+  <text x="546" y="425" font-size="11" fill="#FFFFFF" text-anchor="middle">pol</text>
+
+  <!-- 游离 dNTP 与发光 -->
+  <rect x="492" y="330" width="14" height="14" rx="3" fill="#00A087"/>
+  <rect x="630" y="290" width="14" height="14" rx="3" fill="#F39B7F"/>
+  <path d="M 502 348 Q 512 380 534 404" fill="none" stroke="#4DBBD5" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <line x1="546" y1="386" x2="546" y2="376" stroke="#E64B35" stroke-width="2"/>
+  <line x1="530" y1="402" x2="523" y2="395" stroke="#E64B35" stroke-width="2"/>
+  <line x1="562" y1="402" x2="569" y2="395" stroke="#E64B35" stroke-width="2"/>
+  <text x="578" y="348" font-size="12" fill="#E64B35">掺入瞬间发光</text>
+  <text x="578" y="366" font-size="11" fill="#6B6B66">颜色=碱基</text>
+
+  <!-- CCS 环 -->
+  <circle cx="700" cy="340" r="38" fill="none" stroke="#4DBBD5" stroke-width="2" stroke-dasharray="6 4"/>
+  <polygon points="700,298 707,308 693,308" fill="#4DBBD5"/>
+  <text x="700" y="346" font-size="11" fill="#3C8DAD" text-anchor="middle">环化文库</text>
+  <text x="652" y="404" font-size="11" fill="#33332E">同一段绕环重读 ≥10 圈</text>
+  <text x="652" y="420" font-size="11" fill="#33332E">随机错误多数票 → HiFi</text>
+
+  <text x="448" y="508" font-size="12.5" fill="#33332E">没有“一步一停”，读长天然就长</text>
+
+  <!-- 结论条 -->
+  <rect x="448" y="576" width="4" height="88" rx="2" fill="#3C5488"/>
+  <rect x="448" y="576" width="304" height="88" rx="6" fill="#FAFAF7"/>
+  <text x="464" y="604" font-size="12.5" fill="#33332E">读长：HiFi 15–25 kb（CLR 10–30 kb）</text>
+  <text x="464" y="626" font-size="12.5" fill="#33332E">准确度：HiFi &gt;99.9%，错误随机分布</text>
+  <text x="464" y="648" font-size="12.5" fill="#33332E">场景：完成图组装 · 结构变异 · 全长转录本</text>
+
+  <!-- ============ 面板 C：Nanopore ============ -->
+  <rect x="800" y="120" width="352" height="560" rx="10" fill="#FFFFFF" stroke="#E9E9E5"/>
+  <text x="824" y="156" font-size="17" font-weight="bold" fill="#3C5488">Oxford Nanopore · 纳米孔测序</text>
+  <text x="824" y="178" font-size="12.5" fill="#6B6B66">单链穿孔 + 电流判读</text>
+  <line x1="824" y1="192" x2="1128" y2="192" stroke="#E9E9E5"/>
+
+  <!-- 膜与孔 -->
+  <line x1="824" y1="380" x2="950" y2="380" stroke="#3C5488" stroke-width="2.5"/>
+  <line x1="1006" y1="380" x2="1128" y2="380" stroke="#3C5488" stroke-width="2.5"/>
+  <rect x="950" y="364" width="56" height="32" rx="6" fill="#FAFAF7" stroke="#3C5488" stroke-width="2"/>
+  <text x="824" y="366" font-size="11" fill="#6B6B66">生物膜</text>
+  <text x="1014" y="412" font-size="11" fill="#6B6B66">纳米孔</text>
+
+  <!-- 穿孔单链 -->
+  <path d="M 978 240 L 978 300 L 978 452" fill="none" stroke="#6B6B66" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <polygon points="978,236 971,248 985,248" fill="#6B6B66"/>
+  <polygon points="966,292 990,292 996,304 990,316 966,316 960,304" fill="#4DBBD5"/>
+  <text x="1002" y="298" font-size="11" fill="#3C8DAD">马达蛋白牵链穿孔</text>
+  <text x="824" y="412" font-size="11" fill="#6B6B66">跨膜电压驱动离子电流</text>
+
+  <!-- 电流轨迹 -->
+  <polyline points="824,492 856,470 888,500 920,464 952,486 984,476 1016,490 1040,488 1064,487 1088,488 1112,488 1128,488"
+            fill="none" stroke="#3C5488" stroke-width="2"/>
+  <polyline points="1040,488 1064,487 1088,488 1112,488 1128,488"
+            fill="none" stroke="#E64B35" stroke-width="3.5"/>
+  <text x="824" y="524" font-size="12.5" fill="#33332E">电流波动 → basecalling（神经网络）</text>
+  <text x="824" y="544" font-size="12" fill="#E64B35">红色平台段 = 同聚物区，电流几乎不变，最易读错</text>
+
+  <!-- 结论条 -->
+  <rect x="824" y="576" width="4" height="88" rx="2" fill="#3C5488"/>
+  <rect x="824" y="576" width="304" height="88" rx="6" fill="#FAFAF7"/>
+  <text x="840" y="604" font-size="12.5" fill="#33332E">读长：kb–Mb 级（取决于 DNA 完整度）</text>
+  <text x="840" y="626" font-size="12.5" fill="#33332E">准确度：随化学/模型版本变化，引用须标注</text>
+  <text x="840" y="648" font-size="12.5" fill="#33332E">场景：现场快速鉴定 · 超长跨越 · 甲基化直读</text>
+
+  <!-- ============ 底部结语 ============ -->
+  <text x="48" y="740" font-size="15" font-weight="bold" fill="#3C5488">没有“最好”的平台，只有配得上问题的平台：拼完成图要长读长，海量 SNP 要短读长。</text>
+  <text x="1152" y="766" font-size="11" fill="#6B6B66" text-anchor="end">课程插图 · 多彩生物教学风 · 2026-09</text>
+</svg>

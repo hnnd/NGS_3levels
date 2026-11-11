@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<rect width="800" height="700" fill="#FAFAF7"/>
+
+<rect x="46" y="108" width="200" height="13" fill="#3C5488" rx="3"/>
+<rect x="46" y="126" width="200" height="13" fill="#00A087" rx="3"/>
+<rect x="46" y="144" width="200" height="13" fill="#3C5488" rx="3"/>
+<rect x="46" y="162" width="200" height="13" fill="#E3E8F2" rx="3"/>
+<rect x="46" y="188" width="200" height="13" fill="#3C5488" rx="3"/>
+<rect x="46" y="206" width="200" height="13" fill="#00A087" rx="3"/>
+<rect x="46" y="224" width="200" height="13" fill="#3C5488" rx="3"/>
+<rect x="46" y="242" width="200" height="13" fill="#E3E8F2" rx="3"/>
+<rect x="46" y="268" width="200" height="13" fill="#3C5488" rx="3"/>
+<rect x="46" y="286" width="200" height="13" fill="#00A087" rx="3"/>
+<rect x="46" y="304" width="200" height="13" fill="#3C5488" rx="3"/>
+<rect x="46" y="322" width="200" height="13" fill="#E3E8F2" rx="3"/>
+<rect x="46" y="348" width="200" height="13" fill="#3C5488" rx="3"/>
+<rect x="46" y="366" width="200" height="13" fill="#00A087" rx="3"/>
+<rect x="46" y="384" width="200" height="13" fill="#3C5488" rx="3"/>
+<rect x="46" y="402" width="200" height="13" fill="#E3E8F2" rx="3"/>
+<line x1="258" y1="132.5" x2="274" y2="132.5" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<line x1="258" y1="372.5" x2="274" y2="372.5" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<line x1="274" y1="132.5" x2="274" y2="372.5" stroke="#00A087" stroke-width="4" stroke-linecap="butt"/>
+<text x="290" y="244.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="31" fill="#00A087" text-anchor="start" font-weight="bold">每四行</text>
+<text x="290" y="282.5" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="31" fill="#00A087" text-anchor="start" font-weight="bold">取第二行</text>
+<text x="46" y="448" font-family="DejaVu Sans Mono, Noto Sans Mono CJK SC, monospace" font-size="30" fill="#6B6B66" text-anchor="start">NR % 4 == 2</text>
+<rect x="414" y="100" width="350" height="190" fill="#FFFFFF" rx="12" stroke="#E9E9E5" stroke-width="3"/>
+<text x="430" y="150" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="33" fill="#33332E" text-anchor="start" font-weight="bold">16 ÷ 4 ＝ 4 条，40 bp</text>
+<text x="430" y="200" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#6B6B66" text-anchor="start">40 ÷ 4,000,000</text>
+<text x="430" y="250" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="33" fill="#3C5488" text-anchor="start" font-weight="bold">→ 显示 0.0 X</text>
+<rect x="36" y="478" width="216" height="130" fill="#D8EEE9" rx="12" stroke="#00A087" stroke-width="4"/>
+<text x="144" y="522" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#00A087" text-anchor="middle" font-weight="bold">16</text>
+<text x="144" y="570" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">4 条 40 bp</text>
+<text x="400" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">第 14 行被当序列行</text>
+<rect x="292" y="478" width="216" height="130" fill="#FBE3D8" rx="12" stroke="#F39B7F" stroke-width="4"/>
+<text x="400" y="522" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#F39B7F" text-anchor="middle" font-weight="bold">14</text>
+<text x="400" y="570" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">4 条 40 bp</text>
+<text x="656" y="462" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">截断也 rc=0</text>
+<rect x="548" y="478" width="216" height="130" fill="#F6D8D2" rx="12" stroke="#E64B35" stroke-width="4"/>
+<text x="656" y="522" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="30" fill="#E64B35" text-anchor="middle" font-weight="bold">13</text>
+<text x="656" y="570" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="32" fill="#33332E" text-anchor="middle" font-weight="bold">3 条 30 bp</text>
+<rect x="36" y="634" width="728" height="52" fill="#E64B35" rx="10"/>
+<text x="400" y="670" font-family="Noto Sans CJK SC, PingFang SC, sans-serif" font-size="34" fill="#FFFFFF" text-anchor="middle" font-weight="bold">产物自洽才算对</text>
+</svg>
